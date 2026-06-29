@@ -1,7 +1,5 @@
-
-
 from datetime import datetime
-
+from extractors.logger import logger
 from extractors.nse import download_nse
 from extractors.bse import download_bse
 from extractors.cdsl import download_cdsl
@@ -12,27 +10,29 @@ from extractors.mcx import download_mcx
 
 
 def run(name, function):
-    print("\n" + "=" * 60)
-    print(f"Running {name}")
-    print("=" * 60)
+
+    logger.info("=" * 70)
+    logger.info(f"Running {name}")
+    logger.info("=" * 70)
 
     try:
+
         function()
 
-        print(f"{name} Completed Successfully")
+        logger.info(f"{name} Completed Successfully")
 
-    except Exception as e:
-        print(f"{name} Failed")
-        print(e)
+    except Exception:
+
+        logger.exception(f"{name} Failed")
 
 
 def main():
 
-    print("\n")
-    print("=" * 70)
-    print("PDF AUTOMATION SYSTEM")
-    print(datetime.now().strftime("%d-%m-%Y %H:%M:%S"))
-    print("=" * 70)
+    logger.info("")
+    logger.info("=" * 80)
+    logger.info("PDF AUTOMATION SYSTEM")
+    logger.info(f"Started At : {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}")
+    logger.info("=" * 80)
 
     run("NSE", download_nse)
 
@@ -48,10 +48,11 @@ def main():
 
     run("MCX", download_mcx)
 
-    print("\n")
-    print("=" * 70)
-    print("Automation Finished")
-    print("=" * 70)
+    logger.info("")
+    logger.info("=" * 80)
+    logger.info("AUTOMATION FINISHED")
+    logger.info(f"Finished At : {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}")
+    logger.info("=" * 80)
 
 
 if __name__ == "__main__":

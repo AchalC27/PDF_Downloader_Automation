@@ -5,225 +5,118 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+from .logger import logger
 from .get_download import get_download
-
+from .json_handler import get_json_file, load_downloaded_urls, save_downloaded_urls
 
 URL = "https://www.ckycindia.in/ckyc/?r=notification"
-
 BASE_URL = "https://www.ckycindia.in"
 
-
 HEADERS = {
-
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/137.0.0.0 Safari/537.36"
     ),
-
     "Accept": (
         "text/html,application/xhtml+xml,"
         "application/xml;q=0.9,image/webp,*/*;q=0.8"
     ),
-
     "Accept-Language": "en-US,en;q=0.9"
-
 }
 
-
-ALLOWED_EXTENSIONS = (
-
-    ".pdf",
-    ".doc",
-    ".docx",
-    ".xls",
-    ".xlsx",
-    ".zip",
-    ".csv"
-
-)
+ALLOWED_EXTENSIONS = (".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip", ".csv")
 
 
 def normalize_url(href, base_url):
-
     href = href.strip()
-
     if href.startswith("/"):
-
         href = base_url.rstrip("/") + href
-
-    return urljoin(
-        base_url,
-        href
-    )
+    return urljoin(base_url, href)
 
 
-def generic_document_extractor(
-    html,
-    base_url
-):
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
-    )
-
+def generic_document_extractor(html, base_url):
+    soup = BeautifulSoup(html, "html.parser")
     links = []
-
-    for tag in soup.find_all(
-        "a",
-        href=True
-    ):
-
-        href = tag["href"]
-
-        href = normalize_url(
-            href,
-            base_url
-        )
-
-        if not href.lower().endswith(
-            ALLOWED_EXTENSIONS
-        ):
-            continue
-
-        links.append(href)
-
-    return list(
-        dict.fromkeys(
-            links
-        )
-    )
+    for tag in soup.find_all("a", href=True):
+        href = normalize_url(tag["href"], base_url)
+        if href.lower().endswith(ALLOWED_EXTENSIONS):
+            links.append(href)
+    return list(dict.fromkeys(links))
 
 
-def extract_ckyc(
-    html,
-    base_url
-):
-
-    print("Running CKYC extractor...")
-
-    return generic_document_extractor(
-        html,
-        base_url
-    )
+def extract_ckyc(html, base_url):
+    logger.info("Running CKYC extractor...")
+    return generic_document_extractor(html, base_url)
 
 
 def fetch_html():
-
-    response = requests.get(
-        URL,
-        headers=HEADERS,
-        timeout=30
-    )
-
+    response = requests.get(URL, headers=HEADERS, timeout=30)
     response.raise_for_status()
-
     return response.text
 
 
 def generate_filename(document_url):
-
     original_filename = document_url.split("/")[-1]
-
-    url_hash = hashlib.md5(
-        document_url.encode("utf-8")
-    ).hexdigest()[:8]
-
-    base, ext = os.path.splitext(
-        original_filename
-    )
-
+    url_hash = hashlib.md5(document_url.encode("utf-8")).hexdigest()[:8]
+    base, ext = os.path.splitext(original_filename)
     return f"{base}_{url_hash}{ext}"
 
 
-def download_documents(
-    document_links,
-    download_folder
-):
-
+def download_documents(document_links, download_folder, processed_urls):
     downloaded = 0
-    skipped = 0
+    failed = 0
 
     for document_url in document_links:
-
-        filename = generate_filename(
-            document_url
-        )
-
-        filepath = os.path.join(
-            download_folder,
-            filename
-        )
-
-        if os.path.exists(filepath):
-
-            print(f"[EXISTS] {filename}")
-
-            skipped += 1
-
-            continue
+        filename = generate_filename(document_url)
+        filepath = os.path.join(download_folder, filename)
 
         try:
-
-            print(f"Downloading : {filename}")
-
-            response = requests.get(
-                document_url,
-                headers=HEADERS,
-                timeout=60
-            )
-
+            logger.info(f"Downloading : {filename}")
+            response = requests.get(document_url, headers=HEADERS, timeout=60)
             response.raise_for_status()
-
             with open(filepath, "wb") as file:
-
-                file.write(
-                    response.content
-                )
-
+                file.write(response.content)
             downloaded += 1
+        except Exception:
+            logger.exception(f"Failed : {filename}")
+            failed += 1
+        finally:
+            processed_urls.add(document_url)
 
-        except Exception as e:
-
-            print(f"Failed : {filename}")
-
-            print(e)
-
-    print("\nCKYC Summary")
-    print("------------------------")
-    print(f"Downloaded : {downloaded}")
-    print(f"Skipped    : {skipped}")
+    return downloaded, failed
 
 
 def download_ckyc():
+    logger.info("")
+    logger.info("========== CKYC ==========")
 
-    print("\n========== CKYC ==========")
+    download_folder = get_download("ckyc")
+    json_file = get_json_file("ckyc")
+    processed_urls = load_downloaded_urls(json_file)
 
     html = fetch_html()
+    document_links = extract_ckyc(html, BASE_URL)
 
-    document_links = extract_ckyc(
-        html,
-        BASE_URL
-    )
+    total = len(document_links)
+    new_documents = [url for url in document_links if url not in processed_urls]
+    already_processed = total - len(new_documents)
 
-    print(
-        f"Found {len(document_links)} document(s)"
-    )
+    logger.info(f"Total Documents Found : {total}")
+    logger.info(f"Already Processed     : {already_processed}")
 
-    if not document_links:
-
-        print("No documents found.")
-
+    if not new_documents:
+        logger.info("No new documents found.")
         return
 
-    download_folder = get_download(
-        "ckyc"
-    )
+    downloaded, failed = download_documents(new_documents, download_folder, processed_urls)
 
-    download_documents(
-        document_links,
-        download_folder
-    )
+    save_downloaded_urls(json_file, processed_urls)
 
-    print("CKYC Completed.")
+    logger.info("")
+    logger.info("CKYC Summary")
+    logger.info("-------------------------")
+    logger.info(f"Total Documents Found : {total}")
+    logger.info(f"Already Processed     : {already_processed}")
+    logger.info(f"Downloaded            : {downloaded}")
+    logger.info(f"Failed                : {failed}")
