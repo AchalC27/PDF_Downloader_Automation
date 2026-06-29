@@ -29,10 +29,7 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9"
 
 }
-
-
 ALLOWED_EXTENSIONS = (
-
     ".pdf",
     ".doc",
     ".docx",
@@ -40,7 +37,6 @@ ALLOWED_EXTENSIONS = (
     ".xlsx",
     ".zip",
     ".csv"
-
 )
 
 
