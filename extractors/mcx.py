@@ -1,0 +1,200 @@
+import os
+import re
+import time
+import requests
+from datetime import date, datetime
+
+from .get_download import get_download
+
+DELAY = 0.5
+
+API_URL = "https://www.mcxindia.com/circulars/all-circulars/GetFilteredAnnouncements"
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Referer": "https://www.mcxindia.com/circulars/all-circulars",
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "X-Requested-With": "XMLHttpRequest",
+}
+
+DATE_FORMATS = [
+    "%d-%m-%Y",
+]
+
+def parse_date(text):
+    text = text.strip()
+
+    for fmt in DATE_FORMATS:
+        try:
+            return datetime.strptime(text, fmt).strftime("%d/%m/%Y")
+        except ValueError:
+            pass
+
+    raise ValueError(
+        f"Invalid date: {text}\n"
+        "Accepted formats: DD/MM/YYYY, DD-MM-YYYY, YYYY-MM-DD, 26 Jun 2026"
+    )
+
+
+def fetch_all_pages(from_date, to_date, category="", title="", circular_no=""):
+
+    session = requests.Session()
+    session.headers.update(HEADERS)
+
+    seen = set()
+    circulars = []
+    page = 1
+
+    while True:
+
+        params = {
+            "CircularTitle": title,
+            "CircularsCategory": category,
+            "CircularNo": circular_no,
+            "fromdate": from_date,
+            "todate": to_date,
+            "page": page,
+        }
+
+        print(f"Fetching page {page}...")
+
+        response = session.get(
+            API_URL,
+            params=params,
+            timeout=30
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+        if not data.get("success"):
+            break
+
+        total_pages = data.get("TotalPages", 1)
+        total_items = data.get("TotalItems", 0)
+
+        if page == 1 and data.get("AllResult"):
+            items = data["AllResult"]
+            use_all = True
+        else:
+            items = data.get("Announcements") or []
+            use_all = False
+
+        added = 0
+
+        for item in items:
+
+            number = item.get("CircularNo", "")
+
+            if number not in seen:
+
+                seen.add(number)
+                circulars.append(item)
+                added += 1
+
+        print(f"Page {page}/{total_pages} - {added} new item(s)")
+
+        if (use_all and len(circulars) >= total_items) or page >= total_pages:
+            break
+
+        page += 1
+
+    return circulars
+
+
+def clean_filename(name):
+    return re.sub(r'[\\/*?:"<>|]', "_", name).strip()
+
+
+def download_pdfs(circulars, output_dir, redownload=False):
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    session = requests.Session()
+    session.headers.update(HEADERS)
+
+    downloaded = 0
+    skipped = 0
+    failed = 0
+
+    for item in circulars:
+
+        pdf_url = item.get("CircularFile", "").strip()
+
+        if not pdf_url:
+            skipped += 1
+            continue
+
+        filename = (
+            f"{item.get('DisplayDate','').replace(' ','-')}_"
+            f"No{item.get('CircularNo','unknown')}_"
+            f"{item.get('CircularsCategory','')}_"
+            f"{clean_filename(item.get('Title','untitled'))}.pdf"
+        )
+
+        filepath = os.path.join(output_dir, filename)
+
+        if os.path.exists(filepath) and not redownload:
+
+            print(f"[EXISTS] {filename}")
+            skipped += 1
+            continue
+
+        try:
+
+            response = session.get(pdf_url, timeout=30)
+            response.raise_for_status()
+
+            with open(filepath, "wb") as f:
+                f.write(response.content)
+
+            print(f"[OK] {filename}")
+
+            downloaded += 1
+
+            time.sleep(DELAY)
+
+        except Exception as e:
+
+            print(f"[FAIL] {filename} - {e}")
+
+            failed += 1
+
+    print(f"\nDownloaded: {downloaded}")
+    print(f"Skipped: {skipped}")
+    print(f"Failed: {failed}")
+
+
+def download_mcx():
+
+    print("\n========== MCX ==========")
+
+    today = date.today().strftime("%d/%m/%Y")
+
+    from_date = today
+    to_date = today
+
+    output_dir = get_download("mcx")
+
+    print(f"Date: {from_date} -> {to_date}")
+    print("Category: All")
+
+    circulars = fetch_all_pages(
+        from_date=from_date,
+        to_date=to_date
+    )
+
+    print(f"Found {len(circulars)} circular(s)")
+
+    if circulars:
+
+        download_pdfs(
+            circulars=circulars,
+            output_dir=output_dir,
+            redownload=False
+        )
+
+    else:
+
+        print("No circulars found.")
