@@ -1,5 +1,12 @@
+
+import argparse
+import schedule
+import time
 from datetime import datetime
-from extractors.logger import logger
+
+from extractors.logger import get_logger
+from extractors.config import BASE_DOWNLOAD_DIR, SCHEDULE_TIME
+
 from extractors.nse import download_nse
 from extractors.bse import download_bse
 from extractors.cdsl import download_cdsl
@@ -7,53 +14,121 @@ from extractors.amfi import download_amfi
 from extractors.arcl import download_arcl
 from extractors.ckyc import download_ckyc
 from extractors.mcx import download_mcx
+from extractors.apmi import scrape_apmi
+from extractors.pfrda import scrape_pfrda
+from extractors.nsdl import scrape_nsdl
+from extractors.sebi import scrape_sebi
+from extractors.irdai import scrape_irdai
 
 
-def run(name, function):
+logger = get_logger("master")
 
-    logger.info("=" * 70)
-    logger.info(f"Running {name}")
-    logger.info("=" * 70)
+
+WEBSITES = [
+
+    ("NSE", download_nse),
+    ("BSE", download_bse),
+    ("CDSL", download_cdsl),
+    ("AMFI", download_amfi),
+    ("ARCL", download_arcl),
+    ("CKYC", download_ckyc),
+    ("MCX", download_mcx),
+
+    ("APMI", scrape_apmi),
+    ("PFRDA", scrape_pfrda),
+    ("NSDL", scrape_nsdl),
+    ("SEBI", scrape_sebi),
+    ("IRDAI", scrape_irdai),
+
+]
+
+
+def run_website(name, function):
+
+    logger.info("─" * 60)
+    logger.info("Running %s", name)
 
     try:
 
         function()
 
-        logger.info(f"{name} Completed Successfully")
+        logger.info("%s Completed Successfully", name)
 
     except Exception:
 
-        logger.exception(f"{name} Failed")
+        logger.exception("%s Failed", name)
+
+
+def run_once():
+
+    start = datetime.now()
+
+    logger.info("═" * 60)
+    logger.info(
+        "Scraping run started at %s",
+        start.strftime("%Y-%m-%d %H:%M:%S")
+    )
+    logger.info("═" * 60)
+
+    for name, function in WEBSITES:
+
+        run_website(name, function)
+
+    elapsed = (datetime.now() - start).total_seconds()
+
+    logger.info("─" * 60)
+    logger.info("Summary")
+    logger.info("")
+    logger.info(
+        "Run completed in %.1f seconds",
+        elapsed
+    )
+    logger.info(
+        "Downloads saved under: %s",
+        BASE_DOWNLOAD_DIR.resolve()
+    )
+    logger.info("═" * 60)
+    logger.info("")
 
 
 def main():
 
-    logger.info("")
-    logger.info("=" * 80)
-    logger.info("PDF AUTOMATION SYSTEM")
-    logger.info(f"Started At : {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}")
-    logger.info("=" * 80)
+    parser = argparse.ArgumentParser(
+        description="PDF Downloader Automation"
+    )
 
-    run("NSE", download_nse)
+    parser.add_argument(
+        "--loop",
+        action="store_true",
+        help=f"Run every day at {SCHEDULE_TIME}"
+    )
 
-    run("BSE", download_bse)
+    args = parser.parse_args()
 
-    run("CDSL", download_cdsl)
+    if args.loop:
 
-    run("AMFI", download_amfi)
+        logger.info(
+            "Scheduler started at %s",
+            SCHEDULE_TIME
+        )
 
-    run("ARCL", download_arcl)
+        run_once()
 
-    run("CKYC", download_ckyc)
+        schedule.every().day.at(
+            SCHEDULE_TIME
+        ).do(run_once)
 
-    run("MCX", download_mcx)
+        while True:
 
-    logger.info("")
-    logger.info("=" * 80)
-    logger.info("AUTOMATION FINISHED")
-    logger.info(f"Finished At : {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}")
-    logger.info("=" * 80)
+            schedule.run_pending()
+
+            time.sleep(60)
+
+    else:
+
+        run_once()
 
 
 if __name__ == "__main__":
     main()
+

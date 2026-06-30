@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 
-JSON_FOLDER = Path("json")
+JSON_FOLDER = Path("seen")
 
 JSON_FOLDER.mkdir(
     parents=True,

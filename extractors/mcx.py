@@ -1,10 +1,19 @@
-import os
+
 import re
 import time
-import requests
 from datetime import date, datetime
 
+import requests
+
+from .logger import get_logger
 from .get_download import get_download
+from .json_handler import (
+    get_json_file,
+    load_downloaded_urls,
+    save_downloaded_urls,
+)
+
+logger = get_logger("mcx")
 
 DELAY = 0.5
 
@@ -21,42 +30,59 @@ DATE_FORMATS = [
     "%d-%m-%Y",
 ]
 
+
 def parse_date(text):
+
     text = text.strip()
 
     for fmt in DATE_FORMATS:
+
         try:
-            return datetime.strptime(text, fmt).strftime("%d/%m/%Y")
+
+            return datetime.strptime(
+                text,
+                fmt
+            ).strftime("%d/%m/%Y")
+
         except ValueError:
+
             pass
 
-    raise ValueError(
-        f"Invalid date: {text}\n"
-        "Accepted formats: DD/MM/YYYY, DD-MM-YYYY, YYYY-MM-DD, 26 Jun 2026"
-    )
+    raise ValueError(f"Invalid date : {text}")
 
 
-def fetch_all_pages(from_date, to_date, category="", title="", circular_no=""):
+def fetch_all_pages(
+    from_date,
+    to_date,
+    category="",
+    title="",
+    circular_no=""
+):
 
     session = requests.Session()
+
     session.headers.update(HEADERS)
 
     seen = set()
+
     circulars = []
+
     page = 1
 
     while True:
 
         params = {
+
             "CircularTitle": title,
             "CircularsCategory": category,
             "CircularNo": circular_no,
             "fromdate": from_date,
             "todate": to_date,
             "page": page,
+
         }
 
-        print(f"Fetching page {page}...")
+        logger.info(f"Fetching page {page}")
 
         response = session.get(
             API_URL,
@@ -69,33 +95,47 @@ def fetch_all_pages(from_date, to_date, category="", title="", circular_no=""):
         data = response.json()
 
         if not data.get("success"):
+
             break
 
         total_pages = data.get("TotalPages", 1)
+
         total_items = data.get("TotalItems", 0)
 
         if page == 1 and data.get("AllResult"):
-            items = data["AllResult"]
-            use_all = True
-        else:
-            items = data.get("Announcements") or []
-            use_all = False
 
-        added = 0
+            items = data["AllResult"]
+
+            use_all = True
+
+        else:
+
+            items = data.get("Announcements") or []
+
+            use_all = False
 
         for item in items:
 
-            number = item.get("CircularNo", "")
+            number = item.get(
+                "CircularNo",
+                ""
+            )
 
             if number not in seen:
 
                 seen.add(number)
+
                 circulars.append(item)
-                added += 1
 
-        print(f"Page {page}/{total_pages} - {added} new item(s)")
+        logger.info(
+            f"Page {page}/{total_pages}"
+        )
 
-        if (use_all and len(circulars) >= total_items) or page >= total_pages:
+        if (
+            use_all
+            and len(circulars) >= total_items
+        ) or page >= total_pages:
+
             break
 
         page += 1
@@ -104,97 +144,186 @@ def fetch_all_pages(from_date, to_date, category="", title="", circular_no=""):
 
 
 def clean_filename(name):
-    return re.sub(r'[\\/*?:"<>|]', "_", name).strip()
+
+    return re.sub(
+        r'[\\/*?:"<>|]',
+        "_",
+        name
+    ).strip()
 
 
-def download_pdfs(circulars, output_dir, redownload=False):
-
-    os.makedirs(output_dir, exist_ok=True)
+def download_pdfs(
+    circulars,
+    output_dir,
+    processed_urls
+):
 
     session = requests.Session()
+
     session.headers.update(HEADERS)
 
     downloaded = 0
-    skipped = 0
+
     failed = 0
 
     for item in circulars:
 
-        pdf_url = item.get("CircularFile", "").strip()
+        pdf_url = item.get(
+            "CircularFile",
+            ""
+        ).strip()
 
         if not pdf_url:
-            skipped += 1
+
             continue
 
         filename = (
+
             f"{item.get('DisplayDate','').replace(' ','-')}_"
+
             f"No{item.get('CircularNo','unknown')}_"
+
             f"{item.get('CircularsCategory','')}_"
+
             f"{clean_filename(item.get('Title','untitled'))}.pdf"
+
         )
 
-        filepath = os.path.join(output_dir, filename)
-
-        if os.path.exists(filepath) and not redownload:
-
-            print(f"[EXISTS] {filename}")
-            skipped += 1
-            continue
+        filepath = output_dir / filename
 
         try:
 
-            response = session.get(pdf_url, timeout=30)
+            logger.info(
+                f"Downloading : {filename}"
+            )
+
+            response = session.get(
+                pdf_url,
+                timeout=30
+            )
+
             response.raise_for_status()
 
-            with open(filepath, "wb") as f:
-                f.write(response.content)
+            with open(
+                filepath,
+                "wb"
+            ) as file:
 
-            print(f"[OK] {filename}")
+                file.write(
+                    response.content
+                )
 
             downloaded += 1
 
             time.sleep(DELAY)
 
-        except Exception as e:
-
-            print(f"[FAIL] {filename} - {e}")
+        except Exception:
 
             failed += 1
 
-    print(f"\nDownloaded: {downloaded}")
-    print(f"Skipped: {skipped}")
-    print(f"Failed: {failed}")
+            logger.exception(
+                f"Failed : {filename}"
+            )
+
+        finally:
+
+            processed_urls.add(
+                pdf_url
+            )
+
+    return downloaded, failed
 
 
 def download_mcx():
 
-    print("\n========== MCX ==========")
+    logger.info("")
+    logger.info("========== MCX ==========")
 
     today = date.today().strftime("%d/%m/%Y")
 
-    from_date = today
-    to_date = today
-
     output_dir = get_download("mcx")
 
-    print(f"Date: {from_date} -> {to_date}")
-    print("Category: All")
+    json_file = get_json_file("mcx")
 
-    circulars = fetch_all_pages(
-        from_date=from_date,
-        to_date=to_date
+    processed_urls = load_downloaded_urls(
+        json_file
     )
 
-    print(f"Found {len(circulars)} circular(s)")
+    circulars = fetch_all_pages(
+        from_date=today,
+        to_date=today
+    )
 
-    if circulars:
+    total = len(circulars)
 
-        download_pdfs(
-            circulars=circulars,
-            output_dir=output_dir,
-            redownload=False
+    logger.info(
+        f"Total Circulars Found : {total}"
+    )
+
+    new_circulars = [
+
+        item
+
+        for item in circulars
+
+        if item.get(
+            "CircularFile",
+            ""
+        ).strip() not in processed_urls
+
+    ]
+
+    already_processed = (
+        total - len(new_circulars)
+    )
+
+    logger.info(
+        f"Already Processed     : {already_processed}"
+    )
+
+    if not new_circulars:
+
+        logger.info(
+            "No new circulars found."
         )
 
-    else:
+        return
 
-        print("No circulars found.")
+    try:
+
+        downloaded, failed = download_pdfs(
+
+            new_circulars,
+
+            output_dir,
+
+            processed_urls
+
+        )
+
+    finally:
+
+        save_downloaded_urls(
+
+            json_file,
+
+            processed_urls
+
+        )
+
+    logger.info("")
+    logger.info("MCX Summary")
+    logger.info("-------------------------")
+    logger.info(
+        f"Total Circulars Found : {total}"
+    )
+    logger.info(
+        f"Already Processed     : {already_processed}"
+    )
+    logger.info(
+        f"Downloaded            : {downloaded}"
+    )
+    logger.info(
+        f"Failed                : {failed}"
+    )
+

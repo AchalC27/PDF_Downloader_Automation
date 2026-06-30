@@ -1,0 +1,13 @@
+2026-06-29 16:06:09,382 INFO     ════════════════════════════════════════
+2026-06-29 16:06:09,384 INFO     Scraping run started at 2026-06-29 16:06:09
+2026-06-29 16:17:01,509 INFO     ────────────────────────────────────────
+2026-06-29 16:17:01,510 INFO     Summary:
+2026-06-29 16:17:01,510 INFO       APMI    found=117  new_downloads=116
+2026-06-29 16:17:01,510 INFO       PFRDA   found=30  new_downloads=30
+2026-06-29 16:17:01,510 INFO       NSDL    found=342  new_downloads=334
+2026-06-29 16:17:01,511 INFO       SEBI    found=25  new_downloads=25
+2026-06-29 16:17:01,511 INFO       IRDAI   found=20  new_downloads=20
+2026-06-29 16:17:01,511 INFO     Run completed in 652.1 seconds
+2026-06-29 16:17:01,511 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-29 16:17:01,512 INFO     ════════════════════════════════════════
+

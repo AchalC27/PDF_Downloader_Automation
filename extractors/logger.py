@@ -9,25 +9,40 @@ LOG_FOLDER.mkdir(
     exist_ok=True
 )
 
-LOG_FILE = LOG_FOLDER / "automation.log"
+
+FORMAT = "%(asctime)s %(levelname)-8s %(message)s"
 
 
-logging.basicConfig(
+def get_logger(name):
 
-    level=logging.INFO,
+    logger = logging.getLogger(name)
 
-    format="%(asctime)s | %(levelname)-8s | %(message)s",
+    if logger.handlers:
+        return logger
 
-    handlers=[
+    logger.setLevel(logging.INFO)
 
-        logging.FileHandler(
-            LOG_FILE,
-            encoding="utf-8"
-        ),
+    formatter = logging.Formatter(FORMAT)
 
-        logging.StreamHandler()
+    logfile = LOG_FOLDER / f"{name.lower()}.log"
 
-    ]
-)
+    file_handler = logging.FileHandler(
+        logfile,
+        encoding="utf-8"
+    )
 
-logger = logging.getLogger("PDF_Automation")
+    file_handler.setFormatter(formatter)
+
+    console_handler = logging.StreamHandler()
+
+    console_handler.setFormatter(formatter)
+
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+
+    logger.propagate = False
+
+    return logger
+
+
+master_logger = get_logger("master")

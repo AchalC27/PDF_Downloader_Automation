@@ -1,8 +1,19 @@
 import re
 from datetime import datetime
 from urllib.parse import unquote
+
 import requests
+
+from .logger import get_logger
 from .get_download import get_download
+from .json_handler import (
+    get_json_file,
+    load_downloaded_urls,
+    save_downloaded_urls,
+)
+
+logger = get_logger("cdsl")
+
 BASE_URL = "https://www.cdslindia.com"
 
 PAGE_URL = f"{BASE_URL}/eservices/Publications/Communique"
@@ -10,8 +21,8 @@ PAGE_URL = f"{BASE_URL}/eservices/Publications/Communique"
 API_URL = f"{BASE_URL}/eservices/Publications/GetOnLoadCommunique"
 
 DOWNLOAD_URL = f"{BASE_URL}/eservices/Publications/DownloadFile"
-HEADERS = {
 
+HEADERS = {
     "User-Agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
 
@@ -19,8 +30,9 @@ HEADERS = {
         "XMLHttpRequest",
 
     "Referer":
-        PAGE_URL
+        PAGE_URL,
 }
+
 SEARCH_PROFILES = [
 
     {
@@ -36,7 +48,7 @@ SEARCH_PROFILES = [
             "Keyword": "%",
             "Subject": "%",
             "GCaptcha": "%",
-        }
+        },
     },
 
     {
@@ -52,10 +64,13 @@ SEARCH_PROFILES = [
             "Keyword": "%",
             "Subject": "%",
             "GCaptcha": "%",
-        }
-    }
+        },
+    },
 ]
+
 DATE_FORMAT = "%d-%b-%Y"
+
+
 def fetch_communiques(session):
 
     items = []
@@ -65,7 +80,7 @@ def fetch_communiques(session):
         response = session.post(
             API_URL,
             data=profile["payload"],
-            timeout=30
+            timeout=30,
         )
 
         response.raise_for_status()
@@ -95,8 +110,7 @@ def fetch_communiques(session):
                     row.get("attachmenT_URL", ""),
 
                 "label":
-                    profile["label"]
-
+                    profile["label"],
             })
 
     return items
@@ -108,9 +122,10 @@ def get_filename(response, item):
         "Content-Disposition",
         ""
     )
+
     match = re.search(
         r'filename\*?=(?:UTF-8\'\')?"?([^";]+)"?',
-        content
+        content,
     )
 
     if match:
@@ -120,7 +135,9 @@ def get_filename(response, item):
             .replace("\\", "/")
             .split("/")[-1]
         )
+
     if item["attachment"]:
+
         return (
             unquote(item["attachment"])
             .replace("\\", "/")
@@ -141,51 +158,53 @@ def download_file(session, item, folder):
     response = session.get(
         url,
         stream=True,
-        timeout=60
+        timeout=60,
     )
 
     response.raise_for_status()
 
     filename = re.sub(
-        r'[<>:"/\\|?*]',
+        r'[<>:"/\\\\|?*]',
         "_",
-        get_filename(response, item)
+        get_filename(response, item),
     )
 
     filepath = folder / filename
 
-    if filepath.exists():
-
-        print(f"Already Exists : {filename}")
-
-        return False
-
-    with open(filepath, "wb") as f:
+    with open(filepath, "wb") as file:
 
         for chunk in response.iter_content(8192):
 
             if chunk:
 
-                f.write(chunk)
+                file.write(chunk)
 
-    print(f"Downloaded : {filename}")
-
-    return True
+    return filename
 
 
 def download_cdsl():
 
-    print("\n========== CDSL ==========")
+    logger.info("")
+    logger.info("========== CDSL ==========")
 
     folder = get_download("cdsl")
+
+    json_file = get_json_file("cdsl")
+
+    processed_urls = load_downloaded_urls(
+        json_file
+    )
 
     session = requests.Session()
 
     session.headers.update(HEADERS)
 
     try:
+
         session.get(PAGE_URL, timeout=20)
+
     except Exception:
+
         pass
 
     items = fetch_communiques(session)
@@ -202,36 +221,91 @@ def download_cdsl():
 
     ]
 
-    print(f"Found {len(items)} communique(s)")
+    total = len(items)
+
+    logger.info(
+        f"Total Communiques Found : {total}"
+    )
+
+    new_items = [
+
+        item
+
+        for item in items
+
+        if item["id"] not in processed_urls
+
+    ]
+
+    already_processed = total - len(new_items)
+
+    logger.info(
+        f"Already Processed       : {already_processed}"
+    )
+
+    if not new_items:
+
+        logger.info(
+            "No new communiques found."
+        )
+
+        return
 
     downloaded = 0
+    failed = 0
 
-    skipped = 0
+    try:
 
-    for item in items:
+        for item in new_items:
 
-        try:
+            try:
 
-            if download_file(
-                session,
-                item,
-                folder
-            ):
+                filename = download_file(
+                    session,
+                    item,
+                    folder,
+                )
+
+                logger.info(
+                    f"Downloaded : {filename}"
+                )
 
                 downloaded += 1
 
-            else:
+            except Exception:
 
-                skipped += 1
+                failed += 1
 
-        except Exception as e:
+                logger.exception(
+                    f"Failed : {item['id']}"
+                )
 
-            skipped += 1
+            finally:
 
-            print(e)
+                processed_urls.add(
+                    item["id"]
+                )
 
-    print("\nCDSL Summary")
-    print("----------------------")
-    print(f"Downloaded : {downloaded}")
-    print(f"Skipped    : {skipped}")
-    print(f"Folder     : {folder}")
+    finally:
+
+        save_downloaded_urls(
+            json_file,
+            processed_urls,
+        )
+
+    logger.info("")
+    logger.info("CDSL Summary")
+    logger.info("-------------------------")
+    logger.info(
+        f"Total Communiques Found : {total}"
+    )
+    logger.info(
+        f"Already Processed       : {already_processed}"
+    )
+    logger.info(
+        f"Downloaded              : {downloaded}"
+    )
+    logger.info(
+        f"Failed                  : {failed}"
+    )
+

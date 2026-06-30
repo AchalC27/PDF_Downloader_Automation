@@ -5,10 +5,10 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from .logger import logger
+from .logger import get_logger
 from .get_download import get_download
 from .json_handler import get_json_file, load_downloaded_urls, save_downloaded_urls
-
+logger = get_logger("ckcy")
 URL = "https://www.ckycindia.in/ckyc/?r=notification"
 BASE_URL = "https://www.ckycindia.in"
 

@@ -1,0 +1,41 @@
+2026-06-29 16:54:46,660 INFO     
+2026-06-29 16:54:46,660 INFO     ========== BSE ==========
+2026-06-29 16:54:48,046 INFO     Total Circulars Found : 13
+2026-06-29 16:54:48,047 INFO     Already Processed     : 0
+2026-06-29 16:54:48,047 INFO     Downloading : 20260629-13_Listing of further securities issued by the companies under ESOP _ ESOS.pdf
+2026-06-29 16:54:48,399 INFO     Downloading : 20260629-12_Listing of new securities of Ambuja Cements Limited.pdf
+2026-06-29 16:54:48,475 INFO     Downloading : 20260629-11_Listing of New Securities of UVS HOSPITALITY AND SERVICES LIMITED.pdf
+2026-06-29 16:54:48,538 INFO     Downloading : 20260629-10_Listing of New Securities of UVS HOSPITALITY AND SERVICES LIMITED.pdf
+2026-06-29 16:54:48,571 INFO     Downloading : 20260629-9_Suspension of Trading in T-bills_Government Securities.pdf
+2026-06-29 16:54:48,614 INFO     Downloading : 20260629-8_Surrender of Trading Member in Currency derivative and Commodity derivative segments - KRCHOKSEY SHA.pdf
+2026-06-29 16:54:48,660 INFO     Downloading : 20260629-7_Part Redemption of Siddhivinayak Securitisation Trust.pdf
+2026-06-29 16:54:48,714 INFO     Downloading : 20260629-6_Suspension of Trading in Commercial Paper.pdf
+2026-06-29 16:54:48,752 INFO     Downloading : 20260629-5_Part Redemption of Debenture and Bonds of Companies.pdf
+2026-06-29 16:54:48,808 INFO     Downloading : 20260629-4_Part Redemption of Shivshakti Securitisation Trust.pdf
+2026-06-29 16:54:48,879 INFO     Downloading : 20260629-3_Additional Exposure Margin on Securities under MWPL_29062026.pdf
+2026-06-29 16:54:48,946 INFO     Downloading : 20260629-2_Demat Notice.pdf
+2026-06-29 16:54:48,986 INFO     Downloading : 20260629-1_Change in Group of Equity Shares of ANUBHAV PLAST LIMITED.pdf
+2026-06-29 16:54:49,035 INFO     
+2026-06-29 16:54:49,035 INFO     BSE Summary
+2026-06-29 16:54:49,035 INFO     --------------------------
+2026-06-29 16:54:49,035 INFO     Total Circulars Found : 13
+2026-06-29 16:54:49,035 INFO     Already Processed     : 0
+2026-06-29 16:54:49,036 INFO     Downloaded            : 13
+2026-06-29 16:54:49,036 INFO     Failed                : 0
+2026-06-29 16:58:57,048 INFO     
+2026-06-29 16:58:57,049 INFO     ========== BSE ==========
+2026-06-29 16:58:57,587 INFO     Total Circulars Found : 13
+2026-06-29 16:58:57,587 INFO     Already Processed     : 13
+2026-06-29 16:58:57,588 INFO     No new circulars found.
+2026-06-30 10:24:47,304 INFO     
+2026-06-30 10:24:47,305 INFO     ========== BSE ==========
+2026-06-30 10:24:48,252 INFO     Total Circulars Found : 1
+2026-06-30 10:24:48,252 INFO     Already Processed     : 0
+2026-06-30 10:24:48,252 INFO     Downloading : 20260630-1_Opening of Offer to Buy – Acquisition Window (Buyback) For BAJAJ AUTO LIMITED.pdf
+2026-06-30 10:24:49,222 INFO     
+2026-06-30 10:24:49,222 INFO     BSE Summary
+2026-06-30 10:24:49,223 INFO     --------------------------
+2026-06-30 10:24:49,223 INFO     Total Circulars Found : 1
+2026-06-30 10:24:49,223 INFO     Already Processed     : 0
+2026-06-30 10:24:49,224 INFO     Downloaded            : 1
+2026-06-30 10:24:49,224 INFO     Failed                : 0

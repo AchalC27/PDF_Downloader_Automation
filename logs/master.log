@@ -1,0 +1,394 @@
+2026-06-29 16:33:36,261 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:33:36,261 INFO     Scraping run started at 2026-06-29 16:33:36
+2026-06-29 16:33:36,261 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:33:36,261 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:33:36,261 INFO     Running NSE
+2026-06-29 16:33:38,393 INFO     NSE Completed Successfully
+2026-06-29 16:33:38,393 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:33:38,393 INFO     Running BSE
+2026-06-29 16:33:38,726 INFO     BSE Completed Successfully
+2026-06-29 16:33:38,726 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:33:38,726 INFO     Running CDSL
+2026-06-29 16:33:41,380 INFO     CDSL Completed Successfully
+2026-06-29 16:33:41,380 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:33:41,380 INFO     Running AMFI
+2026-06-29 16:33:41,380 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 91, in download_amfi
+    logger.info("")
+    ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'info'
+2026-06-29 16:33:41,381 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:33:41,382 INFO     Running ARCL
+2026-06-29 16:33:41,382 ERROR    ARCL Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 91, in download_arcl
+    logger.info("")
+    ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'info'
+2026-06-29 16:33:41,386 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:33:41,386 INFO     Running CKYC
+2026-06-29 16:33:41,387 ERROR    CKYC Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 91, in download_ckyc
+    logger.info("")
+    ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'info'
+2026-06-29 16:33:41,388 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:33:41,388 INFO     Running MCX
+2026-06-29 16:33:42,732 INFO     MCX Completed Successfully
+2026-06-29 16:33:42,732 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:33:42,732 INFO     Running APMI
+2026-06-29 16:33:47,763 INFO     APMI Completed Successfully
+2026-06-29 16:33:47,763 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:33:47,764 INFO     Running PFRDA
+2026-06-29 16:34:08,334 INFO     PFRDA Completed Successfully
+2026-06-29 16:34:08,334 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:34:08,334 INFO     Running NSDL
+2026-06-29 16:34:10,723 INFO     NSDL Completed Successfully
+2026-06-29 16:34:10,723 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:34:10,723 INFO     Running SEBI
+2026-06-29 16:34:11,366 INFO     SEBI Completed Successfully
+2026-06-29 16:34:11,366 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:34:11,366 INFO     Running IRDAI
+2026-06-29 16:34:12,324 INFO     IRDAI Completed Successfully
+2026-06-29 16:34:12,325 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:34:12,325 INFO     Summary
+2026-06-29 16:34:12,325 INFO     
+2026-06-29 16:34:12,325 INFO     Run completed in 36.1 seconds
+2026-06-29 16:34:12,326 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-29 16:34:12,326 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:34:12,326 INFO     
+2026-06-29 16:38:01,015 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:38:01,015 INFO     Scraping run started at 2026-06-29 16:38:01
+2026-06-29 16:38:01,015 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:38:01,015 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:01,015 INFO     Running NSE
+2026-06-29 16:38:02,122 INFO     NSE Completed Successfully
+2026-06-29 16:38:02,122 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:02,122 INFO     Running BSE
+2026-06-29 16:38:02,527 INFO     BSE Completed Successfully
+2026-06-29 16:38:02,527 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:02,527 INFO     Running CDSL
+2026-06-29 16:38:03,925 INFO     CDSL Completed Successfully
+2026-06-29 16:38:03,925 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:03,925 INFO     Running AMFI
+2026-06-29 16:38:03,925 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 91, in download_amfi
+    logger.info("")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2026-06-29 16:38:03,931 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:03,931 INFO     Running ARCL
+2026-06-29 16:38:03,931 ERROR    ARCL Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 91, in download_arcl
+    logger.info("")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2026-06-29 16:38:03,932 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:03,932 INFO     Running CKYC
+2026-06-29 16:38:03,932 ERROR    CKYC Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 91, in download_ckyc
+    logger.info("")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2026-06-29 16:38:03,932 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:03,932 INFO     Running MCX
+2026-06-29 16:38:05,205 INFO     MCX Completed Successfully
+2026-06-29 16:38:05,205 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:05,206 INFO     Running APMI
+2026-06-29 16:38:05,995 INFO     APMI Completed Successfully
+2026-06-29 16:38:05,995 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:05,996 INFO     Running PFRDA
+2026-06-29 16:38:24,382 INFO     PFRDA Completed Successfully
+2026-06-29 16:38:24,382 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:24,382 INFO     Running NSDL
+2026-06-29 16:38:26,738 INFO     NSDL Completed Successfully
+2026-06-29 16:38:26,738 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:26,738 INFO     Running SEBI
+2026-06-29 16:38:27,363 INFO     SEBI Completed Successfully
+2026-06-29 16:38:27,363 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:27,363 INFO     Running IRDAI
+2026-06-29 16:38:29,485 INFO     IRDAI Completed Successfully
+2026-06-29 16:38:29,485 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:38:29,485 INFO     Summary
+2026-06-29 16:38:29,485 INFO     
+2026-06-29 16:38:29,485 INFO     Run completed in 28.5 seconds
+2026-06-29 16:38:29,486 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-29 16:38:29,486 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:38:29,486 INFO     
+2026-06-29 16:40:40,793 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:40:40,793 INFO     Scraping run started at 2026-06-29 16:40:40
+2026-06-29 16:40:40,793 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:40:40,793 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:40:40,793 INFO     Running NSE
+2026-06-29 16:40:42,195 INFO     NSE Completed Successfully
+2026-06-29 16:40:42,195 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:40:42,195 INFO     Running BSE
+2026-06-29 16:40:42,658 INFO     BSE Completed Successfully
+2026-06-29 16:40:42,658 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:40:42,658 INFO     Running CDSL
+2026-06-29 16:40:44,900 INFO     CDSL Completed Successfully
+2026-06-29 16:40:44,901 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:40:44,901 INFO     Running AMFI
+2026-06-29 16:40:44,901 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 91, in download_amfi
+    get_logger.info("")
+    ^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'info'
+2026-06-29 16:40:44,902 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:40:44,902 INFO     Running ARCL
+2026-06-29 16:40:44,902 ERROR    ARCL Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 91, in download_arcl
+    get_logger.info("")
+    ^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'info'
+2026-06-29 16:40:44,903 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:40:44,903 INFO     Running CKYC
+2026-06-29 16:40:44,903 ERROR    CKYC Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 91, in download_ckyc
+    get_logger.info("")
+    ^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'info'
+2026-06-29 16:40:44,904 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:40:44,904 INFO     Running MCX
+2026-06-29 16:40:46,132 INFO     MCX Completed Successfully
+2026-06-29 16:40:46,132 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:40:46,133 INFO     Running APMI
+2026-06-29 16:40:48,752 INFO     APMI Completed Successfully
+2026-06-29 16:40:48,753 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:40:48,753 INFO     Running PFRDA
+2026-06-29 16:41:16,171 INFO     PFRDA Completed Successfully
+2026-06-29 16:41:16,171 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:41:16,171 INFO     Running NSDL
+2026-06-29 16:41:18,662 INFO     NSDL Completed Successfully
+2026-06-29 16:41:18,662 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:41:18,662 INFO     Running SEBI
+2026-06-29 16:41:19,260 INFO     SEBI Completed Successfully
+2026-06-29 16:41:19,260 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:41:19,260 INFO     Running IRDAI
+2026-06-29 16:41:22,691 INFO     IRDAI Completed Successfully
+2026-06-29 16:41:22,691 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:41:22,691 INFO     Summary
+2026-06-29 16:41:22,691 INFO     
+2026-06-29 16:41:22,691 INFO     Run completed in 41.9 seconds
+2026-06-29 16:41:22,692 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-29 16:41:22,692 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:41:22,692 INFO     
+2026-06-29 16:49:01,828 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:49:01,828 INFO     Scraping run started at 2026-06-29 16:49:01
+2026-06-29 16:49:01,829 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:49:01,829 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:01,829 INFO     Running NSE
+2026-06-29 16:49:02,916 INFO     NSE Completed Successfully
+2026-06-29 16:49:02,916 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:02,916 INFO     Running BSE
+2026-06-29 16:49:03,257 INFO     BSE Completed Successfully
+2026-06-29 16:49:03,257 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:03,257 INFO     Running CDSL
+2026-06-29 16:49:04,731 INFO     CDSL Completed Successfully
+2026-06-29 16:49:04,731 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:04,732 INFO     Running AMFI
+2026-06-29 16:49:05,125 INFO     AMFI Completed Successfully
+2026-06-29 16:49:05,125 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:05,125 INFO     Running ARCL
+2026-06-29 16:49:07,398 INFO     ARCL Completed Successfully
+2026-06-29 16:49:07,398 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:07,398 INFO     Running CKYC
+2026-06-29 16:49:07,862 INFO     CKYC Completed Successfully
+2026-06-29 16:49:07,862 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:07,862 INFO     Running MCX
+2026-06-29 16:49:10,905 INFO     MCX Completed Successfully
+2026-06-29 16:49:10,905 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:10,905 INFO     Running APMI
+2026-06-29 16:49:11,755 INFO     APMI Completed Successfully
+2026-06-29 16:49:11,755 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:11,755 INFO     Running PFRDA
+2026-06-29 16:49:37,959 INFO     PFRDA Completed Successfully
+2026-06-29 16:49:37,959 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:37,959 INFO     Running NSDL
+2026-06-29 16:49:41,440 INFO     NSDL Completed Successfully
+2026-06-29 16:49:41,440 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:41,440 INFO     Running SEBI
+2026-06-29 16:49:42,137 INFO     SEBI Completed Successfully
+2026-06-29 16:49:42,137 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:42,137 INFO     Running IRDAI
+2026-06-29 16:49:42,936 INFO     IRDAI Completed Successfully
+2026-06-29 16:49:42,937 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:49:42,937 INFO     Summary
+2026-06-29 16:49:42,937 INFO     
+2026-06-29 16:49:42,937 INFO     Run completed in 41.1 seconds
+2026-06-29 16:49:42,938 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-29 16:49:42,938 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:49:42,938 INFO     
+2026-06-29 16:54:42,915 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:54:42,915 INFO     Scraping run started at 2026-06-29 16:54:42
+2026-06-29 16:54:42,915 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:54:42,915 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:54:42,916 INFO     Running NSE
+2026-06-29 16:54:46,659 INFO     NSE Completed Successfully
+2026-06-29 16:54:46,660 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:54:46,660 INFO     Running BSE
+2026-06-29 16:54:49,037 INFO     BSE Completed Successfully
+2026-06-29 16:54:49,037 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:54:49,037 INFO     Running CDSL
+2026-06-29 16:54:51,750 INFO     CDSL Completed Successfully
+2026-06-29 16:54:51,751 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:54:51,751 INFO     Running AMFI
+2026-06-29 16:54:52,719 INFO     AMFI Completed Successfully
+2026-06-29 16:54:52,719 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:54:52,719 INFO     Running ARCL
+2026-06-29 16:54:55,105 INFO     ARCL Completed Successfully
+2026-06-29 16:54:55,105 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:54:55,105 INFO     Running CKYC
+2026-06-29 16:54:55,554 INFO     CKYC Completed Successfully
+2026-06-29 16:54:55,554 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:54:55,554 INFO     Running MCX
+2026-06-29 16:54:56,830 INFO     MCX Completed Successfully
+2026-06-29 16:54:56,830 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:54:56,830 INFO     Running APMI
+2026-06-29 16:54:57,663 INFO     APMI Completed Successfully
+2026-06-29 16:54:57,663 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:54:57,663 INFO     Running PFRDA
+2026-06-29 16:55:15,149 INFO     PFRDA Completed Successfully
+2026-06-29 16:55:15,149 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:55:15,149 INFO     Running NSDL
+2026-06-29 16:55:17,772 INFO     NSDL Completed Successfully
+2026-06-29 16:55:17,772 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:55:17,773 INFO     Running SEBI
+2026-06-29 16:55:19,475 INFO     SEBI Completed Successfully
+2026-06-29 16:55:19,475 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:55:19,475 INFO     Running IRDAI
+2026-06-29 16:55:20,397 INFO     IRDAI Completed Successfully
+2026-06-29 16:55:20,397 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:55:20,398 INFO     Summary
+2026-06-29 16:55:20,398 INFO     
+2026-06-29 16:55:20,398 INFO     Run completed in 37.5 seconds
+2026-06-29 16:55:20,398 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-29 16:55:20,399 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:55:20,399 INFO     
+2026-06-29 16:58:56,001 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:58:56,002 INFO     Scraping run started at 2026-06-29 16:58:56
+2026-06-29 16:58:56,002 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:58:56,002 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:58:56,003 INFO     Running NSE
+2026-06-29 16:58:57,047 INFO     NSE Completed Successfully
+2026-06-29 16:58:57,048 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:58:57,048 INFO     Running BSE
+2026-06-29 16:58:57,589 INFO     BSE Completed Successfully
+2026-06-29 16:58:57,590 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:58:57,590 INFO     Running CDSL
+2026-06-29 16:58:59,192 INFO     CDSL Completed Successfully
+2026-06-29 16:58:59,192 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:58:59,192 INFO     Running AMFI
+2026-06-29 16:59:00,032 INFO     AMFI Completed Successfully
+2026-06-29 16:59:00,033 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:59:00,033 INFO     Running ARCL
+2026-06-29 16:59:03,138 INFO     ARCL Completed Successfully
+2026-06-29 16:59:03,139 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:59:03,139 INFO     Running CKYC
+2026-06-29 16:59:03,930 INFO     CKYC Completed Successfully
+2026-06-29 16:59:03,931 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:59:03,931 INFO     Running MCX
+2026-06-29 16:59:05,643 INFO     MCX Completed Successfully
+2026-06-29 16:59:05,643 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:59:05,643 INFO     Running APMI
+2026-06-29 16:59:07,569 INFO     APMI Completed Successfully
+2026-06-29 16:59:07,569 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:59:07,570 INFO     Running PFRDA
+2026-06-29 16:59:40,007 INFO     PFRDA Completed Successfully
+2026-06-29 16:59:40,007 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:59:40,008 INFO     Running NSDL
+2026-06-29 16:59:45,335 INFO     NSDL Completed Successfully
+2026-06-29 16:59:45,335 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:59:45,335 INFO     Running SEBI
+2026-06-29 16:59:46,331 INFO     SEBI Completed Successfully
+2026-06-29 16:59:46,331 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:59:46,332 INFO     Running IRDAI
+2026-06-29 16:59:47,815 INFO     IRDAI Completed Successfully
+2026-06-29 16:59:47,815 INFO     ────────────────────────────────────────────────────────────
+2026-06-29 16:59:47,816 INFO     Summary
+2026-06-29 16:59:47,816 INFO     
+2026-06-29 16:59:47,816 INFO     Run completed in 51.8 seconds
+2026-06-29 16:59:47,817 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-29 16:59:47,817 INFO     ════════════════════════════════════════════════════════════
+2026-06-29 16:59:47,818 INFO     
+2026-06-30 10:24:46,209 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 10:24:46,210 INFO     Scraping run started at 2026-06-30 10:24:46
+2026-06-30 10:24:46,211 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 10:24:46,211 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:24:46,212 INFO     Running NSE
+2026-06-30 10:24:47,303 INFO     NSE Completed Successfully
+2026-06-30 10:24:47,303 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:24:47,303 INFO     Running BSE
+2026-06-30 10:24:49,226 INFO     BSE Completed Successfully
+2026-06-30 10:24:49,227 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:24:49,227 INFO     Running CDSL
+2026-06-30 10:24:52,089 INFO     CDSL Completed Successfully
+2026-06-30 10:24:52,089 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:24:52,089 INFO     Running AMFI
+2026-06-30 10:24:53,041 INFO     AMFI Completed Successfully
+2026-06-30 10:24:53,041 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:24:53,042 INFO     Running ARCL
+2026-06-30 10:24:57,183 INFO     ARCL Completed Successfully
+2026-06-30 10:24:57,183 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:24:57,183 INFO     Running CKYC
+2026-06-30 10:24:58,270 INFO     CKYC Completed Successfully
+2026-06-30 10:24:58,271 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:24:58,271 INFO     Running MCX
+2026-06-30 10:24:59,943 INFO     MCX Completed Successfully
+2026-06-30 10:24:59,943 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:24:59,943 INFO     Running APMI
+2026-06-30 10:25:01,834 INFO     APMI Completed Successfully
+2026-06-30 10:25:01,835 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:25:01,835 INFO     Running PFRDA
+2026-06-30 10:25:38,625 INFO     PFRDA Completed Successfully
+2026-06-30 10:25:38,625 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:25:38,626 INFO     Running NSDL
+2026-06-30 10:25:49,261 INFO     NSDL Completed Successfully
+2026-06-30 10:25:49,261 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:25:49,262 INFO     Running SEBI
+2026-06-30 10:25:50,216 INFO     SEBI Completed Successfully
+2026-06-30 10:25:50,217 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:25:50,217 INFO     Running IRDAI
+2026-06-30 10:25:51,546 INFO     IRDAI Completed Successfully
+2026-06-30 10:25:51,547 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:25:51,547 INFO     Summary
+2026-06-30 10:25:51,548 INFO     
+2026-06-30 10:25:51,548 INFO     Run completed in 65.3 seconds
+2026-06-30 10:25:51,549 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-30 10:25:51,549 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 10:25:51,549 INFO     
