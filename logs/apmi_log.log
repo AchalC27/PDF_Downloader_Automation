@@ -270,3 +270,7 @@
 2026-06-30 11:19:50,300 INFO     Downloading Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf
 2026-06-30 11:19:51,045 ERROR      ✘  Download failed  https://www.apmiindia.org/storagebox/images/Circulars/Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf  →  404 Client Error: Not Found for url: https://www.apmiindia.org/storagebox/images/Circulars/Reply%20from%20SEBI%20on%20queries%20of%20APMI%20on%20Benchmarking%20Circular_3.pdf
 2026-06-30 11:19:51,047 INFO     APMI -> Found 117 PDFs, Downloaded 0
+2026-06-30 11:35:33,271 INFO     ─── Scraping APMI ───
+2026-06-30 11:35:34,260 INFO     Downloading Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf
+2026-06-30 11:35:34,959 ERROR      ✘  Download failed  https://www.apmiindia.org/storagebox/images/Circulars/Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf  →  404 Client Error: Not Found for url: https://www.apmiindia.org/storagebox/images/Circulars/Reply%20from%20SEBI%20on%20queries%20of%20APMI%20on%20Benchmarking%20Circular_3.pdf
+2026-06-30 11:35:34,961 INFO     APMI -> Found 117 PDFs, Downloaded 0

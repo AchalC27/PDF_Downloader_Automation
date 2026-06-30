@@ -34,3 +34,9 @@
 2026-06-30 11:19:47,336 INFO     Total Documents Found : 25
 2026-06-30 11:19:47,336 INFO     Already Processed     : 25
 2026-06-30 11:19:47,336 INFO     No new documents found.
+2026-06-30 11:35:30,821 INFO     
+2026-06-30 11:35:30,821 INFO     ========== CKYC ==========
+2026-06-30 11:35:31,578 INFO     Running CKYC extractor...
+2026-06-30 11:35:31,600 INFO     Total Documents Found : 25
+2026-06-30 11:35:31,601 INFO     Already Processed     : 25
+2026-06-30 11:35:31,601 INFO     No new documents found.

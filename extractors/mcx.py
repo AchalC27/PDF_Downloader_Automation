@@ -2,16 +2,10 @@
 import re
 import time
 from datetime import date, datetime
-
 import requests
-
 from .logger import get_logger
 from .get_download import get_download
-from .json_handler import (
-    get_json_file,
-    load_downloaded_urls,
-    save_downloaded_urls,
-)
+from .json_handler import (get_json_file,load_downloaded_urls,save_downloaded_urls)
 
 logger = get_logger("mcx")
 

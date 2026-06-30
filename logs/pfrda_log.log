@@ -128,3 +128,10 @@
 2026-06-30 11:20:12,963 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
 2026-06-30 11:20:13,925 INFO     Page 3 : 10 cards
 2026-06-30 11:20:23,340 INFO     PFRDA → found 30 PDFs, downloaded 0 new
+2026-06-30 11:35:34,966 INFO     ─── Scraping PFRDA ───
+2026-06-30 11:35:36,824 INFO     Page 1 : 10 cards
+2026-06-30 11:35:45,968 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-06-30 11:35:47,006 INFO     Page 2 : 10 cards
+2026-06-30 11:35:56,699 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-06-30 11:35:57,811 INFO     Page 3 : 10 cards
+2026-06-30 11:36:07,562 INFO     PFRDA → found 30 PDFs, downloaded 0 new

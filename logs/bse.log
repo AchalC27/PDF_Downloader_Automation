@@ -56,3 +56,8 @@
 2026-06-30 11:19:40,099 INFO     Already Processed     : 1
 2026-06-30 11:19:40,099 INFO     Downloaded            : 1
 2026-06-30 11:19:40,100 INFO     Failed                : 0
+2026-06-30 11:35:23,844 INFO     
+2026-06-30 11:35:23,845 INFO     ========== BSE ==========
+2026-06-30 11:35:24,808 INFO     Total Circulars Found : 2
+2026-06-30 11:35:24,809 INFO     Already Processed     : 2
+2026-06-30 11:35:24,809 INFO     No new circulars found.

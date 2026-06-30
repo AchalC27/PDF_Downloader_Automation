@@ -39,3 +39,8 @@
 2026-06-30 11:19:35,742 INFO     Already Processed     : 0
 2026-06-30 11:19:35,742 INFO     Downloaded            : 2
 2026-06-30 11:19:35,743 INFO     Failed                : 0
+2026-06-30 11:35:22,537 INFO     
+2026-06-30 11:35:22,538 INFO     ========== NSE ==========
+2026-06-30 11:35:23,840 INFO     Total Circulars Found : 2
+2026-06-30 11:35:23,840 INFO     Already Processed     : 2
+2026-06-30 11:35:23,840 INFO     No new circulars found.

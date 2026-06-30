@@ -33,3 +33,10 @@
 2026-06-30 11:19:49,230 INFO     Total Circulars Found : 0
 2026-06-30 11:19:49,231 INFO     Already Processed     : 0
 2026-06-30 11:19:49,231 INFO     No new circulars found.
+2026-06-30 11:35:31,602 INFO     
+2026-06-30 11:35:31,603 INFO     ========== MCX ==========
+2026-06-30 11:35:31,604 INFO     Fetching page 1
+2026-06-30 11:35:33,214 INFO     Page 1/0
+2026-06-30 11:35:33,216 INFO     Total Circulars Found : 0
+2026-06-30 11:35:33,217 INFO     Already Processed     : 0
+2026-06-30 11:35:33,217 INFO     No new circulars found.
