@@ -1,6 +1,6 @@
 
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, parse_qs
 
 from .helpers import (
     get_logger,
@@ -17,9 +17,14 @@ SEBI_URL = "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid
 
 
 
+
+
 def scrape_sebi() -> tuple[int, int]:
     """
-    Scrape SEBI circular table and download files linked from the table.
+    Scrape SEBI circular table and download PDFs.
+    Handles both:
+      1. Direct PDF links
+      2. Detail pages containing PDF inside an iframe
     Returns (found, downloaded).
     """
 
@@ -47,38 +52,91 @@ def scrape_sebi() -> tuple[int, int]:
                 continue
 
             full_url = urljoin(SEBI_URL, href)
-
             found += 1
 
+            # Skip already processed detail page
             if full_url in seen:
                 continue
 
-            filename = Path(
-                urlparse(full_url).path
-            ).name
+            title = a_tag.get_text(" ", strip=True)
 
-            if not filename:
-                link_text = a_tag.get_text(strip=True)
+            # ----------------------------------------------------
+            # CASE 1 : Direct PDF
+            # ----------------------------------------------------
+            if full_url.lower().endswith(".pdf"):
+                pdf_url = full_url
 
-                if link_text:
-                    filename = safe_filename(link_text)
+            # ----------------------------------------------------
+            # CASE 2 : Open detail page and extract iframe PDF
+            # ----------------------------------------------------
+            else:
+
+                detail_soup = get_page(full_url, log)
+
+                if detail_soup is None:
+                    continue
+
+                iframe = detail_soup.find("iframe")
+
+                if iframe is None:
+                    log.info("No iframe found on %s", full_url)
+                    continue
+
+                iframe_src = iframe.get("src", "").strip()
+
+                if not iframe_src:
+                    log.info("Iframe has no src on %s", full_url)
+                    continue
+
+                iframe_url = urljoin(full_url, iframe_src)
+
+                # iframe URL:
+                # /web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/...pdf
+
+                parsed = urlparse(iframe_url)
+                params = parse_qs(parsed.query)
+
+                if "file" in params:
+                    pdf_url = params["file"][0]
                 else:
-                    filename = f"sebi_file_{found}"
+                    pdf_url = iframe_url
+
+            # ----------------------------------------------------
+            # Skip if PDF already downloaded
+            # ----------------------------------------------------
+            if pdf_url in seen:
+                continue
+
+            # ----------------------------------------------------
+            # Filename
+            # ----------------------------------------------------
+            filename = Path(urlparse(pdf_url).path).name
+
+            if not filename.lower().endswith(".pdf"):
+
+                if title:
+                    filename = safe_filename(title) + ".pdf"
+                else:
+                    filename = f"sebi_{found}.pdf"
 
             dest = dest_for("SEBI", filename)
 
-            if download_pdf(full_url, dest, log):
+            # ----------------------------------------------------
+            # Download
+            # ----------------------------------------------------
+            if download_pdf(pdf_url, dest, log):
                 seen.add(full_url)
+                seen.add(pdf_url)
                 downloaded += 1
 
-    log.info(
-        "SEBI → found %d table links, downloaded %d new",
-        found,
-        downloaded
-    )
+                log.info("Downloaded: %s", filename)
 
     save_seen("sebi", seen)
 
-    return found, downloaded
+    log.info(
+        "SEBI → found %d circulars, downloaded %d new",
+        found,
+        downloaded,
+    )
 
-    
+    return found, downloaded

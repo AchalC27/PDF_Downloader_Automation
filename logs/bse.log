@@ -39,3 +39,20 @@
 2026-06-30 10:24:49,223 INFO     Already Processed     : 0
 2026-06-30 10:24:49,224 INFO     Downloaded            : 1
 2026-06-30 10:24:49,224 INFO     Failed                : 0
+2026-06-30 10:31:35,096 INFO     
+2026-06-30 10:31:35,096 INFO     ========== BSE ==========
+2026-06-30 10:31:36,044 INFO     Total Circulars Found : 1
+2026-06-30 10:31:36,045 INFO     Already Processed     : 1
+2026-06-30 10:31:36,045 INFO     No new circulars found.
+2026-06-30 11:19:35,746 INFO     
+2026-06-30 11:19:35,747 INFO     ========== BSE ==========
+2026-06-30 11:19:39,168 INFO     Total Circulars Found : 2
+2026-06-30 11:19:39,168 INFO     Already Processed     : 1
+2026-06-30 11:19:39,169 INFO     Downloading : 20260630-2_Payment of SEBI Turnover Fees across segments including applicable GST..pdf
+2026-06-30 11:19:40,098 INFO     
+2026-06-30 11:19:40,098 INFO     BSE Summary
+2026-06-30 11:19:40,098 INFO     --------------------------
+2026-06-30 11:19:40,099 INFO     Total Circulars Found : 2
+2026-06-30 11:19:40,099 INFO     Already Processed     : 1
+2026-06-30 11:19:40,099 INFO     Downloaded            : 1
+2026-06-30 11:19:40,100 INFO     Failed                : 0

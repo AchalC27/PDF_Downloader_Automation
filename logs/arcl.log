@@ -29,3 +29,22 @@
 2026-06-30 10:24:57,181 INFO     Already Processed     : 413
 2026-06-30 10:24:57,182 INFO     Downloaded            : 1
 2026-06-30 10:24:57,182 INFO     Failed                : 0
+2026-06-30 10:31:38,984 INFO     
+2026-06-30 10:31:38,985 INFO     ========== ARCL ==========
+2026-06-30 10:31:41,737 INFO     Running ARCL extractor...
+2026-06-30 10:31:41,859 INFO     Total Documents Found : 414
+2026-06-30 10:31:41,860 INFO     Already Processed     : 414
+2026-06-30 10:31:41,860 INFO     No new documents found.
+2026-06-30 11:19:42,969 INFO     
+2026-06-30 11:19:42,970 INFO     ========== ARCL ==========
+2026-06-30 11:19:45,597 INFO     Running ARCL extractor...
+2026-06-30 11:19:45,719 INFO     Total Documents Found : 415
+2026-06-30 11:19:45,719 INFO     Already Processed     : 414
+2026-06-30 11:19:45,721 INFO     Downloading : 450_30-Jun-2026-List of eligible securities as collateral for Tri-party Repo for July 2026_d3332b48.zip
+2026-06-30 11:19:46,516 INFO     
+2026-06-30 11:19:46,517 INFO     ARCL Summary
+2026-06-30 11:19:46,517 INFO     -------------------------
+2026-06-30 11:19:46,518 INFO     Total Documents Found : 415
+2026-06-30 11:19:46,519 INFO     Already Processed     : 414
+2026-06-30 11:19:46,522 INFO     Downloaded            : 1
+2026-06-30 11:19:46,522 INFO     Failed                : 0

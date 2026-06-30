@@ -21,3 +21,21 @@
 2026-06-30 10:24:47,298 INFO     Total Circulars Found : 0
 2026-06-30 10:24:47,298 INFO     Already Processed     : 0
 2026-06-30 10:24:47,298 INFO     No new circulars found.
+2026-06-30 10:31:33,899 INFO     
+2026-06-30 10:31:33,900 INFO     ========== NSE ==========
+2026-06-30 10:31:35,089 INFO     Total Circulars Found : 0
+2026-06-30 10:31:35,089 INFO     Already Processed     : 0
+2026-06-30 10:31:35,090 INFO     No new circulars found.
+2026-06-30 11:19:33,345 INFO     
+2026-06-30 11:19:33,346 INFO     ========== NSE ==========
+2026-06-30 11:19:34,435 INFO     Total Circulars Found : 2
+2026-06-30 11:19:34,435 INFO     Already Processed     : 0
+2026-06-30 11:19:34,436 INFO     Downloading : NSE_COMP_74928_Segmental Surrender Of Membership.pdf
+2026-06-30 11:19:35,586 INFO     Downloading : NSE_COMP_74905_Segmental Surrender Of Membership.pdf
+2026-06-30 11:19:35,741 INFO     
+2026-06-30 11:19:35,741 INFO     NSE Summary
+2026-06-30 11:19:35,741 INFO     -------------------------
+2026-06-30 11:19:35,742 INFO     Total Circulars Found : 2
+2026-06-30 11:19:35,742 INFO     Already Processed     : 0
+2026-06-30 11:19:35,742 INFO     Downloaded            : 2
+2026-06-30 11:19:35,743 INFO     Failed                : 0

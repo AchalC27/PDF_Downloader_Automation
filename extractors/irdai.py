@@ -1,5 +1,6 @@
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
+import re
 
 from .helpers import (
     get_logger,
@@ -37,14 +38,19 @@ def scrape_irdai() -> tuple[int, int]:
             href = a_tag["href"].strip()
             full_url = urljoin(IRDAI_URL, href)
 
-            
-
             found += 1
 
             if full_url in seen:
                 continue
 
-            link_text = a_tag.get_text(strip=True)
+            link_text = a_tag.get_text(" ", strip=True)
+
+            # Remove Hindi (and any other non-ASCII) characters
+            link_text = re.sub(r'[^\x00-\x7F]+', '', link_text)
+
+            # Remove extra spaces left after removing Hindi
+            link_text = " ".join(link_text.split())
+
             ext = Path(urlparse(full_url).path).suffix.lower()
 
             if link_text:
@@ -53,7 +59,6 @@ def scrape_irdai() -> tuple[int, int]:
                 filename = safe_filename(Path(urlparse(full_url).path).name)
 
             dest = dest_for("IRDAI", filename)
-
             if download_pdf(full_url, dest, log):
                 seen.add(full_url)
                 downloaded += 1
