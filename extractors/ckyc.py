@@ -121,7 +121,7 @@ def download_ckyc():
 
         filename = generate_filename(url)
 
-        if pdf_exists("AMFI", filename):
+        if pdf_exists("CKYC", filename):
             logger.info(f"{filename} already exists in database.")
             continue
 

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ICICI Securities | PDF Intelligence Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast hidden">
+    <div class="toast-dot"></div>
+    <p id="toast-message"></p>
+  </div>
+
+  <!-- Header -->
+  <header class="app-header" id="app-header">
+    <div class="wrap header-inner">
+      <div class="brand" id="icici-brand-logo">
+        <div class="brand-mark">
+          <span class="brand-mark-stripe"></span>
+          <span class="brand-mark-text">iSEC</span>
+        </div>
+        <div class="brand-copy">
+          <div class="brand-title-row">
+            <span class="brand-title">ICICI Securities</span>
+            <span class="brand-pill">Research</span>
+          </div>
+          <p class="brand-sub">Intelligence Hub &amp; PDF Library</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <div class="live-session">
+          <span class="live-label">LIVE SERVER SESSION</span>
+          <span class="live-value"><span class="live-dot"></span><span id="live-date"></span></span>
+        </div>
+        <button class="btn btn-navy" id="header-add-pdf-btn">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+          <span>Catalog New PDF</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap main-panel">
+
+    <!-- KPI cards -->
+    <section class="kpi-grid" id="dashboard-kpis">
+      <div class="kpi-card">
+        <div>
+          <span class="kpi-label">Cataloged PDFs</span>
+          <span class="kpi-value" id="kpi-total">--</span>
+          <p class="kpi-note kpi-note-green">Live database documents</p>
+        </div>
+        <div class="kpi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg></div>
+      </div>
+
+      <div class="kpi-card">
+        <div>
+          <span class="kpi-label">Source Departments</span>
+          <span class="kpi-value" id="kpi-sources">--</span>
+          <p class="kpi-note"><span class="dot dot-orange"></span><span>Active regulatory sources</span></p>
+        </div>
+        <div class="kpi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+      </div>
+
+      <div class="kpi-card">
+        <div>
+          <span class="kpi-label">Downloaded Today</span>
+          <span class="kpi-value kpi-value-red" id="kpi-today">--</span>
+          <p class="kpi-note"><span class="dot dot-red"></span><span>Documents fetched today</span></p>
+        </div>
+        <div class="kpi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+      </div>
+
+      <div class="kpi-card">
+        <div>
+          <span class="kpi-label">Last 7 Days</span>
+          <span class="kpi-value" id="kpi-week">--</span>
+          <p class="kpi-note"><span class="dot dot-indigo"></span><span>Weekly ingestion volume</span></p>
+        </div>
+        <div class="kpi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+      </div>
+    </section>
+
+    <!-- Filters -->
+    <div class="panel filters-panel" id="dashboard-controls">
+      <div class="filters-head">
+        <div>
+          <h2 class="panel-title"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M7 12h10M10 18h4"/></svg><span>Search and Filters</span></h2>
+          <p class="panel-sub">Refine list of PDFs by keyword, source, or upload dates</p>
+        </div>
+        <div class="quick-dates">
+          <span class="quick-dates-label">Quick Dates:</span>
+          <button class="chip" id="quick-date-7d">Last 7 Days</button>
+          <button class="chip" id="quick-date-30d">Last 30 Days</button>
+          <button class="chip chip-reset hidden" id="reset-filters-btn">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M15 9l-6 6M9 9l6 6"/></svg>
+            <span>Reset Filters</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="filters-grid">
+        <div class="field">
+          <label>Keyword Search</label>
+          <div class="input-icon">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            <input type="text" id="search-input" placeholder="Search document name, source, category...">
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Source Department</label>
+          <div class="select-wrap">
+            <select id="source-filter-select"></select>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+
+        <div class="field">
+          <label><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Uploaded From</label>
+          <input type="date" id="date-picker-start">
+        </div>
+
+        <div class="field">
+          <label><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Uploaded To</label>
+          <input type="date" id="date-picker-end">
+        </div>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class="panel table-panel" id="pdf-catalog-table-container">
+      <div class="table-head">
+        <div>
+          <div class="table-head-title">
+            <h3>List of PDFs</h3>
+            <span class="count-badge" id="result-count-badge">0 Reports</span>
+          </div>
+          <p class="panel-sub">Click column headers to sort, or select download to open the source PDF</p>
+        </div>
+        <div class="table-actions">
+          <button class="btn btn-ghost btn-export" id="export-csv-btn">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15l3 3 3-3M12 11v7"/></svg>
+            <span>Export Catalog</span>
+          </button>
+          <button class="btn btn-ghost" id="refresh-catalog-btn">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2v6h-6M3 22v-6h6"/><path d="M21 8a9 9 0 0 0-15-6.7L3 4M3 16a9 9 0 0 0 15 6.7L21 20"/></svg>
+            <span>Refresh</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="table-scroll">
+        <table id="pdf-catalog-table">
+          <thead>
+            <tr>
+              <th class="th-sort col-sr" data-sort="id"><div><span>Sr No</span><i class="sort-icon"></i></div></th>
+              <th class="th-sort col-name" data-sort="pdf_name"><div><span>Document Name</span><i class="sort-icon"></i></div></th>
+              <th class="th-sort col-source" data-sort="source"><div><span>Source</span><i class="sort-icon"></i></div></th>
+              <th class="th-sort col-date" data-sort="date"><div><span>Upload Date</span><i class="sort-icon"></i></div></th>
+              <th class="col-actions">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            <tr><td colspan="5" class="loading-row">Loading catalog…</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="table-footer">
+        <span class="mono">Displaying <strong id="footer-showing">0</strong> of <strong id="footer-total">0</strong> cataloged PDF documents.</span>
+        <span class="footer-hint">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Download opens the original source PDF link stored during automation.</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <section class="disclaimer-panel" id="disclaimers-panel">
+      <div class="disclaimer-title"><span>Regulatory Disclaimers &amp; Licensing</span></div>
+      <p>ICICI Securities Ltd. (I-Sec). Registered office of I-Sec is at ICICI Securities Ltd. - ICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai - 400025, India, Tel No: 022 - 4070 1000. I-Sec is a SEBI registered Member of National Stock Exchange of India Ltd (Member Code: 07730) and BSE Ltd (Member Code: 103) and having SEBI registration no. INZ000183631. Investment in securities market are subject to market risks, read all the related documents carefully before investing.</p>
+      <p class="disclaimer-secondary">This catalog is generated automatically from documents downloaded across regulatory and exchange sources via the internal automation pipeline. Records reflect what has been captured in the <code>store_pdf</code> table and are for internal/private circulation only.</p>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-row">
+            <span class="footer-badge">ISEC</span>
+            <span class="footer-brand">ICICI Securities Direct Wealth</span>
+          </div>
+          <p class="footer-tagline">Transforming financial research into intelligent action since 1995</p>
+        </div>
+        <div class="footer-links">
+          <a href="#app-header">Return to Top</a><span>|</span>
+          <a href="#">Privacy Policy</a><span>|</span>
+          <a href="#">Terms of Use</a><span>|</span>
+          <a href="#">Support Helpline</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="footer-year"></span> ICICI Securities Limited. Registered in India. All systemic connections verified.</p>
+        <p class="mono">VERIFIED SECURE PLATFORM | TLS 1.3</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Preview Modal -->
+  <div class="modal-overlay hidden" id="preview-modal-overlay">
+    <div class="modal preview-modal">
+      <div class="modal-bar">
+        <div class="modal-bar-left">
+          <div class="modal-icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg></div>
+          <div>
+            <span class="modal-ref" id="preview-ref"></span>
+            <h3 class="modal-heading" id="preview-title"></h3>
+          </div>
+        </div>
+        <button class="icon-btn" id="close-preview-btn">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="preview-body">
+        <div class="preview-doc">
+          <div class="preview-watermark">ICICI SECURITIES</div>
+          <div class="preview-doc-header">
+            <div>
+              <div class="preview-doc-brand">
+                <span class="preview-doc-tag">ISEC</span>
+                <h1>ICICI Securities Limited</h1>
+              </div>
+              <p class="mono small muted">STORE_PDF RECORD</p>
+            </div>
+            <div class="preview-doc-ref mono small muted" id="preview-doc-refblock"></div>
+          </div>
+
+          <div class="preview-meta-grid">
+            <div><span class="meta-key">Uploaded</span><div class="meta-val" id="meta-date"></div></div>
+            <div><span class="meta-key">Source</span><div class="meta-val" id="meta-source"></div></div>
+            <div><span class="meta-key">Category</span><div class="meta-val" id="meta-category"></div></div>
+            <div><span class="meta-key">Record ID</span><div class="meta-val" id="meta-id"></div></div>
+          </div>
+
+          <div class="preview-doc-title-block">
+            <span class="mono small muted">Document Name</span>
+            <h2 id="preview-doc-title"></h2>
+            <div class="orange-underline"></div>
+          </div>
+
+          <div class="preview-link-block">
+            <span class="mono small muted">Source PDF Link</span>
+            <a id="preview-link" href="#" target="_blank" rel="noopener"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer-hint">
+        Click <strong>"Open Source PDF"</strong> below to view the original document at its source URL.
+      </div>
+      <div class="preview-toolbar">
+        <button class="btn btn-orange" id="download-preview-pdf-btn">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Open Source PDF</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Report Modal -->
+  <div class="modal-overlay hidden" id="add-modal-overlay">
+    <div class="modal add-modal">
+      <div class="modal-bar">
+        <div class="modal-bar-left">
+          <div class="modal-icon modal-icon-orange"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div>
+          <div>
+            <h3 class="modal-heading">Add New Report Entry</h3>
+            <p class="modal-sub">Manually catalog a PDF into the store_pdf table</p>
+          </div>
+        </div>
+        <button class="icon-btn" id="close-add-modal-btn">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <form id="add-report-form" class="add-form">
+        <div class="field">
+          <label>Document Name *</label>
+          <input type="text" id="report-name-input" placeholder="e.g. Circular_2026_1043.pdf">
+          <p class="field-error" id="err-name"></p>
+        </div>
+
+        <div class="two-col">
+          <div class="field">
+            <label>Source *</label>
+            <input type="text" id="report-source-input" placeholder="e.g. NSE, BSE, AMFI...">
+            <p class="field-error" id="err-source"></p>
+          </div>
+          <div class="field">
+            <label>Category</label>
+            <input type="text" id="report-category-input" placeholder="e.g. Circular, Notice">
+          </div>
+        </div>
+
+        <div class="two-col">
+          <div class="field">
+            <label>Upload Date</label>
+            <input type="date" id="report-date-input">
+          </div>
+        </div>
+
+        <div class="field">
+          <label>PDF Link *</label>
+          <input type="text" id="report-link-input" placeholder="https://...">
+          <p class="field-error" id="err-link"></p>
+        </div>
+
+        <div class="info-box">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <p>Once added, this row is written directly into the <code>store_pdf</code> table and will instantly appear in the table above.</p>
+        </div>
+      </form>
+
+      <div class="modal-actions">
+        <button class="btn btn-white" id="cancel-add-btn">Cancel</button>
+        <button class="btn btn-navy" id="submit-add-btn">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+          <span>Add to Catalog</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/api.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/render.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/modals.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

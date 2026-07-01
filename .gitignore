@@ -1,3 +1,5 @@
 downloads/
 logs/
 extractors/__pycache__/
+dashboard/__pycache__/
+dashboard/readme.md

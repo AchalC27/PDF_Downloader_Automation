@@ -556,3 +556,891 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.
 2026-07-01 12:09:27,575 INFO     Already Processed     : 0
 2026-07-01 12:09:27,575 INFO     Downloaded            : 414
 2026-07-01 12:09:27,575 INFO     Failed                : 2
+2026-07-01 15:00:13,695 INFO     
+2026-07-01 15:00:13,696 INFO     ========== ARCL ==========
+2026-07-01 15:00:16,596 INFO     Running ARCL extractor...
+2026-07-01 15:00:16,836 INFO     MembershipCriteria_45393420.pdf already exists in database.
+2026-07-01 15:00:16,963 INFO     CoreSGFContribution-GenericCalculator_5aa87a63.xlsx already exists in database.
+2026-07-01 15:00:17,057 INFO     BorrowerMarginCalculator_a7e258b1.xlsx already exists in database.
+2026-07-01 15:00:17,132 INFO     ARCL-ComplianceCalendar_44fb5951.pdf already exists in database.
+2026-07-01 15:00:17,257 INFO     451_30-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-17_8b2fdc80.pdf already exists in database.
+2026-07-01 15:00:17,346 INFO     450_30-Jun-2026-List of eligible securities as collateral for Tri-party Repo for July 2026_d3332b48.zip already exists in database.
+2026-07-01 15:00:17,444 INFO     449_29-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-16_df039b52.pdf already exists in database.
+2026-07-01 15:00:17,526 INFO     448_25-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-15_a822c0d6.pdf already exists in database.
+2026-07-01 15:00:17,608 INFO     447_23-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-14_77279544.pdf already exists in database.
+2026-07-01 15:00:17,686 INFO     446_22-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-13_104d317d.pdf already exists in database.
+2026-07-01 15:00:17,737 INFO     445_19-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-12_16334616.pdf already exists in database.
+2026-07-01 15:00:17,797 INFO     444_18-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-11_e9e0602c.pdf already exists in database.
+2026-07-01 15:00:17,862 INFO     443_17-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-10_aa5dd4d1.pdf already exists in database.
+2026-07-01 15:00:17,922 INFO     442_16-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-09_4f5e2a69.pdf already exists in database.
+2026-07-01 15:00:17,987 INFO     441_15-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-08_de80b652.pdf already exists in database.
+2026-07-01 15:00:18,054 INFO     440_15-Jun-2026-Settlement Calendar July 2026_1850756e.pdf already exists in database.
+2026-07-01 15:00:18,114 INFO     439_12-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-07_00977241.pdf already exists in database.
+2026-07-01 15:00:18,186 INFO     438_10-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-06_68caab28.pdf already exists in database.
+2026-07-01 15:00:18,268 INFO     437_08-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-05_9823b43f.pdf already exists in database.
+2026-07-01 15:00:18,329 INFO     436_05-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-04_31dbb192.pdf already exists in database.
+2026-07-01 15:00:18,405 INFO     435_04-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-03_13893301.pdf already exists in database.
+2026-07-01 15:00:18,501 INFO     434_02-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-02_6b69dd9b.pdf already exists in database.
+2026-07-01 15:00:18,581 INFO     433_01-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-01_6ed8b64d.pdf already exists in database.
+2026-07-01 15:00:18,647 INFO     432_29-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-10_9166e43b.pdf already exists in database.
+2026-07-01 15:00:18,741 INFO     431_29-May-2026-June 2026_921d58f2.zip already exists in database.
+2026-07-01 15:00:18,807 INFO     429_27-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-09_645395fc.pdf already exists in database.
+2026-07-01 15:00:18,873 INFO     428_26-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-08_c37d2314.pdf already exists in database.
+2026-07-01 15:00:18,941 INFO     427_22-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-07_9c827984.pdf already exists in database.
+2026-07-01 15:00:19,036 INFO     426_21-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-06_d1ecc46d.pdf already exists in database.
+2026-07-01 15:00:19,105 INFO     425_20-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-05_e1d7fd98.pdf already exists in database.
+2026-07-01 15:00:19,191 INFO     424_18-May-2026-Reminder -Internal Audit for Half year March 2026_d816a0a6.pdf already exists in database.
+2026-07-01 15:00:19,262 INFO     423_18-May-2026-Reminder for Submission of HY NW March 2026_a1bf8dbd.pdf already exists in database.
+2026-07-01 15:00:19,352 INFO     422_15-May-2026-Settlement Calendar JUNE 2026_192ba916.pdf already exists in database.
+2026-07-01 15:00:19,434 INFO     421_14-May-2026-ARCL_Compliance_2026-27_022_21318690.zip already exists in database.
+2026-07-01 15:00:19,515 INFO     420_14-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-04_d817cc41.pdf already exists in database.
+2026-07-01 15:00:19,600 INFO     419_13-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-03_6d655dc0.pdf already exists in database.
+2026-07-01 15:00:19,687 INFO     418_12-May-2026-Change in Cash Margin Addition Procedure_3dc7dbd1.pdf already exists in database.
+2026-07-01 15:00:19,790 INFO     417_07-May-2026-Penalty and Financial Disincentives Framework_4d168b47.zip already exists in database.
+2026-07-01 15:00:19,882 INFO     416_06-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-02_c3924ab1.pdf already exists in database.
+2026-07-01 15:00:20,033 INFO     415_05-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-01_b57a4f2d.pdf already exists in database.
+2026-07-01 15:00:20,107 INFO     414_30-Apr-2026-List of eligible securities as collateral for Tri-party Repo for Apr 2026_1cecce50.zip already exists in database.
+2026-07-01 15:00:20,174 INFO     413_29-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-09_1f78556d.pdf already exists in database.
+2026-07-01 15:00:20,231 INFO     412_28-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-08_9b254a75.pdf already exists in database.
+2026-07-01 15:00:20,292 INFO     411_24-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-07_c3305580.pdf already exists in database.
+2026-07-01 15:00:20,374 INFO     410_23-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-06_44fa300c.pdf already exists in database.
+2026-07-01 15:00:20,435 INFO     409_17-Apr-2026-Net Worth Certificate Circular_March 2026_8804aee3.zip already exists in database.
+2026-07-01 15:00:20,498 INFO     408_16-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-05_83581685.pdf already exists in database.
+2026-07-01 15:00:20,562 INFO     407_15-Apr-2026-Half Yearly Internal Audit Report_36c77ca2.zip already exists in database.
+2026-07-01 15:00:20,622 INFO     405_15-Apr-2026-Settlement Calendar May 2026_0082f69e.pdf already exists in database.
+2026-07-01 15:00:20,687 INFO     404_13-Apr-2026-Master Circular_174bbcf4.zip already exists in database.
+2026-07-01 15:00:20,771 INFO     403_09-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-04_7f3e4ffc.pdf already exists in database.
+2026-07-01 15:00:20,843 INFO     402_08-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-03_283587f4.pdf already exists in database.
+2026-07-01 15:00:20,922 INFO     401_06-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-02_4220d5e6.pdf already exists in database.
+2026-07-01 15:00:21,714 INFO     400_02-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-01_d0767adc.pdf already exists in database.
+2026-07-01 15:00:21,803 INFO     399_01-Apr-2026-Annual Subscription Fees for FY2026-27_e60e24fc.pdf already exists in database.
+2026-07-01 15:00:21,875 INFO     398_30-Mar-2026-List of eligible securities as collateral for Tri-party Repo for Apr 2026_1d1c96f3.zip already exists in database.
+2026-07-01 15:00:21,952 INFO     396_27-Mar-2026-SEBI Annual Clearing Membership Fees for 2026-27_1cafdf36.pdf already exists in database.
+2026-07-01 15:00:22,014 INFO     397_27-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-10_ef08358f.pdf already exists in database.
+2026-07-01 15:00:22,146 INFO     395_23-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-09_f5f982d7.pdf already exists in database.
+2026-07-01 15:00:22,224 INFO     394_20-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-08_fba617b8.pdf already exists in database.
+2026-07-01 15:00:22,299 INFO     393_18-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-07_aade57ba.pdf already exists in database.
+2026-07-01 15:00:22,371 INFO     392_16-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-06_2ad791b1.pdf already exists in database.
+2026-07-01 15:00:22,465 INFO     391_13-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-05_eb04eb56.pdf already exists in database.
+2026-07-01 15:00:22,528 INFO     390_13-Mar-2026-Settlement Calendar April 2026_2913e100.pdf already exists in database.
+2026-07-01 15:00:22,599 INFO     387_10-Mar-2026-Contribution by Issuers to Core Settlement Guarantee Fund (Core SGF) of AMC Repo Clearing Limited_491f418e.zip already exists in database.
+2026-07-01 15:00:22,678 INFO     388_10-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-04_fdba81ce.pdf already exists in database.
+2026-07-01 15:00:22,753 INFO     386_09-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-03_2a11f352.pdf already exists in database.
+2026-07-01 15:00:22,833 INFO     385_05-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-02_2a1a805c.pdf already exists in database.
+2026-07-01 15:00:22,922 INFO     389_05-Mar-2026-Trading Session From DR Site_03f13628.zip already exists in database.
+2026-07-01 15:00:23,015 INFO     384_04-Mar-2026-Ease of Doing Investment (EoDI)_59fc8c63.zip already exists in database.
+2026-07-01 15:00:23,090 INFO     383_04-Mar-2026-SEBI (Stockbrokers) Regulation, 2026_4f9e82c5.zip already exists in database.
+2026-07-01 15:00:23,182 INFO     382_02-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-01_67974585.pdf already exists in database.
+2026-07-01 15:00:23,298 INFO     381_27-Feb-2026-List of eligible securities as collateral for Tri-party Repo for Mar 2026_b28a348c.zip already exists in database.
+2026-07-01 15:00:23,411 INFO     380_25-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-6_99ab6ce4.pdf already exists in database.
+2026-07-01 15:00:23,506 INFO     379_24-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-5_44a176aa.pdf already exists in database.
+2026-07-01 15:00:23,636 INFO     377_23-Feb-2026-Forms for registration of stockbrokers and CM_0f076ed0.zip already exists in database.
+2026-07-01 15:00:23,716 INFO     378_23-Feb-2026-Digital submission of Ongoing Membership Compliances_52d29a68.pdf already exists in database.
+2026-07-01 15:00:23,814 INFO     376_20-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-4_6c6a1664.pdf already exists in database.
+2026-07-01 15:00:23,884 INFO     375_13-Feb-2026-Settlement Calendar Mar 2026_dc82ca2f.pdf already exists in database.
+2026-07-01 15:00:23,966 INFO     374_12-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-3_879d9beb.pdf already exists in database.
+2026-07-01 15:00:24,044 INFO     373_10-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-2_5ac1bfde.pdf already exists in database.
+2026-07-01 15:00:24,147 INFO     372_02-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-1_682ee040.pdf already exists in database.
+2026-07-01 15:00:24,241 INFO     371_30-Jan-2026-List of eligible securities as collateral for Tri-party Repo for Feb 2026_7d450f7f.zip already exists in database.
+2026-07-01 15:00:24,315 INFO     370_29-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-07_45c9e3a9.pdf already exists in database.
+2026-07-01 15:00:24,406 INFO     369_28-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-06_9219e9f7.pdf already exists in database.
+2026-07-01 15:00:24,488 INFO     368_23-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-05_32e7c4e0.pdf already exists in database.
+2026-07-01 15:00:24,596 INFO     367_22-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-04_a835d671.pdf already exists in database.
+2026-07-01 15:00:24,684 INFO     366_21-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-03_d1e20bc4.pdf already exists in database.
+2026-07-01 15:00:24,799 INFO     365_19-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-02_642b43f4.pdf already exists in database.
+2026-07-01 15:00:24,925 INFO     364_14-Jan-2026-Settlement Calendar February 2026_bb691227.pdf already exists in database.
+2026-07-01 15:00:25,031 INFO     363_12-Jan-2026-ARCL - Consultation Paper - Computation of Contributions to Core SGF by Members and Participants_ed6bd453.pdf already exists in database.
+2026-07-01 15:00:25,156 INFO     362_10-Jan-2026-Revised Settlement Calendar January 2026_2a486d77.pdf already exists in database.
+2026-07-01 15:00:25,258 INFO     361_09-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-01_8bbfed16.pdf already exists in database.
+2026-07-01 15:00:25,349 INFO     360_09-Jan-2026-Change in Holiday 2026_04d1ea81.pdf already exists in database.
+2026-07-01 15:00:25,419 INFO     358_31-Dec-2025-List of eligible securities as collateral for Tri-party Repo for January 2026_ac16b934.zip already exists in database.
+2026-07-01 15:00:25,509 INFO     357_29-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-08_3b5ebf3b.pdf already exists in database.
+2026-07-01 15:00:25,569 INFO     356_24-Dec-2025-ARCL - Circular related to ARCL Web Portal_c8cb7233.pdf already exists in database.
+2026-07-01 15:00:25,641 INFO     355_24-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-07_9fcaac77.pdf already exists in database.
+2026-07-01 15:00:25,702 INFO     359_22-Dec-2025-Holiday 2026_4ff8e8cd.pdf already exists in database.
+2026-07-01 15:00:25,800 INFO     354_18-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-06_5e91b9f4.pdf already exists in database.
+2026-07-01 15:00:25,860 INFO     352_16-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-05_1a24b036.pdf already exists in database.
+2026-07-01 15:00:25,916 INFO     351_15-Dec-2025-Settlement Calendar Jan 2025_44805cd6.pdf already exists in database.
+2026-07-01 15:00:25,979 INFO     350_10-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-04_ee355a22.pdf already exists in database.
+2026-07-01 15:00:26,057 INFO     349_08-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-03_1dd282ab.pdf already exists in database.
+2026-07-01 15:00:26,121 INFO     348_04-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-02_392f26e6.pdf already exists in database.
+2026-07-01 15:00:26,196 INFO     347_02-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-01_eade819b.pdf already exists in database.
+2026-07-01 15:00:26,259 INFO     346_28-Nov-2025-List of eligible securities as collateral for Tri-party Repo for December 2025_b558ea51.zip already exists in database.
+2026-07-01 15:00:26,326 INFO     345_26-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-08_d82e0732.pdf already exists in database.
+2026-07-01 15:00:26,425 INFO     344_24-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-07_0481ab24.pdf already exists in database.
+2026-07-01 15:00:26,484 INFO     342_21-Nov-2025-Reminder -Internal Audit Report_3da07bc4.pdf already exists in database.
+2026-07-01 15:00:26,559 INFO     341_19-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-06_fc3dbf08.pdf already exists in database.
+2026-07-01 15:00:26,622 INFO     340_19-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-05_9a8a7910.pdf already exists in database.
+2026-07-01 15:00:26,675 INFO     339_19-Nov-2025-Reminder for Submission of HY NW_September 2025_44163d1c.pdf already exists in database.
+2026-07-01 15:00:26,729 INFO     338_17-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-04_51cf2ab5.pdf already exists in database.
+2026-07-01 15:00:26,794 INFO     337_14-Nov-2025-Settlement Calendar Dec 2025_c580a1b7.pdf already exists in database.
+2026-07-01 15:00:26,847 INFO     336_13-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-03_ed992cfe.pdf already exists in database.
+2026-07-01 15:00:26,906 INFO     335_07-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-02_cec77f92.pdf already exists in database.
+2026-07-01 15:00:26,970 INFO     334_03-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-01_9281cbdd.pdf already exists in database.
+2026-07-01 15:00:27,028 INFO     332_31-Oct-2025-List of eligible securities as collateral for Tri-party Repo for November 2025_a454dacb.zip already exists in database.
+2026-07-01 15:00:27,097 INFO     331_31-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-10_95d05e99.pdf already exists in database.
+2026-07-01 15:00:27,151 INFO     333_31-Oct-2025-ARCL TRAI_d9e848a5.pdf already exists in database.
+2026-07-01 15:00:27,211 INFO     330_29-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-09_63a05195.pdf already exists in database.
+2026-07-01 15:00:27,263 INFO     329_24-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-08_c3d4fba5.pdf already exists in database.
+2026-07-01 15:00:27,330 INFO     328_15-Oct-2025-Settlement Calendar Nov 2025_4edd2a32.pdf already exists in database.
+2026-07-01 15:00:27,386 INFO     327_14-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-07_0866e84c.pdf already exists in database.
+2026-07-01 15:00:27,461 INFO     326_14-Oct-2025-Circular_Corporate Action Handling_dfb4d494.pdf already exists in database.
+2026-07-01 15:00:27,531 INFO     325_13-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-06_b98747b1.pdf already exists in database.
+2026-07-01 15:00:27,584 INFO     324_10-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-05_6a27fd9a.pdf already exists in database.
+2026-07-01 15:00:27,640 INFO     323_08-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-04_be9646bc.pdf already exists in database.
+2026-07-01 15:00:27,700 INFO     322_07-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-03_4b101bc5.pdf already exists in database.
+2026-07-01 15:00:27,754 INFO     321_06-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-02_23065db5.pdf already exists in database.
+2026-07-01 15:00:27,855 INFO     318_01-Oct-2025-Internal Audit_d32622a7.zip already exists in database.
+2026-07-01 15:00:27,972 INFO     320_01-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-01_47e1ea7b.pdf already exists in database.
+2026-07-01 15:00:28,046 INFO     319_01-Oct-2025-ARCL - Annual Return 2025_dec552bb.pdf already exists in database.
+2026-07-01 15:00:28,114 INFO     317_01-Oct-2025-Submission of Half Yearly Networth_September 2025_f31b8e52.pdf already exists in database.
+2026-07-01 15:00:28,188 INFO     314_30-Sep-2025-Revised Contribution by Issuers to Core Settlement Guarantee Fund (Core SGF) of AMC Repo Clearing Limited_e34dc3ac.zip already exists in database.
+2026-07-01 15:00:28,280 INFO     316_30-Sep-2025-List of eligible securities as collateral for Tri-party Repo for Oct 2025_aaa33b58.zip already exists in database.
+2026-07-01 15:00:28,332 INFO     315_30-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-05_a09182ed.pdf already exists in database.
+2026-07-01 15:00:28,397 INFO     313_26-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-04_864afb1a.pdf already exists in database.
+2026-07-01 15:00:28,478 INFO     312_22-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-03_2e26f53f.pdf already exists in database.
+2026-07-01 15:00:28,537 INFO     311_22-Sep-2025-Contribution by Issuers to Core Settlement Guarantee Fund (Core SGF) of AMC Repo Clearing Limited_baeb348d.zip already exists in database.
+2026-07-01 15:00:28,600 INFO     310_18-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-02_bf9986ce.pdf already exists in database.
+2026-07-01 15:00:28,727 INFO     309_18-Sep-2025-Live Trading session from DR_84ea543c.zip already exists in database.
+2026-07-01 15:00:28,824 INFO     308_17-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-01_708f3cdb.pdf already exists in database.
+2026-07-01 15:00:28,902 INFO     307_15-Sep-2025-Settlement Calendar Oct 2025_7d45d47c.pdf already exists in database.
+2026-07-01 15:00:29,001 INFO     306_05-Sep-2025-Change in Settlement holiday and Revision in forward leg Settlement _c4ea9117.pdf already exists in database.
+2026-07-01 15:00:29,069 INFO     305_04-Sep-2025-Revised Settlement Calendar-Sept 2025_f31829ea.zip already exists in database.
+2026-07-01 15:00:29,145 INFO     304_04-Sep-2025-Change in Holiday _e21f2f09.zip already exists in database.
+2026-07-01 15:00:29,239 INFO     303_29-Aug-2025-List of eligible securities as collateral for Tri-party Repo for Sept 2025_d65b685b.zip already exists in database.
+2026-07-01 15:00:29,338 INFO     302_28-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-05_978a74ea.pdf already exists in database.
+2026-07-01 15:00:29,409 INFO     301_25-Aug-2025-Revision in Risk Management Framework_8fdf81e3.pdf already exists in database.
+2026-07-01 15:00:29,493 INFO     300_21-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-04_e57d5805.pdf already exists in database.
+2026-07-01 15:00:29,554 INFO     299_18-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-03_98dc8bee.pdf already exists in database.
+2026-07-01 15:00:29,612 INFO     298_14-Aug-2025-Settlement Calendar Sept 2025_0e998ee5.pdf already exists in database.
+2026-07-01 15:00:29,678 INFO     297_08-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-02_0bd19e26.pdf already exists in database.
+2026-07-01 15:00:29,743 INFO     296_08-Aug-2025-ARCL - Review, Appeal or Waiver of penalty_08bc82d9.zip already exists in database.
+2026-07-01 15:00:29,806 INFO     295_05-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-01_19aa544a.pdf already exists in database.
+2026-07-01 15:00:29,881 INFO     294_31-Jul-2025-Revised List of eligible securities as collateral for Tri-party Repo for Aug 2025_080d1d75.zip already exists in database.
+2026-07-01 15:00:29,941 INFO     293_31-Jul-2025-List of Additional eligible securities for July 2025-06_9252a3e3.pdf already exists in database.
+2026-07-01 15:00:30,005 INFO     292_30-Jul-2025-List of eligible securities as collateral for Tri-party Repo for Aug 2025_4f6326b4.zip already exists in database.
+2026-07-01 15:00:30,074 INFO     291_29-Jul-2025-List of Additional eligible securities for July 2025-05_91773d5b.pdf already exists in database.
+2026-07-01 15:00:30,140 INFO     290_15-Jul-2025-Settlement Calendar Aug 2025_5c925426.pdf already exists in database.
+2026-07-01 15:00:30,201 INFO     289_09-Jul-2025-List of Additional eligible securities for July 2025-04_85eb8baa.pdf already exists in database.
+2026-07-01 15:00:30,261 INFO     288_07-Jul-2025-List of Additional eligible securities for July 2025-03_8dc98e4d.pdf already exists in database.
+2026-07-01 15:00:30,331 INFO     286_03-Jul-2025-List of Additional eligible securities for July 2025-02_30fbbec1.pdf already exists in database.
+2026-07-01 15:00:30,406 INFO     287_03-Jul-2025-Tri Party Repo in Corporate Debt Securities Reports_a7819e0f.pdf already exists in database.
+2026-07-01 15:00:30,487 INFO     285_01-Jul-2025-List of Additional eligible securities for July 2025-01_bfd565fa.pdf already exists in database.
+2026-07-01 15:00:30,541 INFO     284_27-Jun-2025-List of eligible securities as collateral for Tri-party Repo for July 2025_73fde1e9.zip already exists in database.
+2026-07-01 15:00:30,616 INFO     283_26-Jun-2025-ARCL - Updation of GSTIN with respect to ISD Provision_201dbb0b.pdf already exists in database.
+2026-07-01 15:00:30,678 INFO     282_24-Jun-2025-ARCL - SEBI UPI Payment_8a99609e.pdf already exists in database.
+2026-07-01 15:00:30,744 INFO     281_24-Jun-2025-List of Additional eligible securities for June 2025-08_c0fe2081.pdf already exists in database.
+2026-07-01 15:00:30,820 INFO     280_18-Jun-2025-List of Additional eligible securities for June 2025-07_31e452f4.pdf already exists in database.
+2026-07-01 15:00:30,899 INFO     279_17-Jun-2025-List of Additional eligible securities for June 2025-06_45ef0545.pdf already exists in database.
+2026-07-01 15:00:30,973 INFO     278_16-Jun-2025-List of Additional eligible securities for June 2025-05_0a4e8b4c.pdf already exists in database.
+2026-07-01 15:00:31,075 INFO     277_13-Jun-2025-Settlement Calendar July 2025_dcae4510.pdf already exists in database.
+2026-07-01 15:00:31,168 INFO     276_11-Jun-2025-List of Additional eligible securities for June 2025-04_7916b546.pdf already exists in database.
+2026-07-01 15:00:31,235 INFO     275_11-Jun-2025-Gazette Notification_46e67ce6.pdf already exists in database.
+2026-07-01 15:00:31,322 INFO     274_10-Jun-2025-List of Additional eligible securities for June 2025-03_e2f8185c.pdf already exists in database.
+2026-07-01 15:00:31,414 INFO     273_03-Jun-2025-List of Additional eligible securities for June 2025-02_e136158c.pdf already exists in database.
+2026-07-01 15:00:31,516 INFO     272_03-Jun-2025-List of Additional eligible securities for June 2025-01_14c37b83.pdf already exists in database.
+2026-07-01 15:00:31,596 INFO     271_02-Jun-2025-Circular - Surrender - IDFC First Bank 02JUN2025_e57b7e33.pdf already exists in database.
+2026-07-01 15:00:31,678 INFO     270_29-May-2025-List of Additional eligible securities for May 2025-12_ea6bd886.pdf already exists in database.
+2026-07-01 15:00:31,751 INFO     269_29-May-2025-List of eligible securities as collateral for Tri-party Repo for Jun 2025_a75c46d6.zip already exists in database.
+2026-07-01 15:00:31,853 INFO     268_28-May-2025-Circular- MemberComplianceCalendar_7aeb07c9.pdf already exists in database.
+2026-07-01 15:00:31,961 INFO     265_27-May-2025-Norms for Internal Audit & Audit Committee of MIIs_cb1459cd.pdf already exists in database.
+2026-07-01 15:00:32,040 INFO     266_27-May-2025-Cooling off period for KMPs and PID_46ca4f42.pdf already exists in database.
+2026-07-01 15:00:32,133 INFO     267_27-May-2025-List of Additional eligible securities for May 2025-11_051cb793.pdf already exists in database.
+2026-07-01 15:00:32,205 INFO     264_22-May-2025-List of Additional eligible securities for May 2025-10_6875fa9d.pdf already exists in database.
+2026-07-01 15:00:32,262 INFO     263_21-May-2025-List of Additional eligible securities for May 2025-09_09f3ed0b.pdf already exists in database.
+2026-07-01 15:00:32,332 INFO     261_19-May-2025-Revised Procedure for Issuers Contribution to Core Settlement Guarantee Fund_965ac013.zip already exists in database.
+2026-07-01 15:00:32,400 INFO     262_19-May-2025-List of Additional eligible securities for May 2025-08_a9c7f2b4.pdf already exists in database.
+2026-07-01 15:00:32,486 INFO     258_15-May-2025-List of Additional eligible securities for May 2025-06_59abd54b.pdf already exists in database.
+2026-07-01 15:00:32,563 INFO     257_15-May-2025-Settlement Calendar June 2025_d6e7be7b.pdf already exists in database.
+2026-07-01 15:00:32,666 INFO     256_14-May-2025-List of Additional eligible securities for May 2025-05_30af77cd.pdf already exists in database.
+2026-07-01 15:00:32,763 INFO     255_13-May-2025-List of Additional eligible securities for May 2025-04_0ba6b77d.pdf already exists in database.
+2026-07-01 15:00:32,844 INFO     254_09-May-2025-List of Additional eligible securities for May 2025-03_c84b9277.pdf already exists in database.
+2026-07-01 15:00:32,915 INFO     253_09-May-2025-Master Circular_3ceb31c3.zip already exists in database.
+2026-07-01 15:00:33,816 INFO     252_09-May-2025-Revision in Timeline for Payment of Transaction Charges _78cdc223.pdf already exists in database.
+2026-07-01 15:00:33,885 INFO     251_08-May-2025-Internal Audit Report Reminder_a4332508.pdf already exists in database.
+2026-07-01 15:00:33,962 INFO     250_08-May-2025-Reminder for Submission of HY NW_March 2025_0129563a.pdf already exists in database.
+2026-07-01 15:00:34,032 INFO     249_07-May-2025-List of Additional eligible securities for May 2025-02_2812d590.pdf already exists in database.
+2026-07-01 15:00:34,089 INFO     248_05-May-2025-Modification of Issuers contribution towards Core Settlement Guarantee Fund_d9875d47.pdf already exists in database.
+2026-07-01 15:00:34,159 INFO     247_02-May-2025-List of Additional eligible securities for May 2025-01_9d17cb96.pdf already exists in database.
+2026-07-01 15:00:34,211 INFO     245_29-Apr-2025-List of eligible securities as collateral for Tri-party Repo for May 2025_2574ffff.zip already exists in database.
+2026-07-01 15:00:34,293 INFO     246_29-Apr-2025-List of additional eligible securities as collateral for Tri-party Repo for April 2025-6_c377bfca.pdf already exists in database.
+2026-07-01 15:00:34,361 INFO     244_23-Apr-2025-List of Additional eligible securities for April 2025-05_ecab60d1.pdf already exists in database.
+2026-07-01 15:00:34,429 INFO     243_21-Apr-2025-List of Additional eligible securities for April 2025-04_16c9daf6.pdf already exists in database.
+2026-07-01 15:00:34,521 INFO     242_17-Apr-2025-List of Additional eligible securities for April 2025-03_04c2d57f.pdf already exists in database.
+2026-07-01 15:00:34,632 INFO     241_15-Apr-2025-Settlement Calendar May 2025_c71a247b.pdf already exists in database.
+2026-07-01 15:00:34,709 INFO     240_11-Apr-2025-List of Additional eligible securities for April 2025-02_34f4dcc2.pdf already exists in database.
+2026-07-01 15:00:34,797 INFO     239_08-Apr-2025-Internal Audit Report_29121dad.zip already exists in database.
+2026-07-01 15:00:34,874 INFO     238_04-Apr-2025-List of Additional eligible securities for April 2025_56018f6b.pdf already exists in database.
+2026-07-01 15:00:34,936 INFO     237_04-Apr-2025-Submission of HY NW_March 2025_website_cdd4f0dc.pdf already exists in database.
+2026-07-01 15:00:35,037 INFO     236_02-Apr-2025-Annual Subscription Fees for 2025-26_122439cf.pdf already exists in database.
+2026-07-01 15:00:35,106 INFO     235_28-Mar-2025-List of eligible securities for April 2025_fe0fefd5.zip already exists in database.
+2026-07-01 15:00:35,187 INFO     234_28-Mar-2025-SEBI Annual Clearing Membership Fees for 2025-26_ada735bb.pdf already exists in database.
+2026-07-01 15:00:35,265 INFO     233_27-Mar-2025-Circular-Issuer Contribution Toward Core SGF_8fc2f1b2.zip already exists in database.
+2026-07-01 15:00:35,326 INFO     232_26-Mar-2025-List of Additional eligible securities for March 2025-03_40f148c8.pdf already exists in database.
+2026-07-01 15:00:35,393 INFO     231_26-Mar-2025-List of Additional eligible securities for March 2025_a5d51dbc.pdf already exists in database.
+2026-07-01 15:00:35,457 INFO     230_20-Mar-2025-Derivium Tradition Securities Private Limited_cir_8199c94c.pdf already exists in database.
+2026-07-01 15:00:35,516 INFO     229_20-Mar-2025-East India Securities Ltd_cir_a0569d94.pdf already exists in database.
+2026-07-01 15:00:35,586 INFO     228_17-Mar-2025-Settlement Calendar April 2025_ee9da592.pdf already exists in database.
+2026-07-01 15:00:35,655 INFO     227_08-Mar-2025-Trading Session from Disaster recovery Site_c331a953.zip already exists in database.
+2026-07-01 15:00:35,747 INFO     226_07-Mar-2025-List of Additional eligible securities for March 2025_770a009d.pdf already exists in database.
+2026-07-01 15:00:35,809 INFO     225_05-Mar-2025-ARCL - Penalty circular Final for website_4a6a40e8.pdf already exists in database.
+2026-07-01 15:00:35,887 INFO     223_04-Mar-2025-Circular - Member Participant Contribution Toward Core SGF_bc68bb1f.pdf already exists in database.
+2026-07-01 15:00:36,962 INFO     222_28-Feb-2025-Circular - Risk Management Framework Amendments_d6d9e8cd.pdf already exists in database.
+2026-07-01 15:00:37,272 INFO     219_24-Feb-2025-ARCL - Member Compliance Calendar Circular_692eb735.pdf already exists in database.
+2026-07-01 15:00:37,349 INFO     218_24-Feb-2025-List of Additional eligible securities for Feb 2025-04_caf7d1ac.pdf already exists in database.
+2026-07-01 15:00:37,439 INFO     216_14-Feb-2025-Settlement Calendar March 2025_b50f882c.pdf already exists in database.
+2026-07-01 15:00:37,505 INFO     217_14-Feb-2025-List of Additional eligible securities for Feb 2025-03_3fc34cfe.pdf already exists in database.
+2026-07-01 15:00:37,574 INFO     215_13-Feb-2025-List of Additional eligible securities for Feb 2025-02_aeb5339f.pdf already exists in database.
+2026-07-01 15:00:37,671 INFO     214_05-Feb-2025-List of Additional eligible securities for Feb 2025_844f1415.pdf already exists in database.
+2026-07-01 15:00:37,746 INFO     213_03-Feb-2025-Parameters for external evaluation of Performance of Statutory Committees of MII_Feb 3 2025_final_c426076c.pdf already exists in database.
+2026-07-01 15:00:37,828 INFO     212_30-Jan-2025-List of eligible securities for February 2025_0b7adbf1.zip already exists in database.
+2026-07-01 15:00:37,882 INFO     211_24-Jan-2025-ARCL - Circular - Freezing of ISIN of ARCL_276fa375.pdf already exists in database.
+2026-07-01 15:00:37,959 INFO     210_23-Jan-2025-List of Additional eligible securities for Jan 2025-3_da64994d.pdf already exists in database.
+2026-07-01 15:00:38,026 INFO     209_15-Jan-2025-Settlement Calendar Feb 2025_2fee47ce.pdf already exists in database.
+2026-07-01 15:00:38,091 INFO     208_09-Jan-2025-List of Additional eligible securities for Jan 2025-2_281ad760.pdf already exists in database.
+2026-07-01 15:00:38,150 INFO     207_03-Jan-2025-List of Additional eligible securities for Jan 2025-1_25fd918d.pdf already exists in database.
+2026-07-01 15:00:38,219 INFO     206_27-Dec-2024-List of eligible securities for January 2025_05bf7950.zip already exists in database.
+2026-07-01 15:00:38,303 INFO     205_27-Dec-2024-List of Additional eligible securities for Dec 2024-4_0db7bd1b.pdf already exists in database.
+2026-07-01 15:00:38,366 INFO     204_19-Dec-2024-List of Additional eligible securities for Dec 2024-3_be86910a.pdf already exists in database.
+2026-07-01 15:00:38,505 INFO     203_19-Dec-2024-List of Additional eligible securities for Dec 2024-2_a38929e4.pdf already exists in database.
+2026-07-01 15:00:38,574 INFO     201_16-Dec-2024-Settlement Calendar Jan 2025_46cb5c67.pdf already exists in database.
+2026-07-01 15:00:38,652 INFO     202_13-Dec-2024-Holiday 2025_719f93fc.pdf already exists in database.
+2026-07-01 15:00:38,768 INFO     200_10-Dec-2024-List of Additional eligible securities for Dec 2024-1_c83c4055.pdf already exists in database.
+2026-07-01 15:00:38,876 INFO     199_04-Dec-2024-Fit and Proper Declaration from Shareholders_a8f7d0f7.zip already exists in database.
+2026-07-01 15:00:38,946 INFO     198_29-Nov-2024-List of eligible securities for December 2024_6901db48.zip already exists in database.
+2026-07-01 15:00:39,036 INFO     197_26-Nov-2024-Handling of Unscheduled Holiday_8e65a0e0.pdf already exists in database.
+2026-07-01 15:00:39,144 INFO     196_25-Nov-2024-ARCL Circular_Guidelines to SE, CC and DP_a6b3c260.zip already exists in database.
+2026-07-01 15:00:39,247 INFO     195_22-Nov-2024-Prior approval for transfer of Shares_705cad40.zip already exists in database.
+2026-07-01 15:00:39,318 INFO     193_21-Nov-2024-Reminder_Half Yearly Internal Audit Report_Sep 24_f7546243.pdf already exists in database.
+2026-07-01 15:00:39,384 INFO     192_21-Nov-2024-Reminder_Submission of HYNW_Sep 24_c1b35fb0.pdf already exists in database.
+2026-07-01 15:00:39,470 INFO     194_21-Nov-2024-Amendment to Byelaws_191124_Final_a61d52ff.pdf already exists in database.
+2026-07-01 15:00:39,575 INFO     190_14-Nov-2024-Revised Settlement Calendar November 2024_693fc3fa.pdf already exists in database.
+2026-07-01 15:00:39,643 INFO     191_14-Nov-2024-Settlement Calendar Dec 2024_e05cf238.pdf already exists in database.
+2026-07-01 15:00:39,712 INFO     189_14-Nov-2024-Change in Holiday 2024_a28bf164.pdf already exists in database.
+2026-07-01 15:00:39,792 INFO     188_12-Nov-2024-List of Additional eligible securities for Nov 2024-2_930594c7.pdf already exists in database.
+2026-07-01 15:00:39,853 INFO     187_08-Nov-2024-List of Additional eligible securities for Nov 2024-1_aae58191.pdf already exists in database.
+2026-07-01 15:00:39,928 INFO     186_06-Nov-2024-Amendment to Regulation_20240827_Final_727aa6ed.pdf already exists in database.
+2026-07-01 15:00:39,992 INFO     185_29-Oct-2024-List of eligible securities for November 2024_1f9de81d.zip already exists in database.
+2026-07-01 15:00:40,061 INFO     184_28-Oct-2024-Circular - Modification in eligible issuer_10a4f0bb.pdf already exists in database.
+2026-07-01 15:00:40,154 INFO     182_24-Oct-2024-Extend of Market time for trade date October 24 2024_157d95c4.pdf already exists in database.
+2026-07-01 15:00:40,236 INFO     183_23-Oct-2024-List of Additional eligible securities for Oct 2024-3_01f7590b.pdf already exists in database.
+2026-07-01 15:00:40,325 INFO     180_16-Oct-2024-ARCL Circular Monitoring Shareholding of MII for website_31450baa.pdf already exists in database.
+2026-07-01 15:00:40,395 INFO     179_16-Oct-2024-List of Additional eligible securities for Oct 2024-2_7c6af4b0.pdf already exists in database.
+2026-07-01 15:00:40,452 INFO     178_15-Oct-2024-Settlement Calendar Nov 2024_4f42e44e.pdf already exists in database.
+2026-07-01 15:00:40,525 INFO     177_11-Oct-2024-Circular - Modification in eligible issuer_4ca54417.pdf already exists in database.
+2026-07-01 15:00:40,594 INFO     176_10-Oct-2024-ARCL Half Yearly Internal Audit Report -September 2024_d3af4212.zip already exists in database.
+2026-07-01 15:00:40,661 INFO     175_08-Oct-2024-List of Additional eligible securities for Oct 2024-1_d1ec4359.pdf already exists in database.
+2026-07-01 15:00:40,769 INFO     174_04-Oct-2024-Submission of HY NW_Sep 2024_b2ba9667.pdf already exists in database.
+2026-07-01 15:00:40,842 INFO     173_30-Sep-2024-Trading Session from DR_60f6de0d.zip already exists in database.
+2026-07-01 15:00:40,940 INFO     172_27-Sep-2024-List of eligible securities for October 2024_a868d598.zip already exists in database.
+2026-07-01 15:00:41,015 INFO     171_27-Sep-2024-Parameters for Performance Evaluation of Market Infrastructur_c2f67894.pdf already exists in database.
+2026-07-01 15:00:41,073 INFO     170_26-Sep-2024-Circular-Issuer Contribution Toward Core SGF_412977fe.pdf already exists in database.
+2026-07-01 15:00:41,131 INFO     169_25-Sep-2024-List of Additional eligible securities for Sept 2024-5_a015c266.pdf already exists in database.
+2026-07-01 15:00:41,196 INFO     167_20-Sep-2024-List of Additional eligible securities for Sept 2024-4_575f73bf.pdf already exists in database.
+2026-07-01 15:00:41,262 INFO     166_20-Sep-2024-Circular-Risk Management Framework Amendments_5f081827.pdf already exists in database.
+2026-07-01 15:00:41,327 INFO     165_19-Sep-2024-Circular-Issuer Contribution Toward Core SGF_1f741252.zip already exists in database.
+2026-07-01 15:00:41,411 INFO     164_17-Sep-2024-List of Additional eligible securities for Sept 2024-3_cd96e156.pdf already exists in database.
+2026-07-01 15:00:41,472 INFO     163_16-Sep-2024-Settlement Calendar Oct 2024_f46d37f2.pdf already exists in database.
+2026-07-01 15:00:41,544 INFO     161_14-Sep-2024-Change in Settlement Calendar September 2024_09c056e1.pdf already exists in database.
+2026-07-01 15:00:41,616 INFO     159_13-Sep-2024-List of Additional eligible securities for Sept 2024-2_70618a09.pdf already exists in database.
+2026-07-01 15:00:41,689 INFO     158_09-Sep-2024-List of Additional eligible securities for Sept 2024-1_9514e827.pdf already exists in database.
+2026-07-01 15:00:41,764 INFO     157_04-Sep-2024-Introduction of Commercial Paper (CP) and Certificate of Deposit (CDs)_72303907.pdf already exists in database.
+2026-07-01 15:00:41,883 INFO     156_03-Sep-2024-Change in haircuts for eligible collateral_a837696c.pdf already exists in database.
+2026-07-01 15:00:41,981 INFO     155_02-Sep-2024-Membership Eligibility criteria_3da46439.pdf already exists in database.
+2026-07-01 15:00:42,145 INFO     153_29-Aug-2024-List of Eligible Securities for September 2024_88c0b1e2.zip already exists in database.
+2026-07-01 15:00:42,218 INFO     152_28-Aug-2024-List of Additional eligible securities for Aug 2024-4_b23f369b.pdf already exists in database.
+2026-07-01 15:00:42,301 INFO     151_27-Aug-2024-Consolidation of Baskets 3_5ea6a650.pdf already exists in database.
+2026-07-01 15:00:42,376 INFO     150_27-Aug-2024-Amendment to Regulation_20240827_d7edbe54.pdf already exists in database.
+2026-07-01 15:00:42,511 INFO     149_16-Aug-2024-List of Additional eligible securities for Aug 2024-3_8c3bb333.pdf already exists in database.
+2026-07-01 15:00:42,592 INFO     148_14-Aug-2024-Settlement Calendar Sep 2024_58384e68.pdf already exists in database.
+2026-07-01 15:00:42,678 INFO     147_12-Aug-2024-List of Additional eligible securities for Aug 2024-2_1cbcf48f.pdf already exists in database.
+2026-07-01 15:00:42,770 INFO     146_07-Aug-2024-List of Additional eligible securities for Aug 2024-1_9465c801.pdf already exists in database.
+2026-07-01 15:00:42,847 INFO     145_31-Jul-2024-List of Eligible Securities for August 2024_a6029b0a.zip already exists in database.
+2026-07-01 15:00:42,915 INFO     144_24-Jul-2024-List of Additional eligible securities for July 2024-4_3a9687b0.pdf already exists in database.
+2026-07-01 15:00:42,987 INFO     143_16-Jul-2024-List of Additional eligible securities for July 2024-3_fcd29167.pdf already exists in database.
+2026-07-01 15:00:43,070 INFO     141_15-Jul-2024-Settlement Calendar August 2024_824b28c1.pdf already exists in database.
+2026-07-01 15:00:43,142 INFO     140_09-Jul-2024-List of Additional eligible securities for July 2024-2_f471b587.pdf already exists in database.
+2026-07-01 15:00:43,210 INFO     136_02-Jul-2024-List of Additional eligible securities for July 2024-1_3aaab842.pdf already exists in database.
+2026-07-01 15:00:43,283 INFO     135_28-Jun-2024-List of Eligible Securities for July 2024_46851c1e.zip already exists in database.
+2026-07-01 15:00:43,346 INFO     134_28-Jun-2024-Circular_ ARCL Beta Version-1_4f683b84.pdf already exists in database.
+2026-07-01 15:00:43,435 INFO     131_21-Jun-2024-List of Additional eligible securities for June 2024-4_dc003bbf.pdf already exists in database.
+2026-07-01 15:00:43,498 INFO     130_21-Jun-2024-Contribution to Core Settlement Guarantee Fund and Default Waterfall for Limited Purpose Clearing Corporation_70ac4a66.pdf already exists in database.
+2026-07-01 15:00:43,574 INFO     129_20-Jun-2024-Introduction of CPs and CDs as eligible collateral for Tri Party Repo_521fc7b7.pdf already exists in database.
+2026-07-01 15:00:43,648 INFO     125_14-Jun-2024-Settlement Calendar July 2024_9b80d74b.pdf already exists in database.
+2026-07-01 15:00:43,705 INFO     126_14-Jun-2024-List of Additional eligible securities for June 2024-3_d7ece6f5.pdf already exists in database.
+2026-07-01 15:00:43,787 INFO     124_10-Jun-2024-Collateral & Margin request through ARCL Connect_fbeace8c.pdf already exists in database.
+2026-07-01 15:00:43,848 INFO     123_07-Jun-2024-Transaction Charges for Tri Party Repo_d6b439cf.pdf already exists in database.
+2026-07-01 15:00:43,951 INFO     122_06-Jun-2024-List of Additional eligible securities for June 2024-2_dbda37a8.pdf already exists in database.
+2026-07-01 15:00:44,019 INFO     120_03-Jun-2024-List of Additional eligible securities for June 2024-1_0e50b8a3.pdf already exists in database.
+2026-07-01 15:00:44,085 INFO     118_31-May-2024-Submission of Half Yearly Net Worth Certific_e8cf7d33.pdf already exists in database.
+2026-07-01 15:00:44,150 INFO     119_30-May-2024-Submission of Half Yearly Internal Audit Report -Extension of timeline for submission_32378194.pdf already exists in database.
+2026-07-01 15:00:44,237 INFO     121_29-May-2024-Norms for acceptable collaterals and exposure of Clearing Corporation_1cdb9cc9.zip already exists in database.
+2026-07-01 15:00:44,311 INFO     117_29-May-2024-List of Eligible Securities for June 2024_1b96197a.zip already exists in database.
+2026-07-01 15:00:44,376 INFO     113_28-May-2024-Norms for sharing of real time price data to third parties_2d5d9740.zip already exists in database.
+2026-07-01 15:00:44,464 INFO     112_27-May-2024-List of Additional eligible securities for May 2024-8_c0d4290b.pdf already exists in database.
+2026-07-01 15:00:44,560 INFO     111_17-May-2024-List of Additional eligible securities for May 2024-7_0bc6e29e.pdf already exists in database.
+2026-07-01 15:00:44,652 INFO     110_16-May-2024-List of Additional eligible securities for May 2024-6_2f07f705.pdf already exists in database.
+2026-07-01 15:00:44,710 INFO     109_15-May-2024-Settlement Calendar June 2024_b401091f.pdf already exists in database.
+2026-07-01 15:00:44,761 INFO     108_14-May-2024-List of Additional eligible securities for May 2024-5_57ac13a7.pdf already exists in database.
+2026-07-01 15:00:44,815 INFO     107_09-May-2024-List of Additional eligible securities for May 2024-4_1e7db277.pdf already exists in database.
+2026-07-01 15:00:44,903 INFO     106_08-May-2024-List of Additional eligible securities for May 2024-3_9863b224.pdf already exists in database.
+2026-07-01 15:00:45,001 INFO     105_07-May-2024-List of Additional eligible securities for May 2024-2_f6b10f3a.pdf already exists in database.
+2026-07-01 15:00:45,082 INFO     104_02-May-2024-List of Additional eligible securities for May 2024-1_302f9c77.pdf already exists in database.
+2026-07-01 15:00:45,162 INFO     103_02-May-2024-Consolidation of Baskets_f658f87c.pdf already exists in database.
+2026-07-01 15:00:45,257 INFO     102_29-Apr-2024-List of Eligible Securities for May 2024_02514ebe.zip already exists in database.
+2026-07-01 15:00:45,323 INFO     101_25-Apr-2024-Consolidation of Baskets_90398bb8.pdf already exists in database.
+2026-07-01 15:00:45,385 INFO     100_22-Apr-2024-List of Additional eligible securities for April 2024-3_0fc5307f.pdf already exists in database.
+2026-07-01 15:00:45,474 INFO     99_18-Apr-2024-List of Additional eligible securities for April 2024-2_2ae29bf9.pdf already exists in database.
+2026-07-01 15:00:45,561 INFO     95_16-Apr-2024-Revised Settlement Calendar May 2024_364b92d6.pdf already exists in database.
+2026-07-01 15:00:45,633 INFO     94_16-Apr-2024-Change in Holiday 2024_b6f42cd9.pdf already exists in database.
+2026-07-01 15:00:45,712 INFO     93_15-Apr-2024-Annual Subscription Fees_49260c2a.pdf already exists in database.
+2026-07-01 15:00:45,785 INFO     92_15-Apr-2024-Settlement Calendar May 2024_93b4992a.pdf already exists in database.
+2026-07-01 15:00:45,876 INFO     89_08-Apr-2024-Launch of ARCL Connect Beta Version_355b9b20.pdf already exists in database.
+2026-07-01 15:00:45,997 INFO     88_05-Apr-2024-List of Additional eligible securities for April 2024-1_28aaadbe.pdf already exists in database.
+2026-07-01 15:00:46,100 INFO     87_02-Apr-2024-SEBI Annual Clearing Membership Fees_dae97b53.pdf already exists in database.
+2026-07-01 15:00:46,176 INFO     86_28-Mar-2024-Revised list of Eligible Securities for April 2024_6c1f9fbf.zip already exists in database.
+2026-07-01 15:00:46,245 INFO     85_27-Mar-2024-List of Eligible Securities for April 2024_364680f9.zip already exists in database.
+2026-07-01 15:00:46,340 INFO     84_23-Mar-2024-Trading Session from DR_9f274be1.zip already exists in database.
+2026-07-01 15:00:46,429 INFO     82_22-Mar-2024-Circular - Modification in Eligible Issuer_dbf729e1.pdf already exists in database.
+2026-07-01 15:00:46,493 INFO     83_22-Mar-2024-List of Additional eligible securities for March 2024-7_346145d2.pdf already exists in database.
+2026-07-01 15:00:46,623 INFO     81_20-Mar-2024-List of Additional eligible securities for March 2024-6_ae5ac71f.pdf already exists in database.
+2026-07-01 15:00:47,540 INFO     80_19-Mar-2024-List of Additional eligible securities for March 2024-5_154e2e0c.pdf already exists in database.
+2026-07-01 15:00:47,610 INFO     79_15-Mar-2024-Settlement Calander April 2024_efe09c09.pdf already exists in database.
+2026-07-01 15:00:47,672 INFO     78_14-Mar-2024-List of Additional eligible securities for March 2024-4_234fece8.pdf already exists in database.
+2026-07-01 15:00:47,735 INFO     77_12-Mar-2024-List of Additional eligible securities for March 2024-3_e5e2ba66.pdf already exists in database.
+2026-07-01 15:00:47,815 INFO     76_12-Mar-2024-Corporate action handling_a7cb75d1.pdf already exists in database.
+2026-07-01 15:00:47,908 INFO     75_11-Mar-2024-Waiver of Transaction Charges_ee2e483b.pdf already exists in database.
+2026-07-01 15:00:48,010 INFO     74_05-Mar-2024-List of Additional eligible securities for March 2024-2_54c6515a.pdf already exists in database.
+2026-07-01 15:00:48,081 INFO     73_01-Mar-2024-Revision in Eligibility Criteria for Participants_31414fd2.pdf already exists in database.
+2026-07-01 15:00:48,156 INFO     71_27-Feb-2024-List of Additional eligible securities for February 2024-7_735e0487.pdf already exists in database.
+2026-07-01 15:00:48,288 INFO     70_22-Feb-2024-Transaction Charges for Tri Party Repo_2a7357b1.pdf already exists in database.
+2026-07-01 15:00:48,362 INFO     69_21-Feb-2024-List of Additional eligible securities for February 2024-6_4eb81fbe.pdf already exists in database.
+2026-07-01 15:00:48,432 INFO     68_15-Feb-2024-List of Additional eligible securities for February 2024-5_e736eccb.pdf already exists in database.
+2026-07-01 15:00:48,558 INFO     67_15-Feb-2024-Settlement Calandar March 2024_b3e51814.pdf already exists in database.
+2026-07-01 15:00:48,625 INFO     66_13-Feb-2024-List of Additional eligible securities for February 2024-4_fc6e144c.pdf already exists in database.
+2026-07-01 15:00:48,694 INFO     65_09-Feb-2024-List of Additional eligible securities for February 2024-3_225c8ae2.pdf already exists in database.
+2026-07-01 15:00:48,757 INFO     64_06-Feb-2024-List of Additional eligible securities for February 2024-2_3d2f8e97.pdf already exists in database.
+2026-07-01 15:00:48,821 INFO     63_06-Feb-2024-Revision in Funds Pay-Out timing_4ebfd924.pdf already exists in database.
+2026-07-01 15:00:48,886 INFO     62_02-Feb-2024-List of Additional eligible securities for February 2024-1_895c5d2a.pdf already exists in database.
+2026-07-01 15:00:48,962 INFO     60_29-Jan-2024-List of Additional eligible securities for January 2024-3_b6f2fefd.pdf already exists in database.
+2026-07-01 15:00:49,063 INFO     61_29-Jan-2024-List of eligible securities for February 2024_3440a1e6.zip already exists in database.
+2026-07-01 15:00:49,163 INFO     59_24-Jan-2024-List of Additional eligible securities for January 2024-2_1e33daa7.pdf already exists in database.
+2026-07-01 15:00:49,273 INFO     58_23-Jan-2024-List of Additional eligible securities for January 2024-1_e132e6dc.pdf already exists in database.
+2026-07-01 15:00:49,384 INFO     55_19-Jan-2024-Change in Settlement Calendar January 2024_7cb025a3.zip already exists in database.
+2026-07-01 15:00:49,492 INFO     54_19-Jan-2024-Change in Holiday 2024_596876e1.zip already exists in database.
+2026-07-01 15:00:49,584 INFO     53_15-Jan-2024-List of Additional eligible securities for January 2024_a851367a.pdf already exists in database.
+2026-07-01 15:00:49,675 INFO     51_15-Jan-2024-Settlement Calendar February 2024_1101cc1f.pdf already exists in database.
+2026-07-01 15:00:49,739 INFO     50_28-Dec-2023-List of eligible securities for January 2024_48acee6b.zip already exists in database.
+2026-07-01 15:00:49,842 INFO     49_27-Dec-2023-Holiday for 2024_7e4d2724.pdf already exists in database.
+2026-07-01 15:00:49,941 INFO     47_20-Dec-2023-Circular - Modification in Eligible Issuer_4e887c69.pdf already exists in database.
+2026-07-01 15:00:50,047 INFO     48_20-Dec-2023-Modification of Eligible ISIN For December 2023_31328327.pdf already exists in database.
+2026-07-01 15:00:50,112 INFO     46_19-Dec-2023-Settlement Calendar January 2024_ad40164c.pdf already exists in database.
+2026-07-01 15:00:50,198 INFO     45_08-Dec-2023-Waiver of Transaction Charges_106d1620.pdf already exists in database.
+2026-07-01 15:00:50,312 INFO     44_07-Dec-2023-Revised Eligible ISIN For December 2023_b92a7ba4.zip already exists in database.
+2026-07-01 15:00:50,403 INFO     42_22-Nov-2023-Change in Registered Office Address_96713d50.pdf already exists in database.
+2026-07-01 15:00:50,495 INFO     40_20-Nov-2023-Circular - Modification in eligible issuer_9ff21d5c.pdf already exists in database.
+2026-07-01 15:00:50,551 INFO     41_20-Nov-2023-Modification of Eligible ISIN For November 2023_6902c2ea.zip already exists in database.
+2026-07-01 15:00:50,611 INFO     39_15-Nov-2023-Settlement Calendar December 2023_5ab8da47.pdf already exists in database.
+2026-07-01 15:00:50,691 INFO     38_08-Nov-2023-Additional Eligible ISIN For November 2023_838fc89d.zip already exists in database.
+2026-07-01 15:00:50,782 INFO     37_01-Nov-2023-Revision in Eligibility Criteria for Participant_d5f81ea9.pdf already exists in database.
+2026-07-01 15:00:50,848 INFO     36_27-Oct-2023-Eligible ISIN For November 2023_cf0be778.zip already exists in database.
+2026-07-01 15:00:50,980 INFO     34_23-Oct-2023-Ease of doing business and development of corporate bond-Framework_e04b8af1.zip already exists in database.
+2026-07-01 15:00:51,066 INFO     33_16-Oct-2023-Settlement Calander November 2023_9b16dad4.pdf already exists in database.
+2026-07-01 15:00:51,130 INFO     32_09-Oct-2023-Submission of Half Yearly Networth Certificate_f9c166af.zip already exists in database.
+2026-07-01 15:00:51,197 INFO     31_05-Oct-2023-Additional Eligible ISIN For October 2023_6e111cf7.zip already exists in database.
+2026-07-01 15:00:51,260 INFO     30_29-Sep-2023-Circular_List of eligible issuer_2a62c346.zip already exists in database.
+2026-07-01 15:00:51,315 INFO     29_29-Sep-2023-Eligible ISIN For October 2023_ed777dec.zip already exists in database.
+2026-07-01 15:00:51,380 INFO     28_28-Sep-2023-Change in Settlement Calander September 2023_7438729b.pdf already exists in database.
+2026-07-01 15:00:51,441 INFO     27_28-Sep-2023-Change in settlement holiday_8fc44a8f.zip already exists in database.
+2026-07-01 15:00:51,517 INFO     26_27-Sep-2023-Change_Settlement Calander September 2023_8da1e1b1.pdf already exists in database.
+2026-07-01 15:00:51,589 INFO     25_27-Sep-2023-28.09.2023_ed9d5b76.zip already exists in database.
+2026-07-01 15:00:51,667 INFO     24_18-Sep-2023-Settlement Calander October 2023_10690803.pdf already exists in database.
+2026-07-01 15:00:51,725 INFO     23_04-Sep-2023-Circular- Issuer Contribution Toward Core SGF_4eddaf5c.pdf already exists in database.
+2026-07-01 15:00:51,785 INFO     22_29-Aug-2023-Eligible ISIN For September_8cc87a25.zip already exists in database.
+2026-07-01 15:00:51,840 INFO     20_11-Aug-2023-Settlement Calander September 2023 _7a44192d.pdf already exists in database.
+2026-07-01 15:00:51,898 INFO     19_04-Aug-2023-Circular - Issuer Contribution Toward Core SGF_e9076a82.pdf already exists in database.
+2026-07-01 15:00:51,952 INFO     18_26-Jul-2023-Participation of Direct Client on Tri-Party Repo Product_a4759fe5.zip already exists in database.
+2026-07-01 15:00:52,006 INFO     15_21-Jul-2023-Master Circular_Tri Party Repo_b4b5fc4e.zip already exists in database.
+2026-07-01 15:00:52,074 INFO     17_21-Jul-2023-Settlement Calendar August 2023_122a5446.pdf already exists in database.
+2026-07-01 15:00:52,128 INFO     16_21-Jul-2023-Settlement Calendar July 2023_708c5262.pdf already exists in database.
+2026-07-01 15:00:52,204 INFO     14_27-Jun-2023-Change in Holiday_09f666df.zip already exists in database.
+2026-07-01 15:00:52,273 INFO     13_16-Jun-2023-Master Circular_621e4bec.zip already exists in database.
+2026-07-01 15:00:52,344 INFO     12_05-Jun-2023-Circular-Issuer Contribution towards Core SGF_69ba1239.pdf already exists in database.
+2026-07-01 15:00:52,410 INFO     11_26-Apr-2023-Circular-Issuer Contribution Toward Core SGF_e14e0100.zip already exists in database.
+2026-07-01 15:00:52,474 INFO     9_17-Apr-2023-Dispute Resolution Mechanism for Limited Purpose Clearing Corporation(LPCC)_590a467c.zip already exists in database.
+2026-07-01 15:00:52,532 INFO     PolicyforWindingDown_d44a4335.zip already exists in database.
+2026-07-01 15:00:52,607 INFO     ConsolidatedCircular_fc1e1dcb.zip already exists in database.
+2026-07-01 15:00:52,746 INFO     Holidays_a3f8126d.pdf already exists in database.
+2026-07-01 15:00:52,819 INFO     MemberReportStructure_df73086e.pdf already exists in database.
+2026-07-01 15:00:52,888 INFO     3_11-Jan-2022-Investor Grievance  Redressal_e0c35401.zip already exists in database.
+2026-07-01 15:00:52,889 INFO     Total Documents Found : 416
+2026-07-01 15:00:52,889 INFO     Already Processed     : 414
+2026-07-01 15:00:52,890 INFO     Downloading : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+2026-07-01 15:00:53,794 ERROR    Failed : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/221_27-Feb-2025-List%20of%20eligible%20securities%20for%20March%202025.zip
+2026-07-01 15:00:53,820 INFO     Downloading : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+2026-07-01 15:00:54,699 ERROR    Failed : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/220_27-Feb-2025-List%20of%20Additional%20eligible%20securities%20for%20Feb%202025-05.pdf
+2026-07-01 15:00:54,702 INFO     
+2026-07-01 15:00:54,702 INFO     ARCL Summary
+2026-07-01 15:00:54,703 INFO     -------------------------
+2026-07-01 15:00:54,703 INFO     Total Documents Found : 416
+2026-07-01 15:00:54,704 INFO     Already Processed     : 414
+2026-07-01 15:00:54,704 INFO     Downloaded            : 0
+2026-07-01 15:00:54,705 INFO     Failed                : 2
+2026-07-01 15:04:03,650 INFO     
+2026-07-01 15:04:03,651 INFO     ========== ARCL ==========
+2026-07-01 15:04:06,665 INFO     Running ARCL extractor...
+2026-07-01 15:04:06,985 INFO     MembershipCriteria_45393420.pdf already exists in database.
+2026-07-01 15:04:07,083 INFO     CoreSGFContribution-GenericCalculator_5aa87a63.xlsx already exists in database.
+2026-07-01 15:04:07,205 INFO     BorrowerMarginCalculator_a7e258b1.xlsx already exists in database.
+2026-07-01 15:04:07,291 INFO     ARCL-ComplianceCalendar_44fb5951.pdf already exists in database.
+2026-07-01 15:04:07,391 INFO     451_30-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-17_8b2fdc80.pdf already exists in database.
+2026-07-01 15:04:07,482 INFO     450_30-Jun-2026-List of eligible securities as collateral for Tri-party Repo for July 2026_d3332b48.zip already exists in database.
+2026-07-01 15:04:07,586 INFO     449_29-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-16_df039b52.pdf already exists in database.
+2026-07-01 15:04:07,668 INFO     448_25-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-15_a822c0d6.pdf already exists in database.
+2026-07-01 15:04:07,800 INFO     447_23-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-14_77279544.pdf already exists in database.
+2026-07-01 15:04:07,922 INFO     446_22-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-13_104d317d.pdf already exists in database.
+2026-07-01 15:04:08,075 INFO     445_19-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-12_16334616.pdf already exists in database.
+2026-07-01 15:04:08,171 INFO     444_18-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-11_e9e0602c.pdf already exists in database.
+2026-07-01 15:04:08,233 INFO     443_17-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-10_aa5dd4d1.pdf already exists in database.
+2026-07-01 15:04:08,321 INFO     442_16-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-09_4f5e2a69.pdf already exists in database.
+2026-07-01 15:04:08,377 INFO     441_15-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-08_de80b652.pdf already exists in database.
+2026-07-01 15:04:08,436 INFO     440_15-Jun-2026-Settlement Calendar July 2026_1850756e.pdf already exists in database.
+2026-07-01 15:04:08,517 INFO     439_12-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-07_00977241.pdf already exists in database.
+2026-07-01 15:04:08,595 INFO     438_10-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-06_68caab28.pdf already exists in database.
+2026-07-01 15:04:08,681 INFO     437_08-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-05_9823b43f.pdf already exists in database.
+2026-07-01 15:04:08,782 INFO     436_05-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-04_31dbb192.pdf already exists in database.
+2026-07-01 15:04:08,870 INFO     435_04-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-03_13893301.pdf already exists in database.
+2026-07-01 15:04:08,965 INFO     434_02-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-02_6b69dd9b.pdf already exists in database.
+2026-07-01 15:04:09,057 INFO     433_01-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-01_6ed8b64d.pdf already exists in database.
+2026-07-01 15:04:09,163 INFO     432_29-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-10_9166e43b.pdf already exists in database.
+2026-07-01 15:04:09,265 INFO     431_29-May-2026-June 2026_921d58f2.zip already exists in database.
+2026-07-01 15:04:09,373 INFO     429_27-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-09_645395fc.pdf already exists in database.
+2026-07-01 15:04:09,503 INFO     428_26-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-08_c37d2314.pdf already exists in database.
+2026-07-01 15:04:09,567 INFO     427_22-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-07_9c827984.pdf already exists in database.
+2026-07-01 15:04:09,623 INFO     426_21-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-06_d1ecc46d.pdf already exists in database.
+2026-07-01 15:04:09,677 INFO     425_20-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-05_e1d7fd98.pdf already exists in database.
+2026-07-01 15:04:09,736 INFO     424_18-May-2026-Reminder -Internal Audit for Half year March 2026_d816a0a6.pdf already exists in database.
+2026-07-01 15:04:09,818 INFO     423_18-May-2026-Reminder for Submission of HY NW March 2026_a1bf8dbd.pdf already exists in database.
+2026-07-01 15:04:09,896 INFO     422_15-May-2026-Settlement Calendar JUNE 2026_192ba916.pdf already exists in database.
+2026-07-01 15:04:09,999 INFO     421_14-May-2026-ARCL_Compliance_2026-27_022_21318690.zip already exists in database.
+2026-07-01 15:04:10,114 INFO     420_14-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-04_d817cc41.pdf already exists in database.
+2026-07-01 15:04:10,214 INFO     419_13-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-03_6d655dc0.pdf already exists in database.
+2026-07-01 15:04:10,321 INFO     418_12-May-2026-Change in Cash Margin Addition Procedure_3dc7dbd1.pdf already exists in database.
+2026-07-01 15:04:10,415 INFO     417_07-May-2026-Penalty and Financial Disincentives Framework_4d168b47.zip already exists in database.
+2026-07-01 15:04:10,488 INFO     416_06-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-02_c3924ab1.pdf already exists in database.
+2026-07-01 15:04:10,545 INFO     415_05-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-01_b57a4f2d.pdf already exists in database.
+2026-07-01 15:04:10,599 INFO     414_30-Apr-2026-List of eligible securities as collateral for Tri-party Repo for Apr 2026_1cecce50.zip already exists in database.
+2026-07-01 15:04:10,664 INFO     413_29-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-09_1f78556d.pdf already exists in database.
+2026-07-01 15:04:10,770 INFO     412_28-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-08_9b254a75.pdf already exists in database.
+2026-07-01 15:04:10,888 INFO     411_24-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-07_c3305580.pdf already exists in database.
+2026-07-01 15:04:11,002 INFO     410_23-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-06_44fa300c.pdf already exists in database.
+2026-07-01 15:04:11,149 INFO     409_17-Apr-2026-Net Worth Certificate Circular_March 2026_8804aee3.zip already exists in database.
+2026-07-01 15:04:11,310 INFO     408_16-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-05_83581685.pdf already exists in database.
+2026-07-01 15:04:11,401 INFO     407_15-Apr-2026-Half Yearly Internal Audit Report_36c77ca2.zip already exists in database.
+2026-07-01 15:04:11,496 INFO     405_15-Apr-2026-Settlement Calendar May 2026_0082f69e.pdf already exists in database.
+2026-07-01 15:04:11,596 INFO     404_13-Apr-2026-Master Circular_174bbcf4.zip already exists in database.
+2026-07-01 15:04:11,716 INFO     403_09-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-04_7f3e4ffc.pdf already exists in database.
+2026-07-01 15:04:11,810 INFO     402_08-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-03_283587f4.pdf already exists in database.
+2026-07-01 15:04:11,878 INFO     401_06-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-02_4220d5e6.pdf already exists in database.
+2026-07-01 15:04:11,976 INFO     400_02-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-01_d0767adc.pdf already exists in database.
+2026-07-01 15:04:12,060 INFO     399_01-Apr-2026-Annual Subscription Fees for FY2026-27_e60e24fc.pdf already exists in database.
+2026-07-01 15:04:12,137 INFO     398_30-Mar-2026-List of eligible securities as collateral for Tri-party Repo for Apr 2026_1d1c96f3.zip already exists in database.
+2026-07-01 15:04:12,249 INFO     396_27-Mar-2026-SEBI Annual Clearing Membership Fees for 2026-27_1cafdf36.pdf already exists in database.
+2026-07-01 15:04:12,337 INFO     397_27-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-10_ef08358f.pdf already exists in database.
+2026-07-01 15:04:12,406 INFO     395_23-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-09_f5f982d7.pdf already exists in database.
+2026-07-01 15:04:12,486 INFO     394_20-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-08_fba617b8.pdf already exists in database.
+2026-07-01 15:04:12,558 INFO     393_18-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-07_aade57ba.pdf already exists in database.
+2026-07-01 15:04:12,622 INFO     392_16-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-06_2ad791b1.pdf already exists in database.
+2026-07-01 15:04:12,684 INFO     391_13-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-05_eb04eb56.pdf already exists in database.
+2026-07-01 15:04:12,740 INFO     390_13-Mar-2026-Settlement Calendar April 2026_2913e100.pdf already exists in database.
+2026-07-01 15:04:12,817 INFO     387_10-Mar-2026-Contribution by Issuers to Core Settlement Guarantee Fund (Core SGF) of AMC Repo Clearing Limited_491f418e.zip already exists in database.
+2026-07-01 15:04:12,870 INFO     388_10-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-04_fdba81ce.pdf already exists in database.
+2026-07-01 15:04:12,923 INFO     386_09-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-03_2a11f352.pdf already exists in database.
+2026-07-01 15:04:12,979 INFO     385_05-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-02_2a1a805c.pdf already exists in database.
+2026-07-01 15:04:13,031 INFO     389_05-Mar-2026-Trading Session From DR Site_03f13628.zip already exists in database.
+2026-07-01 15:04:13,086 INFO     384_04-Mar-2026-Ease of Doing Investment (EoDI)_59fc8c63.zip already exists in database.
+2026-07-01 15:04:13,150 INFO     383_04-Mar-2026-SEBI (Stockbrokers) Regulation, 2026_4f9e82c5.zip already exists in database.
+2026-07-01 15:04:13,213 INFO     382_02-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-01_67974585.pdf already exists in database.
+2026-07-01 15:04:13,266 INFO     381_27-Feb-2026-List of eligible securities as collateral for Tri-party Repo for Mar 2026_b28a348c.zip already exists in database.
+2026-07-01 15:04:13,327 INFO     380_25-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-6_99ab6ce4.pdf already exists in database.
+2026-07-01 15:04:13,391 INFO     379_24-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-5_44a176aa.pdf already exists in database.
+2026-07-01 15:04:13,484 INFO     377_23-Feb-2026-Forms for registration of stockbrokers and CM_0f076ed0.zip already exists in database.
+2026-07-01 15:04:13,576 INFO     378_23-Feb-2026-Digital submission of Ongoing Membership Compliances_52d29a68.pdf already exists in database.
+2026-07-01 15:04:13,654 INFO     376_20-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-4_6c6a1664.pdf already exists in database.
+2026-07-01 15:04:13,710 INFO     375_13-Feb-2026-Settlement Calendar Mar 2026_dc82ca2f.pdf already exists in database.
+2026-07-01 15:04:13,767 INFO     374_12-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-3_879d9beb.pdf already exists in database.
+2026-07-01 15:04:13,837 INFO     373_10-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-2_5ac1bfde.pdf already exists in database.
+2026-07-01 15:04:13,905 INFO     372_02-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-1_682ee040.pdf already exists in database.
+2026-07-01 15:04:13,966 INFO     371_30-Jan-2026-List of eligible securities as collateral for Tri-party Repo for Feb 2026_7d450f7f.zip already exists in database.
+2026-07-01 15:04:14,037 INFO     370_29-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-07_45c9e3a9.pdf already exists in database.
+2026-07-01 15:04:14,092 INFO     369_28-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-06_9219e9f7.pdf already exists in database.
+2026-07-01 15:04:14,285 INFO     368_23-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-05_32e7c4e0.pdf already exists in database.
+2026-07-01 15:04:14,404 INFO     367_22-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-04_a835d671.pdf already exists in database.
+2026-07-01 15:04:14,508 INFO     366_21-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-03_d1e20bc4.pdf already exists in database.
+2026-07-01 15:04:14,671 INFO     365_19-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-02_642b43f4.pdf already exists in database.
+2026-07-01 15:04:14,798 INFO     364_14-Jan-2026-Settlement Calendar February 2026_bb691227.pdf already exists in database.
+2026-07-01 15:04:14,875 INFO     363_12-Jan-2026-ARCL - Consultation Paper - Computation of Contributions to Core SGF by Members and Participants_ed6bd453.pdf already exists in database.
+2026-07-01 15:04:14,963 INFO     362_10-Jan-2026-Revised Settlement Calendar January 2026_2a486d77.pdf already exists in database.
+2026-07-01 15:04:15,057 INFO     361_09-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-01_8bbfed16.pdf already exists in database.
+2026-07-01 15:04:15,126 INFO     360_09-Jan-2026-Change in Holiday 2026_04d1ea81.pdf already exists in database.
+2026-07-01 15:04:15,205 INFO     358_31-Dec-2025-List of eligible securities as collateral for Tri-party Repo for January 2026_ac16b934.zip already exists in database.
+2026-07-01 15:04:15,272 INFO     357_29-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-08_3b5ebf3b.pdf already exists in database.
+2026-07-01 15:04:15,351 INFO     356_24-Dec-2025-ARCL - Circular related to ARCL Web Portal_c8cb7233.pdf already exists in database.
+2026-07-01 15:04:15,409 INFO     355_24-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-07_9fcaac77.pdf already exists in database.
+2026-07-01 15:04:15,473 INFO     359_22-Dec-2025-Holiday 2026_4ff8e8cd.pdf already exists in database.
+2026-07-01 15:04:15,542 INFO     354_18-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-06_5e91b9f4.pdf already exists in database.
+2026-07-01 15:04:15,598 INFO     352_16-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-05_1a24b036.pdf already exists in database.
+2026-07-01 15:04:15,647 INFO     351_15-Dec-2025-Settlement Calendar Jan 2025_44805cd6.pdf already exists in database.
+2026-07-01 15:04:15,706 INFO     350_10-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-04_ee355a22.pdf already exists in database.
+2026-07-01 15:04:15,762 INFO     349_08-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-03_1dd282ab.pdf already exists in database.
+2026-07-01 15:04:15,824 INFO     348_04-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-02_392f26e6.pdf already exists in database.
+2026-07-01 15:04:15,893 INFO     347_02-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-01_eade819b.pdf already exists in database.
+2026-07-01 15:04:15,954 INFO     346_28-Nov-2025-List of eligible securities as collateral for Tri-party Repo for December 2025_b558ea51.zip already exists in database.
+2026-07-01 15:04:16,009 INFO     345_26-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-08_d82e0732.pdf already exists in database.
+2026-07-01 15:04:16,074 INFO     344_24-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-07_0481ab24.pdf already exists in database.
+2026-07-01 15:04:16,138 INFO     342_21-Nov-2025-Reminder -Internal Audit Report_3da07bc4.pdf already exists in database.
+2026-07-01 15:04:16,192 INFO     341_19-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-06_fc3dbf08.pdf already exists in database.
+2026-07-01 15:04:16,250 INFO     340_19-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-05_9a8a7910.pdf already exists in database.
+2026-07-01 15:04:16,318 INFO     339_19-Nov-2025-Reminder for Submission of HY NW_September 2025_44163d1c.pdf already exists in database.
+2026-07-01 15:04:16,384 INFO     338_17-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-04_51cf2ab5.pdf already exists in database.
+2026-07-01 15:04:16,453 INFO     337_14-Nov-2025-Settlement Calendar Dec 2025_c580a1b7.pdf already exists in database.
+2026-07-01 15:04:16,522 INFO     336_13-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-03_ed992cfe.pdf already exists in database.
+2026-07-01 15:04:16,593 INFO     335_07-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-02_cec77f92.pdf already exists in database.
+2026-07-01 15:04:16,664 INFO     334_03-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-01_9281cbdd.pdf already exists in database.
+2026-07-01 15:04:16,721 INFO     332_31-Oct-2025-List of eligible securities as collateral for Tri-party Repo for November 2025_a454dacb.zip already exists in database.
+2026-07-01 15:04:16,782 INFO     331_31-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-10_95d05e99.pdf already exists in database.
+2026-07-01 15:04:16,842 INFO     333_31-Oct-2025-ARCL TRAI_d9e848a5.pdf already exists in database.
+2026-07-01 15:04:16,897 INFO     330_29-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-09_63a05195.pdf already exists in database.
+2026-07-01 15:04:16,969 INFO     329_24-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-08_c3d4fba5.pdf already exists in database.
+2026-07-01 15:04:17,025 INFO     328_15-Oct-2025-Settlement Calendar Nov 2025_4edd2a32.pdf already exists in database.
+2026-07-01 15:04:17,087 INFO     327_14-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-07_0866e84c.pdf already exists in database.
+2026-07-01 15:04:17,159 INFO     326_14-Oct-2025-Circular_Corporate Action Handling_dfb4d494.pdf already exists in database.
+2026-07-01 15:04:17,215 INFO     325_13-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-06_b98747b1.pdf already exists in database.
+2026-07-01 15:04:17,290 INFO     324_10-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-05_6a27fd9a.pdf already exists in database.
+2026-07-01 15:04:17,380 INFO     323_08-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-04_be9646bc.pdf already exists in database.
+2026-07-01 15:04:17,445 INFO     322_07-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-03_4b101bc5.pdf already exists in database.
+2026-07-01 15:04:17,530 INFO     321_06-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-02_23065db5.pdf already exists in database.
+2026-07-01 15:04:17,660 INFO     318_01-Oct-2025-Internal Audit_d32622a7.zip already exists in database.
+2026-07-01 15:04:17,760 INFO     320_01-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-01_47e1ea7b.pdf already exists in database.
+2026-07-01 15:04:17,831 INFO     319_01-Oct-2025-ARCL - Annual Return 2025_dec552bb.pdf already exists in database.
+2026-07-01 15:04:17,888 INFO     317_01-Oct-2025-Submission of Half Yearly Networth_September 2025_f31b8e52.pdf already exists in database.
+2026-07-01 15:04:17,951 INFO     314_30-Sep-2025-Revised Contribution by Issuers to Core Settlement Guarantee Fund (Core SGF) of AMC Repo Clearing Limited_e34dc3ac.zip already exists in database.
+2026-07-01 15:04:18,008 INFO     316_30-Sep-2025-List of eligible securities as collateral for Tri-party Repo for Oct 2025_aaa33b58.zip already exists in database.
+2026-07-01 15:04:18,068 INFO     315_30-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-05_a09182ed.pdf already exists in database.
+2026-07-01 15:04:18,131 INFO     313_26-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-04_864afb1a.pdf already exists in database.
+2026-07-01 15:04:18,202 INFO     312_22-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-03_2e26f53f.pdf already exists in database.
+2026-07-01 15:04:18,295 INFO     311_22-Sep-2025-Contribution by Issuers to Core Settlement Guarantee Fund (Core SGF) of AMC Repo Clearing Limited_baeb348d.zip already exists in database.
+2026-07-01 15:04:18,358 INFO     310_18-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-02_bf9986ce.pdf already exists in database.
+2026-07-01 15:04:18,452 INFO     309_18-Sep-2025-Live Trading session from DR_84ea543c.zip already exists in database.
+2026-07-01 15:04:18,548 INFO     308_17-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-01_708f3cdb.pdf already exists in database.
+2026-07-01 15:04:18,626 INFO     307_15-Sep-2025-Settlement Calendar Oct 2025_7d45d47c.pdf already exists in database.
+2026-07-01 15:04:18,685 INFO     306_05-Sep-2025-Change in Settlement holiday and Revision in forward leg Settlement _c4ea9117.pdf already exists in database.
+2026-07-01 15:04:18,750 INFO     305_04-Sep-2025-Revised Settlement Calendar-Sept 2025_f31829ea.zip already exists in database.
+2026-07-01 15:04:18,813 INFO     304_04-Sep-2025-Change in Holiday _e21f2f09.zip already exists in database.
+2026-07-01 15:04:18,903 INFO     303_29-Aug-2025-List of eligible securities as collateral for Tri-party Repo for Sept 2025_d65b685b.zip already exists in database.
+2026-07-01 15:04:18,979 INFO     302_28-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-05_978a74ea.pdf already exists in database.
+2026-07-01 15:04:19,088 INFO     301_25-Aug-2025-Revision in Risk Management Framework_8fdf81e3.pdf already exists in database.
+2026-07-01 15:04:19,185 INFO     300_21-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-04_e57d5805.pdf already exists in database.
+2026-07-01 15:04:19,284 INFO     299_18-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-03_98dc8bee.pdf already exists in database.
+2026-07-01 15:04:19,360 INFO     298_14-Aug-2025-Settlement Calendar Sept 2025_0e998ee5.pdf already exists in database.
+2026-07-01 15:04:19,460 INFO     297_08-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-02_0bd19e26.pdf already exists in database.
+2026-07-01 15:04:19,552 INFO     296_08-Aug-2025-ARCL - Review, Appeal or Waiver of penalty_08bc82d9.zip already exists in database.
+2026-07-01 15:04:19,627 INFO     295_05-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-01_19aa544a.pdf already exists in database.
+2026-07-01 15:04:19,711 INFO     294_31-Jul-2025-Revised List of eligible securities as collateral for Tri-party Repo for Aug 2025_080d1d75.zip already exists in database.
+2026-07-01 15:04:19,820 INFO     293_31-Jul-2025-List of Additional eligible securities for July 2025-06_9252a3e3.pdf already exists in database.
+2026-07-01 15:04:19,905 INFO     292_30-Jul-2025-List of eligible securities as collateral for Tri-party Repo for Aug 2025_4f6326b4.zip already exists in database.
+2026-07-01 15:04:19,996 INFO     291_29-Jul-2025-List of Additional eligible securities for July 2025-05_91773d5b.pdf already exists in database.
+2026-07-01 15:04:20,084 INFO     290_15-Jul-2025-Settlement Calendar Aug 2025_5c925426.pdf already exists in database.
+2026-07-01 15:04:20,168 INFO     289_09-Jul-2025-List of Additional eligible securities for July 2025-04_85eb8baa.pdf already exists in database.
+2026-07-01 15:04:20,252 INFO     288_07-Jul-2025-List of Additional eligible securities for July 2025-03_8dc98e4d.pdf already exists in database.
+2026-07-01 15:04:20,371 INFO     286_03-Jul-2025-List of Additional eligible securities for July 2025-02_30fbbec1.pdf already exists in database.
+2026-07-01 15:04:20,489 INFO     287_03-Jul-2025-Tri Party Repo in Corporate Debt Securities Reports_a7819e0f.pdf already exists in database.
+2026-07-01 15:04:20,583 INFO     285_01-Jul-2025-List of Additional eligible securities for July 2025-01_bfd565fa.pdf already exists in database.
+2026-07-01 15:04:20,670 INFO     284_27-Jun-2025-List of eligible securities as collateral for Tri-party Repo for July 2025_73fde1e9.zip already exists in database.
+2026-07-01 15:04:20,728 INFO     283_26-Jun-2025-ARCL - Updation of GSTIN with respect to ISD Provision_201dbb0b.pdf already exists in database.
+2026-07-01 15:04:20,797 INFO     282_24-Jun-2025-ARCL - SEBI UPI Payment_8a99609e.pdf already exists in database.
+2026-07-01 15:04:20,867 INFO     281_24-Jun-2025-List of Additional eligible securities for June 2025-08_c0fe2081.pdf already exists in database.
+2026-07-01 15:04:20,930 INFO     280_18-Jun-2025-List of Additional eligible securities for June 2025-07_31e452f4.pdf already exists in database.
+2026-07-01 15:04:20,992 INFO     279_17-Jun-2025-List of Additional eligible securities for June 2025-06_45ef0545.pdf already exists in database.
+2026-07-01 15:04:21,043 INFO     278_16-Jun-2025-List of Additional eligible securities for June 2025-05_0a4e8b4c.pdf already exists in database.
+2026-07-01 15:04:21,104 INFO     277_13-Jun-2025-Settlement Calendar July 2025_dcae4510.pdf already exists in database.
+2026-07-01 15:04:21,166 INFO     276_11-Jun-2025-List of Additional eligible securities for June 2025-04_7916b546.pdf already exists in database.
+2026-07-01 15:04:21,234 INFO     275_11-Jun-2025-Gazette Notification_46e67ce6.pdf already exists in database.
+2026-07-01 15:04:21,302 INFO     274_10-Jun-2025-List of Additional eligible securities for June 2025-03_e2f8185c.pdf already exists in database.
+2026-07-01 15:04:21,381 INFO     273_03-Jun-2025-List of Additional eligible securities for June 2025-02_e136158c.pdf already exists in database.
+2026-07-01 15:04:21,448 INFO     272_03-Jun-2025-List of Additional eligible securities for June 2025-01_14c37b83.pdf already exists in database.
+2026-07-01 15:04:21,544 INFO     271_02-Jun-2025-Circular - Surrender - IDFC First Bank 02JUN2025_e57b7e33.pdf already exists in database.
+2026-07-01 15:04:21,607 INFO     270_29-May-2025-List of Additional eligible securities for May 2025-12_ea6bd886.pdf already exists in database.
+2026-07-01 15:04:21,688 INFO     269_29-May-2025-List of eligible securities as collateral for Tri-party Repo for Jun 2025_a75c46d6.zip already exists in database.
+2026-07-01 15:04:21,763 INFO     268_28-May-2025-Circular- MemberComplianceCalendar_7aeb07c9.pdf already exists in database.
+2026-07-01 15:04:21,838 INFO     265_27-May-2025-Norms for Internal Audit & Audit Committee of MIIs_cb1459cd.pdf already exists in database.
+2026-07-01 15:04:21,914 INFO     266_27-May-2025-Cooling off period for KMPs and PID_46ca4f42.pdf already exists in database.
+2026-07-01 15:04:21,974 INFO     267_27-May-2025-List of Additional eligible securities for May 2025-11_051cb793.pdf already exists in database.
+2026-07-01 15:04:22,040 INFO     264_22-May-2025-List of Additional eligible securities for May 2025-10_6875fa9d.pdf already exists in database.
+2026-07-01 15:04:22,100 INFO     263_21-May-2025-List of Additional eligible securities for May 2025-09_09f3ed0b.pdf already exists in database.
+2026-07-01 15:04:22,167 INFO     261_19-May-2025-Revised Procedure for Issuers Contribution to Core Settlement Guarantee Fund_965ac013.zip already exists in database.
+2026-07-01 15:04:22,225 INFO     262_19-May-2025-List of Additional eligible securities for May 2025-08_a9c7f2b4.pdf already exists in database.
+2026-07-01 15:04:22,279 INFO     258_15-May-2025-List of Additional eligible securities for May 2025-06_59abd54b.pdf already exists in database.
+2026-07-01 15:04:22,341 INFO     257_15-May-2025-Settlement Calendar June 2025_d6e7be7b.pdf already exists in database.
+2026-07-01 15:04:22,406 INFO     256_14-May-2025-List of Additional eligible securities for May 2025-05_30af77cd.pdf already exists in database.
+2026-07-01 15:04:22,464 INFO     255_13-May-2025-List of Additional eligible securities for May 2025-04_0ba6b77d.pdf already exists in database.
+2026-07-01 15:04:22,524 INFO     254_09-May-2025-List of Additional eligible securities for May 2025-03_c84b9277.pdf already exists in database.
+2026-07-01 15:04:22,583 INFO     253_09-May-2025-Master Circular_3ceb31c3.zip already exists in database.
+2026-07-01 15:04:22,635 INFO     252_09-May-2025-Revision in Timeline for Payment of Transaction Charges _78cdc223.pdf already exists in database.
+2026-07-01 15:04:22,719 INFO     251_08-May-2025-Internal Audit Report Reminder_a4332508.pdf already exists in database.
+2026-07-01 15:04:22,773 INFO     250_08-May-2025-Reminder for Submission of HY NW_March 2025_0129563a.pdf already exists in database.
+2026-07-01 15:04:22,832 INFO     249_07-May-2025-List of Additional eligible securities for May 2025-02_2812d590.pdf already exists in database.
+2026-07-01 15:04:22,886 INFO     248_05-May-2025-Modification of Issuers contribution towards Core Settlement Guarantee Fund_d9875d47.pdf already exists in database.
+2026-07-01 15:04:22,955 INFO     247_02-May-2025-List of Additional eligible securities for May 2025-01_9d17cb96.pdf already exists in database.
+2026-07-01 15:04:23,013 INFO     245_29-Apr-2025-List of eligible securities as collateral for Tri-party Repo for May 2025_2574ffff.zip already exists in database.
+2026-07-01 15:04:23,065 INFO     246_29-Apr-2025-List of additional eligible securities as collateral for Tri-party Repo for April 2025-6_c377bfca.pdf already exists in database.
+2026-07-01 15:04:23,124 INFO     244_23-Apr-2025-List of Additional eligible securities for April 2025-05_ecab60d1.pdf already exists in database.
+2026-07-01 15:04:23,180 INFO     243_21-Apr-2025-List of Additional eligible securities for April 2025-04_16c9daf6.pdf already exists in database.
+2026-07-01 15:04:23,248 INFO     242_17-Apr-2025-List of Additional eligible securities for April 2025-03_04c2d57f.pdf already exists in database.
+2026-07-01 15:04:23,308 INFO     241_15-Apr-2025-Settlement Calendar May 2025_c71a247b.pdf already exists in database.
+2026-07-01 15:04:23,380 INFO     240_11-Apr-2025-List of Additional eligible securities for April 2025-02_34f4dcc2.pdf already exists in database.
+2026-07-01 15:04:23,445 INFO     239_08-Apr-2025-Internal Audit Report_29121dad.zip already exists in database.
+2026-07-01 15:04:23,546 INFO     238_04-Apr-2025-List of Additional eligible securities for April 2025_56018f6b.pdf already exists in database.
+2026-07-01 15:04:23,608 INFO     237_04-Apr-2025-Submission of HY NW_March 2025_website_cdd4f0dc.pdf already exists in database.
+2026-07-01 15:04:23,683 INFO     236_02-Apr-2025-Annual Subscription Fees for 2025-26_122439cf.pdf already exists in database.
+2026-07-01 15:04:23,743 INFO     235_28-Mar-2025-List of eligible securities for April 2025_fe0fefd5.zip already exists in database.
+2026-07-01 15:04:23,802 INFO     234_28-Mar-2025-SEBI Annual Clearing Membership Fees for 2025-26_ada735bb.pdf already exists in database.
+2026-07-01 15:04:23,873 INFO     233_27-Mar-2025-Circular-Issuer Contribution Toward Core SGF_8fc2f1b2.zip already exists in database.
+2026-07-01 15:04:23,942 INFO     232_26-Mar-2025-List of Additional eligible securities for March 2025-03_40f148c8.pdf already exists in database.
+2026-07-01 15:04:24,007 INFO     231_26-Mar-2025-List of Additional eligible securities for March 2025_a5d51dbc.pdf already exists in database.
+2026-07-01 15:04:24,070 INFO     230_20-Mar-2025-Derivium Tradition Securities Private Limited_cir_8199c94c.pdf already exists in database.
+2026-07-01 15:04:24,144 INFO     229_20-Mar-2025-East India Securities Ltd_cir_a0569d94.pdf already exists in database.
+2026-07-01 15:04:24,223 INFO     228_17-Mar-2025-Settlement Calendar April 2025_ee9da592.pdf already exists in database.
+2026-07-01 15:04:24,285 INFO     227_08-Mar-2025-Trading Session from Disaster recovery Site_c331a953.zip already exists in database.
+2026-07-01 15:04:24,354 INFO     226_07-Mar-2025-List of Additional eligible securities for March 2025_770a009d.pdf already exists in database.
+2026-07-01 15:04:24,428 INFO     225_05-Mar-2025-ARCL - Penalty circular Final for website_4a6a40e8.pdf already exists in database.
+2026-07-01 15:04:24,507 INFO     223_04-Mar-2025-Circular - Member Participant Contribution Toward Core SGF_bc68bb1f.pdf already exists in database.
+2026-07-01 15:04:24,570 INFO     222_28-Feb-2025-Circular - Risk Management Framework Amendments_d6d9e8cd.pdf already exists in database.
+2026-07-01 15:04:24,766 INFO     219_24-Feb-2025-ARCL - Member Compliance Calendar Circular_692eb735.pdf already exists in database.
+2026-07-01 15:04:24,820 INFO     218_24-Feb-2025-List of Additional eligible securities for Feb 2025-04_caf7d1ac.pdf already exists in database.
+2026-07-01 15:04:24,881 INFO     216_14-Feb-2025-Settlement Calendar March 2025_b50f882c.pdf already exists in database.
+2026-07-01 15:04:24,944 INFO     217_14-Feb-2025-List of Additional eligible securities for Feb 2025-03_3fc34cfe.pdf already exists in database.
+2026-07-01 15:04:25,004 INFO     215_13-Feb-2025-List of Additional eligible securities for Feb 2025-02_aeb5339f.pdf already exists in database.
+2026-07-01 15:04:25,091 INFO     214_05-Feb-2025-List of Additional eligible securities for Feb 2025_844f1415.pdf already exists in database.
+2026-07-01 15:04:25,173 INFO     213_03-Feb-2025-Parameters for external evaluation of Performance of Statutory Committees of MII_Feb 3 2025_final_c426076c.pdf already exists in database.
+2026-07-01 15:04:25,313 INFO     212_30-Jan-2025-List of eligible securities for February 2025_0b7adbf1.zip already exists in database.
+2026-07-01 15:04:25,398 INFO     211_24-Jan-2025-ARCL - Circular - Freezing of ISIN of ARCL_276fa375.pdf already exists in database.
+2026-07-01 15:04:25,478 INFO     210_23-Jan-2025-List of Additional eligible securities for Jan 2025-3_da64994d.pdf already exists in database.
+2026-07-01 15:04:25,533 INFO     209_15-Jan-2025-Settlement Calendar Feb 2025_2fee47ce.pdf already exists in database.
+2026-07-01 15:04:25,592 INFO     208_09-Jan-2025-List of Additional eligible securities for Jan 2025-2_281ad760.pdf already exists in database.
+2026-07-01 15:04:25,696 INFO     207_03-Jan-2025-List of Additional eligible securities for Jan 2025-1_25fd918d.pdf already exists in database.
+2026-07-01 15:04:25,794 INFO     206_27-Dec-2024-List of eligible securities for January 2025_05bf7950.zip already exists in database.
+2026-07-01 15:04:25,888 INFO     205_27-Dec-2024-List of Additional eligible securities for Dec 2024-4_0db7bd1b.pdf already exists in database.
+2026-07-01 15:04:25,965 INFO     204_19-Dec-2024-List of Additional eligible securities for Dec 2024-3_be86910a.pdf already exists in database.
+2026-07-01 15:04:26,071 INFO     203_19-Dec-2024-List of Additional eligible securities for Dec 2024-2_a38929e4.pdf already exists in database.
+2026-07-01 15:04:26,155 INFO     201_16-Dec-2024-Settlement Calendar Jan 2025_46cb5c67.pdf already exists in database.
+2026-07-01 15:04:26,249 INFO     202_13-Dec-2024-Holiday 2025_719f93fc.pdf already exists in database.
+2026-07-01 15:04:26,321 INFO     200_10-Dec-2024-List of Additional eligible securities for Dec 2024-1_c83c4055.pdf already exists in database.
+2026-07-01 15:04:26,391 INFO     199_04-Dec-2024-Fit and Proper Declaration from Shareholders_a8f7d0f7.zip already exists in database.
+2026-07-01 15:04:26,473 INFO     198_29-Nov-2024-List of eligible securities for December 2024_6901db48.zip already exists in database.
+2026-07-01 15:04:26,539 INFO     197_26-Nov-2024-Handling of Unscheduled Holiday_8e65a0e0.pdf already exists in database.
+2026-07-01 15:04:26,606 INFO     196_25-Nov-2024-ARCL Circular_Guidelines to SE, CC and DP_a6b3c260.zip already exists in database.
+2026-07-01 15:04:26,670 INFO     195_22-Nov-2024-Prior approval for transfer of Shares_705cad40.zip already exists in database.
+2026-07-01 15:04:26,747 INFO     193_21-Nov-2024-Reminder_Half Yearly Internal Audit Report_Sep 24_f7546243.pdf already exists in database.
+2026-07-01 15:04:26,817 INFO     192_21-Nov-2024-Reminder_Submission of HYNW_Sep 24_c1b35fb0.pdf already exists in database.
+2026-07-01 15:04:26,904 INFO     194_21-Nov-2024-Amendment to Byelaws_191124_Final_a61d52ff.pdf already exists in database.
+2026-07-01 15:04:27,012 INFO     190_14-Nov-2024-Revised Settlement Calendar November 2024_693fc3fa.pdf already exists in database.
+2026-07-01 15:04:27,076 INFO     191_14-Nov-2024-Settlement Calendar Dec 2024_e05cf238.pdf already exists in database.
+2026-07-01 15:04:27,161 INFO     189_14-Nov-2024-Change in Holiday 2024_a28bf164.pdf already exists in database.
+2026-07-01 15:04:27,236 INFO     188_12-Nov-2024-List of Additional eligible securities for Nov 2024-2_930594c7.pdf already exists in database.
+2026-07-01 15:04:27,369 INFO     187_08-Nov-2024-List of Additional eligible securities for Nov 2024-1_aae58191.pdf already exists in database.
+2026-07-01 15:04:27,445 INFO     186_06-Nov-2024-Amendment to Regulation_20240827_Final_727aa6ed.pdf already exists in database.
+2026-07-01 15:04:27,515 INFO     185_29-Oct-2024-List of eligible securities for November 2024_1f9de81d.zip already exists in database.
+2026-07-01 15:04:27,584 INFO     184_28-Oct-2024-Circular - Modification in eligible issuer_10a4f0bb.pdf already exists in database.
+2026-07-01 15:04:27,647 INFO     182_24-Oct-2024-Extend of Market time for trade date October 24 2024_157d95c4.pdf already exists in database.
+2026-07-01 15:04:27,736 INFO     183_23-Oct-2024-List of Additional eligible securities for Oct 2024-3_01f7590b.pdf already exists in database.
+2026-07-01 15:04:27,795 INFO     180_16-Oct-2024-ARCL Circular Monitoring Shareholding of MII for website_31450baa.pdf already exists in database.
+2026-07-01 15:04:27,922 INFO     179_16-Oct-2024-List of Additional eligible securities for Oct 2024-2_7c6af4b0.pdf already exists in database.
+2026-07-01 15:04:27,998 INFO     178_15-Oct-2024-Settlement Calendar Nov 2024_4f42e44e.pdf already exists in database.
+2026-07-01 15:04:28,101 INFO     177_11-Oct-2024-Circular - Modification in eligible issuer_4ca54417.pdf already exists in database.
+2026-07-01 15:04:28,180 INFO     176_10-Oct-2024-ARCL Half Yearly Internal Audit Report -September 2024_d3af4212.zip already exists in database.
+2026-07-01 15:04:28,245 INFO     175_08-Oct-2024-List of Additional eligible securities for Oct 2024-1_d1ec4359.pdf already exists in database.
+2026-07-01 15:04:28,321 INFO     174_04-Oct-2024-Submission of HY NW_Sep 2024_b2ba9667.pdf already exists in database.
+2026-07-01 15:04:28,390 INFO     173_30-Sep-2024-Trading Session from DR_60f6de0d.zip already exists in database.
+2026-07-01 15:04:28,469 INFO     172_27-Sep-2024-List of eligible securities for October 2024_a868d598.zip already exists in database.
+2026-07-01 15:04:28,525 INFO     171_27-Sep-2024-Parameters for Performance Evaluation of Market Infrastructur_c2f67894.pdf already exists in database.
+2026-07-01 15:04:28,624 INFO     170_26-Sep-2024-Circular-Issuer Contribution Toward Core SGF_412977fe.pdf already exists in database.
+2026-07-01 15:04:28,697 INFO     169_25-Sep-2024-List of Additional eligible securities for Sept 2024-5_a015c266.pdf already exists in database.
+2026-07-01 15:04:28,768 INFO     167_20-Sep-2024-List of Additional eligible securities for Sept 2024-4_575f73bf.pdf already exists in database.
+2026-07-01 15:04:28,848 INFO     166_20-Sep-2024-Circular-Risk Management Framework Amendments_5f081827.pdf already exists in database.
+2026-07-01 15:04:28,927 INFO     165_19-Sep-2024-Circular-Issuer Contribution Toward Core SGF_1f741252.zip already exists in database.
+2026-07-01 15:04:29,012 INFO     164_17-Sep-2024-List of Additional eligible securities for Sept 2024-3_cd96e156.pdf already exists in database.
+2026-07-01 15:04:29,079 INFO     163_16-Sep-2024-Settlement Calendar Oct 2024_f46d37f2.pdf already exists in database.
+2026-07-01 15:04:29,131 INFO     161_14-Sep-2024-Change in Settlement Calendar September 2024_09c056e1.pdf already exists in database.
+2026-07-01 15:04:29,196 INFO     159_13-Sep-2024-List of Additional eligible securities for Sept 2024-2_70618a09.pdf already exists in database.
+2026-07-01 15:04:29,257 INFO     158_09-Sep-2024-List of Additional eligible securities for Sept 2024-1_9514e827.pdf already exists in database.
+2026-07-01 15:04:29,318 INFO     157_04-Sep-2024-Introduction of Commercial Paper (CP) and Certificate of Deposit (CDs)_72303907.pdf already exists in database.
+2026-07-01 15:04:29,398 INFO     156_03-Sep-2024-Change in haircuts for eligible collateral_a837696c.pdf already exists in database.
+2026-07-01 15:04:29,484 INFO     155_02-Sep-2024-Membership Eligibility criteria_3da46439.pdf already exists in database.
+2026-07-01 15:04:29,550 INFO     153_29-Aug-2024-List of Eligible Securities for September 2024_88c0b1e2.zip already exists in database.
+2026-07-01 15:04:29,645 INFO     152_28-Aug-2024-List of Additional eligible securities for Aug 2024-4_b23f369b.pdf already exists in database.
+2026-07-01 15:04:29,720 INFO     151_27-Aug-2024-Consolidation of Baskets 3_5ea6a650.pdf already exists in database.
+2026-07-01 15:04:29,798 INFO     150_27-Aug-2024-Amendment to Regulation_20240827_d7edbe54.pdf already exists in database.
+2026-07-01 15:04:29,882 INFO     149_16-Aug-2024-List of Additional eligible securities for Aug 2024-3_8c3bb333.pdf already exists in database.
+2026-07-01 15:04:29,993 INFO     148_14-Aug-2024-Settlement Calendar Sep 2024_58384e68.pdf already exists in database.
+2026-07-01 15:04:30,058 INFO     147_12-Aug-2024-List of Additional eligible securities for Aug 2024-2_1cbcf48f.pdf already exists in database.
+2026-07-01 15:04:30,146 INFO     146_07-Aug-2024-List of Additional eligible securities for Aug 2024-1_9465c801.pdf already exists in database.
+2026-07-01 15:04:30,212 INFO     145_31-Jul-2024-List of Eligible Securities for August 2024_a6029b0a.zip already exists in database.
+2026-07-01 15:04:30,286 INFO     144_24-Jul-2024-List of Additional eligible securities for July 2024-4_3a9687b0.pdf already exists in database.
+2026-07-01 15:04:30,344 INFO     143_16-Jul-2024-List of Additional eligible securities for July 2024-3_fcd29167.pdf already exists in database.
+2026-07-01 15:04:30,426 INFO     141_15-Jul-2024-Settlement Calendar August 2024_824b28c1.pdf already exists in database.
+2026-07-01 15:04:30,499 INFO     140_09-Jul-2024-List of Additional eligible securities for July 2024-2_f471b587.pdf already exists in database.
+2026-07-01 15:04:30,578 INFO     136_02-Jul-2024-List of Additional eligible securities for July 2024-1_3aaab842.pdf already exists in database.
+2026-07-01 15:04:30,643 INFO     135_28-Jun-2024-List of Eligible Securities for July 2024_46851c1e.zip already exists in database.
+2026-07-01 15:04:30,751 INFO     134_28-Jun-2024-Circular_ ARCL Beta Version-1_4f683b84.pdf already exists in database.
+2026-07-01 15:04:30,810 INFO     131_21-Jun-2024-List of Additional eligible securities for June 2024-4_dc003bbf.pdf already exists in database.
+2026-07-01 15:04:30,882 INFO     130_21-Jun-2024-Contribution to Core Settlement Guarantee Fund and Default Waterfall for Limited Purpose Clearing Corporation_70ac4a66.pdf already exists in database.
+2026-07-01 15:04:30,992 INFO     129_20-Jun-2024-Introduction of CPs and CDs as eligible collateral for Tri Party Repo_521fc7b7.pdf already exists in database.
+2026-07-01 15:04:31,076 INFO     125_14-Jun-2024-Settlement Calendar July 2024_9b80d74b.pdf already exists in database.
+2026-07-01 15:04:31,141 INFO     126_14-Jun-2024-List of Additional eligible securities for June 2024-3_d7ece6f5.pdf already exists in database.
+2026-07-01 15:04:31,222 INFO     124_10-Jun-2024-Collateral & Margin request through ARCL Connect_fbeace8c.pdf already exists in database.
+2026-07-01 15:04:31,280 INFO     123_07-Jun-2024-Transaction Charges for Tri Party Repo_d6b439cf.pdf already exists in database.
+2026-07-01 15:04:31,358 INFO     122_06-Jun-2024-List of Additional eligible securities for June 2024-2_dbda37a8.pdf already exists in database.
+2026-07-01 15:04:31,449 INFO     120_03-Jun-2024-List of Additional eligible securities for June 2024-1_0e50b8a3.pdf already exists in database.
+2026-07-01 15:04:31,522 INFO     118_31-May-2024-Submission of Half Yearly Net Worth Certific_e8cf7d33.pdf already exists in database.
+2026-07-01 15:04:31,580 INFO     119_30-May-2024-Submission of Half Yearly Internal Audit Report -Extension of timeline for submission_32378194.pdf already exists in database.
+2026-07-01 15:04:31,652 INFO     121_29-May-2024-Norms for acceptable collaterals and exposure of Clearing Corporation_1cdb9cc9.zip already exists in database.
+2026-07-01 15:04:31,740 INFO     117_29-May-2024-List of Eligible Securities for June 2024_1b96197a.zip already exists in database.
+2026-07-01 15:04:31,813 INFO     113_28-May-2024-Norms for sharing of real time price data to third parties_2d5d9740.zip already exists in database.
+2026-07-01 15:04:31,886 INFO     112_27-May-2024-List of Additional eligible securities for May 2024-8_c0d4290b.pdf already exists in database.
+2026-07-01 15:04:31,955 INFO     111_17-May-2024-List of Additional eligible securities for May 2024-7_0bc6e29e.pdf already exists in database.
+2026-07-01 15:04:32,049 INFO     110_16-May-2024-List of Additional eligible securities for May 2024-6_2f07f705.pdf already exists in database.
+2026-07-01 15:04:32,104 INFO     109_15-May-2024-Settlement Calendar June 2024_b401091f.pdf already exists in database.
+2026-07-01 15:04:32,188 INFO     108_14-May-2024-List of Additional eligible securities for May 2024-5_57ac13a7.pdf already exists in database.
+2026-07-01 15:04:32,251 INFO     107_09-May-2024-List of Additional eligible securities for May 2024-4_1e7db277.pdf already exists in database.
+2026-07-01 15:04:32,320 INFO     106_08-May-2024-List of Additional eligible securities for May 2024-3_9863b224.pdf already exists in database.
+2026-07-01 15:04:32,402 INFO     105_07-May-2024-List of Additional eligible securities for May 2024-2_f6b10f3a.pdf already exists in database.
+2026-07-01 15:04:32,494 INFO     104_02-May-2024-List of Additional eligible securities for May 2024-1_302f9c77.pdf already exists in database.
+2026-07-01 15:04:32,564 INFO     103_02-May-2024-Consolidation of Baskets_f658f87c.pdf already exists in database.
+2026-07-01 15:04:32,634 INFO     102_29-Apr-2024-List of Eligible Securities for May 2024_02514ebe.zip already exists in database.
+2026-07-01 15:04:32,699 INFO     101_25-Apr-2024-Consolidation of Baskets_90398bb8.pdf already exists in database.
+2026-07-01 15:04:32,764 INFO     100_22-Apr-2024-List of Additional eligible securities for April 2024-3_0fc5307f.pdf already exists in database.
+2026-07-01 15:04:32,855 INFO     99_18-Apr-2024-List of Additional eligible securities for April 2024-2_2ae29bf9.pdf already exists in database.
+2026-07-01 15:04:32,930 INFO     95_16-Apr-2024-Revised Settlement Calendar May 2024_364b92d6.pdf already exists in database.
+2026-07-01 15:04:33,023 INFO     94_16-Apr-2024-Change in Holiday 2024_b6f42cd9.pdf already exists in database.
+2026-07-01 15:04:33,087 INFO     93_15-Apr-2024-Annual Subscription Fees_49260c2a.pdf already exists in database.
+2026-07-01 15:04:33,154 INFO     92_15-Apr-2024-Settlement Calendar May 2024_93b4992a.pdf already exists in database.
+2026-07-01 15:04:33,205 INFO     89_08-Apr-2024-Launch of ARCL Connect Beta Version_355b9b20.pdf already exists in database.
+2026-07-01 15:04:33,272 INFO     88_05-Apr-2024-List of Additional eligible securities for April 2024-1_28aaadbe.pdf already exists in database.
+2026-07-01 15:04:33,339 INFO     87_02-Apr-2024-SEBI Annual Clearing Membership Fees_dae97b53.pdf already exists in database.
+2026-07-01 15:04:33,413 INFO     86_28-Mar-2024-Revised list of Eligible Securities for April 2024_6c1f9fbf.zip already exists in database.
+2026-07-01 15:04:33,482 INFO     85_27-Mar-2024-List of Eligible Securities for April 2024_364680f9.zip already exists in database.
+2026-07-01 15:04:33,540 INFO     84_23-Mar-2024-Trading Session from DR_9f274be1.zip already exists in database.
+2026-07-01 15:04:33,600 INFO     82_22-Mar-2024-Circular - Modification in Eligible Issuer_dbf729e1.pdf already exists in database.
+2026-07-01 15:04:33,700 INFO     83_22-Mar-2024-List of Additional eligible securities for March 2024-7_346145d2.pdf already exists in database.
+2026-07-01 15:04:33,786 INFO     81_20-Mar-2024-List of Additional eligible securities for March 2024-6_ae5ac71f.pdf already exists in database.
+2026-07-01 15:04:33,859 INFO     80_19-Mar-2024-List of Additional eligible securities for March 2024-5_154e2e0c.pdf already exists in database.
+2026-07-01 15:04:33,918 INFO     79_15-Mar-2024-Settlement Calander April 2024_efe09c09.pdf already exists in database.
+2026-07-01 15:04:33,995 INFO     78_14-Mar-2024-List of Additional eligible securities for March 2024-4_234fece8.pdf already exists in database.
+2026-07-01 15:04:34,056 INFO     77_12-Mar-2024-List of Additional eligible securities for March 2024-3_e5e2ba66.pdf already exists in database.
+2026-07-01 15:04:34,134 INFO     76_12-Mar-2024-Corporate action handling_a7cb75d1.pdf already exists in database.
+2026-07-01 15:04:34,216 INFO     75_11-Mar-2024-Waiver of Transaction Charges_ee2e483b.pdf already exists in database.
+2026-07-01 15:04:34,329 INFO     74_05-Mar-2024-List of Additional eligible securities for March 2024-2_54c6515a.pdf already exists in database.
+2026-07-01 15:04:34,438 INFO     73_01-Mar-2024-Revision in Eligibility Criteria for Participants_31414fd2.pdf already exists in database.
+2026-07-01 15:04:34,511 INFO     71_27-Feb-2024-List of Additional eligible securities for February 2024-7_735e0487.pdf already exists in database.
+2026-07-01 15:04:34,597 INFO     70_22-Feb-2024-Transaction Charges for Tri Party Repo_2a7357b1.pdf already exists in database.
+2026-07-01 15:04:34,684 INFO     69_21-Feb-2024-List of Additional eligible securities for February 2024-6_4eb81fbe.pdf already exists in database.
+2026-07-01 15:04:34,747 INFO     68_15-Feb-2024-List of Additional eligible securities for February 2024-5_e736eccb.pdf already exists in database.
+2026-07-01 15:04:34,813 INFO     67_15-Feb-2024-Settlement Calandar March 2024_b3e51814.pdf already exists in database.
+2026-07-01 15:04:34,898 INFO     66_13-Feb-2024-List of Additional eligible securities for February 2024-4_fc6e144c.pdf already exists in database.
+2026-07-01 15:04:34,972 INFO     65_09-Feb-2024-List of Additional eligible securities for February 2024-3_225c8ae2.pdf already exists in database.
+2026-07-01 15:04:35,054 INFO     64_06-Feb-2024-List of Additional eligible securities for February 2024-2_3d2f8e97.pdf already exists in database.
+2026-07-01 15:04:35,113 INFO     63_06-Feb-2024-Revision in Funds Pay-Out timing_4ebfd924.pdf already exists in database.
+2026-07-01 15:04:35,191 INFO     62_02-Feb-2024-List of Additional eligible securities for February 2024-1_895c5d2a.pdf already exists in database.
+2026-07-01 15:04:35,252 INFO     60_29-Jan-2024-List of Additional eligible securities for January 2024-3_b6f2fefd.pdf already exists in database.
+2026-07-01 15:04:35,330 INFO     61_29-Jan-2024-List of eligible securities for February 2024_3440a1e6.zip already exists in database.
+2026-07-01 15:04:35,423 INFO     59_24-Jan-2024-List of Additional eligible securities for January 2024-2_1e33daa7.pdf already exists in database.
+2026-07-01 15:04:35,521 INFO     58_23-Jan-2024-List of Additional eligible securities for January 2024-1_e132e6dc.pdf already exists in database.
+2026-07-01 15:04:35,581 INFO     55_19-Jan-2024-Change in Settlement Calendar January 2024_7cb025a3.zip already exists in database.
+2026-07-01 15:04:35,679 INFO     54_19-Jan-2024-Change in Holiday 2024_596876e1.zip already exists in database.
+2026-07-01 15:04:35,769 INFO     53_15-Jan-2024-List of Additional eligible securities for January 2024_a851367a.pdf already exists in database.
+2026-07-01 15:04:35,849 INFO     51_15-Jan-2024-Settlement Calendar February 2024_1101cc1f.pdf already exists in database.
+2026-07-01 15:04:35,921 INFO     50_28-Dec-2023-List of eligible securities for January 2024_48acee6b.zip already exists in database.
+2026-07-01 15:04:35,992 INFO     49_27-Dec-2023-Holiday for 2024_7e4d2724.pdf already exists in database.
+2026-07-01 15:04:36,069 INFO     47_20-Dec-2023-Circular - Modification in Eligible Issuer_4e887c69.pdf already exists in database.
+2026-07-01 15:04:36,139 INFO     48_20-Dec-2023-Modification of Eligible ISIN For December 2023_31328327.pdf already exists in database.
+2026-07-01 15:04:36,227 INFO     46_19-Dec-2023-Settlement Calendar January 2024_ad40164c.pdf already exists in database.
+2026-07-01 15:04:36,341 INFO     45_08-Dec-2023-Waiver of Transaction Charges_106d1620.pdf already exists in database.
+2026-07-01 15:04:36,409 INFO     44_07-Dec-2023-Revised Eligible ISIN For December 2023_b92a7ba4.zip already exists in database.
+2026-07-01 15:04:36,487 INFO     42_22-Nov-2023-Change in Registered Office Address_96713d50.pdf already exists in database.
+2026-07-01 15:04:36,570 INFO     40_20-Nov-2023-Circular - Modification in eligible issuer_9ff21d5c.pdf already exists in database.
+2026-07-01 15:04:36,635 INFO     41_20-Nov-2023-Modification of Eligible ISIN For November 2023_6902c2ea.zip already exists in database.
+2026-07-01 15:04:36,702 INFO     39_15-Nov-2023-Settlement Calendar December 2023_5ab8da47.pdf already exists in database.
+2026-07-01 15:04:36,782 INFO     38_08-Nov-2023-Additional Eligible ISIN For November 2023_838fc89d.zip already exists in database.
+2026-07-01 15:04:36,860 INFO     37_01-Nov-2023-Revision in Eligibility Criteria for Participant_d5f81ea9.pdf already exists in database.
+2026-07-01 15:04:36,945 INFO     36_27-Oct-2023-Eligible ISIN For November 2023_cf0be778.zip already exists in database.
+2026-07-01 15:04:37,009 INFO     34_23-Oct-2023-Ease of doing business and development of corporate bond-Framework_e04b8af1.zip already exists in database.
+2026-07-01 15:04:37,107 INFO     33_16-Oct-2023-Settlement Calander November 2023_9b16dad4.pdf already exists in database.
+2026-07-01 15:04:37,195 INFO     32_09-Oct-2023-Submission of Half Yearly Networth Certificate_f9c166af.zip already exists in database.
+2026-07-01 15:04:37,277 INFO     31_05-Oct-2023-Additional Eligible ISIN For October 2023_6e111cf7.zip already exists in database.
+2026-07-01 15:04:37,351 INFO     30_29-Sep-2023-Circular_List of eligible issuer_2a62c346.zip already exists in database.
+2026-07-01 15:04:37,426 INFO     29_29-Sep-2023-Eligible ISIN For October 2023_ed777dec.zip already exists in database.
+2026-07-01 15:04:37,527 INFO     28_28-Sep-2023-Change in Settlement Calander September 2023_7438729b.pdf already exists in database.
+2026-07-01 15:04:37,602 INFO     27_28-Sep-2023-Change in settlement holiday_8fc44a8f.zip already exists in database.
+2026-07-01 15:04:37,682 INFO     26_27-Sep-2023-Change_Settlement Calander September 2023_8da1e1b1.pdf already exists in database.
+2026-07-01 15:04:37,756 INFO     25_27-Sep-2023-28.09.2023_ed9d5b76.zip already exists in database.
+2026-07-01 15:04:37,842 INFO     24_18-Sep-2023-Settlement Calander October 2023_10690803.pdf already exists in database.
+2026-07-01 15:04:37,942 INFO     23_04-Sep-2023-Circular- Issuer Contribution Toward Core SGF_4eddaf5c.pdf already exists in database.
+2026-07-01 15:04:38,009 INFO     22_29-Aug-2023-Eligible ISIN For September_8cc87a25.zip already exists in database.
+2026-07-01 15:04:38,077 INFO     20_11-Aug-2023-Settlement Calander September 2023 _7a44192d.pdf already exists in database.
+2026-07-01 15:04:38,155 INFO     19_04-Aug-2023-Circular - Issuer Contribution Toward Core SGF_e9076a82.pdf already exists in database.
+2026-07-01 15:04:38,285 INFO     18_26-Jul-2023-Participation of Direct Client on Tri-Party Repo Product_a4759fe5.zip already exists in database.
+2026-07-01 15:04:38,352 INFO     15_21-Jul-2023-Master Circular_Tri Party Repo_b4b5fc4e.zip already exists in database.
+2026-07-01 15:04:38,452 INFO     17_21-Jul-2023-Settlement Calendar August 2023_122a5446.pdf already exists in database.
+2026-07-01 15:04:38,529 INFO     16_21-Jul-2023-Settlement Calendar July 2023_708c5262.pdf already exists in database.
+2026-07-01 15:04:38,601 INFO     14_27-Jun-2023-Change in Holiday_09f666df.zip already exists in database.
+2026-07-01 15:04:38,661 INFO     13_16-Jun-2023-Master Circular_621e4bec.zip already exists in database.
+2026-07-01 15:04:38,717 INFO     12_05-Jun-2023-Circular-Issuer Contribution towards Core SGF_69ba1239.pdf already exists in database.
+2026-07-01 15:04:38,767 INFO     11_26-Apr-2023-Circular-Issuer Contribution Toward Core SGF_e14e0100.zip already exists in database.
+2026-07-01 15:04:38,836 INFO     9_17-Apr-2023-Dispute Resolution Mechanism for Limited Purpose Clearing Corporation(LPCC)_590a467c.zip already exists in database.
+2026-07-01 15:04:38,896 INFO     PolicyforWindingDown_d44a4335.zip already exists in database.
+2026-07-01 15:04:38,970 INFO     ConsolidatedCircular_fc1e1dcb.zip already exists in database.
+2026-07-01 15:04:39,051 INFO     Holidays_a3f8126d.pdf already exists in database.
+2026-07-01 15:04:39,139 INFO     MemberReportStructure_df73086e.pdf already exists in database.
+2026-07-01 15:04:39,238 INFO     3_11-Jan-2022-Investor Grievance  Redressal_e0c35401.zip already exists in database.
+2026-07-01 15:04:39,239 INFO     Total Documents Found : 416
+2026-07-01 15:04:39,239 INFO     Already Processed     : 414
+2026-07-01 15:04:39,240 INFO     Downloading : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+2026-07-01 15:04:40,006 ERROR    Failed : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/221_27-Feb-2025-List%20of%20eligible%20securities%20for%20March%202025.zip
+2026-07-01 15:04:40,008 INFO     Downloading : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+2026-07-01 15:04:40,684 ERROR    Failed : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/220_27-Feb-2025-List%20of%20Additional%20eligible%20securities%20for%20Feb%202025-05.pdf
+2026-07-01 15:04:40,688 INFO     
+2026-07-01 15:04:40,689 INFO     ARCL Summary
+2026-07-01 15:04:40,689 INFO     -------------------------
+2026-07-01 15:04:40,689 INFO     Total Documents Found : 416
+2026-07-01 15:04:40,690 INFO     Already Processed     : 414
+2026-07-01 15:04:40,690 INFO     Downloaded            : 0
+2026-07-01 15:04:40,690 INFO     Failed                : 2
