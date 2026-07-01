@@ -1,6 +1,7 @@
 
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, parse_qs
+from .db import save_pdf, pdf_exists
 
 from .helpers import (
     get_logger,
@@ -118,6 +119,10 @@ def scrape_sebi() -> tuple[int, int]:
                     filename = safe_filename(title) + ".pdf"
                 else:
                     filename = f"sebi_{found}.pdf"
+            
+            if pdf_exists("SEBI", filename):
+                log.info("%s already exists in database. Skipping.", filename)
+                continue
 
             dest = dest_for("SEBI", filename)
 
@@ -125,6 +130,12 @@ def scrape_sebi() -> tuple[int, int]:
             # Download
             # ----------------------------------------------------
             if download_pdf(pdf_url, dest, log):
+                save_pdf(
+                source="SEBI",
+                pdf_name=filename,
+                pdf_link=pdf_url,
+                category="Circular"
+                )
                 seen.add(full_url)
                 seen.add(pdf_url)
                 downloaded += 1

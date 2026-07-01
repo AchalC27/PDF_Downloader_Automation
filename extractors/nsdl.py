@@ -1,5 +1,6 @@
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
+from .db import save_pdf, pdf_exists
 
 from .helpers import (
     get_logger,
@@ -76,10 +77,19 @@ def scrape_nsdl() -> tuple[int, int]:
             path_stem = urlparse(full_url).path.split('/')[-1].rsplit('.', 1)[0]
             filename = safe_filename(path_stem or f"nsdl_document_{found}") + ext
 
+        if pdf_exists("NSDL", filename):
+                log.info("%s already exists in database. Skipping.", filename)
+                continue
         dest = dest_for("NSDL", filename)
 
         # Attempt download execution
         if download_pdf(full_url, dest, log):
+            save_pdf(
+                source="NSDL",
+                pdf_name=filename,
+                pdf_link=full_url,
+                category="Circular"
+            )
             seen.add(full_url)
             downloaded += 1
 

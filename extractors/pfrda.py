@@ -1,5 +1,6 @@
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
+from .db import save_pdf, pdf_exists
 
 from .helpers import (
     get_logger,
@@ -96,6 +97,9 @@ def scrape_pfrda() -> tuple[int, int]:
                 continue
 
             filename = safe_filename(title)
+            if pdf_exists("PFRDA", filename):
+                log.info("%s already exists in database. Skipping.", filename)
+                continue
 
             ext = Path(
                 urlparse(pdf_url).path
@@ -115,9 +119,15 @@ def scrape_pfrda() -> tuple[int, int]:
                 pdf_url,
                 dest,
                 log
-            ):
+            ): 
                 downloaded += 1
                 seen.add(pdf_url)
+                save_pdf(
+                source="PFRDA",
+                pdf_name=filename,
+                pdf_link=pdf_url,
+                category="Circular"
+                )
 
                 log.info(
                     "Downloaded: %s",

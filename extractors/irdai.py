@@ -1,6 +1,7 @@
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 import re
+from .db import save_pdf, pdf_exists
 
 from .helpers import (
     get_logger,
@@ -57,9 +58,19 @@ def scrape_irdai() -> tuple[int, int]:
                 filename = safe_filename(link_text) + ext
             else:
                 filename = safe_filename(Path(urlparse(full_url).path).name)
+            
+            if pdf_exists("IRDAI", filename):
+                log.info("%s already exists in database. Skipping.", filename)
+                continue
 
             dest = dest_for("IRDAI", filename)
             if download_pdf(full_url, dest, log):
+                save_pdf(
+                source="IRDAI",
+                pdf_name=filename,
+                pdf_link=full_url,
+                category="Circular"
+                )
                 seen.add(full_url)
                 downloaded += 1
 
