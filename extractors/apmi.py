@@ -1,5 +1,6 @@
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
+from .db import save_pdf, pdf_exists
 
 from .helpers import (
     get_logger,
@@ -10,16 +11,6 @@ from .helpers import (
     safe_filename,
     dest_for,
 )
-
-
-# ══════════════════════════════════════════════
-# SCRAPER  2 – APMI  (Circulars + SEBI Circulars)
-# URL: https://www.apmiindia.org/apmi/welcome.htm
-# The circulars live inside the "CIRCULARS" nav menu:
-#   • SEBI Circulars
-#   • APMI Circulars and Guidelines
-#   • Communication from SEBI / APMI
-# ══════════════════════════════════════════════
 
 APMI_BASE = "https://www.apmiindia.org"
 APMI_HOME = "https://www.apmiindia.org/apmi/welcome.htm"
@@ -102,15 +93,25 @@ def scrape_apmi() -> tuple[int, int]:
 
         found += 1
 
-        if pdf_url in seen:
+        filename = safe_filename(Path(urlparse(pdf_url).path).name)
+
+        if pdf_exists("APMI", filename):
+            log.info("%s already exists in database. Skipping.", filename)
             continue
 
-        filename = safe_filename(Path(urlparse(pdf_url).path).name)
+
+        
         dest = dest_for("APMI", filename)
 
         log.info("Downloading %s", filename)
 
         if download_pdf(pdf_url, dest, log):
+            save_pdf(
+                source="APMI",
+                pdf_name=filename,
+                pdf_link=pdf_url,
+                category="Circular"
+            )
             seen.add(pdf_url)
             downloaded += 1
 

@@ -40,3 +40,80 @@
 2026-06-30 11:35:33,216 INFO     Total Circulars Found : 0
 2026-06-30 11:35:33,217 INFO     Already Processed     : 0
 2026-06-30 11:35:33,217 INFO     No new circulars found.
+2026-06-30 15:01:17,606 INFO     
+2026-06-30 15:01:17,610 INFO     ========== MCX ==========
+2026-06-30 15:01:17,612 INFO     Fetching page 1
+2026-06-30 15:01:20,590 INFO     Page 1/1
+2026-06-30 15:01:20,592 INFO     Total Circulars Found : 1
+2026-06-30 15:01:20,592 INFO     Already Processed     : 0
+2026-06-30 15:01:20,593 INFO     Downloading : 30-Jun-2026_No372_MCXCCL_Due Date Rates.pdf
+2026-06-30 15:01:22,037 INFO     
+2026-06-30 15:01:22,038 INFO     MCX Summary
+2026-06-30 15:01:22,038 INFO     -------------------------
+2026-06-30 15:01:22,038 INFO     Total Circulars Found : 1
+2026-06-30 15:01:22,038 INFO     Already Processed     : 0
+2026-06-30 15:01:22,038 INFO     Downloaded            : 1
+2026-06-30 15:01:22,039 INFO     Failed                : 0
+2026-06-30 15:32:43,393 INFO     
+2026-06-30 15:32:43,393 INFO     ========== MCX ==========
+2026-06-30 15:32:43,395 INFO     Fetching page 1
+2026-06-30 15:32:45,084 INFO     Page 1/1
+2026-06-30 15:32:45,087 INFO     Total Circulars Found : 1
+2026-06-30 15:32:45,087 INFO     Already Processed     : 1
+2026-06-30 15:32:45,087 INFO     No new circulars found.
+2026-06-30 15:35:02,043 INFO     
+2026-06-30 15:35:02,044 INFO     ========== MCX ==========
+2026-06-30 15:35:02,045 INFO     Fetching page 1
+2026-06-30 15:35:03,941 INFO     Page 1/1
+2026-06-30 15:35:03,945 INFO     Total Circulars Found : 1
+2026-06-30 15:35:03,946 INFO     Already Processed     : 1
+2026-06-30 15:35:03,946 INFO     No new circulars found.
+2026-07-01 10:24:16,327 INFO     
+2026-07-01 10:24:16,328 INFO     ========== MCX ==========
+2026-07-01 10:24:16,330 INFO     Fetching page 1
+2026-07-01 10:24:18,032 INFO     Page 1/0
+2026-07-01 10:24:18,034 INFO     Total Circulars Found : 0
+2026-07-01 10:24:18,035 INFO     Already Processed     : 0
+2026-07-01 10:24:18,035 INFO     No new circulars found.
+2026-07-01 10:34:18,905 INFO     
+2026-07-01 10:34:18,906 INFO     ========== MCX ==========
+2026-07-01 10:34:18,907 INFO     Fetching page 1
+2026-07-01 10:34:20,442 INFO     Page 1/0
+2026-07-01 10:34:20,445 INFO     Total Circulars Found : 0
+2026-07-01 10:34:20,445 INFO     Already Processed     : 0
+2026-07-01 10:34:20,446 INFO     No new circulars found.
+2026-07-01 11:00:26,211 INFO     
+2026-07-01 11:00:26,216 INFO     ========== MCX ==========
+2026-07-01 11:00:26,236 INFO     Fetching page 1
+2026-07-01 11:00:27,947 INFO     Page 1/0
+2026-07-01 11:00:27,950 INFO     Total Circulars Found : 0
+2026-07-01 11:00:27,950 INFO     Already Processed     : 0
+2026-07-01 11:00:27,951 INFO     No new circulars found.
+2026-07-01 11:04:10,714 INFO     
+2026-07-01 11:04:10,714 INFO     ========== MCX ==========
+2026-07-01 11:04:10,715 INFO     Fetching page 1
+2026-07-01 11:04:12,317 INFO     Page 1/0
+2026-07-01 11:04:12,319 INFO     Total Circulars Found : 0
+2026-07-01 11:04:12,319 INFO     Already Processed     : 0
+2026-07-01 11:04:12,320 INFO     No new circulars found.
+2026-07-01 14:42:56,835 INFO     
+2026-07-01 14:42:56,837 INFO     ========== MCX ==========
+2026-07-01 14:42:56,838 INFO     Fetching page 1
+2026-07-01 14:42:58,578 INFO     Page 1/0
+2026-07-01 14:42:58,582 INFO     Total Circulars Found : 0
+2026-07-01 14:42:58,583 INFO     Already Processed     : 0
+2026-07-01 14:42:58,584 INFO     No new circulars found.
+2026-07-01 14:49:47,585 INFO     
+2026-07-01 14:49:47,586 INFO     ========== MCX ==========
+2026-07-01 14:49:47,587 INFO     Fetching page 1
+2026-07-01 14:49:49,410 INFO     Page 1/0
+2026-07-01 14:49:49,413 INFO     Total Circulars Found : 0
+2026-07-01 14:49:49,414 INFO     Already Processed     : 0
+2026-07-01 14:49:49,414 INFO     No new circulars found.
+2026-07-01 14:50:40,424 INFO     
+2026-07-01 14:50:40,425 INFO     ========== MCX ==========
+2026-07-01 14:50:40,426 INFO     Fetching page 1
+2026-07-01 14:50:42,113 INFO     Page 1/0
+2026-07-01 14:50:42,116 INFO     Total Circulars Found : 0
+2026-07-01 14:50:42,117 INFO     Already Processed     : 0
+2026-07-01 14:50:42,117 INFO     No new circulars found.

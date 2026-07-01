@@ -4,7 +4,7 @@ from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
-
+from .db import pdf_exists, save_pdf
 from .logger import get_logger
 from .get_download import get_download
 from .json_handler import get_json_file, load_downloaded_urls, save_downloaded_urls
@@ -63,26 +63,40 @@ def generate_filename(document_url):
     return f"{base}_{url_hash}{ext}"
 
 
-def download_documents(document_links, download_folder, processed_urls):
+def download_documents(document_links, download_folder):
     downloaded = 0
     failed = 0
 
     for document_url in document_links:
+
         filename = generate_filename(document_url)
         filepath = os.path.join(download_folder, filename)
 
         try:
             logger.info(f"Downloading : {filename}")
-            response = requests.get(document_url, headers=HEADERS, timeout=60)
+
+            response = requests.get(
+                document_url,
+                headers=HEADERS,
+                timeout=60
+            )
             response.raise_for_status()
+
             with open(filepath, "wb") as file:
                 file.write(response.content)
+
+            save_pdf(
+                source="ARCL",
+                pdf_name=filename,
+                pdf_link=document_url,
+                category="Circulars"
+            )
+
             downloaded += 1
+
         except Exception:
             logger.exception(f"Failed : {filename}")
             failed += 1
-        finally:
-            processed_urls.add(document_url)
 
     return downloaded, failed
 
@@ -92,14 +106,26 @@ def download_arcl():
     logger.info("========== ARCL ==========")
 
     download_folder = get_download("arcl")
-    json_file = get_json_file("arcl")
-    processed_urls = load_downloaded_urls(json_file)
+    # json_file = get_json_file("arcl")
+    # processed_urls = load_downloaded_urls(json_file)
 
     html = fetch_html()
     document_links = extract_arcl(html, BASE_URL)
 
     total = len(document_links)
-    new_documents = [url for url in document_links if url not in processed_urls]
+    
+    new_documents = []
+
+    for url in document_links:
+
+        filename = generate_filename(url)
+
+        if pdf_exists("ARCL", filename):
+            logger.info(f"{filename} already exists in database.")
+            continue
+
+        new_documents.append(url)
+    
     already_processed = total - len(new_documents)
 
     logger.info(f"Total Documents Found : {total}")
@@ -109,9 +135,13 @@ def download_arcl():
         logger.info("No new documents found.")
         return
 
-    downloaded, failed = download_documents(new_documents, download_folder, processed_urls)
+    downloaded, failed = download_documents(
+        new_documents,
+        download_folder
+    )
 
-    save_downloaded_urls(json_file, processed_urls)
+    # downloaded, failed = download_documents(new_documents, download_folder, processed_urls)
+    # save_downloaded_urls(json_file, processed_urls)
 
     logger.info("")
     logger.info("ARCL Summary")

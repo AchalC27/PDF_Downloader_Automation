@@ -54,3 +54,505 @@
 2026-06-30 11:35:30,819 INFO     Total Documents Found : 414
 2026-06-30 11:35:30,819 INFO     Already Processed     : 414
 2026-06-30 11:35:30,819 INFO     No new documents found.
+2026-06-30 15:01:12,512 INFO     
+2026-06-30 15:01:12,513 INFO     ========== ARCL ==========
+2026-06-30 15:01:16,328 INFO     Running ARCL extractor...
+2026-06-30 15:01:16,465 INFO     Total Documents Found : 414
+2026-06-30 15:01:16,465 INFO     Already Processed     : 414
+2026-06-30 15:01:16,465 INFO     No new documents found.
+2026-06-30 15:32:39,218 INFO     
+2026-06-30 15:32:39,218 INFO     ========== ARCL ==========
+2026-06-30 15:32:42,072 INFO     Running ARCL extractor...
+2026-06-30 15:32:42,192 INFO     Total Documents Found : 414
+2026-06-30 15:32:42,192 INFO     Already Processed     : 414
+2026-06-30 15:32:42,192 INFO     No new documents found.
+2026-06-30 15:34:58,098 INFO     
+2026-06-30 15:34:58,098 INFO     ========== ARCL ==========
+2026-06-30 15:35:01,024 INFO     Running ARCL extractor...
+2026-06-30 15:35:01,143 INFO     Total Documents Found : 414
+2026-06-30 15:35:01,143 INFO     Already Processed     : 414
+2026-06-30 15:35:01,144 INFO     No new documents found.
+2026-07-01 10:24:10,741 INFO     
+2026-07-01 10:24:10,742 INFO     ========== ARCL ==========
+2026-07-01 10:24:13,945 INFO     Running ARCL extractor...
+2026-07-01 10:24:14,067 INFO     Total Documents Found : 416
+2026-07-01 10:24:14,067 INFO     Already Processed     : 415
+2026-07-01 10:24:14,068 INFO     Downloading : 451_30-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-17_8b2fdc80.pdf
+2026-07-01 10:24:15,197 INFO     
+2026-07-01 10:24:15,198 INFO     ARCL Summary
+2026-07-01 10:24:15,198 INFO     -------------------------
+2026-07-01 10:24:15,198 INFO     Total Documents Found : 416
+2026-07-01 10:24:15,199 INFO     Already Processed     : 415
+2026-07-01 10:24:15,199 INFO     Downloaded            : 1
+2026-07-01 10:24:15,199 INFO     Failed                : 0
+2026-07-01 10:34:11,957 INFO     
+2026-07-01 10:34:11,958 INFO     ========== ARCL ==========
+2026-07-01 10:34:17,794 INFO     Running ARCL extractor...
+2026-07-01 10:34:17,902 INFO     Total Documents Found : 416
+2026-07-01 10:34:17,902 INFO     Already Processed     : 416
+2026-07-01 10:34:17,902 INFO     No new documents found.
+2026-07-01 11:00:22,357 INFO     
+2026-07-01 11:00:22,358 INFO     ========== ARCL ==========
+2026-07-01 11:00:25,191 INFO     Running ARCL extractor...
+2026-07-01 11:00:25,312 INFO     Total Documents Found : 416
+2026-07-01 11:00:25,312 INFO     Already Processed     : 416
+2026-07-01 11:00:25,312 INFO     No new documents found.
+2026-07-01 11:03:59,808 INFO     
+2026-07-01 11:03:59,808 INFO     ========== ARCL ==========
+2026-07-01 11:04:09,711 INFO     Running ARCL extractor...
+2026-07-01 11:04:09,823 INFO     Total Documents Found : 416
+2026-07-01 11:04:09,823 INFO     Already Processed     : 416
+2026-07-01 11:04:09,823 INFO     No new documents found.
+2026-07-01 11:38:01,251 INFO     
+2026-07-01 11:38:01,252 INFO     ========== ARCL ==========
+2026-07-01 11:38:04,919 INFO     Running ARCL extractor...
+2026-07-01 11:39:15,913 INFO     Total Documents Found : 416
+2026-07-01 11:42:51,014 INFO     
+2026-07-01 11:42:51,014 INFO     ========== ARCL ==========
+2026-07-01 11:42:53,982 INFO     Running ARCL extractor...
+2026-07-01 11:49:59,109 INFO     
+2026-07-01 11:49:59,109 INFO     ========== ARCL ==========
+2026-07-01 12:04:52,768 INFO     
+2026-07-01 12:04:52,768 INFO     ========== ARCL ==========
+2026-07-01 12:04:55,222 INFO     Running ARCL extractor...
+2026-07-01 12:05:33,133 INFO     Total Documents Found : 416
+2026-07-01 12:05:33,133 INFO     Already Processed     : 0
+2026-07-01 12:05:33,134 INFO     Downloading : MembershipCriteria_45393420.pdf
+2026-07-01 12:05:33,590 INFO     Downloading : CoreSGFContribution-GenericCalculator_5aa87a63.xlsx
+2026-07-01 12:05:33,991 INFO     Downloading : BorrowerMarginCalculator_a7e258b1.xlsx
+2026-07-01 12:05:34,471 INFO     Downloading : ARCL-ComplianceCalendar_44fb5951.pdf
+2026-07-01 12:05:34,924 INFO     Downloading : 451_30-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-17_8b2fdc80.pdf
+2026-07-01 12:05:35,431 INFO     Downloading : 450_30-Jun-2026-List of eligible securities as collateral for Tri-party Repo for July 2026_d3332b48.zip
+2026-07-01 12:05:35,956 INFO     Downloading : 449_29-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-16_df039b52.pdf
+2026-07-01 12:05:36,451 INFO     Downloading : 448_25-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-15_a822c0d6.pdf
+2026-07-01 12:05:36,945 INFO     Downloading : 447_23-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-14_77279544.pdf
+2026-07-01 12:05:37,363 INFO     Downloading : 446_22-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-13_104d317d.pdf
+2026-07-01 12:05:37,782 INFO     Downloading : 445_19-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-12_16334616.pdf
+2026-07-01 12:05:38,304 INFO     Downloading : 444_18-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-11_e9e0602c.pdf
+2026-07-01 12:05:38,747 INFO     Downloading : 443_17-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-10_aa5dd4d1.pdf
+2026-07-01 12:05:39,208 INFO     Downloading : 442_16-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-09_4f5e2a69.pdf
+2026-07-01 12:05:39,699 INFO     Downloading : 441_15-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-08_de80b652.pdf
+2026-07-01 12:05:40,245 INFO     Downloading : 440_15-Jun-2026-Settlement Calendar July 2026_1850756e.pdf
+2026-07-01 12:05:40,670 INFO     Downloading : 439_12-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-07_00977241.pdf
+2026-07-01 12:05:41,167 INFO     Downloading : 438_10-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-06_68caab28.pdf
+2026-07-01 12:05:41,670 INFO     Downloading : 437_08-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-05_9823b43f.pdf
+2026-07-01 12:05:42,383 INFO     Downloading : 436_05-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-04_31dbb192.pdf
+2026-07-01 12:05:42,932 INFO     Downloading : 435_04-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-03_13893301.pdf
+2026-07-01 12:05:43,414 INFO     Downloading : 434_02-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-02_6b69dd9b.pdf
+2026-07-01 12:05:44,049 INFO     Downloading : 433_01-Jun-2026-List of additional eligible securities as collateral for Tri-party Repo for June 2026-01_6ed8b64d.pdf
+2026-07-01 12:05:44,741 INFO     Downloading : 432_29-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-10_9166e43b.pdf
+2026-07-01 12:05:45,264 INFO     Downloading : 431_29-May-2026-June 2026_921d58f2.zip
+2026-07-01 12:05:45,767 INFO     Downloading : 429_27-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-09_645395fc.pdf
+2026-07-01 12:05:46,236 INFO     Downloading : 428_26-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-08_c37d2314.pdf
+2026-07-01 12:05:46,692 INFO     Downloading : 427_22-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-07_9c827984.pdf
+2026-07-01 12:05:47,305 INFO     Downloading : 426_21-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-06_d1ecc46d.pdf
+2026-07-01 12:05:47,838 INFO     Downloading : 425_20-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-05_e1d7fd98.pdf
+2026-07-01 12:05:48,325 INFO     Downloading : 424_18-May-2026-Reminder -Internal Audit for Half year March 2026_d816a0a6.pdf
+2026-07-01 12:05:48,851 INFO     Downloading : 423_18-May-2026-Reminder for Submission of HY NW March 2026_a1bf8dbd.pdf
+2026-07-01 12:05:49,377 INFO     Downloading : 422_15-May-2026-Settlement Calendar JUNE 2026_192ba916.pdf
+2026-07-01 12:05:49,868 INFO     Downloading : 421_14-May-2026-ARCL_Compliance_2026-27_022_21318690.zip
+2026-07-01 12:05:50,506 INFO     Downloading : 420_14-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-04_d817cc41.pdf
+2026-07-01 12:05:51,125 INFO     Downloading : 419_13-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-03_6d655dc0.pdf
+2026-07-01 12:05:51,593 INFO     Downloading : 418_12-May-2026-Change in Cash Margin Addition Procedure_3dc7dbd1.pdf
+2026-07-01 12:05:52,112 INFO     Downloading : 417_07-May-2026-Penalty and Financial Disincentives Framework_4d168b47.zip
+2026-07-01 12:05:53,451 INFO     Downloading : 416_06-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-02_c3924ab1.pdf
+2026-07-01 12:05:54,063 INFO     Downloading : 415_05-May-2026-List of additional eligible securities as collateral for Tri-party Repo for May 2026-01_b57a4f2d.pdf
+2026-07-01 12:05:54,502 INFO     Downloading : 414_30-Apr-2026-List of eligible securities as collateral for Tri-party Repo for Apr 2026_1cecce50.zip
+2026-07-01 12:05:55,206 INFO     Downloading : 413_29-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-09_1f78556d.pdf
+2026-07-01 12:05:55,709 INFO     Downloading : 412_28-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-08_9b254a75.pdf
+2026-07-01 12:05:56,213 INFO     Downloading : 411_24-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-07_c3305580.pdf
+2026-07-01 12:05:56,865 INFO     Downloading : 410_23-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-06_44fa300c.pdf
+2026-07-01 12:05:57,546 INFO     Downloading : 409_17-Apr-2026-Net Worth Certificate Circular_March 2026_8804aee3.zip
+2026-07-01 12:05:58,250 INFO     Downloading : 408_16-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-05_83581685.pdf
+2026-07-01 12:05:58,885 INFO     Downloading : 407_15-Apr-2026-Half Yearly Internal Audit Report_36c77ca2.zip
+2026-07-01 12:05:59,516 INFO     Downloading : 405_15-Apr-2026-Settlement Calendar May 2026_0082f69e.pdf
+2026-07-01 12:06:00,016 INFO     Downloading : 404_13-Apr-2026-Master Circular_174bbcf4.zip
+2026-07-01 12:06:00,625 INFO     Downloading : 403_09-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-04_7f3e4ffc.pdf
+2026-07-01 12:06:01,243 INFO     Downloading : 402_08-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-03_283587f4.pdf
+2026-07-01 12:06:01,747 INFO     Downloading : 401_06-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for April 2026-02_4220d5e6.pdf
+2026-07-01 12:06:02,264 INFO     Downloading : 400_02-Apr-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-01_d0767adc.pdf
+2026-07-01 12:06:02,807 INFO     Downloading : 399_01-Apr-2026-Annual Subscription Fees for FY2026-27_e60e24fc.pdf
+2026-07-01 12:06:03,283 INFO     Downloading : 398_30-Mar-2026-List of eligible securities as collateral for Tri-party Repo for Apr 2026_1d1c96f3.zip
+2026-07-01 12:06:04,482 INFO     Downloading : 396_27-Mar-2026-SEBI Annual Clearing Membership Fees for 2026-27_1cafdf36.pdf
+2026-07-01 12:06:05,016 INFO     Downloading : 397_27-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-10_ef08358f.pdf
+2026-07-01 12:06:05,563 INFO     Downloading : 395_23-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-09_f5f982d7.pdf
+2026-07-01 12:06:06,046 INFO     Downloading : 394_20-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-08_fba617b8.pdf
+2026-07-01 12:06:06,555 INFO     Downloading : 393_18-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-07_aade57ba.pdf
+2026-07-01 12:06:07,096 INFO     Downloading : 392_16-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-06_2ad791b1.pdf
+2026-07-01 12:06:07,597 INFO     Downloading : 391_13-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-05_eb04eb56.pdf
+2026-07-01 12:06:08,974 INFO     Downloading : 390_13-Mar-2026-Settlement Calendar April 2026_2913e100.pdf
+2026-07-01 12:06:09,396 INFO     Downloading : 387_10-Mar-2026-Contribution by Issuers to Core Settlement Guarantee Fund (Core SGF) of AMC Repo Clearing Limited_491f418e.zip
+2026-07-01 12:06:10,971 INFO     Downloading : 388_10-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-04_fdba81ce.pdf
+2026-07-01 12:06:11,468 INFO     Downloading : 386_09-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-03_2a11f352.pdf
+2026-07-01 12:06:11,988 INFO     Downloading : 385_05-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-02_2a1a805c.pdf
+2026-07-01 12:06:12,504 INFO     Downloading : 389_05-Mar-2026-Trading Session From DR Site_03f13628.zip
+2026-07-01 12:06:13,017 INFO     Downloading : 384_04-Mar-2026-Ease of Doing Investment (EoDI)_59fc8c63.zip
+2026-07-01 12:06:13,494 INFO     Downloading : 383_04-Mar-2026-SEBI (Stockbrokers) Regulation, 2026_4f9e82c5.zip
+2026-07-01 12:06:14,144 INFO     Downloading : 382_02-Mar-2026-List of additional eligible securities as collateral for Tri-party Repo for March 2026-01_67974585.pdf
+2026-07-01 12:06:14,659 INFO     Downloading : 381_27-Feb-2026-List of eligible securities as collateral for Tri-party Repo for Mar 2026_b28a348c.zip
+2026-07-01 12:06:16,036 INFO     Downloading : 380_25-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-6_99ab6ce4.pdf
+2026-07-01 12:06:16,495 INFO     Downloading : 379_24-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-5_44a176aa.pdf
+2026-07-01 12:06:17,132 INFO     Downloading : 377_23-Feb-2026-Forms for registration of stockbrokers and CM_0f076ed0.zip
+2026-07-01 12:06:17,711 INFO     Downloading : 378_23-Feb-2026-Digital submission of Ongoing Membership Compliances_52d29a68.pdf
+2026-07-01 12:06:18,231 INFO     Downloading : 376_20-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-4_6c6a1664.pdf
+2026-07-01 12:06:18,748 INFO     Downloading : 375_13-Feb-2026-Settlement Calendar Mar 2026_dc82ca2f.pdf
+2026-07-01 12:06:19,250 INFO     Downloading : 374_12-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-3_879d9beb.pdf
+2026-07-01 12:06:19,750 INFO     Downloading : 373_10-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-2_5ac1bfde.pdf
+2026-07-01 12:06:20,300 INFO     Downloading : 372_02-Feb-2026-List of additional eligible securities as collateral for Tri-party Repo for Feb 2026-1_682ee040.pdf
+2026-07-01 12:06:20,754 INFO     Downloading : 371_30-Jan-2026-List of eligible securities as collateral for Tri-party Repo for Feb 2026_7d450f7f.zip
+2026-07-01 12:06:21,218 INFO     Downloading : 370_29-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-07_45c9e3a9.pdf
+2026-07-01 12:06:21,710 INFO     Downloading : 369_28-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-06_9219e9f7.pdf
+2026-07-01 12:06:22,133 INFO     Downloading : 368_23-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-05_32e7c4e0.pdf
+2026-07-01 12:06:22,595 INFO     Downloading : 367_22-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-04_a835d671.pdf
+2026-07-01 12:06:23,156 INFO     Downloading : 366_21-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-03_d1e20bc4.pdf
+2026-07-01 12:06:23,682 INFO     Downloading : 365_19-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-02_642b43f4.pdf
+2026-07-01 12:06:24,164 INFO     Downloading : 364_14-Jan-2026-Settlement Calendar February 2026_bb691227.pdf
+2026-07-01 12:06:24,680 INFO     Downloading : 363_12-Jan-2026-ARCL - Consultation Paper - Computation of Contributions to Core SGF by Members and Participants_ed6bd453.pdf
+2026-07-01 12:06:25,205 INFO     Downloading : 362_10-Jan-2026-Revised Settlement Calendar January 2026_2a486d77.pdf
+2026-07-01 12:06:25,710 INFO     Downloading : 361_09-Jan-2026-List of additional eligible securities as collateral for Tri-party Repo for January 2026-01_8bbfed16.pdf
+2026-07-01 12:06:26,218 INFO     Downloading : 360_09-Jan-2026-Change in Holiday 2026_04d1ea81.pdf
+2026-07-01 12:06:26,735 INFO     Downloading : 358_31-Dec-2025-List of eligible securities as collateral for Tri-party Repo for January 2026_ac16b934.zip
+2026-07-01 12:06:27,187 INFO     Downloading : 357_29-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-08_3b5ebf3b.pdf
+2026-07-01 12:06:27,665 INFO     Downloading : 356_24-Dec-2025-ARCL - Circular related to ARCL Web Portal_c8cb7233.pdf
+2026-07-01 12:06:28,173 INFO     Downloading : 355_24-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-07_9fcaac77.pdf
+2026-07-01 12:06:28,687 INFO     Downloading : 359_22-Dec-2025-Holiday 2026_4ff8e8cd.pdf
+2026-07-01 12:06:29,193 INFO     Downloading : 354_18-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-06_5e91b9f4.pdf
+2026-07-01 12:06:29,692 INFO     Downloading : 352_16-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-05_1a24b036.pdf
+2026-07-01 12:06:30,157 INFO     Downloading : 351_15-Dec-2025-Settlement Calendar Jan 2025_44805cd6.pdf
+2026-07-01 12:06:30,731 INFO     Downloading : 350_10-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-04_ee355a22.pdf
+2026-07-01 12:06:31,344 INFO     Downloading : 349_08-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-03_1dd282ab.pdf
+2026-07-01 12:06:31,878 INFO     Downloading : 348_04-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-02_392f26e6.pdf
+2026-07-01 12:06:32,460 INFO     Downloading : 347_02-Dec-2025-List of additional eligible securities as collateral for Tri-party Repo for December 2025-01_eade819b.pdf
+2026-07-01 12:06:32,974 INFO     Downloading : 346_28-Nov-2025-List of eligible securities as collateral for Tri-party Repo for December 2025_b558ea51.zip
+2026-07-01 12:06:33,484 INFO     Downloading : 345_26-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-08_d82e0732.pdf
+2026-07-01 12:06:33,933 INFO     Downloading : 344_24-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-07_0481ab24.pdf
+2026-07-01 12:06:34,381 INFO     Downloading : 342_21-Nov-2025-Reminder -Internal Audit Report_3da07bc4.pdf
+2026-07-01 12:06:35,133 INFO     Downloading : 341_19-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-06_fc3dbf08.pdf
+2026-07-01 12:06:35,642 INFO     Downloading : 340_19-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-05_9a8a7910.pdf
+2026-07-01 12:06:36,156 INFO     Downloading : 339_19-Nov-2025-Reminder for Submission of HY NW_September 2025_44163d1c.pdf
+2026-07-01 12:06:36,677 INFO     Downloading : 338_17-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-04_51cf2ab5.pdf
+2026-07-01 12:06:37,183 INFO     Downloading : 337_14-Nov-2025-Settlement Calendar Dec 2025_c580a1b7.pdf
+2026-07-01 12:06:37,695 INFO     Downloading : 336_13-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-03_ed992cfe.pdf
+2026-07-01 12:06:38,142 INFO     Downloading : 335_07-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-02_cec77f92.pdf
+2026-07-01 12:06:38,626 INFO     Downloading : 334_03-Nov-2025-List of additional eligible securities as collateral for Tri-party Repo for November 2025-01_9281cbdd.pdf
+2026-07-01 12:06:39,102 INFO     Downloading : 332_31-Oct-2025-List of eligible securities as collateral for Tri-party Repo for November 2025_a454dacb.zip
+2026-07-01 12:06:39,617 INFO     Downloading : 331_31-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-10_95d05e99.pdf
+2026-07-01 12:06:40,179 INFO     Downloading : 333_31-Oct-2025-ARCL TRAI_d9e848a5.pdf
+2026-07-01 12:06:40,866 INFO     Downloading : 330_29-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-09_63a05195.pdf
+2026-07-01 12:06:41,300 INFO     Downloading : 329_24-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-08_c3d4fba5.pdf
+2026-07-01 12:06:41,796 INFO     Downloading : 328_15-Oct-2025-Settlement Calendar Nov 2025_4edd2a32.pdf
+2026-07-01 12:06:42,408 INFO     Downloading : 327_14-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-07_0866e84c.pdf
+2026-07-01 12:06:42,902 INFO     Downloading : 326_14-Oct-2025-Circular_Corporate Action Handling_dfb4d494.pdf
+2026-07-01 12:06:43,447 INFO     Downloading : 325_13-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-06_b98747b1.pdf
+2026-07-01 12:06:44,030 INFO     Downloading : 324_10-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-05_6a27fd9a.pdf
+2026-07-01 12:06:44,572 INFO     Downloading : 323_08-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-04_be9646bc.pdf
+2026-07-01 12:06:45,081 INFO     Downloading : 322_07-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-03_4b101bc5.pdf
+2026-07-01 12:06:45,529 INFO     Downloading : 321_06-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-02_23065db5.pdf
+2026-07-01 12:06:45,954 INFO     Downloading : 318_01-Oct-2025-Internal Audit_d32622a7.zip
+2026-07-01 12:06:46,704 INFO     Downloading : 320_01-Oct-2025-List of additional eligible securities as collateral for Tri-party Repo for October 2025-01_47e1ea7b.pdf
+2026-07-01 12:06:47,122 INFO     Downloading : 319_01-Oct-2025-ARCL - Annual Return 2025_dec552bb.pdf
+2026-07-01 12:06:47,819 INFO     Downloading : 317_01-Oct-2025-Submission of Half Yearly Networth_September 2025_f31b8e52.pdf
+2026-07-01 12:06:48,557 INFO     Downloading : 314_30-Sep-2025-Revised Contribution by Issuers to Core Settlement Guarantee Fund (Core SGF) of AMC Repo Clearing Limited_e34dc3ac.zip
+2026-07-01 12:06:49,054 INFO     Downloading : 316_30-Sep-2025-List of eligible securities as collateral for Tri-party Repo for Oct 2025_aaa33b58.zip
+2026-07-01 12:06:49,574 INFO     Downloading : 315_30-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-05_a09182ed.pdf
+2026-07-01 12:06:50,071 INFO     Downloading : 313_26-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-04_864afb1a.pdf
+2026-07-01 12:06:50,501 INFO     Downloading : 312_22-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-03_2e26f53f.pdf
+2026-07-01 12:06:50,912 INFO     Downloading : 311_22-Sep-2025-Contribution by Issuers to Core Settlement Guarantee Fund (Core SGF) of AMC Repo Clearing Limited_baeb348d.zip
+2026-07-01 12:06:51,398 INFO     Downloading : 310_18-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-02_bf9986ce.pdf
+2026-07-01 12:06:51,840 INFO     Downloading : 309_18-Sep-2025-Live Trading session from DR_84ea543c.zip
+2026-07-01 12:06:52,379 INFO     Downloading : 308_17-Sep-2025-List of additional eligible securities as collateral for Tri-party Repo for September 2025-01_708f3cdb.pdf
+2026-07-01 12:06:52,875 INFO     Downloading : 307_15-Sep-2025-Settlement Calendar Oct 2025_7d45d47c.pdf
+2026-07-01 12:06:53,523 INFO     Downloading : 306_05-Sep-2025-Change in Settlement holiday and Revision in forward leg Settlement _c4ea9117.pdf
+2026-07-01 12:06:53,999 INFO     Downloading : 305_04-Sep-2025-Revised Settlement Calendar-Sept 2025_f31829ea.zip
+2026-07-01 12:06:54,731 INFO     Downloading : 304_04-Sep-2025-Change in Holiday _e21f2f09.zip
+2026-07-01 12:06:55,346 INFO     Downloading : 303_29-Aug-2025-List of eligible securities as collateral for Tri-party Repo for Sept 2025_d65b685b.zip
+2026-07-01 12:06:55,828 INFO     Downloading : 302_28-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-05_978a74ea.pdf
+2026-07-01 12:06:56,496 INFO     Downloading : 301_25-Aug-2025-Revision in Risk Management Framework_8fdf81e3.pdf
+2026-07-01 12:06:57,146 INFO     Downloading : 300_21-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-04_e57d5805.pdf
+2026-07-01 12:06:57,663 INFO     Downloading : 299_18-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-03_98dc8bee.pdf
+2026-07-01 12:06:58,270 INFO     Downloading : 298_14-Aug-2025-Settlement Calendar Sept 2025_0e998ee5.pdf
+2026-07-01 12:06:58,778 INFO     Downloading : 297_08-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-02_0bd19e26.pdf
+2026-07-01 12:06:59,301 INFO     Downloading : 296_08-Aug-2025-ARCL - Review, Appeal or Waiver of penalty_08bc82d9.zip
+2026-07-01 12:07:00,419 INFO     Downloading : 295_05-Aug-2025-List of additional eligible securities as collateral for Tri-party Repo for August 2025-01_19aa544a.pdf
+2026-07-01 12:07:01,388 INFO     Downloading : 294_31-Jul-2025-Revised List of eligible securities as collateral for Tri-party Repo for Aug 2025_080d1d75.zip
+2026-07-01 12:07:02,519 INFO     Downloading : 293_31-Jul-2025-List of Additional eligible securities for July 2025-06_9252a3e3.pdf
+2026-07-01 12:07:03,089 INFO     Downloading : 292_30-Jul-2025-List of eligible securities as collateral for Tri-party Repo for Aug 2025_4f6326b4.zip
+2026-07-01 12:07:03,605 INFO     Downloading : 291_29-Jul-2025-List of Additional eligible securities for July 2025-05_91773d5b.pdf
+2026-07-01 12:07:04,010 INFO     Downloading : 290_15-Jul-2025-Settlement Calendar Aug 2025_5c925426.pdf
+2026-07-01 12:07:04,556 INFO     Downloading : 289_09-Jul-2025-List of Additional eligible securities for July 2025-04_85eb8baa.pdf
+2026-07-01 12:07:05,102 INFO     Downloading : 288_07-Jul-2025-List of Additional eligible securities for July 2025-03_8dc98e4d.pdf
+2026-07-01 12:07:05,643 INFO     Downloading : 286_03-Jul-2025-List of Additional eligible securities for July 2025-02_30fbbec1.pdf
+2026-07-01 12:07:06,177 INFO     Downloading : 287_03-Jul-2025-Tri Party Repo in Corporate Debt Securities Reports_a7819e0f.pdf
+2026-07-01 12:07:06,678 INFO     Downloading : 285_01-Jul-2025-List of Additional eligible securities for July 2025-01_bfd565fa.pdf
+2026-07-01 12:07:07,185 INFO     Downloading : 284_27-Jun-2025-List of eligible securities as collateral for Tri-party Repo for July 2025_73fde1e9.zip
+2026-07-01 12:07:07,699 INFO     Downloading : 283_26-Jun-2025-ARCL - Updation of GSTIN with respect to ISD Provision_201dbb0b.pdf
+2026-07-01 12:07:08,212 INFO     Downloading : 282_24-Jun-2025-ARCL - SEBI UPI Payment_8a99609e.pdf
+2026-07-01 12:07:08,807 INFO     Downloading : 281_24-Jun-2025-List of Additional eligible securities for June 2025-08_c0fe2081.pdf
+2026-07-01 12:07:09,248 INFO     Downloading : 280_18-Jun-2025-List of Additional eligible securities for June 2025-07_31e452f4.pdf
+2026-07-01 12:07:09,746 INFO     Downloading : 279_17-Jun-2025-List of Additional eligible securities for June 2025-06_45ef0545.pdf
+2026-07-01 12:07:10,249 INFO     Downloading : 278_16-Jun-2025-List of Additional eligible securities for June 2025-05_0a4e8b4c.pdf
+2026-07-01 12:07:10,693 INFO     Downloading : 277_13-Jun-2025-Settlement Calendar July 2025_dcae4510.pdf
+2026-07-01 12:07:11,205 INFO     Downloading : 276_11-Jun-2025-List of Additional eligible securities for June 2025-04_7916b546.pdf
+2026-07-01 12:07:11,693 INFO     Downloading : 275_11-Jun-2025-Gazette Notification_46e67ce6.pdf
+2026-07-01 12:07:12,185 INFO     Downloading : 274_10-Jun-2025-List of Additional eligible securities for June 2025-03_e2f8185c.pdf
+2026-07-01 12:07:12,725 INFO     Downloading : 273_03-Jun-2025-List of Additional eligible securities for June 2025-02_e136158c.pdf
+2026-07-01 12:07:13,324 INFO     Downloading : 272_03-Jun-2025-List of Additional eligible securities for June 2025-01_14c37b83.pdf
+2026-07-01 12:07:13,874 INFO     Downloading : 271_02-Jun-2025-Circular - Surrender - IDFC First Bank 02JUN2025_e57b7e33.pdf
+2026-07-01 12:07:14,347 INFO     Downloading : 270_29-May-2025-List of Additional eligible securities for May 2025-12_ea6bd886.pdf
+2026-07-01 12:07:14,855 INFO     Downloading : 269_29-May-2025-List of eligible securities as collateral for Tri-party Repo for Jun 2025_a75c46d6.zip
+2026-07-01 12:07:15,391 INFO     Downloading : 268_28-May-2025-Circular- MemberComplianceCalendar_7aeb07c9.pdf
+2026-07-01 12:07:15,823 INFO     Downloading : 265_27-May-2025-Norms for Internal Audit & Audit Committee of MIIs_cb1459cd.pdf
+2026-07-01 12:07:16,399 INFO     Downloading : 266_27-May-2025-Cooling off period for KMPs and PID_46ca4f42.pdf
+2026-07-01 12:07:16,907 INFO     Downloading : 267_27-May-2025-List of Additional eligible securities for May 2025-11_051cb793.pdf
+2026-07-01 12:07:17,319 INFO     Downloading : 264_22-May-2025-List of Additional eligible securities for May 2025-10_6875fa9d.pdf
+2026-07-01 12:07:17,821 INFO     Downloading : 263_21-May-2025-List of Additional eligible securities for May 2025-09_09f3ed0b.pdf
+2026-07-01 12:07:18,253 INFO     Downloading : 261_19-May-2025-Revised Procedure for Issuers Contribution to Core Settlement Guarantee Fund_965ac013.zip
+2026-07-01 12:07:18,756 INFO     Downloading : 262_19-May-2025-List of Additional eligible securities for May 2025-08_a9c7f2b4.pdf
+2026-07-01 12:07:19,199 INFO     Downloading : 258_15-May-2025-List of Additional eligible securities for May 2025-06_59abd54b.pdf
+2026-07-01 12:07:19,665 INFO     Downloading : 257_15-May-2025-Settlement Calendar June 2025_d6e7be7b.pdf
+2026-07-01 12:07:20,249 INFO     Downloading : 256_14-May-2025-List of Additional eligible securities for May 2025-05_30af77cd.pdf
+2026-07-01 12:07:20,694 INFO     Downloading : 255_13-May-2025-List of Additional eligible securities for May 2025-04_0ba6b77d.pdf
+2026-07-01 12:07:21,314 INFO     Downloading : 254_09-May-2025-List of Additional eligible securities for May 2025-03_c84b9277.pdf
+2026-07-01 12:07:21,995 INFO     Downloading : 253_09-May-2025-Master Circular_3ceb31c3.zip
+2026-07-01 12:07:22,740 INFO     Downloading : 252_09-May-2025-Revision in Timeline for Payment of Transaction Charges _78cdc223.pdf
+2026-07-01 12:07:23,257 INFO     Downloading : 251_08-May-2025-Internal Audit Report Reminder_a4332508.pdf
+2026-07-01 12:07:23,767 INFO     Downloading : 250_08-May-2025-Reminder for Submission of HY NW_March 2025_0129563a.pdf
+2026-07-01 12:07:24,296 INFO     Downloading : 249_07-May-2025-List of Additional eligible securities for May 2025-02_2812d590.pdf
+2026-07-01 12:07:24,813 INFO     Downloading : 248_05-May-2025-Modification of Issuers contribution towards Core Settlement Guarantee Fund_d9875d47.pdf
+2026-07-01 12:07:25,384 INFO     Downloading : 247_02-May-2025-List of Additional eligible securities for May 2025-01_9d17cb96.pdf
+2026-07-01 12:07:25,917 INFO     Downloading : 245_29-Apr-2025-List of eligible securities as collateral for Tri-party Repo for May 2025_2574ffff.zip
+2026-07-01 12:07:26,441 INFO     Downloading : 246_29-Apr-2025-List of additional eligible securities as collateral for Tri-party Repo for April 2025-6_c377bfca.pdf
+2026-07-01 12:07:26,954 INFO     Downloading : 244_23-Apr-2025-List of Additional eligible securities for April 2025-05_ecab60d1.pdf
+2026-07-01 12:07:27,485 INFO     Downloading : 243_21-Apr-2025-List of Additional eligible securities for April 2025-04_16c9daf6.pdf
+2026-07-01 12:07:27,917 INFO     Downloading : 242_17-Apr-2025-List of Additional eligible securities for April 2025-03_04c2d57f.pdf
+2026-07-01 12:07:28,590 INFO     Downloading : 241_15-Apr-2025-Settlement Calendar May 2025_c71a247b.pdf
+2026-07-01 12:07:29,105 INFO     Downloading : 240_11-Apr-2025-List of Additional eligible securities for April 2025-02_34f4dcc2.pdf
+2026-07-01 12:07:29,619 INFO     Downloading : 239_08-Apr-2025-Internal Audit Report_29121dad.zip
+2026-07-01 12:07:30,479 INFO     Downloading : 238_04-Apr-2025-List of Additional eligible securities for April 2025_56018f6b.pdf
+2026-07-01 12:07:30,968 INFO     Downloading : 237_04-Apr-2025-Submission of HY NW_March 2025_website_cdd4f0dc.pdf
+2026-07-01 12:07:31,652 INFO     Downloading : 236_02-Apr-2025-Annual Subscription Fees for 2025-26_122439cf.pdf
+2026-07-01 12:07:32,162 INFO     Downloading : 235_28-Mar-2025-List of eligible securities for April 2025_fe0fefd5.zip
+2026-07-01 12:07:32,683 INFO     Downloading : 234_28-Mar-2025-SEBI Annual Clearing Membership Fees for 2025-26_ada735bb.pdf
+2026-07-01 12:07:33,200 INFO     Downloading : 233_27-Mar-2025-Circular-Issuer Contribution Toward Core SGF_8fc2f1b2.zip
+2026-07-01 12:07:33,743 INFO     Downloading : 232_26-Mar-2025-List of Additional eligible securities for March 2025-03_40f148c8.pdf
+2026-07-01 12:07:34,192 INFO     Downloading : 231_26-Mar-2025-List of Additional eligible securities for March 2025_a5d51dbc.pdf
+2026-07-01 12:07:34,727 INFO     Downloading : 230_20-Mar-2025-Derivium Tradition Securities Private Limited_cir_8199c94c.pdf
+2026-07-01 12:07:35,250 INFO     Downloading : 229_20-Mar-2025-East India Securities Ltd_cir_a0569d94.pdf
+2026-07-01 12:07:35,753 INFO     Downloading : 228_17-Mar-2025-Settlement Calendar April 2025_ee9da592.pdf
+2026-07-01 12:07:36,286 INFO     Downloading : 227_08-Mar-2025-Trading Session from Disaster recovery Site_c331a953.zip
+2026-07-01 12:07:36,890 INFO     Downloading : 226_07-Mar-2025-List of Additional eligible securities for March 2025_770a009d.pdf
+2026-07-01 12:07:37,651 INFO     Downloading : 225_05-Mar-2025-ARCL - Penalty circular Final for website_4a6a40e8.pdf
+2026-07-01 12:07:38,330 INFO     Downloading : 223_04-Mar-2025-Circular - Member Participant Contribution Toward Core SGF_bc68bb1f.pdf
+2026-07-01 12:07:38,859 INFO     Downloading : 222_28-Feb-2025-Circular - Risk Management Framework Amendments_d6d9e8cd.pdf
+2026-07-01 12:07:39,538 INFO     Downloading : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+2026-07-01 12:07:39,859 ERROR    Failed : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/221_27-Feb-2025-List%20of%20eligible%20securities%20for%20March%202025.zip
+2026-07-01 12:07:39,862 INFO     Downloading : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+2026-07-01 12:07:40,184 ERROR    Failed : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/220_27-Feb-2025-List%20of%20Additional%20eligible%20securities%20for%20Feb%202025-05.pdf
+2026-07-01 12:07:40,185 INFO     Downloading : 219_24-Feb-2025-ARCL - Member Compliance Calendar Circular_692eb735.pdf
+2026-07-01 12:07:40,664 INFO     Downloading : 218_24-Feb-2025-List of Additional eligible securities for Feb 2025-04_caf7d1ac.pdf
+2026-07-01 12:07:41,170 INFO     Downloading : 216_14-Feb-2025-Settlement Calendar March 2025_b50f882c.pdf
+2026-07-01 12:07:41,819 INFO     Downloading : 217_14-Feb-2025-List of Additional eligible securities for Feb 2025-03_3fc34cfe.pdf
+2026-07-01 12:07:42,402 INFO     Downloading : 215_13-Feb-2025-List of Additional eligible securities for Feb 2025-02_aeb5339f.pdf
+2026-07-01 12:07:42,957 INFO     Downloading : 214_05-Feb-2025-List of Additional eligible securities for Feb 2025_844f1415.pdf
+2026-07-01 12:07:43,444 INFO     Downloading : 213_03-Feb-2025-Parameters for external evaluation of Performance of Statutory Committees of MII_Feb 3 2025_final_c426076c.pdf
+2026-07-01 12:07:43,992 INFO     Downloading : 212_30-Jan-2025-List of eligible securities for February 2025_0b7adbf1.zip
+2026-07-01 12:07:44,490 INFO     Downloading : 211_24-Jan-2025-ARCL - Circular - Freezing of ISIN of ARCL_276fa375.pdf
+2026-07-01 12:07:44,970 INFO     Downloading : 210_23-Jan-2025-List of Additional eligible securities for Jan 2025-3_da64994d.pdf
+2026-07-01 12:07:45,474 INFO     Downloading : 209_15-Jan-2025-Settlement Calendar Feb 2025_2fee47ce.pdf
+2026-07-01 12:07:45,997 INFO     Downloading : 208_09-Jan-2025-List of Additional eligible securities for Jan 2025-2_281ad760.pdf
+2026-07-01 12:07:46,495 INFO     Downloading : 207_03-Jan-2025-List of Additional eligible securities for Jan 2025-1_25fd918d.pdf
+2026-07-01 12:07:47,016 INFO     Downloading : 206_27-Dec-2024-List of eligible securities for January 2025_05bf7950.zip
+2026-07-01 12:07:47,524 INFO     Downloading : 205_27-Dec-2024-List of Additional eligible securities for Dec 2024-4_0db7bd1b.pdf
+2026-07-01 12:07:48,036 INFO     Downloading : 204_19-Dec-2024-List of Additional eligible securities for Dec 2024-3_be86910a.pdf
+2026-07-01 12:07:48,512 INFO     Downloading : 203_19-Dec-2024-List of Additional eligible securities for Dec 2024-2_a38929e4.pdf
+2026-07-01 12:07:49,095 INFO     Downloading : 201_16-Dec-2024-Settlement Calendar Jan 2025_46cb5c67.pdf
+2026-07-01 12:07:49,579 INFO     Downloading : 202_13-Dec-2024-Holiday 2025_719f93fc.pdf
+2026-07-01 12:07:50,039 INFO     Downloading : 200_10-Dec-2024-List of Additional eligible securities for Dec 2024-1_c83c4055.pdf
+2026-07-01 12:07:50,529 INFO     Downloading : 199_04-Dec-2024-Fit and Proper Declaration from Shareholders_a8f7d0f7.zip
+2026-07-01 12:07:51,054 INFO     Downloading : 198_29-Nov-2024-List of eligible securities for December 2024_6901db48.zip
+2026-07-01 12:07:51,524 INFO     Downloading : 197_26-Nov-2024-Handling of Unscheduled Holiday_8e65a0e0.pdf
+2026-07-01 12:07:52,035 INFO     Downloading : 196_25-Nov-2024-ARCL Circular_Guidelines to SE, CC and DP_a6b3c260.zip
+2026-07-01 12:07:52,673 INFO     Downloading : 195_22-Nov-2024-Prior approval for transfer of Shares_705cad40.zip
+2026-07-01 12:07:53,186 INFO     Downloading : 193_21-Nov-2024-Reminder_Half Yearly Internal Audit Report_Sep 24_f7546243.pdf
+2026-07-01 12:07:53,792 INFO     Downloading : 192_21-Nov-2024-Reminder_Submission of HYNW_Sep 24_c1b35fb0.pdf
+2026-07-01 12:07:54,397 INFO     Downloading : 194_21-Nov-2024-Amendment to Byelaws_191124_Final_a61d52ff.pdf
+2026-07-01 12:07:54,904 INFO     Downloading : 190_14-Nov-2024-Revised Settlement Calendar November 2024_693fc3fa.pdf
+2026-07-01 12:07:56,835 INFO     Downloading : 191_14-Nov-2024-Settlement Calendar Dec 2024_e05cf238.pdf
+2026-07-01 12:07:57,383 INFO     Downloading : 189_14-Nov-2024-Change in Holiday 2024_a28bf164.pdf
+2026-07-01 12:07:57,983 INFO     Downloading : 188_12-Nov-2024-List of Additional eligible securities for Nov 2024-2_930594c7.pdf
+2026-07-01 12:07:58,474 INFO     Downloading : 187_08-Nov-2024-List of Additional eligible securities for Nov 2024-1_aae58191.pdf
+2026-07-01 12:07:59,001 INFO     Downloading : 186_06-Nov-2024-Amendment to Regulation_20240827_Final_727aa6ed.pdf
+2026-07-01 12:07:59,526 INFO     Downloading : 185_29-Oct-2024-List of eligible securities for November 2024_1f9de81d.zip
+2026-07-01 12:08:00,019 INFO     Downloading : 184_28-Oct-2024-Circular - Modification in eligible issuer_10a4f0bb.pdf
+2026-07-01 12:08:00,542 INFO     Downloading : 182_24-Oct-2024-Extend of Market time for trade date October 24 2024_157d95c4.pdf
+2026-07-01 12:08:01,041 INFO     Downloading : 183_23-Oct-2024-List of Additional eligible securities for Oct 2024-3_01f7590b.pdf
+2026-07-01 12:08:01,655 INFO     Downloading : 180_16-Oct-2024-ARCL Circular Monitoring Shareholding of MII for website_31450baa.pdf
+2026-07-01 12:08:02,372 INFO     Downloading : 179_16-Oct-2024-List of Additional eligible securities for Oct 2024-2_7c6af4b0.pdf
+2026-07-01 12:08:02,897 INFO     Downloading : 178_15-Oct-2024-Settlement Calendar Nov 2024_4f42e44e.pdf
+2026-07-01 12:08:03,415 INFO     Downloading : 177_11-Oct-2024-Circular - Modification in eligible issuer_4ca54417.pdf
+2026-07-01 12:08:03,908 INFO     Downloading : 176_10-Oct-2024-ARCL Half Yearly Internal Audit Report -September 2024_d3af4212.zip
+2026-07-01 12:08:04,756 INFO     Downloading : 175_08-Oct-2024-List of Additional eligible securities for Oct 2024-1_d1ec4359.pdf
+2026-07-01 12:08:05,462 INFO     Downloading : 174_04-Oct-2024-Submission of HY NW_Sep 2024_b2ba9667.pdf
+2026-07-01 12:08:06,179 INFO     Downloading : 173_30-Sep-2024-Trading Session from DR_60f6de0d.zip
+2026-07-01 12:08:06,907 INFO     Downloading : 172_27-Sep-2024-List of eligible securities for October 2024_a868d598.zip
+2026-07-01 12:08:07,663 INFO     Downloading : 171_27-Sep-2024-Parameters for Performance Evaluation of Market Infrastructur_c2f67894.pdf
+2026-07-01 12:08:08,632 INFO     Downloading : 170_26-Sep-2024-Circular-Issuer Contribution Toward Core SGF_412977fe.pdf
+2026-07-01 12:08:09,178 INFO     Downloading : 169_25-Sep-2024-List of Additional eligible securities for Sept 2024-5_a015c266.pdf
+2026-07-01 12:08:09,749 INFO     Downloading : 167_20-Sep-2024-List of Additional eligible securities for Sept 2024-4_575f73bf.pdf
+2026-07-01 12:08:10,257 INFO     Downloading : 166_20-Sep-2024-Circular-Risk Management Framework Amendments_5f081827.pdf
+2026-07-01 12:08:10,875 INFO     Downloading : 165_19-Sep-2024-Circular-Issuer Contribution Toward Core SGF_1f741252.zip
+2026-07-01 12:08:11,391 INFO     Downloading : 164_17-Sep-2024-List of Additional eligible securities for Sept 2024-3_cd96e156.pdf
+2026-07-01 12:08:11,915 INFO     Downloading : 163_16-Sep-2024-Settlement Calendar Oct 2024_f46d37f2.pdf
+2026-07-01 12:08:12,345 INFO     Downloading : 161_14-Sep-2024-Change in Settlement Calendar September 2024_09c056e1.pdf
+2026-07-01 12:08:12,772 INFO     Downloading : 159_13-Sep-2024-List of Additional eligible securities for Sept 2024-2_70618a09.pdf
+2026-07-01 12:08:13,366 INFO     Downloading : 158_09-Sep-2024-List of Additional eligible securities for Sept 2024-1_9514e827.pdf
+2026-07-01 12:08:13,944 INFO     Downloading : 157_04-Sep-2024-Introduction of Commercial Paper (CP) and Certificate of Deposit (CDs)_72303907.pdf
+2026-07-01 12:08:14,557 INFO     Downloading : 156_03-Sep-2024-Change in haircuts for eligible collateral_a837696c.pdf
+2026-07-01 12:08:15,080 INFO     Downloading : 155_02-Sep-2024-Membership Eligibility criteria_3da46439.pdf
+2026-07-01 12:08:15,784 INFO     Downloading : 153_29-Aug-2024-List of Eligible Securities for September 2024_88c0b1e2.zip
+2026-07-01 12:08:16,303 INFO     Downloading : 152_28-Aug-2024-List of Additional eligible securities for Aug 2024-4_b23f369b.pdf
+2026-07-01 12:08:16,819 INFO     Downloading : 151_27-Aug-2024-Consolidation of Baskets 3_5ea6a650.pdf
+2026-07-01 12:08:17,344 INFO     Downloading : 150_27-Aug-2024-Amendment to Regulation_20240827_d7edbe54.pdf
+2026-07-01 12:08:17,839 INFO     Downloading : 149_16-Aug-2024-List of Additional eligible securities for Aug 2024-3_8c3bb333.pdf
+2026-07-01 12:08:18,355 INFO     Downloading : 148_14-Aug-2024-Settlement Calendar Sep 2024_58384e68.pdf
+2026-07-01 12:08:18,972 INFO     Downloading : 147_12-Aug-2024-List of Additional eligible securities for Aug 2024-2_1cbcf48f.pdf
+2026-07-01 12:08:19,469 INFO     Downloading : 146_07-Aug-2024-List of Additional eligible securities for Aug 2024-1_9465c801.pdf
+2026-07-01 12:08:19,985 INFO     Downloading : 145_31-Jul-2024-List of Eligible Securities for August 2024_a6029b0a.zip
+2026-07-01 12:08:20,508 INFO     Downloading : 144_24-Jul-2024-List of Additional eligible securities for July 2024-4_3a9687b0.pdf
+2026-07-01 12:08:21,116 INFO     Downloading : 143_16-Jul-2024-List of Additional eligible securities for July 2024-3_fcd29167.pdf
+2026-07-01 12:08:21,731 INFO     Downloading : 141_15-Jul-2024-Settlement Calendar August 2024_824b28c1.pdf
+2026-07-01 12:08:22,308 INFO     Downloading : 140_09-Jul-2024-List of Additional eligible securities for July 2024-2_f471b587.pdf
+2026-07-01 12:08:22,771 INFO     Downloading : 136_02-Jul-2024-List of Additional eligible securities for July 2024-1_3aaab842.pdf
+2026-07-01 12:08:23,261 INFO     Downloading : 135_28-Jun-2024-List of Eligible Securities for July 2024_46851c1e.zip
+2026-07-01 12:08:23,801 INFO     Downloading : 134_28-Jun-2024-Circular_ ARCL Beta Version-1_4f683b84.pdf
+2026-07-01 12:08:24,298 INFO     Downloading : 131_21-Jun-2024-List of Additional eligible securities for June 2024-4_dc003bbf.pdf
+2026-07-01 12:08:24,739 INFO     Downloading : 130_21-Jun-2024-Contribution to Core Settlement Guarantee Fund and Default Waterfall for Limited Purpose Clearing Corporation_70ac4a66.pdf
+2026-07-01 12:08:25,177 INFO     Downloading : 129_20-Jun-2024-Introduction of CPs and CDs as eligible collateral for Tri Party Repo_521fc7b7.pdf
+2026-07-01 12:08:25,691 INFO     Downloading : 125_14-Jun-2024-Settlement Calendar July 2024_9b80d74b.pdf
+2026-07-01 12:08:26,142 INFO     Downloading : 126_14-Jun-2024-List of Additional eligible securities for June 2024-3_d7ece6f5.pdf
+2026-07-01 12:08:26,639 INFO     Downloading : 124_10-Jun-2024-Collateral & Margin request through ARCL Connect_fbeace8c.pdf
+2026-07-01 12:08:27,060 INFO     Downloading : 123_07-Jun-2024-Transaction Charges for Tri Party Repo_d6b439cf.pdf
+2026-07-01 12:08:27,670 INFO     Downloading : 122_06-Jun-2024-List of Additional eligible securities for June 2024-2_dbda37a8.pdf
+2026-07-01 12:08:28,175 INFO     Downloading : 120_03-Jun-2024-List of Additional eligible securities for June 2024-1_0e50b8a3.pdf
+2026-07-01 12:08:28,706 INFO     Downloading : 118_31-May-2024-Submission of Half Yearly Net Worth Certific_e8cf7d33.pdf
+2026-07-01 12:08:29,207 INFO     Downloading : 119_30-May-2024-Submission of Half Yearly Internal Audit Report -Extension of timeline for submission_32378194.pdf
+2026-07-01 12:08:29,633 INFO     Downloading : 121_29-May-2024-Norms for acceptable collaterals and exposure of Clearing Corporation_1cdb9cc9.zip
+2026-07-01 12:08:30,167 INFO     Downloading : 117_29-May-2024-List of Eligible Securities for June 2024_1b96197a.zip
+2026-07-01 12:08:30,748 INFO     Downloading : 113_28-May-2024-Norms for sharing of real time price data to third parties_2d5d9740.zip
+2026-07-01 12:08:31,258 INFO     Downloading : 112_27-May-2024-List of Additional eligible securities for May 2024-8_c0d4290b.pdf
+2026-07-01 12:08:31,789 INFO     Downloading : 111_17-May-2024-List of Additional eligible securities for May 2024-7_0bc6e29e.pdf
+2026-07-01 12:08:32,287 INFO     Downloading : 110_16-May-2024-List of Additional eligible securities for May 2024-6_2f07f705.pdf
+2026-07-01 12:08:32,827 INFO     Downloading : 109_15-May-2024-Settlement Calendar June 2024_b401091f.pdf
+2026-07-01 12:08:33,309 INFO     Downloading : 108_14-May-2024-List of Additional eligible securities for May 2024-5_57ac13a7.pdf
+2026-07-01 12:08:33,805 INFO     Downloading : 107_09-May-2024-List of Additional eligible securities for May 2024-4_1e7db277.pdf
+2026-07-01 12:08:34,259 INFO     Downloading : 106_08-May-2024-List of Additional eligible securities for May 2024-3_9863b224.pdf
+2026-07-01 12:08:34,836 INFO     Downloading : 105_07-May-2024-List of Additional eligible securities for May 2024-2_f6b10f3a.pdf
+2026-07-01 12:08:35,353 INFO     Downloading : 104_02-May-2024-List of Additional eligible securities for May 2024-1_302f9c77.pdf
+2026-07-01 12:08:35,778 INFO     Downloading : 103_02-May-2024-Consolidation of Baskets_f658f87c.pdf
+2026-07-01 12:08:37,259 INFO     Downloading : 102_29-Apr-2024-List of Eligible Securities for May 2024_02514ebe.zip
+2026-07-01 12:08:37,677 INFO     Downloading : 101_25-Apr-2024-Consolidation of Baskets_90398bb8.pdf
+2026-07-01 12:08:38,114 INFO     Downloading : 100_22-Apr-2024-List of Additional eligible securities for April 2024-3_0fc5307f.pdf
+2026-07-01 12:08:39,719 INFO     Downloading : 99_18-Apr-2024-List of Additional eligible securities for April 2024-2_2ae29bf9.pdf
+2026-07-01 12:08:40,253 INFO     Downloading : 95_16-Apr-2024-Revised Settlement Calendar May 2024_364b92d6.pdf
+2026-07-01 12:08:40,771 INFO     Downloading : 94_16-Apr-2024-Change in Holiday 2024_b6f42cd9.pdf
+2026-07-01 12:08:41,285 INFO     Downloading : 93_15-Apr-2024-Annual Subscription Fees_49260c2a.pdf
+2026-07-01 12:08:41,793 INFO     Downloading : 92_15-Apr-2024-Settlement Calendar May 2024_93b4992a.pdf
+2026-07-01 12:08:42,565 INFO     Downloading : 89_08-Apr-2024-Launch of ARCL Connect Beta Version_355b9b20.pdf
+2026-07-01 12:08:43,332 INFO     Downloading : 88_05-Apr-2024-List of Additional eligible securities for April 2024-1_28aaadbe.pdf
+2026-07-01 12:08:43,956 INFO     Downloading : 87_02-Apr-2024-SEBI Annual Clearing Membership Fees_dae97b53.pdf
+2026-07-01 12:08:44,892 INFO     Downloading : 86_28-Mar-2024-Revised list of Eligible Securities for April 2024_6c1f9fbf.zip
+2026-07-01 12:08:45,374 INFO     Downloading : 85_27-Mar-2024-List of Eligible Securities for April 2024_364680f9.zip
+2026-07-01 12:08:45,886 INFO     Downloading : 84_23-Mar-2024-Trading Session from DR_9f274be1.zip
+2026-07-01 12:08:46,408 INFO     Downloading : 82_22-Mar-2024-Circular - Modification in Eligible Issuer_dbf729e1.pdf
+2026-07-01 12:08:46,916 INFO     Downloading : 83_22-Mar-2024-List of Additional eligible securities for March 2024-7_346145d2.pdf
+2026-07-01 12:08:47,447 INFO     Downloading : 81_20-Mar-2024-List of Additional eligible securities for March 2024-6_ae5ac71f.pdf
+2026-07-01 12:08:47,936 INFO     Downloading : 80_19-Mar-2024-List of Additional eligible securities for March 2024-5_154e2e0c.pdf
+2026-07-01 12:08:48,395 INFO     Downloading : 79_15-Mar-2024-Settlement Calander April 2024_efe09c09.pdf
+2026-07-01 12:08:48,904 INFO     Downloading : 78_14-Mar-2024-List of Additional eligible securities for March 2024-4_234fece8.pdf
+2026-07-01 12:08:49,374 INFO     Downloading : 77_12-Mar-2024-List of Additional eligible securities for March 2024-3_e5e2ba66.pdf
+2026-07-01 12:08:49,860 INFO     Downloading : 76_12-Mar-2024-Corporate action handling_a7cb75d1.pdf
+2026-07-01 12:08:50,295 INFO     Downloading : 75_11-Mar-2024-Waiver of Transaction Charges_ee2e483b.pdf
+2026-07-01 12:08:50,834 INFO     Downloading : 74_05-Mar-2024-List of Additional eligible securities for March 2024-2_54c6515a.pdf
+2026-07-01 12:08:51,338 INFO     Downloading : 73_01-Mar-2024-Revision in Eligibility Criteria for Participants_31414fd2.pdf
+2026-07-01 12:08:51,829 INFO     Downloading : 71_27-Feb-2024-List of Additional eligible securities for February 2024-7_735e0487.pdf
+2026-07-01 12:08:52,247 INFO     Downloading : 70_22-Feb-2024-Transaction Charges for Tri Party Repo_2a7357b1.pdf
+2026-07-01 12:08:52,756 INFO     Downloading : 69_21-Feb-2024-List of Additional eligible securities for February 2024-6_4eb81fbe.pdf
+2026-07-01 12:08:53,280 INFO     Downloading : 68_15-Feb-2024-List of Additional eligible securities for February 2024-5_e736eccb.pdf
+2026-07-01 12:08:53,736 INFO     Downloading : 67_15-Feb-2024-Settlement Calandar March 2024_b3e51814.pdf
+2026-07-01 12:08:54,187 INFO     Downloading : 66_13-Feb-2024-List of Additional eligible securities for February 2024-4_fc6e144c.pdf
+2026-07-01 12:08:54,857 INFO     Downloading : 65_09-Feb-2024-List of Additional eligible securities for February 2024-3_225c8ae2.pdf
+2026-07-01 12:08:55,425 INFO     Downloading : 64_06-Feb-2024-List of Additional eligible securities for February 2024-2_3d2f8e97.pdf
+2026-07-01 12:08:55,968 INFO     Downloading : 63_06-Feb-2024-Revision in Funds Pay-Out timing_4ebfd924.pdf
+2026-07-01 12:08:56,616 INFO     Downloading : 62_02-Feb-2024-List of Additional eligible securities for February 2024-1_895c5d2a.pdf
+2026-07-01 12:08:57,203 INFO     Downloading : 60_29-Jan-2024-List of Additional eligible securities for January 2024-3_b6f2fefd.pdf
+2026-07-01 12:08:57,773 INFO     Downloading : 61_29-Jan-2024-List of eligible securities for February 2024_3440a1e6.zip
+2026-07-01 12:08:58,398 INFO     Downloading : 59_24-Jan-2024-List of Additional eligible securities for January 2024-2_1e33daa7.pdf
+2026-07-01 12:08:59,022 INFO     Downloading : 58_23-Jan-2024-List of Additional eligible securities for January 2024-1_e132e6dc.pdf
+2026-07-01 12:08:59,640 INFO     Downloading : 55_19-Jan-2024-Change in Settlement Calendar January 2024_7cb025a3.zip
+2026-07-01 12:09:00,182 INFO     Downloading : 54_19-Jan-2024-Change in Holiday 2024_596876e1.zip
+2026-07-01 12:09:00,752 INFO     Downloading : 53_15-Jan-2024-List of Additional eligible securities for January 2024_a851367a.pdf
+2026-07-01 12:09:02,281 INFO     Downloading : 51_15-Jan-2024-Settlement Calendar February 2024_1101cc1f.pdf
+2026-07-01 12:09:02,790 INFO     Downloading : 50_28-Dec-2023-List of eligible securities for January 2024_48acee6b.zip
+2026-07-01 12:09:03,425 INFO     Downloading : 49_27-Dec-2023-Holiday for 2024_7e4d2724.pdf
+2026-07-01 12:09:03,927 INFO     Downloading : 47_20-Dec-2023-Circular - Modification in Eligible Issuer_4e887c69.pdf
+2026-07-01 12:09:04,429 INFO     Downloading : 48_20-Dec-2023-Modification of Eligible ISIN For December 2023_31328327.pdf
+2026-07-01 12:09:04,948 INFO     Downloading : 46_19-Dec-2023-Settlement Calendar January 2024_ad40164c.pdf
+2026-07-01 12:09:05,474 INFO     Downloading : 45_08-Dec-2023-Waiver of Transaction Charges_106d1620.pdf
+2026-07-01 12:09:05,920 INFO     Downloading : 44_07-Dec-2023-Revised Eligible ISIN For December 2023_b92a7ba4.zip
+2026-07-01 12:09:06,474 INFO     Downloading : 42_22-Nov-2023-Change in Registered Office Address_96713d50.pdf
+2026-07-01 12:09:07,015 INFO     Downloading : 40_20-Nov-2023-Circular - Modification in eligible issuer_9ff21d5c.pdf
+2026-07-01 12:09:07,495 INFO     Downloading : 41_20-Nov-2023-Modification of Eligible ISIN For November 2023_6902c2ea.zip
+2026-07-01 12:09:08,036 INFO     Downloading : 39_15-Nov-2023-Settlement Calendar December 2023_5ab8da47.pdf
+2026-07-01 12:09:09,419 INFO     Downloading : 38_08-Nov-2023-Additional Eligible ISIN For November 2023_838fc89d.zip
+2026-07-01 12:09:10,081 INFO     Downloading : 37_01-Nov-2023-Revision in Eligibility Criteria for Participant_d5f81ea9.pdf
+2026-07-01 12:09:10,803 INFO     Downloading : 36_27-Oct-2023-Eligible ISIN For November 2023_cf0be778.zip
+2026-07-01 12:09:11,399 INFO     Downloading : 34_23-Oct-2023-Ease of doing business and development of corporate bond-Framework_e04b8af1.zip
+2026-07-01 12:09:12,037 INFO     Downloading : 33_16-Oct-2023-Settlement Calander November 2023_9b16dad4.pdf
+2026-07-01 12:09:12,641 INFO     Downloading : 32_09-Oct-2023-Submission of Half Yearly Networth Certificate_f9c166af.zip
+2026-07-01 12:09:13,127 INFO     Downloading : 31_05-Oct-2023-Additional Eligible ISIN For October 2023_6e111cf7.zip
+2026-07-01 12:09:13,754 INFO     Downloading : 30_29-Sep-2023-Circular_List of eligible issuer_2a62c346.zip
+2026-07-01 12:09:14,265 INFO     Downloading : 29_29-Sep-2023-Eligible ISIN For October 2023_ed777dec.zip
+2026-07-01 12:09:14,899 INFO     Downloading : 28_28-Sep-2023-Change in Settlement Calander September 2023_7438729b.pdf
+2026-07-01 12:09:15,393 INFO     Downloading : 27_28-Sep-2023-Change in settlement holiday_8fc44a8f.zip
+2026-07-01 12:09:15,896 INFO     Downloading : 26_27-Sep-2023-Change_Settlement Calander September 2023_8da1e1b1.pdf
+2026-07-01 12:09:16,321 INFO     Downloading : 25_27-Sep-2023-28.09.2023_ed9d5b76.zip
+2026-07-01 12:09:16,935 INFO     Downloading : 24_18-Sep-2023-Settlement Calander October 2023_10690803.pdf
+2026-07-01 12:09:17,434 INFO     Downloading : 23_04-Sep-2023-Circular- Issuer Contribution Toward Core SGF_4eddaf5c.pdf
+2026-07-01 12:09:17,947 INFO     Downloading : 22_29-Aug-2023-Eligible ISIN For September_8cc87a25.zip
+2026-07-01 12:09:18,484 INFO     Downloading : 20_11-Aug-2023-Settlement Calander September 2023 _7a44192d.pdf
+2026-07-01 12:09:18,902 INFO     Downloading : 19_04-Aug-2023-Circular - Issuer Contribution Toward Core SGF_e9076a82.pdf
+2026-07-01 12:09:19,701 INFO     Downloading : 18_26-Jul-2023-Participation of Direct Client on Tri-Party Repo Product_a4759fe5.zip
+2026-07-01 12:09:20,528 INFO     Downloading : 15_21-Jul-2023-Master Circular_Tri Party Repo_b4b5fc4e.zip
+2026-07-01 12:09:21,191 INFO     Downloading : 17_21-Jul-2023-Settlement Calendar August 2023_122a5446.pdf
+2026-07-01 12:09:21,640 INFO     Downloading : 16_21-Jul-2023-Settlement Calendar July 2023_708c5262.pdf
+2026-07-01 12:09:22,159 INFO     Downloading : 14_27-Jun-2023-Change in Holiday_09f666df.zip
+2026-07-01 12:09:22,663 INFO     Downloading : 13_16-Jun-2023-Master Circular_621e4bec.zip
+2026-07-01 12:09:23,176 INFO     Downloading : 12_05-Jun-2023-Circular-Issuer Contribution towards Core SGF_69ba1239.pdf
+2026-07-01 12:09:23,886 INFO     Downloading : 11_26-Apr-2023-Circular-Issuer Contribution Toward Core SGF_e14e0100.zip
+2026-07-01 12:09:24,346 INFO     Downloading : 9_17-Apr-2023-Dispute Resolution Mechanism for Limited Purpose Clearing Corporation(LPCC)_590a467c.zip
+2026-07-01 12:09:24,908 INFO     Downloading : PolicyforWindingDown_d44a4335.zip
+2026-07-01 12:09:25,462 INFO     Downloading : ConsolidatedCircular_fc1e1dcb.zip
+2026-07-01 12:09:26,046 INFO     Downloading : Holidays_a3f8126d.pdf
+2026-07-01 12:09:26,560 INFO     Downloading : MemberReportStructure_df73086e.pdf
+2026-07-01 12:09:27,057 INFO     Downloading : 3_11-Jan-2022-Investor Grievance  Redressal_e0c35401.zip
+2026-07-01 12:09:27,574 INFO     
+2026-07-01 12:09:27,575 INFO     ARCL Summary
+2026-07-01 12:09:27,575 INFO     -------------------------
+2026-07-01 12:09:27,575 INFO     Total Documents Found : 416
+2026-07-01 12:09:27,575 INFO     Already Processed     : 0
+2026-07-01 12:09:27,575 INFO     Downloaded            : 414
+2026-07-01 12:09:27,575 INFO     Failed                : 2

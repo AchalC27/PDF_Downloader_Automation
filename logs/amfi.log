@@ -40,3 +40,258 @@
 2026-06-30 11:35:27,657 INFO     Total Documents Found : 56
 2026-06-30 11:35:27,658 INFO     Already Processed     : 56
 2026-06-30 11:35:27,658 INFO     No new documents found.
+2026-06-30 15:01:11,580 INFO     
+2026-06-30 15:01:11,585 INFO     ========== AMFI ==========
+2026-06-30 15:01:12,414 INFO     Running AMFI extractor...
+2026-06-30 15:01:12,510 INFO     Total Documents Found : 56
+2026-06-30 15:01:12,511 INFO     Already Processed     : 56
+2026-06-30 15:01:12,511 INFO     No new documents found.
+2026-06-30 15:32:38,394 INFO     
+2026-06-30 15:32:38,395 INFO     ========== AMFI ==========
+2026-06-30 15:32:39,124 INFO     Running AMFI extractor...
+2026-06-30 15:32:39,216 INFO     Total Documents Found : 56
+2026-06-30 15:32:39,216 INFO     Already Processed     : 56
+2026-06-30 15:32:39,216 INFO     No new documents found.
+2026-06-30 15:34:57,105 INFO     
+2026-06-30 15:34:57,105 INFO     ========== AMFI ==========
+2026-06-30 15:34:57,979 INFO     Running AMFI extractor...
+2026-06-30 15:34:58,095 INFO     Total Documents Found : 56
+2026-06-30 15:34:58,096 INFO     Already Processed     : 56
+2026-06-30 15:34:58,096 INFO     No new documents found.
+2026-06-30 16:00:36,252 INFO     
+2026-06-30 16:00:36,252 INFO     ========== AMFI ==========
+2026-06-30 16:00:37,036 INFO     Running AMFI extractor...
+2026-06-30 16:00:42,460 INFO     Total Documents Found : 56
+2026-06-30 16:00:42,460 INFO     Already Processed     : 0
+2026-06-30 16:00:42,460 INFO     Downloading : AMFI_Master_Cicular_for_MF_Ds_3c7f5ee44f_82edcfdf.pdf
+2026-06-30 16:00:43,472 INFO     Downloading : CIR_31_dated_31_Dec_2025_5120ecfbe7_18ca068d.pdf
+2026-06-30 16:00:44,501 INFO     Downloading : CIR_30_dated_Oct_27_2025_05d7d80e84_f67e8cd1.pdf
+2026-06-30 16:00:46,306 INFO     Downloading : AMFI_Best_Practices_Guidelines_Circular_No_106_A_dt_17_10_2025_2025_26_a791fba2ed_6a946767.pdf
+2026-06-30 16:00:47,277 INFO     Downloading : AMFICircular_ARN29_31Jul2025_5e3c3d69.pdf
+2026-06-30 16:00:48,994 INFO     Downloading : AMFICircular_28R_02Apr2025_ec52b617.pdf
+2026-06-30 16:00:49,955 INFO     Downloading : AMFICircular_27_17Sep2024_03205cca.pdf
+2026-06-30 16:00:50,895 INFO     Downloading : AMFICircular26-24Jul2024_6616ab01.pdf
+2026-06-30 16:00:51,952 INFO     Downloading : ARNCircular25-CentralisedProcessforAUMTransfer_fceabce8.pdf
+2026-06-30 16:00:53,037 INFO     Downloading : ARNCircular25_Annexure_1a-1b_6b2a03d1.pdf
+2026-06-30 16:00:54,903 INFO     Downloading : ARNCircular25_Annexure_1c_87f3b1d0.pdf
+2026-06-30 16:00:55,845 INFO     Downloading : ARNCircular25_Annexure_2_1096c3ee.pdf
+2026-06-30 16:00:56,645 INFO     Downloading : ARNCircular25_Annexure_3_d8a516eb.pdf
+2026-06-30 16:00:57,571 INFO     Downloading : ARNCircular25_Annexure4_e76b4fb6.pdf
+2026-06-30 16:00:58,507 INFO     Downloading : ARNCircular25_Annexure_5_1419919b.pdf
+2026-06-30 16:00:59,430 INFO     Downloading : ARNCircular25_Annexure_6_82682683.pdf
+2026-06-30 16:01:00,347 INFO     Downloading : ARNCircular25_Annexure_7_6e4d429c.pdf
+2026-06-30 16:01:01,268 INFO     Downloading : ARNCircular25_Annexure_8_4f280b63.pdf
+2026-06-30 16:01:02,191 INFO     Downloading : ARNCircular25_Annexure_9_cbf18f11.pdf
+2026-06-30 16:01:03,029 INFO     Downloading : ARNCircular24-OptiontoapplyforProvisionalARN_a0d40120.pdf
+2026-06-30 16:01:04,122 INFO     Downloading : AnnexureA-LOUforEUINmappingsubsequently_fefdb24c.pdf
+2026-06-30 16:01:05,085 INFO     Downloading : AnnexureB-SampleLettertoMFclients_02538258.pdf
+2026-06-30 16:01:05,985 INFO     Downloading : AnnexureC-LOUforEUINmappingsubsequently_3b400cbd.pdf
+2026-06-30 16:01:06,871 INFO     Downloading : AMFI_BP_Circular-107-dt.04-May-23_5c98a186.pdf
+2026-06-30 16:01:07,792 INFO     Downloading : AMFIBestPracticesGuidelinesCircularNo.106_21.03.2023_f610acb4.pdf
+2026-06-30 16:01:09,586 INFO     Downloading : ARNCircular23(25-Jul-22)_ee0f06ae.pdf
+2026-06-30 16:01:10,483 INFO     Downloading : ARNCircular22a-RevisedCodeofConductforMFDs2022_aa5c4563.pdf
+2026-06-30 16:01:11,413 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-06-30 16:01:12,132 ERROR    Failed : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 88, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-06-30 16:01:12,177 INFO     Downloading : AMFICircularno.21dt30-Mar-22Classificationw.r.t.SoleproprietorshipforARNpurposes_da0b0a32.pdf
+2026-06-30 16:01:13,279 INFO     Downloading : AMFIBestPracticesGuidelinesCircularNo.99dt.29-Mar-22_48b2c4e2.pdf
+2026-06-30 16:01:14,294 INFO     Downloading : AMFIARNCircular-ReductioningraceperiodforrenewalofARNw.e.f.01-Jul-22_6acd679c.pdf
+2026-06-30 16:01:15,210 INFO     Downloading : SEBIClarificationw.r.t.transactionsunderDirectPlan_e092a095.PDF
+2026-06-30 16:01:16,331 INFO     Downloading : DocumentaryevidenceforhavingappliedtoROCforNameChange_039393f2.docx
+2026-06-30 16:01:18,472 INFO     Downloading : RequesttoUpdateChangeinName-Proprietorshipfirm_debb95fd.docx
+2026-06-30 16:01:19,446 INFO     Downloading : RequestforChangeofNameofMFD-PursuanttoSEBIIARegulations_739a1cbb.docx
+2026-06-30 16:01:20,451 INFO     Downloading : AMFICircular19dated20-Oct-2020_AMFIGUIDANCEONMFDNOMENCLATURE_44aead55.pdf
+2026-06-30 16:01:21,615 INFO     Downloading : AMFI%20Circular%20no.%20CIR-18%20dt.%2004-Jul-2019%20-%20Time%20Limit%20for%20submission%20of%20annual%20DSC_e24fea88.pdf
+2026-06-30 16:01:23,781 INFO     Downloading : AMFI_BP_Cir_77_dt_20-3-19_Std_Proc_for_Capturing,_Updating_Email%20ID,_Mobile%20No_8c6c40f0.pdf
+2026-06-30 16:01:24,925 INFO     Downloading : AMFI_BP_Cir_76_dt.%2020-3-19-Std._Proc._for_Tagging_Trxns_to_T-30,B-30_PIN_Codes_ac134107.pdf
+2026-06-30 16:01:25,948 INFO     Downloading : cir-arn-17-14-15_edd4eb4e.pdf
+2026-06-30 16:01:27,074 INFO     Downloading : Registration_form_for_Overseas_Distributors_570e03c3.pdf
+2026-06-30 16:01:28,045 INFO     Downloading : CIRARN151213_2e294649.pdf
+2026-06-30 16:01:29,633 INFO     Downloading : CIRARN141213_e51dc3d1.pdf
+2026-06-30 16:01:30,618 INFO     Downloading : CIRARN-1311-12_73eab9d2.pdf
+2026-06-30 16:01:32,423 INFO     Downloading : CIRARN-1210-11_4bb5df84.pdf
+2026-06-30 16:01:33,443 INFO     Downloading : CIRARN-1109-10_9111c318.pdf
+2026-06-30 16:01:34,372 INFO     Downloading : UnifiedAMFIcircularRevised_cb3df96a.pdf
+2026-06-30 16:01:36,015 INFO     Downloading : UnifiedAMFIcircular_4854e68a.pdf
+2026-06-30 16:01:37,217 INFO     Downloading : amfi-certification_7d71d4a5.pdf
+2026-06-30 16:01:38,344 INFO     Downloading : clarification-regarding-self-certification-suspension-of-payment-of-commission_40c78509.pdf
+2026-06-30 16:01:39,359 INFO     Downloading : clarification-regarding-payment-of-brokerage-to-intermediaries_39ef8f22.pdf
+2026-06-30 16:01:41,390 INFO     Downloading : clarifications-regarding-self-certification-by-intermediaries_3a880994.pdf
+2026-06-30 16:01:42,350 INFO     Downloading : clarifications-regarding-self-certification-and-nomination-facilities-to-agents-distributors_c3b80d01.pdf
+2026-06-30 16:01:43,388 INFO     Downloading : clarifications-regarding-payment-of-brokerage-to-intermediaries_e0d0b4ca.pdf
+2026-06-30 16:01:44,444 INFO     Downloading : clarifications-on-the-implementation-of-amfi-guidelines-on-the-code-of-conduct_76c40add.pdf
+2026-06-30 16:01:45,704 INFO     Downloading : guidelines-for-the-registration-of-intermediaries_5fccf139.pdf
+2026-06-30 16:01:46,897 INFO     
+2026-06-30 16:01:46,897 INFO     AMFI Summary
+2026-06-30 16:01:46,897 INFO     -------------------------
+2026-06-30 16:01:46,898 INFO     Total Documents Found : 56
+2026-06-30 16:01:46,898 INFO     Already Processed     : 0
+2026-06-30 16:01:46,898 INFO     Downloaded            : 55
+2026-06-30 16:01:46,899 INFO     Failed                : 1
+2026-07-01 10:23:48,650 INFO     
+2026-07-01 10:23:48,650 INFO     ========== AMFI ==========
+2026-07-01 10:23:49,442 INFO     Running AMFI extractor...
+2026-07-01 10:33:40,288 INFO     
+2026-07-01 10:33:40,293 INFO     ========== AMFI ==========
+2026-07-01 10:33:50,555 INFO     Running AMFI extractor...
+2026-07-01 11:00:00,169 INFO     
+2026-07-01 11:00:00,170 INFO     ========== AMFI ==========
+2026-07-01 11:00:00,848 INFO     Running AMFI extractor...
+2026-07-01 11:03:52,076 INFO     
+2026-07-01 11:03:52,077 INFO     ========== AMFI ==========
+2026-07-01 11:03:52,761 INFO     Running AMFI extractor...
+2026-07-01 11:03:53,426 INFO     AMFI_Master_Cicular_for_MF_Ds_3c7f5ee44f_82edcfdf.pdf already exists in database.
+2026-07-01 11:03:53,500 INFO     CIR_31_dated_31_Dec_2025_5120ecfbe7_18ca068d.pdf already exists in database.
+2026-07-01 11:03:53,569 INFO     CIR_30_dated_Oct_27_2025_05d7d80e84_f67e8cd1.pdf already exists in database.
+2026-07-01 11:03:53,676 INFO     AMFI_Best_Practices_Guidelines_Circular_No_106_A_dt_17_10_2025_2025_26_a791fba2ed_6a946767.pdf already exists in database.
+2026-07-01 11:03:53,746 INFO     AMFICircular_ARN29_31Jul2025_5e3c3d69.pdf already exists in database.
+2026-07-01 11:03:53,815 INFO     AMFICircular_28R_02Apr2025_ec52b617.pdf already exists in database.
+2026-07-01 11:03:53,949 INFO     AMFICircular_27_17Sep2024_03205cca.pdf already exists in database.
+2026-07-01 11:03:54,889 INFO     AMFICircular26-24Jul2024_6616ab01.pdf already exists in database.
+2026-07-01 11:03:54,979 INFO     ARNCircular25-CentralisedProcessforAUMTransfer_fceabce8.pdf already exists in database.
+2026-07-01 11:03:55,060 INFO     ARNCircular25_Annexure_1a-1b_6b2a03d1.pdf already exists in database.
+2026-07-01 11:03:55,166 INFO     ARNCircular25_Annexure_1c_87f3b1d0.pdf already exists in database.
+2026-07-01 11:03:55,238 INFO     ARNCircular25_Annexure_2_1096c3ee.pdf already exists in database.
+2026-07-01 11:03:55,344 INFO     ARNCircular25_Annexure_3_d8a516eb.pdf already exists in database.
+2026-07-01 11:03:55,455 INFO     ARNCircular25_Annexure4_e76b4fb6.pdf already exists in database.
+2026-07-01 11:03:55,540 INFO     ARNCircular25_Annexure_5_1419919b.pdf already exists in database.
+2026-07-01 11:03:55,602 INFO     ARNCircular25_Annexure_6_82682683.pdf already exists in database.
+2026-07-01 11:03:55,677 INFO     ARNCircular25_Annexure_7_6e4d429c.pdf already exists in database.
+2026-07-01 11:03:55,752 INFO     ARNCircular25_Annexure_8_4f280b63.pdf already exists in database.
+2026-07-01 11:03:55,865 INFO     ARNCircular25_Annexure_9_cbf18f11.pdf already exists in database.
+2026-07-01 11:03:56,007 INFO     ARNCircular24-OptiontoapplyforProvisionalARN_a0d40120.pdf already exists in database.
+2026-07-01 11:03:56,106 INFO     AnnexureA-LOUforEUINmappingsubsequently_fefdb24c.pdf already exists in database.
+2026-07-01 11:03:56,179 INFO     AnnexureB-SampleLettertoMFclients_02538258.pdf already exists in database.
+2026-07-01 11:03:56,238 INFO     AnnexureC-LOUforEUINmappingsubsequently_3b400cbd.pdf already exists in database.
+2026-07-01 11:03:56,292 INFO     AMFI_BP_Circular-107-dt.04-May-23_5c98a186.pdf already exists in database.
+2026-07-01 11:03:56,362 INFO     AMFIBestPracticesGuidelinesCircularNo.106_21.03.2023_f610acb4.pdf already exists in database.
+2026-07-01 11:03:56,426 INFO     ARNCircular23(25-Jul-22)_ee0f06ae.pdf already exists in database.
+2026-07-01 11:03:56,493 INFO     ARNCircular22a-RevisedCodeofConductforMFDs2022_aa5c4563.pdf already exists in database.
+2026-07-01 11:03:56,599 INFO     AMFICircularno.21dt30-Mar-22Classificationw.r.t.SoleproprietorshipforARNpurposes_da0b0a32.pdf already exists in database.
+2026-07-01 11:03:56,656 INFO     AMFIBestPracticesGuidelinesCircularNo.99dt.29-Mar-22_48b2c4e2.pdf already exists in database.
+2026-07-01 11:03:56,717 INFO     AMFIARNCircular-ReductioningraceperiodforrenewalofARNw.e.f.01-Jul-22_6acd679c.pdf already exists in database.
+2026-07-01 11:03:56,798 INFO     SEBIClarificationw.r.t.transactionsunderDirectPlan_e092a095.PDF already exists in database.
+2026-07-01 11:03:56,868 INFO     DocumentaryevidenceforhavingappliedtoROCforNameChange_039393f2.docx already exists in database.
+2026-07-01 11:03:56,922 INFO     RequesttoUpdateChangeinName-Proprietorshipfirm_debb95fd.docx already exists in database.
+2026-07-01 11:03:56,990 INFO     RequestforChangeofNameofMFD-PursuanttoSEBIIARegulations_739a1cbb.docx already exists in database.
+2026-07-01 11:03:57,059 INFO     AMFICircular19dated20-Oct-2020_AMFIGUIDANCEONMFDNOMENCLATURE_44aead55.pdf already exists in database.
+2026-07-01 11:03:57,125 INFO     AMFI%20Circular%20no.%20CIR-18%20dt.%2004-Jul-2019%20-%20Time%20Limit%20for%20submission%20of%20annual%20DSC_e24fea88.pdf already exists in database.
+2026-07-01 11:03:57,184 INFO     AMFI_BP_Cir_77_dt_20-3-19_Std_Proc_for_Capturing,_Updating_Email%20ID,_Mobile%20No_8c6c40f0.pdf already exists in database.
+2026-07-01 11:03:57,246 INFO     AMFI_BP_Cir_76_dt.%2020-3-19-Std._Proc._for_Tagging_Trxns_to_T-30,B-30_PIN_Codes_ac134107.pdf already exists in database.
+2026-07-01 11:03:57,303 INFO     cir-arn-17-14-15_edd4eb4e.pdf already exists in database.
+2026-07-01 11:03:57,380 INFO     Registration_form_for_Overseas_Distributors_570e03c3.pdf already exists in database.
+2026-07-01 11:03:57,443 INFO     CIRARN151213_2e294649.pdf already exists in database.
+2026-07-01 11:03:57,512 INFO     CIRARN141213_e51dc3d1.pdf already exists in database.
+2026-07-01 11:03:57,577 INFO     CIRARN-1311-12_73eab9d2.pdf already exists in database.
+2026-07-01 11:03:57,648 INFO     CIRARN-1210-11_4bb5df84.pdf already exists in database.
+2026-07-01 11:03:57,725 INFO     CIRARN-1109-10_9111c318.pdf already exists in database.
+2026-07-01 11:03:57,803 INFO     UnifiedAMFIcircularRevised_cb3df96a.pdf already exists in database.
+2026-07-01 11:03:57,861 INFO     UnifiedAMFIcircular_4854e68a.pdf already exists in database.
+2026-07-01 11:03:57,925 INFO     amfi-certification_7d71d4a5.pdf already exists in database.
+2026-07-01 11:03:58,005 INFO     clarification-regarding-self-certification-suspension-of-payment-of-commission_40c78509.pdf already exists in database.
+2026-07-01 11:03:58,078 INFO     clarification-regarding-payment-of-brokerage-to-intermediaries_39ef8f22.pdf already exists in database.
+2026-07-01 11:03:58,150 INFO     clarifications-regarding-self-certification-by-intermediaries_3a880994.pdf already exists in database.
+2026-07-01 11:03:58,220 INFO     clarifications-regarding-self-certification-and-nomination-facilities-to-agents-distributors_c3b80d01.pdf already exists in database.
+2026-07-01 11:03:58,939 INFO     clarifications-regarding-payment-of-brokerage-to-intermediaries_e0d0b4ca.pdf already exists in database.
+2026-07-01 11:03:59,005 INFO     clarifications-on-the-implementation-of-amfi-guidelines-on-the-code-of-conduct_76c40add.pdf already exists in database.
+2026-07-01 11:03:59,081 INFO     guidelines-for-the-registration-of-intermediaries_5fccf139.pdf already exists in database.
+2026-07-01 11:03:59,082 INFO     Total Documents Found : 56
+2026-07-01 11:03:59,082 INFO     Already Processed     : 55
+2026-07-01 11:03:59,082 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-01 11:03:59,757 ERROR    Failed : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 88, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-01 11:03:59,803 INFO     
+2026-07-01 11:03:59,804 INFO     AMFI Summary
+2026-07-01 11:03:59,804 INFO     -------------------------
+2026-07-01 11:03:59,804 INFO     Total Documents Found : 56
+2026-07-01 11:03:59,805 INFO     Already Processed     : 55
+2026-07-01 11:03:59,805 INFO     Downloaded            : 0
+2026-07-01 11:03:59,806 INFO     Failed                : 1
+2026-07-01 11:37:13,540 INFO     
+2026-07-01 11:37:13,540 INFO     ========== AMFI ==========
+2026-07-01 11:37:13,922 INFO     Running AMFI extractor...
+2026-07-01 11:37:24,262 INFO     Total Documents Found : 56
+2026-07-01 11:37:24,262 INFO     Already Processed     : 0
+2026-07-01 11:37:24,262 INFO     Downloading : AMFI_Master_Cicular_for_MF_Ds_3c7f5ee44f_82edcfdf.pdf
+2026-07-01 11:37:24,910 INFO     Downloading : CIR_31_dated_31_Dec_2025_5120ecfbe7_18ca068d.pdf
+2026-07-01 11:37:25,465 INFO     Downloading : CIR_30_dated_Oct_27_2025_05d7d80e84_f67e8cd1.pdf
+2026-07-01 11:37:26,002 INFO     Downloading : AMFI_Best_Practices_Guidelines_Circular_No_106_A_dt_17_10_2025_2025_26_a791fba2ed_6a946767.pdf
+2026-07-01 11:37:26,535 INFO     Downloading : AMFICircular_ARN29_31Jul2025_5e3c3d69.pdf
+2026-07-01 11:37:27,438 INFO     Downloading : AMFICircular_28R_02Apr2025_ec52b617.pdf
+2026-07-01 11:37:27,987 INFO     Downloading : AMFICircular_27_17Sep2024_03205cca.pdf
+2026-07-01 11:37:28,561 INFO     Downloading : AMFICircular26-24Jul2024_6616ab01.pdf
+2026-07-01 11:37:29,030 INFO     Downloading : ARNCircular25-CentralisedProcessforAUMTransfer_fceabce8.pdf
+2026-07-01 11:37:29,574 INFO     Downloading : ARNCircular25_Annexure_1a-1b_6b2a03d1.pdf
+2026-07-01 11:37:30,079 INFO     Downloading : ARNCircular25_Annexure_1c_87f3b1d0.pdf
+2026-07-01 11:37:30,576 INFO     Downloading : ARNCircular25_Annexure_2_1096c3ee.pdf
+2026-07-01 11:37:31,098 INFO     Downloading : ARNCircular25_Annexure_3_d8a516eb.pdf
+2026-07-01 11:37:31,562 INFO     Downloading : ARNCircular25_Annexure4_e76b4fb6.pdf
+2026-07-01 11:37:32,173 INFO     Downloading : ARNCircular25_Annexure_5_1419919b.pdf
+2026-07-01 11:37:32,580 INFO     Downloading : ARNCircular25_Annexure_6_82682683.pdf
+2026-07-01 11:37:33,159 INFO     Downloading : ARNCircular25_Annexure_7_6e4d429c.pdf
+2026-07-01 11:37:33,604 INFO     Downloading : ARNCircular25_Annexure_8_4f280b63.pdf
+2026-07-01 11:37:33,983 INFO     Downloading : ARNCircular25_Annexure_9_cbf18f11.pdf
+2026-07-01 11:37:34,374 INFO     Downloading : ARNCircular24-OptiontoapplyforProvisionalARN_a0d40120.pdf
+2026-07-01 11:37:34,827 INFO     Downloading : AnnexureA-LOUforEUINmappingsubsequently_fefdb24c.pdf
+2026-07-01 11:37:35,448 INFO     Downloading : AnnexureB-SampleLettertoMFclients_02538258.pdf
+2026-07-01 11:37:35,950 INFO     Downloading : AnnexureC-LOUforEUINmappingsubsequently_3b400cbd.pdf
+2026-07-01 11:37:36,364 INFO     Downloading : AMFI_BP_Circular-107-dt.04-May-23_5c98a186.pdf
+2026-07-01 11:37:36,870 INFO     Downloading : AMFIBestPracticesGuidelinesCircularNo.106_21.03.2023_f610acb4.pdf
+2026-07-01 11:37:43,854 INFO     Downloading : ARNCircular23(25-Jul-22)_ee0f06ae.pdf
+2026-07-01 11:37:44,416 INFO     Downloading : ARNCircular22a-RevisedCodeofConductforMFDs2022_aa5c4563.pdf
+2026-07-01 11:37:44,966 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-01 11:37:45,275 ERROR    Failed : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 90, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-01 11:37:45,277 INFO     Downloading : AMFICircularno.21dt30-Mar-22Classificationw.r.t.SoleproprietorshipforARNpurposes_da0b0a32.pdf
+2026-07-01 11:37:45,714 INFO     Downloading : AMFIBestPracticesGuidelinesCircularNo.99dt.29-Mar-22_48b2c4e2.pdf
+2026-07-01 11:37:46,284 INFO     Downloading : AMFIARNCircular-ReductioningraceperiodforrenewalofARNw.e.f.01-Jul-22_6acd679c.pdf
+2026-07-01 11:37:46,811 INFO     Downloading : SEBIClarificationw.r.t.transactionsunderDirectPlan_e092a095.PDF
+2026-07-01 11:37:47,353 INFO     Downloading : DocumentaryevidenceforhavingappliedtoROCforNameChange_039393f2.docx
+2026-07-01 11:37:47,929 INFO     Downloading : RequesttoUpdateChangeinName-Proprietorshipfirm_debb95fd.docx
+2026-07-01 11:37:48,417 INFO     Downloading : RequestforChangeofNameofMFD-PursuanttoSEBIIARegulations_739a1cbb.docx
+2026-07-01 11:37:48,927 INFO     Downloading : AMFICircular19dated20-Oct-2020_AMFIGUIDANCEONMFDNOMENCLATURE_44aead55.pdf
+2026-07-01 11:37:49,444 INFO     Downloading : AMFI%20Circular%20no.%20CIR-18%20dt.%2004-Jul-2019%20-%20Time%20Limit%20for%20submission%20of%20annual%20DSC_e24fea88.pdf
+2026-07-01 11:37:49,969 INFO     Downloading : AMFI_BP_Cir_77_dt_20-3-19_Std_Proc_for_Capturing,_Updating_Email%20ID,_Mobile%20No_8c6c40f0.pdf
+2026-07-01 11:37:50,464 INFO     Downloading : AMFI_BP_Cir_76_dt.%2020-3-19-Std._Proc._for_Tagging_Trxns_to_T-30,B-30_PIN_Codes_ac134107.pdf
+2026-07-01 11:37:50,912 INFO     Downloading : cir-arn-17-14-15_edd4eb4e.pdf
+2026-07-01 11:37:51,474 INFO     Downloading : Registration_form_for_Overseas_Distributors_570e03c3.pdf
+2026-07-01 11:37:51,959 INFO     Downloading : CIRARN151213_2e294649.pdf
+2026-07-01 11:37:52,563 INFO     Downloading : CIRARN141213_e51dc3d1.pdf
+2026-07-01 11:37:53,147 INFO     Downloading : CIRARN-1311-12_73eab9d2.pdf
+2026-07-01 11:37:53,666 INFO     Downloading : CIRARN-1210-11_4bb5df84.pdf
+2026-07-01 11:37:54,228 INFO     Downloading : CIRARN-1109-10_9111c318.pdf
+2026-07-01 11:37:54,753 INFO     Downloading : UnifiedAMFIcircularRevised_cb3df96a.pdf
+2026-07-01 11:37:55,220 INFO     Downloading : UnifiedAMFIcircular_4854e68a.pdf
+2026-07-01 11:37:56,653 INFO     Downloading : amfi-certification_7d71d4a5.pdf
+2026-07-01 11:37:57,234 INFO     Downloading : clarification-regarding-self-certification-suspension-of-payment-of-commission_40c78509.pdf
+2026-07-01 11:37:57,869 INFO     Downloading : clarification-regarding-payment-of-brokerage-to-intermediaries_39ef8f22.pdf
+2026-07-01 11:37:58,412 INFO     Downloading : clarifications-regarding-self-certification-by-intermediaries_3a880994.pdf
+2026-07-01 11:37:58,921 INFO     Downloading : clarifications-regarding-self-certification-and-nomination-facilities-to-agents-distributors_c3b80d01.pdf
+2026-07-01 11:37:59,500 INFO     Downloading : clarifications-regarding-payment-of-brokerage-to-intermediaries_e0d0b4ca.pdf
+2026-07-01 11:38:00,119 INFO     Downloading : clarifications-on-the-implementation-of-amfi-guidelines-on-the-code-of-conduct_76c40add.pdf
+2026-07-01 11:38:00,650 INFO     Downloading : guidelines-for-the-registration-of-intermediaries_5fccf139.pdf
+2026-07-01 11:38:01,249 INFO     
+2026-07-01 11:38:01,249 INFO     AMFI Summary
+2026-07-01 11:38:01,250 INFO     -------------------------
+2026-07-01 11:38:01,250 INFO     Total Documents Found : 56
+2026-07-01 11:38:01,250 INFO     Already Processed     : 0
+2026-07-01 11:38:01,250 INFO     Downloaded            : 55
+2026-07-01 11:38:01,251 INFO     Failed                : 1

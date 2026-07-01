@@ -530,3 +530,1174 @@ AttributeError: 'function' object has no attribute 'info'
 2026-06-30 11:36:19,107 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
 2026-06-30 11:36:19,107 INFO     ════════════════════════════════════════════════════════════
 2026-06-30 11:36:19,107 INFO     
+2026-06-30 15:01:02,276 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:01:02,277 INFO     Scraping run started at 2026-06-30 15:01:02
+2026-06-30 15:01:02,277 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:01:02,278 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:01:02,278 INFO     Running NSE
+2026-06-30 15:01:06,865 INFO     NSE Completed Successfully
+2026-06-30 15:01:06,865 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:01:06,866 INFO     Running BSE
+2026-06-30 15:01:09,598 INFO     BSE Completed Successfully
+2026-06-30 15:01:09,598 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:01:09,599 INFO     Running CDSL
+2026-06-30 15:01:11,579 INFO     CDSL Completed Successfully
+2026-06-30 15:01:11,579 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:01:11,580 INFO     Running AMFI
+2026-06-30 15:01:12,511 INFO     AMFI Completed Successfully
+2026-06-30 15:01:12,512 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:01:12,512 INFO     Running ARCL
+2026-06-30 15:01:16,466 INFO     ARCL Completed Successfully
+2026-06-30 15:01:16,466 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:01:16,466 INFO     Running CKYC
+2026-06-30 15:01:17,605 INFO     CKYC Completed Successfully
+2026-06-30 15:01:17,605 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:01:17,606 INFO     Running MCX
+2026-06-30 15:01:22,039 INFO     MCX Completed Successfully
+2026-06-30 15:01:22,039 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:01:22,039 INFO     Running APMI
+2026-06-30 15:01:23,868 INFO     APMI Completed Successfully
+2026-06-30 15:01:23,869 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:01:23,869 INFO     Running PFRDA
+2026-06-30 15:02:11,941 INFO     PFRDA Completed Successfully
+2026-06-30 15:02:11,941 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:02:11,942 INFO     Running NSDL
+2026-06-30 15:02:17,799 INFO     NSDL Completed Successfully
+2026-06-30 15:02:17,800 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:02:17,800 INFO     Running SEBI
+2026-06-30 15:02:19,825 INFO     SEBI Completed Successfully
+2026-06-30 15:02:19,826 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:02:19,826 INFO     Running IRDAI
+2026-06-30 15:02:23,622 INFO     IRDAI Completed Successfully
+2026-06-30 15:02:23,623 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:02:23,623 INFO     Summary
+2026-06-30 15:02:23,623 INFO     
+2026-06-30 15:02:23,624 INFO     Run completed in 81.3 seconds
+2026-06-30 15:02:23,625 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-30 15:02:23,625 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:02:23,625 INFO     
+2026-06-30 15:32:30,994 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:32:30,994 INFO     Scraping run started at 2026-06-30 15:32:30
+2026-06-30 15:32:30,995 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:32:30,995 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:32:30,996 INFO     Running NSE
+2026-06-30 15:32:33,915 INFO     NSE Completed Successfully
+2026-06-30 15:32:33,916 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:32:33,916 INFO     Running BSE
+2026-06-30 15:32:36,443 INFO     BSE Completed Successfully
+2026-06-30 15:32:36,443 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:32:36,444 INFO     Running CDSL
+2026-06-30 15:32:38,394 INFO     CDSL Completed Successfully
+2026-06-30 15:32:38,394 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:32:38,394 INFO     Running AMFI
+2026-06-30 15:32:39,217 INFO     AMFI Completed Successfully
+2026-06-30 15:32:39,217 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:32:39,217 INFO     Running ARCL
+2026-06-30 15:32:42,194 INFO     ARCL Completed Successfully
+2026-06-30 15:32:42,194 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:32:42,194 INFO     Running CKYC
+2026-06-30 15:32:43,392 INFO     CKYC Completed Successfully
+2026-06-30 15:32:43,392 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:32:43,393 INFO     Running MCX
+2026-06-30 15:32:45,088 INFO     MCX Completed Successfully
+2026-06-30 15:32:45,088 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:32:45,088 INFO     Running APMI
+2026-06-30 15:32:46,367 ERROR    APMI Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+_mysql_connector.MySQLInterfaceError: Access denied for user 'developer'@'localhost' (using password: YES)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\apmi.py", line 108, in scrape_apmi
+    if pdf_exists("APMI", filename):
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 15, in pdf_exists
+    conn = get_connection()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 6, in get_connection
+    return mysql.connector.connect(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        host="localhost",
+        ^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        database="file_downloader"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\abstracts.py", line 1604, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1045 (28000): Access denied for user 'developer'@'localhost' (using password: YES)
+2026-06-30 15:32:46,377 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:32:46,377 INFO     Running PFRDA
+2026-06-30 15:33:17,754 INFO     PFRDA Completed Successfully
+2026-06-30 15:33:17,755 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:33:17,755 INFO     Running NSDL
+2026-06-30 15:33:24,025 INFO     NSDL Completed Successfully
+2026-06-30 15:33:24,026 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:33:24,026 INFO     Running SEBI
+2026-06-30 15:33:25,131 INFO     SEBI Completed Successfully
+2026-06-30 15:33:25,132 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:33:25,132 INFO     Running IRDAI
+2026-06-30 15:33:26,742 INFO     IRDAI Completed Successfully
+2026-06-30 15:33:26,742 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:33:26,742 INFO     Summary
+2026-06-30 15:33:26,743 INFO     
+2026-06-30 15:33:26,744 INFO     Run completed in 55.7 seconds
+2026-06-30 15:33:26,745 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-30 15:33:26,745 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:33:26,746 INFO     
+2026-06-30 15:34:52,057 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:34:52,058 INFO     Scraping run started at 2026-06-30 15:34:52
+2026-06-30 15:34:52,058 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:34:52,059 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:34:52,059 INFO     Running NSE
+2026-06-30 15:34:53,142 INFO     NSE Completed Successfully
+2026-06-30 15:34:53,142 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:34:53,143 INFO     Running BSE
+2026-06-30 15:34:55,101 INFO     BSE Completed Successfully
+2026-06-30 15:34:55,101 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:34:55,102 INFO     Running CDSL
+2026-06-30 15:34:57,103 INFO     CDSL Completed Successfully
+2026-06-30 15:34:57,104 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:34:57,104 INFO     Running AMFI
+2026-06-30 15:34:58,097 INFO     AMFI Completed Successfully
+2026-06-30 15:34:58,097 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:34:58,097 INFO     Running ARCL
+2026-06-30 15:35:01,144 INFO     ARCL Completed Successfully
+2026-06-30 15:35:01,145 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:35:01,145 INFO     Running CKYC
+2026-06-30 15:35:02,042 INFO     CKYC Completed Successfully
+2026-06-30 15:35:02,042 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:35:02,043 INFO     Running MCX
+2026-06-30 15:35:03,947 INFO     MCX Completed Successfully
+2026-06-30 15:35:03,947 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:35:03,947 INFO     Running APMI
+2026-06-30 15:35:18,651 INFO     APMI Completed Successfully
+2026-06-30 15:35:18,651 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:35:18,652 INFO     Running PFRDA
+2026-06-30 15:35:53,242 INFO     PFRDA Completed Successfully
+2026-06-30 15:35:53,242 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:35:53,243 INFO     Running NSDL
+2026-06-30 15:35:59,202 INFO     NSDL Completed Successfully
+2026-06-30 15:35:59,203 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:35:59,203 INFO     Running SEBI
+2026-06-30 15:36:00,478 INFO     SEBI Completed Successfully
+2026-06-30 15:36:00,478 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:36:00,479 INFO     Running IRDAI
+2026-06-30 15:36:02,147 INFO     IRDAI Completed Successfully
+2026-06-30 15:36:02,147 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:36:02,148 INFO     Summary
+2026-06-30 15:36:02,148 INFO     
+2026-06-30 15:36:02,148 INFO     Run completed in 70.1 seconds
+2026-06-30 15:36:02,149 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-30 15:36:02,150 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:36:02,150 INFO     
+2026-06-30 15:36:47,472 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:36:47,472 INFO     Scraping run started at 2026-06-30 15:36:47
+2026-06-30 15:36:47,473 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:36:47,473 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:36:47,474 INFO     Running APMI
+2026-06-30 15:37:03,398 INFO     APMI Completed Successfully
+2026-06-30 15:37:03,399 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:37:03,399 INFO     Summary
+2026-06-30 15:37:03,399 INFO     
+2026-06-30 15:37:03,400 INFO     Run completed in 15.9 seconds
+2026-06-30 15:37:03,401 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-30 15:37:03,401 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:37:03,402 INFO     
+2026-06-30 15:58:46,694 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:58:46,694 INFO     Scraping run started at 2026-06-30 15:58:46
+2026-06-30 15:58:46,694 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:58:46,695 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:58:46,695 INFO     Running AMFI
+2026-06-30 15:58:46,697 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 94, in download_amfi
+    soup = get_page(
+        AMFI_URL,
+        log,
+        headers=HEADERS,
+    )
+TypeError: get_page() got an unexpected keyword argument 'headers'
+2026-06-30 15:58:46,699 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 15:58:46,700 INFO     Summary
+2026-06-30 15:58:46,700 INFO     
+2026-06-30 15:58:46,700 INFO     Run completed in 0.0 seconds
+2026-06-30 15:58:46,701 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-30 15:58:46,702 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 15:58:46,702 INFO     
+2026-06-30 16:00:36,249 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 16:00:36,250 INFO     Scraping run started at 2026-06-30 16:00:36
+2026-06-30 16:00:36,251 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 16:00:36,251 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 16:00:36,252 INFO     Running AMFI
+2026-06-30 16:01:46,899 INFO     AMFI Completed Successfully
+2026-06-30 16:01:46,900 INFO     ────────────────────────────────────────────────────────────
+2026-06-30 16:01:46,900 INFO     Summary
+2026-06-30 16:01:46,900 INFO     
+2026-06-30 16:01:46,901 INFO     Run completed in 70.7 seconds
+2026-06-30 16:01:46,903 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-06-30 16:01:46,904 INFO     ════════════════════════════════════════════════════════════
+2026-06-30 16:01:46,905 INFO     
+2026-07-01 10:23:42,397 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:23:42,398 INFO     Scraping run started at 2026-07-01 10:23:42
+2026-07-01 10:23:42,398 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:23:42,399 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:23:42,399 INFO     Running NSE
+2026-07-01 10:23:43,874 INFO     NSE Completed Successfully
+2026-07-01 10:23:43,874 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:23:43,875 INFO     Running BSE
+2026-07-01 10:23:46,673 INFO     BSE Completed Successfully
+2026-07-01 10:23:46,674 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:23:46,674 INFO     Running CDSL
+2026-07-01 10:23:48,649 INFO     CDSL Completed Successfully
+2026-07-01 10:23:48,649 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:23:48,649 INFO     Running AMFI
+2026-07-01 10:24:10,728 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 126, in download_amfi
+    if pdf_exists("AMFI", filename):
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 15, in pdf_exists
+    conn = get_connection()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 6, in get_connection
+    return mysql.connector.connect(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        host="192.168.137.81",
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        database="file_downloader"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\abstracts.py", line 1604, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+2026-07-01 10:24:10,741 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:24:10,741 INFO     Running ARCL
+2026-07-01 10:24:15,200 INFO     ARCL Completed Successfully
+2026-07-01 10:24:15,200 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:24:15,200 INFO     Running CKYC
+2026-07-01 10:24:16,326 INFO     CKYC Completed Successfully
+2026-07-01 10:24:16,327 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:24:16,327 INFO     Running MCX
+2026-07-01 10:24:18,035 INFO     MCX Completed Successfully
+2026-07-01 10:24:18,036 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:24:18,036 INFO     Running APMI
+2026-07-01 10:24:40,283 ERROR    APMI Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\apmi.py", line 108, in scrape_apmi
+    if pdf_exists("APMI", filename):
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 15, in pdf_exists
+    conn = get_connection()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 6, in get_connection
+    return mysql.connector.connect(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        host="192.168.137.81",
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        database="file_downloader"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\abstracts.py", line 1604, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+2026-07-01 10:24:40,292 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:24:40,293 INFO     Running PFRDA
+2026-07-01 10:25:17,210 INFO     PFRDA Completed Successfully
+2026-07-01 10:25:17,210 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:25:17,210 INFO     Running NSDL
+2026-07-01 10:25:18,284 INFO     NSDL Completed Successfully
+2026-07-01 10:25:18,284 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:25:18,284 INFO     Running SEBI
+2026-07-01 10:25:19,279 INFO     SEBI Completed Successfully
+2026-07-01 10:25:19,279 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:25:19,279 INFO     Running IRDAI
+2026-07-01 10:25:22,866 INFO     IRDAI Completed Successfully
+2026-07-01 10:25:22,867 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:25:22,867 INFO     Summary
+2026-07-01 10:25:22,867 INFO     
+2026-07-01 10:25:22,868 INFO     Run completed in 100.5 seconds
+2026-07-01 10:25:22,869 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 10:25:22,869 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:25:22,870 INFO     
+2026-07-01 10:33:35,808 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:33:35,809 INFO     Scraping run started at 2026-07-01 10:33:35
+2026-07-01 10:33:35,810 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:33:35,810 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:33:35,811 INFO     Running NSE
+2026-07-01 10:33:36,982 INFO     NSE Completed Successfully
+2026-07-01 10:33:36,982 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:33:36,983 INFO     Running BSE
+2026-07-01 10:33:38,332 INFO     BSE Completed Successfully
+2026-07-01 10:33:38,332 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:33:38,332 INFO     Running CDSL
+2026-07-01 10:33:40,287 INFO     CDSL Completed Successfully
+2026-07-01 10:33:40,287 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:33:40,287 INFO     Running AMFI
+2026-07-01 10:34:11,944 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 126, in download_amfi
+    if pdf_exists("AMFI", filename):
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 15, in pdf_exists
+    conn = get_connection()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 6, in get_connection
+    return mysql.connector.connect(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        host="192.168.137.81",
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        database="file_downloader"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\abstracts.py", line 1604, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+2026-07-01 10:34:11,956 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:34:11,957 INFO     Running ARCL
+2026-07-01 10:34:17,903 INFO     ARCL Completed Successfully
+2026-07-01 10:34:17,903 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:34:17,903 INFO     Running CKYC
+2026-07-01 10:34:18,904 INFO     CKYC Completed Successfully
+2026-07-01 10:34:18,904 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:34:18,904 INFO     Running MCX
+2026-07-01 10:34:20,446 INFO     MCX Completed Successfully
+2026-07-01 10:34:20,446 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:34:20,446 INFO     Running APMI
+2026-07-01 10:34:43,032 ERROR    APMI Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\apmi.py", line 108, in scrape_apmi
+    if pdf_exists("APMI", filename):
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 15, in pdf_exists
+    conn = get_connection()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 6, in get_connection
+    return mysql.connector.connect(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        host="192.168.137.81",
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        database="file_downloader"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\abstracts.py", line 1604, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+2026-07-01 10:34:43,040 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:34:43,041 INFO     Running PFRDA
+2026-07-01 10:35:15,874 INFO     PFRDA Completed Successfully
+2026-07-01 10:35:15,875 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:35:15,875 INFO     Running NSDL
+2026-07-01 10:35:17,901 INFO     NSDL Completed Successfully
+2026-07-01 10:35:17,902 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:35:17,902 INFO     Running SEBI
+2026-07-01 10:35:18,913 INFO     SEBI Completed Successfully
+2026-07-01 10:35:18,914 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:35:18,914 INFO     Running IRDAI
+2026-07-01 10:35:20,200 INFO     IRDAI Completed Successfully
+2026-07-01 10:35:20,201 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:35:20,201 INFO     Summary
+2026-07-01 10:35:20,202 INFO     
+2026-07-01 10:35:20,202 INFO     Run completed in 104.4 seconds
+2026-07-01 10:35:20,203 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 10:35:20,203 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:35:20,204 INFO     
+2026-07-01 10:49:04,539 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:49:04,540 INFO     Scraping run started at 2026-07-01 10:49:04
+2026-07-01 10:49:04,540 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:49:04,540 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:49:04,541 INFO     Running CDSL
+2026-07-01 10:49:06,525 INFO     CDSL Completed Successfully
+2026-07-01 10:49:06,526 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:49:06,526 INFO     Summary
+2026-07-01 10:49:06,526 INFO     
+2026-07-01 10:49:06,526 INFO     Run completed in 2.0 seconds
+2026-07-01 10:49:06,527 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 10:49:06,528 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:49:06,528 INFO     
+2026-07-01 10:59:05,688 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:59:05,688 INFO     Scraping run started at 2026-07-01 10:59:05
+2026-07-01 10:59:05,689 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:59:05,689 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:59:05,689 INFO     Running CDSL
+2026-07-01 10:59:07,647 INFO     CDSL Completed Successfully
+2026-07-01 10:59:07,647 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:59:07,648 INFO     Summary
+2026-07-01 10:59:07,648 INFO     
+2026-07-01 10:59:07,648 INFO     Run completed in 2.0 seconds
+2026-07-01 10:59:07,650 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 10:59:07,650 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:59:07,651 INFO     
+2026-07-01 10:59:55,240 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:59:55,241 INFO     Scraping run started at 2026-07-01 10:59:55
+2026-07-01 10:59:55,242 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 10:59:55,242 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:59:55,243 INFO     Running NSE
+2026-07-01 10:59:56,498 INFO     NSE Completed Successfully
+2026-07-01 10:59:56,498 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:59:56,499 INFO     Running BSE
+2026-07-01 10:59:58,353 INFO     BSE Completed Successfully
+2026-07-01 10:59:58,353 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 10:59:58,354 INFO     Running CDSL
+2026-07-01 11:00:00,169 INFO     CDSL Completed Successfully
+2026-07-01 11:00:00,169 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:00:00,169 INFO     Running AMFI
+2026-07-01 11:00:22,229 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 126, in download_amfi
+    if pdf_exists("AMFI", filename):
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 15, in pdf_exists
+    conn = get_connection()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 6, in get_connection
+    return mysql.connector.connect(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        host="192.168.137.81",
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        database="file_downloader"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\abstracts.py", line 1604, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+2026-07-01 11:00:22,357 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:00:22,357 INFO     Running ARCL
+2026-07-01 11:00:25,313 INFO     ARCL Completed Successfully
+2026-07-01 11:00:25,313 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:00:25,313 INFO     Running CKYC
+2026-07-01 11:00:26,210 INFO     CKYC Completed Successfully
+2026-07-01 11:00:26,211 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:00:26,211 INFO     Running MCX
+2026-07-01 11:00:27,951 INFO     MCX Completed Successfully
+2026-07-01 11:00:27,951 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:00:27,952 INFO     Running APMI
+2026-07-01 11:00:50,096 ERROR    APMI Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\apmi.py", line 98, in scrape_apmi
+    if pdf_exists("APMI", filename):
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 15, in pdf_exists
+    conn = get_connection()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 6, in get_connection
+    return mysql.connector.connect(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        host="192.168.137.81",
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        database="file_downloader"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\abstracts.py", line 1604, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on '192.168.137.81:3306' (10060)
+2026-07-01 11:00:50,122 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:00:50,123 INFO     Running PFRDA
+2026-07-01 11:01:24,445 INFO     PFRDA Completed Successfully
+2026-07-01 11:01:24,446 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:01:24,446 INFO     Running NSDL
+2026-07-01 11:01:26,639 INFO     NSDL Completed Successfully
+2026-07-01 11:01:26,639 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:01:26,640 INFO     Running SEBI
+2026-07-01 11:01:29,567 INFO     SEBI Completed Successfully
+2026-07-01 11:01:29,567 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:01:29,568 INFO     Running IRDAI
+2026-07-01 11:01:30,916 INFO     IRDAI Completed Successfully
+2026-07-01 11:01:30,917 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:01:30,917 INFO     Summary
+2026-07-01 11:01:30,917 INFO     
+2026-07-01 11:01:30,918 INFO     Run completed in 95.7 seconds
+2026-07-01 11:01:30,919 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 11:01:30,919 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:01:30,919 INFO     
+2026-07-01 11:03:47,782 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:03:47,783 INFO     Scraping run started at 2026-07-01 11:03:47
+2026-07-01 11:03:47,783 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:03:47,784 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:03:47,784 INFO     Running NSE
+2026-07-01 11:03:49,249 INFO     NSE Completed Successfully
+2026-07-01 11:03:49,250 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:03:49,250 INFO     Running BSE
+2026-07-01 11:03:50,195 INFO     BSE Completed Successfully
+2026-07-01 11:03:50,195 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:03:50,196 INFO     Running CDSL
+2026-07-01 11:03:52,075 INFO     CDSL Completed Successfully
+2026-07-01 11:03:52,076 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:03:52,076 INFO     Running AMFI
+2026-07-01 11:03:59,806 INFO     AMFI Completed Successfully
+2026-07-01 11:03:59,806 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:03:59,807 INFO     Running ARCL
+2026-07-01 11:04:09,824 INFO     ARCL Completed Successfully
+2026-07-01 11:04:09,825 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:04:09,825 INFO     Running CKYC
+2026-07-01 11:04:10,712 INFO     CKYC Completed Successfully
+2026-07-01 11:04:10,713 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:04:10,713 INFO     Running MCX
+2026-07-01 11:04:12,320 INFO     MCX Completed Successfully
+2026-07-01 11:04:12,320 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:04:12,321 INFO     Running APMI
+2026-07-01 11:04:22,855 INFO     APMI Completed Successfully
+2026-07-01 11:04:22,855 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:04:22,855 INFO     Running PFRDA
+2026-07-01 11:04:53,711 INFO     PFRDA Completed Successfully
+2026-07-01 11:04:53,711 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:04:53,711 INFO     Running NSDL
+2026-07-01 11:04:55,872 INFO     NSDL Completed Successfully
+2026-07-01 11:04:55,872 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:04:55,872 INFO     Running SEBI
+2026-07-01 11:04:56,901 INFO     SEBI Completed Successfully
+2026-07-01 11:04:56,902 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:04:56,902 INFO     Running IRDAI
+2026-07-01 11:04:58,170 INFO     IRDAI Completed Successfully
+2026-07-01 11:04:58,171 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:04:58,171 INFO     Summary
+2026-07-01 11:04:58,171 INFO     
+2026-07-01 11:04:58,172 INFO     Run completed in 70.4 seconds
+2026-07-01 11:04:58,173 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 11:04:58,173 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:04:58,174 INFO     
+2026-07-01 11:37:13,539 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:37:13,539 INFO     Scraping run started at 2026-07-01 11:37:13
+2026-07-01 11:37:13,539 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:37:13,539 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:37:13,539 INFO     Running AMFI
+2026-07-01 11:38:01,251 INFO     AMFI Completed Successfully
+2026-07-01 11:38:01,251 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:38:01,251 INFO     Running ARCL
+2026-07-01 11:39:15,913 ERROR    ARCL Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 130, in download_arcl
+    logger.info(f"Already Processed     : {already_processed}")
+                                           ^^^^^^^^^^^^^^^^^
+NameError: name 'already_processed' is not defined
+2026-07-01 11:39:15,915 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:39:15,915 INFO     Summary
+2026-07-01 11:39:15,915 INFO     
+2026-07-01 11:39:15,915 INFO     Run completed in 122.4 seconds
+2026-07-01 11:39:15,916 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 11:39:15,916 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:39:15,916 INFO     
+2026-07-01 11:42:51,013 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:42:51,013 INFO     Scraping run started at 2026-07-01 11:42:51
+2026-07-01 11:42:51,013 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:42:51,013 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:42:51,013 INFO     Running ARCL
+2026-07-01 11:49:59,108 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:49:59,109 INFO     Scraping run started at 2026-07-01 11:49:59
+2026-07-01 11:49:59,109 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:49:59,109 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:49:59,109 INFO     Running ARCL
+2026-07-01 11:49:59,115 ERROR    ARCL Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='www.arclindia.com', port=443): Failed to resolve 'www.arclindia.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.arclindia.com', port=443): Max retries exceeded with url: /circulars (Caused by NameResolutionError("HTTPSConnection(host='www.arclindia.com', port=443): Failed to resolve 'www.arclindia.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 112, in download_arcl
+    html = fetch_html()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 54, in fetch_html
+    response = requests.get(URL, headers=HEADERS, timeout=30)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.arclindia.com', port=443): Max retries exceeded with url: /circulars (Caused by NameResolutionError("HTTPSConnection(host='www.arclindia.com', port=443): Failed to resolve 'www.arclindia.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-01 11:49:59,228 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:49:59,228 INFO     Running CKYC
+2026-07-01 11:49:59,235 ERROR    CKYC Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='www.ckycindia.in', port=443): Failed to resolve 'www.ckycindia.in' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.ckycindia.in', port=443): Max retries exceeded with url: /ckyc/?r=notification (Caused by NameResolutionError("HTTPSConnection(host='www.ckycindia.in', port=443): Failed to resolve 'www.ckycindia.in' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 113, in download_ckyc
+    html = fetch_html()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 56, in fetch_html
+    response = requests.get(URL, headers=HEADERS, timeout=30)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.ckycindia.in', port=443): Max retries exceeded with url: /ckyc/?r=notification (Caused by NameResolutionError("HTTPSConnection(host='www.ckycindia.in', port=443): Failed to resolve 'www.ckycindia.in' ([Errno 11001] getaddrinfo failed)"))
+2026-07-01 11:49:59,244 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 11:49:59,244 INFO     Summary
+2026-07-01 11:49:59,244 INFO     
+2026-07-01 11:49:59,244 INFO     Run completed in 0.1 seconds
+2026-07-01 11:49:59,245 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 11:49:59,245 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 11:49:59,245 INFO     
+2026-07-01 12:04:52,767 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 12:04:52,767 INFO     Scraping run started at 2026-07-01 12:04:52
+2026-07-01 12:04:52,767 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 12:04:52,767 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 12:04:52,767 INFO     Running ARCL
+2026-07-01 12:09:27,575 INFO     ARCL Completed Successfully
+2026-07-01 12:09:27,575 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 12:09:27,576 INFO     Running CKYC
+2026-07-01 12:09:51,044 INFO     CKYC Completed Successfully
+2026-07-01 12:09:51,045 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 12:09:51,045 INFO     Summary
+2026-07-01 12:09:51,045 INFO     
+2026-07-01 12:09:51,045 INFO     Run completed in 298.3 seconds
+2026-07-01 12:09:51,046 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 12:09:51,046 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 12:09:51,046 INFO     
+2026-07-01 12:11:40,788 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 12:11:40,788 INFO     Scraping run started at 2026-07-01 12:11:40
+2026-07-01 12:11:40,788 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 12:11:40,788 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 12:11:40,788 INFO     Running BSE
+2026-07-01 12:11:40,794 ERROR    BSE Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.bseindia.com', port=443): Failed to resolve 'api.bseindia.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.bseindia.com', port=443): Max retries exceeded with url: /BseIndiaAPI/api/getDataAdvance_New/w?strTxtNoticeNo=&strTxtDate=2026-07-01&strTxtTodate=2026-07-01&strScripcode=&strDep=&strSegment=&subject=&category=&containgtext= (Caused by NameResolutionError("HTTPSConnection(host='api.bseindia.com', port=443): Failed to resolve 'api.bseindia.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\bse.py", line 62, in download_bse
+    result = bse.circulars(from_date=today, to_date=today, segment=SEGMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\bse\BSE.py", line 528, in circulars
+    return self.__req(url, params=params).json()
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\bse\BSE.py", line 135, in __req
+    response = self.session.get(url, params=params, timeout=timeout)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.bseindia.com', port=443): Max retries exceeded with url: /BseIndiaAPI/api/getDataAdvance_New/w?strTxtNoticeNo=&strTxtDate=2026-07-01&strTxtTodate=2026-07-01&strScripcode=&strDep=&strSegment=&subject=&category=&containgtext= (Caused by NameResolutionError("HTTPSConnection(host='api.bseindia.com', port=443): Failed to resolve 'api.bseindia.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-01 12:11:40,803 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 12:11:40,803 INFO     Summary
+2026-07-01 12:11:40,804 INFO     
+2026-07-01 12:11:40,804 INFO     Run completed in 0.0 seconds
+2026-07-01 12:11:40,804 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 12:11:40,804 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 12:11:40,804 INFO     
+2026-07-01 14:04:55,449 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:04:55,452 INFO     Scraping run started at 2026-07-01 14:04:55
+2026-07-01 14:04:55,453 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:04:55,453 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:04:55,453 INFO     Running BSE
+2026-07-01 14:05:03,901 ERROR    BSE Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\bse.py", line 76, in download_bse
+    if pdf_exists(pdf_url):
+       ~~~~~~~~~~^^^^^^^^^
+TypeError: pdf_exists() missing 1 required positional argument: 'pdf_name'
+2026-07-01 14:05:03,947 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:05:03,948 INFO     Summary
+2026-07-01 14:05:03,948 INFO     
+2026-07-01 14:05:03,948 INFO     Run completed in 8.5 seconds
+2026-07-01 14:05:03,950 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 14:05:03,950 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:05:03,950 INFO     
+2026-07-01 14:33:08,902 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:33:08,906 INFO     Scraping run started at 2026-07-01 14:33:08
+2026-07-01 14:33:08,907 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:33:08,907 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:33:08,908 INFO     Running BSE
+2026-07-01 14:33:31,665 ERROR    BSE Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on '192.168.137.130:3306' (10060)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\bse.py", line 80, in download_bse
+    if pdf_exists("BSE", filename):
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 15, in pdf_exists
+    conn = get_connection()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 6, in get_connection
+    return mysql.connector.connect(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        host="192.168.137.130",
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        database="file_downloader"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\abstracts.py", line 1604, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on '192.168.137.130:3306' (10060)
+2026-07-01 14:33:31,943 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:33:31,944 INFO     Summary
+2026-07-01 14:33:31,944 INFO     
+2026-07-01 14:33:31,945 INFO     Run completed in 23.0 seconds
+2026-07-01 14:33:31,946 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 14:33:31,946 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:33:31,947 INFO     
+2026-07-01 14:37:35,003 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:37:35,004 INFO     Scraping run started at 2026-07-01 14:37:35
+2026-07-01 14:37:35,005 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:37:35,005 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:37:35,006 INFO     Running BSE
+2026-07-01 14:37:39,223 INFO     BSE Completed Successfully
+2026-07-01 14:37:39,223 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:37:39,223 INFO     Summary
+2026-07-01 14:37:39,224 INFO     
+2026-07-01 14:37:39,225 INFO     Run completed in 4.2 seconds
+2026-07-01 14:37:39,226 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 14:37:39,226 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:37:39,226 INFO     
+2026-07-01 14:42:54,414 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:42:54,415 INFO     Scraping run started at 2026-07-01 14:42:54
+2026-07-01 14:42:54,416 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:42:54,416 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:42:54,416 INFO     Running NSE
+2026-07-01 14:42:56,834 INFO     NSE Completed Successfully
+2026-07-01 14:42:56,835 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:42:56,835 INFO     Running MCX
+2026-07-01 14:42:58,584 INFO     MCX Completed Successfully
+2026-07-01 14:42:58,585 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:42:58,585 INFO     Summary
+2026-07-01 14:42:58,585 INFO     
+2026-07-01 14:42:58,586 INFO     Run completed in 4.2 seconds
+2026-07-01 14:42:58,587 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 14:42:58,588 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:42:58,588 INFO     
+2026-07-01 14:49:22,873 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:49:22,877 INFO     Scraping run started at 2026-07-01 14:49:22
+2026-07-01 14:49:22,878 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:49:22,878 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:49:22,879 INFO     Running NSE
+2026-07-01 14:49:45,603 ERROR    NSE Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on '192.168.137.130:3306' (10060)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 98, in download_nse
+    if pdf_exists("NSE", filename):
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 15, in pdf_exists
+    conn = get_connection()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 6, in get_connection
+    return mysql.connector.connect(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        host="192.168.137.130",
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        database="file_downloader"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\abstracts.py", line 1604, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on '192.168.137.130:3306' (10060)
+2026-07-01 14:49:45,619 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:49:45,619 INFO     Running CDSL
+2026-07-01 14:49:47,581 INFO     CDSL Completed Successfully
+2026-07-01 14:49:47,583 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:49:47,584 INFO     Running MCX
+2026-07-01 14:49:49,414 INFO     MCX Completed Successfully
+2026-07-01 14:49:49,415 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:49:49,415 INFO     Summary
+2026-07-01 14:49:49,416 INFO     
+2026-07-01 14:49:49,416 INFO     Run completed in 26.5 seconds
+2026-07-01 14:49:49,417 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 14:49:49,418 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:49:49,418 INFO     
+2026-07-01 14:50:36,977 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:50:36,978 INFO     Scraping run started at 2026-07-01 14:50:36
+2026-07-01 14:50:36,978 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:50:36,979 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:50:36,979 INFO     Running NSE
+2026-07-01 14:50:38,556 INFO     NSE Completed Successfully
+2026-07-01 14:50:38,557 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:50:38,557 INFO     Running CDSL
+2026-07-01 14:50:40,423 INFO     CDSL Completed Successfully
+2026-07-01 14:50:40,424 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:50:40,424 INFO     Running MCX
+2026-07-01 14:50:42,117 INFO     MCX Completed Successfully
+2026-07-01 14:50:42,118 INFO     ────────────────────────────────────────────────────────────
+2026-07-01 14:50:42,118 INFO     Summary
+2026-07-01 14:50:42,119 INFO     
+2026-07-01 14:50:42,119 INFO     Run completed in 5.1 seconds
+2026-07-01 14:50:42,121 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-01 14:50:42,122 INFO     ════════════════════════════════════════════════════════════
+2026-07-01 14:50:42,122 INFO     

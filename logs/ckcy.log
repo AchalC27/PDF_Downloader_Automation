@@ -40,3 +40,100 @@
 2026-06-30 11:35:31,600 INFO     Total Documents Found : 25
 2026-06-30 11:35:31,601 INFO     Already Processed     : 25
 2026-06-30 11:35:31,601 INFO     No new documents found.
+2026-06-30 15:01:16,466 INFO     
+2026-06-30 15:01:16,467 INFO     ========== CKYC ==========
+2026-06-30 15:01:17,577 INFO     Running CKYC extractor...
+2026-06-30 15:01:17,604 INFO     Total Documents Found : 25
+2026-06-30 15:01:17,604 INFO     Already Processed     : 25
+2026-06-30 15:01:17,604 INFO     No new documents found.
+2026-06-30 15:32:42,195 INFO     
+2026-06-30 15:32:42,196 INFO     ========== CKYC ==========
+2026-06-30 15:32:43,366 INFO     Running CKYC extractor...
+2026-06-30 15:32:43,390 INFO     Total Documents Found : 25
+2026-06-30 15:32:43,391 INFO     Already Processed     : 25
+2026-06-30 15:32:43,391 INFO     No new documents found.
+2026-06-30 15:35:01,146 INFO     
+2026-06-30 15:35:01,146 INFO     ========== CKYC ==========
+2026-06-30 15:35:01,998 INFO     Running CKYC extractor...
+2026-06-30 15:35:02,041 INFO     Total Documents Found : 25
+2026-06-30 15:35:02,041 INFO     Already Processed     : 25
+2026-06-30 15:35:02,041 INFO     No new documents found.
+2026-07-01 10:24:15,201 INFO     
+2026-07-01 10:24:15,202 INFO     ========== CKYC ==========
+2026-07-01 10:24:16,292 INFO     Running CKYC extractor...
+2026-07-01 10:24:16,325 INFO     Total Documents Found : 25
+2026-07-01 10:24:16,326 INFO     Already Processed     : 25
+2026-07-01 10:24:16,326 INFO     No new documents found.
+2026-07-01 10:34:17,904 INFO     
+2026-07-01 10:34:17,904 INFO     ========== CKYC ==========
+2026-07-01 10:34:18,874 INFO     Running CKYC extractor...
+2026-07-01 10:34:18,903 INFO     Total Documents Found : 25
+2026-07-01 10:34:18,903 INFO     Already Processed     : 25
+2026-07-01 10:34:18,903 INFO     No new documents found.
+2026-07-01 11:00:25,314 INFO     
+2026-07-01 11:00:25,315 INFO     ========== CKYC ==========
+2026-07-01 11:00:26,184 INFO     Running CKYC extractor...
+2026-07-01 11:00:26,209 INFO     Total Documents Found : 25
+2026-07-01 11:00:26,210 INFO     Already Processed     : 25
+2026-07-01 11:00:26,210 INFO     No new documents found.
+2026-07-01 11:04:09,825 INFO     
+2026-07-01 11:04:09,826 INFO     ========== CKYC ==========
+2026-07-01 11:04:10,680 INFO     Running CKYC extractor...
+2026-07-01 11:04:10,711 INFO     Total Documents Found : 25
+2026-07-01 11:04:10,712 INFO     Already Processed     : 25
+2026-07-01 11:04:10,712 INFO     No new documents found.
+2026-07-01 11:49:59,228 INFO     
+2026-07-01 11:49:59,229 INFO     ========== CKYC ==========
+2026-07-01 12:09:27,576 INFO     
+2026-07-01 12:09:27,576 INFO     ========== CKYC ==========
+2026-07-01 12:09:28,050 INFO     Running CKYC extractor...
+2026-07-01 12:09:29,787 INFO     Total Documents Found : 25
+2026-07-01 12:09:29,787 INFO     Already Processed     : 0
+2026-07-01 12:09:29,788 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-01 12:09:30,201 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-01 12:09:30,207 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-01 12:09:30,768 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-01 12:09:30,769 INFO     Downloading : Operating_Guidelines_version1.5_dac174aa.pdf
+2026-07-01 12:09:31,568 INFO     Downloading : notification-CKYCRR_2.0_API_integration_and_REs_onboarding_282e8fd6.pdf
+2026-07-01 12:09:32,338 INFO     Downloading : State_District_and_Pincode_Masters_update_01_OPT_a70cc602.pdf
+2026-07-01 12:09:33,098 INFO     Downloading : DetailsofthenodalofficerregisteredinCKYCRR_3325d4ab.pdf
+2026-07-01 12:09:34,118 INFO     Downloading : Bulk_update_notification_a2c4e49f.pdf
+2026-07-01 12:09:35,061 INFO     Downloading : PML_amendment_Rules_19_Jul_2024_09144b1f.pdf
+2026-07-01 12:09:35,888 INFO     Downloading : RecentCustomer_f300556a.pdf
+2026-07-01 12:09:36,903 INFO     Downloading : Download_Consent_Notification_86e2b83d.pdf
+2026-07-01 12:09:37,920 INFO     Downloading : StatusofimplementationofadvisorysharedbyCERSAI20234949PublicSectorBanks_6ea59d61.pdf
+2026-07-01 12:09:38,963 INFO     Downloading : StatusofimplementationofadvisorysharedbyCERSAI4948_AllReportingEntitiesexceptPublicSectorBanks_4d73d7ce.pdf
+2026-07-01 12:09:39,855 INFO     Downloading : CentralKnowyourCustomerRecordRegistryStatusofsearchdownloadfacilitiesbyRECERSAI4950AllReportingEntitiesexceptPublicSectorBanks_d7f3a0de.pdf
+2026-07-01 12:09:40,720 INFO     Downloading : 4838-Rejection_in_upload_of_KYC_records_due_to_mismatch_of_PIN_920b55a2.pdf
+2026-07-01 12:09:41,798 INFO     Downloading : Implementation_of_recommendations_of_the_Expert_Committee_734b7c0d.pdf
+2026-07-01 12:09:42,644 INFO     Downloading : Communique-Guidelinesforuploadingdocumentsandphoto_25cdc3cf.pdf
+2026-07-01 12:09:43,350 INFO     Downloading : DownloadConsentNotification_64b0bb7f.zip
+2026-07-01 12:09:44,325 INFO     Downloading : RBI-Inspection-probable-match-notification-to-REs_d1789311.pdf
+2026-07-01 12:09:45,178 INFO     Downloading : E-gazatte dated February 12,2019_d2a00d83.pdf
+2026-07-01 12:09:46,230 INFO     Downloading : Ammendments to PMLA_e6026b60.pdf
+2026-07-01 12:09:47,025 INFO     Downloading : PMLA 16th Oct 2017_dee894fb.pdf
+2026-07-01 12:09:47,821 INFO     Downloading : Prevention of Money-laundering (Maintenance of Records) Amendment Rules_june_01_2017_9dcc0128.pdf
+2026-07-01 12:09:48,753 INFO     Downloading : Prevention of Money-laundering (Maintenance of Records) Amendment Rules_april_12_2017_38cc18b6.pdf
+2026-07-01 12:09:49,500 INFO     Downloading : Prevention of Money-laundering (Maintenance of Records) Amendment Rules_nov_26_2015_87efcd34.pdf
+2026-07-01 12:09:50,335 INFO     Downloading : Prevention of Money-laundering (Maintenance of Records) Amendment Rules_july_07_f8b94ae5.pdf
+2026-07-01 12:09:51,043 INFO     
+2026-07-01 12:09:51,043 INFO     CKYC Summary
+2026-07-01 12:09:51,044 INFO     -------------------------
+2026-07-01 12:09:51,044 INFO     Total Documents Found : 25
+2026-07-01 12:09:51,044 INFO     Already Processed     : 0
+2026-07-01 12:09:51,044 INFO     Downloaded            : 23
+2026-07-01 12:09:51,044 INFO     Failed                : 2

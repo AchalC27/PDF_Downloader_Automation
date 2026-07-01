@@ -44,3 +44,74 @@
 2026-06-30 11:35:23,840 INFO     Total Circulars Found : 2
 2026-06-30 11:35:23,840 INFO     Already Processed     : 2
 2026-06-30 11:35:23,840 INFO     No new circulars found.
+2026-06-30 15:01:02,279 INFO     
+2026-06-30 15:01:02,279 INFO     ========== NSE ==========
+2026-06-30 15:01:04,487 INFO     Total Circulars Found : 5
+2026-06-30 15:01:04,488 INFO     Already Processed     : 2
+2026-06-30 15:01:04,488 INFO     Downloading : NCL_COM_74934_Due Date Rates (DDR) - Monthly Electricity Futures in Commodity Derivatives Segment.pdf
+2026-06-30 15:01:06,420 INFO     Downloading : NSE_CML_74931_Listing of Equity Shares of Waterways Leisure Tourism Limited (IPO).pdf
+2026-06-30 15:01:06,680 INFO     Downloading : NSE_CML_74930_Listing of Equity Shares of Advit Jewels Limited (IPO).pdf
+2026-06-30 15:01:06,859 INFO     
+2026-06-30 15:01:06,860 INFO     NSE Summary
+2026-06-30 15:01:06,860 INFO     -------------------------
+2026-06-30 15:01:06,860 INFO     Total Circulars Found : 5
+2026-06-30 15:01:06,861 INFO     Already Processed     : 2
+2026-06-30 15:01:06,861 INFO     Downloaded            : 3
+2026-06-30 15:01:06,861 INFO     Failed                : 0
+2026-06-30 15:32:30,996 INFO     
+2026-06-30 15:32:30,996 INFO     ========== NSE ==========
+2026-06-30 15:32:32,521 INFO     Total Circulars Found : 6
+2026-06-30 15:32:32,522 INFO     Already Processed     : 5
+2026-06-30 15:32:32,522 INFO     Downloading : NSE_CMTR_74937_Buyback Offer under Tender Offer scheme by Bajaj Auto Limited.pdf
+2026-06-30 15:32:33,911 INFO     
+2026-06-30 15:32:33,911 INFO     NSE Summary
+2026-06-30 15:32:33,911 INFO     -------------------------
+2026-06-30 15:32:33,912 INFO     Total Circulars Found : 6
+2026-06-30 15:32:33,912 INFO     Already Processed     : 5
+2026-06-30 15:32:33,912 INFO     Downloaded            : 1
+2026-06-30 15:32:33,913 INFO     Failed                : 0
+2026-06-30 15:34:52,060 INFO     
+2026-06-30 15:34:52,060 INFO     ========== NSE ==========
+2026-06-30 15:34:53,137 INFO     Total Circulars Found : 6
+2026-06-30 15:34:53,137 INFO     Already Processed     : 6
+2026-06-30 15:34:53,138 INFO     No new circulars found.
+2026-07-01 10:23:42,399 INFO     
+2026-07-01 10:23:42,400 INFO     ========== NSE ==========
+2026-07-01 10:23:43,866 INFO     Total Circulars Found : 0
+2026-07-01 10:23:43,867 INFO     Already Processed     : 0
+2026-07-01 10:23:43,867 INFO     No new circulars found.
+2026-07-01 10:33:35,811 INFO     
+2026-07-01 10:33:35,811 INFO     ========== NSE ==========
+2026-07-01 10:33:36,978 INFO     Total Circulars Found : 0
+2026-07-01 10:33:36,978 INFO     Already Processed     : 0
+2026-07-01 10:33:36,978 INFO     No new circulars found.
+2026-07-01 10:59:55,243 INFO     
+2026-07-01 10:59:55,244 INFO     ========== NSE ==========
+2026-07-01 10:59:56,494 INFO     Total Circulars Found : 0
+2026-07-01 10:59:56,494 INFO     Already Processed     : 0
+2026-07-01 10:59:56,494 INFO     No new circulars found.
+2026-07-01 11:03:47,784 INFO     
+2026-07-01 11:03:47,785 INFO     ========== NSE ==========
+2026-07-01 11:03:49,246 INFO     Total Circulars Found : 0
+2026-07-01 11:03:49,246 INFO     Already Processed     : 0
+2026-07-01 11:03:49,246 INFO     No new circulars found.
+2026-07-01 14:42:54,417 INFO     
+2026-07-01 14:42:54,419 INFO     ========== NSE ==========
+2026-07-01 14:42:55,457 INFO     Total Circulars Found : 1
+2026-07-01 14:42:55,750 INFO     Already Processed     : 0
+2026-07-01 14:42:55,751 INFO     Downloading : NSE_CML_74960_Listing of Equity Shares of CSM Technologies Limited (IPO).pdf
+2026-07-01 14:42:56,829 INFO     
+2026-07-01 14:42:56,830 INFO     NSE Summary
+2026-07-01 14:42:56,830 INFO     -------------------------
+2026-07-01 14:42:56,830 INFO     Total Circulars Found : 1
+2026-07-01 14:42:56,830 INFO     Already Processed     : 0
+2026-07-01 14:42:56,831 INFO     Downloaded            : 1
+2026-07-01 14:42:56,831 INFO     Failed                : 0
+2026-07-01 14:49:22,879 INFO     
+2026-07-01 14:49:22,880 INFO     ========== NSE ==========
+2026-07-01 14:49:24,249 INFO     Total Circulars Found : 1
+2026-07-01 14:50:36,980 INFO     
+2026-07-01 14:50:36,980 INFO     ========== NSE ==========
+2026-07-01 14:50:38,180 INFO     Total Circulars Found : 1
+2026-07-01 14:50:38,553 INFO     Already Processed     : 1
+2026-07-01 14:50:38,553 INFO     No new circulars found.

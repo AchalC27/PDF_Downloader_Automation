@@ -61,3 +61,110 @@
 2026-06-30 11:35:24,808 INFO     Total Circulars Found : 2
 2026-06-30 11:35:24,809 INFO     Already Processed     : 2
 2026-06-30 11:35:24,809 INFO     No new circulars found.
+2026-06-30 15:01:06,866 INFO     
+2026-06-30 15:01:06,867 INFO     ========== BSE ==========
+2026-06-30 15:01:07,770 INFO     Total Circulars Found : 9
+2026-06-30 15:01:07,770 INFO     Already Processed     : 2
+2026-06-30 15:01:07,771 INFO     Downloading : 20260630-9_Ease of Doing  Business – Relaxation in certification requirement for Persons Associated with Invest.pdf
+2026-06-30 15:01:08,834 INFO     Downloading : 20260630-8_Non-Business Day for certain schemes of Mutual Fund on BSE StAR MF Platform.pdf
+2026-06-30 15:01:08,928 INFO     Downloading : 20260630-7_Listing of Equity Shares of Advit Jewels Limited.pdf
+2026-06-30 15:01:09,031 INFO     Downloading : 20260630-6_Demat Auction 660.pdf
+2026-06-30 15:01:09,192 INFO     Downloading : 20260630-5_Migration of Equity Shares of Virtuoso Optoelectronics Limited  from BSE SME Platform to BSE Mainboa.pdf
+2026-06-30 15:01:09,335 INFO     Downloading : 20260630-4_Opening of Offer to Buy – Acquisition Window (Takeover) of REKVINA LABORATORIES LIMITED.pdf
+2026-06-30 15:01:09,501 INFO     Downloading : 20260630-3_Listing of Equity Shares of Waterways Leisure Tourism Limited.pdf
+2026-06-30 15:01:09,592 INFO     
+2026-06-30 15:01:09,592 INFO     BSE Summary
+2026-06-30 15:01:09,593 INFO     --------------------------
+2026-06-30 15:01:09,593 INFO     Total Circulars Found : 9
+2026-06-30 15:01:09,593 INFO     Already Processed     : 2
+2026-06-30 15:01:09,594 INFO     Downloaded            : 7
+2026-06-30 15:01:09,594 INFO     Failed                : 0
+2026-06-30 15:32:33,918 INFO     
+2026-06-30 15:32:33,919 INFO     ========== BSE ==========
+2026-06-30 15:32:35,407 INFO     Total Circulars Found : 11
+2026-06-30 15:32:35,408 INFO     Already Processed     : 9
+2026-06-30 15:32:35,408 INFO     Downloading : 20260630-11_Listing of Equity Shares of Riyaasat Lifestyle Limited.pdf
+2026-06-30 15:32:36,310 INFO     Downloading : 20260630-10_Listing of Equity Shares of Jivial Industries Limited.pdf
+2026-06-30 15:32:36,439 INFO     
+2026-06-30 15:32:36,439 INFO     BSE Summary
+2026-06-30 15:32:36,440 INFO     --------------------------
+2026-06-30 15:32:36,440 INFO     Total Circulars Found : 11
+2026-06-30 15:32:36,440 INFO     Already Processed     : 9
+2026-06-30 15:32:36,440 INFO     Downloaded            : 2
+2026-06-30 15:32:36,441 INFO     Failed                : 0
+2026-06-30 15:34:53,143 INFO     
+2026-06-30 15:34:53,144 INFO     ========== BSE ==========
+2026-06-30 15:34:54,015 INFO     Total Circulars Found : 12
+2026-06-30 15:34:54,015 INFO     Already Processed     : 11
+2026-06-30 15:34:54,015 INFO     Downloading : 20260630-12_Part Redemption of RADHAKRISHNA SECURITISATION TRUST.pdf
+2026-06-30 15:34:55,036 INFO     
+2026-06-30 15:34:55,049 INFO     BSE Summary
+2026-06-30 15:34:55,058 INFO     --------------------------
+2026-06-30 15:34:55,058 INFO     Total Circulars Found : 12
+2026-06-30 15:34:55,093 INFO     Already Processed     : 11
+2026-06-30 15:34:55,094 INFO     Downloaded            : 1
+2026-06-30 15:34:55,095 INFO     Failed                : 0
+2026-07-01 10:23:43,875 INFO     
+2026-07-01 10:23:43,876 INFO     ========== BSE ==========
+2026-07-01 10:23:44,852 INFO     Total Circulars Found : 1
+2026-07-01 10:23:44,853 INFO     Already Processed     : 0
+2026-07-01 10:23:44,853 INFO     Downloading : 20260701-1_Market Wide Position Limits for stocks traded under SLBS – July 2026..pdf
+2026-07-01 10:23:46,669 INFO     
+2026-07-01 10:23:46,669 INFO     BSE Summary
+2026-07-01 10:23:46,669 INFO     --------------------------
+2026-07-01 10:23:46,669 INFO     Total Circulars Found : 1
+2026-07-01 10:23:46,670 INFO     Already Processed     : 0
+2026-07-01 10:23:46,670 INFO     Downloaded            : 1
+2026-07-01 10:23:46,671 INFO     Failed                : 0
+2026-07-01 10:33:36,984 INFO     
+2026-07-01 10:33:36,988 INFO     ========== BSE ==========
+2026-07-01 10:33:38,328 INFO     Total Circulars Found : 1
+2026-07-01 10:33:38,329 INFO     Already Processed     : 1
+2026-07-01 10:33:38,329 INFO     No new circulars found.
+2026-07-01 10:59:56,499 INFO     
+2026-07-01 10:59:56,503 INFO     ========== BSE ==========
+2026-07-01 10:59:57,348 INFO     Total Circulars Found : 3
+2026-07-01 10:59:57,349 INFO     Already Processed     : 1
+2026-07-01 10:59:57,349 INFO     Downloading : 20260701-3_Change in Group of Equity Shares of Jivial Industries Limited.pdf
+2026-07-01 10:59:58,299 INFO     Downloading : 20260701-2_Change in Group of Equity Shares of RIYAASAT LIFESTYLE LIMITED.pdf
+2026-07-01 10:59:58,347 INFO     
+2026-07-01 10:59:58,347 INFO     BSE Summary
+2026-07-01 10:59:58,347 INFO     --------------------------
+2026-07-01 10:59:58,348 INFO     Total Circulars Found : 3
+2026-07-01 10:59:58,348 INFO     Already Processed     : 1
+2026-07-01 10:59:58,348 INFO     Downloaded            : 2
+2026-07-01 10:59:58,348 INFO     Failed                : 0
+2026-07-01 11:03:49,250 INFO     
+2026-07-01 11:03:49,251 INFO     ========== BSE ==========
+2026-07-01 11:03:50,192 INFO     Total Circulars Found : 3
+2026-07-01 11:03:50,193 INFO     Already Processed     : 3
+2026-07-01 11:03:50,193 INFO     No new circulars found.
+2026-07-01 12:11:40,788 INFO     
+2026-07-01 12:11:40,789 INFO     ========== BSE ==========
+2026-07-01 14:04:55,454 INFO     
+2026-07-01 14:04:55,455 INFO     ========== BSE ==========
+2026-07-01 14:05:03,896 INFO     Total Circulars Found : 10
+2026-07-01 14:33:08,909 INFO     
+2026-07-01 14:33:08,910 INFO     ========== BSE ==========
+2026-07-01 14:33:10,139 INFO     Total Circulars Found : 10
+2026-07-01 14:37:35,007 INFO     
+2026-07-01 14:37:35,007 INFO     ========== BSE ==========
+2026-07-01 14:37:35,854 INFO     Total Circulars Found : 10
+2026-07-01 14:37:37,096 INFO     Already Processed     : 0
+2026-07-01 14:37:37,097 INFO     Downloading : 20260701-10_Suspension of Trading in Commercial Paper.pdf
+2026-07-01 14:37:38,098 INFO     Downloading : 20260701-9_Part Redemption of Debentures of Lodha Developers Limited.pdf
+2026-07-01 14:37:38,236 INFO     Downloading : 20260701-8_Demat Auction 661.pdf
+2026-07-01 14:37:38,349 INFO     Downloading : 20260701-7_Part-Redemption of Debenture of Magnetron Aug 2025.pdf
+2026-07-01 14:37:38,487 INFO     Downloading : 20260701-6_Change in Group of Equity Shares of Advit Jewels Limited.pdf
+2026-07-01 14:37:38,619 INFO     Downloading : 20260701-5_SME IPO – Draft Offer Document.pdf
+2026-07-01 14:37:38,756 INFO     Downloading : 20260701-4_Final Order in the matter of Mauria Udyog Ltd. and 4 other scrips.pdf
+2026-07-01 14:37:38,868 INFO     Downloading : 20260701-3_Change in Group of Equity Shares of Jivial Industries Limited.pdf
+2026-07-01 14:37:38,986 INFO     Downloading : 20260701-2_Change in Group of Equity Shares of RIYAASAT LIFESTYLE LIMITED.pdf
+2026-07-01 14:37:39,098 INFO     Downloading : 20260701-1_Market Wide Position Limits for stocks traded under SLBS – July 2026..pdf
+2026-07-01 14:37:39,217 INFO     
+2026-07-01 14:37:39,218 INFO     BSE Summary
+2026-07-01 14:37:39,219 INFO     --------------------------
+2026-07-01 14:37:39,219 INFO     Total Circulars Found : 10
+2026-07-01 14:37:39,219 INFO     Already Processed     : 0
+2026-07-01 14:37:39,220 INFO     Downloaded            : 10
+2026-07-01 14:37:39,220 INFO     Failed                : 0
