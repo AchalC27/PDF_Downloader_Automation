@@ -3,10 +3,11 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ICICI Securities | PDF Intelligence Hub</title>
+<title>ICICI Securities | PDF Downloader</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 </head>
 <body>
 
@@ -20,25 +21,25 @@
   <header class="app-header" id="app-header">
     <div class="wrap header-inner">
       <div class="brand" id="icici-brand-logo">
-        <div class="brand-mark">
+        <div class="brand-mark hidden">
           <span class="brand-mark-stripe"></span>
           <span class="brand-mark-text">iSEC</span>
         </div>
         <div class="brand-copy">
           <div class="brand-title-row">
             <span class="brand-title">ICICI Securities</span>
-            <span class="brand-pill">Research</span>
+            <span class="brand-pill hidden">Research</span>
           </div>
-          <p class="brand-sub">Intelligence Hub &amp; PDF Library</p>
+          <p class="brand-sub">PDF Downloader</p>
         </div>
       </div>
 
       <div class="header-actions">
-        <div class="live-session">
-          <span class="live-label">LIVE SERVER SESSION</span>
+        <div class="live-session hidden">
+          <span class="live-label hidden">LIVE SERVER SESSION</span>
           <span class="live-value"><span class="live-dot"></span><span id="live-date"></span></span>
         </div>
-        <button class="btn btn-navy" id="header-add-pdf-btn">
+        <button class="btn btn-navy hidden" id="header-add-pdf-btn">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
           <span>Catalog New PDF</span>
         </button>
@@ -52,7 +53,7 @@
     <section class="kpi-grid" id="dashboard-kpis">
       <div class="kpi-card">
         <div>
-          <span class="kpi-label">Cataloged PDFs</span>
+          <span class="kpi-label">Downloaded PDFs</span>
           <span class="kpi-value" id="kpi-total">--</span>
           <p class="kpi-note kpi-note-green">Live database documents</p>
         </div>
@@ -124,12 +125,12 @@
 
         <div class="field">
           <label><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Uploaded From</label>
-          <input type="date" id="date-picker-start">
+          <input type="text" id="date-picker-start" placeholder="dd-mm-yyyy" autocomplete="off">
         </div>
 
         <div class="field">
           <label><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Uploaded To</label>
-          <input type="date" id="date-picker-end">
+          <input type="text" id="date-picker-end" placeholder="dd-mm-yyyy" autocomplete="off">
         </div>
       </div>
     </div>
@@ -145,6 +146,10 @@
           <p class="panel-sub">Click column headers to sort, or select download to open the source PDF</p>
         </div>
         <div class="table-actions">
+          <button class="btn btn-orange btn-bulk-download hidden" id="download-selected-btn">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5M12 15V3"/></svg>
+            <span id="download-selected-count">Download Selected (0)</span>
+          </button>
           <button class="btn btn-ghost btn-export" id="export-csv-btn">
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15l3 3 3-3M12 11v7"/></svg>
             <span>Export Catalog</span>
@@ -160,6 +165,7 @@
         <table id="pdf-catalog-table">
           <thead>
             <tr>
+              <th class="col-select"><input type="checkbox" id="select-all-checkbox" title="Select all"></th>
               <th class="th-sort col-sr" data-sort="id"><div><span>Sr No</span><i class="sort-icon"></i></div></th>
               <th class="th-sort col-name" data-sort="pdf_name"><div><span>Document Name</span><i class="sort-icon"></i></div></th>
               <th class="th-sort col-source" data-sort="source"><div><span>Source</span><i class="sort-icon"></i></div></th>
@@ -168,7 +174,7 @@
             </tr>
           </thead>
           <tbody id="table-body">
-            <tr><td colspan="5" class="loading-row">Loading catalog…</td></tr>
+            <tr><td colspan="6" class="loading-row">Loading catalog…</td></tr>
           </tbody>
         </table>
       </div>
@@ -183,7 +189,7 @@
     </div>
 
     <!-- Disclaimer -->
-    <section class="disclaimer-panel" id="disclaimers-panel">
+    <section class="disclaimer-panel hidden" id="disclaimers-panel">
       <div class="disclaimer-title"><span>Regulatory Disclaimers &amp; Licensing</span></div>
       <p>ICICI Securities Ltd. (I-Sec). Registered office of I-Sec is at ICICI Securities Ltd. - ICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai - 400025, India, Tel No: 022 - 4070 1000. I-Sec is a SEBI registered Member of National Stock Exchange of India Ltd (Member Code: 07730) and BSE Ltd (Member Code: 103) and having SEBI registration no. INZ000183631. Investment in securities market are subject to market risks, read all the related documents carefully before investing.</p>
       <p class="disclaimer-secondary">This catalog is generated automatically from documents downloaded across regulatory and exchange sources via the internal automation pipeline. Records reflect what has been captured in the <code>store_pdf</code> table and are for internal/private circulation only.</p>
@@ -315,7 +321,7 @@
         <div class="two-col">
           <div class="field">
             <label>Upload Date</label>
-            <input type="date" id="report-date-input">
+            <input type="text" id="report-date-input" placeholder="dd-mm-yyyy" autocomplete="off">
           </div>
         </div>
 
@@ -341,7 +347,8 @@
     </div>
   </div>
 
-  <script src="{{ url_for('static', filename='js/api.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="{{ url_for('static', filename='js/api.js') }}"></script>
   <script src="{{ url_for('static', filename='js/render.js') }}"></script>
   <script src="{{ url_for('static', filename='js/modals.js') }}"></script>
   <script src="{{ url_for('static', filename='js/main.js') }}"></script>

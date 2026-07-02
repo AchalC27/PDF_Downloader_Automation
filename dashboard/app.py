@@ -1,7 +1,10 @@
 import csv
 import io
+import re
+import zipfile
 from datetime import date
 
+import requests
 from flask import Flask, jsonify, render_template, request, Response
 
 import db
@@ -132,6 +135,72 @@ def api_export_csv():
     return Response(
         output,
         mimetype="text/csv",
+        headers={"Content-Disposition": f"attachment; filename={filename}"},
+    )
+
+
+@app.route("/api/download-zip", methods=["POST"])
+def api_download_zip():
+    payload = request.get_json(silent=True) or {}
+    raw_ids = payload.get("ids") or []
+
+    try:
+        ids = [int(i) for i in raw_ids]
+    except (TypeError, ValueError):
+        return jsonify({"ok": False, "error": "Invalid document ids supplied"}), 400
+
+    if not ids:
+        return jsonify({"ok": False, "error": "No documents selected"}), 400
+
+    try:
+        rows = db.fetch_reports_by_ids(ids)
+    except Exception as exc:
+        return jsonify({"ok": False, "error": str(exc)}), 500
+
+    if not rows:
+        return jsonify({"ok": False, "error": "No matching documents found"}), 404
+
+    mem_zip = io.BytesIO()
+    used_names = set()
+    failures = []
+
+    with zipfile.ZipFile(mem_zip, "w", zipfile.ZIP_DEFLATED) as zf:
+        for row in rows:
+            try:
+                resp = requests.get(row["pdf_link"], timeout=20)
+                resp.raise_for_status()
+            except Exception as exc:
+                failures.append(f"{row['pdf_name']}: {exc}")
+                continue
+
+            safe_name = re.sub(r'[\\/*?:"<>|]', "_", row["pdf_name"]).strip()
+            if not safe_name:
+                safe_name = f"document_{row['id']}"
+            if not safe_name.lower().endswith(".pdf"):
+                safe_name += ".pdf"
+
+            base, ext = safe_name.rsplit(".", 1)
+            final_name = safe_name
+            counter = 1
+            while final_name in used_names:
+                final_name = f"{base}_{counter}.{ext}"
+                counter += 1
+            used_names.add(final_name)
+
+            zf.writestr(final_name, resp.content)
+
+        if failures:
+            zf.writestr("_download_errors.txt", "\n".join(failures))
+
+    if not used_names:
+        return jsonify({"ok": False, "error": "Could not fetch any of the selected PDFs", "failures": failures}), 502
+
+    mem_zip.seek(0)
+    filename = f"ISEC_PDF_Selected_{date.today().isoformat()}.zip"
+
+    return Response(
+        mem_zip.getvalue(),
+        mimetype="application/zip",
         headers={"Content-Disposition": f"attachment; filename={filename}"},
     )
 

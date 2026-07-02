@@ -117,6 +117,7 @@ button { font-family: inherit; cursor: pointer; }
 .btn-ghost:hover { background: var(--slate-50); }
 .btn-export { color: var(--emerald-700); background: var(--emerald-50); border-color: var(--emerald-200); }
 .btn-export:hover { background: var(--emerald-100); }
+.btn-bulk-download:disabled { opacity: 0.6; cursor: not-allowed; }
 
 /* ---------- Main panel ---------- */
 .main-panel { flex: 1; width: 100%; padding: 24px 16px 32px; display: flex; flex-direction: column; gap: 24px; }
@@ -192,6 +193,10 @@ th { font-size: 11px; font-weight: 600; color: var(--slate-500); text-transform:
 .th-sort { cursor: pointer; }
 .th-sort:hover { background: var(--slate-100); color: var(--slate-800); }
 .th-sort div { display: flex; align-items: center; gap: 4px; }
+.col-select { text-align: center; width: 44px; }
+.col-select input[type="checkbox"],
+.td-select input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--navy); cursor: pointer; }
+.td-select { text-align: center; }
 .col-sr { text-align: center; width: 80px; }
 .col-source { width: 200px; }
 .col-date { width: 170px; }
@@ -314,3 +319,14 @@ td { padding: 16px 24px; vertical-align: top; }
 .toast p { margin: 0; font-size: 13px; font-weight: 500; }
 
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+/* ---------- Flatpickr theming (dd-mm-yyyy date pickers) ---------- */
+.flatpickr-day.selected,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange { background: var(--navy); border-color: var(--navy); }
+.flatpickr-day.today { border-color: var(--orange); }
+.flatpickr-day.today:hover { background: var(--orange-light); border-color: var(--orange); }
+.flatpickr-months .flatpickr-month,
+.flatpickr-current-month .flatpickr-monthDropdown-months { color: var(--navy); }
+.flatpickr-day:hover { background: var(--slate-100); }

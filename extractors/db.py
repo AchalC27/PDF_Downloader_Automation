@@ -4,9 +4,9 @@ import mysql.connector
 
 def get_connection():
     return mysql.connector.connect(
-        host="192.168.137.130",
-        user="developer",
-        password="icici",
+        host="localhost",
+        user="root",
+        password="Achal@27",
         database="file_downloader"
     )
 

@@ -1,3 +1,5 @@
+let reportDatePicker = null;
+
 const Modals = {
   openPreview(report) {
     document.getElementById('preview-ref').textContent = `RECORD ID #${report.id}`;
@@ -31,7 +33,15 @@ const Modals = {
     document.getElementById('report-source-input').value = '';
     document.getElementById('report-category-input').value = '';
     document.getElementById('report-link-input').value = '';
-    document.getElementById('report-date-input').value = new Date().toISOString().slice(0, 10);
+    if (!reportDatePicker) {
+      reportDatePicker = flatpickr('#report-date-input', {
+        dateFormat: 'Y-m-d',
+        altInput: true,
+        altFormat: 'd-m-Y',
+        allowInput: true,
+      });
+    }
+    reportDatePicker.setDate(new Date(), true);
     ['err-name', 'err-source', 'err-link'].forEach((id) => { document.getElementById(id).textContent = ''; });
     ['report-name-input', 'report-source-input', 'report-link-input'].forEach((id) => {
       document.getElementById(id).classList.remove('invalid');

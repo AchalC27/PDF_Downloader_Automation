@@ -178,3 +178,37 @@
 2026-07-01 15:03:53,405 INFO     Total Circulars Found : 10
 2026-07-01 15:03:54,498 INFO     Already Processed     : 10
 2026-07-01 15:03:54,499 INFO     No new circulars found.
+2026-07-02 11:33:14,138 INFO     
+2026-07-02 11:33:14,143 INFO     ========== BSE ==========
+2026-07-02 11:33:14,961 INFO     Total Circulars Found : 0
+2026-07-02 11:33:14,962 INFO     Already Processed     : 0
+2026-07-02 11:33:14,962 INFO     No new circulars found.
+2026-07-02 11:33:51,209 INFO     
+2026-07-02 11:33:51,210 INFO     ========== BSE ==========
+2026-07-02 11:33:51,950 INFO     Total Circulars Found : 0
+2026-07-02 11:33:51,950 INFO     Already Processed     : 0
+2026-07-02 11:33:51,951 INFO     No new circulars found.
+2026-07-02 11:59:55,682 INFO     
+2026-07-02 11:59:55,684 INFO     ========== BSE ==========
+2026-07-02 11:59:56,599 INFO     Total Circulars Found : 0
+2026-07-02 11:59:56,599 INFO     Already Processed     : 0
+2026-07-02 11:59:56,600 INFO     No new circulars found.
+2026-07-02 12:43:40,413 INFO     
+2026-07-02 12:43:40,414 INFO     ========== BSE ==========
+2026-07-02 12:43:42,398 INFO     Total Circulars Found : 0
+2026-07-02 12:43:42,398 INFO     Already Processed     : 0
+2026-07-02 12:43:42,399 INFO     No new circulars found.
+2026-07-02 13:40:22,135 INFO     
+2026-07-02 13:40:22,136 INFO     ========== BSE ==========
+2026-07-02 13:40:22,911 INFO     Total Circulars Found : 3
+2026-07-02 13:40:23,298 INFO     Already Processed     : 0
+2026-07-02 13:40:23,298 INFO     Downloading : 20260702-3_Listing of Equity Shares of CRAZY SNACKS LIMITED.pdf
+2026-07-02 13:40:24,248 INFO     Downloading : 20260702-2_Demat Auction 662.pdf
+2026-07-02 13:40:24,406 INFO     Downloading : 20260702-1_Opening of Offer to Buy – Acquisition Window (Buyback) For KAJARIA CERAMICS LIMITED.pdf
+2026-07-02 13:40:24,586 INFO     
+2026-07-02 13:40:24,586 INFO     BSE Summary
+2026-07-02 13:40:24,587 INFO     --------------------------
+2026-07-02 13:40:24,587 INFO     Total Circulars Found : 3
+2026-07-02 13:40:24,587 INFO     Already Processed     : 0
+2026-07-02 13:40:24,587 INFO     Downloaded            : 3
+2026-07-02 13:40:24,588 INFO     Failed                : 0

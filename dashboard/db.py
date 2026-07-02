@@ -64,6 +64,30 @@ def fetch_reports(search=None, source=None, start_date=None, end_date=None,
     return rows
 
 
+def fetch_reports_by_ids(ids):
+    if not ids:
+        return []
+
+    placeholders = ",".join(["%s"] * len(ids))
+    sql = (
+        "SELECT id, upload_date, source, pdf_link, pdf_name, category "
+        f"FROM store_pdf WHERE id IN ({placeholders})"
+    )
+
+    conn = get_connection()
+    cursor = conn.cursor(dictionary=True)
+    cursor.execute(sql, ids)
+    rows = cursor.fetchall()
+    cursor.close()
+    conn.close()
+
+    for row in rows:
+        if row.get("upload_date") is not None:
+            row["upload_date"] = row["upload_date"].strftime("%Y-%m-%d")
+
+    return rows
+
+
 def fetch_sources():
     conn = get_connection()
     cursor = conn.cursor()

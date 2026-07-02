@@ -1,8 +1,8 @@
 import os
 
-DB_HOST = os.environ.get("DASH_DB_HOST", "192.168.137.130")
-DB_USER = os.environ.get("DASH_DB_USER", "developer")
-DB_PASSWORD = os.environ.get("DASH_DB_PASSWORD", "icici")
+DB_HOST = os.environ.get("DASH_DB_HOST", "localhost")
+DB_USER = os.environ.get("DASH_DB_USER", "root")
+DB_PASSWORD = os.environ.get("DASH_DB_PASSWORD", "Achal@27")
 DB_NAME = os.environ.get("DASH_DB_NAME", "file_downloader")
 
 DASHBOARD_HOST = os.environ.get("DASH_HOST", "0.0.0.0")

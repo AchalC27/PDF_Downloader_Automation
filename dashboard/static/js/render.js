@@ -60,7 +60,7 @@ const Render = {
     });
   },
 
-  table(reports, total) {
+  table(reports, total, selectedIds = new Set()) {
     const tbody = document.getElementById('table-body');
     document.getElementById('result-count-badge').textContent =
       `${reports.length} ${reports.length === 1 ? 'Report' : 'Reports'}`;
@@ -69,7 +69,7 @@ const Render = {
 
     if (!reports.length) {
       tbody.innerHTML = `
-        <tr><td colspan="5" class="empty-state">
+        <tr><td colspan="6" class="empty-state">
           <div class="empty-state-inner">
             <div class="empty-icon">
               <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h6"/></svg>
@@ -84,8 +84,10 @@ const Render = {
 
     tbody.innerHTML = reports.map((r, idx) => {
       const [bg, fg, border] = sourceBadgeStyle(r.source);
+      const checked = selectedIds.has(r.id) ? 'checked' : '';
       return `
       <tr class="${idx % 2 === 0 ? '' : 'row-alt'}" data-id="${r.id}">
+        <td class="td-select"><input type="checkbox" class="row-checkbox" data-id="${r.id}" ${checked}></td>
         <td class="td-sr">${idx + 1}</td>
         <td>
           <div class="doc-cell">

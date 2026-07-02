@@ -882,3 +882,483 @@
 2026-07-01 15:05:26,895 INFO     Update on Index under Hybrid Startegy-11th Aug'23_1.pdf already exists in database. Skipping.
 2026-07-01 15:05:26,983 INFO     Vigilance Awareness Week 2025 - 14th Oct'25.pdf already exists in database. Skipping.
 2026-07-01 15:05:26,985 INFO     APMI -> Found 117 PDFs, Downloaded 0
+2026-07-02 11:34:45,894 INFO     ─── Scraping APMI ───
+2026-07-02 11:34:47,078 INFO     12th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:47,160 INFO     17th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:47,241 INFO     18th June'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:47,320 INFO     28th-Oct'20-FAQ's.pdf already exists in database. Skipping.
+2026-07-02 11:34:47,403 INFO     APMI COMPLIANCE SUTRA- CMM QUERIES.pdf already exists in database. Skipping.
+2026-07-02 11:34:47,486 INFO     APMI Circular 1 - Valuation - 23rd March'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:47,565 INFO     APMI Circular 10 - Formats of Annual Compliance Reports - 12th Oct'23 .pdf already exists in database. Skipping.
+2026-07-02 11:34:47,644 INFO     APMI Circular 11 - Submissions by APMI vide SEBI Circular dated 2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:47,725 INFO     APMI Circular 3 - FAQ's on SEBI Circular dated 30th Sept'22.pdf already exists in database. Skipping.
+2026-07-02 11:34:47,806 INFO     APMI Circular 4 - APMI - NISM Applicability -24th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 11:34:47,897 INFO     APMI Circular 5 - APMI - Distributor Brokerage -26th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 11:34:47,977 INFO     APMI Circular 6- Reporting of Performance (BSE 500 TRI) -28th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,060 INFO     APMI Circular 7- APMI- Time Period -04th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,140 INFO     APMI Circular 9 - APMI ToR for Audit of Firm Level Performance Data - 28th Sept'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,225 INFO     APMI Circular_8 -APMI Membership Register -30th June'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,310 INFO     APMI Communication on Secondary Benchmarks.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,391 INFO     APMI- Update on SEBI CSCRF Circular.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,472 INFO     APMI-Circular-2-BENCHMARKING.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,557 INFO     APMI-Flagging of Demat Accounts-30th May'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,634 INFO     APMI-Important Communication-15th May'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,716 INFO     APMI-Important Communication-15th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,796 INFO     APMI-Important Communication-29th March'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,883 INFO     APMI-Important Communication-9th April'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:48,963 INFO     APMI-SOP for change in Benchmark.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,046 INFO     Adoption of UPI IDs for Paymemnt Collection - 11th June'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,126 INFO     At Valid Standard Operating Procedure - 6th Aug'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,207 INFO     Audit of firm level performance- 3rd Aug'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,287 INFO     Best Practise for Inflow and Outflow of Funds and Securities- 3rd February'26.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,370 INFO     CONSULTATION PAPER ON INTRODUCTION OF NEW ASSET CLASSPRODUCT CATEGORY.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,451 INFO     Centralization of certifications under FATCA and CRS at KRAs- 20th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,533 INFO     Centralized mechanism for reporting the demise of an investor through KRAs - 3rd Oct'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,613 INFO     Change in Control of Portfolio Managers providing Co-Investment Services - 10th Jan'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,697 INFO     Clarification Note on Transfer of PMS Business by Portfolio Managers.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,778 INFO     Clarification Note- Indicative Infra Requirement of a PMS.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,857 INFO     Clarification Regarding SEBI Circular dated 2nd May'24-9th April'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:49,942 INFO     Clarification on the Digital Accessibility circulars of SEBI- 8th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:50,026 INFO     Clarification regarding Clause 2.7.3 of Master Circular related to Dealing Room-28th Dec'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:50,111 INFO     Clarifications on CSCRF for SEBI Regulated Entities - 30th April'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:50,191 INFO     Clarifications on CSCRF for SEBI Regulated Entities-31st Dec'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:50,271 INFO     Compliance Guidelines for Digital Accessibility Circular - 25th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:50,352 INFO     Consultation Paper on Consolidated Cybersecurity and Cyber Resilience Framework (CSCRF).pdf already exists in database. Skipping.
+2026-07-02 11:34:50,432 INFO     Consultation Paper on Draft Circular for Safe and Efficient Transfers on UPI.pdf already exists in database. Skipping.
+2026-07-02 11:34:50,520 INFO     Consultation Paper on Review of Regulation 24.pdf already exists in database. Skipping.
+2026-07-02 11:34:50,609 INFO     Consultation Paper on Review of Regulatory Framework for IA & RA.pdf already exists in database. Skipping.
+2026-07-02 11:34:50,688 INFO     Consultation Paper on Substituting Attestation with Self Attestation.pdf already exists in database. Skipping.
+2026-07-02 11:34:50,768 INFO     Consultation Paper on extending certain flexibilities under accreditation framework .pdf already exists in database. Skipping.
+2026-07-02 11:34:50,850 INFO     Consultation Paper on proposed amendments to the SEBI (Prohibition of Insider Trading) Regulations, .pdf already exists in database. Skipping.
+2026-07-02 11:34:50,929 INFO     Cyber-Security-29th-Mar'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,014 INFO     Cybercrime Report alongwith TRAI Directions - 11th May'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,095 INFO     Cybersecurity and Cyber Resilience Framework for SEBI Regulated Entities- 20th August'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,189 INFO     Dealing-Team-30th-Sept'22.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,272 INFO     Details and Reports available for APMI Members.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,357 INFO     DetailsClarifications on provisions related to Association of Persons.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,441 INFO     Ease of Doing Business-15th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,522 INFO     Ease of Doing Investment (EoDI) - 26th Feb'26.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,601 INFO     Entities Persons WhatsApp Telegram groups impersonating as Registered PMs-15th April'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,689 INFO     Escalation Matrix for Issues on SI Portal-28th Nov'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,774 INFO     Extension of Timelines - Digital Accessibility Circular - 29th Aug'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,859 INFO     Extension of Timelines for submission of Offsite Data.pdf already exists in database. Skipping.
+2026-07-02 11:34:51,944 INFO     Extension of timeline for 20th Sept. Circular- 1st Dec'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,028 INFO     FAQ on Adoption of Standardised, Validated and Exclusive UPI IDs for Payment - 17th Sept 25.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,113 INFO     FAQ's on APMI Circular Number 11.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,195 INFO     FAQ- II on APMI Circular Number 11.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,275 INFO     Facilitating collective oversight of Distributors for PMS through APMI-2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,355 INFO     Facilitating ease in digital on-boarding process for clients and enhancing transparency - 2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,441 INFO     Final Common SOP for Centralised Demise Information-March'26.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,523 INFO     Format of Disclosure Document of Portfolio Managers - 9th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,604 INFO     Further Clarification on Transfer of PMS Business by Portfolio Managers.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,689 INFO     Generic Mail IDs of SEBI-8th Dec'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,771 INFO     Guidance Note for FATCA & CRS.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,850 INFO     Guidance on Distributor Compliance and APRN.pdf already exists in database. Skipping.
+2026-07-02 11:34:52,932 INFO     Guidelines for Change in APRN Code and Transfer of AUM-11th Nov'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,013 INFO     Guidelines for Custodians- 4th March'26.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,094 INFO     Guidelines for PMS Regulations - 13th Feb'20.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,176 INFO     Guidelines for sending Commercial Communications-31st May'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,259 INFO     Help Document on Adoption of UPI IDs for Payment - 11th June'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,352 INFO     Implementation of Structured UPI Address - 16th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,431 INFO     Index under Hybrid and Multi Asset Strategy - 5th May'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,508 INFO     Index under Hybrid and Multi Asset Strategy - 5th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,588 INFO     Indicative Infra Requirements of a PMS.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,673 INFO     Industry Standards Recognition Manual-12th Feb'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,755 INFO     Letter from SEBI - Project PARAS-18th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,837 INFO     List of Dealing Officers in SEBI_1.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,916 INFO     List of Empanelled Web Accessibility Auditors - 4th Feb'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:53,998 INFO     Manual for uploading Repots on SI Portal.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,078 INFO     Master Circular for Portfolio Managers - 16th July'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,163 INFO     Master Circular on KYC Norms for the Securities Market - 12th Oct'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,251 INFO     Norms for sharing of real time price data to third parties- 24th May'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,357 INFO     Note on APRN Cancellation Utility-3rd July 2025.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,441 INFO     Note on Pending Distributor Registration Renewal Cases_1.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,523 INFO     ODR- Online Disputes Resolution- 31st July'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,605 INFO     PMS Regulation - 2020.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,693 INFO     Performance Validation Agency.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,777 INFO     Performance-Benchmarking-16th-Dec'22.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,862 INFO     Portfolio Managers using exaggerated advertisements on their Website-10th June'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:54,946 INFO     Related-Party-Circular-26thAug'22.pdf already exists in database. Skipping.
+2026-07-02 11:34:55,032 INFO     Relaxation on geo tagging requirement in India for NRIs while undertaking re-KYC- 10th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:55,116 INFO     Reply from SEBI on queries of APMI on Benchmarking Circular-29th March'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:55,203 INFO     Reply from SEBI on queries of APMI on Benchmarking Circular_2.pdf already exists in database. Skipping.
+2026-07-02 11:34:55,290 INFO     Downloading Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf
+2026-07-02 11:34:55,982 ERROR      ✘  Download failed  https://www.apmiindia.org/storagebox/images/Circulars/Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf  →  404 Client Error: Not Found for url: https://www.apmiindia.org/storagebox/images/Circulars/Reply%20from%20SEBI%20on%20queries%20of%20APMI%20on%20Benchmarking%20Circular_3.pdf
+2026-07-02 11:34:56,083 INFO     Research and benchmark of global best practices for Portfolio Management Services by APMI.pdf already exists in database. Skipping.
+2026-07-02 11:34:56,170 INFO     Revised Benchmarks - Annexure 1 - 31st March'23_1.pdf already exists in database. Skipping.
+2026-07-02 11:34:56,252 INFO     Rights of Persons with Diasbilities along with Writ Petition-29th May'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:56,336 INFO     Rights of Persons with Disabilities Act, 2016 - 31st July'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:56,447 INFO     SAAS - 3rd November'20.pdf already exists in database. Skipping.
+2026-07-02 11:34:56,545 INFO     SCORES- Redressal of Investor Grievances - 20th Sept'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:56,638 INFO     SEBI Communication on Secondary Benchmarks-3rd Oct'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:56,726 INFO     SEBI PMS Manual.pdf already exists in database. Skipping.
+2026-07-02 11:34:56,807 INFO     SEBI PMS Regulation Amendment- 22nd Aug'22.pdf already exists in database. Skipping.
+2026-07-02 11:34:56,898 INFO     SOP on Digital Onboarding- Version 2- 18th February'26.pdf already exists in database. Skipping.
+2026-07-02 11:34:56,986 INFO     Secondary Benchmarks- Oct'24.pdf already exists in database. Skipping.
+2026-07-02 11:34:57,066 INFO     Submission by APMI on new Asset Class Product Category.pdf already exists in database. Skipping.
+2026-07-02 11:34:57,149 INFO     Submission of Compliance Reports trough SEBI Intermediary Portal-23rd Oct'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:57,227 INFO     Transfer of PMS Business- 24th Oct'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:57,307 INFO     Update on Index under Hybrid Startegy-11th Aug'23.pdf already exists in database. Skipping.
+2026-07-02 11:34:57,390 INFO     Update on Index under Hybrid Startegy-11th Aug'23_1.pdf already exists in database. Skipping.
+2026-07-02 11:34:57,473 INFO     Vigilance Awareness Week 2025 - 14th Oct'25.pdf already exists in database. Skipping.
+2026-07-02 11:34:57,475 INFO     APMI -> Found 117 PDFs, Downloaded 0
+2026-07-02 12:00:57,398 INFO     ─── Scraping APMI ───
+2026-07-02 12:00:58,845 INFO     12th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 12:00:58,965 INFO     17th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 12:00:59,084 INFO     18th June'25.pdf already exists in database. Skipping.
+2026-07-02 12:00:59,190 INFO     28th-Oct'20-FAQ's.pdf already exists in database. Skipping.
+2026-07-02 12:00:59,302 INFO     APMI COMPLIANCE SUTRA- CMM QUERIES.pdf already exists in database. Skipping.
+2026-07-02 12:00:59,402 INFO     APMI Circular 1 - Valuation - 23rd March'23.pdf already exists in database. Skipping.
+2026-07-02 12:00:59,504 INFO     APMI Circular 10 - Formats of Annual Compliance Reports - 12th Oct'23 .pdf already exists in database. Skipping.
+2026-07-02 12:00:59,611 INFO     APMI Circular 11 - Submissions by APMI vide SEBI Circular dated 2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 12:00:59,717 INFO     APMI Circular 3 - FAQ's on SEBI Circular dated 30th Sept'22.pdf already exists in database. Skipping.
+2026-07-02 12:00:59,838 INFO     APMI Circular 4 - APMI - NISM Applicability -24th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:00:59,942 INFO     APMI Circular 5 - APMI - Distributor Brokerage -26th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:01:00,066 INFO     APMI Circular 6- Reporting of Performance (BSE 500 TRI) -28th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:01:00,177 INFO     APMI Circular 7- APMI- Time Period -04th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:01:00,286 INFO     APMI Circular 9 - APMI ToR for Audit of Firm Level Performance Data - 28th Sept'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:00,396 INFO     APMI Circular_8 -APMI Membership Register -30th June'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:00,502 INFO     APMI Communication on Secondary Benchmarks.pdf already exists in database. Skipping.
+2026-07-02 12:01:00,595 INFO     APMI- Update on SEBI CSCRF Circular.pdf already exists in database. Skipping.
+2026-07-02 12:01:00,706 INFO     APMI-Circular-2-BENCHMARKING.pdf already exists in database. Skipping.
+2026-07-02 12:01:00,819 INFO     APMI-Flagging of Demat Accounts-30th May'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:00,906 INFO     APMI-Important Communication-15th May'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:01,020 INFO     APMI-Important Communication-15th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:01:01,125 INFO     APMI-Important Communication-29th March'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:01,227 INFO     APMI-Important Communication-9th April'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:01,345 INFO     APMI-SOP for change in Benchmark.pdf already exists in database. Skipping.
+2026-07-02 12:01:01,469 INFO     Adoption of UPI IDs for Paymemnt Collection - 11th June'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:01,578 INFO     At Valid Standard Operating Procedure - 6th Aug'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:01,700 INFO     Audit of firm level performance- 3rd Aug'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:01,814 INFO     Best Practise for Inflow and Outflow of Funds and Securities- 3rd February'26.pdf already exists in database. Skipping.
+2026-07-02 12:01:01,923 INFO     CONSULTATION PAPER ON INTRODUCTION OF NEW ASSET CLASSPRODUCT CATEGORY.pdf already exists in database. Skipping.
+2026-07-02 12:01:02,035 INFO     Centralization of certifications under FATCA and CRS at KRAs- 20th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:02,130 INFO     Centralized mechanism for reporting the demise of an investor through KRAs - 3rd Oct'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:02,242 INFO     Change in Control of Portfolio Managers providing Co-Investment Services - 10th Jan'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:02,364 INFO     Clarification Note on Transfer of PMS Business by Portfolio Managers.pdf already exists in database. Skipping.
+2026-07-02 12:01:02,488 INFO     Clarification Note- Indicative Infra Requirement of a PMS.pdf already exists in database. Skipping.
+2026-07-02 12:01:02,594 INFO     Clarification Regarding SEBI Circular dated 2nd May'24-9th April'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:02,713 INFO     Clarification on the Digital Accessibility circulars of SEBI- 8th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:02,819 INFO     Clarification regarding Clause 2.7.3 of Master Circular related to Dealing Room-28th Dec'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:02,936 INFO     Clarifications on CSCRF for SEBI Regulated Entities - 30th April'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:03,043 INFO     Clarifications on CSCRF for SEBI Regulated Entities-31st Dec'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:03,144 INFO     Compliance Guidelines for Digital Accessibility Circular - 25th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:03,249 INFO     Consultation Paper on Consolidated Cybersecurity and Cyber Resilience Framework (CSCRF).pdf already exists in database. Skipping.
+2026-07-02 12:01:03,357 INFO     Consultation Paper on Draft Circular for Safe and Efficient Transfers on UPI.pdf already exists in database. Skipping.
+2026-07-02 12:01:03,483 INFO     Consultation Paper on Review of Regulation 24.pdf already exists in database. Skipping.
+2026-07-02 12:01:03,599 INFO     Consultation Paper on Review of Regulatory Framework for IA & RA.pdf already exists in database. Skipping.
+2026-07-02 12:01:03,719 INFO     Consultation Paper on Substituting Attestation with Self Attestation.pdf already exists in database. Skipping.
+2026-07-02 12:01:03,811 INFO     Consultation Paper on extending certain flexibilities under accreditation framework .pdf already exists in database. Skipping.
+2026-07-02 12:01:03,903 INFO     Consultation Paper on proposed amendments to the SEBI (Prohibition of Insider Trading) Regulations, .pdf already exists in database. Skipping.
+2026-07-02 12:01:03,992 INFO     Cyber-Security-29th-Mar'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:04,086 INFO     Cybercrime Report alongwith TRAI Directions - 11th May'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:04,179 INFO     Cybersecurity and Cyber Resilience Framework for SEBI Regulated Entities- 20th August'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:04,290 INFO     Dealing-Team-30th-Sept'22.pdf already exists in database. Skipping.
+2026-07-02 12:01:04,375 INFO     Details and Reports available for APMI Members.pdf already exists in database. Skipping.
+2026-07-02 12:01:04,495 INFO     DetailsClarifications on provisions related to Association of Persons.pdf already exists in database. Skipping.
+2026-07-02 12:01:04,605 INFO     Ease of Doing Business-15th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:04,699 INFO     Ease of Doing Investment (EoDI) - 26th Feb'26.pdf already exists in database. Skipping.
+2026-07-02 12:01:04,784 INFO     Entities Persons WhatsApp Telegram groups impersonating as Registered PMs-15th April'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:04,874 INFO     Escalation Matrix for Issues on SI Portal-28th Nov'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:04,974 INFO     Extension of Timelines - Digital Accessibility Circular - 29th Aug'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:05,074 INFO     Extension of Timelines for submission of Offsite Data.pdf already exists in database. Skipping.
+2026-07-02 12:01:05,199 INFO     Extension of timeline for 20th Sept. Circular- 1st Dec'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:05,322 INFO     FAQ on Adoption of Standardised, Validated and Exclusive UPI IDs for Payment - 17th Sept 25.pdf already exists in database. Skipping.
+2026-07-02 12:01:05,417 INFO     FAQ's on APMI Circular Number 11.pdf already exists in database. Skipping.
+2026-07-02 12:01:05,541 INFO     FAQ- II on APMI Circular Number 11.pdf already exists in database. Skipping.
+2026-07-02 12:01:05,658 INFO     Facilitating collective oversight of Distributors for PMS through APMI-2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:05,771 INFO     Facilitating ease in digital on-boarding process for clients and enhancing transparency - 2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:05,875 INFO     Final Common SOP for Centralised Demise Information-March'26.pdf already exists in database. Skipping.
+2026-07-02 12:01:05,970 INFO     Format of Disclosure Document of Portfolio Managers - 9th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:06,066 INFO     Further Clarification on Transfer of PMS Business by Portfolio Managers.pdf already exists in database. Skipping.
+2026-07-02 12:01:06,186 INFO     Generic Mail IDs of SEBI-8th Dec'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:06,300 INFO     Guidance Note for FATCA & CRS.pdf already exists in database. Skipping.
+2026-07-02 12:01:06,397 INFO     Guidance on Distributor Compliance and APRN.pdf already exists in database. Skipping.
+2026-07-02 12:01:06,490 INFO     Guidelines for Change in APRN Code and Transfer of AUM-11th Nov'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:06,610 INFO     Guidelines for Custodians- 4th March'26.pdf already exists in database. Skipping.
+2026-07-02 12:01:06,705 INFO     Guidelines for PMS Regulations - 13th Feb'20.pdf already exists in database. Skipping.
+2026-07-02 12:01:06,817 INFO     Guidelines for sending Commercial Communications-31st May'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:06,916 INFO     Help Document on Adoption of UPI IDs for Payment - 11th June'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:07,033 INFO     Implementation of Structured UPI Address - 16th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:07,152 INFO     Index under Hybrid and Multi Asset Strategy - 5th May'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:07,276 INFO     Index under Hybrid and Multi Asset Strategy - 5th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:01:07,402 INFO     Indicative Infra Requirements of a PMS.pdf already exists in database. Skipping.
+2026-07-02 12:01:07,528 INFO     Industry Standards Recognition Manual-12th Feb'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:07,657 INFO     Letter from SEBI - Project PARAS-18th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:07,790 INFO     List of Dealing Officers in SEBI_1.pdf already exists in database. Skipping.
+2026-07-02 12:01:07,904 INFO     List of Empanelled Web Accessibility Auditors - 4th Feb'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:08,006 INFO     Manual for uploading Repots on SI Portal.pdf already exists in database. Skipping.
+2026-07-02 12:01:08,109 INFO     Master Circular for Portfolio Managers - 16th July'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:08,227 INFO     Master Circular on KYC Norms for the Securities Market - 12th Oct'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:08,331 INFO     Norms for sharing of real time price data to third parties- 24th May'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:08,431 INFO     Note on APRN Cancellation Utility-3rd July 2025.pdf already exists in database. Skipping.
+2026-07-02 12:01:08,553 INFO     Note on Pending Distributor Registration Renewal Cases_1.pdf already exists in database. Skipping.
+2026-07-02 12:01:08,667 INFO     ODR- Online Disputes Resolution- 31st July'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:08,789 INFO     PMS Regulation - 2020.pdf already exists in database. Skipping.
+2026-07-02 12:01:08,916 INFO     Performance Validation Agency.pdf already exists in database. Skipping.
+2026-07-02 12:01:09,038 INFO     Performance-Benchmarking-16th-Dec'22.pdf already exists in database. Skipping.
+2026-07-02 12:01:09,159 INFO     Portfolio Managers using exaggerated advertisements on their Website-10th June'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:09,254 INFO     Related-Party-Circular-26thAug'22.pdf already exists in database. Skipping.
+2026-07-02 12:01:09,380 INFO     Relaxation on geo tagging requirement in India for NRIs while undertaking re-KYC- 10th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:09,500 INFO     Reply from SEBI on queries of APMI on Benchmarking Circular-29th March'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:09,601 INFO     Reply from SEBI on queries of APMI on Benchmarking Circular_2.pdf already exists in database. Skipping.
+2026-07-02 12:01:09,743 INFO     Downloading Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf
+2026-07-02 12:01:10,698 ERROR      ✘  Download failed  https://www.apmiindia.org/storagebox/images/Circulars/Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf  →  404 Client Error: Not Found for url: https://www.apmiindia.org/storagebox/images/Circulars/Reply%20from%20SEBI%20on%20queries%20of%20APMI%20on%20Benchmarking%20Circular_3.pdf
+2026-07-02 12:01:10,825 INFO     Research and benchmark of global best practices for Portfolio Management Services by APMI.pdf already exists in database. Skipping.
+2026-07-02 12:01:10,929 INFO     Revised Benchmarks - Annexure 1 - 31st March'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:01:11,042 INFO     Rights of Persons with Diasbilities along with Writ Petition-29th May'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:11,139 INFO     Rights of Persons with Disabilities Act, 2016 - 31st July'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:11,242 INFO     SAAS - 3rd November'20.pdf already exists in database. Skipping.
+2026-07-02 12:01:11,353 INFO     SCORES- Redressal of Investor Grievances - 20th Sept'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:11,467 INFO     SEBI Communication on Secondary Benchmarks-3rd Oct'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:11,589 INFO     SEBI PMS Manual.pdf already exists in database. Skipping.
+2026-07-02 12:01:11,695 INFO     SEBI PMS Regulation Amendment- 22nd Aug'22.pdf already exists in database. Skipping.
+2026-07-02 12:01:11,806 INFO     SOP on Digital Onboarding- Version 2- 18th February'26.pdf already exists in database. Skipping.
+2026-07-02 12:01:11,933 INFO     Secondary Benchmarks- Oct'24.pdf already exists in database. Skipping.
+2026-07-02 12:01:12,063 INFO     Submission by APMI on new Asset Class Product Category.pdf already exists in database. Skipping.
+2026-07-02 12:01:12,175 INFO     Submission of Compliance Reports trough SEBI Intermediary Portal-23rd Oct'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:12,275 INFO     Transfer of PMS Business- 24th Oct'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:12,405 INFO     Update on Index under Hybrid Startegy-11th Aug'23.pdf already exists in database. Skipping.
+2026-07-02 12:01:12,531 INFO     Update on Index under Hybrid Startegy-11th Aug'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:01:12,643 INFO     Vigilance Awareness Week 2025 - 14th Oct'25.pdf already exists in database. Skipping.
+2026-07-02 12:01:12,645 INFO     APMI -> Found 117 PDFs, Downloaded 0
+2026-07-02 12:44:44,414 INFO     ─── Scraping APMI ───
+2026-07-02 12:44:46,456 INFO     12th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:46,540 INFO     17th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:46,627 INFO     18th June'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:46,718 INFO     28th-Oct'20-FAQ's.pdf already exists in database. Skipping.
+2026-07-02 12:44:46,811 INFO     APMI COMPLIANCE SUTRA- CMM QUERIES.pdf already exists in database. Skipping.
+2026-07-02 12:44:46,901 INFO     APMI Circular 1 - Valuation - 23rd March'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:46,993 INFO     APMI Circular 10 - Formats of Annual Compliance Reports - 12th Oct'23 .pdf already exists in database. Skipping.
+2026-07-02 12:44:47,091 INFO     APMI Circular 11 - Submissions by APMI vide SEBI Circular dated 2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:47,209 INFO     APMI Circular 3 - FAQ's on SEBI Circular dated 30th Sept'22.pdf already exists in database. Skipping.
+2026-07-02 12:44:47,304 INFO     APMI Circular 4 - APMI - NISM Applicability -24th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:44:47,405 INFO     APMI Circular 5 - APMI - Distributor Brokerage -26th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:44:47,493 INFO     APMI Circular 6- Reporting of Performance (BSE 500 TRI) -28th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:44:47,586 INFO     APMI Circular 7- APMI- Time Period -04th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:44:47,705 INFO     APMI Circular 9 - APMI ToR for Audit of Firm Level Performance Data - 28th Sept'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:47,800 INFO     APMI Circular_8 -APMI Membership Register -30th June'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:47,891 INFO     APMI Communication on Secondary Benchmarks.pdf already exists in database. Skipping.
+2026-07-02 12:44:47,986 INFO     APMI- Update on SEBI CSCRF Circular.pdf already exists in database. Skipping.
+2026-07-02 12:44:48,083 INFO     APMI-Circular-2-BENCHMARKING.pdf already exists in database. Skipping.
+2026-07-02 12:44:48,173 INFO     APMI-Flagging of Demat Accounts-30th May'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:48,262 INFO     APMI-Important Communication-15th May'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:48,368 INFO     APMI-Important Communication-15th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:44:48,485 INFO     APMI-Important Communication-29th March'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:48,591 INFO     APMI-Important Communication-9th April'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:48,713 INFO     APMI-SOP for change in Benchmark.pdf already exists in database. Skipping.
+2026-07-02 12:44:48,833 INFO     Adoption of UPI IDs for Paymemnt Collection - 11th June'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:48,938 INFO     At Valid Standard Operating Procedure - 6th Aug'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:49,046 INFO     Audit of firm level performance- 3rd Aug'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:49,166 INFO     Best Practise for Inflow and Outflow of Funds and Securities- 3rd February'26.pdf already exists in database. Skipping.
+2026-07-02 12:44:49,258 INFO     CONSULTATION PAPER ON INTRODUCTION OF NEW ASSET CLASSPRODUCT CATEGORY.pdf already exists in database. Skipping.
+2026-07-02 12:44:49,355 INFO     Centralization of certifications under FATCA and CRS at KRAs- 20th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:49,469 INFO     Centralized mechanism for reporting the demise of an investor through KRAs - 3rd Oct'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:49,572 INFO     Change in Control of Portfolio Managers providing Co-Investment Services - 10th Jan'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:49,665 INFO     Clarification Note on Transfer of PMS Business by Portfolio Managers.pdf already exists in database. Skipping.
+2026-07-02 12:44:49,757 INFO     Clarification Note- Indicative Infra Requirement of a PMS.pdf already exists in database. Skipping.
+2026-07-02 12:44:49,853 INFO     Clarification Regarding SEBI Circular dated 2nd May'24-9th April'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:49,945 INFO     Clarification on the Digital Accessibility circulars of SEBI- 8th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:50,045 INFO     Clarification regarding Clause 2.7.3 of Master Circular related to Dealing Room-28th Dec'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:50,143 INFO     Clarifications on CSCRF for SEBI Regulated Entities - 30th April'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:50,242 INFO     Clarifications on CSCRF for SEBI Regulated Entities-31st Dec'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:50,331 INFO     Compliance Guidelines for Digital Accessibility Circular - 25th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:50,427 INFO     Consultation Paper on Consolidated Cybersecurity and Cyber Resilience Framework (CSCRF).pdf already exists in database. Skipping.
+2026-07-02 12:44:50,545 INFO     Consultation Paper on Draft Circular for Safe and Efficient Transfers on UPI.pdf already exists in database. Skipping.
+2026-07-02 12:44:50,652 INFO     Consultation Paper on Review of Regulation 24.pdf already exists in database. Skipping.
+2026-07-02 12:44:50,748 INFO     Consultation Paper on Review of Regulatory Framework for IA & RA.pdf already exists in database. Skipping.
+2026-07-02 12:44:50,860 INFO     Consultation Paper on Substituting Attestation with Self Attestation.pdf already exists in database. Skipping.
+2026-07-02 12:44:50,968 INFO     Consultation Paper on extending certain flexibilities under accreditation framework .pdf already exists in database. Skipping.
+2026-07-02 12:44:51,065 INFO     Consultation Paper on proposed amendments to the SEBI (Prohibition of Insider Trading) Regulations, .pdf already exists in database. Skipping.
+2026-07-02 12:44:51,159 INFO     Cyber-Security-29th-Mar'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:51,245 INFO     Cybercrime Report alongwith TRAI Directions - 11th May'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:51,340 INFO     Cybersecurity and Cyber Resilience Framework for SEBI Regulated Entities- 20th August'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:51,455 INFO     Dealing-Team-30th-Sept'22.pdf already exists in database. Skipping.
+2026-07-02 12:44:51,555 INFO     Details and Reports available for APMI Members.pdf already exists in database. Skipping.
+2026-07-02 12:44:51,648 INFO     DetailsClarifications on provisions related to Association of Persons.pdf already exists in database. Skipping.
+2026-07-02 12:44:51,740 INFO     Ease of Doing Business-15th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:51,838 INFO     Ease of Doing Investment (EoDI) - 26th Feb'26.pdf already exists in database. Skipping.
+2026-07-02 12:44:51,936 INFO     Entities Persons WhatsApp Telegram groups impersonating as Registered PMs-15th April'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,033 INFO     Escalation Matrix for Issues on SI Portal-28th Nov'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,138 INFO     Extension of Timelines - Digital Accessibility Circular - 29th Aug'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,235 INFO     Extension of Timelines for submission of Offsite Data.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,329 INFO     Extension of timeline for 20th Sept. Circular- 1st Dec'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,423 INFO     FAQ on Adoption of Standardised, Validated and Exclusive UPI IDs for Payment - 17th Sept 25.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,513 INFO     FAQ's on APMI Circular Number 11.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,601 INFO     FAQ- II on APMI Circular Number 11.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,690 INFO     Facilitating collective oversight of Distributors for PMS through APMI-2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,782 INFO     Facilitating ease in digital on-boarding process for clients and enhancing transparency - 2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,873 INFO     Final Common SOP for Centralised Demise Information-March'26.pdf already exists in database. Skipping.
+2026-07-02 12:44:52,962 INFO     Format of Disclosure Document of Portfolio Managers - 9th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:53,060 INFO     Further Clarification on Transfer of PMS Business by Portfolio Managers.pdf already exists in database. Skipping.
+2026-07-02 12:44:53,150 INFO     Generic Mail IDs of SEBI-8th Dec'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:53,288 INFO     Guidance Note for FATCA & CRS.pdf already exists in database. Skipping.
+2026-07-02 12:44:53,416 INFO     Guidance on Distributor Compliance and APRN.pdf already exists in database. Skipping.
+2026-07-02 12:44:53,513 INFO     Guidelines for Change in APRN Code and Transfer of AUM-11th Nov'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:53,617 INFO     Guidelines for Custodians- 4th March'26.pdf already exists in database. Skipping.
+2026-07-02 12:44:53,723 INFO     Guidelines for PMS Regulations - 13th Feb'20.pdf already exists in database. Skipping.
+2026-07-02 12:44:53,831 INFO     Guidelines for sending Commercial Communications-31st May'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:53,928 INFO     Help Document on Adoption of UPI IDs for Payment - 11th June'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:54,047 INFO     Implementation of Structured UPI Address - 16th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:54,153 INFO     Index under Hybrid and Multi Asset Strategy - 5th May'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:54,271 INFO     Index under Hybrid and Multi Asset Strategy - 5th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:44:54,382 INFO     Indicative Infra Requirements of a PMS.pdf already exists in database. Skipping.
+2026-07-02 12:44:54,501 INFO     Industry Standards Recognition Manual-12th Feb'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:54,608 INFO     Letter from SEBI - Project PARAS-18th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:54,718 INFO     List of Dealing Officers in SEBI_1.pdf already exists in database. Skipping.
+2026-07-02 12:44:54,830 INFO     List of Empanelled Web Accessibility Auditors - 4th Feb'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:54,930 INFO     Manual for uploading Repots on SI Portal.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,025 INFO     Master Circular for Portfolio Managers - 16th July'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,122 INFO     Master Circular on KYC Norms for the Securities Market - 12th Oct'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,209 INFO     Norms for sharing of real time price data to third parties- 24th May'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,305 INFO     Note on APRN Cancellation Utility-3rd July 2025.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,414 INFO     Note on Pending Distributor Registration Renewal Cases_1.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,502 INFO     ODR- Online Disputes Resolution- 31st July'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,589 INFO     PMS Regulation - 2020.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,676 INFO     Performance Validation Agency.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,760 INFO     Performance-Benchmarking-16th-Dec'22.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,848 INFO     Portfolio Managers using exaggerated advertisements on their Website-10th June'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:55,940 INFO     Related-Party-Circular-26thAug'22.pdf already exists in database. Skipping.
+2026-07-02 12:44:56,047 INFO     Relaxation on geo tagging requirement in India for NRIs while undertaking re-KYC- 10th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:56,143 INFO     Reply from SEBI on queries of APMI on Benchmarking Circular-29th March'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:56,232 INFO     Reply from SEBI on queries of APMI on Benchmarking Circular_2.pdf already exists in database. Skipping.
+2026-07-02 12:44:56,317 INFO     Downloading Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf
+2026-07-02 12:44:57,049 ERROR      ✘  Download failed  https://www.apmiindia.org/storagebox/images/Circulars/Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf  →  404 Client Error: Not Found for url: https://www.apmiindia.org/storagebox/images/Circulars/Reply%20from%20SEBI%20on%20queries%20of%20APMI%20on%20Benchmarking%20Circular_3.pdf
+2026-07-02 12:44:57,139 INFO     Research and benchmark of global best practices for Portfolio Management Services by APMI.pdf already exists in database. Skipping.
+2026-07-02 12:44:57,235 INFO     Revised Benchmarks - Annexure 1 - 31st March'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:44:57,327 INFO     Rights of Persons with Diasbilities along with Writ Petition-29th May'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:57,445 INFO     Rights of Persons with Disabilities Act, 2016 - 31st July'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:57,536 INFO     SAAS - 3rd November'20.pdf already exists in database. Skipping.
+2026-07-02 12:44:57,642 INFO     SCORES- Redressal of Investor Grievances - 20th Sept'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:57,766 INFO     SEBI Communication on Secondary Benchmarks-3rd Oct'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:57,888 INFO     SEBI PMS Manual.pdf already exists in database. Skipping.
+2026-07-02 12:44:58,002 INFO     SEBI PMS Regulation Amendment- 22nd Aug'22.pdf already exists in database. Skipping.
+2026-07-02 12:44:58,099 INFO     SOP on Digital Onboarding- Version 2- 18th February'26.pdf already exists in database. Skipping.
+2026-07-02 12:44:58,204 INFO     Secondary Benchmarks- Oct'24.pdf already exists in database. Skipping.
+2026-07-02 12:44:58,304 INFO     Submission by APMI on new Asset Class Product Category.pdf already exists in database. Skipping.
+2026-07-02 12:44:58,419 INFO     Submission of Compliance Reports trough SEBI Intermediary Portal-23rd Oct'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:58,512 INFO     Transfer of PMS Business- 24th Oct'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:58,597 INFO     Update on Index under Hybrid Startegy-11th Aug'23.pdf already exists in database. Skipping.
+2026-07-02 12:44:58,686 INFO     Update on Index under Hybrid Startegy-11th Aug'23_1.pdf already exists in database. Skipping.
+2026-07-02 12:44:58,771 INFO     Vigilance Awareness Week 2025 - 14th Oct'25.pdf already exists in database. Skipping.
+2026-07-02 12:44:58,773 INFO     APMI -> Found 117 PDFs, Downloaded 0
+2026-07-02 13:41:27,537 INFO     ─── Scraping APMI ───
+2026-07-02 13:41:28,845 INFO     12th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:28,937 INFO     17th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,026 INFO     18th June'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,119 INFO     28th-Oct'20-FAQ's.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,203 INFO     APMI COMPLIANCE SUTRA- CMM QUERIES.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,286 INFO     APMI Circular 1 - Valuation - 23rd March'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,372 INFO     APMI Circular 10 - Formats of Annual Compliance Reports - 12th Oct'23 .pdf already exists in database. Skipping.
+2026-07-02 13:41:29,459 INFO     APMI Circular 11 - Submissions by APMI vide SEBI Circular dated 2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,537 INFO     APMI Circular 3 - FAQ's on SEBI Circular dated 30th Sept'22.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,623 INFO     APMI Circular 4 - APMI - NISM Applicability -24th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,709 INFO     APMI Circular 5 - APMI - Distributor Brokerage -26th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,792 INFO     APMI Circular 6- Reporting of Performance (BSE 500 TRI) -28th Apr'23_1.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,874 INFO     APMI Circular 7- APMI- Time Period -04th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 13:41:29,955 INFO     APMI Circular 9 - APMI ToR for Audit of Firm Level Performance Data - 28th Sept'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,038 INFO     APMI Circular_8 -APMI Membership Register -30th June'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,121 INFO     APMI Communication on Secondary Benchmarks.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,200 INFO     APMI- Update on SEBI CSCRF Circular.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,281 INFO     APMI-Circular-2-BENCHMARKING.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,362 INFO     APMI-Flagging of Demat Accounts-30th May'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,447 INFO     APMI-Important Communication-15th May'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,533 INFO     APMI-Important Communication-15th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,617 INFO     APMI-Important Communication-29th March'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,698 INFO     APMI-Important Communication-9th April'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,788 INFO     APMI-SOP for change in Benchmark.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,872 INFO     Adoption of UPI IDs for Paymemnt Collection - 11th June'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:30,953 INFO     At Valid Standard Operating Procedure - 6th Aug'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,037 INFO     Audit of firm level performance- 3rd Aug'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,118 INFO     Best Practise for Inflow and Outflow of Funds and Securities- 3rd February'26.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,204 INFO     CONSULTATION PAPER ON INTRODUCTION OF NEW ASSET CLASSPRODUCT CATEGORY.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,287 INFO     Centralization of certifications under FATCA and CRS at KRAs- 20th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,375 INFO     Centralized mechanism for reporting the demise of an investor through KRAs - 3rd Oct'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,456 INFO     Change in Control of Portfolio Managers providing Co-Investment Services - 10th Jan'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,546 INFO     Clarification Note on Transfer of PMS Business by Portfolio Managers.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,629 INFO     Clarification Note- Indicative Infra Requirement of a PMS.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,713 INFO     Clarification Regarding SEBI Circular dated 2nd May'24-9th April'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,794 INFO     Clarification on the Digital Accessibility circulars of SEBI- 8th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,879 INFO     Clarification regarding Clause 2.7.3 of Master Circular related to Dealing Room-28th Dec'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:31,964 INFO     Clarifications on CSCRF for SEBI Regulated Entities - 30th April'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:32,046 INFO     Clarifications on CSCRF for SEBI Regulated Entities-31st Dec'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:32,127 INFO     Compliance Guidelines for Digital Accessibility Circular - 25th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:32,207 INFO     Consultation Paper on Consolidated Cybersecurity and Cyber Resilience Framework (CSCRF).pdf already exists in database. Skipping.
+2026-07-02 13:41:32,290 INFO     Consultation Paper on Draft Circular for Safe and Efficient Transfers on UPI.pdf already exists in database. Skipping.
+2026-07-02 13:41:32,370 INFO     Consultation Paper on Review of Regulation 24.pdf already exists in database. Skipping.
+2026-07-02 13:41:32,453 INFO     Consultation Paper on Review of Regulatory Framework for IA & RA.pdf already exists in database. Skipping.
+2026-07-02 13:41:32,534 INFO     Consultation Paper on Substituting Attestation with Self Attestation.pdf already exists in database. Skipping.
+2026-07-02 13:41:32,615 INFO     Consultation Paper on extending certain flexibilities under accreditation framework .pdf already exists in database. Skipping.
+2026-07-02 13:41:32,699 INFO     Consultation Paper on proposed amendments to the SEBI (Prohibition of Insider Trading) Regulations, .pdf already exists in database. Skipping.
+2026-07-02 13:41:32,789 INFO     Cyber-Security-29th-Mar'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:32,875 INFO     Cybercrime Report alongwith TRAI Directions - 11th May'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:32,965 INFO     Cybersecurity and Cyber Resilience Framework for SEBI Regulated Entities- 20th August'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,057 INFO     Dealing-Team-30th-Sept'22.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,142 INFO     Details and Reports available for APMI Members.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,231 INFO     DetailsClarifications on provisions related to Association of Persons.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,326 INFO     Ease of Doing Business-15th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,412 INFO     Ease of Doing Investment (EoDI) - 26th Feb'26.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,501 INFO     Entities Persons WhatsApp Telegram groups impersonating as Registered PMs-15th April'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,590 INFO     Escalation Matrix for Issues on SI Portal-28th Nov'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,682 INFO     Extension of Timelines - Digital Accessibility Circular - 29th Aug'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,769 INFO     Extension of Timelines for submission of Offsite Data.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,856 INFO     Extension of timeline for 20th Sept. Circular- 1st Dec'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:33,940 INFO     FAQ on Adoption of Standardised, Validated and Exclusive UPI IDs for Payment - 17th Sept 25.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,020 INFO     FAQ's on APMI Circular Number 11.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,100 INFO     FAQ- II on APMI Circular Number 11.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,182 INFO     Facilitating collective oversight of Distributors for PMS through APMI-2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,265 INFO     Facilitating ease in digital on-boarding process for clients and enhancing transparency - 2nd May'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,352 INFO     Final Common SOP for Centralised Demise Information-March'26.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,440 INFO     Format of Disclosure Document of Portfolio Managers - 9th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,529 INFO     Further Clarification on Transfer of PMS Business by Portfolio Managers.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,614 INFO     Generic Mail IDs of SEBI-8th Dec'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,694 INFO     Guidance Note for FATCA & CRS.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,778 INFO     Guidance on Distributor Compliance and APRN.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,859 INFO     Guidelines for Change in APRN Code and Transfer of AUM-11th Nov'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:34,938 INFO     Guidelines for Custodians- 4th March'26.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,017 INFO     Guidelines for PMS Regulations - 13th Feb'20.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,097 INFO     Guidelines for sending Commercial Communications-31st May'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,176 INFO     Help Document on Adoption of UPI IDs for Payment - 11th June'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,261 INFO     Implementation of Structured UPI Address - 16th Sept'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,345 INFO     Index under Hybrid and Multi Asset Strategy - 5th May'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,429 INFO     Index under Hybrid and Multi Asset Strategy - 5th May'23_1.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,518 INFO     Indicative Infra Requirements of a PMS.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,621 INFO     Industry Standards Recognition Manual-12th Feb'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,708 INFO     Letter from SEBI - Project PARAS-18th Feb'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,794 INFO     List of Dealing Officers in SEBI_1.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,883 INFO     List of Empanelled Web Accessibility Auditors - 4th Feb'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:35,968 INFO     Manual for uploading Repots on SI Portal.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,061 INFO     Master Circular for Portfolio Managers - 16th July'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,148 INFO     Master Circular on KYC Norms for the Securities Market - 12th Oct'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,239 INFO     Norms for sharing of real time price data to third parties- 24th May'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,321 INFO     Note on APRN Cancellation Utility-3rd July 2025.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,406 INFO     Note on Pending Distributor Registration Renewal Cases_1.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,490 INFO     ODR- Online Disputes Resolution- 31st July'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,579 INFO     PMS Regulation - 2020.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,667 INFO     Performance Validation Agency.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,751 INFO     Performance-Benchmarking-16th-Dec'22.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,836 INFO     Portfolio Managers using exaggerated advertisements on their Website-10th June'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:36,923 INFO     Related-Party-Circular-26thAug'22.pdf already exists in database. Skipping.
+2026-07-02 13:41:37,008 INFO     Relaxation on geo tagging requirement in India for NRIs while undertaking re-KYC- 10th Dec'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:37,092 INFO     Reply from SEBI on queries of APMI on Benchmarking Circular-29th March'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:37,176 INFO     Reply from SEBI on queries of APMI on Benchmarking Circular_2.pdf already exists in database. Skipping.
+2026-07-02 13:41:37,259 INFO     Downloading Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf
+2026-07-02 13:41:37,986 ERROR      ✘  Download failed  https://www.apmiindia.org/storagebox/images/Circulars/Reply from SEBI on queries of APMI on Benchmarking Circular_3.pdf  →  404 Client Error: Not Found for url: https://www.apmiindia.org/storagebox/images/Circulars/Reply%20from%20SEBI%20on%20queries%20of%20APMI%20on%20Benchmarking%20Circular_3.pdf
+2026-07-02 13:41:38,083 INFO     Research and benchmark of global best practices for Portfolio Management Services by APMI.pdf already exists in database. Skipping.
+2026-07-02 13:41:38,167 INFO     Revised Benchmarks - Annexure 1 - 31st March'23_1.pdf already exists in database. Skipping.
+2026-07-02 13:41:38,257 INFO     Rights of Persons with Diasbilities along with Writ Petition-29th May'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:38,342 INFO     Rights of Persons with Disabilities Act, 2016 - 31st July'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:38,429 INFO     SAAS - 3rd November'20.pdf already exists in database. Skipping.
+2026-07-02 13:41:38,513 INFO     SCORES- Redressal of Investor Grievances - 20th Sept'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:38,597 INFO     SEBI Communication on Secondary Benchmarks-3rd Oct'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:38,681 INFO     SEBI PMS Manual.pdf already exists in database. Skipping.
+2026-07-02 13:41:38,768 INFO     SEBI PMS Regulation Amendment- 22nd Aug'22.pdf already exists in database. Skipping.
+2026-07-02 13:41:38,853 INFO     SOP on Digital Onboarding- Version 2- 18th February'26.pdf already exists in database. Skipping.
+2026-07-02 13:41:38,942 INFO     Secondary Benchmarks- Oct'24.pdf already exists in database. Skipping.
+2026-07-02 13:41:39,026 INFO     Submission by APMI on new Asset Class Product Category.pdf already exists in database. Skipping.
+2026-07-02 13:41:39,108 INFO     Submission of Compliance Reports trough SEBI Intermediary Portal-23rd Oct'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:39,187 INFO     Transfer of PMS Business- 24th Oct'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:39,273 INFO     Update on Index under Hybrid Startegy-11th Aug'23.pdf already exists in database. Skipping.
+2026-07-02 13:41:39,357 INFO     Update on Index under Hybrid Startegy-11th Aug'23_1.pdf already exists in database. Skipping.
+2026-07-02 13:41:39,442 INFO     Vigilance Awareness Week 2025 - 14th Oct'25.pdf already exists in database. Skipping.
+2026-07-02 13:41:39,443 INFO     APMI -> Found 117 PDFs, Downloaded 0

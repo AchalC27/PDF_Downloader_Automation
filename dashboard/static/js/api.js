@@ -29,4 +29,21 @@ const Api = {
     const qs = new URLSearchParams(params).toString();
     return `/api/export.csv?${qs}`;
   },
+
+  async downloadZip(ids) {
+    const res = await fetch('/api/download-zip', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ids }),
+    });
+    if (!res.ok) {
+      let message = 'Could not build the download.';
+      try {
+        const data = await res.json();
+        message = data.error || message;
+      } catch (e) { /* ignore non-JSON error body */ }
+      throw new Error(message);
+    }
+    return res.blob();
+  },
 };
