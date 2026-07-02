@@ -754,3 +754,155 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.
 2026-07-02 13:40:33,426 INFO     Already Processed     : 55
 2026-07-02 13:40:33,426 INFO     Downloaded            : 0
 2026-07-02 13:40:33,427 INFO     Failed                : 1
+2026-07-02 14:37:48,168 INFO     
+2026-07-02 14:37:48,172 INFO     ========== AMFI ==========
+2026-07-02 14:37:48,507 INFO     Running AMFI extractor...
+2026-07-02 14:37:48,586 INFO     AMFI_Master_Cicular_for_MF_Ds_3c7f5ee44f_82edcfdf.pdf already exists in database.
+2026-07-02 14:37:48,621 INFO     CIR_31_dated_31_Dec_2025_5120ecfbe7_18ca068d.pdf already exists in database.
+2026-07-02 14:37:48,657 INFO     CIR_30_dated_Oct_27_2025_05d7d80e84_f67e8cd1.pdf already exists in database.
+2026-07-02 14:37:48,692 INFO     AMFI_Best_Practices_Guidelines_Circular_No_106_A_dt_17_10_2025_2025_26_a791fba2ed_6a946767.pdf already exists in database.
+2026-07-02 14:37:48,726 INFO     AMFICircular_ARN29_31Jul2025_5e3c3d69.pdf already exists in database.
+2026-07-02 14:37:48,761 INFO     AMFICircular_28R_02Apr2025_ec52b617.pdf already exists in database.
+2026-07-02 14:37:48,796 INFO     AMFICircular_27_17Sep2024_03205cca.pdf already exists in database.
+2026-07-02 14:37:48,833 INFO     AMFICircular26-24Jul2024_6616ab01.pdf already exists in database.
+2026-07-02 14:37:48,869 INFO     ARNCircular25-CentralisedProcessforAUMTransfer_fceabce8.pdf already exists in database.
+2026-07-02 14:37:48,903 INFO     ARNCircular25_Annexure_1a-1b_6b2a03d1.pdf already exists in database.
+2026-07-02 14:37:48,941 INFO     ARNCircular25_Annexure_1c_87f3b1d0.pdf already exists in database.
+2026-07-02 14:37:48,976 INFO     ARNCircular25_Annexure_2_1096c3ee.pdf already exists in database.
+2026-07-02 14:37:49,010 INFO     ARNCircular25_Annexure_3_d8a516eb.pdf already exists in database.
+2026-07-02 14:37:49,045 INFO     ARNCircular25_Annexure4_e76b4fb6.pdf already exists in database.
+2026-07-02 14:37:49,080 INFO     ARNCircular25_Annexure_5_1419919b.pdf already exists in database.
+2026-07-02 14:37:49,115 INFO     ARNCircular25_Annexure_6_82682683.pdf already exists in database.
+2026-07-02 14:37:49,149 INFO     ARNCircular25_Annexure_7_6e4d429c.pdf already exists in database.
+2026-07-02 14:37:49,185 INFO     ARNCircular25_Annexure_8_4f280b63.pdf already exists in database.
+2026-07-02 14:37:49,220 INFO     ARNCircular25_Annexure_9_cbf18f11.pdf already exists in database.
+2026-07-02 14:37:49,254 INFO     ARNCircular24-OptiontoapplyforProvisionalARN_a0d40120.pdf already exists in database.
+2026-07-02 14:37:49,291 INFO     AnnexureA-LOUforEUINmappingsubsequently_fefdb24c.pdf already exists in database.
+2026-07-02 14:37:49,325 INFO     AnnexureB-SampleLettertoMFclients_02538258.pdf already exists in database.
+2026-07-02 14:37:49,360 INFO     AnnexureC-LOUforEUINmappingsubsequently_3b400cbd.pdf already exists in database.
+2026-07-02 14:37:49,397 INFO     AMFI_BP_Circular-107-dt.04-May-23_5c98a186.pdf already exists in database.
+2026-07-02 14:37:49,433 INFO     AMFIBestPracticesGuidelinesCircularNo.106_21.03.2023_f610acb4.pdf already exists in database.
+2026-07-02 14:37:49,468 INFO     ARNCircular23(25-Jul-22)_ee0f06ae.pdf already exists in database.
+2026-07-02 14:37:49,504 INFO     ARNCircular22a-RevisedCodeofConductforMFDs2022_aa5c4563.pdf already exists in database.
+2026-07-02 14:37:49,574 INFO     AMFICircularno.21dt30-Mar-22Classificationw.r.t.SoleproprietorshipforARNpurposes_da0b0a32.pdf already exists in database.
+2026-07-02 14:37:49,609 INFO     AMFIBestPracticesGuidelinesCircularNo.99dt.29-Mar-22_48b2c4e2.pdf already exists in database.
+2026-07-02 14:37:49,645 INFO     AMFIARNCircular-ReductioningraceperiodforrenewalofARNw.e.f.01-Jul-22_6acd679c.pdf already exists in database.
+2026-07-02 14:37:49,680 INFO     SEBIClarificationw.r.t.transactionsunderDirectPlan_e092a095.PDF already exists in database.
+2026-07-02 14:37:49,715 INFO     DocumentaryevidenceforhavingappliedtoROCforNameChange_039393f2.docx already exists in database.
+2026-07-02 14:37:49,750 INFO     RequesttoUpdateChangeinName-Proprietorshipfirm_debb95fd.docx already exists in database.
+2026-07-02 14:37:49,787 INFO     RequestforChangeofNameofMFD-PursuanttoSEBIIARegulations_739a1cbb.docx already exists in database.
+2026-07-02 14:37:49,822 INFO     AMFICircular19dated20-Oct-2020_AMFIGUIDANCEONMFDNOMENCLATURE_44aead55.pdf already exists in database.
+2026-07-02 14:37:49,857 INFO     AMFI%20Circular%20no.%20CIR-18%20dt.%2004-Jul-2019%20-%20Time%20Limit%20for%20submission%20of%20annual%20DSC_e24fea88.pdf already exists in database.
+2026-07-02 14:37:49,893 INFO     AMFI_BP_Cir_77_dt_20-3-19_Std_Proc_for_Capturing,_Updating_Email%20ID,_Mobile%20No_8c6c40f0.pdf already exists in database.
+2026-07-02 14:37:49,927 INFO     AMFI_BP_Cir_76_dt.%2020-3-19-Std._Proc._for_Tagging_Trxns_to_T-30,B-30_PIN_Codes_ac134107.pdf already exists in database.
+2026-07-02 14:37:49,962 INFO     cir-arn-17-14-15_edd4eb4e.pdf already exists in database.
+2026-07-02 14:37:49,998 INFO     Registration_form_for_Overseas_Distributors_570e03c3.pdf already exists in database.
+2026-07-02 14:37:50,033 INFO     CIRARN151213_2e294649.pdf already exists in database.
+2026-07-02 14:37:50,068 INFO     CIRARN141213_e51dc3d1.pdf already exists in database.
+2026-07-02 14:37:50,104 INFO     CIRARN-1311-12_73eab9d2.pdf already exists in database.
+2026-07-02 14:37:50,141 INFO     CIRARN-1210-11_4bb5df84.pdf already exists in database.
+2026-07-02 14:37:50,175 INFO     CIRARN-1109-10_9111c318.pdf already exists in database.
+2026-07-02 14:37:50,210 INFO     UnifiedAMFIcircularRevised_cb3df96a.pdf already exists in database.
+2026-07-02 14:37:50,244 INFO     UnifiedAMFIcircular_4854e68a.pdf already exists in database.
+2026-07-02 14:37:50,279 INFO     amfi-certification_7d71d4a5.pdf already exists in database.
+2026-07-02 14:37:50,315 INFO     clarification-regarding-self-certification-suspension-of-payment-of-commission_40c78509.pdf already exists in database.
+2026-07-02 14:37:50,352 INFO     clarification-regarding-payment-of-brokerage-to-intermediaries_39ef8f22.pdf already exists in database.
+2026-07-02 14:37:50,386 INFO     clarifications-regarding-self-certification-by-intermediaries_3a880994.pdf already exists in database.
+2026-07-02 14:37:50,420 INFO     clarifications-regarding-self-certification-and-nomination-facilities-to-agents-distributors_c3b80d01.pdf already exists in database.
+2026-07-02 14:37:50,457 INFO     clarifications-regarding-payment-of-brokerage-to-intermediaries_e0d0b4ca.pdf already exists in database.
+2026-07-02 14:37:50,500 INFO     clarifications-on-the-implementation-of-amfi-guidelines-on-the-code-of-conduct_76c40add.pdf already exists in database.
+2026-07-02 14:37:50,539 INFO     guidelines-for-the-registration-of-intermediaries_5fccf139.pdf already exists in database.
+2026-07-02 14:37:50,539 INFO     Total Documents Found : 56
+2026-07-02 14:37:50,540 INFO     Already Processed     : 55
+2026-07-02 14:37:50,540 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-02 14:37:50,852 ERROR    Failed : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 90, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-02 14:37:50,859 INFO     
+2026-07-02 14:37:50,859 INFO     AMFI Summary
+2026-07-02 14:37:50,859 INFO     -------------------------
+2026-07-02 14:37:50,860 INFO     Total Documents Found : 56
+2026-07-02 14:37:50,860 INFO     Already Processed     : 55
+2026-07-02 14:37:50,860 INFO     Downloaded            : 0
+2026-07-02 14:37:50,860 INFO     Failed                : 1
+2026-07-02 14:45:13,341 INFO     
+2026-07-02 14:45:13,342 INFO     ========== AMFI ==========
+2026-07-02 14:45:13,672 INFO     Running AMFI extractor...
+2026-07-02 14:45:13,748 INFO     AMFI_Master_Cicular_for_MF_Ds_3c7f5ee44f_82edcfdf.pdf already exists in database.
+2026-07-02 14:45:13,784 INFO     CIR_31_dated_31_Dec_2025_5120ecfbe7_18ca068d.pdf already exists in database.
+2026-07-02 14:45:13,818 INFO     CIR_30_dated_Oct_27_2025_05d7d80e84_f67e8cd1.pdf already exists in database.
+2026-07-02 14:45:13,853 INFO     AMFI_Best_Practices_Guidelines_Circular_No_106_A_dt_17_10_2025_2025_26_a791fba2ed_6a946767.pdf already exists in database.
+2026-07-02 14:45:13,888 INFO     AMFICircular_ARN29_31Jul2025_5e3c3d69.pdf already exists in database.
+2026-07-02 14:45:13,925 INFO     AMFICircular_28R_02Apr2025_ec52b617.pdf already exists in database.
+2026-07-02 14:45:13,959 INFO     AMFICircular_27_17Sep2024_03205cca.pdf already exists in database.
+2026-07-02 14:45:13,994 INFO     AMFICircular26-24Jul2024_6616ab01.pdf already exists in database.
+2026-07-02 14:45:14,028 INFO     ARNCircular25-CentralisedProcessforAUMTransfer_fceabce8.pdf already exists in database.
+2026-07-02 14:45:14,067 INFO     ARNCircular25_Annexure_1a-1b_6b2a03d1.pdf already exists in database.
+2026-07-02 14:45:14,102 INFO     ARNCircular25_Annexure_1c_87f3b1d0.pdf already exists in database.
+2026-07-02 14:45:14,136 INFO     ARNCircular25_Annexure_2_1096c3ee.pdf already exists in database.
+2026-07-02 14:45:14,172 INFO     ARNCircular25_Annexure_3_d8a516eb.pdf already exists in database.
+2026-07-02 14:45:14,207 INFO     ARNCircular25_Annexure4_e76b4fb6.pdf already exists in database.
+2026-07-02 14:45:14,243 INFO     ARNCircular25_Annexure_5_1419919b.pdf already exists in database.
+2026-07-02 14:45:14,283 INFO     ARNCircular25_Annexure_6_82682683.pdf already exists in database.
+2026-07-02 14:45:14,318 INFO     ARNCircular25_Annexure_7_6e4d429c.pdf already exists in database.
+2026-07-02 14:45:14,353 INFO     ARNCircular25_Annexure_8_4f280b63.pdf already exists in database.
+2026-07-02 14:45:14,390 INFO     ARNCircular25_Annexure_9_cbf18f11.pdf already exists in database.
+2026-07-02 14:45:14,425 INFO     ARNCircular24-OptiontoapplyforProvisionalARN_a0d40120.pdf already exists in database.
+2026-07-02 14:45:14,460 INFO     AnnexureA-LOUforEUINmappingsubsequently_fefdb24c.pdf already exists in database.
+2026-07-02 14:45:14,496 INFO     AnnexureB-SampleLettertoMFclients_02538258.pdf already exists in database.
+2026-07-02 14:45:14,531 INFO     AnnexureC-LOUforEUINmappingsubsequently_3b400cbd.pdf already exists in database.
+2026-07-02 14:45:14,567 INFO     AMFI_BP_Circular-107-dt.04-May-23_5c98a186.pdf already exists in database.
+2026-07-02 14:45:14,602 INFO     AMFIBestPracticesGuidelinesCircularNo.106_21.03.2023_f610acb4.pdf already exists in database.
+2026-07-02 14:45:14,639 INFO     ARNCircular23(25-Jul-22)_ee0f06ae.pdf already exists in database.
+2026-07-02 14:45:14,675 INFO     ARNCircular22a-RevisedCodeofConductforMFDs2022_aa5c4563.pdf already exists in database.
+2026-07-02 14:45:14,746 INFO     AMFICircularno.21dt30-Mar-22Classificationw.r.t.SoleproprietorshipforARNpurposes_da0b0a32.pdf already exists in database.
+2026-07-02 14:45:14,783 INFO     AMFIBestPracticesGuidelinesCircularNo.99dt.29-Mar-22_48b2c4e2.pdf already exists in database.
+2026-07-02 14:45:14,819 INFO     AMFIARNCircular-ReductioningraceperiodforrenewalofARNw.e.f.01-Jul-22_6acd679c.pdf already exists in database.
+2026-07-02 14:45:14,855 INFO     SEBIClarificationw.r.t.transactionsunderDirectPlan_e092a095.PDF already exists in database.
+2026-07-02 14:45:14,891 INFO     DocumentaryevidenceforhavingappliedtoROCforNameChange_039393f2.docx already exists in database.
+2026-07-02 14:45:14,926 INFO     RequesttoUpdateChangeinName-Proprietorshipfirm_debb95fd.docx already exists in database.
+2026-07-02 14:45:14,962 INFO     RequestforChangeofNameofMFD-PursuanttoSEBIIARegulations_739a1cbb.docx already exists in database.
+2026-07-02 14:45:14,997 INFO     AMFICircular19dated20-Oct-2020_AMFIGUIDANCEONMFDNOMENCLATURE_44aead55.pdf already exists in database.
+2026-07-02 14:45:15,034 INFO     AMFI%20Circular%20no.%20CIR-18%20dt.%2004-Jul-2019%20-%20Time%20Limit%20for%20submission%20of%20annual%20DSC_e24fea88.pdf already exists in database.
+2026-07-02 14:45:15,069 INFO     AMFI_BP_Cir_77_dt_20-3-19_Std_Proc_for_Capturing,_Updating_Email%20ID,_Mobile%20No_8c6c40f0.pdf already exists in database.
+2026-07-02 14:45:15,107 INFO     AMFI_BP_Cir_76_dt.%2020-3-19-Std._Proc._for_Tagging_Trxns_to_T-30,B-30_PIN_Codes_ac134107.pdf already exists in database.
+2026-07-02 14:45:15,142 INFO     cir-arn-17-14-15_edd4eb4e.pdf already exists in database.
+2026-07-02 14:45:15,180 INFO     Registration_form_for_Overseas_Distributors_570e03c3.pdf already exists in database.
+2026-07-02 14:45:15,216 INFO     CIRARN151213_2e294649.pdf already exists in database.
+2026-07-02 14:45:15,251 INFO     CIRARN141213_e51dc3d1.pdf already exists in database.
+2026-07-02 14:45:15,286 INFO     CIRARN-1311-12_73eab9d2.pdf already exists in database.
+2026-07-02 14:45:15,322 INFO     CIRARN-1210-11_4bb5df84.pdf already exists in database.
+2026-07-02 14:45:15,358 INFO     CIRARN-1109-10_9111c318.pdf already exists in database.
+2026-07-02 14:45:15,394 INFO     UnifiedAMFIcircularRevised_cb3df96a.pdf already exists in database.
+2026-07-02 14:45:15,429 INFO     UnifiedAMFIcircular_4854e68a.pdf already exists in database.
+2026-07-02 14:45:15,465 INFO     amfi-certification_7d71d4a5.pdf already exists in database.
+2026-07-02 14:45:15,499 INFO     clarification-regarding-self-certification-suspension-of-payment-of-commission_40c78509.pdf already exists in database.
+2026-07-02 14:45:15,534 INFO     clarification-regarding-payment-of-brokerage-to-intermediaries_39ef8f22.pdf already exists in database.
+2026-07-02 14:45:15,570 INFO     clarifications-regarding-self-certification-by-intermediaries_3a880994.pdf already exists in database.
+2026-07-02 14:45:15,604 INFO     clarifications-regarding-self-certification-and-nomination-facilities-to-agents-distributors_c3b80d01.pdf already exists in database.
+2026-07-02 14:45:15,639 INFO     clarifications-regarding-payment-of-brokerage-to-intermediaries_e0d0b4ca.pdf already exists in database.
+2026-07-02 14:45:15,674 INFO     clarifications-on-the-implementation-of-amfi-guidelines-on-the-code-of-conduct_76c40add.pdf already exists in database.
+2026-07-02 14:45:15,710 INFO     guidelines-for-the-registration-of-intermediaries_5fccf139.pdf already exists in database.
+2026-07-02 14:45:15,710 INFO     Total Documents Found : 56
+2026-07-02 14:45:15,710 INFO     Already Processed     : 55
+2026-07-02 14:45:15,710 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-02 14:45:16,018 ERROR    Failed : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 90, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-02 14:45:16,021 INFO     
+2026-07-02 14:45:16,021 INFO     AMFI Summary
+2026-07-02 14:45:16,021 INFO     -------------------------
+2026-07-02 14:45:16,021 INFO     Total Documents Found : 56
+2026-07-02 14:45:16,021 INFO     Already Processed     : 55
+2026-07-02 14:45:16,021 INFO     Downloaded            : 0
+2026-07-02 14:45:16,022 INFO     Failed                : 1

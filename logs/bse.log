@@ -212,3 +212,41 @@
 2026-07-02 13:40:24,587 INFO     Already Processed     : 0
 2026-07-02 13:40:24,587 INFO     Downloaded            : 3
 2026-07-02 13:40:24,588 INFO     Failed                : 0
+2026-07-02 14:37:44,174 INFO     
+2026-07-02 14:37:44,175 INFO     ========== BSE ==========
+2026-07-02 14:37:45,691 INFO     Total Circulars Found : 7
+2026-07-02 14:37:45,984 INFO     Already Processed     : 3
+2026-07-02 14:37:45,984 INFO     Downloading : 20260702-7_Visit of Registrar & Transfer Agents at BSE Ltd. for July 2026.pdf
+2026-07-02 14:37:46,408 INFO     Downloading : 20260702-6_Change in name and symbols of ETF schemes of Axis Asset Management Company Limited.pdf
+2026-07-02 14:37:46,487 INFO     Downloading : 20260702-5_Change in Group of Equity Shares of CSM Technologies Limited.pdf
+2026-07-02 14:37:46,564 INFO     Downloading : 20260702-4_Opening of Offer to Buy – Acquisition Window (Takeover) of
+ARCO LEASING LIMITED.pdf
+2026-07-02 14:37:46,586 ERROR    Failed : 20260702-4_Opening of Offer to Buy – Acquisition Window (Takeover) of
+ARCO LEASING LIMITED.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\bse.py", line 100, in download_bse
+    download_file(session, pdf_url, filepath)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\bse.py", line 36, in download_file
+    with open(path, "wb") as file:
+         ~~~~^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'downloads\\bse\\02-07-2026\\20260702-4_Opening of Offer to Buy – Acquisition Window (Takeover) of\r\nARCO LEASING LIMITED.pdf'
+2026-07-02 14:37:46,592 INFO     
+2026-07-02 14:37:46,592 INFO     BSE Summary
+2026-07-02 14:37:46,592 INFO     --------------------------
+2026-07-02 14:37:46,592 INFO     Total Circulars Found : 7
+2026-07-02 14:37:46,592 INFO     Already Processed     : 3
+2026-07-02 14:37:46,593 INFO     Downloaded            : 3
+2026-07-02 14:37:46,593 INFO     Failed                : 1
+2026-07-02 14:45:10,554 INFO     
+2026-07-02 14:45:10,555 INFO     ========== BSE ==========
+2026-07-02 14:45:10,948 INFO     Total Circulars Found : 7
+2026-07-02 14:45:11,302 INFO     Already Processed     : 6
+2026-07-02 14:45:11,303 INFO     Downloading : 20260702-4_Opening of Offer to Buy – Acquisition Window (Takeover) of ARCO LEASING LIMITED.pdf
+2026-07-02 14:45:11,700 INFO     
+2026-07-02 14:45:11,700 INFO     BSE Summary
+2026-07-02 14:45:11,700 INFO     --------------------------
+2026-07-02 14:45:11,700 INFO     Total Circulars Found : 7
+2026-07-02 14:45:11,701 INFO     Already Processed     : 6
+2026-07-02 14:45:11,701 INFO     Downloaded            : 1
+2026-07-02 14:45:11,701 INFO     Failed                : 0

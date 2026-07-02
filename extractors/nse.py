@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-
+import re
 from nse import NSE
 
 from .logger import get_logger
@@ -22,8 +22,14 @@ def sanitize(text, max_len=100):
     if not text:
         return "Unknown"
 
-    for ch in r'\\/:*?"<>|':
-        text = text.replace(ch, "_")
+    # Remove newlines/tabs
+    text = re.sub(r"[\r\n\t]+", " ", text)
+
+    # Collapse multiple spaces
+    text = re.sub(r"\s+", " ", text)
+
+    # Replace invalid filename characters
+    text = re.sub(r'[\\/:*?"<>|]', "_", text)
 
     return text.strip()[:max_len]
 

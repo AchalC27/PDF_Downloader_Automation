@@ -442,3 +442,5 @@
 2026-07-02 12:01:55,095 ERROR    Failed to fetch page https://nsdl.co.in/business/circular_stat.php  →  Exceeded 30 redirects.
 2026-07-02 12:45:34,015 ERROR    Failed to fetch page https://nsdl.co.in/business/circular_stat.php  →  404 Client Error: Not Found for url: https://nsdl.com/business/circular_stat.php
 2026-07-02 13:42:14,200 ERROR    Failed to fetch page https://nsdl.co.in/business/circular_stat.php  →  Exceeded 30 redirects.
+2026-07-02 14:38:34,782 ERROR    Failed to fetch page https://nsdl.co.in/business/circular_stat.php  →  Exceeded 30 redirects.
+2026-07-02 14:46:03,625 ERROR    Failed to fetch page https://nsdl.co.in/business/circular_stat.php  →  Exceeded 30 redirects.
