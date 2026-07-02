@@ -12,6 +12,19 @@ from config import DASHBOARD_HOST, DASHBOARD_PORT, DASHBOARD_DEBUG, KNOWN_SOURCE
 
 app = Flask(__name__)
 
+# Many exchange/regulator sites (NSE, BSE, SEBI, etc.) reject requests that
+# don't look like they're coming from a real browser and return a 403.
+# Sending browser-like headers avoids that in most cases.
+PDF_FETCH_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/pdf,application/octet-stream,text/html,*/*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.google.com/",
+}
+
 
 @app.route("/")
 def index():
@@ -167,10 +180,19 @@ def api_download_zip():
     with zipfile.ZipFile(mem_zip, "w", zipfile.ZIP_DEFLATED) as zf:
         for row in rows:
             try:
-                resp = requests.get(row["pdf_link"], timeout=20)
+                resp = requests.get(
+                    row["pdf_link"],
+                    headers=PDF_FETCH_HEADERS,
+                    timeout=30,
+                    allow_redirects=True,
+                )
                 resp.raise_for_status()
+                if not resp.content:
+                    raise ValueError("Server returned an empty response")
             except Exception as exc:
-                failures.append(f"{row['pdf_name']}: {exc}")
+                reason = f"{row['pdf_name']}: {exc}"
+                failures.append(reason)
+                app.logger.warning("PDF fetch failed for id=%s link=%s -> %s", row["id"], row["pdf_link"], exc)
                 continue
 
             safe_name = re.sub(r'[\\/*?:"<>|]', "_", row["pdf_name"]).strip()
@@ -193,7 +215,12 @@ def api_download_zip():
             zf.writestr("_download_errors.txt", "\n".join(failures))
 
     if not used_names:
-        return jsonify({"ok": False, "error": "Could not fetch any of the selected PDFs", "failures": failures}), 502
+        app.logger.warning("Bulk download failed for all %d selected id(s): %s", len(ids), failures)
+        return jsonify({
+            "ok": False,
+            "error": failures[0] if failures else "Could not fetch any of the selected PDFs",
+            "failures": failures,
+        }), 502
 
     mem_zip.seek(0)
     filename = f"ISEC_PDF_Selected_{date.today().isoformat()}.zip"

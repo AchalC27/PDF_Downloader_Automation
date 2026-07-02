@@ -41,6 +41,7 @@ const Api = {
       try {
         const data = await res.json();
         message = data.error || message;
+        if (data.failures) console.error('PDF download failures:', data.failures);
       } catch (e) { /* ignore non-JSON error body */ }
       throw new Error(message);
     }

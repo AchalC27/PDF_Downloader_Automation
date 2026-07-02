@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ICICI Securities | PDF Downloader</title>
+<title>ICICI Securities | PDF Intelligence Hub</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
@@ -20,34 +20,28 @@
   <!-- Header -->
   <header class="app-header" id="app-header">
     <div class="wrap header-inner">
-      <div class="brand" id="icici-brand-logo">
-        <div class="brand-mark hidden">
-          <span class="brand-mark-stripe"></span>
-          <span class="brand-mark-text">iSEC</span>
-        </div>
-        <div class="brand-copy">
-          <div class="brand-title-row">
-            <span class="brand-title">ICICI Securities</span>
-            <span class="brand-pill hidden">Research</span>
-          </div>
-          <p class="brand-sub">PDF Downloader</p>
-        </div>
-      </div>
-
-      <div class="header-actions">
-        <div class="live-session hidden">
-          <span class="live-label hidden">LIVE SERVER SESSION</span>
-          <span class="live-value"><span class="live-dot"></span><span id="live-date"></span></span>
-        </div>
-        <button class="btn btn-navy hidden" id="header-add-pdf-btn">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
-          <span>Catalog New PDF</span>
-        </button>
+      <a href="https://www.icicisecurities.com/" class="brand" id="icici-brand-logo" aria-label="ICICI Securities">
+        <img src="https://www.icicisecurities.com/themes/icicisecurities/images/i-sec-logo.svg" alt="ICICI Securities Logo" class="header-logo">
+      </a>
+      <div class="live-session">
+        <span class="live-label hidden">LIVE SERVER SESSION</span>
+        <span class="live-value"><span class="live-dot"></span><span id="live-date"></span></span>
       </div>
     </div>
   </header>
 
   <main class="wrap main-panel">
+
+    <div class="main-toolbar">
+      <div class="live-session">
+        <span class="live-label hidden">LIVE SERVER SESSION</span>
+        <span class="live-value hidden"><span class="live-dot"></span><span id="live-date"></span></span>
+      </div>
+      <button class="btn btn-navy hidden" id="header-add-pdf-btn">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+        <span>Catalog New PDF</span>
+      </button>
+    </div>
 
     <!-- KPI cards -->
     <section class="kpi-grid" id="dashboard-kpis">
@@ -60,7 +54,7 @@
         <div class="kpi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg></div>
       </div>
 
-      <div class="kpi-card">
+      <div class="kpi-card hidden">
         <div>
           <span class="kpi-label">Source Departments</span>
           <span class="kpi-value" id="kpi-sources">--</span>
@@ -82,7 +76,7 @@
         <div>
           <span class="kpi-label">Last 7 Days</span>
           <span class="kpi-value" id="kpi-week">--</span>
-          <p class="kpi-note"><span class="dot dot-indigo"></span><span>Weekly ingestion volume</span></p>
+          <p class="kpi-note"><span class="dot dot-indigo "></span><span>Weekly Downloaded PDFs</span></p>
         </div>
         <div class="kpi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
       </div>
@@ -197,7 +191,7 @@
 
   </main>
 
-  <footer class="app-footer">
+  <footer class="app-footer hidden">
     <div class="wrap footer-inner">
       <div class="footer-top">
         <div>
