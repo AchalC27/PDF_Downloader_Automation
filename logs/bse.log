@@ -250,3 +250,30 @@ OSError: [Errno 22] Invalid argument: 'downloads\\bse\\02-07-2026\\20260702-4_Op
 2026-07-02 14:45:11,701 INFO     Already Processed     : 6
 2026-07-02 14:45:11,701 INFO     Downloaded            : 1
 2026-07-02 14:45:11,701 INFO     Failed                : 0
+2026-07-02 15:20:11,843 INFO     
+2026-07-02 15:20:11,843 INFO     ========== BSE ==========
+2026-07-02 15:20:12,234 INFO     Total Circulars Found : 7
+2026-07-02 15:20:12,520 INFO     Already Processed     : 7
+2026-07-02 15:20:12,520 INFO     No new circulars found.
+2026-07-02 16:49:39,267 INFO     
+2026-07-02 16:49:39,267 INFO     ========== BSE ==========
+2026-07-02 16:49:39,689 INFO     Total Circulars Found : 13
+2026-07-02 16:49:40,146 INFO     Already Processed     : 7
+2026-07-02 16:49:40,147 INFO     Downloading : 20260702-13_Listing of further securities issued by the companies under ESOP _ ESOS.pdf
+2026-07-02 16:49:40,561 INFO     Downloading : 20260702-12_Listing of new securities of Lancer Container Lines Limited.pdf
+2026-07-02 16:49:40,644 INFO     Downloading : 20260702-11_SME IPO – Draft Offer Document.pdf
+2026-07-02 16:49:40,721 INFO     Downloading : 20260702-10_Suspension of Trading in Mutual Fund Schemes of SBI Mutual Fund.pdf
+2026-07-02 16:49:40,822 INFO     Downloading : 20260702-9_Tender Offer (Buyback) of Equity Shares of ROLEX RINGS LIMITED.pdf
+2026-07-02 16:49:40,901 INFO     Downloading : 20260702-8_Offer to Buy – Acquisition Window (Buyback) for KAJARIA CERAMICS LTD – Live Activities Schedule.pdf
+2026-07-02 16:49:40,996 INFO     
+2026-07-02 16:49:40,996 INFO     BSE Summary
+2026-07-02 16:49:40,996 INFO     --------------------------
+2026-07-02 16:49:40,997 INFO     Total Circulars Found : 13
+2026-07-02 16:49:40,997 INFO     Already Processed     : 7
+2026-07-02 16:49:40,997 INFO     Downloaded            : 6
+2026-07-02 16:49:40,997 INFO     Failed                : 0
+2026-07-02 16:57:24,610 INFO     
+2026-07-02 16:57:24,610 INFO     ========== BSE ==========
+2026-07-02 16:57:24,945 INFO     Total Circulars Found : 13
+2026-07-02 16:57:25,418 INFO     Already Processed     : 13
+2026-07-02 16:57:25,418 INFO     No new circulars found.

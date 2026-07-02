@@ -4393,3 +4393,162 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.
 2026-07-02 14:45:36,146 INFO     Already Processed     : 23
 2026-07-02 14:45:36,146 INFO     Downloaded            : 0
 2026-07-02 14:45:36,146 INFO     Failed                : 2
+2026-07-02 15:20:36,696 INFO     
+2026-07-02 15:20:36,697 INFO     ========== CKYC ==========
+2026-07-02 15:20:37,143 INFO     Running CKYC extractor...
+2026-07-02 15:20:37,263 INFO     Operating_Guidelines_version1.5_dac174aa.pdf already exists in database.
+2026-07-02 15:20:37,301 INFO     notification-CKYCRR_2.0_API_integration_and_REs_onboarding_282e8fd6.pdf already exists in database.
+2026-07-02 15:20:37,335 INFO     State_District_and_Pincode_Masters_update_01_OPT_a70cc602.pdf already exists in database.
+2026-07-02 15:20:37,370 INFO     DetailsofthenodalofficerregisteredinCKYCRR_3325d4ab.pdf already exists in database.
+2026-07-02 15:20:37,407 INFO     Bulk_update_notification_a2c4e49f.pdf already exists in database.
+2026-07-02 15:20:37,442 INFO     PML_amendment_Rules_19_Jul_2024_09144b1f.pdf already exists in database.
+2026-07-02 15:20:37,478 INFO     RecentCustomer_f300556a.pdf already exists in database.
+2026-07-02 15:20:37,516 INFO     Download_Consent_Notification_86e2b83d.pdf already exists in database.
+2026-07-02 15:20:37,550 INFO     StatusofimplementationofadvisorysharedbyCERSAI20234949PublicSectorBanks_6ea59d61.pdf already exists in database.
+2026-07-02 15:20:37,585 INFO     StatusofimplementationofadvisorysharedbyCERSAI4948_AllReportingEntitiesexceptPublicSectorBanks_4d73d7ce.pdf already exists in database.
+2026-07-02 15:20:37,621 INFO     CentralKnowyourCustomerRecordRegistryStatusofsearchdownloadfacilitiesbyRECERSAI4950AllReportingEntitiesexceptPublicSectorBanks_d7f3a0de.pdf already exists in database.
+2026-07-02 15:20:37,655 INFO     4838-Rejection_in_upload_of_KYC_records_due_to_mismatch_of_PIN_920b55a2.pdf already exists in database.
+2026-07-02 15:20:37,691 INFO     Implementation_of_recommendations_of_the_Expert_Committee_734b7c0d.pdf already exists in database.
+2026-07-02 15:20:37,728 INFO     Communique-Guidelinesforuploadingdocumentsandphoto_25cdc3cf.pdf already exists in database.
+2026-07-02 15:20:37,762 INFO     DownloadConsentNotification_64b0bb7f.zip already exists in database.
+2026-07-02 15:20:37,799 INFO     RBI-Inspection-probable-match-notification-to-REs_d1789311.pdf already exists in database.
+2026-07-02 15:20:37,833 INFO     E-gazatte dated February 12,2019_d2a00d83.pdf already exists in database.
+2026-07-02 15:20:37,872 INFO     Ammendments to PMLA_e6026b60.pdf already exists in database.
+2026-07-02 15:20:37,907 INFO     PMLA 16th Oct 2017_dee894fb.pdf already exists in database.
+2026-07-02 15:20:37,941 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_june_01_2017_9dcc0128.pdf already exists in database.
+2026-07-02 15:20:37,979 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_april_12_2017_38cc18b6.pdf already exists in database.
+2026-07-02 15:20:38,019 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_nov_26_2015_87efcd34.pdf already exists in database.
+2026-07-02 15:20:38,054 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_july_07_f8b94ae5.pdf already exists in database.
+2026-07-02 15:20:38,054 INFO     Total Documents Found : 25
+2026-07-02 15:20:38,054 INFO     Already Processed     : 23
+2026-07-02 15:20:38,054 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-02 15:20:38,621 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-02 15:20:38,622 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-02 15:20:39,228 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-02 15:20:39,230 INFO     
+2026-07-02 15:20:39,230 INFO     CKYC Summary
+2026-07-02 15:20:39,230 INFO     -------------------------
+2026-07-02 15:20:39,231 INFO     Total Documents Found : 25
+2026-07-02 15:20:39,231 INFO     Already Processed     : 23
+2026-07-02 15:20:39,231 INFO     Downloaded            : 0
+2026-07-02 15:20:39,231 INFO     Failed                : 2
+2026-07-02 16:50:06,256 INFO     
+2026-07-02 16:50:06,260 INFO     ========== CKYC ==========
+2026-07-02 16:50:06,673 INFO     Running CKYC extractor...
+2026-07-02 16:50:06,792 INFO     Operating_Guidelines_version1.5_dac174aa.pdf already exists in database.
+2026-07-02 16:50:06,827 INFO     notification-CKYCRR_2.0_API_integration_and_REs_onboarding_282e8fd6.pdf already exists in database.
+2026-07-02 16:50:06,863 INFO     State_District_and_Pincode_Masters_update_01_OPT_a70cc602.pdf already exists in database.
+2026-07-02 16:50:06,902 INFO     DetailsofthenodalofficerregisteredinCKYCRR_3325d4ab.pdf already exists in database.
+2026-07-02 16:50:06,942 INFO     Bulk_update_notification_a2c4e49f.pdf already exists in database.
+2026-07-02 16:50:06,977 INFO     PML_amendment_Rules_19_Jul_2024_09144b1f.pdf already exists in database.
+2026-07-02 16:50:07,018 INFO     RecentCustomer_f300556a.pdf already exists in database.
+2026-07-02 16:50:07,054 INFO     Download_Consent_Notification_86e2b83d.pdf already exists in database.
+2026-07-02 16:50:07,088 INFO     StatusofimplementationofadvisorysharedbyCERSAI20234949PublicSectorBanks_6ea59d61.pdf already exists in database.
+2026-07-02 16:50:07,126 INFO     StatusofimplementationofadvisorysharedbyCERSAI4948_AllReportingEntitiesexceptPublicSectorBanks_4d73d7ce.pdf already exists in database.
+2026-07-02 16:50:07,161 INFO     CentralKnowyourCustomerRecordRegistryStatusofsearchdownloadfacilitiesbyRECERSAI4950AllReportingEntitiesexceptPublicSectorBanks_d7f3a0de.pdf already exists in database.
+2026-07-02 16:50:07,196 INFO     4838-Rejection_in_upload_of_KYC_records_due_to_mismatch_of_PIN_920b55a2.pdf already exists in database.
+2026-07-02 16:50:07,231 INFO     Implementation_of_recommendations_of_the_Expert_Committee_734b7c0d.pdf already exists in database.
+2026-07-02 16:50:07,271 INFO     Communique-Guidelinesforuploadingdocumentsandphoto_25cdc3cf.pdf already exists in database.
+2026-07-02 16:50:07,307 INFO     DownloadConsentNotification_64b0bb7f.zip already exists in database.
+2026-07-02 16:50:07,341 INFO     RBI-Inspection-probable-match-notification-to-REs_d1789311.pdf already exists in database.
+2026-07-02 16:50:07,376 INFO     E-gazatte dated February 12,2019_d2a00d83.pdf already exists in database.
+2026-07-02 16:50:07,411 INFO     Ammendments to PMLA_e6026b60.pdf already exists in database.
+2026-07-02 16:50:07,446 INFO     PMLA 16th Oct 2017_dee894fb.pdf already exists in database.
+2026-07-02 16:50:07,485 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_june_01_2017_9dcc0128.pdf already exists in database.
+2026-07-02 16:50:07,521 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_april_12_2017_38cc18b6.pdf already exists in database.
+2026-07-02 16:50:07,556 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_nov_26_2015_87efcd34.pdf already exists in database.
+2026-07-02 16:50:07,594 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_july_07_f8b94ae5.pdf already exists in database.
+2026-07-02 16:50:07,595 INFO     Total Documents Found : 25
+2026-07-02 16:50:07,595 INFO     Already Processed     : 23
+2026-07-02 16:50:07,595 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-02 16:50:07,938 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-02 16:50:07,940 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-02 16:50:08,391 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-02 16:50:08,394 INFO     
+2026-07-02 16:50:08,394 INFO     CKYC Summary
+2026-07-02 16:50:08,394 INFO     -------------------------
+2026-07-02 16:50:08,394 INFO     Total Documents Found : 25
+2026-07-02 16:50:08,395 INFO     Already Processed     : 23
+2026-07-02 16:50:08,395 INFO     Downloaded            : 0
+2026-07-02 16:50:08,395 INFO     Failed                : 2
+2026-07-02 16:57:47,971 INFO     
+2026-07-02 16:57:47,975 INFO     ========== CKYC ==========
+2026-07-02 16:57:48,438 INFO     Running CKYC extractor...
+2026-07-02 16:57:48,555 INFO     Operating_Guidelines_version1.5_dac174aa.pdf already exists in database.
+2026-07-02 16:57:48,590 INFO     notification-CKYCRR_2.0_API_integration_and_REs_onboarding_282e8fd6.pdf already exists in database.
+2026-07-02 16:57:48,625 INFO     State_District_and_Pincode_Masters_update_01_OPT_a70cc602.pdf already exists in database.
+2026-07-02 16:57:48,662 INFO     DetailsofthenodalofficerregisteredinCKYCRR_3325d4ab.pdf already exists in database.
+2026-07-02 16:57:48,697 INFO     Bulk_update_notification_a2c4e49f.pdf already exists in database.
+2026-07-02 16:57:48,731 INFO     PML_amendment_Rules_19_Jul_2024_09144b1f.pdf already exists in database.
+2026-07-02 16:57:48,768 INFO     RecentCustomer_f300556a.pdf already exists in database.
+2026-07-02 16:57:48,804 INFO     Download_Consent_Notification_86e2b83d.pdf already exists in database.
+2026-07-02 16:57:48,840 INFO     StatusofimplementationofadvisorysharedbyCERSAI20234949PublicSectorBanks_6ea59d61.pdf already exists in database.
+2026-07-02 16:57:48,874 INFO     StatusofimplementationofadvisorysharedbyCERSAI4948_AllReportingEntitiesexceptPublicSectorBanks_4d73d7ce.pdf already exists in database.
+2026-07-02 16:57:48,909 INFO     CentralKnowyourCustomerRecordRegistryStatusofsearchdownloadfacilitiesbyRECERSAI4950AllReportingEntitiesexceptPublicSectorBanks_d7f3a0de.pdf already exists in database.
+2026-07-02 16:57:48,944 INFO     4838-Rejection_in_upload_of_KYC_records_due_to_mismatch_of_PIN_920b55a2.pdf already exists in database.
+2026-07-02 16:57:48,980 INFO     Implementation_of_recommendations_of_the_Expert_Committee_734b7c0d.pdf already exists in database.
+2026-07-02 16:57:49,018 INFO     Communique-Guidelinesforuploadingdocumentsandphoto_25cdc3cf.pdf already exists in database.
+2026-07-02 16:57:49,053 INFO     DownloadConsentNotification_64b0bb7f.zip already exists in database.
+2026-07-02 16:57:49,088 INFO     RBI-Inspection-probable-match-notification-to-REs_d1789311.pdf already exists in database.
+2026-07-02 16:57:49,123 INFO     E-gazatte dated February 12,2019_d2a00d83.pdf already exists in database.
+2026-07-02 16:57:49,157 INFO     Ammendments to PMLA_e6026b60.pdf already exists in database.
+2026-07-02 16:57:49,193 INFO     PMLA 16th Oct 2017_dee894fb.pdf already exists in database.
+2026-07-02 16:57:49,228 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_june_01_2017_9dcc0128.pdf already exists in database.
+2026-07-02 16:57:49,264 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_april_12_2017_38cc18b6.pdf already exists in database.
+2026-07-02 16:57:49,300 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_nov_26_2015_87efcd34.pdf already exists in database.
+2026-07-02 16:57:49,336 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_july_07_f8b94ae5.pdf already exists in database.
+2026-07-02 16:57:49,336 INFO     Total Documents Found : 25
+2026-07-02 16:57:49,336 INFO     Already Processed     : 23
+2026-07-02 16:57:49,336 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-02 16:57:49,715 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-02 16:57:49,716 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-02 16:57:50,079 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-02 16:57:50,082 INFO     
+2026-07-02 16:57:50,082 INFO     CKYC Summary
+2026-07-02 16:57:50,082 INFO     -------------------------
+2026-07-02 16:57:50,082 INFO     Total Documents Found : 25
+2026-07-02 16:57:50,082 INFO     Already Processed     : 23
+2026-07-02 16:57:50,082 INFO     Downloaded            : 0
+2026-07-02 16:57:50,083 INFO     Failed                : 2

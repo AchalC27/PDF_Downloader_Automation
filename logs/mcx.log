@@ -180,3 +180,31 @@
 2026-07-02 14:45:37,388 INFO     Total Circulars Found : 0
 2026-07-02 14:45:37,388 INFO     Already Processed     : 0
 2026-07-02 14:45:37,388 INFO     No new circulars found.
+2026-07-02 15:20:39,232 INFO     
+2026-07-02 15:20:39,232 INFO     ========== MCX ==========
+2026-07-02 15:20:39,233 INFO     Fetching page 1
+2026-07-02 15:20:40,633 INFO     Page 1/0
+2026-07-02 15:20:40,635 INFO     Total Circulars Found : 0
+2026-07-02 15:20:40,635 INFO     Already Processed     : 0
+2026-07-02 15:20:40,635 INFO     No new circulars found.
+2026-07-02 16:50:08,396 INFO     
+2026-07-02 16:50:08,397 INFO     ========== MCX ==========
+2026-07-02 16:50:08,398 INFO     Fetching page 1
+2026-07-02 16:50:09,676 INFO     Page 1/1
+2026-07-02 16:50:09,678 INFO     Total Circulars Found : 1
+2026-07-02 16:50:09,718 INFO     Already Processed     : 0
+2026-07-02 16:50:09,719 INFO     Downloading : 02-Jul-2026_No378_MCXCCL_De-accreditation of Warehouses for Cotton Bales.pdf
+2026-07-02 16:50:11,233 INFO     
+2026-07-02 16:50:11,233 INFO     MCX Summary
+2026-07-02 16:50:11,233 INFO     -------------------------
+2026-07-02 16:50:11,233 INFO     Total Circulars Found : 1
+2026-07-02 16:50:11,234 INFO     Already Processed     : 0
+2026-07-02 16:50:11,234 INFO     Downloaded            : 1
+2026-07-02 16:50:11,234 INFO     Failed                : 0
+2026-07-02 16:57:50,083 INFO     
+2026-07-02 16:57:50,084 INFO     ========== MCX ==========
+2026-07-02 16:57:50,085 INFO     Fetching page 1
+2026-07-02 16:57:51,398 INFO     Page 1/1
+2026-07-02 16:57:51,400 INFO     Total Circulars Found : 1
+2026-07-02 16:57:51,438 INFO     Already Processed     : 1
+2026-07-02 16:57:51,438 INFO     No new circulars found.

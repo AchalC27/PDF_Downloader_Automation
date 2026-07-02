@@ -165,3 +165,39 @@
 2026-07-02 14:45:10,551 INFO     Total Circulars Found : 0
 2026-07-02 14:45:10,551 INFO     Already Processed     : 0
 2026-07-02 14:45:10,551 INFO     No new circulars found.
+2026-07-02 15:20:11,087 INFO     
+2026-07-02 15:20:11,087 INFO     ========== NSE ==========
+2026-07-02 15:20:11,839 INFO     Total Circulars Found : 0
+2026-07-02 15:20:11,839 INFO     Already Processed     : 0
+2026-07-02 15:20:11,839 INFO     No new circulars found.
+2026-07-02 16:49:36,506 INFO     
+2026-07-02 16:49:36,507 INFO     ========== NSE ==========
+2026-07-02 16:49:37,380 INFO     Total Circulars Found : 6
+2026-07-02 16:49:37,629 INFO     Already Processed     : 0
+2026-07-02 16:49:37,629 INFO     Downloading : NCL_CMPT_74993_Change in international holiday on July 03,2026.pdf
+2026-07-02 16:49:38,224 INFO     Downloading : NCL_CMPT_74990_Early Pay-in of Securities for Krishana Phoschem Limited (KRISHANA).pdf
+2026-07-02 16:49:38,351 INFO     Downloading : NCL_CMPT_74989_Early Pay-in of Securities for Madhya Bharat Agro Products Limited (MBAPL).pdf
+2026-07-02 16:49:38,598 INFO     Downloading : NCL_CMPT_74988_Early Pay-in of Securities for DSP Nifty Healthcare ETF (HEALTHADD).pdf
+2026-07-02 16:49:38,718 INFO     Downloading : NCL_CMPT_74987_Early Pay-in of Securities for DSP Nifty Midcap 150 Quality 50 ETF (MIDQ50ADD).pdf
+2026-07-02 16:49:38,818 INFO     Downloading : NSE_NMF_74985_Launch of Trustmf Large & Mid Cap Fund NFO on NSE MF Invest Platform.pdf
+2026-07-02 16:49:39,264 INFO     
+2026-07-02 16:49:39,264 INFO     NSE Summary
+2026-07-02 16:49:39,264 INFO     -------------------------
+2026-07-02 16:49:39,264 INFO     Total Circulars Found : 6
+2026-07-02 16:49:39,265 INFO     Already Processed     : 0
+2026-07-02 16:49:39,265 INFO     Downloaded            : 6
+2026-07-02 16:49:39,265 INFO     Failed                : 0
+2026-07-02 16:57:22,434 INFO     
+2026-07-02 16:57:22,435 INFO     ========== NSE ==========
+2026-07-02 16:57:23,172 INFO     Total Circulars Found : 9
+2026-07-02 16:57:23,619 INFO     Already Processed     : 6
+2026-07-02 16:57:23,619 INFO     Downloading : NSE_SURV_74994_Applicability of Surveillance Measure in respect of companies with high 'Encumbrance' as per Reg.28(.zip
+2026-07-02 16:57:24,153 INFO     Downloading : NSE_NMF_74984_Launch of Axis Nifty50 Equal Weight Index Fund NFO on NSE MF Invest Platform.pdf
+2026-07-02 16:57:24,275 INFO     Downloading : NSE_NMF_74983_Launch of Motilal Oswal BSE Midcap 150 Momentum 30 Index Fund NFO on NSE MF Invest Platform.pdf
+2026-07-02 16:57:24,607 INFO     
+2026-07-02 16:57:24,608 INFO     NSE Summary
+2026-07-02 16:57:24,608 INFO     -------------------------
+2026-07-02 16:57:24,608 INFO     Total Circulars Found : 9
+2026-07-02 16:57:24,608 INFO     Already Processed     : 6
+2026-07-02 16:57:24,608 INFO     Downloaded            : 3
+2026-07-02 16:57:24,608 INFO     Failed                : 0
