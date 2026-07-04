@@ -4552,3 +4552,199 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.
 2026-07-02 16:57:50,082 INFO     Already Processed     : 23
 2026-07-02 16:57:50,082 INFO     Downloaded            : 0
 2026-07-02 16:57:50,083 INFO     Failed                : 2
+2026-07-02 23:21:06,860 INFO     
+2026-07-02 23:21:06,861 INFO     ========== CKYC ==========
+2026-07-02 23:21:07,769 INFO     Running CKYC extractor...
+2026-07-02 23:21:08,024 INFO     Operating_Guidelines_version1.5_dac174aa.pdf already exists in database.
+2026-07-02 23:21:08,113 INFO     notification-CKYCRR_2.0_API_integration_and_REs_onboarding_282e8fd6.pdf already exists in database.
+2026-07-02 23:21:08,202 INFO     State_District_and_Pincode_Masters_update_01_OPT_a70cc602.pdf already exists in database.
+2026-07-02 23:21:08,285 INFO     DetailsofthenodalofficerregisteredinCKYCRR_3325d4ab.pdf already exists in database.
+2026-07-02 23:21:08,362 INFO     Bulk_update_notification_a2c4e49f.pdf already exists in database.
+2026-07-02 23:21:08,439 INFO     PML_amendment_Rules_19_Jul_2024_09144b1f.pdf already exists in database.
+2026-07-02 23:21:08,523 INFO     RecentCustomer_f300556a.pdf already exists in database.
+2026-07-02 23:21:08,616 INFO     Download_Consent_Notification_86e2b83d.pdf already exists in database.
+2026-07-02 23:21:08,704 INFO     StatusofimplementationofadvisorysharedbyCERSAI20234949PublicSectorBanks_6ea59d61.pdf already exists in database.
+2026-07-02 23:21:08,782 INFO     StatusofimplementationofadvisorysharedbyCERSAI4948_AllReportingEntitiesexceptPublicSectorBanks_4d73d7ce.pdf already exists in database.
+2026-07-02 23:21:08,858 INFO     CentralKnowyourCustomerRecordRegistryStatusofsearchdownloadfacilitiesbyRECERSAI4950AllReportingEntitiesexceptPublicSectorBanks_d7f3a0de.pdf already exists in database.
+2026-07-02 23:21:08,936 INFO     4838-Rejection_in_upload_of_KYC_records_due_to_mismatch_of_PIN_920b55a2.pdf already exists in database.
+2026-07-02 23:21:09,011 INFO     Implementation_of_recommendations_of_the_Expert_Committee_734b7c0d.pdf already exists in database.
+2026-07-02 23:21:09,091 INFO     Communique-Guidelinesforuploadingdocumentsandphoto_25cdc3cf.pdf already exists in database.
+2026-07-02 23:21:09,169 INFO     DownloadConsentNotification_64b0bb7f.zip already exists in database.
+2026-07-02 23:21:09,248 INFO     RBI-Inspection-probable-match-notification-to-REs_d1789311.pdf already exists in database.
+2026-07-02 23:21:09,325 INFO     E-gazatte dated February 12,2019_d2a00d83.pdf already exists in database.
+2026-07-02 23:21:09,404 INFO     Ammendments to PMLA_e6026b60.pdf already exists in database.
+2026-07-02 23:21:09,496 INFO     PMLA 16th Oct 2017_dee894fb.pdf already exists in database.
+2026-07-02 23:21:09,572 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_june_01_2017_9dcc0128.pdf already exists in database.
+2026-07-02 23:21:09,647 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_april_12_2017_38cc18b6.pdf already exists in database.
+2026-07-02 23:21:09,721 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_nov_26_2015_87efcd34.pdf already exists in database.
+2026-07-02 23:21:09,796 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_july_07_f8b94ae5.pdf already exists in database.
+2026-07-02 23:21:09,797 INFO     Total Documents Found : 25
+2026-07-02 23:21:09,797 INFO     Already Processed     : 23
+2026-07-02 23:21:09,797 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-02 23:21:13,673 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-02 23:21:13,675 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-02 23:21:14,493 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-02 23:21:14,497 INFO     
+2026-07-02 23:21:14,497 INFO     CKYC Summary
+2026-07-02 23:21:14,497 INFO     -------------------------
+2026-07-02 23:21:14,498 INFO     Total Documents Found : 25
+2026-07-02 23:21:14,498 INFO     Already Processed     : 23
+2026-07-02 23:21:14,498 INFO     Downloaded            : 0
+2026-07-02 23:21:14,499 INFO     Failed                : 2
+2026-07-02 23:32:37,903 INFO     
+2026-07-02 23:32:37,908 INFO     ========== CKYC ==========
+2026-07-02 23:32:38,927 INFO     Running CKYC extractor...
+2026-07-02 23:32:39,176 INFO     Operating_Guidelines_version1.5_dac174aa.pdf already exists in database.
+2026-07-02 23:32:39,257 INFO     notification-CKYCRR_2.0_API_integration_and_REs_onboarding_282e8fd6.pdf already exists in database.
+2026-07-02 23:32:39,335 INFO     State_District_and_Pincode_Masters_update_01_OPT_a70cc602.pdf already exists in database.
+2026-07-02 23:32:39,412 INFO     DetailsofthenodalofficerregisteredinCKYCRR_3325d4ab.pdf already exists in database.
+2026-07-02 23:32:39,503 INFO     Bulk_update_notification_a2c4e49f.pdf already exists in database.
+2026-07-02 23:32:39,577 INFO     PML_amendment_Rules_19_Jul_2024_09144b1f.pdf already exists in database.
+2026-07-02 23:32:39,651 INFO     RecentCustomer_f300556a.pdf already exists in database.
+2026-07-02 23:32:39,727 INFO     Download_Consent_Notification_86e2b83d.pdf already exists in database.
+2026-07-02 23:32:39,828 INFO     StatusofimplementationofadvisorysharedbyCERSAI20234949PublicSectorBanks_6ea59d61.pdf already exists in database.
+2026-07-02 23:32:39,911 INFO     StatusofimplementationofadvisorysharedbyCERSAI4948_AllReportingEntitiesexceptPublicSectorBanks_4d73d7ce.pdf already exists in database.
+2026-07-02 23:32:39,988 INFO     CentralKnowyourCustomerRecordRegistryStatusofsearchdownloadfacilitiesbyRECERSAI4950AllReportingEntitiesexceptPublicSectorBanks_d7f3a0de.pdf already exists in database.
+2026-07-02 23:32:40,070 INFO     4838-Rejection_in_upload_of_KYC_records_due_to_mismatch_of_PIN_920b55a2.pdf already exists in database.
+2026-07-02 23:32:40,148 INFO     Implementation_of_recommendations_of_the_Expert_Committee_734b7c0d.pdf already exists in database.
+2026-07-02 23:32:40,224 INFO     Communique-Guidelinesforuploadingdocumentsandphoto_25cdc3cf.pdf already exists in database.
+2026-07-02 23:32:40,300 INFO     DownloadConsentNotification_64b0bb7f.zip already exists in database.
+2026-07-02 23:32:40,382 INFO     RBI-Inspection-probable-match-notification-to-REs_d1789311.pdf already exists in database.
+2026-07-02 23:32:40,460 INFO     E-gazatte dated February 12,2019_d2a00d83.pdf already exists in database.
+2026-07-02 23:32:40,543 INFO     Ammendments to PMLA_e6026b60.pdf already exists in database.
+2026-07-02 23:32:40,642 INFO     PMLA 16th Oct 2017_dee894fb.pdf already exists in database.
+2026-07-02 23:32:40,721 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_june_01_2017_9dcc0128.pdf already exists in database.
+2026-07-02 23:32:40,810 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_april_12_2017_38cc18b6.pdf already exists in database.
+2026-07-02 23:32:40,898 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_nov_26_2015_87efcd34.pdf already exists in database.
+2026-07-02 23:32:40,974 INFO     Prevention of Money-laundering (Maintenance of Records) Amendment Rules_july_07_f8b94ae5.pdf already exists in database.
+2026-07-02 23:32:40,975 INFO     Total Documents Found : 25
+2026-07-02 23:32:40,975 INFO     Already Processed     : 23
+2026-07-02 23:32:40,975 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-02 23:32:41,855 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-02 23:32:41,860 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-02 23:32:42,701 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-02 23:32:42,704 INFO     
+2026-07-02 23:32:42,705 INFO     CKYC Summary
+2026-07-02 23:32:42,705 INFO     -------------------------
+2026-07-02 23:32:42,705 INFO     Total Documents Found : 25
+2026-07-02 23:32:42,705 INFO     Already Processed     : 23
+2026-07-02 23:32:42,706 INFO     Downloaded            : 0
+2026-07-02 23:32:42,706 INFO     Failed                : 2
+2026-07-02 23:40:53,023 INFO     
+2026-07-02 23:40:53,024 INFO     ========== CKYC ==========
+2026-07-02 23:40:53,944 INFO     Running CKYC extractor...
+2026-07-02 23:40:55,926 INFO     Total Documents Found : 25
+2026-07-02 23:40:55,926 INFO     Already Processed     : 23
+2026-07-02 23:40:55,926 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-02 23:40:56,692 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-02 23:40:56,694 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-02 23:40:58,461 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-02 23:40:58,464 INFO     
+2026-07-02 23:40:58,465 INFO     CKYC Summary
+2026-07-02 23:40:58,465 INFO     -------------------------
+2026-07-02 23:40:58,466 INFO     Total Documents Found : 25
+2026-07-02 23:40:58,466 INFO     Already Processed     : 23
+2026-07-02 23:40:58,466 INFO     Downloaded            : 0
+2026-07-02 23:40:58,466 INFO     Failed                : 2
+2026-07-03 12:59:32,055 INFO     
+2026-07-03 12:59:32,056 INFO     ========== CKYC ==========
+2026-07-03 12:59:33,121 INFO     Running CKYC extractor...
+2026-07-03 12:59:35,179 INFO     Total Documents Found : 25
+2026-07-03 12:59:35,179 INFO     Already Processed     : 23
+2026-07-03 12:59:35,179 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-03 12:59:36,035 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-03 12:59:36,036 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-03 12:59:36,912 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-03 12:59:36,916 INFO     
+2026-07-03 12:59:36,916 INFO     CKYC Summary
+2026-07-03 12:59:36,916 INFO     -------------------------
+2026-07-03 12:59:36,916 INFO     Total Documents Found : 25
+2026-07-03 12:59:36,917 INFO     Already Processed     : 23
+2026-07-03 12:59:36,917 INFO     Downloaded            : 0
+2026-07-03 12:59:36,917 INFO     Failed                : 2
+2026-07-04 20:47:13,691 INFO     
+2026-07-04 20:47:13,693 INFO     ========== CKYC ==========
+2026-07-04 20:47:15,425 INFO     Running CKYC extractor...
+2026-07-04 20:47:18,427 INFO     Total Documents Found : 25
+2026-07-04 20:47:18,428 INFO     Already Processed     : 23
+2026-07-04 20:47:18,428 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-04 20:47:19,804 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-04 20:47:19,807 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-04 20:47:21,244 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-04 20:47:21,255 INFO     
+2026-07-04 20:47:21,255 INFO     CKYC Summary
+2026-07-04 20:47:21,256 INFO     -------------------------
+2026-07-04 20:47:21,256 INFO     Total Documents Found : 25
+2026-07-04 20:47:21,259 INFO     Already Processed     : 23
+2026-07-04 20:47:21,259 INFO     Downloaded            : 0
+2026-07-04 20:47:21,259 INFO     Failed                : 2

@@ -121,7 +121,7 @@ def download_arcl():
         filename = generate_filename(url)
 
         if pdf_exists("ARCL", filename):
-            logger.info(f"{filename} already exists in database.")
+            # logger.info(f"{filename} already exists in database.")
             continue
 
         new_documents.append(url)

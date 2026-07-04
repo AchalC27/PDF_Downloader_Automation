@@ -96,7 +96,7 @@ def scrape_apmi() -> tuple[int, int]:
         filename = safe_filename(Path(urlparse(pdf_url).path).name)
 
         if pdf_exists("APMI", filename):
-            log.info("%s already exists in database. Skipping.", filename)
+            # log.info("%s already exists in database. Skipping.", filename)
             continue
 
 

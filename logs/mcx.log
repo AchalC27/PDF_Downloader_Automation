@@ -208,3 +208,46 @@
 2026-07-02 16:57:51,400 INFO     Total Circulars Found : 1
 2026-07-02 16:57:51,438 INFO     Already Processed     : 1
 2026-07-02 16:57:51,438 INFO     No new circulars found.
+2026-07-02 23:21:14,500 INFO     
+2026-07-02 23:21:14,501 INFO     ========== MCX ==========
+2026-07-02 23:21:14,502 INFO     Fetching page 1
+2026-07-02 23:21:16,512 INFO     Page 1/1
+2026-07-02 23:21:16,514 INFO     Total Circulars Found : 3
+2026-07-02 23:21:16,755 INFO     Already Processed     : 1
+2026-07-02 23:21:16,755 INFO     Downloading : 03-Jul-2026_No380_TECH_Mock Trading from Disaster Recovery Site (DRS).pdf
+2026-07-02 23:21:18,444 INFO     Downloading : 02-Jul-2026_No379_MCXCCL_Alternate Risk Management Framework Applicable in case of Near Zero and Negative Prices.pdf
+2026-07-02 23:21:19,261 INFO     
+2026-07-02 23:21:19,262 INFO     MCX Summary
+2026-07-02 23:21:19,262 INFO     -------------------------
+2026-07-02 23:21:19,262 INFO     Total Circulars Found : 3
+2026-07-02 23:21:19,263 INFO     Already Processed     : 1
+2026-07-02 23:21:19,263 INFO     Downloaded            : 2
+2026-07-02 23:21:19,264 INFO     Failed                : 0
+2026-07-02 23:32:42,707 INFO     
+2026-07-02 23:32:42,711 INFO     ========== MCX ==========
+2026-07-02 23:32:42,712 INFO     Fetching page 1
+2026-07-02 23:32:44,639 INFO     Page 1/1
+2026-07-02 23:32:44,641 INFO     Total Circulars Found : 3
+2026-07-02 23:32:44,874 INFO     Already Processed     : 3
+2026-07-02 23:32:44,874 INFO     No new circulars found.
+2026-07-02 23:40:58,468 INFO     
+2026-07-02 23:40:58,468 INFO     ========== MCX ==========
+2026-07-02 23:40:58,469 INFO     Fetching page 1
+2026-07-02 23:41:00,521 INFO     Page 1/1
+2026-07-02 23:41:00,523 INFO     Total Circulars Found : 3
+2026-07-02 23:41:00,761 INFO     Already Processed     : 3
+2026-07-02 23:41:00,761 INFO     No new circulars found.
+2026-07-03 12:59:36,918 INFO     
+2026-07-03 12:59:36,922 INFO     ========== MCX ==========
+2026-07-03 12:59:36,924 INFO     Fetching page 1
+2026-07-03 12:59:38,779 INFO     Page 1/0
+2026-07-03 12:59:38,781 INFO     Total Circulars Found : 0
+2026-07-03 12:59:38,782 INFO     Already Processed     : 0
+2026-07-03 12:59:38,782 INFO     No new circulars found.
+2026-07-04 20:47:21,261 INFO     
+2026-07-04 20:47:21,262 INFO     ========== MCX ==========
+2026-07-04 20:47:21,264 INFO     Fetching page 1
+2026-07-04 20:47:23,587 INFO     Page 1/0
+2026-07-04 20:47:23,592 INFO     Total Circulars Found : 0
+2026-07-04 20:47:23,599 INFO     Already Processed     : 0
+2026-07-04 20:47:23,600 INFO     No new circulars found.

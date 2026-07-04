@@ -277,3 +277,90 @@ OSError: [Errno 22] Invalid argument: 'downloads\\bse\\02-07-2026\\20260702-4_Op
 2026-07-02 16:57:24,945 INFO     Total Circulars Found : 13
 2026-07-02 16:57:25,418 INFO     Already Processed     : 13
 2026-07-02 16:57:25,418 INFO     No new circulars found.
+2026-07-02 23:19:35,239 INFO     
+2026-07-02 23:19:35,240 INFO     ========== BSE ==========
+2026-07-02 23:19:36,290 INFO     Total Circulars Found : 48
+2026-07-02 23:19:39,928 INFO     Already Processed     : 13
+2026-07-02 23:19:39,928 INFO     Downloading : 20260702-48_Daily Bulletin.pdf
+2026-07-02 23:19:49,933 INFO     Downloading : 20260702-47_Part Redemption of Trading in Debentures of Companies.pdf
+2026-07-02 23:19:51,679 INFO     Downloading : 20260702-46_Offer to Buy – Acquisition Window (Takeover) for ARCO LEASING LTD – Live Activities Schedule.pdf
+2026-07-02 23:19:53,042 INFO     Downloading : 20260702-45_Change in international holiday on July 03, 2026.pdf
+2026-07-02 23:19:53,942 INFO     Downloading : 20260702-44_Listing of Equity Shares of CRAZY SNACKS LIMITED.pdf
+2026-07-02 23:19:54,842 INFO     Downloading : 20260702-43_Mock Trading on Saturday, July 04, 2026, for Electronic Gold Receipts segment.pdf
+2026-07-02 23:19:56,012 INFO     Downloading : 20260702-42_Mock Trading on Saturday, July 04, 2026, for Commodity Derivatives segment.pdf
+2026-07-02 23:19:56,907 INFO     Downloading : 20260702-41_Mock Trading on Saturday, July 04, 2026, for Currency Derivatives segment.pdf
+2026-07-02 23:19:57,929 INFO     Downloading : 20260702-40_Mock Trading on Saturday, July 04, 2026, for Equity Derivatives segment.pdf
+2026-07-02 23:19:58,789 INFO     Downloading : 20260702-39_Mock Trading on Saturday, July 04, 2026, for Equity segment.pdf
+2026-07-02 23:19:59,270 INFO     Downloading : 20260702-38_Revision in Strike Price Interval of BSE FOCUSED IT Options Contracts.pdf
+2026-07-02 23:19:59,757 INFO     Downloading : 20260702-37_Release of BOLT Pro TWS Version 13.11.pdf
+2026-07-02 23:20:00,407 INFO     Downloading : 20260702-36_Applicability of Short-Term Additional Surveillance Measure (ST-ASM).pdf
+2026-07-02 23:20:00,814 INFO     Downloading : 20260702-35_Enhanced Surveillance Measure (ESM).pdf
+2026-07-02 23:20:01,222 INFO     Downloading : 20260702-34_Applicability of Long Term Additional Surveillance Measure (LT-ASM).pdf
+2026-07-02 23:20:01,590 INFO     Downloading : 20260702-33_Applicability of Surveillance Measure in respect of companies with high ‘Encumbrance’ as per Reg. 28.pdf
+2026-07-02 23:20:02,021 INFO     Downloading : 20260702-32_CHANGES IN PRICE BAND.pdf
+2026-07-02 23:20:02,920 INFO     Downloading : 20260702-31_Graded Surveillance Measure (GSM) - List of securities moving into their respective GSM Stages.pdf
+2026-07-02 23:20:03,552 INFO     Downloading : 20260702-30_Surveillance Measure for securities under IBC.pdf
+2026-07-02 23:20:03,928 INFO     Downloading : 20260702-29_Introduction of ALPHAGREP MUTUAL FUND on BSE StAR MF Platform.pdf
+2026-07-02 23:20:04,302 INFO     Downloading : 20260702-28_Launch of New Fund Offer with SIP facility of MOTILAL MUTUAL FUND on BSE StAR MF Platform.pdf
+2026-07-02 23:20:04,779 INFO     Downloading : 20260702-27_Launch of New Fund Offer (NFO) with SIP Facility of AXIS Mutual Fund on BSE StAR MF Platform.pdf
+2026-07-02 23:20:05,509 INFO     Downloading : 20260702-26_Launch of New Fund Offer with SIP facility of TRUST MUTUAL FUND on BSE StAR MF Platform.pdf
+2026-07-02 23:20:05,929 INFO     Downloading : 20260702-25_Addition to the BSE IPO Index.pdf
+2026-07-02 23:20:06,276 INFO     Downloading : 20260702-24_Listing of 325 Bonus Equity Shares kept in abeyance of ICICI Bank Limited.pdf
+2026-07-02 23:20:07,421 INFO     Downloading : 20260702-23_Update Regarding debt securities of IndiGrid Infrastructure Trust.pdf
+2026-07-02 23:20:07,823 INFO     Downloading : 20260702-22_Listing of new securities of Sterlite Technologies Limited.pdf
+2026-07-02 23:20:08,286 INFO     Downloading : 20260702-21_Listing of New Securities of Avro India Limited.pdf
+2026-07-02 23:20:08,908 INFO     Downloading : 20260702-20_Listing of privately placed securities on the debt market segment of the Exchange.pdf
+2026-07-02 23:20:09,267 INFO     Downloading : 20260702-19_Clarification received from the company on news articles.pdf
+2026-07-02 23:20:09,772 INFO     Downloading : 20260702-18_Listing of new Treasury Bills (T-Bills).pdf
+2026-07-02 23:20:10,070 INFO     Downloading : 20260702-17_Clarification Received from the Companies.pdf
+2026-07-02 23:20:10,539 INFO     Downloading : 20260702-16_Part-Redemption of Debentures of Regency Fincorp Ltd.pdf
+2026-07-02 23:20:11,435 INFO     Downloading : 20260702-15_Settlement Schedule Offer to Buy – Acquisition Window (Buyback) for KAJARIA CERAMICS LIMITED..pdf
+2026-07-02 23:20:12,042 INFO     Downloading : 20260702-14_Settlement Schedule Offer to Buy – Acquisition Window (Takeover) for ARCO LEASING LIMITED..pdf
+2026-07-02 23:20:12,581 INFO     
+2026-07-02 23:20:12,582 INFO     BSE Summary
+2026-07-02 23:20:12,582 INFO     --------------------------
+2026-07-02 23:20:12,582 INFO     Total Circulars Found : 48
+2026-07-02 23:20:12,582 INFO     Already Processed     : 13
+2026-07-02 23:20:12,583 INFO     Downloaded            : 35
+2026-07-02 23:20:12,583 INFO     Failed                : 0
+2026-07-02 23:26:37,376 INFO     
+2026-07-02 23:26:37,376 INFO     ========== BSE ==========
+2026-07-02 23:26:38,249 INFO     Total Circulars Found : 48
+2026-07-02 23:26:42,135 INFO     Already Processed     : 48
+2026-07-02 23:26:42,135 INFO     No new circulars found.
+2026-07-02 23:31:42,455 INFO     
+2026-07-02 23:31:42,459 INFO     ========== BSE ==========
+2026-07-02 23:31:43,334 INFO     Total Circulars Found : 48
+2026-07-02 23:31:47,320 INFO     Already Processed     : 48
+2026-07-02 23:31:47,321 INFO     No new circulars found.
+2026-07-02 23:40:01,390 INFO     
+2026-07-02 23:40:01,390 INFO     ========== BSE ==========
+2026-07-02 23:40:02,264 INFO     Total Circulars Found : 48
+2026-07-02 23:40:06,081 INFO     Already Processed     : 48
+2026-07-02 23:40:06,081 INFO     No new circulars found.
+2026-07-03 12:58:38,457 INFO     
+2026-07-03 12:58:38,457 INFO     ========== BSE ==========
+2026-07-03 12:58:40,042 INFO     Total Circulars Found : 3
+2026-07-03 12:58:40,368 INFO     Already Processed     : 0
+2026-07-03 12:58:40,369 INFO     Downloading : 20260703-3_Change in Name - Eraaya Lifespaces Ltd.pdf
+2026-07-03 12:58:42,738 INFO     Downloading : 20260703-2_Change in Group of Equity Shares of Crazy Snacks Limited.pdf
+2026-07-03 12:58:43,091 INFO     Downloading : 20260703-1_Launch of NFO with SIP facility of ALPHAGREP MUTUAL FUND on BSE StAR MF Platform.pdf
+2026-07-03 12:58:43,387 INFO     
+2026-07-03 12:58:43,388 INFO     BSE Summary
+2026-07-03 12:58:43,388 INFO     --------------------------
+2026-07-03 12:58:43,388 INFO     Total Circulars Found : 3
+2026-07-03 12:58:43,388 INFO     Already Processed     : 0
+2026-07-03 12:58:43,389 INFO     Downloaded            : 3
+2026-07-03 12:58:43,389 INFO     Failed                : 0
+2026-07-04 20:46:14,963 INFO     
+2026-07-04 20:46:14,964 INFO     ========== BSE ==========
+2026-07-04 20:46:16,077 INFO     Total Circulars Found : 1
+2026-07-04 20:46:16,241 INFO     Already Processed     : 0
+2026-07-04 20:46:16,241 INFO     Downloading : 20260704-1_Enhancement of Cash Release for Derivatives and Currency Segments.pdf
+2026-07-04 20:46:18,138 INFO     
+2026-07-04 20:46:18,139 INFO     BSE Summary
+2026-07-04 20:46:18,139 INFO     --------------------------
+2026-07-04 20:46:18,139 INFO     Total Circulars Found : 1
+2026-07-04 20:46:18,140 INFO     Already Processed     : 0
+2026-07-04 20:46:18,140 INFO     Downloaded            : 1
+2026-07-04 20:46:18,141 INFO     Failed                : 0

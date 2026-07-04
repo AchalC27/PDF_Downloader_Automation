@@ -126,7 +126,7 @@ def download_amfi():
         filename = generate_filename(url)
 
         if pdf_exists("AMFI", filename):
-            logger.info(f"{filename} already exists in database.")
+            # logger.info(f"{filename} already exists in database.")
             continue
 
         new_documents.append(url)

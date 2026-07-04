@@ -148,3 +148,37 @@
 2026-07-02 16:57:27,660 INFO     Total Communiques Found : 0
 2026-07-02 16:57:27,661 INFO     Already Processed       : 0
 2026-07-02 16:57:27,661 INFO     No new communiques found.
+2026-07-02 23:20:12,588 INFO     
+2026-07-02 23:20:12,589 INFO     ========== CDSL ==========
+2026-07-02 23:20:15,255 INFO     Total Communiques Found : 6
+2026-07-02 23:20:15,852 INFO     Already Processed       : 0
+2026-07-02 23:20:16,139 INFO     Downloaded : DP-445-Change-of-RTA-02062026.pdf
+2026-07-02 23:20:16,497 INFO     Downloaded : DP-444-DETAILS-OF-CORPORATE-ACTION-02072026.pdf
+2026-07-02 23:20:16,850 INFO     Downloaded : DP-443-Withdrawal-of-securities-from-CDSL - 01-07-2026.pdf
+2026-07-02 23:20:17,571 INFO     Downloaded : DP-442-Securities-Admitted-With-CDSL- 01072026.pdf
+2026-07-02 23:20:17,928 INFO     Downloaded : RTA-191-Withdrawal-of-securities-from-CDSL - 01-07-2026.pdf
+2026-07-02 23:20:18,281 INFO     Downloaded : RTA-192-Change-of-RTA-02072026.pdf
+2026-07-02 23:20:18,281 INFO     
+2026-07-02 23:20:18,281 INFO     CDSL Summary
+2026-07-02 23:20:18,282 INFO     -------------------------
+2026-07-02 23:20:18,282 INFO     Total Communiques Found : 6
+2026-07-02 23:20:18,282 INFO     Already Processed       : 0
+2026-07-02 23:20:18,282 INFO     Downloaded              : 6
+2026-07-02 23:20:18,283 INFO     Failed                  : 0
+2026-07-02 23:31:47,326 INFO     
+2026-07-02 23:31:47,331 INFO     ========== CDSL ==========
+2026-07-02 23:31:49,480 INFO     Total Communiques Found : 6
+2026-07-02 23:31:49,967 INFO     Already Processed       : 6
+2026-07-02 23:31:49,968 INFO     No new communiques found.
+2026-07-02 23:40:06,086 INFO     
+2026-07-02 23:40:06,087 INFO     ========== CDSL ==========
+2026-07-02 23:40:08,479 INFO     Total Communiques Found : 6
+2026-07-02 23:40:08,946 INFO     Already Processed       : 6
+2026-07-02 23:40:08,947 INFO     No new communiques found.
+2026-07-03 12:58:43,392 INFO     
+2026-07-03 12:58:43,393 INFO     ========== CDSL ==========
+2026-07-03 12:58:45,949 INFO     Total Communiques Found : 0
+2026-07-03 12:58:45,949 INFO     Already Processed       : 0
+2026-07-03 12:58:45,949 INFO     No new communiques found.
+2026-07-04 20:46:18,145 INFO     
+2026-07-04 20:46:18,146 INFO     ========== CDSL ==========

@@ -201,3 +201,578 @@
 2026-07-02 16:57:24,608 INFO     Already Processed     : 6
 2026-07-02 16:57:24,608 INFO     Downloaded            : 3
 2026-07-02 16:57:24,608 INFO     Failed                : 0
+2026-07-02 23:18:59,575 INFO     
+2026-07-02 23:18:59,575 INFO     ========== NSE ==========
+2026-07-02 23:19:01,671 INFO     Total Circulars Found : 53
+2026-07-02 23:19:06,237 INFO     Already Processed     : 9
+2026-07-02 23:19:06,237 INFO     Downloading : NCL_CMPT_75021_Change in symbol of ETF schemes of Axis Asset Management Company Limited.pdf
+2026-07-02 23:19:08,395 INFO     Downloading : NSE_MSD_75020_Market Data - Reminder for Discontinuation of Order Snapshot Recovery via Solace API for MTBT broadc.pdf
+2026-07-02 23:19:08,847 INFO     Downloading : NSE_MSD_75020_Market Data - Reminder for Discontinuation of Order Snapshot Recovery via Solace API for MTBT broadc.pdf
+2026-07-02 23:19:09,326 ERROR    Failed : NSE_MSD_75020_Market Data - Reminder for Discontinuation of Order Snapshot Recovery via Solace API for MTBT broadc.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75020_Market Data - Reminder for Discontinuation of ' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:09,526 INFO     Downloading : NSE_MSD_75020_Market Data - Reminder for Discontinuation of Order Snapshot Recovery via Solace API for MTBT broadc.pdf
+2026-07-02 23:19:10,154 ERROR    Failed : NSE_MSD_75020_Market Data - Reminder for Discontinuation of Order Snapshot Recovery via Solace API for MTBT broadc.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75020_Market Data - Reminder for Discontinuation of ' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:10,158 INFO     Downloading : NSE_CML_75019_Listing of further issues of securities.pdf
+2026-07-02 23:19:11,010 INFO     Downloading : NSE_CML_75019_Listing of further issues of securities.pdf
+2026-07-02 23:19:11,764 ERROR    Failed : NSE_CML_75019_Listing of further issues of securities.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_CML_75019_Listing of further issues of securities.pdf' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:11,767 INFO     Downloading : NSE_INSP_75018_Submission of Half-yearly Reporting for usage of Software as a Service (SaaS) based solutions_applic.pdf
+2026-07-02 23:19:12,806 INFO     Downloading : NCL_EGR_75017_EGR - Settlement calendar for August 2026.pdf
+2026-07-02 23:19:13,709 INFO     Downloading : NSE_CML_75016_Listing of further issues of securities.pdf
+2026-07-02 23:19:14,605 INFO     Downloading : NCL_DS_75015_Settlement calendar for August 2026 - Debt Segment.pdf
+2026-07-02 23:19:15,094 INFO     Downloading : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+2026-07-02 23:19:14,707 INFO     Downloading : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+2026-07-02 23:19:15,300 ERROR    Failed : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75014_Encryption of Interactive Messages - Reminder ' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:15,303 INFO     Downloading : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+2026-07-02 23:19:15,959 ERROR    Failed : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75014_Encryption of Interactive Messages - Reminder ' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:15,962 INFO     Downloading : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+2026-07-02 23:19:16,487 ERROR    Failed : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75014_Encryption of Interactive Messages - Reminder ' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:16,491 INFO     Downloading : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+2026-07-02 23:19:17,708 ERROR    Failed : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75014_Encryption of Interactive Messages - Reminder ' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:17,711 INFO     Downloading : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+2026-07-02 23:19:18,247 ERROR    Failed : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75014_Encryption of Interactive Messages - Reminder ' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:18,250 INFO     Downloading : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+2026-07-02 23:19:19,013 ERROR    Failed : NSE_MSD_75014_Encryption of Interactive Messages - Reminder for Discontinuation of Old Interactive Parameters.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75014_Encryption of Interactive Messages - Reminder ' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:19,016 INFO     Downloading : NCL_CMPT_75013_Settlement calendar for August 2026 - Capital Market Segment of T+1 & T+0 settlement.pdf
+2026-07-02 23:19:20,219 INFO     Downloading : NCL_CMPT_75012_SLBS - Settlement Calendar for August 2026.pdf
+2026-07-02 23:19:20,879 INFO     Downloading : NSE_EGR_75011_Mock trading on Saturday, July 04, 2026 - No new version release.pdf
+2026-07-02 23:19:21,746 INFO     Downloading : NSE_COM_75010_Mock session on Saturday, July 04, 2026 - No new version release.pdf
+2026-07-02 23:19:22,564 INFO     Downloading : NSE_CD_75009_Mock trading on Saturday, July 04, 2026 - No new version release.pdf
+2026-07-02 23:19:23,243 INFO     Downloading : NSE_SLBS_75008_Mock trading on Saturday, July 04, 2026 - No new version release.pdf
+2026-07-02 23:19:23,713 INFO     Downloading : NSE_FAOP_75007_DIVIDEND_ Adjustment of Futures and Options contracts in the security TECHM.pdf
+2026-07-02 23:19:24,127 INFO     Downloading : NSE_CML_75006_Suspension of trading in Non-Convertible Securities (Privately Placed).pdf
+2026-07-02 23:19:24,740 INFO     Downloading : NSE_CML_75006_Suspension of trading in Non-Convertible Securities (Privately Placed).pdf
+2026-07-02 23:19:25,336 ERROR    Failed : NSE_CML_75006_Suspension of trading in Non-Convertible Securities (Privately Placed).pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_CML_75006_Suspension of trading in Non-Convertible Secur' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:25,339 INFO     Downloading : NSE_CML_75005_Listing of privately placed securities on the debt market segment of the Exchange.pdf
+2026-07-02 23:19:26,100 INFO     Downloading : NSE_CML_75005_Listing of privately placed securities on the debt market segment of the Exchange.pdf
+2026-07-02 23:19:26,629 ERROR    Failed : NSE_CML_75005_Listing of privately placed securities on the debt market segment of the Exchange.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_CML_75005_Listing of privately placed securities on the ' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:26,632 INFO     Downloading : NSE_FAOP_75004_DIVIDEND_ Adjustment of Futures and Options contracts in the security UNIONBANK.pdf
+2026-07-02 23:19:27,197 INFO     Downloading : NSE_SURV_75003_Applicability of Short-Term Additional Surveillance Measure (ST-ASM).zip
+2026-07-02 23:19:27,608 INFO     Downloading : NSE_SURV_75002_Applicability of Additional Surveillance Measure (ASM).zip
+2026-07-02 23:19:28,096 INFO     Downloading : NSE_MSD_75001_Streamlining EOD information dissemination related to Bhavcopy - Update.pdf
+2026-07-02 23:19:28,623 INFO     Downloading : NSE_MSD_75001_Streamlining EOD information dissemination related to Bhavcopy - Update.pdf
+2026-07-02 23:19:29,051 ERROR    Failed : NSE_MSD_75001_Streamlining EOD information dissemination related to Bhavcopy - Update.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75001_Streamlining EOD information dissemination rel' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:29,054 INFO     Downloading : NSE_MSD_75001_Streamlining EOD information dissemination related to Bhavcopy - Update.pdf
+2026-07-02 23:19:29,693 ERROR    Failed : NSE_MSD_75001_Streamlining EOD information dissemination related to Bhavcopy - Update.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75001_Streamlining EOD information dissemination rel' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:29,696 INFO     Downloading : NSE_MSD_75001_Streamlining EOD information dissemination related to Bhavcopy - Update.pdf
+2026-07-02 23:19:30,166 ERROR    Failed : NSE_MSD_75001_Streamlining EOD information dissemination related to Bhavcopy - Update.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_MSD_75001_Streamlining EOD information dissemination rel' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:30,169 INFO     Downloading : NSE_CML_74999_Listing of privately placed securities on capital market segment.pdf
+2026-07-02 23:19:30,717 INFO     Downloading : NSE_NMF_74998_Revision in 2FA Authorization Process for Mutual Fund Transactions and Systematic Registrations_Canc.zip
+2026-07-02 23:19:31,447 INFO     Downloading : NSE_CML_74997_Suspension of trading in Non-Convertible Debentures - Nido Home Finance Limited.pdf
+2026-07-02 23:19:31,975 INFO     Downloading : NSE_SURV_74996_Applicability of Additional Surveillance Measure under IBC.zip
+2026-07-02 23:19:32,410 INFO     Downloading : NSE_CMTR_74995_Change of Market Maker for GREENLEAF ENVIROTECH LIMITED.pdf
+2026-07-02 23:19:32,876 INFO     Downloading : NSE_CMTR_74995_Change of Market Maker for GREENLEAF ENVIROTECH LIMITED.pdf
+2026-07-02 23:19:33,408 ERROR    Failed : NSE_CMTR_74995_Change of Market Maker for GREENLEAF ENVIROTECH LIMITED.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 125, in download_nse
+    save_pdf(
+    ~~~~~~~~^
+        source="NSE",
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        category=category,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO store_pdf
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        category
+        ^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_CMTR_74995_Change of Market Maker for GREENLEAF ENVIROTE' for key 'store_pdf.unique_source_pdf'
+2026-07-02 23:19:33,412 INFO     Downloading : NSE_SURV_74992_Applicability of Enhanced Surveillance Measure (ESM).zip
+2026-07-02 23:19:34,078 INFO     Downloading : NSE_NMF_74991_Merger of certain schemes of Kotak Mutual Fund on NSE MF Invest Platform.zip
+2026-07-02 23:19:34,752 INFO     Downloading : NSE_CML_74986_Trade for Trade - CSM Technologies Limited (IPO).pdf
+2026-07-02 23:19:35,235 INFO     
+2026-07-02 23:19:35,235 INFO     NSE Summary
+2026-07-02 23:19:35,235 INFO     -------------------------
+2026-07-02 23:19:35,236 INFO     Total Circulars Found : 53
+2026-07-02 23:19:35,236 INFO     Already Processed     : 9
+2026-07-02 23:19:35,236 INFO     Downloaded            : 29
+2026-07-02 23:19:35,236 INFO     Failed                : 15
+2026-07-02 23:26:31,630 INFO     
+2026-07-02 23:26:31,631 INFO     ========== NSE ==========
+2026-07-02 23:26:32,883 INFO     Total Circulars Found : 53
+2026-07-02 23:26:37,370 INFO     Already Processed     : 53
+2026-07-02 23:26:37,370 INFO     No new circulars found.
+2026-07-02 23:27:43,481 INFO     
+2026-07-02 23:27:43,481 INFO     ========== NSE ==========
+2026-07-02 23:27:44,749 INFO     Total Circulars Found : 53
+2026-07-02 23:27:49,039 INFO     Already Processed     : 53
+2026-07-02 23:27:49,039 INFO     No new circulars found.
+2026-07-02 23:31:36,745 INFO     
+2026-07-02 23:31:36,745 INFO     ========== NSE ==========
+2026-07-02 23:31:37,971 INFO     Total Circulars Found : 53
+2026-07-02 23:31:42,451 INFO     Already Processed     : 53
+2026-07-02 23:31:42,451 INFO     No new circulars found.
+2026-07-02 23:39:55,672 INFO     
+2026-07-02 23:39:55,673 INFO     ========== NSE ==========
+2026-07-02 23:39:57,056 INFO     Total Circulars Found : 53
+2026-07-02 23:40:01,385 INFO     Already Processed     : 53
+2026-07-02 23:40:01,386 INFO     No new circulars found.
+2026-07-03 12:58:33,349 INFO     
+2026-07-03 12:58:33,350 INFO     ========== NSE ==========
+2026-07-03 12:58:34,861 INFO     Total Circulars Found : 4
+2026-07-03 12:58:35,314 INFO     Already Processed     : 0
+2026-07-03 12:58:35,315 INFO     Downloading : NCL_COM_75025_COMMODITY DERIVATIVES - SETTLEMENT SCHEDULE FOR AUGUST 2026.pdf
+2026-07-03 12:58:37,196 INFO     Downloading : NCL_CD_75024_CDS - MONTHLY SETTLEMENT SCHEDULE FOR AUGUST 2026.pdf
+2026-07-03 12:58:37,791 INFO     Downloading : NSE_CML_75022_Listing of Equity Shares of Aastha Spintex Limited (IPO).pdf
+2026-07-03 12:58:38,097 INFO     Downloading : NCL_CMPT_75000_F&O MONTHLY SETTLEMENT SCHEDULE FOR AUGUST 2026.pdf
+2026-07-03 12:58:38,451 INFO     
+2026-07-03 12:58:38,452 INFO     NSE Summary
+2026-07-03 12:58:38,452 INFO     -------------------------
+2026-07-03 12:58:38,452 INFO     Total Circulars Found : 4
+2026-07-03 12:58:38,453 INFO     Already Processed     : 0
+2026-07-03 12:58:38,453 INFO     Downloaded            : 4
+2026-07-03 12:58:38,453 INFO     Failed                : 0
+2026-07-04 20:46:11,949 INFO     
+2026-07-04 20:46:11,950 INFO     ========== NSE ==========
+2026-07-04 20:46:14,958 INFO     Total Circulars Found : 0
+2026-07-04 20:46:14,958 INFO     Already Processed     : 0
+2026-07-04 20:46:14,958 INFO     No new circulars found.
