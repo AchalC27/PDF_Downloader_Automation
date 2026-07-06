@@ -251,3 +251,17 @@
 2026-07-04 20:47:23,592 INFO     Total Circulars Found : 0
 2026-07-04 20:47:23,599 INFO     Already Processed     : 0
 2026-07-04 20:47:23,600 INFO     No new circulars found.
+2026-07-06 09:43:02,621 INFO     
+2026-07-06 09:43:02,627 INFO     ========== MCX ==========
+2026-07-06 09:43:02,629 INFO     Fetching page 1
+2026-07-06 09:43:04,228 INFO     Page 1/0
+2026-07-06 09:43:04,231 INFO     Total Circulars Found : 0
+2026-07-06 09:43:04,231 INFO     Already Processed     : 0
+2026-07-06 09:43:04,231 INFO     No new circulars found.
+2026-07-06 10:40:11,409 INFO     
+2026-07-06 10:40:11,413 INFO     ========== MCX ==========
+2026-07-06 10:40:11,415 INFO     Fetching page 1
+2026-07-06 10:40:13,114 INFO     Page 1/0
+2026-07-06 10:40:13,116 INFO     Total Circulars Found : 0
+2026-07-06 10:40:13,116 INFO     Already Processed     : 0
+2026-07-06 10:40:13,117 INFO     No new circulars found.

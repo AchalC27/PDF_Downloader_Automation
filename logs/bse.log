@@ -364,3 +364,13 @@ OSError: [Errno 22] Invalid argument: 'downloads\\bse\\02-07-2026\\20260702-4_Op
 2026-07-04 20:46:18,140 INFO     Already Processed     : 0
 2026-07-04 20:46:18,140 INFO     Downloaded            : 1
 2026-07-04 20:46:18,141 INFO     Failed                : 0
+2026-07-06 09:42:10,335 INFO     
+2026-07-06 09:42:10,337 INFO     ========== BSE ==========
+2026-07-06 09:42:11,071 INFO     Total Circulars Found : 0
+2026-07-06 09:42:11,072 INFO     Already Processed     : 0
+2026-07-06 09:42:11,072 INFO     No new circulars found.
+2026-07-06 10:38:55,082 INFO     
+2026-07-06 10:38:55,082 INFO     ========== BSE ==========
+2026-07-06 10:38:55,799 INFO     Total Circulars Found : 0
+2026-07-06 10:38:55,799 INFO     Already Processed     : 0
+2026-07-06 10:38:55,799 INFO     No new circulars found.

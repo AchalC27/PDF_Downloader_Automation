@@ -1,7 +1,8 @@
 import re
 from datetime import datetime
 from urllib.parse import unquote
-
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 import requests
 
 from .logger import get_logger
@@ -12,7 +13,7 @@ logger = get_logger("cdsl")
 
 BASE_URL = "https://www.cdslindia.com"
 PAGE_URL = f"{BASE_URL}/eservices/Publications/Communique"
-API_URL = f"{BASE_URL}/eservices/Publications/GetOnLoadCommunique"
+# API_URL = f"{BASE_URL}/eservices/Publications/GetOnLoadCommunique"
 DOWNLOAD_URL = f"{BASE_URL}/eservices/Publications/DownloadFile"
 
 HEADERS = {
@@ -21,58 +22,79 @@ HEADERS = {
     "Referer": PAGE_URL,
 }
 
-SEARCH_PROFILES = [
-    {
-        "label": "DP",
-        "payload": {
-            "m_arch_status": "A",
-            "type": "3",
-            "cno": "DP%",
-            "fromDate": "01-Jan-1990",
-            "toDate": "",
-            "Keyword": "%",
-            "Subject": "%",
-            "GCaptcha": "%",
-        },
-    },
-    {
-        "label": "RTA",
-        "payload": {
-            "m_arch_status": "A",
-            "type": "4",
-            "cno": "RTA%",
-            "fromDate": "01-Jan-1990",
-            "toDate": "",
-            "Keyword": "%",
-            "Subject": "%",
-            "GCaptcha": "%",
-        },
-    },
-]
+# SEARCH_PROFILES = [
+#     {
+#         "label": "DP",
+#         "payload": {
+#             "m_arch_status": "A",
+#             "type": "3",
+#             "cno": "DP%",
+#             "fromDate": "01-Jan-1990",
+#             "toDate": "",
+#             "Keyword": "%",
+#             "Subject": "%",
+#             "GCaptcha": "%",
+#         },
+#     },
+#     {
+#         "label": "RTA",
+#         "payload": {
+#             "m_arch_status": "A",
+#             "type": "4",
+#             "cno": "RTA%",
+#             "fromDate": "01-Jan-1990",
+#             "toDate": "",
+#             "Keyword": "%",
+#             "Subject": "%",
+#             "GCaptcha": "%",
+#         },
+#     },
+# ]
 
 DATE_FORMAT = "%d-%b-%Y"
 
 
 def fetch_communiques(session):
+    response = session.get(PAGE_URL, timeout=30)
+    response.raise_for_status()
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    table = soup.find("tbody", id="tblCommuniquDtlBody")
+
+    if table is None:
+        logger.error("Communique table not found.")
+        return []
+
     items = []
 
-    for profile in SEARCH_PROFILES:
-        response = session.post(API_URL, data=profile["payload"], timeout=30)
-        response.raise_for_status()
-        rows = response.json()
+    for row in table.find_all("tr"):
+        cols = row.find_all("td")
 
-        for row in rows:
-            comm_id = (row.get("comM_ID") or "").strip()
-            if not comm_id:
-                continue
+        if len(cols) < 4:
+            continue
 
-            items.append({
+        comm_id = cols[0].get_text(strip=True)
+
+        link = cols[1].find("a")
+
+        subject = link.get_text(" ", strip=True)
+
+        href = link.get("href", "")
+
+        date = cols[3].get_text(strip=True)
+
+        department = cols[2].get_text(strip=True)
+
+        items.append(
+            {
                 "id": comm_id,
-                "date": (row.get("comM_DATE") or "").strip(),
-                "subject": (row.get("subject") or row.get("description") or "").strip(),
-                "attachment": row.get("attachmenT_URL") or "",
-                "label": profile["label"],
-            })
+                "date": date,
+                "subject": subject,
+                "attachment": urljoin(BASE_URL, href),
+                "label": department or "General",
+            }
+        )
 
     return items
 
@@ -102,7 +124,7 @@ def get_filename(response, item):
 
 
 def download_file(session, item, folder):
-    url = f"{DOWNLOAD_URL}?eventID={item['id']}&method=communique"
+    url = item["attachment"]
 
     response = session.get(url, stream=True, timeout=60)
     response.raise_for_status()

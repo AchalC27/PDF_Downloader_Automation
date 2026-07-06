@@ -776,3 +776,13 @@ mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_CM
 2026-07-04 20:46:14,958 INFO     Total Circulars Found : 0
 2026-07-04 20:46:14,958 INFO     Already Processed     : 0
 2026-07-04 20:46:14,958 INFO     No new circulars found.
+2026-07-06 09:42:09,104 INFO     
+2026-07-06 09:42:09,105 INFO     ========== NSE ==========
+2026-07-06 09:42:10,329 INFO     Total Circulars Found : 0
+2026-07-06 09:42:10,329 INFO     Already Processed     : 0
+2026-07-06 09:42:10,329 INFO     No new circulars found.
+2026-07-06 10:38:54,053 INFO     
+2026-07-06 10:38:54,057 INFO     ========== NSE ==========
+2026-07-06 10:38:55,077 INFO     Total Circulars Found : 0
+2026-07-06 10:38:55,077 INFO     Already Processed     : 0
+2026-07-06 10:38:55,078 INFO     No new circulars found.
