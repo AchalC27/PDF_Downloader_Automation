@@ -786,3 +786,15 @@ mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_CM
 2026-07-06 10:38:55,077 INFO     Total Circulars Found : 0
 2026-07-06 10:38:55,077 INFO     Already Processed     : 0
 2026-07-06 10:38:55,078 INFO     No new circulars found.
+2026-07-06 14:39:54,207 INFO     
+2026-07-06 14:39:54,207 INFO     ========== NSE ==========
+2026-07-06 14:39:55,729 INFO     Total Circulars Found : 1
+2026-07-06 14:39:56,256 INFO     Already Processed     : 0
+2026-07-06 14:39:56,256 INFO     Downloading : NSE_CML_75048_Removal of Exclusively Listed Entities on De-recognized_Non-operational_Exited Stock Exchanges place.pdf
+2026-07-06 14:39:57,413 INFO     
+2026-07-06 14:39:57,414 INFO     NSE Summary
+2026-07-06 14:39:57,414 INFO     -------------------------
+2026-07-06 14:39:57,414 INFO     Total Circulars Found : 1
+2026-07-06 14:39:57,415 INFO     Already Processed     : 0
+2026-07-06 14:39:57,415 INFO     Downloaded            : 1
+2026-07-06 14:39:57,415 INFO     Failed                : 0

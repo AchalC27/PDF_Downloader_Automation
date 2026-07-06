@@ -265,3 +265,17 @@
 2026-07-06 10:40:13,116 INFO     Total Circulars Found : 0
 2026-07-06 10:40:13,116 INFO     Already Processed     : 0
 2026-07-06 10:40:13,117 INFO     No new circulars found.
+2026-07-06 14:41:08,974 INFO     
+2026-07-06 14:41:08,979 INFO     ========== MCX ==========
+2026-07-06 14:41:08,981 INFO     Fetching page 1
+2026-07-06 14:41:11,770 INFO     Page 1/1
+2026-07-06 14:41:11,772 INFO     Total Circulars Found : 1
+2026-07-06 14:41:11,862 INFO     Already Processed     : 0
+2026-07-06 14:41:11,863 INFO     Downloading : 06-Jul-2026_No386_MCXCCL_Due Date Rates.pdf
+2026-07-06 14:41:13,277 INFO     
+2026-07-06 14:41:13,277 INFO     MCX Summary
+2026-07-06 14:41:13,277 INFO     -------------------------
+2026-07-06 14:41:13,278 INFO     Total Circulars Found : 1
+2026-07-06 14:41:13,278 INFO     Already Processed     : 0
+2026-07-06 14:41:13,278 INFO     Downloaded            : 1
+2026-07-06 14:41:13,279 INFO     Failed                : 0

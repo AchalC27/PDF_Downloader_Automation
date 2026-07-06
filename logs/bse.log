@@ -374,3 +374,24 @@ OSError: [Errno 22] Invalid argument: 'downloads\\bse\\02-07-2026\\20260702-4_Op
 2026-07-06 10:38:55,799 INFO     Total Circulars Found : 0
 2026-07-06 10:38:55,799 INFO     Already Processed     : 0
 2026-07-06 10:38:55,799 INFO     No new circulars found.
+2026-07-06 14:39:57,419 INFO     
+2026-07-06 14:39:57,420 INFO     ========== BSE ==========
+2026-07-06 14:39:58,222 INFO     Total Circulars Found : 10
+2026-07-06 14:39:59,293 INFO     Already Processed     : 0
+2026-07-06 14:39:59,294 INFO     Downloading : 20260706-10_Listing of Equity Shares of KRATIKAL TECH LIMITED.pdf
+2026-07-06 14:40:00,282 INFO     Downloading : 20260706-9_Listing of Equity Shares of Sampark India Logistics Limited.pdf
+2026-07-06 14:40:00,471 INFO     Downloading : 20260706-8_Demat Auction 664.pdf
+2026-07-06 14:40:00,629 INFO     Downloading : 20260706-7_Bonus Issue of GOLDIAM INTERNATIONAL LTD (Scrip Code- 526729).pdf
+2026-07-06 14:40:00,791 INFO     Downloading : 20260706-6_Subdivision of equity shares of Simplex Castings Ltd (Scrip Code_ 513472)..pdf
+2026-07-06 14:40:00,957 INFO     Downloading : 20260706-5_Suspension of Trading in T-bills_Government Securities.pdf
+2026-07-06 14:40:01,142 INFO     Downloading : 20260706-4_Change in Group of Equity Shares of AASTHA SPINTEX LIMITED.pdf
+2026-07-06 14:40:01,289 INFO     Downloading : 20260706-3_Non-Competitive Bidding Facility for Auction of Treasury Bills (T-Bills) on July 08, 2026.pdf
+2026-07-06 14:40:01,442 INFO     Downloading : 20260706-2_Non-Competitive Bidding for Auction of State Government Securities (SDL) on July 07, 2026.pdf
+2026-07-06 14:40:01,593 INFO     Downloading : 20260706-1_Change in Group of Equity shares of ADON AGRO COMMODITIES LIMITED.pdf
+2026-07-06 14:40:01,746 INFO     
+2026-07-06 14:40:01,746 INFO     BSE Summary
+2026-07-06 14:40:01,746 INFO     --------------------------
+2026-07-06 14:40:01,747 INFO     Total Circulars Found : 10
+2026-07-06 14:40:01,747 INFO     Already Processed     : 0
+2026-07-06 14:40:01,747 INFO     Downloaded            : 10
+2026-07-06 14:40:01,747 INFO     Failed                : 0
