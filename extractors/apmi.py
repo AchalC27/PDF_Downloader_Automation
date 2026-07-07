@@ -1,5 +1,6 @@
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
+
 from .db import save_pdf, pdf_exists
 
 from .helpers import (
@@ -7,14 +8,11 @@ from .helpers import (
     load_seen,
     save_seen,
     get_page,
-    download_pdf,
     safe_filename,
-    dest_for,
 )
 
 APMI_BASE = "https://www.apmiindia.org"
 APMI_HOME = "https://www.apmiindia.org/apmi/welcome.htm"
-
 
 
 def extract_pdf_links(node, pdf_links):
@@ -30,6 +28,7 @@ def extract_pdf_links(node, pdf_links):
     for child in node.children:
         if getattr(child, "name", None):
             extract_pdf_links(child, pdf_links)
+
 
 def get_apmi_pdf_links(soup):
     pdf_links = set()
@@ -66,10 +65,12 @@ def get_apmi_pdf_links(soup):
         text = a.get_text(strip=True)
 
         if text in TARGET_MENUS:
-            print(f"Processing: {text}")
+            logger = get_logger("apmi")
+            logger.info("Processing: %s", text)
             extract_pdf_links(li, pdf_links)
 
     return pdf_links
+
 
 def scrape_apmi() -> tuple[int, int]:
     log = get_logger("apmi")
@@ -78,6 +79,7 @@ def scrape_apmi() -> tuple[int, int]:
     log.info("─── Scraping APMI ───")
 
     soup = get_page(APMI_HOME, log)
+
     if soup is None:
         return 0, 0
 
@@ -87,36 +89,47 @@ def scrape_apmi() -> tuple[int, int]:
         log.warning("No PDF links found.")
         return 0, 0
 
-    found = downloaded = 0
+    found = 0
+    downloaded = 0
 
     for pdf_url in sorted(pdf_links):
 
         found += 1
 
-        filename = safe_filename(Path(urlparse(pdf_url).path).name)
+        filename = safe_filename(
+            Path(urlparse(pdf_url).path).name
+        )
 
         if pdf_exists("APMI", filename):
             # log.info("%s already exists in database. Skipping.", filename)
             continue
 
+        # Download disabled.
+        # Keeping these lines commented in case local downloads
+        # are required again in the future.
 
-        
-        dest = dest_for("APMI", filename)
+        # dest = dest_for("APMI", filename)
 
-        log.info("Downloading %s", filename)
+        log.info("Saving %s", filename)
 
-        if download_pdf(pdf_url, dest, log):
-            save_pdf(
-                source="APMI",
-                pdf_name=filename,
-                pdf_link=pdf_url,
-                category="Circular"
-            )
-            seen.add(pdf_url)
-            downloaded += 1
+        # if download_pdf(pdf_url, dest, log):
+
+        save_pdf(
+            source="APMI",
+            pdf_name=filename,
+            pdf_link=pdf_url,
+            category="Circular",
+        )
+
+        seen.add(pdf_url)
+        downloaded += 1
 
     save_seen("apmi", seen)
 
-    log.info("APMI -> Found %d PDFs, Downloaded %d", found, downloaded)
+    log.info(
+        "APMI -> Found %d PDFs, Saved %d",
+        found,
+        downloaded,
+    )
 
     return found, downloaded

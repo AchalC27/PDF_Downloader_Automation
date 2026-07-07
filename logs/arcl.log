@@ -9870,3 +9870,123 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.
 2026-07-07 12:04:42,826 INFO     Already Processed     : 416
 2026-07-07 12:04:42,826 INFO     Downloaded            : 0
 2026-07-07 12:04:42,826 INFO     Failed                : 2
+2026-07-07 12:16:35,952 INFO     
+2026-07-07 12:16:35,953 INFO     ========== ARCL ==========
+2026-07-07 12:16:38,302 INFO     Running ARCL extractor...
+2026-07-07 12:16:52,829 INFO     Total Documents Found : 418
+2026-07-07 12:16:52,829 INFO     Already Processed     : 416
+2026-07-07 12:16:52,829 INFO     Downloading : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+2026-07-07 12:16:53,149 ERROR    Failed : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/221_27-Feb-2025-List%20of%20eligible%20securities%20for%20March%202025.zip
+2026-07-07 12:16:53,150 INFO     Downloading : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+2026-07-07 12:16:53,471 ERROR    Failed : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/220_27-Feb-2025-List%20of%20Additional%20eligible%20securities%20for%20Feb%202025-05.pdf
+2026-07-07 12:16:53,474 INFO     
+2026-07-07 12:16:53,474 INFO     ARCL Summary
+2026-07-07 12:16:53,474 INFO     -------------------------
+2026-07-07 12:16:53,474 INFO     Total Documents Found : 418
+2026-07-07 12:16:53,474 INFO     Already Processed     : 416
+2026-07-07 12:16:53,474 INFO     Downloaded            : 0
+2026-07-07 12:16:53,475 INFO     Failed                : 2
+2026-07-07 12:31:00,896 INFO     
+2026-07-07 12:31:00,896 INFO     ========== ARCL ==========
+2026-07-07 12:31:03,426 INFO     Running ARCL extractor...
+2026-07-07 12:31:03,478 INFO     Total Documents Found : 418
+2026-07-07 12:31:12,400 INFO     Saving : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+2026-07-07 12:31:12,488 INFO     Saving : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+2026-07-07 12:31:19,316 INFO     
+2026-07-07 12:31:19,317 INFO     ARCL Summary
+2026-07-07 12:31:19,317 INFO     -------------------------
+2026-07-07 12:31:19,317 INFO     Total Documents Found : 418
+2026-07-07 12:31:19,317 INFO     Already Processed     : 416
+2026-07-07 12:31:19,317 INFO     Downloaded            : 2
+2026-07-07 12:31:19,317 INFO     Failed                : 0
+2026-07-07 12:31:35,999 INFO     
+2026-07-07 12:31:35,999 INFO     ========== ARCL ==========
+2026-07-07 12:31:38,442 INFO     Running ARCL extractor...
+2026-07-07 12:31:38,488 INFO     Total Documents Found : 418
+2026-07-07 12:31:55,706 INFO     
+2026-07-07 12:31:55,706 INFO     ARCL Summary
+2026-07-07 12:31:55,707 INFO     -------------------------
+2026-07-07 12:31:55,707 INFO     Total Documents Found : 418
+2026-07-07 12:31:55,707 INFO     Already Processed     : 418
+2026-07-07 12:31:55,707 INFO     Downloaded            : 0
+2026-07-07 12:31:55,707 INFO     Failed                : 0
+2026-07-07 12:35:21,757 INFO     
+2026-07-07 12:35:21,757 INFO     ========== ARCL ==========
+2026-07-07 12:35:24,096 INFO     Running ARCL extractor...
+2026-07-07 12:35:24,143 INFO     Total Documents Found : 418
+2026-07-07 12:35:41,606 INFO     
+2026-07-07 12:35:41,606 INFO     ARCL Summary
+2026-07-07 12:35:41,607 INFO     -------------------------
+2026-07-07 12:35:41,607 INFO     Total Documents Found : 418
+2026-07-07 12:35:41,607 INFO     Already Processed     : 418
+2026-07-07 12:35:41,607 INFO     Downloaded            : 0
+2026-07-07 12:35:41,607 INFO     Failed                : 0
+2026-07-07 12:36:49,701 INFO     
+2026-07-07 12:36:49,702 INFO     ========== ARCL ==========
+2026-07-07 12:36:52,943 INFO     Running ARCL extractor...
+2026-07-07 12:36:52,996 INFO     Total Documents Found : 418
+2026-07-07 12:37:08,617 INFO     
+2026-07-07 12:37:08,618 INFO     ARCL Summary
+2026-07-07 12:37:08,618 INFO     -------------------------
+2026-07-07 12:37:08,618 INFO     Total Documents Found : 418
+2026-07-07 12:37:08,618 INFO     Already Processed     : 418
+2026-07-07 12:37:08,618 INFO     Downloaded            : 0
+2026-07-07 12:37:08,618 INFO     Failed                : 0
+2026-07-07 12:44:46,159 INFO     
+2026-07-07 12:44:46,159 INFO     ========== ARCL ==========
+2026-07-07 12:44:48,504 INFO     Running ARCL extractor...
+2026-07-07 12:44:48,553 INFO     Total Documents Found : 418
+2026-07-07 12:45:03,754 INFO     
+2026-07-07 12:45:03,754 INFO     ARCL Summary
+2026-07-07 12:45:03,755 INFO     -------------------------
+2026-07-07 12:45:03,755 INFO     Total Documents Found : 418
+2026-07-07 12:45:03,755 INFO     Already Processed     : 418
+2026-07-07 12:45:03,755 INFO     Downloaded            : 0
+2026-07-07 12:45:03,755 INFO     Failed                : 0
+2026-07-07 12:49:34,146 INFO     
+2026-07-07 12:49:34,146 INFO     ========== ARCL ==========
+2026-07-07 12:49:36,533 INFO     Running ARCL extractor...
+2026-07-07 12:49:36,582 INFO     Total Documents Found : 418
+2026-07-07 12:49:51,102 INFO     
+2026-07-07 12:49:51,102 INFO     ARCL Summary
+2026-07-07 12:49:51,102 INFO     -------------------------
+2026-07-07 12:49:51,102 INFO     Total Documents Found : 418
+2026-07-07 12:49:51,103 INFO     Already Processed     : 418
+2026-07-07 12:49:51,103 INFO     Downloaded            : 0
+2026-07-07 12:49:51,103 INFO     Failed                : 0
+2026-07-07 12:53:28,330 INFO     
+2026-07-07 12:53:28,330 INFO     ========== ARCL ==========
+2026-07-07 12:53:30,822 INFO     Running ARCL extractor...
+2026-07-07 12:53:30,869 INFO     Total Documents Found : 418
+2026-07-07 12:53:45,643 INFO     
+2026-07-07 12:53:45,643 INFO     ARCL Summary
+2026-07-07 12:53:45,643 INFO     -------------------------
+2026-07-07 12:53:45,643 INFO     Total Documents Found : 418
+2026-07-07 12:53:45,643 INFO     Already Processed     : 418
+2026-07-07 12:53:45,643 INFO     Downloaded            : 0
+2026-07-07 12:53:45,643 INFO     Failed                : 0
+2026-07-07 12:56:03,706 INFO     
+2026-07-07 12:56:03,706 INFO     ========== ARCL ==========
+2026-07-07 12:56:05,986 INFO     Running ARCL extractor...
+2026-07-07 12:56:06,038 INFO     Total Documents Found : 418
+2026-07-07 12:56:21,557 INFO     
+2026-07-07 12:56:21,557 INFO     ARCL Summary
+2026-07-07 12:56:21,557 INFO     -------------------------
+2026-07-07 12:56:21,558 INFO     Total Documents Found : 418
+2026-07-07 12:56:21,558 INFO     Already Processed     : 418
+2026-07-07 12:56:21,558 INFO     Downloaded            : 0
+2026-07-07 12:56:21,558 INFO     Failed                : 0

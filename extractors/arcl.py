@@ -4,11 +4,12 @@ from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
+
 from .db import pdf_exists, save_pdf
 from .logger import get_logger
-from .get_download import get_download
-from .json_handler import get_json_file, load_downloaded_urls, save_downloaded_urls
+
 logger = get_logger("arcl")
+
 URL = "https://www.arclindia.com/circulars"
 BASE_URL = "https://www.arclindia.com"
 
@@ -25,23 +26,37 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9"
 }
 
-ALLOWED_EXTENSIONS = (".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip", ".csv")
+ALLOWED_EXTENSIONS = (
+    ".pdf",
+    ".doc",
+    ".docx",
+    ".xls",
+    ".xlsx",
+    ".zip",
+    ".csv",
+)
 
 
 def normalize_url(href, base_url):
     href = href.strip()
+
     if href.startswith("/"):
         href = base_url.rstrip("/") + href
+
     return urljoin(base_url, href)
 
 
 def generic_document_extractor(html, base_url):
     soup = BeautifulSoup(html, "html.parser")
     links = []
+
     for tag in soup.find_all("a", href=True):
+
         href = normalize_url(tag["href"], base_url)
+
         if href.lower().endswith(ALLOWED_EXTENSIONS):
             links.append(href)
+
     return list(dict.fromkeys(links))
 
 
@@ -51,45 +66,60 @@ def extract_arcl(html, base_url):
 
 
 def fetch_html():
-    response = requests.get(URL, headers=HEADERS, timeout=30)
+    response = requests.get(
+        URL,
+        headers=HEADERS,
+        timeout=30,
+    )
     response.raise_for_status()
+
     return response.text
 
 
 def generate_filename(document_url):
     original_filename = document_url.split("/")[-1]
-    url_hash = hashlib.md5(document_url.encode("utf-8")).hexdigest()[:8]
+
+    url_hash = hashlib.md5(
+        document_url.encode("utf-8")
+    ).hexdigest()[:8]
+
     base, ext = os.path.splitext(original_filename)
+
     return f"{base}_{url_hash}{ext}"
 
 
-def download_documents(document_links, download_folder):
+def download_arcl():
+    logger.info("")
+    logger.info("========== ARCL ==========")
+
+    html = fetch_html()
+
+    document_links = extract_arcl(html, BASE_URL)
+
+    total = len(document_links)
+
     downloaded = 0
     failed = 0
+    already_processed = 0
+
+    logger.info(f"Total Documents Found : {total}")
 
     for document_url in document_links:
 
         filename = generate_filename(document_url)
-        filepath = os.path.join(download_folder, filename)
+
+        if pdf_exists("ARCL", filename):
+            already_processed += 1
+            continue
 
         try:
-            logger.info(f"Downloading : {filename}")
-
-            response = requests.get(
-                document_url,
-                headers=HEADERS,
-                timeout=60
-            )
-            response.raise_for_status()
-
-            with open(filepath, "wb") as file:
-                file.write(response.content)
+            logger.info(f"Saving : {filename}")
 
             save_pdf(
                 source="ARCL",
                 pdf_name=filename,
                 pdf_link=document_url,
-                category="Circulars"
+                category="Circulars",
             )
 
             downloaded += 1
@@ -97,51 +127,6 @@ def download_documents(document_links, download_folder):
         except Exception:
             logger.exception(f"Failed : {filename}")
             failed += 1
-
-    return downloaded, failed
-
-
-def download_arcl():
-    logger.info("")
-    logger.info("========== ARCL ==========")
-
-    download_folder = get_download("arcl")
-    # json_file = get_json_file("arcl")
-    # processed_urls = load_downloaded_urls(json_file)
-
-    html = fetch_html()
-    document_links = extract_arcl(html, BASE_URL)
-
-    total = len(document_links)
-    
-    new_documents = []
-
-    for url in document_links:
-
-        filename = generate_filename(url)
-
-        if pdf_exists("ARCL", filename):
-            # logger.info(f"{filename} already exists in database.")
-            continue
-
-        new_documents.append(url)
-    
-    already_processed = total - len(new_documents)
-
-    logger.info(f"Total Documents Found : {total}")
-    logger.info(f"Already Processed     : {already_processed}")
-
-    if not new_documents:
-        logger.info("No new documents found.")
-        return
-
-    downloaded, failed = download_documents(
-        new_documents,
-        download_folder
-    )
-
-    # downloaded, failed = download_documents(new_documents, download_folder, processed_urls)
-    # save_downloaded_urls(json_file, processed_urls)
 
     logger.info("")
     logger.info("ARCL Summary")

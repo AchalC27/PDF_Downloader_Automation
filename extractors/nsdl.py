@@ -115,10 +115,10 @@ def scrape_nsdl() -> tuple[int, int]:
                 )
 
                 if pdf_exists("NSDL", filename):
-                    log.info(
-                        "%s already exists in database.",
-                        filename,
-                    )
+                    # log.info(
+                    #     "%s already exists in database.",
+                    #     filename,
+                    # )
                     continue
 
                 dest = dest_for("NSDL", filename)

@@ -708,3 +708,744 @@
 2026-07-07 12:05:29,427 INFO     2026-001-Tender Offer-Shree Digvijay Cement Company Limited - Tender offer for Takeover.pdf already exists in database.
 2026-07-07 12:05:29,462 INFO     Circular nos 2026-0001 to 2026-0014.zip already exists in database.
 2026-07-07 12:05:29,463 INFO     NSDL Complete → found 249 files, downloaded 5 new
+2026-07-07 12:17:20,439 INFO     2026-0081-Policy-Activation of ISINs of Electronic Gold Receipts.pdf already exists in database.
+2026-07-07 12:17:20,475 INFO     Circular nos 2026-1210 to 2026-1230.zip already exists in database.
+2026-07-07 12:17:20,510 INFO     2026-076-Tender Offer - Sarla Performance Fibers Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:17:20,549 INFO     Circular nos 2026-1196 to 2026-1209.zip already exists in database.
+2026-07-07 12:17:20,585 INFO     2026-075-Tender Offer - GLITTEK GRANITES LIMITED - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:20,627 INFO     Circular nos 2026-1176 to 2026-1195.zip already exists in database.
+2026-07-07 12:17:20,672 INFO     2026-0079-Policy-SEBI circular on Status of SPVs post conclusion or termination of Concession Agreement.pdf already exists in database.
+2026-07-07 12:17:20,708 INFO     2026-0080-Policy-SEBI Master Circular on Surveillance of Securities Market.pdf already exists in database.
+2026-07-07 12:17:20,744 INFO     2026-0078-Policy-SEBI circular on Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets.pdf already exists in database.
+2026-07-07 12:17:20,782 INFO     2026-074-Tender Offer - P H Capital Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:20,980 INFO     2026-0080-Policy- Annexure.zip already exists in database.
+2026-07-07 12:17:21,017 INFO     2026-073-Tender Offer - Change in settlement date of Tejassvi Aaharam Limited.pdf already exists in database.
+2026-07-07 12:17:21,052 INFO     Circular nos 2026-1160 to 2026-1175.zip already exists in database.
+2026-07-07 12:17:21,088 INFO     2026-0077-Policy-Intimation of Speed-e deadline time for Electronic Gold Receipt NSE.pdf already exists in database.
+2026-07-07 12:17:21,127 INFO     Circular nos 2026-1146 to 2026-1159.zip already exists in database.
+2026-07-07 12:17:21,162 INFO     Circular nos 2026-1135 to 2026-1145.zip already exists in database.
+2026-07-07 12:17:21,197 INFO     2026-0076-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:21,231 INFO     2026-0074-Policy-Facility for submission of Half yearly and Annual Cyber Audit Report in electronic form through e- PASS.pdf already exists in database.
+2026-07-07 12:17:21,379 INFO     2026-071-Tender Offer - Avi Products India Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:21,415 INFO     2026-0076-Policy-SEBI Circular on Norms for sharing and usage of price data for educational purposes.pdf already exists in database.
+2026-07-07 12:17:21,450 INFO     2026-0075-Policy-Facility for submission of VAPT compliance half yearly and Annual report in electronic form through e-PASS.pdf already exists in database.
+2026-07-07 12:17:21,487 INFO     2026-069-Tender Offer - Change in settlement date of AAA Technologies Limited.pdf already exists in database.
+2026-07-07 12:17:21,522 INFO     2026-0073-Policy-Annexures.zip already exists in database.
+2026-07-07 12:17:21,558 INFO     2026-068-Tender Offer - Change in settlement date of Stylam Industries Limited.pdf already exists in database.
+2026-07-07 12:17:21,595 INFO     2026-070-Tender Offer - SHAH FOODS LIMITED - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:21,630 INFO     2026-0073-Policy-Amendments to NSDL Bye Laws and Business Rules pertaining to processing of investor service request for dematerialisation of securities.pdf already exists in database.
+2026-07-07 12:17:21,665 INFO     Circular nos 2026-1089 to 2026-1104.zip already exists in database.
+2026-07-07 12:17:21,856 INFO     2026-066-Tender Offer - Change in settlement date of Jolly Plastic Industries Limited.pdf already exists in database.
+2026-07-07 12:17:21,890 INFO     2026-0072-Policy-SEBI Circular on Advisory on Emerging Advanced Artificial Intelligence (AI) Tools for Vulnerability Detection (like Mythos).pdf already exists in database.
+2026-07-07 12:17:21,925 INFO     2026-0072-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:21,960 INFO     2026-065-Tender Offer - Jagsonpal Pharmaceuticals Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:17:21,995 INFO     2026-064-Tender Offer - Piyush Limited - Tender offer for Delisting.pdf already exists in database.
+2026-07-07 12:17:22,029 INFO     2026-063-Tender Offer - EMA PARTNERS INDIA LIMITED- Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:17:22,066 INFO     Circular nos 2026-1066 to 2026-1078 dated 06 May 2026.zip already exists in database.
+2026-07-07 12:17:22,100 INFO     2026-0069-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:22,253 INFO     2026-0071-Policy-Amendment to Business Rules of NSDL pertaining to Dispatch of Consolidated Account Statement (CAS) for all securities assets.pdf already exists in database.
+2026-07-07 12:17:22,288 INFO     2026-0070-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:17:22,324 INFO     2026-0071-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:22,359 INFO     Circular nos 2026-1039 to 2026-1049.zip already exists in database.
+2026-07-07 12:17:22,394 INFO     2026-0070-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:22,599 INFO     2026-0006-Policy-DDP-Annexure.zip already exists in database.
+2026-07-07 12:17:22,632 INFO     2026-0006-Policy-DDP-SEBI circular on Framework for net settlement of funds for transactions done by Foreign Portfolio Investors (FPIs) in cash market.pdf already exists in database.
+2026-07-07 12:17:22,667 INFO     2026-0066-Policy-Amendment to NSDL Bye Laws and Business Rules pertaining to revise and revamp nomination facilities in the Indian Securities Market_.pdf already exists in database.
+2026-07-07 12:17:22,704 INFO     2026-062-Tender Offer -Windlas Biotech Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:17:22,738 INFO     Circular nos 2026-1008 to 2026-1021.zip already exists in database.
+2026-07-07 12:17:22,774 INFO     2026-0067-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:17:22,809 INFO     2026-0066-Policy- Annexures.zip already exists in database.
+2026-07-07 12:17:22,843 INFO     2026-0006-Policy-DDP-Annexure.zip already exists in database.
+2026-07-07 12:17:22,992 INFO     Circular nos 2026-0995 to 2026-1007.zip already exists in database.
+2026-07-07 12:17:23,028 INFO     2026-0065-Policy-Submission of Initial Accessibility Audit Report for Digital Platforms.pdf already exists in database.
+2026-07-07 12:17:23,062 INFO     2026-0064-Policy-Suspension of demat accounts of existing clients whose KYC records are not found to be valid by KRAs after the validation process.pdf already exists in database.
+2026-07-07 12:17:23,096 INFO     2026-061-Tender Offer -Change in settlement date of Indo Borax and Chemicals Limited.pdf already exists in database.
+2026-07-07 12:17:23,135 INFO     2026-060-Tender Offer -N2N Technologies Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:23,172 INFO     2026-059-Tender Offer -Tejassvi Aaharam Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:23,207 INFO     2026-0063-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:23,242 INFO     Circular nos 2026-0984 to 2026-0994.zip already exists in database.
+2026-07-07 12:17:23,278 INFO     2026-0063-Policy-Amendment to Business Rules of NSDL - Penalty Structure.pdf already exists in database.
+2026-07-07 12:17:23,313 INFO     2026-0062-Policy-Annexures.zip already exists in database.
+2026-07-07 12:17:23,497 INFO     Circular nos 2026-0970 to 2026-0983.zip already exists in database.
+2026-07-07 12:17:23,531 INFO     2026-0062-Policy-Amendments to Business Rules of NSDL regarding Closure and Shifting of Demat account and Opening of Demat account in name of AOP.pdf already exists in database.
+2026-07-07 12:17:23,567 INFO     2026-0059-Policy-Updates_for_Implementation_of_Section_51A_of_UAPA_1967_Updates_to_UNSCs_1988_(2011)_ISIL_(Daesh)_and_Al-Qaida_Sanctions_List.pdf already exists in database.
+2026-07-07 12:17:23,605 INFO     2026-0060-Policy-Validation of reason codes in respect of off-market transactions.pdf already exists in database.
+2026-07-07 12:17:23,640 INFO     2026-057-Tender Offer -Change in settlement date of Tulive Developers Limited.pdf already exists in database.
+2026-07-07 12:17:23,676 INFO     2026-0061-Policy-Amendment to Business Rules of NSDL regarding Margin Pledge and Pledge Release Invocation-cum-transfer_.pdf already exists in database.
+2026-07-07 12:17:23,711 INFO     2026-0059-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:23,746 INFO     2026-001-Training-Four-Day Online Training Program on NSDL Depository Operations for Participants.pdf already exists in database.
+2026-07-07 12:17:23,979 INFO     2026-0060-Policy-Annexure A.zip already exists in database.
+2026-07-07 12:17:24,014 INFO     2026-056-Tender Offer -Aaa Technologies Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:24,048 INFO     2026-0061-Policy-Annexures.zip already exists in database.
+2026-07-07 12:17:24,084 INFO     2026-058-Tender Offer -Aurobindo Pharma Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:17:24,119 INFO     2026-0058-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:24,154 INFO     2026-053-Tender Offer -Stylam Industries Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:24,193 INFO     2026-055-Tender Offer -Jauss Polymers Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:24,227 INFO     2026-054-Tender Offer -Change in settlement date of Adc India Communications Limited.pdf already exists in database.
+2026-07-07 12:17:24,262 INFO     Circular nos 2026-0899 to 2026-0916.zip already exists in database.
+2026-07-07 12:17:24,422 INFO     2026-0058-Policy-SEBI Review of requirement relating to registration for a Not for Profit Organizatio for issuance of Zero Coupon Zero Principal Instruments.pdf already exists in database.
+2026-07-07 12:17:24,457 INFO     2026-052-Tender Offer -Change in settlement date of Photon Capital Advisors Limited.pdf already exists in database.
+2026-07-07 12:17:24,492 INFO     2026-050-Tender Offer -Simandhar Impex Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:24,527 INFO     2026-0057-Policy-Opening of Demat Account in case of HUF.pdf already exists in database.
+2026-07-07 12:17:24,564 INFO     2026-051-Tender Offer -Kwality WallS (India) Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:24,598 INFO     Circular nos 2026-0883 to 2026-0898.zip already exists in database.
+2026-07-07 12:17:24,632 INFO     2026-0056-Policy-Annual assessment of default status of debt securities.pdf already exists in database.
+2026-07-07 12:17:24,669 INFO     2026-048-Tender Offer -Jolly Plastic Industries Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:24,705 INFO     2026-0056-Policy Annexures.zip already exists in database.
+2026-07-07 12:17:24,860 INFO     2026-049-Tender Offer -Puretrop Fruits Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:17:24,895 INFO     2026-0005-Policy-DDP-SEBI circular on Guidelines for Custodians.pdf already exists in database.
+2026-07-07 12:17:24,930 INFO     2026-0005-Policy-DDP-Annexure.zip already exists in database.
+2026-07-07 12:17:24,966 INFO     2026-0054-Policy-Internal and Concurrent Audit of Depository Operations.pdf already exists in database.
+2026-07-07 12:17:25,001 INFO     2026-0055-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1999 ISIL (Daesh) Al-Qaida Sanctions Listt.pdf already exists in database.
+2026-07-07 12:17:25,038 INFO     2026-0054-Policy-Annexures.zip already exists in database.
+2026-07-07 12:17:25,074 INFO     2026-0055-Policy-Annexures.zip already exists in database.
+2026-07-07 12:17:25,109 INFO     2026-047-Tender Offer -Tulive Developers Limited - Tender offer for Delisting.pdf already exists in database.
+2026-07-07 12:17:25,146 INFO     Circular nos 2026-0840 to 2026-0850.zip already exists in database.
+2026-07-07 12:17:25,291 INFO     2026-046-Tender Offer -ASPIRA PATHLAB AND DIAGNOSTICS LIMITED- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:25,325 INFO     2026-0053-Policy-SEBI Circular on Ease on doing business mechanism for lock-in of pledged shares under SEBI Issue of Capital and Disclosure Requirement Regulations 2018.pdf already exists in database.
+2026-07-07 12:17:25,361 INFO     2026-0052-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:25,397 INFO     2026-045-Tender Offer - SWITCHING TECHNOLOGIES GUNTHER LIMITED- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:25,431 INFO     2026-0053-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:25,466 INFO     2026-0051-Policy-Freezing of KRA KYC Non-compliant Demat Accounts.pdf already exists in database.
+2026-07-07 12:17:25,503 INFO     2026-044-Tender Offer - Change in settlement date of Orient Steel and Industries Limited.pdf already exists in database.
+2026-07-07 12:17:25,538 INFO     2026-0052-Policy-SEBI circular on Relaxation from the applicability of SEBI Master Circular for compliance with the provisions of the SEBI LODR Regulations 2015.pdf already exists in database.
+2026-07-07 12:17:25,724 INFO     2026-043-Tender Offer - Indo Borax and Chemicals Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:25,759 INFO     2026-0050-Policy-Annexure.zip already exists in database.
+2026-07-07 12:17:25,794 INFO     2026-0050-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1999 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:17:25,828 INFO     Circular nos 2026-0788 to 2026-0796.zip already exists in database.
+2026-07-07 12:17:25,863 INFO     2026-042-Tender_Offer_-Banganga_Paper_Industries_Limited-_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:17:25,897 INFO     Circular_nos_2026-0777_to_2026-0787_dated_06_April_2026.zip already exists in database.
+2026-07-07 12:17:25,932 INFO     2026-0069-Policy- SEBI Circular on Operationalisation of Past Risk and Return Verification Agency (PaRRVA).pdf already exists in database.
+2026-07-07 12:17:25,970 INFO     Circular nos 2026-0767 to 2026-0776.zip already exists in database.
+2026-07-07 12:17:26,006 INFO     Circular nos 2026-0753 to 2026-0766 dated 01 April 2026.zip already exists in database.
+2026-07-07 12:17:26,171 INFO     2026-0049-Policy-One-Time_Interest_Waiver_Scheme_for_Settlement_of_Outstanding_payments.pdf already exists in database.
+2026-07-07 12:17:26,207 INFO     2026-039-Tender_Offer_-Orient_Steel_and_Industries_Limited-_Tender_offer_for_Delisting.pdf already exists in database.
+2026-07-07 12:17:26,241 INFO     2026-041-Tender_Offer_-LCC_Infotech_Limited-_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:17:26,277 INFO     2026-040-Tender_Offer_-Swarnsarita_Jewels_India_Limited_-_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:17:26,443 INFO     2026-0045-Policy-SEBI Circular on Relaxations in certain reporting requirements for certain Stock Brokers and doing away with requirement of reporting of demat account.pdf already exists in database.
+2026-07-07 12:17:26,477 INFO     2026-0047-Policy-Surveillance Obligations for Depository Participants (DPs).pdf already exists in database.
+2026-07-07 12:17:26,512 INFO     2026-038-Tender Offer -Adc India Communications Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:26,548 INFO     2026-0046-Policy-Change in Pay-in and Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:17:26,583 INFO     2026-0048-Policy-Circular for Non availability of IDT of Gsec.pdf already exists in database.
+2026-07-07 12:17:26,618 INFO     2026-0043-Policy-Amendments to Business Rules of NSDL - Settlement Fee.pdf already exists in database.
+2026-07-07 12:17:26,782 INFO     2026-0041-Policy-Operating guidelines in terms of SEBI Circular regarding Creation Invocation of Pledge instructions through NSDL Depository System.pdf already exists in database.
+2026-07-07 12:17:26,816 INFO     2026-0040-Policy- Mock Testing – BSDA Opt-Out facility and BSDA Valuation.pdf already exists in database.
+2026-07-07 12:17:26,851 INFO     2026-0037-Policy-Change in Pay-in and Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:17:26,886 INFO     2026-0034-Policy- Amendment to Business Rules of NSDL regarding Fee for Conversion Reconversion and Redemption of Mutual Fund Units.pdf already exists in database.
+2026-07-07 12:17:26,923 INFO     2026-0035-Amendment to Clause B(o) of Annexure O of the NSDL Business Rules.pdf already exists in database.
+2026-07-07 12:17:26,958 INFO     2026-0005-SPEED-e-Policy-Change in deadline time for submission of pay-in instructions on SPEED-e.pdf already exists in database.
+2026-07-07 12:17:26,994 INFO     2026-0033-Policy-The Financial Action Task Force (FATF) Public statement on jurisdictions on call for action and increased monitoring - February 2026 Plenary.pdf already exists in database.
+2026-07-07 12:17:27,028 INFO     2026-0036-Policy-Enhancement in NSDL Depository System in respect of BSDA Opt-Out Facility.pdf already exists in database.
+2026-07-07 12:17:27,183 INFO     Circular nos 2026-0651 to 2026-0660.zip already exists in database.
+2026-07-07 12:17:27,217 INFO     Circular nos 2026-0638 to 2026-0650.zip already exists in database.
+2026-07-07 12:17:27,253 INFO     2026-033-Tender Offer -Change in settlement date of Pankaj Polymers Limited.pdf already exists in database.
+2026-07-07 12:17:27,288 INFO     2026-034-Tender Offer -Lykis Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:27,322 INFO     2026-0032-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:17:27,357 INFO     Circular nos 2026-0622 to 2026-0637.zip already exists in database.
+2026-07-07 12:17:27,395 INFO     Circular nos 2026-0610 to 2026-0621.zip already exists in database.
+2026-07-07 12:17:27,430 INFO     Circular nos 2026-0595 to 2026-0609.zip already exists in database.
+2026-07-07 12:17:27,467 INFO     Circular nos 2026-0580 to 2026-0594.zip already exists in database.
+2026-07-07 12:17:27,504 INFO     2026-0031-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:17:27,652 INFO     2026-0030-Policy- Submission of half yearly Cyber Security audit ATR by Depository Participants.pdf already exists in database.
+2026-07-07 12:17:27,687 INFO     2026-0029-Policy-Premature Redemption Calendar for Sovereign Gold Bonds for the period April 2026 to September 2026.pdf already exists in database.
+2026-07-07 12:17:27,723 INFO     Circular nos 2026-0526 to 2026-0535.zip already exists in database.
+2026-07-07 12:17:27,758 INFO     Circular nos 2026-0511 to 2026-0525 dated 02 March 2026.zip already exists in database.
+2026-07-07 12:17:27,911 INFO     2026-0028-Policy-SEBI Circular on Ease of Doing Investment - Disclosure of registered name and registration number by SEBI regulated entities and their agents on Social Media Platforms.pdf already exists in database.
+2026-07-07 12:17:27,945 INFO     Circular nos 2026-0494 to 2026-0510.zip already exists in database.
+2026-07-07 12:17:27,983 INFO     2026-032-Tender Offer -Nirbhay Colours India Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:28,019 INFO     Circular nos 2026-0466 to 2026-0479.zip already exists in database.
+2026-07-07 12:17:28,054 INFO     2026-031-Tender Offer -Kesoram Industries Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:28,090 INFO     2026-030-Tender Offer -Change in settlement date of AKG Exim Limited.pdf already exists in database.
+2026-07-07 12:17:28,124 INFO     Circular nos 2026-0450 to 2026-0465.zip already exists in database.
+2026-07-07 12:17:28,161 INFO     2026-029-Tender Offer -Pankaj Polymers Limited- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:28,196 INFO     Circular nos 2026-0440 to 2026-0449.zip already exists in database.
+2026-07-07 12:17:28,364 INFO     2026-0027-Policy-Facility for reporting of FATF Submission by DPs through NSDL ePASS Portal.pdf already exists in database.
+2026-07-07 12:17:28,401 INFO     2026-0004-SPEED-e-Policy-Enhancement in the NSDL SPEED-e Application to enable off-market transfer instructions for password-based users.pdf already exists in database.
+2026-07-07 12:17:28,439 INFO     2026-0004-Policy-DDP-Implementation of GS-FPI Flag for Foreign Portfolio Investors investing exclusively in Government Securities.pdf already exists in database.
+2026-07-07 12:17:28,475 INFO     Circular nos 2026-0400 to 2026-0409.zip already exists in database.
+2026-07-07 12:17:28,510 INFO     2026-0024-Policy-Amendment to Business Rule of NSDL - Penalty Structure.pdf already exists in database.
+2026-07-07 12:17:28,546 INFO     2026-0003-SPEED-e-Policy-Change in deadline time for submission of pay-in instructions on SPEED-e.pdf already exists in database.
+2026-07-07 12:17:28,582 INFO     Circular nos 2026-0386 to 2026-0399.zip already exists in database.
+2026-07-07 12:17:28,618 INFO     2026-0026-Policy-Change in Pay-in and Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:17:28,817 INFO     2026-0025-Policy-Suspension of demat accounts of existing clients whose KYC records are not found to be valid by KRAs after the validation process.pdf already exists in database.
+2026-07-07 12:17:28,852 INFO     Circular nos 2026-0375 to 2026-0385.zip already exists in database.
+2026-07-07 12:17:28,888 INFO     2026-0023-Policy-SEBI Circular regarding Obligations on CRAs while undertaking rating of financial instruments falling under the purview of any other Financial Sector Regulator.pdf already exists in database.
+2026-07-07 12:17:28,926 INFO     2026-028-Tender Offer -JMG Corporation Limited- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:28,962 INFO     Circular nos 2026-0365 to 2026-0374.zip already exists in database.
+2026-07-07 12:17:28,998 INFO     2026-027-Tender Offer -Net Pix Shorts Digital Media Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:29,035 INFO     2026-026-Tender Offer-GO FASHION (INDIA) LIMITED - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:17:29,070 INFO     Circular nos 2026-0351 to 2026-0364.zip already exists in database.
+2026-07-07 12:17:29,109 INFO     2026-0022-Policy-SEBI Master Circular for SEBI (Issue of Capital and Disclosure Requirements Regulations) 2018.pdf already exists in database.
+2026-07-07 12:17:29,147 INFO     Circular nos 2026-0335 to 2026-0350.zip already exists in database.
+2026-07-07 12:17:29,300 INFO     Circular nos 2026-0324 to 2026-0334.zip already exists in database.
+2026-07-07 12:17:29,337 INFO     2026-025-Tender Offer -SRM ENERGY LIMITED- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:29,374 INFO     2026-024-Tender Offer - Harmony Capital Services Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:29,410 INFO     2026-0021-Policy-SEBI Circular regarding Reporting of value of units of Alternative Investment Funds (AIFs) to Depositories.pdf already exists in database.
+2026-07-07 12:17:29,446 INFO     2026-0019-Policy-SEBI Circular regarding Creation or Invocation of pledge of securities through depository system.pdf already exists in database.
+2026-07-07 12:17:29,483 INFO     2026-0020-Policy-Amendment_to_Business_Rule_of_NSDL-Penalty_Structure.pdf already exists in database.
+2026-07-07 12:17:29,523 INFO     Circular_nos_2026-0316_to_2026-0323.zip already exists in database.
+2026-07-07 12:17:29,561 INFO     Circular_nos_2026-0300_to_2026-0315.zip already exists in database.
+2026-07-07 12:17:29,597 INFO     2026-022-Tender Offer-Shashank_Traders_Limited_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:17:29,763 INFO     Circular_nos_2026-0291_to_2026-0299.zip already exists in database.
+2026-07-07 12:17:29,797 INFO     2026-0018-Policy-Extension of Timeline for Upload of Client KYC Records to KRAs for Validation.pdf already exists in database.
+2026-07-07 12:17:29,832 INFO     2026-0017-Policy-SEBI Circular regarding Ease of Doing Investment Special Window for Transfer and Dematerialisation of Physical Securities.pdf already exists in database.
+2026-07-07 12:17:29,873 INFO     2026-021-Tender Offer - Matrimony.com Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:17:29,909 INFO     2026-020-Tender Offer -AKG EXIM LIMITED - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:29,946 INFO     2026-0016-Policy-SEBI Master Circular for compliance with the provisions of SEBI LODR Regulations 2015 by listed entities.pdf already exists in database.
+2026-07-07 12:17:29,982 INFO     2026-019-Tender Offer-Change in settlement date of Esha Media Research Limited.pdf already exists in database.
+2026-07-07 12:17:30,020 INFO     2026-0015-Policy-SEBI Circular- requirement of issuance of LOCdirect credit of securities in dematerialisation account of the investor.pdf already exists in database.
+2026-07-07 12:17:30,170 INFO     Circular nos 2026-0246 to 2026-0260.zip already exists in database.
+2026-07-07 12:17:30,206 INFO     2026-0001-SPEED-e-Policy-Availability of SPEED-e facility on Sunday, February 01, 2026.pdf already exists in database.
+2026-07-07 12:17:30,242 INFO     2026-0002-SPEED-e-Policy-Change in deadline time for submission of pay-in instructions on SPEED-e.pdf already exists in database.
+2026-07-07 12:17:30,279 INFO     Circular nos 2026-0236 to 2026-0245.zip already exists in database.
+2026-07-07 12:17:30,314 INFO     2026-0014-Policy-Change in Pay-in & Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:17:30,353 INFO     2026-0013-Policy-Enhancement for submission of Cyber Audit Report in electronic form through e-PASS.pdf already exists in database.
+2026-07-07 12:17:30,389 INFO     Circular nos 2026-0226 to 2026-0235.zip already exists in database.
+2026-07-07 12:17:30,424 INFO     2026-0012-Policy-Availability of NSDL Depository System on Sunday February 01 2026.pdf already exists in database.
+2026-07-07 12:17:30,463 INFO     2026-018-Tender Offer-Netlink Solutions (India) Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:30,645 INFO     Circular nos 2026-0180 to 2026-0190.zip already exists in database.
+2026-07-07 12:17:30,689 INFO     Circular nos 2026-0191 to 2026-0209.zip already exists in database.
+2026-07-07 12:17:30,726 INFO     2026-0003-Policy-DDP-SEBI circular on Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI) framework for FPIs and FVCIs.pdf already exists in database.
+2026-07-07 12:17:30,762 INFO     2026-0002-Policy-DDP-SEBI circular on Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI) framework for FPIs and FVCIs.pdf already exists in database.
+2026-07-07 12:17:30,799 INFO     2026-017-Tender Offer-Change in settlement date of Shree Digvijay Cement Company Limited.pdf already exists in database.
+2026-07-07 12:17:30,833 INFO     2026-0011-Policy-SEBI Circular regarding Master Circular for Framework on Social Stock Exchange (SSE).pdf already exists in database.
+2026-07-07 12:17:30,868 INFO     Circular nos 2026-0171 to 2026-0179.zip already exists in database.
+2026-07-07 12:17:30,903 INFO     2026-0010-Policy-Suspension of demat accounts of existing clients whose KYC records are not found to be valid by KRAs after the validation process.pdf already exists in database.
+2026-07-07 12:17:30,940 INFO     Circular nos 2026-0159 to 2026-0170.zip already exists in database.
+2026-07-07 12:17:30,974 INFO     2026-016-Tender Offer-Change in settlement date of Morganite Crucible (India) Limited.pdf already exists in database.
+2026-07-07 12:17:31,152 INFO     Circular nos 2026-0141 to 2026-0158.zip already exists in database.
+2026-07-07 12:17:31,187 INFO     2026-0009-Policy-Enhancement in NSDL e-PASS portal for download of Details of the deceased investors PAN.pdf already exists in database.
+2026-07-07 12:17:31,222 INFO     Circular nos 2026-0131 to 2026-0140.zip already exists in database.
+2026-07-07 12:17:31,257 INFO     2026-0007-Policy-Submission of Cyber Audit Report under CSCRF Guidelines.pdf already exists in database.
+2026-07-07 12:17:31,295 INFO     2026-0001-Policy-DDP-SEBI Press Release regarding SEBI Facilitates Seamless Digital Signature Certificate Functionality for FPIs.pdf already exists in database.
+2026-07-07 12:17:31,329 INFO     2026-015-Tender Offer-Change in settlement Bid End Date and settlement date of Esha Media Research Limited.pdf already exists in database.
+2026-07-07 12:17:31,363 INFO     2026-014-Tender Offer-Change in settlement Bid End Date and settlement date of P. M Telelinnks Limited.pdf already exists in database.
+2026-07-07 12:17:31,399 INFO     2026-013-Tender Offer-Change in settlement Bid End Date and settlement date of Shentracon Chemicals Limited.pdf already exists in database.
+2026-07-07 12:17:31,433 INFO     2026-012-Tender Offer-Change in settlement end Date of Sanmitra Commercial Limited.pdf already exists in database.
+2026-07-07 12:17:31,468 INFO     2026-011-Tender Offer-Change in settlement end date of Oscar Global Limited.pdf already exists in database.
+2026-07-07 12:17:31,621 INFO     2026-010-Tender Offer-Change in settlement end date and settlement date of Shree Digvijay Cement Company Limited.pdf already exists in database.
+2026-07-07 12:17:31,660 INFO     2026-0008-Policy-Enhancement in reporting of details in respect of NISM qualified Associate persons by DPs through NSDL e-PASS Portal using uploading facility.pdf already exists in database.
+2026-07-07 12:17:31,694 INFO     2026-009-Tender Offer-Premium Capital Market and Investments Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:31,728 INFO     2026-0006-Policy-Non availability of Inter Depository Transfer instructions on January 15 2026.pdf already exists in database.
+2026-07-07 12:17:31,764 INFO     Circular nos 2026-0115 to 2026-0130.zip already exists in database.
+2026-07-07 12:17:31,798 INFO     2026-007-Tender Offer-Esha Media Research Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:31,833 INFO     2026-008-Tender Offer-Silly Monks Entertainment Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:31,869 INFO     Circular nos 2026-0101 to 2026-0114.zip already exists in database.
+2026-07-07 12:17:31,906 INFO     2026-006-Tender Offer-P.M Telelinnks Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:31,941 INFO     Circular nos 2026-0090 to 2026-0100.zip already exists in database.
+2026-07-07 12:17:32,086 INFO     2026-0005-Policy- Revision in Limited Purpose Holiday Master.pdf already exists in database.
+2026-07-07 12:17:32,122 INFO     2026-0003-Policy-SEBI Circular on Relaxation on geo-tagging requirement in India for NRIs while undertaking re-KYC.pdf already exists in database.
+2026-07-07 12:17:32,158 INFO     2026-0004-Policy-Submission of Regulatory Freeze and unfreeze Order details by Participants through NSDL e-PASS portal.pdf already exists in database.
+2026-07-07 12:17:32,193 INFO     Circular nos 2026-0075 to 2026-0089.zip already exists in database.
+2026-07-07 12:17:32,228 INFO     2026-0004- Policy- Annexure.zip already exists in database.
+2026-07-07 12:17:32,263 INFO     2026-005-Tender Offer-Change in settlement date of Nectar Lifesciences Limited.pdf already exists in database.
+2026-07-07 12:17:32,297 INFO     2026-004-Tender Offer-Shentracon Chemicals Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:32,331 INFO     Circular nos 2026-0065 to 2026-0074.zip already exists in database.
+2026-07-07 12:17:32,367 INFO     Circular nos 2026-0054 to 2026-0064.zip already exists in database.
+2026-07-07 12:17:32,402 INFO     2026-003-Tender Offer-Fairchem Organics Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:17:32,529 INFO     2026-0002-Policy-Change in additional supporting file (.TXT) for DP Billing under NSDL ePASS.pdf already exists in database.
+2026-07-07 12:17:32,565 INFO     2026-0001- Annexure.zip already exists in database.
+2026-07-07 12:17:32,600 INFO     Circular nos 2026-0030 to 2026-0040.zip already exists in database.
+2026-07-07 12:17:32,638 INFO     Circular nos 2026-0041 to 2026-0053.zip already exists in database.
+2026-07-07 12:17:32,675 INFO     2026-002-Tender Offer-Sanmitra Commercial Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:32,712 INFO     2026-0001-Policy-SOP for handling cyber security incidents.pdf already exists in database.
+2026-07-07 12:17:32,747 INFO     Circular nos 2026-0015 to 2026-0029.zip already exists in database.
+2026-07-07 12:17:32,784 INFO     2026-001-Tender Offer-Shree Digvijay Cement Company Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:17:32,821 INFO     Circular nos 2026-0001 to 2026-0014.zip already exists in database.
+2026-07-07 12:17:32,822 INFO     NSDL Complete → found 249 files, downloaded 0 new
+2026-07-07 12:31:47,199 INFO     2026-0081-Policy-Activation of ISINs of Electronic Gold Receipts.pdf already exists in database.
+2026-07-07 12:31:47,237 INFO     Circular nos 2026-1210 to 2026-1230.zip already exists in database.
+2026-07-07 12:31:47,276 INFO     2026-076-Tender Offer - Sarla Performance Fibers Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:31:47,314 INFO     Circular nos 2026-1196 to 2026-1209.zip already exists in database.
+2026-07-07 12:31:47,351 INFO     2026-075-Tender Offer - GLITTEK GRANITES LIMITED - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:47,394 INFO     Circular nos 2026-1176 to 2026-1195.zip already exists in database.
+2026-07-07 12:31:47,434 INFO     2026-0079-Policy-SEBI circular on Status of SPVs post conclusion or termination of Concession Agreement.pdf already exists in database.
+2026-07-07 12:31:47,471 INFO     2026-0080-Policy-SEBI Master Circular on Surveillance of Securities Market.pdf already exists in database.
+2026-07-07 12:31:47,511 INFO     2026-0078-Policy-SEBI circular on Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets.pdf already exists in database.
+2026-07-07 12:31:47,550 INFO     2026-074-Tender Offer - P H Capital Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:47,735 INFO     2026-0080-Policy- Annexure.zip already exists in database.
+2026-07-07 12:31:47,781 INFO     2026-073-Tender Offer - Change in settlement date of Tejassvi Aaharam Limited.pdf already exists in database.
+2026-07-07 12:31:47,823 INFO     Circular nos 2026-1160 to 2026-1175.zip already exists in database.
+2026-07-07 12:31:47,864 INFO     2026-0077-Policy-Intimation of Speed-e deadline time for Electronic Gold Receipt NSE.pdf already exists in database.
+2026-07-07 12:31:47,902 INFO     Circular nos 2026-1146 to 2026-1159.zip already exists in database.
+2026-07-07 12:31:47,941 INFO     Circular nos 2026-1135 to 2026-1145.zip already exists in database.
+2026-07-07 12:31:47,982 INFO     2026-0076-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:48,022 INFO     2026-0074-Policy-Facility for submission of Half yearly and Annual Cyber Audit Report in electronic form through e- PASS.pdf already exists in database.
+2026-07-07 12:31:48,159 INFO     2026-071-Tender Offer - Avi Products India Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:48,199 INFO     2026-0076-Policy-SEBI Circular on Norms for sharing and usage of price data for educational purposes.pdf already exists in database.
+2026-07-07 12:31:48,240 INFO     2026-0075-Policy-Facility for submission of VAPT compliance half yearly and Annual report in electronic form through e-PASS.pdf already exists in database.
+2026-07-07 12:31:48,278 INFO     2026-069-Tender Offer - Change in settlement date of AAA Technologies Limited.pdf already exists in database.
+2026-07-07 12:31:48,315 INFO     2026-0073-Policy-Annexures.zip already exists in database.
+2026-07-07 12:31:48,360 INFO     2026-068-Tender Offer - Change in settlement date of Stylam Industries Limited.pdf already exists in database.
+2026-07-07 12:31:48,396 INFO     2026-070-Tender Offer - SHAH FOODS LIMITED - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:48,435 INFO     2026-0073-Policy-Amendments to NSDL Bye Laws and Business Rules pertaining to processing of investor service request for dematerialisation of securities.pdf already exists in database.
+2026-07-07 12:31:48,474 INFO     Circular nos 2026-1089 to 2026-1104.zip already exists in database.
+2026-07-07 12:31:48,668 INFO     2026-066-Tender Offer - Change in settlement date of Jolly Plastic Industries Limited.pdf already exists in database.
+2026-07-07 12:31:48,709 INFO     2026-0072-Policy-SEBI Circular on Advisory on Emerging Advanced Artificial Intelligence (AI) Tools for Vulnerability Detection (like Mythos).pdf already exists in database.
+2026-07-07 12:31:48,746 INFO     2026-0072-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:48,784 INFO     2026-065-Tender Offer - Jagsonpal Pharmaceuticals Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:31:48,824 INFO     2026-064-Tender Offer - Piyush Limited - Tender offer for Delisting.pdf already exists in database.
+2026-07-07 12:31:48,862 INFO     2026-063-Tender Offer - EMA PARTNERS INDIA LIMITED- Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:31:48,899 INFO     Circular nos 2026-1066 to 2026-1078 dated 06 May 2026.zip already exists in database.
+2026-07-07 12:31:48,937 INFO     2026-0069-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:49,091 INFO     2026-0071-Policy-Amendment to Business Rules of NSDL pertaining to Dispatch of Consolidated Account Statement (CAS) for all securities assets.pdf already exists in database.
+2026-07-07 12:31:49,131 INFO     2026-0070-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:31:49,196 INFO     2026-0071-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:49,241 INFO     Circular nos 2026-1039 to 2026-1049.zip already exists in database.
+2026-07-07 12:31:49,281 INFO     2026-0070-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:49,478 INFO     2026-0006-Policy-DDP-Annexure.zip already exists in database.
+2026-07-07 12:31:49,517 INFO     2026-0006-Policy-DDP-SEBI circular on Framework for net settlement of funds for transactions done by Foreign Portfolio Investors (FPIs) in cash market.pdf already exists in database.
+2026-07-07 12:31:49,558 INFO     2026-0066-Policy-Amendment to NSDL Bye Laws and Business Rules pertaining to revise and revamp nomination facilities in the Indian Securities Market_.pdf already exists in database.
+2026-07-07 12:31:49,596 INFO     2026-062-Tender Offer -Windlas Biotech Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:31:49,634 INFO     Circular nos 2026-1008 to 2026-1021.zip already exists in database.
+2026-07-07 12:31:49,673 INFO     2026-0067-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:31:49,712 INFO     2026-0066-Policy- Annexures.zip already exists in database.
+2026-07-07 12:31:49,750 INFO     2026-0006-Policy-DDP-Annexure.zip already exists in database.
+2026-07-07 12:31:50,013 INFO     Circular nos 2026-0995 to 2026-1007.zip already exists in database.
+2026-07-07 12:31:50,051 INFO     2026-0065-Policy-Submission of Initial Accessibility Audit Report for Digital Platforms.pdf already exists in database.
+2026-07-07 12:31:50,091 INFO     2026-0064-Policy-Suspension of demat accounts of existing clients whose KYC records are not found to be valid by KRAs after the validation process.pdf already exists in database.
+2026-07-07 12:31:50,135 INFO     2026-061-Tender Offer -Change in settlement date of Indo Borax and Chemicals Limited.pdf already exists in database.
+2026-07-07 12:31:50,173 INFO     2026-060-Tender Offer -N2N Technologies Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:50,212 INFO     2026-059-Tender Offer -Tejassvi Aaharam Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:50,252 INFO     2026-0063-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:50,291 INFO     Circular nos 2026-0984 to 2026-0994.zip already exists in database.
+2026-07-07 12:31:50,330 INFO     2026-0063-Policy-Amendment to Business Rules of NSDL - Penalty Structure.pdf already exists in database.
+2026-07-07 12:31:50,369 INFO     2026-0062-Policy-Annexures.zip already exists in database.
+2026-07-07 12:31:50,513 INFO     Circular nos 2026-0970 to 2026-0983.zip already exists in database.
+2026-07-07 12:31:50,551 INFO     2026-0062-Policy-Amendments to Business Rules of NSDL regarding Closure and Shifting of Demat account and Opening of Demat account in name of AOP.pdf already exists in database.
+2026-07-07 12:31:50,590 INFO     2026-0059-Policy-Updates_for_Implementation_of_Section_51A_of_UAPA_1967_Updates_to_UNSCs_1988_(2011)_ISIL_(Daesh)_and_Al-Qaida_Sanctions_List.pdf already exists in database.
+2026-07-07 12:31:50,631 INFO     2026-0060-Policy-Validation of reason codes in respect of off-market transactions.pdf already exists in database.
+2026-07-07 12:31:50,670 INFO     2026-057-Tender Offer -Change in settlement date of Tulive Developers Limited.pdf already exists in database.
+2026-07-07 12:31:50,710 INFO     2026-0061-Policy-Amendment to Business Rules of NSDL regarding Margin Pledge and Pledge Release Invocation-cum-transfer_.pdf already exists in database.
+2026-07-07 12:31:50,748 INFO     2026-0059-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:50,787 INFO     2026-001-Training-Four-Day Online Training Program on NSDL Depository Operations for Participants.pdf already exists in database.
+2026-07-07 12:31:50,987 INFO     2026-0060-Policy-Annexure A.zip already exists in database.
+2026-07-07 12:31:51,038 INFO     2026-056-Tender Offer -Aaa Technologies Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:51,100 INFO     2026-0061-Policy-Annexures.zip already exists in database.
+2026-07-07 12:31:51,151 INFO     2026-058-Tender Offer -Aurobindo Pharma Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:31:51,207 INFO     2026-0058-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:51,261 INFO     2026-053-Tender Offer -Stylam Industries Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:51,312 INFO     2026-055-Tender Offer -Jauss Polymers Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:51,372 INFO     2026-054-Tender Offer -Change in settlement date of Adc India Communications Limited.pdf already exists in database.
+2026-07-07 12:31:51,421 INFO     Circular nos 2026-0899 to 2026-0916.zip already exists in database.
+2026-07-07 12:31:51,611 INFO     2026-0058-Policy-SEBI Review of requirement relating to registration for a Not for Profit Organizatio for issuance of Zero Coupon Zero Principal Instruments.pdf already exists in database.
+2026-07-07 12:31:51,659 INFO     2026-052-Tender Offer -Change in settlement date of Photon Capital Advisors Limited.pdf already exists in database.
+2026-07-07 12:31:51,714 INFO     2026-050-Tender Offer -Simandhar Impex Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:51,757 INFO     2026-0057-Policy-Opening of Demat Account in case of HUF.pdf already exists in database.
+2026-07-07 12:31:51,809 INFO     2026-051-Tender Offer -Kwality WallS (India) Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:51,855 INFO     Circular nos 2026-0883 to 2026-0898.zip already exists in database.
+2026-07-07 12:31:51,911 INFO     2026-0056-Policy-Annual assessment of default status of debt securities.pdf already exists in database.
+2026-07-07 12:31:51,957 INFO     2026-048-Tender Offer -Jolly Plastic Industries Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:52,026 INFO     2026-0056-Policy Annexures.zip already exists in database.
+2026-07-07 12:31:52,240 INFO     2026-049-Tender Offer -Puretrop Fruits Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:31:52,301 INFO     2026-0005-Policy-DDP-SEBI circular on Guidelines for Custodians.pdf already exists in database.
+2026-07-07 12:31:52,355 INFO     2026-0005-Policy-DDP-Annexure.zip already exists in database.
+2026-07-07 12:31:52,424 INFO     2026-0054-Policy-Internal and Concurrent Audit of Depository Operations.pdf already exists in database.
+2026-07-07 12:31:52,510 INFO     2026-0055-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1999 ISIL (Daesh) Al-Qaida Sanctions Listt.pdf already exists in database.
+2026-07-07 12:31:52,584 INFO     2026-0054-Policy-Annexures.zip already exists in database.
+2026-07-07 12:31:52,632 INFO     2026-0055-Policy-Annexures.zip already exists in database.
+2026-07-07 12:31:52,675 INFO     2026-047-Tender Offer -Tulive Developers Limited - Tender offer for Delisting.pdf already exists in database.
+2026-07-07 12:31:52,728 INFO     Circular nos 2026-0840 to 2026-0850.zip already exists in database.
+2026-07-07 12:31:52,928 INFO     2026-046-Tender Offer -ASPIRA PATHLAB AND DIAGNOSTICS LIMITED- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:52,989 INFO     2026-0053-Policy-SEBI Circular on Ease on doing business mechanism for lock-in of pledged shares under SEBI Issue of Capital and Disclosure Requirement Regulations 2018.pdf already exists in database.
+2026-07-07 12:31:53,042 INFO     2026-0052-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:53,135 INFO     2026-045-Tender Offer - SWITCHING TECHNOLOGIES GUNTHER LIMITED- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:53,203 INFO     2026-0053-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:53,264 INFO     2026-0051-Policy-Freezing of KRA KYC Non-compliant Demat Accounts.pdf already exists in database.
+2026-07-07 12:31:53,323 INFO     2026-044-Tender Offer - Change in settlement date of Orient Steel and Industries Limited.pdf already exists in database.
+2026-07-07 12:31:53,391 INFO     2026-0052-Policy-SEBI circular on Relaxation from the applicability of SEBI Master Circular for compliance with the provisions of the SEBI LODR Regulations 2015.pdf already exists in database.
+2026-07-07 12:31:53,593 INFO     2026-043-Tender Offer - Indo Borax and Chemicals Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:53,662 INFO     2026-0050-Policy-Annexure.zip already exists in database.
+2026-07-07 12:31:53,738 INFO     2026-0050-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1999 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:31:53,813 INFO     Circular nos 2026-0788 to 2026-0796.zip already exists in database.
+2026-07-07 12:31:53,883 INFO     2026-042-Tender_Offer_-Banganga_Paper_Industries_Limited-_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:31:53,953 INFO     Circular_nos_2026-0777_to_2026-0787_dated_06_April_2026.zip already exists in database.
+2026-07-07 12:31:54,014 INFO     2026-0069-Policy- SEBI Circular on Operationalisation of Past Risk and Return Verification Agency (PaRRVA).pdf already exists in database.
+2026-07-07 12:31:54,089 INFO     Circular nos 2026-0767 to 2026-0776.zip already exists in database.
+2026-07-07 12:31:54,161 INFO     Circular nos 2026-0753 to 2026-0766 dated 01 April 2026.zip already exists in database.
+2026-07-07 12:31:54,335 INFO     2026-0049-Policy-One-Time_Interest_Waiver_Scheme_for_Settlement_of_Outstanding_payments.pdf already exists in database.
+2026-07-07 12:31:54,393 INFO     2026-039-Tender_Offer_-Orient_Steel_and_Industries_Limited-_Tender_offer_for_Delisting.pdf already exists in database.
+2026-07-07 12:31:54,445 INFO     2026-041-Tender_Offer_-LCC_Infotech_Limited-_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:31:54,497 INFO     2026-040-Tender_Offer_-Swarnsarita_Jewels_India_Limited_-_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:31:54,680 INFO     2026-0045-Policy-SEBI Circular on Relaxations in certain reporting requirements for certain Stock Brokers and doing away with requirement of reporting of demat account.pdf already exists in database.
+2026-07-07 12:31:54,736 INFO     2026-0047-Policy-Surveillance Obligations for Depository Participants (DPs).pdf already exists in database.
+2026-07-07 12:31:54,788 INFO     2026-038-Tender Offer -Adc India Communications Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:54,843 INFO     2026-0046-Policy-Change in Pay-in and Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:31:54,890 INFO     2026-0048-Policy-Circular for Non availability of IDT of Gsec.pdf already exists in database.
+2026-07-07 12:31:54,938 INFO     2026-0043-Policy-Amendments to Business Rules of NSDL - Settlement Fee.pdf already exists in database.
+2026-07-07 12:31:55,127 INFO     2026-0041-Policy-Operating guidelines in terms of SEBI Circular regarding Creation Invocation of Pledge instructions through NSDL Depository System.pdf already exists in database.
+2026-07-07 12:31:55,168 INFO     2026-0040-Policy- Mock Testing – BSDA Opt-Out facility and BSDA Valuation.pdf already exists in database.
+2026-07-07 12:31:55,210 INFO     2026-0037-Policy-Change in Pay-in and Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:31:55,249 INFO     2026-0034-Policy- Amendment to Business Rules of NSDL regarding Fee for Conversion Reconversion and Redemption of Mutual Fund Units.pdf already exists in database.
+2026-07-07 12:31:55,287 INFO     2026-0035-Amendment to Clause B(o) of Annexure O of the NSDL Business Rules.pdf already exists in database.
+2026-07-07 12:31:55,330 INFO     2026-0005-SPEED-e-Policy-Change in deadline time for submission of pay-in instructions on SPEED-e.pdf already exists in database.
+2026-07-07 12:31:55,369 INFO     2026-0033-Policy-The Financial Action Task Force (FATF) Public statement on jurisdictions on call for action and increased monitoring - February 2026 Plenary.pdf already exists in database.
+2026-07-07 12:31:55,406 INFO     2026-0036-Policy-Enhancement in NSDL Depository System in respect of BSDA Opt-Out Facility.pdf already exists in database.
+2026-07-07 12:31:55,588 INFO     Circular nos 2026-0651 to 2026-0660.zip already exists in database.
+2026-07-07 12:31:55,628 INFO     Circular nos 2026-0638 to 2026-0650.zip already exists in database.
+2026-07-07 12:31:55,667 INFO     2026-033-Tender Offer -Change in settlement date of Pankaj Polymers Limited.pdf already exists in database.
+2026-07-07 12:31:55,706 INFO     2026-034-Tender Offer -Lykis Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:55,743 INFO     2026-0032-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:31:55,781 INFO     Circular nos 2026-0622 to 2026-0637.zip already exists in database.
+2026-07-07 12:31:55,822 INFO     Circular nos 2026-0610 to 2026-0621.zip already exists in database.
+2026-07-07 12:31:55,861 INFO     Circular nos 2026-0595 to 2026-0609.zip already exists in database.
+2026-07-07 12:31:55,900 INFO     Circular nos 2026-0580 to 2026-0594.zip already exists in database.
+2026-07-07 12:31:55,939 INFO     2026-0031-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:31:56,202 INFO     2026-0030-Policy- Submission of half yearly Cyber Security audit ATR by Depository Participants.pdf already exists in database.
+2026-07-07 12:31:56,240 INFO     2026-0029-Policy-Premature Redemption Calendar for Sovereign Gold Bonds for the period April 2026 to September 2026.pdf already exists in database.
+2026-07-07 12:31:56,280 INFO     Circular nos 2026-0526 to 2026-0535.zip already exists in database.
+2026-07-07 12:31:56,319 INFO     Circular nos 2026-0511 to 2026-0525 dated 02 March 2026.zip already exists in database.
+2026-07-07 12:31:56,470 INFO     2026-0028-Policy-SEBI Circular on Ease of Doing Investment - Disclosure of registered name and registration number by SEBI regulated entities and their agents on Social Media Platforms.pdf already exists in database.
+2026-07-07 12:31:56,512 INFO     Circular nos 2026-0494 to 2026-0510.zip already exists in database.
+2026-07-07 12:31:56,549 INFO     2026-032-Tender Offer -Nirbhay Colours India Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:56,589 INFO     Circular nos 2026-0466 to 2026-0479.zip already exists in database.
+2026-07-07 12:31:56,629 INFO     2026-031-Tender Offer -Kesoram Industries Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:56,667 INFO     2026-030-Tender Offer -Change in settlement date of AKG Exim Limited.pdf already exists in database.
+2026-07-07 12:31:56,705 INFO     Circular nos 2026-0450 to 2026-0465.zip already exists in database.
+2026-07-07 12:31:56,747 INFO     2026-029-Tender Offer -Pankaj Polymers Limited- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:56,789 INFO     Circular nos 2026-0440 to 2026-0449.zip already exists in database.
+2026-07-07 12:31:56,947 INFO     2026-0027-Policy-Facility for reporting of FATF Submission by DPs through NSDL ePASS Portal.pdf already exists in database.
+2026-07-07 12:31:56,985 INFO     2026-0004-SPEED-e-Policy-Enhancement in the NSDL SPEED-e Application to enable off-market transfer instructions for password-based users.pdf already exists in database.
+2026-07-07 12:31:57,027 INFO     2026-0004-Policy-DDP-Implementation of GS-FPI Flag for Foreign Portfolio Investors investing exclusively in Government Securities.pdf already exists in database.
+2026-07-07 12:31:57,065 INFO     Circular nos 2026-0400 to 2026-0409.zip already exists in database.
+2026-07-07 12:31:57,109 INFO     2026-0024-Policy-Amendment to Business Rule of NSDL - Penalty Structure.pdf already exists in database.
+2026-07-07 12:31:57,148 INFO     2026-0003-SPEED-e-Policy-Change in deadline time for submission of pay-in instructions on SPEED-e.pdf already exists in database.
+2026-07-07 12:31:57,188 INFO     Circular nos 2026-0386 to 2026-0399.zip already exists in database.
+2026-07-07 12:31:57,245 INFO     2026-0026-Policy-Change in Pay-in and Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:31:57,463 INFO     2026-0025-Policy-Suspension of demat accounts of existing clients whose KYC records are not found to be valid by KRAs after the validation process.pdf already exists in database.
+2026-07-07 12:31:57,530 INFO     Circular nos 2026-0375 to 2026-0385.zip already exists in database.
+2026-07-07 12:31:57,585 INFO     2026-0023-Policy-SEBI Circular regarding Obligations on CRAs while undertaking rating of financial instruments falling under the purview of any other Financial Sector Regulator.pdf already exists in database.
+2026-07-07 12:31:57,631 INFO     2026-028-Tender Offer -JMG Corporation Limited- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:57,672 INFO     Circular nos 2026-0365 to 2026-0374.zip already exists in database.
+2026-07-07 12:31:57,712 INFO     2026-027-Tender Offer -Net Pix Shorts Digital Media Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:57,748 INFO     2026-026-Tender Offer-GO FASHION (INDIA) LIMITED - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:31:57,786 INFO     Circular nos 2026-0351 to 2026-0364.zip already exists in database.
+2026-07-07 12:31:57,823 INFO     2026-0022-Policy-SEBI Master Circular for SEBI (Issue of Capital and Disclosure Requirements Regulations) 2018.pdf already exists in database.
+2026-07-07 12:31:57,864 INFO     Circular nos 2026-0335 to 2026-0350.zip already exists in database.
+2026-07-07 12:31:58,128 INFO     Circular nos 2026-0324 to 2026-0334.zip already exists in database.
+2026-07-07 12:31:58,168 INFO     2026-025-Tender Offer -SRM ENERGY LIMITED- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:58,204 INFO     2026-024-Tender Offer - Harmony Capital Services Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:58,240 INFO     2026-0021-Policy-SEBI Circular regarding Reporting of value of units of Alternative Investment Funds (AIFs) to Depositories.pdf already exists in database.
+2026-07-07 12:31:58,279 INFO     2026-0019-Policy-SEBI Circular regarding Creation or Invocation of pledge of securities through depository system.pdf already exists in database.
+2026-07-07 12:31:58,318 INFO     2026-0020-Policy-Amendment_to_Business_Rule_of_NSDL-Penalty_Structure.pdf already exists in database.
+2026-07-07 12:31:58,355 INFO     Circular_nos_2026-0316_to_2026-0323.zip already exists in database.
+2026-07-07 12:31:58,395 INFO     Circular_nos_2026-0300_to_2026-0315.zip already exists in database.
+2026-07-07 12:31:58,433 INFO     2026-022-Tender Offer-Shashank_Traders_Limited_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:31:58,681 INFO     Circular_nos_2026-0291_to_2026-0299.zip already exists in database.
+2026-07-07 12:31:58,718 INFO     2026-0018-Policy-Extension of Timeline for Upload of Client KYC Records to KRAs for Validation.pdf already exists in database.
+2026-07-07 12:31:58,758 INFO     2026-0017-Policy-SEBI Circular regarding Ease of Doing Investment Special Window for Transfer and Dematerialisation of Physical Securities.pdf already exists in database.
+2026-07-07 12:31:58,796 INFO     2026-021-Tender Offer - Matrimony.com Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:31:58,834 INFO     2026-020-Tender Offer -AKG EXIM LIMITED - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:58,878 INFO     2026-0016-Policy-SEBI Master Circular for compliance with the provisions of SEBI LODR Regulations 2015 by listed entities.pdf already exists in database.
+2026-07-07 12:31:58,917 INFO     2026-019-Tender Offer-Change in settlement date of Esha Media Research Limited.pdf already exists in database.
+2026-07-07 12:31:58,953 INFO     2026-0015-Policy-SEBI Circular- requirement of issuance of LOCdirect credit of securities in dematerialisation account of the investor.pdf already exists in database.
+2026-07-07 12:31:59,164 INFO     Circular nos 2026-0246 to 2026-0260.zip already exists in database.
+2026-07-07 12:31:59,200 INFO     2026-0001-SPEED-e-Policy-Availability of SPEED-e facility on Sunday, February 01, 2026.pdf already exists in database.
+2026-07-07 12:31:59,238 INFO     2026-0002-SPEED-e-Policy-Change in deadline time for submission of pay-in instructions on SPEED-e.pdf already exists in database.
+2026-07-07 12:31:59,274 INFO     Circular nos 2026-0236 to 2026-0245.zip already exists in database.
+2026-07-07 12:31:59,311 INFO     2026-0014-Policy-Change in Pay-in & Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:31:59,346 INFO     2026-0013-Policy-Enhancement for submission of Cyber Audit Report in electronic form through e-PASS.pdf already exists in database.
+2026-07-07 12:31:59,383 INFO     Circular nos 2026-0226 to 2026-0235.zip already exists in database.
+2026-07-07 12:31:59,420 INFO     2026-0012-Policy-Availability of NSDL Depository System on Sunday February 01 2026.pdf already exists in database.
+2026-07-07 12:31:59,460 INFO     2026-018-Tender Offer-Netlink Solutions (India) Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:31:59,631 INFO     Circular nos 2026-0180 to 2026-0190.zip already exists in database.
+2026-07-07 12:31:59,672 INFO     Circular nos 2026-0191 to 2026-0209.zip already exists in database.
+2026-07-07 12:31:59,734 INFO     2026-0003-Policy-DDP-SEBI circular on Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI) framework for FPIs and FVCIs.pdf already exists in database.
+2026-07-07 12:31:59,802 INFO     2026-0002-Policy-DDP-SEBI circular on Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI) framework for FPIs and FVCIs.pdf already exists in database.
+2026-07-07 12:31:59,871 INFO     2026-017-Tender Offer-Change in settlement date of Shree Digvijay Cement Company Limited.pdf already exists in database.
+2026-07-07 12:31:59,934 INFO     2026-0011-Policy-SEBI Circular regarding Master Circular for Framework on Social Stock Exchange (SSE).pdf already exists in database.
+2026-07-07 12:32:00,007 INFO     Circular nos 2026-0171 to 2026-0179.zip already exists in database.
+2026-07-07 12:32:00,065 INFO     2026-0010-Policy-Suspension of demat accounts of existing clients whose KYC records are not found to be valid by KRAs after the validation process.pdf already exists in database.
+2026-07-07 12:32:00,120 INFO     Circular nos 2026-0159 to 2026-0170.zip already exists in database.
+2026-07-07 12:32:00,188 INFO     2026-016-Tender Offer-Change in settlement date of Morganite Crucible (India) Limited.pdf already exists in database.
+2026-07-07 12:32:00,469 INFO     Circular nos 2026-0141 to 2026-0158.zip already exists in database.
+2026-07-07 12:32:00,531 INFO     2026-0009-Policy-Enhancement in NSDL e-PASS portal for download of Details of the deceased investors PAN.pdf already exists in database.
+2026-07-07 12:32:00,579 INFO     Circular nos 2026-0131 to 2026-0140.zip already exists in database.
+2026-07-07 12:32:00,638 INFO     2026-0007-Policy-Submission of Cyber Audit Report under CSCRF Guidelines.pdf already exists in database.
+2026-07-07 12:32:00,681 INFO     2026-0001-Policy-DDP-SEBI Press Release regarding SEBI Facilitates Seamless Digital Signature Certificate Functionality for FPIs.pdf already exists in database.
+2026-07-07 12:32:00,721 INFO     2026-015-Tender Offer-Change in settlement Bid End Date and settlement date of Esha Media Research Limited.pdf already exists in database.
+2026-07-07 12:32:00,772 INFO     2026-014-Tender Offer-Change in settlement Bid End Date and settlement date of P. M Telelinnks Limited.pdf already exists in database.
+2026-07-07 12:32:00,820 INFO     2026-013-Tender Offer-Change in settlement Bid End Date and settlement date of Shentracon Chemicals Limited.pdf already exists in database.
+2026-07-07 12:32:00,863 INFO     2026-012-Tender Offer-Change in settlement end Date of Sanmitra Commercial Limited.pdf already exists in database.
+2026-07-07 12:32:00,903 INFO     2026-011-Tender Offer-Change in settlement end date of Oscar Global Limited.pdf already exists in database.
+2026-07-07 12:32:01,220 INFO     2026-010-Tender Offer-Change in settlement end date and settlement date of Shree Digvijay Cement Company Limited.pdf already exists in database.
+2026-07-07 12:32:01,265 INFO     2026-0008-Policy-Enhancement in reporting of details in respect of NISM qualified Associate persons by DPs through NSDL e-PASS Portal using uploading facility.pdf already exists in database.
+2026-07-07 12:32:01,316 INFO     2026-009-Tender Offer-Premium Capital Market and Investments Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:01,361 INFO     2026-0006-Policy-Non availability of Inter Depository Transfer instructions on January 15 2026.pdf already exists in database.
+2026-07-07 12:32:01,410 INFO     Circular nos 2026-0115 to 2026-0130.zip already exists in database.
+2026-07-07 12:32:01,460 INFO     2026-007-Tender Offer-Esha Media Research Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:01,505 INFO     2026-008-Tender Offer-Silly Monks Entertainment Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:01,556 INFO     Circular nos 2026-0101 to 2026-0114.zip already exists in database.
+2026-07-07 12:32:01,606 INFO     2026-006-Tender Offer-P.M Telelinnks Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:01,646 INFO     Circular nos 2026-0090 to 2026-0100.zip already exists in database.
+2026-07-07 12:32:01,912 INFO     2026-0005-Policy- Revision in Limited Purpose Holiday Master.pdf already exists in database.
+2026-07-07 12:32:01,967 INFO     2026-0003-Policy-SEBI Circular on Relaxation on geo-tagging requirement in India for NRIs while undertaking re-KYC.pdf already exists in database.
+2026-07-07 12:32:02,020 INFO     2026-0004-Policy-Submission of Regulatory Freeze and unfreeze Order details by Participants through NSDL e-PASS portal.pdf already exists in database.
+2026-07-07 12:32:02,066 INFO     Circular nos 2026-0075 to 2026-0089.zip already exists in database.
+2026-07-07 12:32:02,112 INFO     2026-0004- Policy- Annexure.zip already exists in database.
+2026-07-07 12:32:02,161 INFO     2026-005-Tender Offer-Change in settlement date of Nectar Lifesciences Limited.pdf already exists in database.
+2026-07-07 12:32:02,208 INFO     2026-004-Tender Offer-Shentracon Chemicals Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:02,258 INFO     Circular nos 2026-0065 to 2026-0074.zip already exists in database.
+2026-07-07 12:32:02,322 INFO     Circular nos 2026-0054 to 2026-0064.zip already exists in database.
+2026-07-07 12:32:02,385 INFO     2026-003-Tender Offer-Fairchem Organics Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:32:02,569 INFO     2026-0002-Policy-Change in additional supporting file (.TXT) for DP Billing under NSDL ePASS.pdf already exists in database.
+2026-07-07 12:32:02,627 INFO     2026-0001- Annexure.zip already exists in database.
+2026-07-07 12:32:02,680 INFO     Circular nos 2026-0030 to 2026-0040.zip already exists in database.
+2026-07-07 12:32:02,733 INFO     Circular nos 2026-0041 to 2026-0053.zip already exists in database.
+2026-07-07 12:32:02,784 INFO     2026-002-Tender Offer-Sanmitra Commercial Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:02,832 INFO     2026-0001-Policy-SOP for handling cyber security incidents.pdf already exists in database.
+2026-07-07 12:32:02,883 INFO     Circular nos 2026-0015 to 2026-0029.zip already exists in database.
+2026-07-07 12:32:02,933 INFO     2026-001-Tender Offer-Shree Digvijay Cement Company Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:02,992 INFO     Circular nos 2026-0001 to 2026-0014.zip already exists in database.
+2026-07-07 12:32:02,994 INFO     NSDL Complete → found 249 files, downloaded 0 new
+2026-07-07 12:32:24,527 INFO     2026-0081-Policy-Activation of ISINs of Electronic Gold Receipts.pdf already exists in database.
+2026-07-07 12:32:24,565 INFO     Circular nos 2026-1210 to 2026-1230.zip already exists in database.
+2026-07-07 12:32:24,604 INFO     2026-076-Tender Offer - Sarla Performance Fibers Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:32:24,645 INFO     Circular nos 2026-1196 to 2026-1209.zip already exists in database.
+2026-07-07 12:32:24,683 INFO     2026-075-Tender Offer - GLITTEK GRANITES LIMITED - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:24,733 INFO     Circular nos 2026-1176 to 2026-1195.zip already exists in database.
+2026-07-07 12:32:24,772 INFO     2026-0079-Policy-SEBI circular on Status of SPVs post conclusion or termination of Concession Agreement.pdf already exists in database.
+2026-07-07 12:32:24,811 INFO     2026-0080-Policy-SEBI Master Circular on Surveillance of Securities Market.pdf already exists in database.
+2026-07-07 12:32:24,849 INFO     2026-0078-Policy-SEBI circular on Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets.pdf already exists in database.
+2026-07-07 12:32:24,889 INFO     2026-074-Tender Offer - P H Capital Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:25,048 INFO     2026-0080-Policy- Annexure.zip already exists in database.
+2026-07-07 12:32:25,089 INFO     2026-073-Tender Offer - Change in settlement date of Tejassvi Aaharam Limited.pdf already exists in database.
+2026-07-07 12:32:25,127 INFO     Circular nos 2026-1160 to 2026-1175.zip already exists in database.
+2026-07-07 12:32:25,166 INFO     2026-0077-Policy-Intimation of Speed-e deadline time for Electronic Gold Receipt NSE.pdf already exists in database.
+2026-07-07 12:32:25,205 INFO     Circular nos 2026-1146 to 2026-1159.zip already exists in database.
+2026-07-07 12:32:25,245 INFO     Circular nos 2026-1135 to 2026-1145.zip already exists in database.
+2026-07-07 12:32:25,283 INFO     2026-0076-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:25,322 INFO     2026-0074-Policy-Facility for submission of Half yearly and Annual Cyber Audit Report in electronic form through e- PASS.pdf already exists in database.
+2026-07-07 12:32:25,490 INFO     2026-071-Tender Offer - Avi Products India Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:25,528 INFO     2026-0076-Policy-SEBI Circular on Norms for sharing and usage of price data for educational purposes.pdf already exists in database.
+2026-07-07 12:32:25,566 INFO     2026-0075-Policy-Facility for submission of VAPT compliance half yearly and Annual report in electronic form through e-PASS.pdf already exists in database.
+2026-07-07 12:32:25,605 INFO     2026-069-Tender Offer - Change in settlement date of AAA Technologies Limited.pdf already exists in database.
+2026-07-07 12:32:25,644 INFO     2026-0073-Policy-Annexures.zip already exists in database.
+2026-07-07 12:32:25,684 INFO     2026-068-Tender Offer - Change in settlement date of Stylam Industries Limited.pdf already exists in database.
+2026-07-07 12:32:25,722 INFO     2026-070-Tender Offer - SHAH FOODS LIMITED - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:25,759 INFO     2026-0073-Policy-Amendments to NSDL Bye Laws and Business Rules pertaining to processing of investor service request for dematerialisation of securities.pdf already exists in database.
+2026-07-07 12:32:25,800 INFO     Circular nos 2026-1089 to 2026-1104.zip already exists in database.
+2026-07-07 12:32:25,999 INFO     2026-066-Tender Offer - Change in settlement date of Jolly Plastic Industries Limited.pdf already exists in database.
+2026-07-07 12:32:26,040 INFO     2026-0072-Policy-SEBI Circular on Advisory on Emerging Advanced Artificial Intelligence (AI) Tools for Vulnerability Detection (like Mythos).pdf already exists in database.
+2026-07-07 12:32:26,080 INFO     2026-0072-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:26,117 INFO     2026-065-Tender Offer - Jagsonpal Pharmaceuticals Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:32:26,157 INFO     2026-064-Tender Offer - Piyush Limited - Tender offer for Delisting.pdf already exists in database.
+2026-07-07 12:32:26,197 INFO     2026-063-Tender Offer - EMA PARTNERS INDIA LIMITED- Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:32:26,236 INFO     Circular nos 2026-1066 to 2026-1078 dated 06 May 2026.zip already exists in database.
+2026-07-07 12:32:26,277 INFO     2026-0069-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:26,498 INFO     2026-0071-Policy-Amendment to Business Rules of NSDL pertaining to Dispatch of Consolidated Account Statement (CAS) for all securities assets.pdf already exists in database.
+2026-07-07 12:32:26,536 INFO     2026-0070-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:32:26,574 INFO     2026-0071-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:26,614 INFO     Circular nos 2026-1039 to 2026-1049.zip already exists in database.
+2026-07-07 12:32:26,655 INFO     2026-0070-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:26,908 INFO     2026-0006-Policy-DDP-Annexure.zip already exists in database.
+2026-07-07 12:32:26,947 INFO     2026-0006-Policy-DDP-SEBI circular on Framework for net settlement of funds for transactions done by Foreign Portfolio Investors (FPIs) in cash market.pdf already exists in database.
+2026-07-07 12:32:26,987 INFO     2026-0066-Policy-Amendment to NSDL Bye Laws and Business Rules pertaining to revise and revamp nomination facilities in the Indian Securities Market_.pdf already exists in database.
+2026-07-07 12:32:27,031 INFO     2026-062-Tender Offer -Windlas Biotech Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:32:27,069 INFO     Circular nos 2026-1008 to 2026-1021.zip already exists in database.
+2026-07-07 12:32:27,109 INFO     2026-0067-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:32:27,147 INFO     2026-0066-Policy- Annexures.zip already exists in database.
+2026-07-07 12:32:27,186 INFO     2026-0006-Policy-DDP-Annexure.zip already exists in database.
+2026-07-07 12:32:27,429 INFO     Circular nos 2026-0995 to 2026-1007.zip already exists in database.
+2026-07-07 12:32:27,470 INFO     2026-0065-Policy-Submission of Initial Accessibility Audit Report for Digital Platforms.pdf already exists in database.
+2026-07-07 12:32:27,507 INFO     2026-0064-Policy-Suspension of demat accounts of existing clients whose KYC records are not found to be valid by KRAs after the validation process.pdf already exists in database.
+2026-07-07 12:32:27,545 INFO     2026-061-Tender Offer -Change in settlement date of Indo Borax and Chemicals Limited.pdf already exists in database.
+2026-07-07 12:32:27,585 INFO     2026-060-Tender Offer -N2N Technologies Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:27,624 INFO     2026-059-Tender Offer -Tejassvi Aaharam Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:27,663 INFO     2026-0063-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:27,703 INFO     Circular nos 2026-0984 to 2026-0994.zip already exists in database.
+2026-07-07 12:32:27,741 INFO     2026-0063-Policy-Amendment to Business Rules of NSDL - Penalty Structure.pdf already exists in database.
+2026-07-07 12:32:27,780 INFO     2026-0062-Policy-Annexures.zip already exists in database.
+2026-07-07 12:32:27,970 INFO     Circular nos 2026-0970 to 2026-0983.zip already exists in database.
+2026-07-07 12:32:28,010 INFO     2026-0062-Policy-Amendments to Business Rules of NSDL regarding Closure and Shifting of Demat account and Opening of Demat account in name of AOP.pdf already exists in database.
+2026-07-07 12:32:28,055 INFO     2026-0059-Policy-Updates_for_Implementation_of_Section_51A_of_UAPA_1967_Updates_to_UNSCs_1988_(2011)_ISIL_(Daesh)_and_Al-Qaida_Sanctions_List.pdf already exists in database.
+2026-07-07 12:32:28,093 INFO     2026-0060-Policy-Validation of reason codes in respect of off-market transactions.pdf already exists in database.
+2026-07-07 12:32:28,132 INFO     2026-057-Tender Offer -Change in settlement date of Tulive Developers Limited.pdf already exists in database.
+2026-07-07 12:32:28,170 INFO     2026-0061-Policy-Amendment to Business Rules of NSDL regarding Margin Pledge and Pledge Release Invocation-cum-transfer_.pdf already exists in database.
+2026-07-07 12:32:28,207 INFO     2026-0059-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:28,244 INFO     2026-001-Training-Four-Day Online Training Program on NSDL Depository Operations for Participants.pdf already exists in database.
+2026-07-07 12:32:28,406 INFO     2026-0060-Policy-Annexure A.zip already exists in database.
+2026-07-07 12:32:28,442 INFO     2026-056-Tender Offer -Aaa Technologies Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:28,479 INFO     2026-0061-Policy-Annexures.zip already exists in database.
+2026-07-07 12:32:28,520 INFO     2026-058-Tender Offer -Aurobindo Pharma Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:32:28,556 INFO     2026-0058-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:28,595 INFO     2026-053-Tender Offer -Stylam Industries Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:28,638 INFO     2026-055-Tender Offer -Jauss Polymers Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:28,675 INFO     2026-054-Tender Offer -Change in settlement date of Adc India Communications Limited.pdf already exists in database.
+2026-07-07 12:32:28,712 INFO     Circular nos 2026-0899 to 2026-0916.zip already exists in database.
+2026-07-07 12:32:28,881 INFO     2026-0058-Policy-SEBI Review of requirement relating to registration for a Not for Profit Organizatio for issuance of Zero Coupon Zero Principal Instruments.pdf already exists in database.
+2026-07-07 12:32:28,921 INFO     2026-052-Tender Offer -Change in settlement date of Photon Capital Advisors Limited.pdf already exists in database.
+2026-07-07 12:32:28,959 INFO     2026-050-Tender Offer -Simandhar Impex Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:28,997 INFO     2026-0057-Policy-Opening of Demat Account in case of HUF.pdf already exists in database.
+2026-07-07 12:32:29,039 INFO     2026-051-Tender Offer -Kwality WallS (India) Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:29,078 INFO     Circular nos 2026-0883 to 2026-0898.zip already exists in database.
+2026-07-07 12:32:29,118 INFO     2026-0056-Policy-Annual assessment of default status of debt securities.pdf already exists in database.
+2026-07-07 12:32:29,154 INFO     2026-048-Tender Offer -Jolly Plastic Industries Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:29,191 INFO     2026-0056-Policy Annexures.zip already exists in database.
+2026-07-07 12:32:29,385 INFO     2026-049-Tender Offer -Puretrop Fruits Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:32:29,422 INFO     2026-0005-Policy-DDP-SEBI circular on Guidelines for Custodians.pdf already exists in database.
+2026-07-07 12:32:29,461 INFO     2026-0005-Policy-DDP-Annexure.zip already exists in database.
+2026-07-07 12:32:29,499 INFO     2026-0054-Policy-Internal and Concurrent Audit of Depository Operations.pdf already exists in database.
+2026-07-07 12:32:29,535 INFO     2026-0055-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1999 ISIL (Daesh) Al-Qaida Sanctions Listt.pdf already exists in database.
+2026-07-07 12:32:29,574 INFO     2026-0054-Policy-Annexures.zip already exists in database.
+2026-07-07 12:32:29,610 INFO     2026-0055-Policy-Annexures.zip already exists in database.
+2026-07-07 12:32:29,647 INFO     2026-047-Tender Offer -Tulive Developers Limited - Tender offer for Delisting.pdf already exists in database.
+2026-07-07 12:32:29,683 INFO     Circular nos 2026-0840 to 2026-0850.zip already exists in database.
+2026-07-07 12:32:29,850 INFO     2026-046-Tender Offer -ASPIRA PATHLAB AND DIAGNOSTICS LIMITED- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:29,887 INFO     2026-0053-Policy-SEBI Circular on Ease on doing business mechanism for lock-in of pledged shares under SEBI Issue of Capital and Disclosure Requirement Regulations 2018.pdf already exists in database.
+2026-07-07 12:32:29,928 INFO     2026-0052-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:29,964 INFO     2026-045-Tender Offer - SWITCHING TECHNOLOGIES GUNTHER LIMITED- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:30,002 INFO     2026-0053-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:30,043 INFO     2026-0051-Policy-Freezing of KRA KYC Non-compliant Demat Accounts.pdf already exists in database.
+2026-07-07 12:32:30,081 INFO     2026-044-Tender Offer - Change in settlement date of Orient Steel and Industries Limited.pdf already exists in database.
+2026-07-07 12:32:30,117 INFO     2026-0052-Policy-SEBI circular on Relaxation from the applicability of SEBI Master Circular for compliance with the provisions of the SEBI LODR Regulations 2015.pdf already exists in database.
+2026-07-07 12:32:30,268 INFO     2026-043-Tender Offer - Indo Borax and Chemicals Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:30,305 INFO     2026-0050-Policy-Annexure.zip already exists in database.
+2026-07-07 12:32:30,341 INFO     2026-0050-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1999 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:32:30,378 INFO     Circular nos 2026-0788 to 2026-0796.zip already exists in database.
+2026-07-07 12:32:30,417 INFO     2026-042-Tender_Offer_-Banganga_Paper_Industries_Limited-_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:32:30,455 INFO     Circular_nos_2026-0777_to_2026-0787_dated_06_April_2026.zip already exists in database.
+2026-07-07 12:32:30,495 INFO     2026-0069-Policy- SEBI Circular on Operationalisation of Past Risk and Return Verification Agency (PaRRVA).pdf already exists in database.
+2026-07-07 12:32:30,534 INFO     Circular nos 2026-0767 to 2026-0776.zip already exists in database.
+2026-07-07 12:32:30,582 INFO     Circular nos 2026-0753 to 2026-0766 dated 01 April 2026.zip already exists in database.
+2026-07-07 12:32:30,773 INFO     2026-0049-Policy-One-Time_Interest_Waiver_Scheme_for_Settlement_of_Outstanding_payments.pdf already exists in database.
+2026-07-07 12:32:30,818 INFO     2026-039-Tender_Offer_-Orient_Steel_and_Industries_Limited-_Tender_offer_for_Delisting.pdf already exists in database.
+2026-07-07 12:32:30,855 INFO     2026-041-Tender_Offer_-LCC_Infotech_Limited-_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:32:30,897 INFO     2026-040-Tender_Offer_-Swarnsarita_Jewels_India_Limited_-_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:32:31,072 INFO     2026-0045-Policy-SEBI Circular on Relaxations in certain reporting requirements for certain Stock Brokers and doing away with requirement of reporting of demat account.pdf already exists in database.
+2026-07-07 12:32:31,124 INFO     2026-0047-Policy-Surveillance Obligations for Depository Participants (DPs).pdf already exists in database.
+2026-07-07 12:32:31,161 INFO     2026-038-Tender Offer -Adc India Communications Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:31,215 INFO     2026-0046-Policy-Change in Pay-in and Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:32:31,253 INFO     2026-0048-Policy-Circular for Non availability of IDT of Gsec.pdf already exists in database.
+2026-07-07 12:32:31,290 INFO     2026-0043-Policy-Amendments to Business Rules of NSDL - Settlement Fee.pdf already exists in database.
+2026-07-07 12:32:31,464 INFO     2026-0041-Policy-Operating guidelines in terms of SEBI Circular regarding Creation Invocation of Pledge instructions through NSDL Depository System.pdf already exists in database.
+2026-07-07 12:32:31,522 INFO     2026-0040-Policy- Mock Testing – BSDA Opt-Out facility and BSDA Valuation.pdf already exists in database.
+2026-07-07 12:32:31,580 INFO     2026-0037-Policy-Change in Pay-in and Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:32:31,641 INFO     2026-0034-Policy- Amendment to Business Rules of NSDL regarding Fee for Conversion Reconversion and Redemption of Mutual Fund Units.pdf already exists in database.
+2026-07-07 12:32:31,702 INFO     2026-0035-Amendment to Clause B(o) of Annexure O of the NSDL Business Rules.pdf already exists in database.
+2026-07-07 12:32:31,763 INFO     2026-0005-SPEED-e-Policy-Change in deadline time for submission of pay-in instructions on SPEED-e.pdf already exists in database.
+2026-07-07 12:32:31,810 INFO     2026-0033-Policy-The Financial Action Task Force (FATF) Public statement on jurisdictions on call for action and increased monitoring - February 2026 Plenary.pdf already exists in database.
+2026-07-07 12:32:31,851 INFO     2026-0036-Policy-Enhancement in NSDL Depository System in respect of BSDA Opt-Out Facility.pdf already exists in database.
+2026-07-07 12:32:32,012 INFO     Circular nos 2026-0651 to 2026-0660.zip already exists in database.
+2026-07-07 12:32:32,074 INFO     Circular nos 2026-0638 to 2026-0650.zip already exists in database.
+2026-07-07 12:32:32,144 INFO     2026-033-Tender Offer -Change in settlement date of Pankaj Polymers Limited.pdf already exists in database.
+2026-07-07 12:32:32,213 INFO     2026-034-Tender Offer -Lykis Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:32,289 INFO     2026-0032-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:32:32,354 INFO     Circular nos 2026-0622 to 2026-0637.zip already exists in database.
+2026-07-07 12:32:32,429 INFO     Circular nos 2026-0610 to 2026-0621.zip already exists in database.
+2026-07-07 12:32:32,477 INFO     Circular nos 2026-0595 to 2026-0609.zip already exists in database.
+2026-07-07 12:32:32,528 INFO     Circular nos 2026-0580 to 2026-0594.zip already exists in database.
+2026-07-07 12:32:32,566 INFO     2026-0031-Policy-Updates for Implementation of Section 51A of UAPA 1967 Updates to UNSCs 1267 1989 ISIL (Daesh) and Al-Qaida Sanctions List.pdf already exists in database.
+2026-07-07 12:32:32,713 INFO     2026-0030-Policy- Submission of half yearly Cyber Security audit ATR by Depository Participants.pdf already exists in database.
+2026-07-07 12:32:32,750 INFO     2026-0029-Policy-Premature Redemption Calendar for Sovereign Gold Bonds for the period April 2026 to September 2026.pdf already exists in database.
+2026-07-07 12:32:32,787 INFO     Circular nos 2026-0526 to 2026-0535.zip already exists in database.
+2026-07-07 12:32:32,823 INFO     Circular nos 2026-0511 to 2026-0525 dated 02 March 2026.zip already exists in database.
+2026-07-07 12:32:33,048 INFO     2026-0028-Policy-SEBI Circular on Ease of Doing Investment - Disclosure of registered name and registration number by SEBI regulated entities and their agents on Social Media Platforms.pdf already exists in database.
+2026-07-07 12:32:33,085 INFO     Circular nos 2026-0494 to 2026-0510.zip already exists in database.
+2026-07-07 12:32:33,123 INFO     2026-032-Tender Offer -Nirbhay Colours India Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:33,160 INFO     Circular nos 2026-0466 to 2026-0479.zip already exists in database.
+2026-07-07 12:32:33,197 INFO     2026-031-Tender Offer -Kesoram Industries Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:33,247 INFO     2026-030-Tender Offer -Change in settlement date of AKG Exim Limited.pdf already exists in database.
+2026-07-07 12:32:33,285 INFO     Circular nos 2026-0450 to 2026-0465.zip already exists in database.
+2026-07-07 12:32:33,322 INFO     2026-029-Tender Offer -Pankaj Polymers Limited- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:33,362 INFO     Circular nos 2026-0440 to 2026-0449.zip already exists in database.
+2026-07-07 12:32:33,582 INFO     2026-0027-Policy-Facility for reporting of FATF Submission by DPs through NSDL ePASS Portal.pdf already exists in database.
+2026-07-07 12:32:33,623 INFO     2026-0004-SPEED-e-Policy-Enhancement in the NSDL SPEED-e Application to enable off-market transfer instructions for password-based users.pdf already exists in database.
+2026-07-07 12:32:33,663 INFO     2026-0004-Policy-DDP-Implementation of GS-FPI Flag for Foreign Portfolio Investors investing exclusively in Government Securities.pdf already exists in database.
+2026-07-07 12:32:33,702 INFO     Circular nos 2026-0400 to 2026-0409.zip already exists in database.
+2026-07-07 12:32:33,740 INFO     2026-0024-Policy-Amendment to Business Rule of NSDL - Penalty Structure.pdf already exists in database.
+2026-07-07 12:32:33,779 INFO     2026-0003-SPEED-e-Policy-Change in deadline time for submission of pay-in instructions on SPEED-e.pdf already exists in database.
+2026-07-07 12:32:33,818 INFO     Circular nos 2026-0386 to 2026-0399.zip already exists in database.
+2026-07-07 12:32:33,856 INFO     2026-0026-Policy-Change in Pay-in and Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:32:34,108 INFO     2026-0025-Policy-Suspension of demat accounts of existing clients whose KYC records are not found to be valid by KRAs after the validation process.pdf already exists in database.
+2026-07-07 12:32:34,145 INFO     Circular nos 2026-0375 to 2026-0385.zip already exists in database.
+2026-07-07 12:32:34,183 INFO     2026-0023-Policy-SEBI Circular regarding Obligations on CRAs while undertaking rating of financial instruments falling under the purview of any other Financial Sector Regulator.pdf already exists in database.
+2026-07-07 12:32:34,221 INFO     2026-028-Tender Offer -JMG Corporation Limited- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:34,258 INFO     Circular nos 2026-0365 to 2026-0374.zip already exists in database.
+2026-07-07 12:32:34,296 INFO     2026-027-Tender Offer -Net Pix Shorts Digital Media Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:34,332 INFO     2026-026-Tender Offer-GO FASHION (INDIA) LIMITED - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:32:34,369 INFO     Circular nos 2026-0351 to 2026-0364.zip already exists in database.
+2026-07-07 12:32:34,417 INFO     2026-0022-Policy-SEBI Master Circular for SEBI (Issue of Capital and Disclosure Requirements Regulations) 2018.pdf already exists in database.
+2026-07-07 12:32:34,470 INFO     Circular nos 2026-0335 to 2026-0350.zip already exists in database.
+2026-07-07 12:32:34,725 INFO     Circular nos 2026-0324 to 2026-0334.zip already exists in database.
+2026-07-07 12:32:34,777 INFO     2026-025-Tender Offer -SRM ENERGY LIMITED- Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:34,841 INFO     2026-024-Tender Offer - Harmony Capital Services Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:34,890 INFO     2026-0021-Policy-SEBI Circular regarding Reporting of value of units of Alternative Investment Funds (AIFs) to Depositories.pdf already exists in database.
+2026-07-07 12:32:34,930 INFO     2026-0019-Policy-SEBI Circular regarding Creation or Invocation of pledge of securities through depository system.pdf already exists in database.
+2026-07-07 12:32:34,973 INFO     2026-0020-Policy-Amendment_to_Business_Rule_of_NSDL-Penalty_Structure.pdf already exists in database.
+2026-07-07 12:32:35,019 INFO     Circular_nos_2026-0316_to_2026-0323.zip already exists in database.
+2026-07-07 12:32:35,066 INFO     Circular_nos_2026-0300_to_2026-0315.zip already exists in database.
+2026-07-07 12:32:35,115 INFO     2026-022-Tender Offer-Shashank_Traders_Limited_Tender_offer_for_Takeover.pdf already exists in database.
+2026-07-07 12:32:35,309 INFO     Circular_nos_2026-0291_to_2026-0299.zip already exists in database.
+2026-07-07 12:32:35,346 INFO     2026-0018-Policy-Extension of Timeline for Upload of Client KYC Records to KRAs for Validation.pdf already exists in database.
+2026-07-07 12:32:35,383 INFO     2026-0017-Policy-SEBI Circular regarding Ease of Doing Investment Special Window for Transfer and Dematerialisation of Physical Securities.pdf already exists in database.
+2026-07-07 12:32:35,420 INFO     2026-021-Tender Offer - Matrimony.com Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:32:35,462 INFO     2026-020-Tender Offer -AKG EXIM LIMITED - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:35,502 INFO     2026-0016-Policy-SEBI Master Circular for compliance with the provisions of SEBI LODR Regulations 2015 by listed entities.pdf already exists in database.
+2026-07-07 12:32:35,541 INFO     2026-019-Tender Offer-Change in settlement date of Esha Media Research Limited.pdf already exists in database.
+2026-07-07 12:32:35,580 INFO     2026-0015-Policy-SEBI Circular- requirement of issuance of LOCdirect credit of securities in dematerialisation account of the investor.pdf already exists in database.
+2026-07-07 12:32:35,819 INFO     Circular nos 2026-0246 to 2026-0260.zip already exists in database.
+2026-07-07 12:32:35,874 INFO     2026-0001-SPEED-e-Policy-Availability of SPEED-e facility on Sunday, February 01, 2026.pdf already exists in database.
+2026-07-07 12:32:35,937 INFO     2026-0002-SPEED-e-Policy-Change in deadline time for submission of pay-in instructions on SPEED-e.pdf already exists in database.
+2026-07-07 12:32:35,980 INFO     Circular nos 2026-0236 to 2026-0245.zip already exists in database.
+2026-07-07 12:32:36,029 INFO     2026-0014-Policy-Change in Pay-in & Pay-out time for NSE and BSE settlements.pdf already exists in database.
+2026-07-07 12:32:36,071 INFO     2026-0013-Policy-Enhancement for submission of Cyber Audit Report in electronic form through e-PASS.pdf already exists in database.
+2026-07-07 12:32:36,114 INFO     Circular nos 2026-0226 to 2026-0235.zip already exists in database.
+2026-07-07 12:32:36,152 INFO     2026-0012-Policy-Availability of NSDL Depository System on Sunday February 01 2026.pdf already exists in database.
+2026-07-07 12:32:36,189 INFO     2026-018-Tender Offer-Netlink Solutions (India) Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:36,454 INFO     Circular nos 2026-0180 to 2026-0190.zip already exists in database.
+2026-07-07 12:32:36,490 INFO     Circular nos 2026-0191 to 2026-0209.zip already exists in database.
+2026-07-07 12:32:36,529 INFO     2026-0003-Policy-DDP-SEBI circular on Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI) framework for FPIs and FVCIs.pdf already exists in database.
+2026-07-07 12:32:36,565 INFO     2026-0002-Policy-DDP-SEBI circular on Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI) framework for FPIs and FVCIs.pdf already exists in database.
+2026-07-07 12:32:36,603 INFO     2026-017-Tender Offer-Change in settlement date of Shree Digvijay Cement Company Limited.pdf already exists in database.
+2026-07-07 12:32:36,643 INFO     2026-0011-Policy-SEBI Circular regarding Master Circular for Framework on Social Stock Exchange (SSE).pdf already exists in database.
+2026-07-07 12:32:36,680 INFO     Circular nos 2026-0171 to 2026-0179.zip already exists in database.
+2026-07-07 12:32:36,730 INFO     2026-0010-Policy-Suspension of demat accounts of existing clients whose KYC records are not found to be valid by KRAs after the validation process.pdf already exists in database.
+2026-07-07 12:32:36,777 INFO     Circular nos 2026-0159 to 2026-0170.zip already exists in database.
+2026-07-07 12:32:36,817 INFO     2026-016-Tender Offer-Change in settlement date of Morganite Crucible (India) Limited.pdf already exists in database.
+2026-07-07 12:32:37,020 INFO     Circular nos 2026-0141 to 2026-0158.zip already exists in database.
+2026-07-07 12:32:37,058 INFO     2026-0009-Policy-Enhancement in NSDL e-PASS portal for download of Details of the deceased investors PAN.pdf already exists in database.
+2026-07-07 12:32:37,096 INFO     Circular nos 2026-0131 to 2026-0140.zip already exists in database.
+2026-07-07 12:32:37,138 INFO     2026-0007-Policy-Submission of Cyber Audit Report under CSCRF Guidelines.pdf already exists in database.
+2026-07-07 12:32:37,175 INFO     2026-0001-Policy-DDP-SEBI Press Release regarding SEBI Facilitates Seamless Digital Signature Certificate Functionality for FPIs.pdf already exists in database.
+2026-07-07 12:32:37,216 INFO     2026-015-Tender Offer-Change in settlement Bid End Date and settlement date of Esha Media Research Limited.pdf already exists in database.
+2026-07-07 12:32:37,255 INFO     2026-014-Tender Offer-Change in settlement Bid End Date and settlement date of P. M Telelinnks Limited.pdf already exists in database.
+2026-07-07 12:32:37,291 INFO     2026-013-Tender Offer-Change in settlement Bid End Date and settlement date of Shentracon Chemicals Limited.pdf already exists in database.
+2026-07-07 12:32:37,330 INFO     2026-012-Tender Offer-Change in settlement end Date of Sanmitra Commercial Limited.pdf already exists in database.
+2026-07-07 12:32:37,377 INFO     2026-011-Tender Offer-Change in settlement end date of Oscar Global Limited.pdf already exists in database.
+2026-07-07 12:32:37,666 INFO     2026-010-Tender Offer-Change in settlement end date and settlement date of Shree Digvijay Cement Company Limited.pdf already exists in database.
+2026-07-07 12:32:37,704 INFO     2026-0008-Policy-Enhancement in reporting of details in respect of NISM qualified Associate persons by DPs through NSDL e-PASS Portal using uploading facility.pdf already exists in database.
+2026-07-07 12:32:37,741 INFO     2026-009-Tender Offer-Premium Capital Market and Investments Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:37,780 INFO     2026-0006-Policy-Non availability of Inter Depository Transfer instructions on January 15 2026.pdf already exists in database.
+2026-07-07 12:32:37,818 INFO     Circular nos 2026-0115 to 2026-0130.zip already exists in database.
+2026-07-07 12:32:37,856 INFO     2026-007-Tender Offer-Esha Media Research Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:37,893 INFO     2026-008-Tender Offer-Silly Monks Entertainment Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:37,932 INFO     Circular nos 2026-0101 to 2026-0114.zip already exists in database.
+2026-07-07 12:32:37,971 INFO     2026-006-Tender Offer-P.M Telelinnks Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:38,012 INFO     Circular nos 2026-0090 to 2026-0100.zip already exists in database.
+2026-07-07 12:32:38,186 INFO     2026-0005-Policy- Revision in Limited Purpose Holiday Master.pdf already exists in database.
+2026-07-07 12:32:38,222 INFO     2026-0003-Policy-SEBI Circular on Relaxation on geo-tagging requirement in India for NRIs while undertaking re-KYC.pdf already exists in database.
+2026-07-07 12:32:38,260 INFO     2026-0004-Policy-Submission of Regulatory Freeze and unfreeze Order details by Participants through NSDL e-PASS portal.pdf already exists in database.
+2026-07-07 12:32:38,301 INFO     Circular nos 2026-0075 to 2026-0089.zip already exists in database.
+2026-07-07 12:32:38,338 INFO     2026-0004- Policy- Annexure.zip already exists in database.
+2026-07-07 12:32:38,378 INFO     2026-005-Tender Offer-Change in settlement date of Nectar Lifesciences Limited.pdf already exists in database.
+2026-07-07 12:32:38,419 INFO     2026-004-Tender Offer-Shentracon Chemicals Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:38,456 INFO     Circular nos 2026-0065 to 2026-0074.zip already exists in database.
+2026-07-07 12:32:38,493 INFO     Circular nos 2026-0054 to 2026-0064.zip already exists in database.
+2026-07-07 12:32:38,535 INFO     2026-003-Tender Offer-Fairchem Organics Limited - Tender offer for Buyback.pdf already exists in database.
+2026-07-07 12:32:38,701 INFO     2026-0002-Policy-Change in additional supporting file (.TXT) for DP Billing under NSDL ePASS.pdf already exists in database.
+2026-07-07 12:32:38,736 INFO     2026-0001- Annexure.zip already exists in database.
+2026-07-07 12:32:38,773 INFO     Circular nos 2026-0030 to 2026-0040.zip already exists in database.
+2026-07-07 12:32:38,811 INFO     Circular nos 2026-0041 to 2026-0053.zip already exists in database.
+2026-07-07 12:32:38,848 INFO     2026-002-Tender Offer-Sanmitra Commercial Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:38,884 INFO     2026-0001-Policy-SOP for handling cyber security incidents.pdf already exists in database.
+2026-07-07 12:32:38,922 INFO     Circular nos 2026-0015 to 2026-0029.zip already exists in database.
+2026-07-07 12:32:38,959 INFO     2026-001-Tender Offer-Shree Digvijay Cement Company Limited - Tender offer for Takeover.pdf already exists in database.
+2026-07-07 12:32:38,996 INFO     Circular nos 2026-0001 to 2026-0014.zip already exists in database.
+2026-07-07 12:32:38,998 INFO     NSDL Complete → found 249 files, downloaded 0 new
+2026-07-07 12:36:26,885 INFO     NSDL Complete → found 249 files, downloaded 0 new
+2026-07-07 12:37:48,014 INFO     NSDL Complete → found 249 files, downloaded 0 new
+2026-07-07 12:45:42,306 INFO     NSDL Complete → found 249 files, downloaded 0 new
+2026-07-07 12:50:30,612 INFO     NSDL Complete → found 249 files, downloaded 0 new
+2026-07-07 12:54:23,841 INFO     NSDL Complete → found 249 files, downloaded 0 new
+2026-07-07 12:56:58,859 INFO     NSDL Complete → found 249 files, downloaded 0 new

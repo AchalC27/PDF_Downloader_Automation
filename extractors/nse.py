@@ -1,6 +1,7 @@
-import requests
-from datetime import datetime
 import re
+from datetime import datetime
+
+import requests
 from nse import NSE
 
 from .logger import get_logger
@@ -22,13 +23,8 @@ def sanitize(text, max_len=100):
     if not text:
         return "Unknown"
 
-    # Remove newlines/tabs
     text = re.sub(r"[\r\n\t]+", " ", text)
-
-    # Collapse multiple spaces
     text = re.sub(r"\s+", " ", text)
-
-    # Replace invalid filename characters
     text = re.sub(r'[\\/:*?"<>|]', "_", text)
 
     return text.strip()[:max_len]
@@ -50,21 +46,22 @@ def build_url(row):
 
 
 def download_file(session, url, path):
-    response = session.get(url, headers=HEADERS, stream=True, timeout=60)
-    response.raise_for_status()
-
-    with open(path, "wb") as file:
-        for chunk in response.iter_content(16384):
-            if chunk:
-                file.write(chunk)
+    pass
 
 
 def download_nse():
     logger.info("")
     logger.info("========== NSE ==========")
 
-    today = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0)
+    today = datetime.today().replace(
+        hour=0,
+        minute=0,
+        second=0,
+        microsecond=0,
+    )
 
+    # Required by the NSE package.
+    # get_download() no longer creates any folders.
     download_folder = get_download("nse")
 
     session = requests.Session()
@@ -74,7 +71,11 @@ def download_nse():
     already_processed = 0
 
     with NSE(download_folder=str(download_folder)) as nse:
-        result = nse.circulars(from_date=today, to_date=today)
+
+        result = nse.circulars(
+            from_date=today,
+            to_date=today,
+        )
 
         if isinstance(result, dict):
             rows = result.get("data", result.get("Table", []))
@@ -82,7 +83,12 @@ def download_nse():
             rows = result
 
         target = today.strftime("%Y%m%d")
-        rows = [row for row in rows if str(row.get("cirDate")) == target]
+
+        rows = [
+            row
+            for row in rows
+            if str(row.get("cirDate")) == target
+        ]
 
         total = len(rows)
 
@@ -91,14 +97,22 @@ def download_nse():
         new_rows = []
 
         for i, row in enumerate(rows, start=1):
+
             url = build_url(row)
 
             if not url:
                 continue
 
-            number = sanitize(row.get("circDisplayNo") or row.get("circNumber") or f"item_{i}")
+            number = sanitize(
+                row.get("circDisplayNo")
+                or row.get("circNumber")
+                or f"item_{i}"
+            )
+
             subject = sanitize(row.get("sub"))
+
             ext = (row.get("fileExt") or "pdf").lower()
+
             filename = f"{number}_{subject}.{ext}"
 
             if pdf_exists("NSE", filename):
@@ -114,13 +128,17 @@ def download_nse():
             return
 
         for row, url, filename in new_rows:
+
             category = row.get("Category") or "Uncategorized"
-            filepath = download_folder / filename
+
+            # Download disabled
+            # filepath = download_folder / filename
 
             try:
-                logger.info(f"Downloading : {filename}")
+                logger.info(f"Saving : {filename}")
 
-                download_file(session, url, filepath)
+                # Download disabled
+                # download_file(session, url, filepath)
 
                 save_pdf(
                     source="NSE",

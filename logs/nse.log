@@ -1482,3 +1482,47 @@ mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_CM
 2026-07-07 12:04:12,858 INFO     Total Circulars Found : 0
 2026-07-07 12:04:12,858 INFO     Already Processed     : 0
 2026-07-07 12:04:12,858 INFO     No new circulars found.
+2026-07-07 12:16:26,233 INFO     
+2026-07-07 12:16:26,233 INFO     ========== NSE ==========
+2026-07-07 12:16:26,956 INFO     Total Circulars Found : 0
+2026-07-07 12:16:26,956 INFO     Already Processed     : 0
+2026-07-07 12:16:26,956 INFO     No new circulars found.
+2026-07-07 12:30:53,356 INFO     
+2026-07-07 12:30:53,356 INFO     ========== NSE ==========
+2026-07-07 12:31:28,814 INFO     
+2026-07-07 12:31:28,814 INFO     ========== NSE ==========
+2026-07-07 12:35:14,072 INFO     
+2026-07-07 12:35:14,072 INFO     ========== NSE ==========
+2026-07-07 12:36:41,841 INFO     
+2026-07-07 12:36:41,842 INFO     ========== NSE ==========
+2026-07-07 12:36:42,489 INFO     Total Circulars Found : 2
+2026-07-07 12:36:42,628 INFO     Already Processed     : 0
+2026-07-07 12:36:42,628 INFO     Saving : NSE_COMP_75074_Total Surrender Of Membership.pdf
+2026-07-07 12:36:42,678 INFO     Saving : NSE_COMP_75073_Total Surrender Of Membership.pdf
+2026-07-07 12:36:42,739 INFO     
+2026-07-07 12:36:42,740 INFO     NSE Summary
+2026-07-07 12:36:42,740 INFO     -------------------------
+2026-07-07 12:36:42,740 INFO     Total Circulars Found : 2
+2026-07-07 12:36:42,740 INFO     Already Processed     : 0
+2026-07-07 12:36:42,741 INFO     Downloaded            : 2
+2026-07-07 12:36:42,741 INFO     Failed                : 0
+2026-07-07 12:44:38,278 INFO     
+2026-07-07 12:44:38,278 INFO     ========== NSE ==========
+2026-07-07 12:44:38,877 INFO     Total Circulars Found : 2
+2026-07-07 12:44:39,070 INFO     Already Processed     : 2
+2026-07-07 12:44:39,070 INFO     No new circulars found.
+2026-07-07 12:49:26,766 INFO     
+2026-07-07 12:49:26,766 INFO     ========== NSE ==========
+2026-07-07 12:49:27,347 INFO     Total Circulars Found : 2
+2026-07-07 12:49:27,516 INFO     Already Processed     : 2
+2026-07-07 12:49:27,517 INFO     No new circulars found.
+2026-07-07 12:53:21,000 INFO     
+2026-07-07 12:53:21,001 INFO     ========== NSE ==========
+2026-07-07 12:53:21,561 INFO     Total Circulars Found : 2
+2026-07-07 12:53:21,692 INFO     Already Processed     : 2
+2026-07-07 12:53:21,692 INFO     No new circulars found.
+2026-07-07 12:55:54,842 INFO     
+2026-07-07 12:55:54,842 INFO     ========== NSE ==========
+2026-07-07 12:55:55,419 INFO     Total Circulars Found : 2
+2026-07-07 12:55:55,599 INFO     Already Processed     : 2
+2026-07-07 12:55:55,599 INFO     No new circulars found.

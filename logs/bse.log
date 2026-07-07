@@ -528,3 +528,100 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.bseindia.com'
 2026-07-07 12:04:14,834 INFO     Already Processed     : 0
 2026-07-07 12:04:14,835 INFO     Downloaded            : 6
 2026-07-07 12:04:14,835 INFO     Failed                : 0
+2026-07-07 12:16:26,960 INFO     
+2026-07-07 12:16:26,961 INFO     ========== BSE ==========
+2026-07-07 12:16:27,399 INFO     Total Circulars Found : 7
+2026-07-07 12:16:27,906 INFO     Already Processed     : 6
+2026-07-07 12:16:27,906 INFO     Downloading : 20260707-7_Offer to Buy – Acquisition Window (Buyback) for TMT INDIA LTD – Live Activities Schedule.pdf
+2026-07-07 12:16:28,364 INFO     
+2026-07-07 12:16:28,364 INFO     BSE Summary
+2026-07-07 12:16:28,364 INFO     --------------------------
+2026-07-07 12:16:28,365 INFO     Total Circulars Found : 7
+2026-07-07 12:16:28,365 INFO     Already Processed     : 6
+2026-07-07 12:16:28,365 INFO     Downloaded            : 1
+2026-07-07 12:16:28,365 INFO     Failed                : 0
+2026-07-07 12:18:05,301 INFO     
+2026-07-07 12:18:05,301 INFO     ========== BSE ==========
+2026-07-07 12:18:05,689 INFO     Total Circulars Found : 7
+2026-07-07 12:18:06,075 INFO     Already Processed     : 7
+2026-07-07 12:18:06,075 INFO     No new circulars found.
+2026-07-07 12:19:16,901 INFO     
+2026-07-07 12:19:16,902 INFO     ========== BSE ==========
+2026-07-07 12:19:17,327 INFO     Total Circulars Found : 7
+2026-07-07 12:19:17,630 INFO     Already Processed     : 7
+2026-07-07 12:19:17,630 INFO     No new circulars found.
+2026-07-07 12:19:24,560 INFO     
+2026-07-07 12:19:24,560 INFO     ========== BSE ==========
+2026-07-07 12:19:24,890 INFO     Total Circulars Found : 7
+2026-07-07 12:19:25,183 INFO     Already Processed     : 7
+2026-07-07 12:19:25,183 INFO     No new circulars found.
+2026-07-07 12:24:15,256 INFO     
+2026-07-07 12:24:15,256 INFO     ========== BSE ==========
+2026-07-07 12:24:15,834 INFO     Total Circulars Found : 7
+2026-07-07 12:24:16,442 INFO     Already Processed     : 7
+2026-07-07 12:24:16,442 INFO     No new circulars found.
+2026-07-07 12:24:22,962 INFO     
+2026-07-07 12:24:22,962 INFO     ========== BSE ==========
+2026-07-07 12:24:23,357 INFO     Total Circulars Found : 7
+2026-07-07 12:24:23,709 INFO     Already Processed     : 7
+2026-07-07 12:24:23,709 INFO     No new circulars found.
+2026-07-07 12:24:37,569 INFO     
+2026-07-07 12:24:37,569 INFO     ========== BSE ==========
+2026-07-07 12:24:37,895 INFO     Total Circulars Found : 7
+2026-07-07 12:24:38,187 INFO     Already Processed     : 7
+2026-07-07 12:24:38,187 INFO     No new circulars found.
+2026-07-07 12:27:11,438 INFO     
+2026-07-07 12:27:11,439 INFO     ========== BSE ==========
+2026-07-07 12:27:14,191 INFO     Total Circulars Found : 7
+2026-07-07 12:27:14,521 INFO     Already Processed     : 7
+2026-07-07 12:27:14,522 INFO     No new circulars found.
+2026-07-07 12:27:45,830 INFO     
+2026-07-07 12:27:45,830 INFO     ========== BSE ==========
+2026-07-07 12:27:46,282 INFO     Total Circulars Found : 7
+2026-07-07 12:27:46,578 INFO     Already Processed     : 7
+2026-07-07 12:27:46,578 INFO     No new circulars found.
+2026-07-07 12:27:56,105 INFO     
+2026-07-07 12:27:56,105 INFO     ========== BSE ==========
+2026-07-07 12:27:56,515 INFO     Total Circulars Found : 7
+2026-07-07 12:27:56,816 INFO     Already Processed     : 7
+2026-07-07 12:27:56,816 INFO     No new circulars found.
+2026-07-07 12:30:53,360 INFO     
+2026-07-07 12:30:53,361 INFO     ========== BSE ==========
+2026-07-07 12:30:54,259 INFO     Total Circulars Found : 7
+2026-07-07 12:30:54,620 INFO     Already Processed     : 7
+2026-07-07 12:30:54,620 INFO     No new circulars found.
+2026-07-07 12:31:28,816 INFO     
+2026-07-07 12:31:28,816 INFO     ========== BSE ==========
+2026-07-07 12:31:29,394 INFO     Total Circulars Found : 7
+2026-07-07 12:31:29,701 INFO     Already Processed     : 7
+2026-07-07 12:31:29,702 INFO     No new circulars found.
+2026-07-07 12:35:14,789 INFO     
+2026-07-07 12:35:14,789 INFO     ========== BSE ==========
+2026-07-07 12:35:15,337 INFO     Total Circulars Found : 7
+2026-07-07 12:35:15,711 INFO     Already Processed     : 7
+2026-07-07 12:35:15,711 INFO     No new circulars found.
+2026-07-07 12:36:42,742 INFO     
+2026-07-07 12:36:42,742 INFO     ========== BSE ==========
+2026-07-07 12:36:43,428 INFO     Total Circulars Found : 7
+2026-07-07 12:36:43,704 INFO     Already Processed     : 7
+2026-07-07 12:36:43,704 INFO     No new circulars found.
+2026-07-07 12:44:39,072 INFO     
+2026-07-07 12:44:39,073 INFO     ========== BSE ==========
+2026-07-07 12:44:39,615 INFO     Total Circulars Found : 7
+2026-07-07 12:44:39,928 INFO     Already Processed     : 7
+2026-07-07 12:44:39,929 INFO     No new circulars found.
+2026-07-07 12:49:27,519 INFO     
+2026-07-07 12:49:27,519 INFO     ========== BSE ==========
+2026-07-07 12:49:27,997 INFO     Total Circulars Found : 7
+2026-07-07 12:49:28,260 INFO     Already Processed     : 7
+2026-07-07 12:49:28,260 INFO     No new circulars found.
+2026-07-07 12:53:21,695 INFO     
+2026-07-07 12:53:21,695 INFO     ========== BSE ==========
+2026-07-07 12:53:22,129 INFO     Total Circulars Found : 7
+2026-07-07 12:53:22,384 INFO     Already Processed     : 7
+2026-07-07 12:53:22,384 INFO     No new circulars found.
+2026-07-07 12:55:55,602 INFO     
+2026-07-07 12:55:55,602 INFO     ========== BSE ==========
+2026-07-07 12:55:57,257 INFO     Total Circulars Found : 7
+2026-07-07 12:55:57,520 INFO     Already Processed     : 7
+2026-07-07 12:55:57,520 INFO     No new circulars found.

@@ -1496,3 +1496,93 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.
 2026-07-07 12:04:23,258 INFO     Already Processed     : 55
 2026-07-07 12:04:23,258 INFO     Downloaded            : 0
 2026-07-07 12:04:23,259 INFO     Failed                : 1
+2026-07-07 12:16:33,190 INFO     
+2026-07-07 12:16:33,191 INFO     ========== AMFI ==========
+2026-07-07 12:16:33,568 INFO     Running AMFI extractor...
+2026-07-07 12:16:35,634 INFO     Total Documents Found : 56
+2026-07-07 12:16:35,634 INFO     Already Processed     : 55
+2026-07-07 12:16:35,634 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-07 12:16:35,947 ERROR    Failed : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 90, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-07 12:16:35,951 INFO     
+2026-07-07 12:16:35,951 INFO     AMFI Summary
+2026-07-07 12:16:35,951 INFO     -------------------------
+2026-07-07 12:16:35,951 INFO     Total Documents Found : 56
+2026-07-07 12:16:35,951 INFO     Already Processed     : 55
+2026-07-07 12:16:35,951 INFO     Downloaded            : 0
+2026-07-07 12:16:35,951 INFO     Failed                : 1
+2026-07-07 12:30:58,392 INFO     
+2026-07-07 12:30:58,393 INFO     ========== AMFI ==========
+2026-07-07 12:30:58,728 INFO     Running AMFI extractor...
+2026-07-07 12:30:58,745 INFO     Total Documents Found : 56
+2026-07-07 12:30:59,790 INFO     Saving : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-07 12:31:00,894 INFO     
+2026-07-07 12:31:00,894 INFO     AMFI Summary
+2026-07-07 12:31:00,895 INFO     -------------------------
+2026-07-07 12:31:00,895 INFO     Total Documents Found : 56
+2026-07-07 12:31:00,895 INFO     Already Processed     : 55
+2026-07-07 12:31:00,895 INFO     Downloaded            : 1
+2026-07-07 12:31:00,895 INFO     Failed                : 0
+2026-07-07 12:31:33,482 INFO     
+2026-07-07 12:31:33,482 INFO     ========== AMFI ==========
+2026-07-07 12:31:33,841 INFO     Running AMFI extractor...
+2026-07-07 12:31:33,858 INFO     Total Documents Found : 56
+2026-07-07 12:31:35,997 INFO     
+2026-07-07 12:31:35,998 INFO     AMFI Summary
+2026-07-07 12:31:35,998 INFO     -------------------------
+2026-07-07 12:31:35,998 INFO     Total Documents Found : 56
+2026-07-07 12:31:35,998 INFO     Already Processed     : 56
+2026-07-07 12:31:35,998 INFO     Downloaded            : 0
+2026-07-07 12:31:35,999 INFO     Failed                : 0
+2026-07-07 12:35:19,401 INFO     
+2026-07-07 12:35:19,401 INFO     ========== AMFI ==========
+2026-07-07 12:35:19,736 INFO     Running AMFI extractor...
+2026-07-07 12:35:19,756 INFO     Total Documents Found : 56
+2026-07-07 12:35:21,756 INFO     
+2026-07-07 12:35:21,756 INFO     AMFI Summary
+2026-07-07 12:35:21,756 INFO     -------------------------
+2026-07-07 12:35:21,756 INFO     Total Documents Found : 56
+2026-07-07 12:35:21,756 INFO     Already Processed     : 56
+2026-07-07 12:35:21,756 INFO     Downloaded            : 0
+2026-07-07 12:35:21,756 INFO     Failed                : 0
+2026-07-07 12:36:47,257 INFO     
+2026-07-07 12:36:47,257 INFO     ========== AMFI ==========
+2026-07-07 12:36:47,611 INFO     Running AMFI extractor...
+2026-07-07 12:36:47,631 INFO     Total Documents Found : 56
+2026-07-07 12:36:49,700 INFO     
+2026-07-07 12:36:49,700 INFO     AMFI Summary
+2026-07-07 12:36:49,700 INFO     -------------------------
+2026-07-07 12:36:49,701 INFO     Total Documents Found : 56
+2026-07-07 12:36:49,701 INFO     Already Processed     : 56
+2026-07-07 12:36:49,701 INFO     Downloaded            : 0
+2026-07-07 12:36:49,701 INFO     Failed                : 0
+2026-07-07 12:44:43,733 INFO     
+2026-07-07 12:44:43,734 INFO     ========== AMFI ==========
+2026-07-07 12:44:44,069 INFO     Running AMFI extractor...
+2026-07-07 12:44:46,158 INFO     Total Documents Found : 56
+2026-07-07 12:44:46,158 INFO     Already Processed     : 56
+2026-07-07 12:44:46,158 INFO     No new documents found.
+2026-07-07 12:49:31,865 INFO     
+2026-07-07 12:49:31,866 INFO     ========== AMFI ==========
+2026-07-07 12:49:32,177 INFO     Running AMFI extractor...
+2026-07-07 12:49:34,145 INFO     Total Documents Found : 56
+2026-07-07 12:49:34,145 INFO     Already Processed     : 56
+2026-07-07 12:49:34,145 INFO     No new documents found.
+2026-07-07 12:53:26,011 INFO     
+2026-07-07 12:53:26,011 INFO     ========== AMFI ==========
+2026-07-07 12:53:26,316 INFO     Running AMFI extractor...
+2026-07-07 12:53:28,329 INFO     Total Documents Found : 56
+2026-07-07 12:53:28,330 INFO     Already Processed     : 56
+2026-07-07 12:53:28,330 INFO     No new documents found.
+2026-07-07 12:56:01,102 INFO     
+2026-07-07 12:56:01,102 INFO     ========== AMFI ==========
+2026-07-07 12:56:01,502 INFO     Running AMFI extractor...
+2026-07-07 12:56:03,705 INFO     Total Documents Found : 56
+2026-07-07 12:56:03,705 INFO     Already Processed     : 56
+2026-07-07 12:56:03,705 INFO     No new documents found.
