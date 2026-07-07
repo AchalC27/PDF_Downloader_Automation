@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 
 from .db import pdf_exists, save_pdf
 from .logger import get_logger
+from .get_download import get_download
 
 logger = get_logger("arcl")
 
@@ -33,25 +34,23 @@ ALLOWED_EXTENSIONS = (
     ".xls",
     ".xlsx",
     ".zip",
-    ".csv",
+    ".csv"
 )
 
 
 def normalize_url(href, base_url):
     href = href.strip()
-
     if href.startswith("/"):
         href = base_url.rstrip("/") + href
-
     return urljoin(base_url, href)
 
 
 def generic_document_extractor(html, base_url):
     soup = BeautifulSoup(html, "html.parser")
+
     links = []
 
     for tag in soup.find_all("a", href=True):
-
         href = normalize_url(tag["href"], base_url)
 
         if href.lower().endswith(ALLOWED_EXTENSIONS):
@@ -69,10 +68,9 @@ def fetch_html():
     response = requests.get(
         URL,
         headers=HEADERS,
-        timeout=30,
+        timeout=30
     )
     response.raise_for_status()
-
     return response.text
 
 
@@ -88,50 +86,90 @@ def generate_filename(document_url):
     return f"{base}_{url_hash}{ext}"
 
 
-def download_arcl():
-    logger.info("")
-    logger.info("========== ARCL ==========")
-
-    html = fetch_html()
-
-    document_links = extract_arcl(html, BASE_URL)
-
-    total = len(document_links)
-
-    downloaded = 0
+def save_documents(document_links):
+    saved = 0
     failed = 0
-    already_processed = 0
-
-    logger.info(f"Total Documents Found : {total}")
 
     for document_url in document_links:
 
         filename = generate_filename(document_url)
 
-        if pdf_exists("ARCL", filename):
-            already_processed += 1
-            continue
-
         try:
-            logger.info(f"Saving : {filename}")
+            logger.info(f"Saving metadata : {filename}")
+
+            # ----------------------------------------------------
+            # Download removed.
+            #
+            # response = requests.get(
+            #     document_url,
+            #     headers=HEADERS,
+            #     timeout=60
+            # )
+            #
+            # response.raise_for_status()
+            #
+            # with open(filepath, "wb") as file:
+            #     file.write(response.content)
+            # ----------------------------------------------------
 
             save_pdf(
                 source="ARCL",
                 pdf_name=filename,
                 pdf_link=document_url,
-                category="Circulars",
+                category="Circulars"
             )
 
-            downloaded += 1
+            saved += 1
 
         except Exception:
             logger.exception(f"Failed : {filename}")
             failed += 1
+
+    return saved, failed
+
+
+def download_arcl():
+
+    logger.info("")
+    logger.info("========== ARCL ==========")
+
+    # download_folder = get_download("arcl")   # Not required anymore
+
+    html = fetch_html()
+
+    document_links = extract_arcl(
+        html,
+        BASE_URL
+    )
+
+    total = len(document_links)
+
+    new_documents = []
+
+    for url in document_links:
+
+        filename = generate_filename(url)
+
+        if pdf_exists("ARCL", filename):
+            continue
+
+        new_documents.append(url)
+
+    already_processed = total - len(new_documents)
+
+    logger.info(f"Total Documents Found : {total}")
+    logger.info(f"Already Processed     : {already_processed}")
+
+    if not new_documents:
+        logger.info("No new documents found.")
+        return
+
+    saved, failed = save_documents(new_documents)
 
     logger.info("")
     logger.info("ARCL Summary")
     logger.info("-------------------------")
     logger.info(f"Total Documents Found : {total}")
     logger.info(f"Already Processed     : {already_processed}")
-    logger.info(f"Downloaded            : {downloaded}")
+    logger.info(f"Saved To Database     : {saved}")
     logger.info(f"Failed                : {failed}")

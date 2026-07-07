@@ -1,303 +1,80 @@
-2026-06-29 16:54:49,038 INFO     
-2026-06-29 16:54:49,038 INFO     ========== CDSL ==========
-2026-06-29 16:54:51,749 INFO     Total Communiques Found : 0
-2026-06-29 16:54:51,749 INFO     Already Processed       : 0
-2026-06-29 16:54:51,749 INFO     No new communiques found.
-2026-06-29 16:58:57,590 INFO     
-2026-06-29 16:58:57,590 INFO     ========== CDSL ==========
-2026-06-29 16:58:59,189 INFO     Total Communiques Found : 0
-2026-06-29 16:58:59,189 INFO     Already Processed       : 0
-2026-06-29 16:58:59,190 INFO     No new communiques found.
-2026-06-30 10:24:49,227 INFO     
-2026-06-30 10:24:49,228 INFO     ========== CDSL ==========
-2026-06-30 10:24:52,085 INFO     Total Communiques Found : 0
-2026-06-30 10:24:52,086 INFO     Already Processed       : 0
-2026-06-30 10:24:52,086 INFO     No new communiques found.
-2026-06-30 10:31:36,049 INFO     
-2026-06-30 10:31:36,049 INFO     ========== CDSL ==========
-2026-06-30 10:31:38,159 INFO     Total Communiques Found : 0
-2026-06-30 10:31:38,159 INFO     Already Processed       : 0
-2026-06-30 10:31:38,160 INFO     No new communiques found.
-2026-06-30 11:19:40,103 INFO     
-2026-06-30 11:19:40,104 INFO     ========== CDSL ==========
-2026-06-30 11:19:42,185 INFO     Total Communiques Found : 0
-2026-06-30 11:19:42,186 INFO     Already Processed       : 0
-2026-06-30 11:19:42,186 INFO     No new communiques found.
-2026-06-30 11:35:24,812 INFO     
-2026-06-30 11:35:24,813 INFO     ========== CDSL ==========
-2026-06-30 11:35:26,829 INFO     Total Communiques Found : 0
-2026-06-30 11:35:26,830 INFO     Already Processed       : 0
-2026-06-30 11:35:26,830 INFO     No new communiques found.
-2026-06-30 15:01:09,599 INFO     
-2026-06-30 15:01:09,600 INFO     ========== CDSL ==========
-2026-06-30 15:01:11,576 INFO     Total Communiques Found : 0
-2026-06-30 15:01:11,576 INFO     Already Processed       : 0
-2026-06-30 15:01:11,576 INFO     No new communiques found.
-2026-06-30 15:32:36,444 INFO     
-2026-06-30 15:32:36,445 INFO     ========== CDSL ==========
-2026-06-30 15:32:38,389 INFO     Total Communiques Found : 0
-2026-06-30 15:32:38,390 INFO     Already Processed       : 0
-2026-06-30 15:32:38,390 INFO     No new communiques found.
-2026-06-30 15:34:55,102 INFO     
-2026-06-30 15:34:55,103 INFO     ========== CDSL ==========
-2026-06-30 15:34:57,099 INFO     Total Communiques Found : 0
-2026-06-30 15:34:57,099 INFO     Already Processed       : 0
-2026-06-30 15:34:57,100 INFO     No new communiques found.
-2026-07-01 10:23:46,674 INFO     
-2026-07-01 10:23:46,675 INFO     ========== CDSL ==========
-2026-07-01 10:23:48,645 INFO     Total Communiques Found : 0
-2026-07-01 10:23:48,645 INFO     Already Processed       : 0
-2026-07-01 10:23:48,646 INFO     No new communiques found.
-2026-07-01 10:33:38,333 INFO     
-2026-07-01 10:33:38,333 INFO     ========== CDSL ==========
-2026-07-01 10:33:40,283 INFO     Total Communiques Found : 0
-2026-07-01 10:33:40,284 INFO     Already Processed       : 0
-2026-07-01 10:33:40,284 INFO     No new communiques found.
-2026-07-01 10:49:04,541 INFO     
-2026-07-01 10:49:04,542 INFO     ========== CDSL ==========
-2026-07-01 10:49:06,518 INFO     Total Communiques Found : 0
-2026-07-01 10:49:06,518 INFO     Already Processed       : 0
-2026-07-01 10:49:06,518 INFO     No new communiques found.
-2026-07-01 10:59:05,689 INFO     
-2026-07-01 10:59:05,690 INFO     ========== CDSL ==========
-2026-07-01 10:59:07,642 INFO     Total Communiques Found : 0
-2026-07-01 10:59:07,643 INFO     Already Processed       : 0
-2026-07-01 10:59:07,643 INFO     No new communiques found.
-2026-07-01 10:59:58,354 INFO     
-2026-07-01 10:59:58,355 INFO     ========== CDSL ==========
-2026-07-01 11:00:00,165 INFO     Total Communiques Found : 0
-2026-07-01 11:00:00,166 INFO     Already Processed       : 0
-2026-07-01 11:00:00,166 INFO     No new communiques found.
-2026-07-01 11:03:50,196 INFO     
-2026-07-01 11:03:50,196 INFO     ========== CDSL ==========
-2026-07-01 11:03:52,070 INFO     Total Communiques Found : 0
-2026-07-01 11:03:52,071 INFO     Already Processed       : 0
-2026-07-01 11:03:52,071 INFO     No new communiques found.
-2026-07-01 14:49:45,619 INFO     
-2026-07-01 14:49:45,620 INFO     ========== CDSL ==========
-2026-07-01 14:49:47,575 INFO     Total Communiques Found : 0
-2026-07-01 14:49:47,576 INFO     Already Processed       : 0
-2026-07-01 14:49:47,576 INFO     No new communiques found.
-2026-07-01 14:50:38,557 INFO     
-2026-07-01 14:50:38,558 INFO     ========== CDSL ==========
-2026-07-01 14:50:40,420 INFO     Total Communiques Found : 0
-2026-07-01 14:50:40,420 INFO     Already Processed       : 0
-2026-07-01 14:50:40,421 INFO     No new communiques found.
-2026-07-01 14:59:25,593 INFO     
-2026-07-01 14:59:25,593 INFO     ========== CDSL ==========
-2026-07-01 14:59:27,479 INFO     Total Communiques Found : 0
-2026-07-01 14:59:27,480 INFO     Already Processed       : 0
-2026-07-01 14:59:27,480 INFO     No new communiques found.
-2026-07-01 15:00:06,029 INFO     
-2026-07-01 15:00:06,029 INFO     ========== CDSL ==========
-2026-07-01 15:00:07,990 INFO     Total Communiques Found : 0
-2026-07-01 15:00:07,991 INFO     Already Processed       : 0
-2026-07-01 15:00:07,992 INFO     No new communiques found.
-2026-07-01 15:03:54,502 INFO     
-2026-07-01 15:03:54,502 INFO     ========== CDSL ==========
-2026-07-01 15:03:56,828 INFO     Total Communiques Found : 0
-2026-07-01 15:03:56,828 INFO     Already Processed       : 0
-2026-07-01 15:03:56,828 INFO     No new communiques found.
-2026-07-02 11:33:14,967 INFO     
-2026-07-02 11:33:14,968 INFO     ========== CDSL ==========
-2026-07-02 11:33:16,902 INFO     Total Communiques Found : 0
-2026-07-02 11:33:16,903 INFO     Already Processed       : 0
-2026-07-02 11:33:16,904 INFO     No new communiques found.
-2026-07-02 11:33:51,954 INFO     
-2026-07-02 11:33:51,954 INFO     ========== CDSL ==========
-2026-07-02 11:33:53,817 INFO     Total Communiques Found : 0
-2026-07-02 11:33:53,818 INFO     Already Processed       : 0
-2026-07-02 11:33:53,818 INFO     No new communiques found.
-2026-07-02 11:59:56,603 INFO     
-2026-07-02 11:59:56,604 INFO     ========== CDSL ==========
-2026-07-02 11:59:58,586 INFO     Total Communiques Found : 0
-2026-07-02 11:59:58,587 INFO     Already Processed       : 0
-2026-07-02 11:59:58,587 INFO     No new communiques found.
-2026-07-02 12:43:42,402 INFO     
-2026-07-02 12:43:42,403 INFO     ========== CDSL ==========
-2026-07-02 12:43:44,618 INFO     Total Communiques Found : 0
-2026-07-02 12:43:44,618 INFO     Already Processed       : 0
-2026-07-02 12:43:44,618 INFO     No new communiques found.
-2026-07-02 13:40:24,593 INFO     
-2026-07-02 13:40:24,594 INFO     ========== CDSL ==========
-2026-07-02 13:40:26,676 INFO     Total Communiques Found : 0
-2026-07-02 13:40:26,676 INFO     Already Processed       : 0
-2026-07-02 13:40:26,677 INFO     No new communiques found.
-2026-07-02 14:37:46,593 INFO     
-2026-07-02 14:37:46,594 INFO     ========== CDSL ==========
-2026-07-02 14:37:48,165 INFO     Total Communiques Found : 0
-2026-07-02 14:37:48,165 INFO     Already Processed       : 0
-2026-07-02 14:37:48,166 INFO     No new communiques found.
-2026-07-02 14:45:11,703 INFO     
-2026-07-02 14:45:11,703 INFO     ========== CDSL ==========
-2026-07-02 14:45:13,339 INFO     Total Communiques Found : 0
-2026-07-02 14:45:13,339 INFO     Already Processed       : 0
-2026-07-02 14:45:13,339 INFO     No new communiques found.
-2026-07-02 15:20:12,522 INFO     
-2026-07-02 15:20:12,522 INFO     ========== CDSL ==========
-2026-07-02 15:20:14,326 INFO     Total Communiques Found : 0
-2026-07-02 15:20:14,326 INFO     Already Processed       : 0
-2026-07-02 15:20:14,327 INFO     No new communiques found.
-2026-07-02 16:49:40,999 INFO     
-2026-07-02 16:49:40,999 INFO     ========== CDSL ==========
-2026-07-02 16:49:43,068 INFO     Total Communiques Found : 0
-2026-07-02 16:49:43,068 INFO     Already Processed       : 0
-2026-07-02 16:49:43,068 INFO     No new communiques found.
-2026-07-02 16:57:25,420 INFO     
-2026-07-02 16:57:25,420 INFO     ========== CDSL ==========
-2026-07-02 16:57:27,660 INFO     Total Communiques Found : 0
-2026-07-02 16:57:27,661 INFO     Already Processed       : 0
-2026-07-02 16:57:27,661 INFO     No new communiques found.
-2026-07-02 23:20:12,588 INFO     
-2026-07-02 23:20:12,589 INFO     ========== CDSL ==========
-2026-07-02 23:20:15,255 INFO     Total Communiques Found : 6
-2026-07-02 23:20:15,852 INFO     Already Processed       : 0
-2026-07-02 23:20:16,139 INFO     Downloaded : DP-445-Change-of-RTA-02062026.pdf
-2026-07-02 23:20:16,497 INFO     Downloaded : DP-444-DETAILS-OF-CORPORATE-ACTION-02072026.pdf
-2026-07-02 23:20:16,850 INFO     Downloaded : DP-443-Withdrawal-of-securities-from-CDSL - 01-07-2026.pdf
-2026-07-02 23:20:17,571 INFO     Downloaded : DP-442-Securities-Admitted-With-CDSL- 01072026.pdf
-2026-07-02 23:20:17,928 INFO     Downloaded : RTA-191-Withdrawal-of-securities-from-CDSL - 01-07-2026.pdf
-2026-07-02 23:20:18,281 INFO     Downloaded : RTA-192-Change-of-RTA-02072026.pdf
-2026-07-02 23:20:18,281 INFO     
-2026-07-02 23:20:18,281 INFO     CDSL Summary
-2026-07-02 23:20:18,282 INFO     -------------------------
-2026-07-02 23:20:18,282 INFO     Total Communiques Found : 6
-2026-07-02 23:20:18,282 INFO     Already Processed       : 0
-2026-07-02 23:20:18,282 INFO     Downloaded              : 6
-2026-07-02 23:20:18,283 INFO     Failed                  : 0
-2026-07-02 23:31:47,326 INFO     
-2026-07-02 23:31:47,331 INFO     ========== CDSL ==========
-2026-07-02 23:31:49,480 INFO     Total Communiques Found : 6
-2026-07-02 23:31:49,967 INFO     Already Processed       : 6
-2026-07-02 23:31:49,968 INFO     No new communiques found.
-2026-07-02 23:40:06,086 INFO     
-2026-07-02 23:40:06,087 INFO     ========== CDSL ==========
-2026-07-02 23:40:08,479 INFO     Total Communiques Found : 6
-2026-07-02 23:40:08,946 INFO     Already Processed       : 6
-2026-07-02 23:40:08,947 INFO     No new communiques found.
-2026-07-03 12:58:43,392 INFO     
-2026-07-03 12:58:43,393 INFO     ========== CDSL ==========
-2026-07-03 12:58:45,949 INFO     Total Communiques Found : 0
-2026-07-03 12:58:45,949 INFO     Already Processed       : 0
-2026-07-03 12:58:45,949 INFO     No new communiques found.
-2026-07-04 20:46:18,145 INFO     
-2026-07-04 20:46:18,146 INFO     ========== CDSL ==========
-2026-07-06 09:42:11,075 INFO     
-2026-07-06 09:42:11,078 INFO     ========== CDSL ==========
-2026-07-06 10:38:30,517 INFO     
-2026-07-06 10:38:30,518 INFO     ========== CDSL ==========
-2026-07-06 10:38:38,829 INFO     Total Communiques Found : 0
-2026-07-06 10:38:38,829 INFO     Already Processed       : 0
-2026-07-06 10:38:38,829 INFO     No new communiques found.
-2026-07-06 10:38:55,802 INFO     
-2026-07-06 10:38:55,803 INFO     ========== CDSL ==========
-2026-07-06 10:39:04,216 INFO     Total Communiques Found : 0
-2026-07-06 10:39:04,217 INFO     Already Processed       : 0
-2026-07-06 10:39:04,217 INFO     No new communiques found.
-2026-07-06 14:40:01,751 INFO     
-2026-07-06 14:40:01,752 INFO     ========== CDSL ==========
-2026-07-06 14:40:10,642 INFO     Total Communiques Found : 0
-2026-07-06 14:40:10,642 INFO     Already Processed       : 0
-2026-07-06 14:40:10,643 INFO     No new communiques found.
-2026-07-06 22:43:33,820 INFO     
-2026-07-06 22:43:33,821 INFO     ========== CDSL ==========
-2026-07-07 10:07:05,412 INFO     
-2026-07-07 10:07:05,412 INFO     ========== CDSL ==========
-2026-07-07 10:07:09,813 INFO     Total Communiques Found : 0
-2026-07-07 10:07:09,813 INFO     Already Processed       : 0
-2026-07-07 10:07:09,814 INFO     No new communiques found.
-2026-07-07 10:10:58,144 INFO     
-2026-07-07 10:10:58,145 INFO     ========== CDSL ==========
-2026-07-07 10:11:02,635 INFO     Total Communiques Found : 0
-2026-07-07 10:11:02,635 INFO     Already Processed       : 0
-2026-07-07 10:11:02,635 INFO     No new communiques found.
-2026-07-07 12:04:14,837 INFO     
-2026-07-07 12:04:14,838 INFO     ========== CDSL ==========
-2026-07-07 12:04:19,906 INFO     Total Communiques Found : 0
-2026-07-07 12:04:19,906 INFO     Already Processed       : 0
-2026-07-07 12:04:19,906 INFO     No new communiques found.
-2026-07-07 12:16:28,367 INFO     
-2026-07-07 12:16:28,367 INFO     ========== CDSL ==========
-2026-07-07 12:16:33,187 INFO     Total Communiques Found : 0
-2026-07-07 12:16:33,188 INFO     Already Processed       : 0
-2026-07-07 12:16:33,188 INFO     No new communiques found.
-2026-07-07 12:30:54,623 INFO     
-2026-07-07 12:30:54,623 INFO     ========== CDSL ==========
-2026-07-07 12:30:58,389 INFO     Total Communiques Found : 0
-2026-07-07 12:30:58,389 INFO     
-2026-07-07 12:30:58,389 INFO     CDSL Summary
-2026-07-07 12:30:58,390 INFO     -------------------------
-2026-07-07 12:30:58,390 INFO     Total Communiques Found : 0
-2026-07-07 12:30:58,390 INFO     Already Processed       : 0
-2026-07-07 12:30:58,390 INFO     Downloaded              : 0
-2026-07-07 12:30:58,390 INFO     Failed                  : 0
-2026-07-07 12:31:29,704 INFO     
-2026-07-07 12:31:29,704 INFO     ========== CDSL ==========
-2026-07-07 12:31:33,479 INFO     Total Communiques Found : 0
-2026-07-07 12:31:33,479 INFO     
-2026-07-07 12:31:33,479 INFO     CDSL Summary
-2026-07-07 12:31:33,479 INFO     -------------------------
-2026-07-07 12:31:33,479 INFO     Total Communiques Found : 0
-2026-07-07 12:31:33,479 INFO     Already Processed       : 0
-2026-07-07 12:31:33,479 INFO     Downloaded              : 0
-2026-07-07 12:31:33,480 INFO     Failed                  : 0
-2026-07-07 12:35:15,713 INFO     
-2026-07-07 12:35:15,714 INFO     ========== CDSL ==========
-2026-07-07 12:35:19,397 INFO     Total Communiques Found : 0
-2026-07-07 12:35:19,397 INFO     
-2026-07-07 12:35:19,398 INFO     CDSL Summary
-2026-07-07 12:35:19,398 INFO     -------------------------
-2026-07-07 12:35:19,398 INFO     Total Communiques Found : 0
-2026-07-07 12:35:19,398 INFO     Already Processed       : 0
-2026-07-07 12:35:19,398 INFO     Downloaded              : 0
-2026-07-07 12:35:19,398 INFO     Failed                  : 0
-2026-07-07 12:36:43,706 INFO     
-2026-07-07 12:36:43,706 INFO     ========== CDSL ==========
-2026-07-07 12:36:47,254 INFO     Total Communiques Found : 0
-2026-07-07 12:36:47,254 INFO     
-2026-07-07 12:36:47,254 INFO     CDSL Summary
-2026-07-07 12:36:47,254 INFO     -------------------------
-2026-07-07 12:36:47,255 INFO     Total Communiques Found : 0
-2026-07-07 12:36:47,255 INFO     Already Processed       : 0
-2026-07-07 12:36:47,255 INFO     Downloaded              : 0
-2026-07-07 12:36:47,255 INFO     Failed                  : 0
-2026-07-07 12:44:39,932 INFO     
-2026-07-07 12:44:39,932 INFO     ========== CDSL ==========
-2026-07-07 12:44:43,730 INFO     Total Communiques Found : 0
-2026-07-07 12:44:43,730 INFO     
-2026-07-07 12:44:43,731 INFO     CDSL Summary
-2026-07-07 12:44:43,731 INFO     -------------------------
-2026-07-07 12:44:43,731 INFO     Total Communiques Found : 0
-2026-07-07 12:44:43,731 INFO     Already Processed       : 0
-2026-07-07 12:44:43,731 INFO     Downloaded              : 0
-2026-07-07 12:44:43,731 INFO     Failed                  : 0
-2026-07-07 12:49:28,263 INFO     
-2026-07-07 12:49:28,263 INFO     ========== CDSL ==========
-2026-07-07 12:49:31,862 INFO     Total Communiques Found : 0
-2026-07-07 12:49:31,863 INFO     
-2026-07-07 12:49:31,863 INFO     CDSL Summary
-2026-07-07 12:49:31,863 INFO     -------------------------
-2026-07-07 12:49:31,863 INFO     Total Communiques Found : 0
-2026-07-07 12:49:31,863 INFO     Already Processed       : 0
-2026-07-07 12:49:31,863 INFO     Downloaded              : 0
-2026-07-07 12:49:31,864 INFO     Failed                  : 0
-2026-07-07 12:53:22,387 INFO     
-2026-07-07 12:53:22,387 INFO     ========== CDSL ==========
-2026-07-07 12:53:26,008 INFO     Total Communiques Found : 0
-2026-07-07 12:53:26,008 INFO     
-2026-07-07 12:53:26,008 INFO     CDSL Summary
-2026-07-07 12:53:26,008 INFO     -------------------------
-2026-07-07 12:53:26,008 INFO     Total Communiques Found : 0
-2026-07-07 12:53:26,009 INFO     Already Processed       : 0
-2026-07-07 12:53:26,009 INFO     Downloaded              : 0
-2026-07-07 12:53:26,009 INFO     Failed                  : 0
-2026-07-07 12:55:57,523 INFO     
-2026-07-07 12:55:57,524 INFO     ========== CDSL ==========
-2026-07-07 12:56:01,099 INFO     Total Communiques Found : 0
-2026-07-07 12:56:01,099 INFO     
-2026-07-07 12:56:01,099 INFO     CDSL Summary
-2026-07-07 12:56:01,099 INFO     -------------------------
-2026-07-07 12:56:01,099 INFO     Total Communiques Found : 0
-2026-07-07 12:56:01,100 INFO     Already Processed       : 0
-2026-07-07 12:56:01,100 INFO     Downloaded              : 0
-2026-07-07 12:56:01,100 INFO     Failed                  : 0
+2026-07-07 15:15:06,180 INFO     
+2026-07-07 15:15:06,180 INFO     ========== CDSL ==========
+2026-07-07 15:15:13,685 INFO     Total Communiques Found : 0
+2026-07-07 15:15:13,686 INFO     
+2026-07-07 15:15:13,686 INFO     CDSL Summary
+2026-07-07 15:15:13,687 INFO     -------------------------
+2026-07-07 15:15:13,687 INFO     Total Communiques Found : 0
+2026-07-07 15:15:13,687 INFO     Already Processed       : 0
+2026-07-07 15:15:13,688 INFO     Downloaded              : 0
+2026-07-07 15:15:13,688 INFO     Failed                  : 0
+2026-07-07 15:18:06,979 INFO     
+2026-07-07 15:18:06,980 INFO     ========== CDSL ==========
+2026-07-07 15:18:14,616 INFO     Total Communiques Found : 0
+2026-07-07 15:18:14,617 INFO     
+2026-07-07 15:18:14,618 INFO     CDSL Summary
+2026-07-07 15:18:14,618 INFO     -------------------------
+2026-07-07 15:18:14,618 INFO     Total Communiques Found : 0
+2026-07-07 15:18:14,619 INFO     Already Processed       : 0
+2026-07-07 15:18:14,619 INFO     Downloaded              : 0
+2026-07-07 15:18:14,619 INFO     Failed                  : 0
+2026-07-07 15:21:55,015 INFO     
+2026-07-07 15:21:55,016 INFO     ========== CDSL ==========
+2026-07-07 15:22:02,508 INFO     Total Communiques Found : 0
+2026-07-07 15:22:02,508 INFO     
+2026-07-07 15:22:02,509 INFO     CDSL Summary
+2026-07-07 15:22:02,509 INFO     -------------------------
+2026-07-07 15:22:02,509 INFO     Total Communiques Found : 0
+2026-07-07 15:22:02,510 INFO     Already Processed       : 0
+2026-07-07 15:22:02,510 INFO     Downloaded              : 0
+2026-07-07 15:22:02,510 INFO     Failed                  : 0
+2026-07-07 15:28:23,688 INFO     
+2026-07-07 15:28:23,689 INFO     ========== CDSL ==========
+2026-07-07 15:28:31,650 INFO     Total Communiques Found : 0
+2026-07-07 15:28:31,651 INFO     
+2026-07-07 15:28:31,651 INFO     CDSL Summary
+2026-07-07 15:28:31,651 INFO     -------------------------
+2026-07-07 15:28:31,652 INFO     Total Communiques Found : 0
+2026-07-07 15:28:31,652 INFO     Already Processed       : 0
+2026-07-07 15:28:31,653 INFO     Downloaded              : 0
+2026-07-07 15:28:31,653 INFO     Failed                  : 0
+2026-07-07 15:30:49,945 INFO     
+2026-07-07 15:30:49,946 INFO     ========== CDSL ==========
+2026-07-07 15:30:57,966 INFO     Total Communiques Found : 0
+2026-07-07 15:30:57,967 INFO     
+2026-07-07 15:30:57,967 INFO     CDSL Summary
+2026-07-07 15:30:57,967 INFO     -------------------------
+2026-07-07 15:30:57,968 INFO     Total Communiques Found : 0
+2026-07-07 15:30:57,968 INFO     Already Processed       : 0
+2026-07-07 15:30:57,968 INFO     Downloaded              : 0
+2026-07-07 15:30:57,969 INFO     Failed                  : 0
+2026-07-07 15:44:15,350 INFO     
+2026-07-07 15:44:15,351 INFO     ========== CDSL ==========
+2026-07-07 15:44:23,177 INFO     Total Communiques Found : 0
+2026-07-07 15:44:23,178 INFO     
+2026-07-07 15:44:23,178 INFO     CDSL Summary
+2026-07-07 15:44:23,179 INFO     -------------------------
+2026-07-07 15:44:23,179 INFO     Total Communiques Found : 0
+2026-07-07 15:44:23,179 INFO     Already Processed       : 0
+2026-07-07 15:44:23,180 INFO     Downloaded              : 0
+2026-07-07 15:44:23,180 INFO     Failed                  : 0
+2026-07-07 15:55:09,245 INFO     
+2026-07-07 15:55:09,246 INFO     ========== CDSL ==========
+2026-07-07 15:55:17,029 INFO     Total Communiques Found : 0
+2026-07-07 15:55:17,030 INFO     
+2026-07-07 15:55:17,030 INFO     CDSL Summary
+2026-07-07 15:55:17,030 INFO     -------------------------
+2026-07-07 15:55:17,031 INFO     Total Communiques Found : 0
+2026-07-07 15:55:17,031 INFO     Already Processed       : 0
+2026-07-07 15:55:17,031 INFO     Downloaded              : 0
+2026-07-07 15:55:17,031 INFO     Failed                  : 0
+2026-07-07 15:59:00,446 INFO     
+2026-07-07 15:59:00,447 INFO     ========== CDSL ==========
+2026-07-07 15:59:08,518 INFO     Total Communiques Found : 0
+2026-07-07 15:59:08,518 INFO     
+2026-07-07 15:59:08,519 INFO     CDSL Summary
+2026-07-07 15:59:08,519 INFO     -------------------------
+2026-07-07 15:59:08,519 INFO     Total Communiques Found : 0
+2026-07-07 15:59:08,520 INFO     Already Processed       : 0
+2026-07-07 15:59:08,520 INFO     Downloaded              : 0
+2026-07-07 15:59:08,520 INFO     Failed                  : 0

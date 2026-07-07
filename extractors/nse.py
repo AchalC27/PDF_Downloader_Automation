@@ -60,8 +60,6 @@ def download_nse():
         microsecond=0,
     )
 
-    # Required by the NSE package.
-    # get_download() no longer creates any folders.
     download_folder = get_download("nse")
 
     session = requests.Session()

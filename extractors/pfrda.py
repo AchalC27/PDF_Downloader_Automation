@@ -97,8 +97,15 @@ def scrape_pfrda() -> tuple[int, int]:
                 continue
 
             filename = safe_filename(title)
+
+            ext = Path(urlparse(pdf_url).path).suffix.lower()
+
+            if not ext:
+                ext = ".pdf"
+
+            filename += ext
+
             if pdf_exists("PFRDA", filename):
-                log.info("%s already exists in database. Skipping.", filename)
                 continue
 
             ext = Path(
@@ -122,12 +129,15 @@ def scrape_pfrda() -> tuple[int, int]:
             ): 
                 downloaded += 1
                 seen.add(pdf_url)
-                save_pdf(
-                source="PFRDA",
-                pdf_name=filename,
-                pdf_link=pdf_url,
-                category="Circular"
-                )
+                try:
+                    save_pdf(
+                        source="PFRDA",
+                        pdf_name=filename,
+                        pdf_link=pdf_url,
+                        category="Circular"
+                    )
+                except Exception as e:
+                    log.warning("Database insert skipped: %s", e)
 
                 log.info(
                     "Downloaded: %s",

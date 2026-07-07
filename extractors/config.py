@@ -15,7 +15,7 @@ SEEN_DIR = PROJECT_DIR / "seen"
 SEEN_DIR.mkdir(exist_ok=True)
 
 SCHEDULE_TIME = "09:43"
-REQUEST_TIMEOUT = 60
+REQUEST_TIMEOUT = 1000
 
 HEADERS = {
     "User-Agent": (

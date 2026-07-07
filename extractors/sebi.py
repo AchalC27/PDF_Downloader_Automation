@@ -121,7 +121,7 @@ def scrape_sebi() -> tuple[int, int]:
                     filename = f"sebi_{found}.pdf"
             
             if pdf_exists("SEBI", filename):
-                log.info("%s already exists in database. Skipping.", filename)
+                # log.info("%s already exists in database. Skipping.", filename)
                 continue
 
             dest = dest_for("SEBI", filename)

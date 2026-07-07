@@ -60,7 +60,7 @@ def scrape_irdai() -> tuple[int, int]:
                 filename = safe_filename(Path(urlparse(full_url).path).name)
             
             if pdf_exists("IRDAI", filename):
-                log.info("%s already exists in database. Skipping.", filename)
+                # log.info("%s already exists in database. Skipping.", filename)
                 continue
 
             dest = dest_for("IRDAI", filename)

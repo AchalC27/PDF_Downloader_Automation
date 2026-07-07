@@ -1,379 +1,56 @@
-2026-06-29 16:54:55,554 INFO     
-2026-06-29 16:54:55,554 INFO     ========== MCX ==========
-2026-06-29 16:54:55,555 INFO     Fetching page 1
-2026-06-29 16:54:56,828 INFO     Page 1/0
-2026-06-29 16:54:56,829 INFO     Total Circulars Found : 0
-2026-06-29 16:54:56,830 INFO     Already Processed     : 0
-2026-06-29 16:54:56,830 INFO     No new circulars found.
-2026-06-29 16:59:03,931 INFO     
-2026-06-29 16:59:03,932 INFO     ========== MCX ==========
-2026-06-29 16:59:03,933 INFO     Fetching page 1
-2026-06-29 16:59:05,639 INFO     Page 1/0
-2026-06-29 16:59:05,642 INFO     Total Circulars Found : 0
-2026-06-29 16:59:05,642 INFO     Already Processed     : 0
-2026-06-29 16:59:05,642 INFO     No new circulars found.
-2026-06-30 10:24:58,271 INFO     
-2026-06-30 10:24:58,275 INFO     ========== MCX ==========
-2026-06-30 10:24:58,277 INFO     Fetching page 1
-2026-06-30 10:24:59,940 INFO     Page 1/0
-2026-06-30 10:24:59,942 INFO     Total Circulars Found : 0
-2026-06-30 10:24:59,942 INFO     Already Processed     : 0
-2026-06-30 10:24:59,942 INFO     No new circulars found.
-2026-06-30 10:31:42,804 INFO     
-2026-06-30 10:31:42,804 INFO     ========== MCX ==========
-2026-06-30 10:31:42,805 INFO     Fetching page 1
-2026-06-30 10:31:44,353 INFO     Page 1/0
-2026-06-30 10:31:44,356 INFO     Total Circulars Found : 0
-2026-06-30 10:31:44,356 INFO     Already Processed     : 0
-2026-06-30 10:31:44,356 INFO     No new circulars found.
-2026-06-30 11:19:47,337 INFO     
-2026-06-30 11:19:47,338 INFO     ========== MCX ==========
-2026-06-30 11:19:47,339 INFO     Fetching page 1
-2026-06-30 11:19:49,228 INFO     Page 1/0
-2026-06-30 11:19:49,230 INFO     Total Circulars Found : 0
-2026-06-30 11:19:49,231 INFO     Already Processed     : 0
-2026-06-30 11:19:49,231 INFO     No new circulars found.
-2026-06-30 11:35:31,602 INFO     
-2026-06-30 11:35:31,603 INFO     ========== MCX ==========
-2026-06-30 11:35:31,604 INFO     Fetching page 1
-2026-06-30 11:35:33,214 INFO     Page 1/0
-2026-06-30 11:35:33,216 INFO     Total Circulars Found : 0
-2026-06-30 11:35:33,217 INFO     Already Processed     : 0
-2026-06-30 11:35:33,217 INFO     No new circulars found.
-2026-06-30 15:01:17,606 INFO     
-2026-06-30 15:01:17,610 INFO     ========== MCX ==========
-2026-06-30 15:01:17,612 INFO     Fetching page 1
-2026-06-30 15:01:20,590 INFO     Page 1/1
-2026-06-30 15:01:20,592 INFO     Total Circulars Found : 1
-2026-06-30 15:01:20,592 INFO     Already Processed     : 0
-2026-06-30 15:01:20,593 INFO     Downloading : 30-Jun-2026_No372_MCXCCL_Due Date Rates.pdf
-2026-06-30 15:01:22,037 INFO     
-2026-06-30 15:01:22,038 INFO     MCX Summary
-2026-06-30 15:01:22,038 INFO     -------------------------
-2026-06-30 15:01:22,038 INFO     Total Circulars Found : 1
-2026-06-30 15:01:22,038 INFO     Already Processed     : 0
-2026-06-30 15:01:22,038 INFO     Downloaded            : 1
-2026-06-30 15:01:22,039 INFO     Failed                : 0
-2026-06-30 15:32:43,393 INFO     
-2026-06-30 15:32:43,393 INFO     ========== MCX ==========
-2026-06-30 15:32:43,395 INFO     Fetching page 1
-2026-06-30 15:32:45,084 INFO     Page 1/1
-2026-06-30 15:32:45,087 INFO     Total Circulars Found : 1
-2026-06-30 15:32:45,087 INFO     Already Processed     : 1
-2026-06-30 15:32:45,087 INFO     No new circulars found.
-2026-06-30 15:35:02,043 INFO     
-2026-06-30 15:35:02,044 INFO     ========== MCX ==========
-2026-06-30 15:35:02,045 INFO     Fetching page 1
-2026-06-30 15:35:03,941 INFO     Page 1/1
-2026-06-30 15:35:03,945 INFO     Total Circulars Found : 1
-2026-06-30 15:35:03,946 INFO     Already Processed     : 1
-2026-06-30 15:35:03,946 INFO     No new circulars found.
-2026-07-01 10:24:16,327 INFO     
-2026-07-01 10:24:16,328 INFO     ========== MCX ==========
-2026-07-01 10:24:16,330 INFO     Fetching page 1
-2026-07-01 10:24:18,032 INFO     Page 1/0
-2026-07-01 10:24:18,034 INFO     Total Circulars Found : 0
-2026-07-01 10:24:18,035 INFO     Already Processed     : 0
-2026-07-01 10:24:18,035 INFO     No new circulars found.
-2026-07-01 10:34:18,905 INFO     
-2026-07-01 10:34:18,906 INFO     ========== MCX ==========
-2026-07-01 10:34:18,907 INFO     Fetching page 1
-2026-07-01 10:34:20,442 INFO     Page 1/0
-2026-07-01 10:34:20,445 INFO     Total Circulars Found : 0
-2026-07-01 10:34:20,445 INFO     Already Processed     : 0
-2026-07-01 10:34:20,446 INFO     No new circulars found.
-2026-07-01 11:00:26,211 INFO     
-2026-07-01 11:00:26,216 INFO     ========== MCX ==========
-2026-07-01 11:00:26,236 INFO     Fetching page 1
-2026-07-01 11:00:27,947 INFO     Page 1/0
-2026-07-01 11:00:27,950 INFO     Total Circulars Found : 0
-2026-07-01 11:00:27,950 INFO     Already Processed     : 0
-2026-07-01 11:00:27,951 INFO     No new circulars found.
-2026-07-01 11:04:10,714 INFO     
-2026-07-01 11:04:10,714 INFO     ========== MCX ==========
-2026-07-01 11:04:10,715 INFO     Fetching page 1
-2026-07-01 11:04:12,317 INFO     Page 1/0
-2026-07-01 11:04:12,319 INFO     Total Circulars Found : 0
-2026-07-01 11:04:12,319 INFO     Already Processed     : 0
-2026-07-01 11:04:12,320 INFO     No new circulars found.
-2026-07-01 14:42:56,835 INFO     
-2026-07-01 14:42:56,837 INFO     ========== MCX ==========
-2026-07-01 14:42:56,838 INFO     Fetching page 1
-2026-07-01 14:42:58,578 INFO     Page 1/0
-2026-07-01 14:42:58,582 INFO     Total Circulars Found : 0
-2026-07-01 14:42:58,583 INFO     Already Processed     : 0
-2026-07-01 14:42:58,584 INFO     No new circulars found.
-2026-07-01 14:49:47,585 INFO     
-2026-07-01 14:49:47,586 INFO     ========== MCX ==========
-2026-07-01 14:49:47,587 INFO     Fetching page 1
-2026-07-01 14:49:49,410 INFO     Page 1/0
-2026-07-01 14:49:49,413 INFO     Total Circulars Found : 0
-2026-07-01 14:49:49,414 INFO     Already Processed     : 0
-2026-07-01 14:49:49,414 INFO     No new circulars found.
-2026-07-01 14:50:40,424 INFO     
-2026-07-01 14:50:40,425 INFO     ========== MCX ==========
-2026-07-01 14:50:40,426 INFO     Fetching page 1
-2026-07-01 14:50:42,113 INFO     Page 1/0
-2026-07-01 14:50:42,116 INFO     Total Circulars Found : 0
-2026-07-01 14:50:42,117 INFO     Already Processed     : 0
-2026-07-01 14:50:42,117 INFO     No new circulars found.
-2026-07-01 14:59:27,484 INFO     
-2026-07-01 14:59:27,485 INFO     ========== MCX ==========
-2026-07-01 14:59:27,486 INFO     Fetching page 1
-2026-07-01 14:59:29,148 INFO     Page 1/0
-2026-07-01 14:59:29,152 INFO     Total Circulars Found : 0
-2026-07-01 14:59:29,153 INFO     Already Processed     : 0
-2026-07-01 14:59:29,153 INFO     No new circulars found.
-2026-07-01 15:01:34,681 INFO     
-2026-07-01 15:01:34,681 INFO     ========== MCX ==========
-2026-07-01 15:01:34,682 INFO     Fetching page 1
-2026-07-01 15:01:36,343 INFO     Page 1/0
-2026-07-01 15:01:36,346 INFO     Total Circulars Found : 0
-2026-07-01 15:01:36,346 INFO     Already Processed     : 0
-2026-07-01 15:01:36,347 INFO     No new circulars found.
-2026-07-01 15:05:14,417 INFO     
-2026-07-01 15:05:14,418 INFO     ========== MCX ==========
-2026-07-01 15:05:14,419 INFO     Fetching page 1
-2026-07-01 15:05:16,069 INFO     Page 1/0
-2026-07-01 15:05:16,073 INFO     Total Circulars Found : 0
-2026-07-01 15:05:16,074 INFO     Already Processed     : 0
-2026-07-01 15:05:16,074 INFO     No new circulars found.
-2026-07-02 11:34:44,152 INFO     
-2026-07-02 11:34:44,153 INFO     ========== MCX ==========
-2026-07-02 11:34:44,155 INFO     Fetching page 1
-2026-07-02 11:34:45,830 INFO     Page 1/0
-2026-07-02 11:34:45,833 INFO     Total Circulars Found : 0
-2026-07-02 11:34:45,833 INFO     Already Processed     : 0
-2026-07-02 11:34:45,834 INFO     No new circulars found.
-2026-07-02 12:00:55,502 INFO     
-2026-07-02 12:00:55,506 INFO     ========== MCX ==========
-2026-07-02 12:00:55,507 INFO     Fetching page 1
-2026-07-02 12:00:57,328 INFO     Page 1/0
-2026-07-02 12:00:57,331 INFO     Total Circulars Found : 0
-2026-07-02 12:00:57,332 INFO     Already Processed     : 0
-2026-07-02 12:00:57,332 INFO     No new circulars found.
-2026-07-02 12:44:42,596 INFO     
-2026-07-02 12:44:42,597 INFO     ========== MCX ==========
-2026-07-02 12:44:42,599 INFO     Fetching page 1
-2026-07-02 12:44:44,339 INFO     Page 1/0
-2026-07-02 12:44:44,343 INFO     Total Circulars Found : 0
-2026-07-02 12:44:44,343 INFO     Already Processed     : 0
-2026-07-02 12:44:44,343 INFO     No new circulars found.
-2026-07-02 13:41:25,806 INFO     
-2026-07-02 13:41:25,807 INFO     ========== MCX ==========
-2026-07-02 13:41:25,808 INFO     Fetching page 1
-2026-07-02 13:41:27,487 INFO     Page 1/0
-2026-07-02 13:41:27,491 INFO     Total Circulars Found : 0
-2026-07-02 13:41:27,491 INFO     Already Processed     : 0
-2026-07-02 13:41:27,491 INFO     No new circulars found.
-2026-07-02 14:38:10,665 INFO     
-2026-07-02 14:38:10,669 INFO     ========== MCX ==========
-2026-07-02 14:38:10,670 INFO     Fetching page 1
-2026-07-02 14:38:11,918 INFO     Page 1/0
-2026-07-02 14:38:11,920 INFO     Total Circulars Found : 0
-2026-07-02 14:38:11,920 INFO     Already Processed     : 0
-2026-07-02 14:38:11,920 INFO     No new circulars found.
-2026-07-02 14:45:36,147 INFO     
-2026-07-02 14:45:36,148 INFO     ========== MCX ==========
-2026-07-02 14:45:36,148 INFO     Fetching page 1
-2026-07-02 14:45:37,386 INFO     Page 1/0
-2026-07-02 14:45:37,388 INFO     Total Circulars Found : 0
-2026-07-02 14:45:37,388 INFO     Already Processed     : 0
-2026-07-02 14:45:37,388 INFO     No new circulars found.
-2026-07-02 15:20:39,232 INFO     
-2026-07-02 15:20:39,232 INFO     ========== MCX ==========
-2026-07-02 15:20:39,233 INFO     Fetching page 1
-2026-07-02 15:20:40,633 INFO     Page 1/0
-2026-07-02 15:20:40,635 INFO     Total Circulars Found : 0
-2026-07-02 15:20:40,635 INFO     Already Processed     : 0
-2026-07-02 15:20:40,635 INFO     No new circulars found.
-2026-07-02 16:50:08,396 INFO     
-2026-07-02 16:50:08,397 INFO     ========== MCX ==========
-2026-07-02 16:50:08,398 INFO     Fetching page 1
-2026-07-02 16:50:09,676 INFO     Page 1/1
-2026-07-02 16:50:09,678 INFO     Total Circulars Found : 1
-2026-07-02 16:50:09,718 INFO     Already Processed     : 0
-2026-07-02 16:50:09,719 INFO     Downloading : 02-Jul-2026_No378_MCXCCL_De-accreditation of Warehouses for Cotton Bales.pdf
-2026-07-02 16:50:11,233 INFO     
-2026-07-02 16:50:11,233 INFO     MCX Summary
-2026-07-02 16:50:11,233 INFO     -------------------------
-2026-07-02 16:50:11,233 INFO     Total Circulars Found : 1
-2026-07-02 16:50:11,234 INFO     Already Processed     : 0
-2026-07-02 16:50:11,234 INFO     Downloaded            : 1
-2026-07-02 16:50:11,234 INFO     Failed                : 0
-2026-07-02 16:57:50,083 INFO     
-2026-07-02 16:57:50,084 INFO     ========== MCX ==========
-2026-07-02 16:57:50,085 INFO     Fetching page 1
-2026-07-02 16:57:51,398 INFO     Page 1/1
-2026-07-02 16:57:51,400 INFO     Total Circulars Found : 1
-2026-07-02 16:57:51,438 INFO     Already Processed     : 1
-2026-07-02 16:57:51,438 INFO     No new circulars found.
-2026-07-02 23:21:14,500 INFO     
-2026-07-02 23:21:14,501 INFO     ========== MCX ==========
-2026-07-02 23:21:14,502 INFO     Fetching page 1
-2026-07-02 23:21:16,512 INFO     Page 1/1
-2026-07-02 23:21:16,514 INFO     Total Circulars Found : 3
-2026-07-02 23:21:16,755 INFO     Already Processed     : 1
-2026-07-02 23:21:16,755 INFO     Downloading : 03-Jul-2026_No380_TECH_Mock Trading from Disaster Recovery Site (DRS).pdf
-2026-07-02 23:21:18,444 INFO     Downloading : 02-Jul-2026_No379_MCXCCL_Alternate Risk Management Framework Applicable in case of Near Zero and Negative Prices.pdf
-2026-07-02 23:21:19,261 INFO     
-2026-07-02 23:21:19,262 INFO     MCX Summary
-2026-07-02 23:21:19,262 INFO     -------------------------
-2026-07-02 23:21:19,262 INFO     Total Circulars Found : 3
-2026-07-02 23:21:19,263 INFO     Already Processed     : 1
-2026-07-02 23:21:19,263 INFO     Downloaded            : 2
-2026-07-02 23:21:19,264 INFO     Failed                : 0
-2026-07-02 23:32:42,707 INFO     
-2026-07-02 23:32:42,711 INFO     ========== MCX ==========
-2026-07-02 23:32:42,712 INFO     Fetching page 1
-2026-07-02 23:32:44,639 INFO     Page 1/1
-2026-07-02 23:32:44,641 INFO     Total Circulars Found : 3
-2026-07-02 23:32:44,874 INFO     Already Processed     : 3
-2026-07-02 23:32:44,874 INFO     No new circulars found.
-2026-07-02 23:40:58,468 INFO     
-2026-07-02 23:40:58,468 INFO     ========== MCX ==========
-2026-07-02 23:40:58,469 INFO     Fetching page 1
-2026-07-02 23:41:00,521 INFO     Page 1/1
-2026-07-02 23:41:00,523 INFO     Total Circulars Found : 3
-2026-07-02 23:41:00,761 INFO     Already Processed     : 3
-2026-07-02 23:41:00,761 INFO     No new circulars found.
-2026-07-03 12:59:36,918 INFO     
-2026-07-03 12:59:36,922 INFO     ========== MCX ==========
-2026-07-03 12:59:36,924 INFO     Fetching page 1
-2026-07-03 12:59:38,779 INFO     Page 1/0
-2026-07-03 12:59:38,781 INFO     Total Circulars Found : 0
-2026-07-03 12:59:38,782 INFO     Already Processed     : 0
-2026-07-03 12:59:38,782 INFO     No new circulars found.
-2026-07-04 20:47:21,261 INFO     
-2026-07-04 20:47:21,262 INFO     ========== MCX ==========
-2026-07-04 20:47:21,264 INFO     Fetching page 1
-2026-07-04 20:47:23,587 INFO     Page 1/0
-2026-07-04 20:47:23,592 INFO     Total Circulars Found : 0
-2026-07-04 20:47:23,599 INFO     Already Processed     : 0
-2026-07-04 20:47:23,600 INFO     No new circulars found.
-2026-07-06 09:43:02,621 INFO     
-2026-07-06 09:43:02,627 INFO     ========== MCX ==========
-2026-07-06 09:43:02,629 INFO     Fetching page 1
-2026-07-06 09:43:04,228 INFO     Page 1/0
-2026-07-06 09:43:04,231 INFO     Total Circulars Found : 0
-2026-07-06 09:43:04,231 INFO     Already Processed     : 0
-2026-07-06 09:43:04,231 INFO     No new circulars found.
-2026-07-06 10:40:11,409 INFO     
-2026-07-06 10:40:11,413 INFO     ========== MCX ==========
-2026-07-06 10:40:11,415 INFO     Fetching page 1
-2026-07-06 10:40:13,114 INFO     Page 1/0
-2026-07-06 10:40:13,116 INFO     Total Circulars Found : 0
-2026-07-06 10:40:13,116 INFO     Already Processed     : 0
-2026-07-06 10:40:13,117 INFO     No new circulars found.
-2026-07-06 14:41:08,974 INFO     
-2026-07-06 14:41:08,979 INFO     ========== MCX ==========
-2026-07-06 14:41:08,981 INFO     Fetching page 1
-2026-07-06 14:41:11,770 INFO     Page 1/1
-2026-07-06 14:41:11,772 INFO     Total Circulars Found : 1
-2026-07-06 14:41:11,862 INFO     Already Processed     : 0
-2026-07-06 14:41:11,863 INFO     Downloading : 06-Jul-2026_No386_MCXCCL_Due Date Rates.pdf
-2026-07-06 14:41:13,277 INFO     
-2026-07-06 14:41:13,277 INFO     MCX Summary
-2026-07-06 14:41:13,277 INFO     -------------------------
-2026-07-06 14:41:13,278 INFO     Total Circulars Found : 1
-2026-07-06 14:41:13,278 INFO     Already Processed     : 0
-2026-07-06 14:41:13,278 INFO     Downloaded            : 1
-2026-07-06 14:41:13,279 INFO     Failed                : 0
-2026-07-06 22:45:42,225 INFO     
-2026-07-06 22:45:42,226 INFO     ========== MCX ==========
-2026-07-06 22:45:42,228 INFO     Fetching page 1
-2026-07-06 22:45:44,838 INFO     Page 1/1
-2026-07-06 22:45:44,840 INFO     Total Circulars Found : 2
-2026-07-06 22:45:45,015 INFO     Already Processed     : 1
-2026-07-06 22:45:45,015 INFO     Downloading : 06-Jul-2026_No387_Membership and Compliance_Handling of Client’s Unpaid Securities by Trading Members.pdf
-2026-07-06 22:45:48,449 INFO     
-2026-07-06 22:45:48,450 INFO     MCX Summary
-2026-07-06 22:45:48,450 INFO     -------------------------
-2026-07-06 22:45:48,450 INFO     Total Circulars Found : 2
-2026-07-06 22:45:48,451 INFO     Already Processed     : 1
-2026-07-06 22:45:48,451 INFO     Downloaded            : 1
-2026-07-06 22:45:48,451 INFO     Failed                : 0
-2026-07-07 10:07:34,469 INFO     
-2026-07-07 10:07:34,473 INFO     ========== MCX ==========
-2026-07-07 10:07:34,474 INFO     Fetching page 1
-2026-07-07 10:07:35,670 INFO     Page 1/0
-2026-07-07 10:07:35,671 INFO     Total Circulars Found : 0
-2026-07-07 10:07:35,671 INFO     Already Processed     : 0
-2026-07-07 10:07:35,671 INFO     No new circulars found.
-2026-07-07 10:11:26,390 INFO     
-2026-07-07 10:11:26,392 INFO     ========== MCX ==========
-2026-07-07 10:11:26,393 INFO     Fetching page 1
-2026-07-07 10:11:27,661 INFO     Page 1/0
-2026-07-07 10:11:27,663 INFO     Total Circulars Found : 0
-2026-07-07 10:11:27,663 INFO     Already Processed     : 0
-2026-07-07 10:11:27,663 INFO     No new circulars found.
-2026-07-07 12:04:45,551 INFO     
-2026-07-07 12:04:45,552 INFO     ========== MCX ==========
-2026-07-07 12:04:45,552 INFO     Fetching page 1
-2026-07-07 12:04:46,757 INFO     Page 1/0
-2026-07-07 12:04:46,758 INFO     Total Circulars Found : 0
-2026-07-07 12:04:46,758 INFO     Already Processed     : 0
-2026-07-07 12:04:46,759 INFO     No new circulars found.
-2026-07-07 12:16:56,245 INFO     
-2026-07-07 12:16:56,250 INFO     ========== MCX ==========
-2026-07-07 12:16:56,251 INFO     Fetching page 1
-2026-07-07 12:16:57,834 INFO     Page 1/0
-2026-07-07 12:16:57,835 INFO     Total Circulars Found : 0
-2026-07-07 12:16:57,836 INFO     Already Processed     : 0
-2026-07-07 12:16:57,836 INFO     No new circulars found.
-2026-07-07 12:31:21,843 INFO     
-2026-07-07 12:31:21,844 INFO     ========== MCX ==========
-2026-07-07 12:31:21,846 INFO     Fetching page 1
-2026-07-07 12:31:23,175 INFO     Page 1/0
-2026-07-07 12:31:23,176 INFO     Total Circulars Found : 0
-2026-07-07 12:31:23,176 INFO     Already Processed     : 0
-2026-07-07 12:31:23,176 INFO     No new circulars found.
-2026-07-07 12:31:58,303 INFO     
-2026-07-07 12:31:58,303 INFO     ========== MCX ==========
-2026-07-07 12:31:58,304 INFO     Fetching page 1
-2026-07-07 12:31:59,559 INFO     Page 1/0
-2026-07-07 12:31:59,560 INFO     Total Circulars Found : 0
-2026-07-07 12:31:59,560 INFO     Already Processed     : 0
-2026-07-07 12:31:59,560 INFO     No new circulars found.
-2026-07-07 12:35:44,092 INFO     
-2026-07-07 12:35:44,092 INFO     ========== MCX ==========
-2026-07-07 12:35:44,092 INFO     Fetching page 1
-2026-07-07 12:35:45,386 INFO     Page 1/0
-2026-07-07 12:35:45,388 INFO     Total Circulars Found : 0
-2026-07-07 12:35:45,388 INFO     Already Processed     : 0
-2026-07-07 12:35:45,388 INFO     No new circulars found.
-2026-07-07 12:37:11,125 INFO     
-2026-07-07 12:37:11,125 INFO     ========== MCX ==========
-2026-07-07 12:37:11,126 INFO     Fetching page 1
-2026-07-07 12:37:12,479 INFO     Page 1/0
-2026-07-07 12:37:12,480 INFO     Total Circulars Found : 0
-2026-07-07 12:37:12,480 INFO     Already Processed     : 0
-2026-07-07 12:37:12,481 INFO     No new circulars found.
-2026-07-07 12:45:06,186 INFO     
-2026-07-07 12:45:06,187 INFO     ========== MCX ==========
-2026-07-07 12:45:06,188 INFO     Fetching page 1
-2026-07-07 12:45:07,591 INFO     Page 1/0
-2026-07-07 12:45:07,593 INFO     Total Circulars Found : 0
-2026-07-07 12:45:07,593 INFO     Already Processed     : 0
-2026-07-07 12:45:07,593 INFO     No new circulars found.
-2026-07-07 12:49:53,389 INFO     
-2026-07-07 12:49:53,389 INFO     ========== MCX ==========
-2026-07-07 12:49:53,389 INFO     Fetching page 1
-2026-07-07 12:49:54,602 INFO     Page 1/0
-2026-07-07 12:49:54,604 INFO     Total Circulars Found : 0
-2026-07-07 12:49:54,604 INFO     Already Processed     : 0
-2026-07-07 12:49:54,604 INFO     No new circulars found.
-2026-07-07 12:53:47,905 INFO     
-2026-07-07 12:53:47,905 INFO     ========== MCX ==========
-2026-07-07 12:53:47,905 INFO     Fetching page 1
-2026-07-07 12:53:49,220 INFO     Page 1/0
-2026-07-07 12:53:49,221 INFO     Total Circulars Found : 0
-2026-07-07 12:53:49,221 INFO     Already Processed     : 0
-2026-07-07 12:53:49,222 INFO     No new circulars found.
-2026-07-07 12:56:24,010 INFO     
-2026-07-07 12:56:24,010 INFO     ========== MCX ==========
-2026-07-07 12:56:24,011 INFO     Fetching page 1
-2026-07-07 12:56:25,298 INFO     Page 1/0
-2026-07-07 12:56:25,299 INFO     Total Circulars Found : 0
-2026-07-07 12:56:25,300 INFO     Already Processed     : 0
-2026-07-07 12:56:25,300 INFO     No new circulars found.
+2026-07-07 15:16:03,896 INFO     
+2026-07-07 15:16:03,897 INFO     ========== MCX ==========
+2026-07-07 15:16:03,898 INFO     Fetching page 1
+2026-07-07 15:16:05,638 INFO     Page 1/0
+2026-07-07 15:16:05,642 INFO     Total Circulars Found : 0
+2026-07-07 15:16:05,642 INFO     Already Processed     : 0
+2026-07-07 15:16:05,643 INFO     No new circulars found.
+2026-07-07 15:19:05,749 INFO     
+2026-07-07 15:19:05,750 INFO     ========== MCX ==========
+2026-07-07 15:19:05,751 INFO     Fetching page 1
+2026-07-07 15:19:07,397 INFO     Page 1/0
+2026-07-07 15:19:07,401 INFO     Total Circulars Found : 0
+2026-07-07 15:19:07,401 INFO     Already Processed     : 0
+2026-07-07 15:19:07,402 INFO     No new circulars found.
+2026-07-07 15:22:51,812 INFO     
+2026-07-07 15:22:51,813 INFO     ========== MCX ==========
+2026-07-07 15:22:51,813 INFO     Fetching page 1
+2026-07-07 15:22:53,508 INFO     Page 1/0
+2026-07-07 15:22:53,511 INFO     Total Circulars Found : 0
+2026-07-07 15:22:53,511 INFO     Already Processed     : 0
+2026-07-07 15:22:53,512 INFO     No new circulars found.
+2026-07-07 15:29:24,103 INFO     
+2026-07-07 15:29:24,104 INFO     ========== MCX ==========
+2026-07-07 15:29:24,104 INFO     Fetching page 1
+2026-07-07 15:29:25,732 INFO     Page 1/0
+2026-07-07 15:29:25,736 INFO     Total Circulars Found : 0
+2026-07-07 15:29:25,736 INFO     Already Processed     : 0
+2026-07-07 15:29:25,737 INFO     No new circulars found.
+2026-07-07 15:31:49,667 INFO     
+2026-07-07 15:31:49,668 INFO     ========== MCX ==========
+2026-07-07 15:31:49,668 INFO     Fetching page 1
+2026-07-07 15:31:51,366 INFO     Page 1/0
+2026-07-07 15:31:51,370 INFO     Total Circulars Found : 0
+2026-07-07 15:31:51,370 INFO     Already Processed     : 0
+2026-07-07 15:31:51,370 INFO     No new circulars found.
+2026-07-07 15:45:15,375 INFO     
+2026-07-07 15:45:15,376 INFO     ========== MCX ==========
+2026-07-07 15:45:15,376 INFO     Fetching page 1
+2026-07-07 15:45:17,171 INFO     Page 1/0
+2026-07-07 15:45:17,174 INFO     Total Circulars Found : 0
+2026-07-07 15:45:17,174 INFO     Already Processed     : 0
+2026-07-07 15:45:17,175 INFO     No new circulars found.
+2026-07-07 15:56:07,145 INFO     
+2026-07-07 15:56:07,149 INFO     ========== MCX ==========
+2026-07-07 15:56:07,150 INFO     Fetching page 1
+2026-07-07 15:56:08,731 INFO     Page 1/0
+2026-07-07 15:56:08,733 INFO     Total Circulars Found : 0
+2026-07-07 15:56:08,733 INFO     Already Processed     : 0
+2026-07-07 15:56:08,734 INFO     No new circulars found.
+2026-07-07 15:59:59,656 INFO     
+2026-07-07 15:59:59,657 INFO     ========== MCX ==========
+2026-07-07 15:59:59,658 INFO     Fetching page 1
+2026-07-07 16:00:01,307 INFO     Page 1/0
+2026-07-07 16:00:01,310 INFO     Total Circulars Found : 0
+2026-07-07 16:00:01,310 INFO     Already Processed     : 0
+2026-07-07 16:00:01,310 INFO     No new circulars found.
