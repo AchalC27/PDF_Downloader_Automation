@@ -395,3 +395,136 @@ OSError: [Errno 22] Invalid argument: 'downloads\\bse\\02-07-2026\\20260702-4_Op
 2026-07-06 14:40:01,747 INFO     Already Processed     : 0
 2026-07-06 14:40:01,747 INFO     Downloaded            : 10
 2026-07-06 14:40:01,747 INFO     Failed                : 0
+2026-07-06 22:41:16,279 INFO     
+2026-07-06 22:41:16,280 INFO     ========== BSE ==========
+2026-07-06 22:41:17,756 INFO     Total Circulars Found : 39
+2026-07-06 22:41:21,547 INFO     Already Processed     : 10
+2026-07-06 22:41:21,547 INFO     Downloading : 20260706-39_Opening of Offer for Sale for COCHIN SHIPYARD LTD - Live Activities Schedule.pdf
+2026-07-06 22:41:26,531 INFO     Downloading : 20260706-38_Opening of Offer for Sale for Cochin Shipyard Limited (the _Company_).pdf
+2026-07-06 22:41:27,017 INFO     Downloading : 20260706-37_Daily Bulletin.pdf
+2026-07-06 22:41:29,748 INFO     Downloading : 20260706-36_Bonus Issue of HINDUSTHAN INSULATORS and INDUSTRIES LIMITED(Scrip Code- 539984).pdf
+2026-07-06 22:41:29,879 ERROR    Failed : 20260706-36_Bonus Issue of HINDUSTHAN INSULATORS and INDUSTRIES LIMITED(Scrip Code- 539984).pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\bse.py", line 107, in download_bse
+    download_file(session, pdf_url, filepath)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\bse.py", line 41, in download_file
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.bseindia.com/downloads/UploadDocs/Notices/20260706-36/20260706-36.pdf
+2026-07-06 22:41:29,883 INFO     Downloading : 20260706-35_Opening of Offer to Buy – Acquisition Window (Takeover) of TMT (INDIA) LIMITED.pdf
+2026-07-06 22:41:34,349 INFO     Downloading : 20260706-34_Listing of Equity Shares of KRATIKAL TECH LIMITED.pdf
+2026-07-06 22:42:35,502 ERROR    Failed : 20260706-34_Listing of Equity Shares of KRATIKAL TECH LIMITED.pdf
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\response.py", line 903, in _error_catcher
+    yield
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\response.py", line 1028, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\response.py", line 1011, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 484, in read
+    s = self.fp.read(amt)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\response.py", line 1257, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\response.py", line 1112, in read
+    data = self._raw_read(amt)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\response.py", line 1027, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\response.py", line 908, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.bseindia.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\bse.py", line 107, in download_bse
+    download_file(session, pdf_url, filepath)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\bse.py", line 44, in download_file
+    for chunk in response.iter_content(16384):
+                 ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 826, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.bseindia.com', port=443): Read timed out.
+2026-07-06 22:42:35,540 INFO     Downloading : 20260706-33_Listing of Equity Shares of Atharva Poly-Plast Limited.pdf
+2026-07-06 22:42:53,402 INFO     Downloading : 20260706-32_CHANGES IN PRICE BAND.pdf
+2026-07-06 22:43:14,908 INFO     Downloading : 20260706-31_Surveillance Action w.r.t dealing with unsolicited videos and messages circulated in social media pl.pdf
+2026-07-06 22:43:17,484 INFO     Downloading : 20260706-30_Listing of Equity Shares of Seemax Resources Limited.pdf
+2026-07-06 22:43:17,995 INFO     Downloading : 20260706-29_Graded Surveillance Measure (GSM) - List of securities moving into their respective GSM Stages.pdf
+2026-07-06 22:43:19,133 INFO     Downloading : 20260706-28_Listing of Equity Shares of Sampark India Logistics Limited.pdf
+2026-07-06 22:43:20,013 INFO     Downloading : 20260706-27_Applicability of Long Term Additional Surveillance Measure (LT-ASM).pdf
+2026-07-06 22:43:20,991 INFO     Downloading : 20260706-26_Periodic Call Auction for Illiquid scrips.pdf
+2026-07-06 22:43:22,455 INFO     Downloading : 20260706-25_REVISION OF SCRIPS IN TRADE TO TRADE SEGMENT.pdf
+2026-07-06 22:43:22,711 INFO     Downloading : 20260706-24_Enhanced Surveillance Measure (ESM).pdf
+2026-07-06 22:43:23,191 INFO     Downloading : 20260706-23_Applicability of Short Term Additional Surveillance Measure (ST-ASM).pdf
+2026-07-06 22:43:24,508 INFO     Downloading : 20260706-22_Additions to the BSE Indices.pdf
+2026-07-06 22:43:24,781 INFO     Downloading : 20260706-21_Listing of New Securities of PC JEWELLER LIMITED.pdf
+2026-07-06 22:43:26,029 INFO     Downloading : 20260706-20_Clarification Received from the Companies.pdf
+2026-07-06 22:43:26,285 INFO     Downloading : 20260706-19_Clarification Received from the Company on News Articles.pdf
+2026-07-06 22:43:26,508 INFO     Downloading : 20260706-18_Listing of privately placed securities on the debt market segment of the Exchange.pdf
+2026-07-06 22:43:26,909 INFO     Downloading : 20260706-17_Listing of further securities issued by the companies under ESOP _ ESOS.pdf
+2026-07-06 22:43:28,538 INFO     Downloading : 20260706-16_Listing of new securities of Manorama Industries Ltd..pdf
+2026-07-06 22:43:29,260 INFO     Downloading : 20260706-15_Listing of Equity Shares of Seemax Resources Limited.pdf
+2026-07-06 22:43:29,898 INFO     Downloading : 20260706-14_Suspension of Trading in Debentures and Bonds of Companies.pdf
+2026-07-06 22:43:30,185 INFO     Downloading : 20260706-13_Suspension of Trading in Commercial Paper.pdf
+2026-07-06 22:43:30,560 INFO     Downloading : 20260706-12_Listing of Equity Shares of Atharva Poly-Plast Limited.pdf
+2026-07-06 22:43:32,264 INFO     Downloading : 20260706-11_Part-Redemption of Debentures of ADANI AIRPORT HOLDINGS LIMITED.pdf
+2026-07-06 22:43:33,814 INFO     
+2026-07-06 22:43:33,815 INFO     BSE Summary
+2026-07-06 22:43:33,815 INFO     --------------------------
+2026-07-06 22:43:33,815 INFO     Total Circulars Found : 39
+2026-07-06 22:43:33,816 INFO     Already Processed     : 10
+2026-07-06 22:43:33,816 INFO     Downloaded            : 27
+2026-07-06 22:43:33,816 INFO     Failed                : 2
+2026-07-07 10:07:05,026 INFO     
+2026-07-07 10:07:05,026 INFO     ========== BSE ==========
+2026-07-07 10:07:05,409 INFO     Total Circulars Found : 0
+2026-07-07 10:07:05,409 INFO     Already Processed     : 0
+2026-07-07 10:07:05,409 INFO     No new circulars found.
+2026-07-07 10:10:57,703 INFO     
+2026-07-07 10:10:57,703 INFO     ========== BSE ==========
+2026-07-07 10:10:58,141 INFO     Total Circulars Found : 0
+2026-07-07 10:10:58,141 INFO     Already Processed     : 0
+2026-07-07 10:10:58,141 INFO     No new circulars found.
+2026-07-07 12:04:12,861 INFO     
+2026-07-07 12:04:12,862 INFO     ========== BSE ==========
+2026-07-07 12:04:13,449 INFO     Total Circulars Found : 6
+2026-07-07 12:04:13,920 INFO     Already Processed     : 0
+2026-07-07 12:04:13,920 INFO     Downloading : 20260707-6_Change in Group of Equity Shares of KRATIKAL TECH LIMITED.pdf
+2026-07-07 12:04:14,414 INFO     Downloading : 20260707-5_Change in Group of Equity Shares of ATHARVA POLY-PLAST LIMITED.pdf
+2026-07-07 12:04:14,515 INFO     Downloading : 20260707-4_Confirmation of Fixed Deposit Receipts (FDRs) in electronic form.pdf
+2026-07-07 12:04:14,589 INFO     Downloading : 20260707-3_Voluntary Closure of Business – Anvil Share & Stock Broking Pvt. Ltd..pdf
+2026-07-07 12:04:14,670 INFO     Downloading : 20260707-2_Change in Group of Equity Shares of SEEMAX RESOURCES LIMITED.pdf
+2026-07-07 12:04:14,754 INFO     Downloading : 20260707-1_Change in Group of Equity Shares of Sampark India Logistics Limited.pdf
+2026-07-07 12:04:14,834 INFO     
+2026-07-07 12:04:14,834 INFO     BSE Summary
+2026-07-07 12:04:14,834 INFO     --------------------------
+2026-07-07 12:04:14,834 INFO     Total Circulars Found : 6
+2026-07-07 12:04:14,834 INFO     Already Processed     : 0
+2026-07-07 12:04:14,835 INFO     Downloaded            : 6
+2026-07-07 12:04:14,835 INFO     Failed                : 0

@@ -279,3 +279,38 @@
 2026-07-06 14:41:13,278 INFO     Already Processed     : 0
 2026-07-06 14:41:13,278 INFO     Downloaded            : 1
 2026-07-06 14:41:13,279 INFO     Failed                : 0
+2026-07-06 22:45:42,225 INFO     
+2026-07-06 22:45:42,226 INFO     ========== MCX ==========
+2026-07-06 22:45:42,228 INFO     Fetching page 1
+2026-07-06 22:45:44,838 INFO     Page 1/1
+2026-07-06 22:45:44,840 INFO     Total Circulars Found : 2
+2026-07-06 22:45:45,015 INFO     Already Processed     : 1
+2026-07-06 22:45:45,015 INFO     Downloading : 06-Jul-2026_No387_Membership and Compliance_Handling of Client’s Unpaid Securities by Trading Members.pdf
+2026-07-06 22:45:48,449 INFO     
+2026-07-06 22:45:48,450 INFO     MCX Summary
+2026-07-06 22:45:48,450 INFO     -------------------------
+2026-07-06 22:45:48,450 INFO     Total Circulars Found : 2
+2026-07-06 22:45:48,451 INFO     Already Processed     : 1
+2026-07-06 22:45:48,451 INFO     Downloaded            : 1
+2026-07-06 22:45:48,451 INFO     Failed                : 0
+2026-07-07 10:07:34,469 INFO     
+2026-07-07 10:07:34,473 INFO     ========== MCX ==========
+2026-07-07 10:07:34,474 INFO     Fetching page 1
+2026-07-07 10:07:35,670 INFO     Page 1/0
+2026-07-07 10:07:35,671 INFO     Total Circulars Found : 0
+2026-07-07 10:07:35,671 INFO     Already Processed     : 0
+2026-07-07 10:07:35,671 INFO     No new circulars found.
+2026-07-07 10:11:26,390 INFO     
+2026-07-07 10:11:26,392 INFO     ========== MCX ==========
+2026-07-07 10:11:26,393 INFO     Fetching page 1
+2026-07-07 10:11:27,661 INFO     Page 1/0
+2026-07-07 10:11:27,663 INFO     Total Circulars Found : 0
+2026-07-07 10:11:27,663 INFO     Already Processed     : 0
+2026-07-07 10:11:27,663 INFO     No new circulars found.
+2026-07-07 12:04:45,551 INFO     
+2026-07-07 12:04:45,552 INFO     ========== MCX ==========
+2026-07-07 12:04:45,552 INFO     Fetching page 1
+2026-07-07 12:04:46,757 INFO     Page 1/0
+2026-07-07 12:04:46,758 INFO     Total Circulars Found : 0
+2026-07-07 12:04:46,758 INFO     Already Processed     : 0
+2026-07-07 12:04:46,759 INFO     No new circulars found.

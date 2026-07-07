@@ -9750,3 +9750,123 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.
 2026-07-06 14:41:02,944 INFO     Already Processed     : 415
 2026-07-06 14:41:02,944 INFO     Downloaded            : 1
 2026-07-06 14:41:02,945 INFO     Failed                : 2
+2026-07-06 22:43:47,060 INFO     
+2026-07-06 22:43:47,061 INFO     ========== ARCL ==========
+2026-07-06 22:43:57,039 INFO     Running ARCL extractor...
+2026-07-06 22:44:32,388 INFO     Total Documents Found : 418
+2026-07-06 22:44:32,388 INFO     Already Processed     : 416
+2026-07-06 22:44:32,389 INFO     Downloading : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+2026-07-06 22:44:33,180 ERROR    Failed : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/221_27-Feb-2025-List%20of%20eligible%20securities%20for%20March%202025.zip
+2026-07-06 22:44:33,187 INFO     Downloading : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+2026-07-06 22:44:35,856 ERROR    Failed : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/220_27-Feb-2025-List%20of%20Additional%20eligible%20securities%20for%20Feb%202025-05.pdf
+2026-07-06 22:44:35,859 INFO     
+2026-07-06 22:44:35,860 INFO     ARCL Summary
+2026-07-06 22:44:35,860 INFO     -------------------------
+2026-07-06 22:44:35,860 INFO     Total Documents Found : 418
+2026-07-06 22:44:35,861 INFO     Already Processed     : 416
+2026-07-06 22:44:35,861 INFO     Downloaded            : 0
+2026-07-06 22:44:35,861 INFO     Failed                : 2
+2026-07-07 10:07:13,812 INFO     
+2026-07-07 10:07:13,812 INFO     ========== ARCL ==========
+2026-07-07 10:07:17,113 INFO     Running ARCL extractor...
+2026-07-07 10:07:31,578 INFO     Total Documents Found : 418
+2026-07-07 10:07:31,578 INFO     Already Processed     : 416
+2026-07-07 10:07:31,578 INFO     Downloading : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+2026-07-07 10:07:31,891 ERROR    Failed : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/221_27-Feb-2025-List%20of%20eligible%20securities%20for%20March%202025.zip
+2026-07-07 10:07:31,893 INFO     Downloading : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+2026-07-07 10:07:32,220 ERROR    Failed : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/220_27-Feb-2025-List%20of%20Additional%20eligible%20securities%20for%20Feb%202025-05.pdf
+2026-07-07 10:07:32,222 INFO     
+2026-07-07 10:07:32,222 INFO     ARCL Summary
+2026-07-07 10:07:32,222 INFO     -------------------------
+2026-07-07 10:07:32,222 INFO     Total Documents Found : 418
+2026-07-07 10:07:32,222 INFO     Already Processed     : 416
+2026-07-07 10:07:32,222 INFO     Downloaded            : 0
+2026-07-07 10:07:32,223 INFO     Failed                : 2
+2026-07-07 10:11:05,847 INFO     
+2026-07-07 10:11:05,847 INFO     ========== ARCL ==========
+2026-07-07 10:11:08,322 INFO     Running ARCL extractor...
+2026-07-07 10:11:23,453 INFO     Total Documents Found : 418
+2026-07-07 10:11:23,453 INFO     Already Processed     : 416
+2026-07-07 10:11:23,453 INFO     Downloading : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+2026-07-07 10:11:23,838 ERROR    Failed : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/221_27-Feb-2025-List%20of%20eligible%20securities%20for%20March%202025.zip
+2026-07-07 10:11:23,839 INFO     Downloading : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+2026-07-07 10:11:24,147 ERROR    Failed : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/220_27-Feb-2025-List%20of%20Additional%20eligible%20securities%20for%20Feb%202025-05.pdf
+2026-07-07 10:11:24,149 INFO     
+2026-07-07 10:11:24,149 INFO     ARCL Summary
+2026-07-07 10:11:24,149 INFO     -------------------------
+2026-07-07 10:11:24,149 INFO     Total Documents Found : 418
+2026-07-07 10:11:24,149 INFO     Already Processed     : 416
+2026-07-07 10:11:24,149 INFO     Downloaded            : 0
+2026-07-07 10:11:24,150 INFO     Failed                : 2
+2026-07-07 12:04:23,259 INFO     
+2026-07-07 12:04:23,260 INFO     ========== ARCL ==========
+2026-07-07 12:04:26,041 INFO     Running ARCL extractor...
+2026-07-07 12:04:42,173 INFO     Total Documents Found : 418
+2026-07-07 12:04:42,173 INFO     Already Processed     : 416
+2026-07-07 12:04:42,173 INFO     Downloading : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+2026-07-07 12:04:42,482 ERROR    Failed : 221_27-Feb-2025-List of eligible securities for March 2025_8b5a69b8.zip
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/221_27-Feb-2025-List%20of%20eligible%20securities%20for%20March%202025.zip
+2026-07-07 12:04:42,483 INFO     Downloading : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+2026-07-07 12:04:42,824 ERROR    Failed : 220_27-Feb-2025-List of Additional eligible securities for Feb 2025-05_1c0b97d6.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 83, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.arclindia.com/spages/Circulars/220_27-Feb-2025-List%20of%20Additional%20eligible%20securities%20for%20Feb%202025-05.pdf
+2026-07-07 12:04:42,826 INFO     
+2026-07-07 12:04:42,826 INFO     ARCL Summary
+2026-07-07 12:04:42,826 INFO     -------------------------
+2026-07-07 12:04:42,826 INFO     Total Documents Found : 418
+2026-07-07 12:04:42,826 INFO     Already Processed     : 416
+2026-07-07 12:04:42,826 INFO     Downloaded            : 0
+2026-07-07 12:04:42,826 INFO     Failed                : 2

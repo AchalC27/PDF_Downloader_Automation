@@ -317,3 +317,31 @@
 2026-07-06 14:41:51,922 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
 2026-07-06 14:41:53,083 INFO     Page 3 : 10 cards
 2026-07-06 14:42:04,883 INFO     PFRDA → found 30 PDFs, downloaded 0 new
+2026-07-06 22:46:01,392 INFO     ─── Scraping PFRDA ───
+2026-07-06 22:46:03,795 INFO     Page 1 : 10 cards
+2026-07-06 22:46:20,465 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-06 22:46:21,738 INFO     Page 2 : 10 cards
+2026-07-06 22:46:38,150 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-06 22:46:40,607 INFO     Page 3 : 10 cards
+2026-07-06 22:46:57,087 INFO     PFRDA → found 30 PDFs, downloaded 0 new
+2026-07-07 10:07:40,567 INFO     ─── Scraping PFRDA ───
+2026-07-07 10:07:41,078 INFO     Page 1 : 10 cards
+2026-07-07 10:07:45,804 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-07 10:07:46,381 INFO     Page 2 : 10 cards
+2026-07-07 10:07:54,400 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-07 10:07:54,918 INFO     Page 3 : 10 cards
+2026-07-07 10:07:59,820 INFO     PFRDA → found 30 PDFs, downloaded 0 new
+2026-07-07 10:11:32,636 INFO     ─── Scraping PFRDA ───
+2026-07-07 10:11:33,124 INFO     Page 1 : 10 cards
+2026-07-07 10:11:38,731 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-07 10:11:39,242 INFO     Page 2 : 10 cards
+2026-07-07 10:11:44,457 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-07 10:11:44,961 INFO     Page 3 : 10 cards
+2026-07-07 10:11:49,944 INFO     PFRDA → found 30 PDFs, downloaded 0 new
+2026-07-07 12:04:51,790 INFO     ─── Scraping PFRDA ───
+2026-07-07 12:04:52,343 INFO     Page 1 : 10 cards
+2026-07-07 12:04:57,786 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-07 12:04:58,337 INFO     Page 2 : 10 cards
+2026-07-07 12:05:03,232 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-07 12:05:03,767 INFO     Page 3 : 10 cards
+2026-07-07 12:05:08,746 INFO     PFRDA → found 30 PDFs, downloaded 0 new

@@ -1,104 +1,151 @@
+import requests
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
-from .db import save_pdf, pdf_exists
 
+from .db import save_pdf, pdf_exists
 from .helpers import (
     get_logger,
     load_seen,
     save_seen,
-    get_page,
     download_pdf,
     safe_filename,
     dest_for,
 )
 
-NSDL_URL = "https://nsdl.co.in/business/circular_stat.php"
+MONTH_API = "https://nsdl.com/web/api/v1/circular/month-list"
+PDFLIST_API = "https://nsdl.com/web/api/v1/circular/typewise/pdflist"
+
+TYPE = "participant-circular-dp"
+YEAR = "2026"
+
+
 def scrape_nsdl() -> tuple[int, int]:
-    """
-    Scrape NSDL circulars page and download explicit PDF/DOC/DOCX/ZIP files.
-    Uses exact string matching to align perfectly with browser console counts.
-    """
+
     log = get_logger("nsdl")
     seen = load_seen("nsdl")
-
-    soup = get_page(NSDL_URL, log)
-    if soup is None:
-        return 0, 0
 
     found = 0
     downloaded = 0
 
-    # Isolate the exact table container using your verified CSS selector path
-    target_selector = "body > div > div.row.mb-5.mb-md-10 > div.col-sm-12.col-xs-12.col-md-9.col-lg-9.text-left.right-panel.mt-3 > table"
-    target_table = soup.select_one(target_selector)
+    session = requests.Session()
 
-    if target_table is None:
-        log.error("Could not find the target table on the page using the specified selector.")
+    # -------------------------
+    # Get all months for 2026
+    # -------------------------
+    try:
+        r = session.get(
+            MONTH_API,
+            params={
+                "type": TYPE,
+                "year": YEAR,
+            },
+            timeout=30,
+        )
+        r.raise_for_status()
+
+        months = [m["month"] for m in r.json()["data"]]
+
+    except Exception as e:
+        log.error("Failed to fetch months: %s", e)
         return 0, 0
 
-    # Loop through every link inside the isolated table structure
-    for a_tag in target_table.find_all("a", href=True):
-        href = a_tag["href"].strip()
-        
-        # Skip baseline empty anchor links or javascript macros
-        if not href or href.startswith(("#", "javascript:")):
-            continue
+    # -------------------------
+    # Iterate over every month
+    # -------------------------
+    for month in months:
 
-        full_url = urljoin(NSDL_URL, href)
-        
-        # Lowercase the entire URL string for direct suffix evaluation
-        url_lower = full_url.lower()
+        page = 0
 
-        # Replicate the exact console matching behavior
-        if url_lower.endswith(".pdf"):
-            ext = ".pdf"
-        elif url_lower.endswith(".zip"):
-            ext = ".zip"
-        elif url_lower.endswith(".docx"):
-            ext = ".docx"
-        elif url_lower.endswith(".doc"):
-            ext = ".doc"
-        else:
-            # If it doesn't match our exact extension strings, skip it
-            continue
+        while True:
 
-        found += 1
+            try:
+                r = session.get(
+                    PDFLIST_API,
+                    params={
+                        "type": TYPE,
+                        "limit": 10,
+                        "page": page,
+                        "year": YEAR,
+                        "month": month,
+                    },
+                    timeout=30,
+                )
 
-        if full_url in seen:
-            continue
+                r.raise_for_status()
 
-        link_text = a_tag.get_text(" ", strip=True)
+                data = r.json()
 
-        # Generate a clean system filename
-        if link_text:
-            filename = safe_filename(link_text) + ext
-        else:
-            # Fallback parsing if link text is missing
-            path_stem = urlparse(full_url).path.split('/')[-1].rsplit('.', 1)[0]
-            filename = safe_filename(path_stem or f"nsdl_document_{found}") + ext
+            except Exception as e:
+                log.error(
+                    "Failed to fetch %s page %d : %s",
+                    month,
+                    page,
+                    e,
+                )
+                break
 
-        if pdf_exists("NSDL", filename):
-                log.info("%s already exists in database. Skipping.", filename)
-                continue
-        dest = dest_for("NSDL", filename)
+            records = data.get("data", [])
 
-        # Attempt download execution
-        if download_pdf(full_url, dest, log):
-            save_pdf(
-                source="NSDL",
-                pdf_name=filename,
-                pdf_link=full_url,
-                category="Circular"
-            )
-            seen.add(full_url)
-            downloaded += 1
+            if not records:
+                break
+
+            total_pages = data.get("total_pages", 1)
+
+            for record in records:
+
+                file_info = record.get("file")
+
+                if not file_info:
+                    continue
+
+                file_url = file_info.get("file_url")
+
+                if not file_url:
+                    continue
+
+                found += 1
+
+                if file_url in seen:
+                    continue
+
+                ext = "." + file_info.get("extension", "").lower()
+
+                filename = (
+                    safe_filename(record["pdf_title"])
+                    + ext
+                )
+
+                if pdf_exists("NSDL", filename):
+                    log.info(
+                        "%s already exists in database.",
+                        filename,
+                    )
+                    continue
+
+                dest = dest_for("NSDL", filename)
+
+                if download_pdf(file_url, dest, log):
+
+                    save_pdf(
+                        source="NSDL",
+                        pdf_name=filename,
+                        pdf_link=file_url,
+                        category="Circular",
+                    )
+
+                    seen.add(file_url)
+                    downloaded += 1
+
+            page += 1
+
+            if page >= total_pages:
+                break
 
     save_seen("nsdl", seen)
 
     log.info(
         "NSDL Complete → found %d files, downloaded %d new",
         found,
-        downloaded
+        downloaded,
     )
-    
+
     return found, downloaded
