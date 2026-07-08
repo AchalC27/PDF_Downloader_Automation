@@ -238,3 +238,93 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.
 2026-07-07 15:59:59,654 INFO     Already Processed     : 23
 2026-07-07 15:59:59,654 INFO     Downloaded            : 0
 2026-07-07 15:59:59,655 INFO     Failed                : 2
+2026-07-07 16:10:51,507 INFO     
+2026-07-07 16:10:51,508 INFO     ========== CKYC ==========
+2026-07-07 16:10:52,304 INFO     Running CKYC extractor...
+2026-07-07 16:10:54,413 INFO     Total Documents Found : 25
+2026-07-07 16:10:54,413 INFO     Already Processed     : 23
+2026-07-07 16:10:54,414 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-07 16:10:55,359 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-07 16:10:55,366 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-07 16:10:56,185 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-07 16:10:56,189 INFO     
+2026-07-07 16:10:56,190 INFO     CKYC Summary
+2026-07-07 16:10:56,190 INFO     -------------------------
+2026-07-07 16:10:56,190 INFO     Total Documents Found : 25
+2026-07-07 16:10:56,191 INFO     Already Processed     : 23
+2026-07-07 16:10:56,191 INFO     Downloaded            : 0
+2026-07-07 16:10:56,191 INFO     Failed                : 2
+2026-07-07 17:36:09,896 INFO     
+2026-07-07 17:36:09,896 INFO     ========== CKYC ==========
+2026-07-07 17:36:10,495 INFO     Running CKYC extractor...
+2026-07-07 17:36:11,378 INFO     Total Documents Found : 25
+2026-07-07 17:36:11,378 INFO     Already Processed     : 23
+2026-07-07 17:36:11,378 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-07 17:36:11,953 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-07 17:36:11,954 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-07 17:36:12,548 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-07 17:36:12,550 INFO     
+2026-07-07 17:36:12,550 INFO     CKYC Summary
+2026-07-07 17:36:12,551 INFO     -------------------------
+2026-07-07 17:36:12,551 INFO     Total Documents Found : 25
+2026-07-07 17:36:12,551 INFO     Already Processed     : 23
+2026-07-07 17:36:12,551 INFO     Downloaded            : 0
+2026-07-07 17:36:12,551 INFO     Failed                : 2
+2026-07-08 09:43:59,537 INFO     
+2026-07-08 09:43:59,538 INFO     ========== CKYC ==========
+2026-07-08 09:44:00,627 INFO     Running CKYC extractor...
+2026-07-08 09:44:02,791 INFO     Total Documents Found : 25
+2026-07-08 09:44:02,791 INFO     Already Processed     : 23
+2026-07-08 09:44:02,792 INFO     Downloading : helpdesk-query-form_2ca9e50b.pdf
+2026-07-08 09:44:03,741 ERROR    Failed : helpdesk-query-form_2ca9e50b.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf
+2026-07-08 09:44:03,743 INFO     Downloading : Holidaylist2026_4444ee22.pdf
+2026-07-08 09:44:04,588 ERROR    Failed : Holidaylist2026_4444ee22.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\ckyc.py", line 84, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf
+2026-07-08 09:44:04,591 INFO     
+2026-07-08 09:44:04,592 INFO     CKYC Summary
+2026-07-08 09:44:04,592 INFO     -------------------------
+2026-07-08 09:44:04,592 INFO     Total Documents Found : 25
+2026-07-08 09:44:04,593 INFO     Already Processed     : 23
+2026-07-08 09:44:04,593 INFO     Downloaded            : 0
+2026-07-08 09:44:04,593 INFO     Failed                : 2

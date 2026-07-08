@@ -5,7 +5,6 @@ from datetime import date, datetime
 import requests
 
 from .logger import get_logger
-from .get_download import get_download
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("mcx")
@@ -104,30 +103,34 @@ def build_filename(item):
     )
 
 
-def download_pdfs(circulars, output_dir):
-    session = requests.Session()
-    session.headers.update(HEADERS)
-
+def download_pdfs(circulars, output_dir=None):
     downloaded = 0
     failed = 0
 
     for item, filename in circulars:
+
         pdf_url = item.get("CircularFile", "").strip()
 
         if not pdf_url:
             continue
 
         category = item.get("CircularsCategory") or "Uncategorized"
-        filepath = output_dir / filename
 
         try:
-            logger.info(f"Downloading : {filename}")
+            logger.info(f"Saving : {filename}")
 
-            response = session.get(pdf_url, timeout=30)
-            response.raise_for_status()
-
-            with open(filepath, "wb") as file:
-                file.write(response.content)
+            # ---------------------------------------------------
+            # PDF Download Removed
+            #
+            # response = session.get(pdf_url, timeout=30)
+            # response.raise_for_status()
+            #
+            # filepath = output_dir / filename
+            # filepath.parent.mkdir(parents=True, exist_ok=True)
+            #
+            # with open(filepath, "wb") as file:
+            #     file.write(response.content)
+            # ---------------------------------------------------
 
             save_pdf(
                 source="MCX",
@@ -153,7 +156,6 @@ def download_mcx():
 
     today = date.today().strftime("%d/%m/%Y")
 
-    output_dir = get_download("mcx")
 
     circulars = fetch_all_pages(from_date=today, to_date=today)
 
@@ -184,7 +186,7 @@ def download_mcx():
         logger.info("No new circulars found.")
         return
 
-    downloaded, failed = download_pdfs(new_circulars, output_dir)
+    downloaded, failed = download_pdfs(new_circulars)
 
     logger.info("")
     logger.info("MCX Summary")

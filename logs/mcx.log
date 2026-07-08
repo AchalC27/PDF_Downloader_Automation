@@ -54,3 +54,71 @@
 2026-07-07 16:00:01,310 INFO     Total Circulars Found : 0
 2026-07-07 16:00:01,310 INFO     Already Processed     : 0
 2026-07-07 16:00:01,310 INFO     No new circulars found.
+2026-07-07 16:10:56,193 INFO     
+2026-07-07 16:10:56,195 INFO     ========== MCX ==========
+2026-07-07 16:10:56,196 INFO     Fetching page 1
+2026-07-07 16:10:57,952 INFO     Page 1/1
+2026-07-07 16:10:57,955 INFO     Total Circulars Found : 1
+2026-07-07 16:10:58,040 INFO     Already Processed     : 0
+2026-07-07 16:10:58,040 INFO     Downloading : 07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf
+2026-07-07 16:10:58,747 ERROR    Failed : 07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\mcx.py", line 129, in download_pdfs
+    with open(filepath, "wb") as file:
+         ~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'downloads\\mcx\\07-07-2026\\07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf'
+2026-07-07 16:10:58,760 INFO     
+2026-07-07 16:10:58,761 INFO     MCX Summary
+2026-07-07 16:10:58,761 INFO     -------------------------
+2026-07-07 16:10:58,762 INFO     Total Circulars Found : 1
+2026-07-07 16:10:58,762 INFO     Already Processed     : 0
+2026-07-07 16:10:58,762 INFO     Downloaded            : 0
+2026-07-07 16:10:58,763 INFO     Failed                : 1
+2026-07-07 16:14:48,461 INFO     
+2026-07-07 16:14:48,463 INFO     ========== MCX ==========
+2026-07-07 16:14:48,464 INFO     Fetching page 1
+2026-07-07 16:14:50,061 INFO     Page 1/1
+2026-07-07 16:14:50,064 INFO     Total Circulars Found : 1
+2026-07-07 16:14:50,350 INFO     Already Processed     : 0
+2026-07-07 16:14:50,350 INFO     Downloading : 07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf
+2026-07-07 16:14:51,363 ERROR    Failed : 07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\mcx.py", line 129, in download_pdfs
+    with open(filepath, "wb") as file:
+         ~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'downloads\\mcx\\07-07-2026\\07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf'
+2026-07-07 16:14:51,367 INFO     
+2026-07-07 16:14:51,368 INFO     MCX Summary
+2026-07-07 16:14:51,368 INFO     -------------------------
+2026-07-07 16:14:51,368 INFO     Total Circulars Found : 1
+2026-07-07 16:14:51,368 INFO     Already Processed     : 0
+2026-07-07 16:14:51,369 INFO     Downloaded            : 0
+2026-07-07 16:14:51,369 INFO     Failed                : 1
+2026-07-07 16:18:37,728 INFO     
+2026-07-07 16:18:37,729 INFO     ========== MCX ==========
+2026-07-07 16:18:37,729 INFO     Fetching page 1
+2026-07-07 16:18:39,370 INFO     Page 1/1
+2026-07-07 16:18:39,373 INFO     Total Circulars Found : 1
+2026-07-07 16:18:39,563 INFO     Already Processed     : 0
+2026-07-07 16:18:39,564 INFO     Saving : 07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf
+2026-07-07 16:18:40,165 INFO     
+2026-07-07 16:18:40,166 INFO     MCX Summary
+2026-07-07 16:18:40,166 INFO     -------------------------
+2026-07-07 16:18:40,167 INFO     Total Circulars Found : 1
+2026-07-07 16:18:40,167 INFO     Already Processed     : 0
+2026-07-07 16:18:40,167 INFO     Downloaded            : 1
+2026-07-07 16:18:40,168 INFO     Failed                : 0
+2026-07-07 17:36:12,552 INFO     
+2026-07-07 17:36:12,556 INFO     ========== MCX ==========
+2026-07-07 17:36:12,556 INFO     Fetching page 1
+2026-07-07 17:36:14,088 INFO     Page 1/1
+2026-07-07 17:36:14,089 INFO     Total Circulars Found : 1
+2026-07-07 17:36:14,128 INFO     Already Processed     : 1
+2026-07-07 17:36:14,128 INFO     No new circulars found.
+2026-07-08 09:44:04,595 INFO     
+2026-07-08 09:44:04,596 INFO     ========== MCX ==========
+2026-07-08 09:44:04,596 INFO     Fetching page 1
+2026-07-08 09:44:06,377 INFO     Page 1/0
+2026-07-08 09:44:06,379 INFO     Total Circulars Found : 0
+2026-07-08 09:44:06,379 INFO     Already Processed     : 0
+2026-07-08 09:44:06,380 INFO     No new circulars found.

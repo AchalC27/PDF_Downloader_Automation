@@ -2,8 +2,7 @@ schedule==1.2.2
 requests==2.32.3
 beautifulsoup4==4.12.3
 lxml==5.3.0
-nse==3.1.1
+nsepython==3.1.1
 bse==3.3.0
 mysql-connector-python==8.4.0
 Flask==3.0.3
- 

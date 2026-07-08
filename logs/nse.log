@@ -45,3 +45,30 @@
 2026-07-07 15:58:57,334 INFO     Total Circulars Found : 3
 2026-07-07 15:58:57,799 INFO     Already Processed     : 3
 2026-07-07 15:58:57,800 INFO     No new circulars found.
+2026-07-07 16:09:56,260 INFO     
+2026-07-07 16:09:56,261 INFO     ========== NSE ==========
+2026-07-07 16:09:57,300 INFO     Total Circulars Found : 3
+2026-07-07 16:09:57,636 INFO     Already Processed     : 3
+2026-07-07 16:09:57,637 INFO     No new circulars found.
+2026-07-07 17:35:41,864 INFO     
+2026-07-07 17:35:41,864 INFO     ========== NSE ==========
+2026-07-07 17:35:42,784 INFO     Total Circulars Found : 12
+2026-07-07 17:35:42,933 INFO     Duplicate API entry skipped : NSE_CML_75079_Trade for Trade - Vinit Mobile Limited (SME IPO).pdf
+2026-07-07 17:35:43,177 INFO     Duplicate API entry skipped : NSE_CML_75051_Trade for Trade - Teja Engineering Industries Limited (SME IPO).pdf
+2026-07-07 17:35:43,179 INFO     
+2026-07-07 17:35:43,179 INFO     NSE Summary
+2026-07-07 17:35:43,179 INFO     ----------------------------
+2026-07-07 17:35:43,179 INFO     Total Circulars Found : 12
+2026-07-07 17:35:43,179 INFO     Already Processed     : 10
+2026-07-07 17:35:43,179 INFO     Downloaded            : 0
+2026-07-07 17:35:43,180 INFO     Failed                : 0
+2026-07-08 09:43:01,683 INFO     
+2026-07-08 09:43:01,683 INFO     ========== NSE ==========
+2026-07-08 09:43:03,076 INFO     Total Circulars Found : 0
+2026-07-08 09:43:03,079 INFO     
+2026-07-08 09:43:03,079 INFO     NSE Summary
+2026-07-08 09:43:03,079 INFO     ----------------------------
+2026-07-08 09:43:03,080 INFO     Total Circulars Found : 0
+2026-07-08 09:43:03,080 INFO     Already Processed     : 0
+2026-07-08 09:43:03,080 INFO     Downloaded            : 0
+2026-07-08 09:43:03,080 INFO     Failed                : 0

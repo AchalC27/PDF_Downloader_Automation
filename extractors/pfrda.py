@@ -1,21 +1,23 @@
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
-from .db import save_pdf, pdf_exists
 
+from .db import save_pdf, pdf_exists
 from .helpers import (
     get_logger,
     load_seen,
     save_seen,
     get_page,
-    download_pdf,
     safe_filename,
-    dest_for,
 )
-PFRDA_URL="https://pfrda.org.in/regulatory-framework/circulars/active-circulars" 
+
+PFRDA_URL = "https://pfrda.org.in/regulatory-framework/circulars/active-circulars"
+
+
 def scrape_pfrda() -> tuple[int, int]:
     """
-    Scrape the first 3 pages of PFRDA active circulars and download PDFs.
-    Returns (found, downloaded).
+    Scrape the first 3 pages of PFRDA active circulars.
+    Save only metadata to MySQL.
+    Returns (found, saved).
     """
 
     log = get_logger("pfrda")
@@ -24,14 +26,13 @@ def scrape_pfrda() -> tuple[int, int]:
     log.info("─── Scraping PFRDA ───")
 
     found = 0
-    downloaded = 0
+    saved = 0
 
-    # First page
     soup = get_page(PFRDA_URL, log)
+
     if soup is None:
         return 0, 0
 
-    # Only scrape first 3 pages
     pages = 3
 
     for page in range(1, pages + 1):
@@ -50,23 +51,15 @@ def scrape_pfrda() -> tuple[int, int]:
 
         cards = page_soup.find_all("div", class_="basic-card")
 
-        log.info(
-            "Page %d : %d cards",
-            page,
-            len(cards)
-        )
+        log.info("Page %d : %d cards", page, len(cards))
 
         for card in cards:
-
             a = card.find("a", class_="basic-link", href=True)
 
             if a is None:
                 continue
 
-            detail_url = urljoin(
-                PFRDA_URL,
-                a["href"]
-            )
+            detail_url = urljoin(PFRDA_URL, a["href"])
 
             title = a.get_text(" ", strip=True)
 
@@ -79,10 +72,7 @@ def scrape_pfrda() -> tuple[int, int]:
 
             for link in detail_soup.find_all("a", href=True):
 
-                href = urljoin(
-                    detail_url,
-                    link["href"]
-                )
+                href = urljoin(detail_url, link["href"])
 
                 if ".pdf" in href.lower():
                     pdf_url = href
@@ -108,48 +98,28 @@ def scrape_pfrda() -> tuple[int, int]:
             if pdf_exists("PFRDA", filename):
                 continue
 
-            ext = Path(
-                urlparse(pdf_url).path
-            ).suffix.lower()
-
-            if not ext:
-                ext = ".pdf"
-
-            filename += ext
-
-            dest = dest_for(
-                "PFRDA",
-                filename
-            )
-
-            if download_pdf(
-                pdf_url,
-                dest,
-                log
-            ): 
-                downloaded += 1
-                seen.add(pdf_url)
-                try:
-                    save_pdf(
-                        source="PFRDA",
-                        pdf_name=filename,
-                        pdf_link=pdf_url,
-                        category="Circular"
-                    )
-                except Exception as e:
-                    log.warning("Database insert skipped: %s", e)
-
-                log.info(
-                    "Downloaded: %s",
-                    filename
+            try:
+                save_pdf(
+                    source="PFRDA",
+                    pdf_name=filename,
+                    pdf_link=pdf_url,
+                    category="Circular",
                 )
+
+                saved += 1
+                seen.add(pdf_url)
+
+                log.info("Saved : %s", filename)
+
+            except Exception:
+                log.exception("Failed : %s", filename)
 
     save_seen("pfrda", seen)
 
     log.info(
-        "PFRDA → found %d PDFs, downloaded %d new",
+        "PFRDA → Found %d PDFs, Saved %d",
         found,
-        downloaded,
+        saved,
     )
 
-    return found, downloaded
+    return found, saved

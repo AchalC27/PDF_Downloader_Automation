@@ -101,3 +101,21 @@
 2026-07-07 16:05:00,632 INFO     Already Processed     : 418
 2026-07-07 16:05:00,632 INFO     Saved To Database     : 1
 2026-07-07 16:05:00,632 INFO     Failed                : 0
+2026-07-07 16:10:13,673 INFO     
+2026-07-07 16:10:13,674 INFO     ========== ARCL ==========
+2026-07-07 16:10:17,082 INFO     Running ARCL extractor...
+2026-07-07 16:10:51,502 INFO     Total Documents Found : 419
+2026-07-07 16:10:51,503 INFO     Already Processed     : 419
+2026-07-07 16:10:51,504 INFO     No new documents found.
+2026-07-07 17:35:52,329 INFO     
+2026-07-07 17:35:52,330 INFO     ========== ARCL ==========
+2026-07-07 17:35:55,375 INFO     Running ARCL extractor...
+2026-07-07 17:36:09,895 INFO     Total Documents Found : 419
+2026-07-07 17:36:09,895 INFO     Already Processed     : 419
+2026-07-07 17:36:09,896 INFO     No new documents found.
+2026-07-08 09:43:19,392 INFO     
+2026-07-08 09:43:19,392 INFO     ========== ARCL ==========
+2026-07-08 09:43:23,065 INFO     Running ARCL extractor...
+2026-07-08 09:43:59,535 INFO     Total Documents Found : 419
+2026-07-08 09:43:59,536 INFO     Already Processed     : 419
+2026-07-08 09:43:59,536 INFO     No new documents found.
