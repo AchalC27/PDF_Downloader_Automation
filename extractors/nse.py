@@ -13,12 +13,13 @@ logger = get_logger("nse")
 NSE_ARCHIVE_URL = "https://nsearchives.nseindia.com"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
     "Referer": "https://www.nseindia.com/",
+    "Accept": "*/*",
 }
 
 
-def sanitize(text, max_len=120):
+def sanitize(text, max_len=100):
     if not text:
         return "Unknown"
 
@@ -44,8 +45,11 @@ def build_url(row):
     return NSE_ARCHIVE_URL + "/" + link
 
 
-def download_nse():
+def download_file(session, url, path):
+    pass
 
+
+def download_nse():
     logger.info("")
     logger.info("========== NSE ==========")
 
@@ -58,14 +62,11 @@ def download_nse():
 
     download_folder = get_download("nse")
 
+    session = requests.Session()
+
     downloaded = 0
-    already_processed = 0
     failed = 0
-
-    target_date = today.strftime("%Y%m%d")
-
-    # Prevent duplicate rows returned by NSE API
-    processed_files = set()
+    already_processed = 0
 
     with NSE(download_folder=str(download_folder)) as nse:
 
@@ -79,50 +80,63 @@ def download_nse():
         else:
             rows = result
 
+        target = today.strftime("%Y%m%d")
+
         rows = [
             row
             for row in rows
-            if str(row.get("cirDate")) == target_date
+            if str(row.get("cirDate")) == target
         ]
 
-        logger.info(f"Total Circulars Found : {len(rows)}")
+        total = len(rows)
 
-        for index, row in enumerate(rows, start=1):
+        logger.info(f"Total Circulars Found : {total}")
+
+        new_rows = []
+
+        for i, row in enumerate(rows, start=1):
+
+            url = build_url(row)
+
+            if not url:
+                continue
+
+            number = sanitize(
+                row.get("circDisplayNo")
+                or row.get("circNumber")
+                or f"item_{i}"
+            )
+
+            subject = sanitize(row.get("sub"))
+
+            ext = (row.get("fileExt") or "pdf").lower()
+
+            filename = f"{number}_{subject}.{ext}"
+
+            if pdf_exists("NSE", filename):
+                already_processed += 1
+                continue
+
+            new_rows.append((row, url, filename))
+
+        logger.info(f"Already Processed     : {already_processed}")
+
+        if not new_rows:
+            logger.info("No new circulars found.")
+            return
+
+        for row, url, filename in new_rows:
+
+            category = row.get("Category") or "Uncategorized"
+
+            # Download disabled
+            # filepath = download_folder / filename
 
             try:
-
-                url = build_url(row)
-
-                if not url:
-                    continue
-
-                number = sanitize(
-                    row.get("circDisplayNo")
-                    or row.get("circNumber")
-                    or f"item_{index}"
-                )
-
-                subject = sanitize(row.get("sub"))
-
-                ext = (row.get("fileExt") or "pdf").lower()
-
-                filename = f"{number}_{subject}.{ext}"
-
-                category = row.get("Category") or "Uncategorized"
-
-                # Skip duplicate entries returned by NSE API
-                if filename in processed_files:
-                    logger.info(f"Duplicate API entry skipped : {filename}")
-                    continue
-
-                processed_files.add(filename)
-
-                # Already present in database?
-                if pdf_exists("NSE", filename):
-                    already_processed += 1
-                    continue
-
                 logger.info(f"Saving : {filename}")
+
+                # Download disabled
+                # download_file(session, url, filepath)
 
                 save_pdf(
                     source="NSE",
@@ -139,8 +153,8 @@ def download_nse():
 
     logger.info("")
     logger.info("NSE Summary")
-    logger.info("----------------------------")
-    logger.info(f"Total Circulars Found : {len(rows)}")
+    logger.info("-------------------------")
+    logger.info(f"Total Circulars Found : {total}")
     logger.info(f"Already Processed     : {already_processed}")
     logger.info(f"Downloaded            : {downloaded}")
     logger.info(f"Failed                : {failed}")
