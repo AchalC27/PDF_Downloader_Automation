@@ -844,3 +844,362 @@ mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'PFRDA-Audi
 2026-07-08 23:23:13,037 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
 2026-07-08 23:23:13,038 INFO     ════════════════════════════════════════════════════════════
 2026-07-08 23:23:13,038 INFO     
+2026-07-09 11:40:32,058 INFO     ════════════════════════════════════════════════════════════
+2026-07-09 11:40:32,060 INFO     Scraping run started at 2026-07-09 11:40:32
+2026-07-09 11:40:32,061 INFO     ════════════════════════════════════════════════════════════
+2026-07-09 11:40:32,061 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:40:32,061 INFO     Running NSE
+2026-07-09 11:40:34,082 INFO     NSE Completed Successfully
+2026-07-09 11:40:34,083 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:40:34,083 INFO     Summary
+2026-07-09 11:40:34,083 INFO     
+2026-07-09 11:40:34,083 INFO     Run completed in 2.0 seconds
+2026-07-09 11:40:34,084 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-09 11:40:34,084 INFO     ════════════════════════════════════════════════════════════
+2026-07-09 11:40:34,085 INFO     
+2026-07-09 11:41:08,702 INFO     ════════════════════════════════════════════════════════════
+2026-07-09 11:41:08,703 INFO     Scraping run started at 2026-07-09 11:41:08
+2026-07-09 11:41:08,703 INFO     ════════════════════════════════════════════════════════════
+2026-07-09 11:41:08,703 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:41:08,703 INFO     Running NSE
+2026-07-09 11:41:10,098 INFO     NSE Completed Successfully
+2026-07-09 11:41:10,098 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:41:10,098 INFO     Running BSE
+2026-07-09 11:41:11,097 INFO     BSE Completed Successfully
+2026-07-09 11:41:11,098 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:41:11,099 INFO     Running CDSL
+2026-07-09 11:41:18,753 INFO     CDSL Completed Successfully
+2026-07-09 11:41:18,754 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:41:18,754 INFO     Running AMFI
+2026-07-09 11:41:27,632 INFO     AMFI Completed Successfully
+2026-07-09 11:41:27,632 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:41:27,633 INFO     Running ARCL
+2026-07-09 11:42:15,075 INFO     ARCL Completed Successfully
+2026-07-09 11:42:15,075 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:42:15,076 INFO     Running CKYC
+2026-07-09 11:42:21,963 INFO     CKYC Completed Successfully
+2026-07-09 11:42:21,963 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:42:21,963 INFO     Running MCX
+2026-07-09 11:42:24,925 INFO     MCX Completed Successfully
+2026-07-09 11:42:24,925 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:42:24,925 INFO     Running APMI
+2026-07-09 11:42:37,588 INFO     APMI Completed Successfully
+2026-07-09 11:42:37,588 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:42:37,589 INFO     Running PFRDA
+2026-07-09 11:43:24,646 INFO     PFRDA Completed Successfully
+2026-07-09 11:43:24,647 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:43:24,647 INFO     Running NSDL
+2026-07-09 11:44:02,274 INFO     NSDL Completed Successfully
+2026-07-09 11:44:02,274 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:44:02,275 INFO     Running SEBI
+2026-07-09 11:44:31,626 INFO     SEBI Completed Successfully
+2026-07-09 11:44:31,626 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:44:31,626 INFO     Running IRDAI
+2026-07-09 11:44:35,395 INFO     IRDAI Completed Successfully
+2026-07-09 11:44:35,395 INFO     ────────────────────────────────────────────────────────────
+2026-07-09 11:44:35,396 INFO     Summary
+2026-07-09 11:44:35,396 INFO     
+2026-07-09 11:44:35,396 INFO     Run completed in 206.7 seconds
+2026-07-09 11:44:35,397 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-09 11:44:35,398 INFO     ════════════════════════════════════════════════════════════
+2026-07-09 11:44:35,398 INFO     
+2026-07-10 10:32:15,519 INFO     ════════════════════════════════════════════════════════════
+2026-07-10 10:32:15,521 INFO     Scraping run started at 2026-07-10 10:32:15
+2026-07-10 10:32:15,522 INFO     ════════════════════════════════════════════════════════════
+2026-07-10 10:32:15,522 INFO     ────────────────────────────────────────────────────────────
+2026-07-10 10:32:15,522 INFO     Running NSE
+2026-07-10 10:32:46,551 ERROR    NSE Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=15)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\nse\NSE.py", line 239, in _req
+    r = self._session.get(url, params=params, timeout=self.timeout)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=15)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 73, in download_nse
+    result = nse.circulars(
+        from_date=today,
+        to_date=today,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\nse\NSE.py", line 1102, in circulars
+    return self._req(f"{self.base_url}/circulars", params=params).json()
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\nse\NSE.py", line 241, in _req
+    raise TimeoutError(repr(e))
+TimeoutError: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=15)"))
+2026-07-10 10:32:46,853 INFO     ────────────────────────────────────────────────────────────
+2026-07-10 10:32:46,853 INFO     Running BSE
+2026-07-10 10:32:59,846 INFO     BSE Completed Successfully
+2026-07-10 10:32:59,846 INFO     ────────────────────────────────────────────────────────────
+2026-07-10 10:32:59,846 INFO     Running CDSL
+2026-07-13 10:33:14,350 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:33:14,352 INFO     Scraping run started at 2026-07-13 10:33:14
+2026-07-13 10:33:14,353 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:33:14,353 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:33:14,353 INFO     Running NSE
+2026-07-13 10:33:15,626 INFO     NSE Completed Successfully
+2026-07-13 10:33:15,627 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:33:15,630 INFO     Running BSE
+2026-07-13 10:33:27,585 INFO     BSE Completed Successfully
+2026-07-13 10:33:27,586 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:33:27,586 INFO     Running CDSL
+2026-07-13 10:33:35,118 INFO     CDSL Completed Successfully
+2026-07-13 10:33:35,120 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:33:35,121 INFO     Running AMFI
+2026-07-13 10:33:35,905 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 117, in download_amfi
+    html = fetch_html()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 62, in fetch_html
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/distributor/amfi-circulars
+2026-07-13 10:33:35,939 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:33:35,940 INFO     Running ARCL
+2026-07-13 10:34:12,387 INFO     ARCL Completed Successfully
+2026-07-13 10:34:12,388 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:34:12,388 INFO     Running CKYC
+2026-07-13 10:34:47,517 INFO     CKYC Completed Successfully
+2026-07-13 10:34:47,517 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:34:47,517 INFO     Running MCX
+2026-07-13 10:35:00,483 INFO     MCX Completed Successfully
+2026-07-13 10:35:00,483 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:35:00,483 INFO     Running APMI
+2026-07-13 10:35:13,215 INFO     APMI Completed Successfully
+2026-07-13 10:35:13,215 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:35:13,216 INFO     Running PFRDA
+2026-07-13 10:36:27,752 INFO     PFRDA Completed Successfully
+2026-07-13 10:36:27,752 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:36:27,753 INFO     Running NSDL
+2026-07-13 10:37:44,920 INFO     NSDL Completed Successfully
+2026-07-13 10:37:44,921 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:37:44,921 INFO     Running SEBI
+2026-07-13 10:38:35,612 INFO     SEBI Completed Successfully
+2026-07-13 10:38:35,613 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:38:35,613 INFO     Running IRDAI
+2026-07-13 10:38:38,985 INFO     IRDAI Completed Successfully
+2026-07-13 10:38:38,986 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:38:38,986 INFO     Summary
+2026-07-13 10:38:38,986 INFO     
+2026-07-13 10:38:38,987 INFO     Run completed in 324.6 seconds
+2026-07-13 10:38:38,988 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-13 10:38:38,988 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:38:38,989 INFO     
+2026-07-13 10:39:19,797 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:39:19,798 INFO     Scraping run started at 2026-07-13 10:39:19
+2026-07-13 10:39:19,798 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:39:19,798 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:39:19,798 INFO     Running AMFI
+2026-07-13 10:39:20,641 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 117, in download_amfi
+    html = fetch_html()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 62, in fetch_html
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/distributor/amfi-circulars
+2026-07-13 10:39:20,733 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:39:20,733 INFO     Summary
+2026-07-13 10:39:20,734 INFO     
+2026-07-13 10:39:20,734 INFO     Run completed in 0.9 seconds
+2026-07-13 10:39:20,735 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-13 10:39:20,735 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:39:20,736 INFO     
+2026-07-13 10:43:29,175 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:43:29,176 INFO     Scraping run started at 2026-07-13 10:43:29
+2026-07-13 10:43:29,176 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:43:29,176 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:43:29,177 INFO     Running AMFI
+2026-07-13 10:43:41,110 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 128, in download_amfi
+    html = fetch_html()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 73, in fetch_html
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/distributor/amfi-circulars
+2026-07-13 10:43:41,117 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:43:41,119 INFO     Summary
+2026-07-13 10:43:41,120 INFO     
+2026-07-13 10:43:41,120 INFO     Run completed in 11.9 seconds
+2026-07-13 10:43:41,121 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-13 10:43:41,122 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:43:41,123 INFO     
+2026-07-13 10:45:43,689 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:45:43,690 INFO     Scraping run started at 2026-07-13 10:45:43
+2026-07-13 10:45:43,690 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:45:43,690 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:45:43,691 INFO     Running AMFI
+2026-07-13 10:45:50,844 INFO     AMFI Completed Successfully
+2026-07-13 10:45:50,844 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:45:50,845 INFO     Summary
+2026-07-13 10:45:50,845 INFO     
+2026-07-13 10:45:50,845 INFO     Run completed in 7.2 seconds
+2026-07-13 10:45:50,846 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-13 10:45:50,846 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:45:50,847 INFO     
+2026-07-13 10:51:16,299 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:51:16,300 INFO     Scraping run started at 2026-07-13 10:51:16
+2026-07-13 10:51:16,300 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:51:16,300 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:51:16,301 INFO     Running AMFI
+2026-07-13 10:51:17,056 ERROR    AMFI Failed
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 117, in download_amfi
+    html = fetch_html()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 62, in fetch_html
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/distributor/amfi-circulars
+2026-07-13 10:51:17,061 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:51:17,061 INFO     Summary
+2026-07-13 10:51:17,061 INFO     
+2026-07-13 10:51:17,062 INFO     Run completed in 0.8 seconds
+2026-07-13 10:51:17,063 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-13 10:51:17,063 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:51:17,063 INFO     
+2026-07-13 10:54:34,001 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:54:34,002 INFO     Scraping run started at 2026-07-13 10:54:34
+2026-07-13 10:54:34,002 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:54:34,003 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:54:34,004 INFO     Running AMFI
+2026-07-13 10:55:03,407 INFO     AMFI Completed Successfully
+2026-07-13 10:55:03,408 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:55:03,408 INFO     Summary
+2026-07-13 10:55:03,409 INFO     
+2026-07-13 10:55:03,409 INFO     Run completed in 29.4 seconds
+2026-07-13 10:55:03,410 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-13 10:55:03,411 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:55:03,411 INFO     
+2026-07-13 10:55:21,066 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:55:21,066 INFO     Scraping run started at 2026-07-13 10:55:21
+2026-07-13 10:55:21,067 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:55:21,067 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:55:21,068 INFO     Running AMFI
+2026-07-13 10:55:32,923 INFO     AMFI Completed Successfully
+2026-07-13 10:55:32,924 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:55:32,924 INFO     Summary
+2026-07-13 10:55:32,925 INFO     
+2026-07-13 10:55:32,925 INFO     Run completed in 11.9 seconds
+2026-07-13 10:55:32,926 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-13 10:55:32,927 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:55:32,927 INFO     
+2026-07-13 10:55:44,219 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:55:44,220 INFO     Scraping run started at 2026-07-13 10:55:44
+2026-07-13 10:55:44,220 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:55:44,221 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:55:44,221 INFO     Running AMFI
+2026-07-13 10:56:13,476 INFO     AMFI Completed Successfully
+2026-07-13 10:56:13,477 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:56:13,477 INFO     Summary
+2026-07-13 10:56:13,478 INFO     
+2026-07-13 10:56:13,478 INFO     Run completed in 29.3 seconds
+2026-07-13 10:56:13,479 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-13 10:56:13,479 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 10:56:13,480 INFO     
+2026-07-13 11:02:09,973 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 11:02:09,973 INFO     Scraping run started at 2026-07-13 11:02:09
+2026-07-13 11:02:09,974 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 11:02:09,975 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 11:02:09,975 INFO     Running AMFI
+2026-07-13 11:02:27,502 INFO     AMFI Completed Successfully
+2026-07-13 11:02:27,502 INFO     ────────────────────────────────────────────────────────────
+2026-07-13 11:02:27,503 INFO     Summary
+2026-07-13 11:02:27,503 INFO     
+2026-07-13 11:02:27,503 INFO     Run completed in 17.5 seconds
+2026-07-13 11:02:27,504 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-13 11:02:27,505 INFO     ════════════════════════════════════════════════════════════
+2026-07-13 11:02:27,505 INFO     

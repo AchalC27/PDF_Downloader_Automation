@@ -132,3 +132,23 @@
 2026-07-08 22:55:28,245 INFO     Already Processed     : 419
 2026-07-08 22:55:28,245 INFO     Saved To Database     : 1
 2026-07-08 22:55:28,245 INFO     Failed                : 0
+2026-07-09 11:41:27,633 INFO     
+2026-07-09 11:41:27,634 INFO     ========== ARCL ==========
+2026-07-09 11:41:30,888 INFO     Running ARCL extractor...
+2026-07-09 11:42:15,074 INFO     Total Documents Found : 420
+2026-07-09 11:42:15,074 INFO     Already Processed     : 420
+2026-07-09 11:42:15,075 INFO     No new documents found.
+2026-07-13 10:33:35,940 INFO     
+2026-07-13 10:33:35,941 INFO     ========== ARCL ==========
+2026-07-13 10:33:38,836 INFO     Running ARCL extractor...
+2026-07-13 10:34:12,177 INFO     Total Documents Found : 422
+2026-07-13 10:34:12,177 INFO     Already Processed     : 420
+2026-07-13 10:34:12,177 INFO     Saving metadata : 457_10-Jul-2026-List of additional eligible securities as collateral for Tri-party Repo for July 2026-06_ba879509.pdf
+2026-07-13 10:34:12,278 INFO     Saving metadata : 456_09-Jul-2026-List of additional eligible securities as collateral for Tri-party Repo for July 2026-05_5a0acdd6.pdf
+2026-07-13 10:34:12,385 INFO     
+2026-07-13 10:34:12,386 INFO     ARCL Summary
+2026-07-13 10:34:12,386 INFO     -------------------------
+2026-07-13 10:34:12,386 INFO     Total Documents Found : 422
+2026-07-13 10:34:12,386 INFO     Already Processed     : 420
+2026-07-13 10:34:12,387 INFO     Saved To Database     : 2
+2026-07-13 10:34:12,387 INFO     Failed                : 0

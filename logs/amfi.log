@@ -160,3 +160,118 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.
 2026-07-08 22:54:59,306 INFO     Already Processed     : 55
 2026-07-08 22:54:59,306 INFO     Downloaded            : 0
 2026-07-08 22:54:59,306 INFO     Failed                : 1
+2026-07-09 11:41:18,755 INFO     
+2026-07-09 11:41:18,759 INFO     ========== AMFI ==========
+2026-07-09 11:41:19,730 INFO     Running AMFI extractor...
+2026-07-09 11:41:26,492 INFO     Total Documents Found : 56
+2026-07-09 11:41:26,492 INFO     Already Processed     : 55
+2026-07-09 11:41:26,492 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-09 11:41:27,586 ERROR    Failed : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 90, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-09 11:41:27,629 INFO     
+2026-07-09 11:41:27,630 INFO     AMFI Summary
+2026-07-09 11:41:27,630 INFO     -------------------------
+2026-07-09 11:41:27,630 INFO     Total Documents Found : 56
+2026-07-09 11:41:27,631 INFO     Already Processed     : 55
+2026-07-09 11:41:27,631 INFO     Downloaded            : 0
+2026-07-09 11:41:27,631 INFO     Failed                : 1
+2026-07-13 10:33:35,121 INFO     
+2026-07-13 10:33:35,122 INFO     ========== AMFI ==========
+2026-07-13 10:39:19,799 INFO     
+2026-07-13 10:39:19,799 INFO     ========== AMFI ==========
+2026-07-13 10:43:29,177 INFO     
+2026-07-13 10:43:29,177 INFO     ========== AMFI ==========
+2026-07-13 10:45:43,691 INFO     
+2026-07-13 10:45:43,691 INFO     ========== AMFI ==========
+2026-07-13 10:45:45,357 INFO     Running AMFI extractor...
+2026-07-13 10:45:50,103 INFO     Total Documents Found : 56
+2026-07-13 10:45:50,104 INFO     Already Processed     : 55
+2026-07-13 10:45:50,104 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-13 10:45:50,838 ERROR    Failed : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 102, in download_documents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-13 10:45:50,842 INFO     
+2026-07-13 10:45:50,843 INFO     AMFI Summary
+2026-07-13 10:45:50,843 INFO     -------------------------
+2026-07-13 10:45:50,843 INFO     Total Documents Found : 56
+2026-07-13 10:45:50,844 INFO     Already Processed     : 55
+2026-07-13 10:45:50,844 INFO     Downloaded            : 0
+2026-07-13 10:45:50,844 INFO     Failed                : 1
+2026-07-13 10:51:16,301 INFO     
+2026-07-13 10:51:16,301 INFO     ========== AMFI ==========
+2026-07-13 10:54:34,004 INFO     
+2026-07-13 10:54:34,004 INFO     ========== AMFI ==========
+2026-07-13 10:54:45,921 WARNING  AMFI returned HTTP 404. Proceeding because HTML content is available.
+2026-07-13 10:54:45,924 INFO     Running AMFI extractor...
+2026-07-13 10:54:51,410 INFO     Total Documents Found : 56
+2026-07-13 10:54:51,410 INFO     Already Processed     : 55
+2026-07-13 10:54:51,411 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-13 10:55:03,398 ERROR    Failed : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 105, in download_documents
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-13 10:55:03,405 INFO     
+2026-07-13 10:55:03,405 INFO     AMFI Summary
+2026-07-13 10:55:03,405 INFO     -------------------------
+2026-07-13 10:55:03,406 INFO     Total Documents Found : 56
+2026-07-13 10:55:03,406 INFO     Already Processed     : 55
+2026-07-13 10:55:03,407 INFO     Downloaded            : 0
+2026-07-13 10:55:03,407 INFO     Failed                : 1
+2026-07-13 10:55:21,068 INFO     
+2026-07-13 10:55:21,069 INFO     ========== AMFI ==========
+2026-07-13 10:55:22,031 WARNING  AMFI returned HTTP 404. Proceeding because HTML content is available.
+2026-07-13 10:55:22,034 INFO     Running AMFI extractor...
+2026-07-13 10:55:26,992 INFO     Total Documents Found : 56
+2026-07-13 10:55:26,992 INFO     Already Processed     : 55
+2026-07-13 10:55:26,993 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-13 10:55:32,918 WARNING  Broken document link (404): https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-13 10:55:32,921 INFO     
+2026-07-13 10:55:32,921 INFO     AMFI Summary
+2026-07-13 10:55:32,921 INFO     -------------------------
+2026-07-13 10:55:32,922 INFO     Total Documents Found : 56
+2026-07-13 10:55:32,922 INFO     Already Processed     : 55
+2026-07-13 10:55:32,923 INFO     Downloaded            : 0
+2026-07-13 10:55:32,923 INFO     Failed                : 0
+2026-07-13 10:55:44,222 INFO     
+2026-07-13 10:55:44,222 INFO     ========== AMFI ==========
+2026-07-13 10:55:56,730 WARNING  AMFI returned HTTP 404. Proceeding because HTML content is available.
+2026-07-13 10:55:56,733 INFO     Running AMFI extractor...
+2026-07-13 10:56:01,653 INFO     Total Documents Found : 56
+2026-07-13 10:56:01,653 INFO     Already Processed     : 55
+2026-07-13 10:56:01,653 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-13 10:56:13,468 WARNING  Broken document link (404): https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-13 10:56:13,470 INFO     
+2026-07-13 10:56:13,470 INFO     AMFI Summary
+2026-07-13 10:56:13,474 INFO     -------------------------
+2026-07-13 10:56:13,475 INFO     Total Documents Found : 56
+2026-07-13 10:56:13,475 INFO     Already Processed     : 55
+2026-07-13 10:56:13,475 INFO     Downloaded            : 0
+2026-07-13 10:56:13,476 INFO     Failed                : 0
+2026-07-13 11:02:09,975 INFO     
+2026-07-13 11:02:09,976 INFO     ========== AMFI ==========
+2026-07-13 11:02:10,781 WARNING  AMFI returned HTTP 404. Proceeding because HTML content is available.
+2026-07-13 11:02:10,784 INFO     Running AMFI extractor...
+2026-07-13 11:02:15,693 INFO     Total Documents Found : 56
+2026-07-13 11:02:15,693 INFO     Already Processed     : 55
+2026-07-13 11:02:15,694 INFO     Downloading : RevisedCodeofConductforMutualFundDistributors-April2022_2bfd2840.pdf
+2026-07-13 11:02:27,497 WARNING  Broken document link (404): https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf
+2026-07-13 11:02:27,500 INFO     
+2026-07-13 11:02:27,500 INFO     AMFI Summary
+2026-07-13 11:02:27,500 INFO     -------------------------
+2026-07-13 11:02:27,501 INFO     Total Documents Found : 56
+2026-07-13 11:02:27,501 INFO     Already Processed     : 55
+2026-07-13 11:02:27,501 INFO     Downloaded            : 0
+2026-07-13 11:02:27,501 INFO     Failed                : 0

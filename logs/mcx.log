@@ -140,3 +140,17 @@ FileNotFoundError: [Errno 2] No such file or directory: 'downloads\\mcx\\07-07-2
 2026-07-08 22:57:41,752 INFO     Already Processed     : 0
 2026-07-08 22:57:41,752 INFO     Downloaded            : 5
 2026-07-08 22:57:41,752 INFO     Failed                : 0
+2026-07-09 11:42:21,963 INFO     
+2026-07-09 11:42:21,965 INFO     ========== MCX ==========
+2026-07-09 11:42:21,965 INFO     Fetching page 1
+2026-07-09 11:42:24,922 INFO     Page 1/0
+2026-07-09 11:42:24,924 INFO     Total Circulars Found : 0
+2026-07-09 11:42:24,924 INFO     Already Processed     : 0
+2026-07-09 11:42:24,924 INFO     No new circulars found.
+2026-07-13 10:34:47,517 INFO     
+2026-07-13 10:34:47,522 INFO     ========== MCX ==========
+2026-07-13 10:34:47,522 INFO     Fetching page 1
+2026-07-13 10:35:00,480 INFO     Page 1/0
+2026-07-13 10:35:00,482 INFO     Total Circulars Found : 0
+2026-07-13 10:35:00,482 INFO     Already Processed     : 0
+2026-07-13 10:35:00,482 INFO     No new circulars found.

@@ -199,3 +199,27 @@ mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_CM
 2026-07-08 23:23:11,849 INFO     Total Circulars Found : 30
 2026-07-08 23:23:13,034 INFO     Already Processed     : 30
 2026-07-08 23:23:13,034 INFO     No new circulars found.
+2026-07-09 11:40:32,062 INFO     
+2026-07-09 11:40:32,062 INFO     ========== NSE ==========
+2026-07-09 11:40:33,427 INFO     Total Circulars Found : 1
+2026-07-09 11:40:33,933 INFO     Already Processed     : 0
+2026-07-09 11:40:33,933 INFO     Saving : NSE_NMF_75119_Temporary Suspension of Fresh Systematic Registration through (SIP_STP) in certain schemes of Frankl.zip
+2026-07-09 11:40:34,080 INFO     
+2026-07-09 11:40:34,080 INFO     NSE Summary
+2026-07-09 11:40:34,080 INFO     -------------------------
+2026-07-09 11:40:34,081 INFO     Total Circulars Found : 1
+2026-07-09 11:40:34,081 INFO     Already Processed     : 0
+2026-07-09 11:40:34,081 INFO     Downloaded            : 1
+2026-07-09 11:40:34,082 INFO     Failed                : 0
+2026-07-09 11:41:08,704 INFO     
+2026-07-09 11:41:08,704 INFO     ========== NSE ==========
+2026-07-09 11:41:09,905 INFO     Total Circulars Found : 1
+2026-07-09 11:41:10,094 INFO     Already Processed     : 1
+2026-07-09 11:41:10,094 INFO     No new circulars found.
+2026-07-10 10:32:15,522 INFO     
+2026-07-10 10:32:15,523 INFO     ========== NSE ==========
+2026-07-13 10:33:14,354 INFO     
+2026-07-13 10:33:14,354 INFO     ========== NSE ==========
+2026-07-13 10:33:15,617 INFO     Total Circulars Found : 0
+2026-07-13 10:33:15,617 INFO     Already Processed     : 0
+2026-07-13 10:33:15,617 INFO     No new circulars found.

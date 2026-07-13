@@ -78,3 +78,18 @@
 2026-07-08 22:58:02,390 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
 2026-07-08 22:58:03,087 INFO     Page 3 : 10 cards
 2026-07-08 22:58:10,216 INFO     PFRDA → Found 30 PDFs, Saved 0
+2026-07-09 11:42:37,591 INFO     ─── Scraping PFRDA ───
+2026-07-09 11:42:39,251 INFO     Page 1 : 10 cards
+2026-07-09 11:42:53,833 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-09 11:42:55,160 INFO     Page 2 : 10 cards
+2026-07-09 11:43:09,806 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-09 11:43:11,305 INFO     Page 3 : 10 cards
+2026-07-09 11:43:24,646 INFO     PFRDA → Found 30 PDFs, Saved 0
+2026-07-13 10:35:13,217 INFO     ─── Scraping PFRDA ───
+2026-07-13 10:35:14,567 INFO     Page 1 : 10 cards
+2026-07-13 10:35:26,981 INFO     Saved : Enhancement of Investment Choice Options under NPS for subscribers of Central Autonomous Bodies (CABs) CG - SG Ref_ PFRDA_2026_39_SUP-CGSG_01 Issue Date_ 09-07-2026.pdf
+2026-07-13 10:35:39,040 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-13 10:35:40,151 INFO     Page 2 : 10 cards
+2026-07-13 10:35:57,144 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-13 10:35:58,158 INFO     Page 3 : 10 cards
+2026-07-13 10:36:27,752 INFO     PFRDA → Found 30 PDFs, Saved 1

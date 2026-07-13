@@ -58,8 +58,23 @@ def extract_amfi(html, base_url):
 
 
 def fetch_html():
-    response = requests.get(URL, headers=HEADERS, timeout=30)
-    response.raise_for_status()
+    response = requests.get(
+        URL,
+        headers=HEADERS,
+        timeout=30
+    )
+
+    # AMFI currently returns a 404 status even though the HTML page
+    # contains the circular links. Only stop if there is no HTML.
+    if not response.text.strip():
+        response.raise_for_status()
+
+    if response.status_code != 200:
+        logger.warning(
+            f"AMFI returned HTTP {response.status_code}. "
+            "Proceeding because HTML content is available."
+        )
+
     return response.text
 
 
@@ -87,6 +102,11 @@ def download_documents(document_links, download_folder):
                 headers=HEADERS,
                 timeout=60
             )
+
+            if response.status_code == 404:
+                logger.warning(f"Broken document link (404): {document_url}")
+                continue
+
             response.raise_for_status()
 
             with open(filepath, "wb") as file:
@@ -104,7 +124,6 @@ def download_documents(document_links, download_folder):
         except Exception:
             logger.exception(f"Failed : {filename}")
             failed += 1
-
     return downloaded, failed
 
 

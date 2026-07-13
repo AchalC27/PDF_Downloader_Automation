@@ -94,3 +94,19 @@
 2026-07-08 22:57:42,563 INFO     Processing: APMI Circulars and Guidelines
 2026-07-08 22:57:42,563 INFO     Processing: Communication from APMI
 2026-07-08 22:57:46,548 INFO     APMI -> Found 117 PDFs, Saved 0
+2026-07-09 11:42:24,927 INFO     ─── Scraping APMI ───
+2026-07-09 11:42:26,337 INFO     Processing: SEBI Circulars
+2026-07-09 11:42:26,340 INFO     Processing: Communication from SEBI
+2026-07-09 11:42:26,341 INFO     Processing: SEBI Consultation Papers
+2026-07-09 11:42:26,342 INFO     Processing: SEBI Board Meetings
+2026-07-09 11:42:26,343 INFO     Processing: APMI Circulars and Guidelines
+2026-07-09 11:42:26,344 INFO     Processing: Communication from APMI
+2026-07-09 11:42:37,587 INFO     APMI -> Found 117 PDFs, Saved 0
+2026-07-13 10:35:00,489 INFO     ─── Scraping APMI ───
+2026-07-13 10:35:02,131 INFO     Processing: SEBI Circulars
+2026-07-13 10:35:02,133 INFO     Processing: Communication from SEBI
+2026-07-13 10:35:02,134 INFO     Processing: SEBI Consultation Papers
+2026-07-13 10:35:02,135 INFO     Processing: SEBI Board Meetings
+2026-07-13 10:35:02,136 INFO     Processing: APMI Circulars and Guidelines
+2026-07-13 10:35:02,138 INFO     Processing: Communication from APMI
+2026-07-13 10:35:13,215 INFO     APMI -> Found 117 PDFs, Saved 0
