@@ -1,17 +1,18 @@
 import hashlib
 import os
-from urllib.parse import urljoin
+from datetime import datetime, timezone
 
 import requests
-from bs4 import BeautifulSoup
+import urllib3
 
 from .db import pdf_exists, save_pdf
 from .logger import get_logger
-from .get_download import get_download
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 logger = get_logger("arcl")
 
-URL = "https://www.arclindia.com/circulars"
+API_URL = "https://www.arclindia.com/api/circulars/public"
 BASE_URL = "https://www.arclindia.com"
 
 HEADERS = {
@@ -20,112 +21,117 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/137.0.0.0 Safari/537.36"
     ),
-    "Accept": (
-        "text/html,application/xhtml+xml,"
-        "application/xml;q=0.9,image/webp,*/*;q=0.8"
-    ),
-    "Accept-Language": "en-US,en;q=0.9"
+    "Accept": "application/json",
 }
-
-ALLOWED_EXTENSIONS = (
-    ".pdf",
-    ".doc",
-    ".docx",
-    ".xls",
-    ".xlsx",
-    ".zip",
-    ".csv"
-)
-
-
-def normalize_url(href, base_url):
-    href = href.strip()
-    if href.startswith("/"):
-        href = base_url.rstrip("/") + href
-    return urljoin(base_url, href)
-
-
-def generic_document_extractor(html, base_url):
-    soup = BeautifulSoup(html, "html.parser")
-
-    links = []
-
-    for tag in soup.find_all("a", href=True):
-        href = normalize_url(tag["href"], base_url)
-
-        if href.lower().endswith(ALLOWED_EXTENSIONS):
-            links.append(href)
-
-    return list(dict.fromkeys(links))
-
-
-def extract_arcl(html, base_url):
-    logger.info("Running ARCL extractor...")
-    return generic_document_extractor(html, base_url)
-
-
-def fetch_html():
-    response = requests.get(
-        URL,
-        headers=HEADERS,
-        timeout=30
-    )
-    response.raise_for_status()
-    return response.text
 
 
 def generate_filename(document_url):
-    original_filename = document_url.split("/")[-1]
+    original = document_url.split("/")[-1]
+
+    base, ext = os.path.splitext(original)
 
     url_hash = hashlib.md5(
         document_url.encode("utf-8")
     ).hexdigest()[:8]
 
-    base, ext = os.path.splitext(original_filename)
-
     return f"{base}_{url_hash}{ext}"
 
 
-def save_documents(document_links):
+def fetch_today_records():
+
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    page = 1
+    limit = 20
+
+    today_records = []
+
+    while True:
+
+        response = requests.get(
+            API_URL,
+            headers=HEADERS,
+            params={
+                "page": page,
+                "limit": limit
+            },
+            timeout=30,
+            verify=False
+        )
+
+        response.raise_for_status()
+
+        payload = response.json()
+
+        records = payload.get("data", [])
+
+        if not records:
+            break
+
+        stop_fetching = False
+
+        for record in records:
+
+            created_date = record["created_at"][:10]
+
+            if created_date != today:
+                stop_fetching = True
+                break
+
+            today_records.append(record)
+
+        if stop_fetching:
+            break
+
+        if len(records) < limit:
+            break
+
+        page += 1
+
+    return today_records
+
+
+def save_documents(records):
+
     saved = 0
+    skipped = 0
     failed = 0
 
-    for document_url in document_links:
-
-        filename = generate_filename(document_url)
+    for record in records:
 
         try:
-            logger.info(f"Saving metadata : {filename}")
 
-            # ----------------------------------------------------
-            # Download removed.
-            #
-            # response = requests.get(
-            #     document_url,
-            #     headers=HEADERS,
-            #     timeout=60
-            # )
-            #
-            # response.raise_for_status()
-            #
-            # with open(filepath, "wb") as file:
-            #     file.write(response.content)
-            # ----------------------------------------------------
+            pdf_url = record.get("pdf_url")
+
+            if not pdf_url:
+                continue
+
+            if pdf_url.startswith("/"):
+                pdf_url = BASE_URL + pdf_url
+
+            filename = generate_filename(pdf_url)
+
+            if pdf_exists("ARCL", filename):
+                logger.info(f"Already Processed : {filename}")
+                skipped += 1
+                continue
+
+            logger.info(f"Saving : {filename}")
 
             save_pdf(
                 source="ARCL",
                 pdf_name=filename,
-                pdf_link=document_url,
+                pdf_link=pdf_url,
                 category="Circulars"
             )
 
             saved += 1
 
         except Exception:
-            logger.exception(f"Failed : {filename}")
+            logger.exception("Failed Saving Document")
             failed += 1
 
-    return saved, failed
+    return saved, skipped, failed
 
 
 def download_arcl():
@@ -133,43 +139,20 @@ def download_arcl():
     logger.info("")
     logger.info("========== ARCL ==========")
 
-    # download_folder = get_download("arcl")   # Not required anymore
+    today_records = fetch_today_records()
 
-    html = fetch_html()
+    logger.info(f"Today's Circulars Found : {len(today_records)}")
 
-    document_links = extract_arcl(
-        html,
-        BASE_URL
-    )
-
-    total = len(document_links)
-
-    new_documents = []
-
-    for url in document_links:
-
-        filename = generate_filename(url)
-
-        if pdf_exists("ARCL", filename):
-            continue
-
-        new_documents.append(url)
-
-    already_processed = total - len(new_documents)
-
-    logger.info(f"Total Documents Found : {total}")
-    logger.info(f"Already Processed     : {already_processed}")
-
-    if not new_documents:
-        logger.info("No new documents found.")
+    if not today_records:
+        logger.info("No circulars published today.")
         return
 
-    saved, failed = save_documents(new_documents)
+    saved, skipped, failed = save_documents(today_records)
 
     logger.info("")
     logger.info("ARCL Summary")
-    logger.info("-------------------------")
-    logger.info(f"Total Documents Found : {total}")
-    logger.info(f"Already Processed     : {already_processed}")
-    logger.info(f"Saved To Database     : {saved}")
-    logger.info(f"Failed                : {failed}")
+    logger.info("------------------------------------")
+    logger.info(f"Today's Circulars : {len(today_records)}")
+    logger.info(f"Saved             : {saved}")
+    logger.info(f"Already Processed : {skipped}")
+    logger.info(f"Failed            : {failed}")

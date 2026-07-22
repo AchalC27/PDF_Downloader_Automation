@@ -1,95 +1,43 @@
-2026-07-07 15:16:17,044 INFO     ─── Scraping PFRDA ───
-2026-07-07 15:16:18,126 INFO     Page 1 : 10 cards
-2026-07-07 15:16:20,129 INFO       ✔  Saved  C:\ISEC\PDF_Downloader_Automation\downloads\PFRDA\2026-07-07\Audit of Points of Presence performing activities of Atal Pension Yojana (PoPs-APY) Point of Presence Ref_ PFRDA_2026_37_SUP-POP_06 Issue Date_ 17-06-2026.pdf
-2026-07-07 15:19:18,469 INFO     ─── Scraping PFRDA ───
-2026-07-07 15:19:19,645 INFO     Page 1 : 10 cards
-2026-07-07 15:19:27,445 INFO       ✔  Saved  C:\ISEC\PDF_Downloader_Automation\downloads\PFRDA\2026-07-07\Audit of Points of Presence performing activities of Atal Pension Yojana (PoPs-APY) Point of Presence Ref_ PFRDA_2026_37_SUP-POP_06 Issue Date_ 17-06-2026.pdf
-2026-07-07 15:23:04,233 INFO     ─── Scraping PFRDA ───
-2026-07-07 15:23:05,385 INFO     Page 1 : 10 cards
-2026-07-07 15:23:07,190 INFO       ✔  Saved  C:\ISEC\PDF_Downloader_Automation\downloads\PFRDA\2026-07-07\Audit of Points of Presence performing activities of Atal Pension Yojana (PoPs-APY) Point of Presence Ref_ PFRDA_2026_37_SUP-POP_06 Issue Date_ 17-06-2026.pdf
-2026-07-07 15:29:38,186 INFO     ─── Scraping PFRDA ───
-2026-07-07 15:29:39,262 INFO     Page 1 : 10 cards
-2026-07-07 15:29:41,319 INFO       ✔  Saved  C:\ISEC\PDF_Downloader_Automation\downloads\PFRDA\2026-07-07\Audit of Points of Presence performing activities of Atal Pension Yojana (PoPs-APY) Point of Presence Ref_ PFRDA_2026_37_SUP-POP_06 Issue Date_ 17-06-2026.pdf
-2026-07-07 15:32:02,926 INFO     ─── Scraping PFRDA ───
-2026-07-07 15:32:03,947 INFO     Page 1 : 10 cards
-2026-07-07 15:32:06,051 INFO       ✔  Saved  C:\ISEC\PDF_Downloader_Automation\downloads\PFRDA\2026-07-07\Audit of Points of Presence performing activities of Atal Pension Yojana (PoPs-APY) Point of Presence Ref_ PFRDA_2026_37_SUP-POP_06 Issue Date_ 17-06-2026.pdf
-2026-07-07 15:45:28,892 INFO     ─── Scraping PFRDA ───
-2026-07-07 15:45:29,945 INFO     Page 1 : 10 cards
-2026-07-07 15:45:41,156 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-07 15:45:42,233 INFO     Page 2 : 10 cards
-2026-07-07 15:45:52,856 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-07 15:45:53,856 INFO     Page 3 : 10 cards
-2026-07-07 15:46:05,055 INFO     PFRDA → found 30 PDFs, downloaded 0 new
-2026-07-07 15:56:19,874 INFO     ─── Scraping PFRDA ───
-2026-07-07 15:56:20,838 INFO     Page 1 : 10 cards
-2026-07-07 15:56:31,752 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-07 15:56:32,767 INFO     Page 2 : 10 cards
-2026-07-07 15:56:43,032 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-07 15:56:44,075 INFO     Page 3 : 10 cards
-2026-07-07 15:56:56,226 INFO     PFRDA → found 30 PDFs, downloaded 0 new
-2026-07-07 16:00:12,913 INFO     ─── Scraping PFRDA ───
-2026-07-07 16:00:13,959 INFO     Page 1 : 10 cards
-2026-07-07 16:00:24,861 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-07 16:00:25,886 INFO     Page 2 : 10 cards
-2026-07-07 16:00:35,868 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-07 16:00:36,852 INFO     Page 3 : 10 cards
-2026-07-07 16:00:47,083 INFO     PFRDA → found 30 PDFs, downloaded 0 new
-2026-07-07 16:11:09,638 INFO     ─── Scraping PFRDA ───
-2026-07-07 16:11:11,429 INFO     Page 1 : 10 cards
-2026-07-07 16:11:23,263 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-07 16:11:24,473 INFO     Page 2 : 10 cards
-2026-07-07 16:11:36,287 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-07 16:11:37,364 INFO     Page 3 : 10 cards
-2026-07-07 16:11:49,120 INFO     PFRDA → found 30 PDFs, downloaded 0 new
-2026-07-07 17:17:27,961 INFO     ─── Scraping PFRDA ───
-2026-07-07 17:17:30,074 INFO     Page 1 : 10 cards
-2026-07-07 17:17:47,911 INFO     ─── Scraping PFRDA ───
-2026-07-07 17:17:49,528 INFO     Page 1 : 10 cards
-2026-07-07 17:18:05,748 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-07 17:18:07,535 INFO     Page 2 : 10 cards
-2026-07-07 17:18:22,805 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-07 17:18:24,028 INFO     Page 3 : 10 cards
-2026-07-07 17:18:37,687 INFO     PFRDA → Found 30 PDFs, Saved 0
-2026-07-07 17:35:11,890 INFO     ─── Scraping PFRDA ───
-2026-07-07 17:35:12,713 INFO     Page 1 : 10 cards
-2026-07-07 17:35:21,063 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-07 17:35:21,802 INFO     Page 2 : 10 cards
-2026-07-07 17:35:29,973 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-07 17:35:30,774 INFO     Page 3 : 10 cards
-2026-07-07 17:35:38,612 INFO     PFRDA → Found 30 PDFs, Saved 0
-2026-07-07 17:36:20,316 INFO     ─── Scraping PFRDA ───
-2026-07-07 17:36:21,275 INFO     Page 1 : 10 cards
-2026-07-07 17:36:32,024 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-07 17:36:32,902 INFO     Page 2 : 10 cards
-2026-07-07 17:36:42,475 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-07 17:36:44,066 INFO     Page 3 : 10 cards
-2026-07-07 17:36:52,406 INFO     PFRDA → Found 30 PDFs, Saved 0
-2026-07-08 09:44:18,060 INFO     ─── Scraping PFRDA ───
-2026-07-08 09:44:19,440 INFO     Page 1 : 10 cards
-2026-07-08 09:44:32,892 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-08 09:44:34,296 INFO     Page 2 : 10 cards
-2026-07-08 09:44:47,873 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-08 09:44:49,212 INFO     Page 3 : 10 cards
-2026-07-08 09:45:02,297 INFO     PFRDA → Found 30 PDFs, Saved 0
-2026-07-08 22:57:46,549 INFO     ─── Scraping PFRDA ───
-2026-07-08 22:57:47,460 INFO     Page 1 : 10 cards
-2026-07-08 22:57:54,841 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-08 22:57:55,459 INFO     Page 2 : 10 cards
-2026-07-08 22:58:02,390 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-08 22:58:03,087 INFO     Page 3 : 10 cards
-2026-07-08 22:58:10,216 INFO     PFRDA → Found 30 PDFs, Saved 0
-2026-07-09 11:42:37,591 INFO     ─── Scraping PFRDA ───
-2026-07-09 11:42:39,251 INFO     Page 1 : 10 cards
-2026-07-09 11:42:53,833 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-09 11:42:55,160 INFO     Page 2 : 10 cards
-2026-07-09 11:43:09,806 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-09 11:43:11,305 INFO     Page 3 : 10 cards
-2026-07-09 11:43:24,646 INFO     PFRDA → Found 30 PDFs, Saved 0
-2026-07-13 10:35:13,217 INFO     ─── Scraping PFRDA ───
-2026-07-13 10:35:14,567 INFO     Page 1 : 10 cards
-2026-07-13 10:35:26,981 INFO     Saved : Enhancement of Investment Choice Options under NPS for subscribers of Central Autonomous Bodies (CABs) CG - SG Ref_ PFRDA_2026_39_SUP-CGSG_01 Issue Date_ 09-07-2026.pdf
-2026-07-13 10:35:39,040 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
-2026-07-13 10:35:40,151 INFO     Page 2 : 10 cards
-2026-07-13 10:35:57,144 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
-2026-07-13 10:35:58,158 INFO     Page 3 : 10 cards
-2026-07-13 10:36:27,752 INFO     PFRDA → Found 30 PDFs, Saved 1
+2026-07-15 10:39:39,448 INFO     ─── Scraping PFRDA ───
+2026-07-15 10:39:40,562 INFO     Page 1 : 10 cards
+2026-07-15 10:39:41,710 INFO     Saved : Circular - Introduction of NPS PRIDE- DISHA (Pension Fund Returns for Informed Decision & Empowerment) _ A Subscriber Awareness and Decision Support Digital Tool Kit Annuity Service Provider Central R.pdf
+2026-07-15 10:39:52,199 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-15 10:39:53,176 INFO     Page 2 : 10 cards
+2026-07-15 10:40:04,171 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-15 10:40:05,313 INFO     Page 3 : 10 cards
+2026-07-15 10:40:15,710 INFO     PFRDA → Found 30 PDFs, Saved 1
+2026-07-20 16:11:48,103 INFO     ─── Scraping PFRDA ───
+2026-07-20 16:11:49,353 INFO     Page 1 : 10 cards
+2026-07-20 16:12:01,092 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-20 16:12:02,188 INFO     Page 2 : 10 cards
+2026-07-20 16:12:14,659 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-20 16:12:15,249 INFO     Page 3 : 10 cards
+2026-07-20 16:12:22,151 INFO     PFRDA → Found 30 PDFs, Saved 0
+2026-07-20 16:51:17,743 INFO     ─── Scraping PFRDA ───
+2026-07-20 16:51:18,344 INFO     Page 1 : 10 cards
+2026-07-20 16:51:33,495 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-20 16:51:35,038 INFO     Page 2 : 10 cards
+2026-07-20 16:51:42,380 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-20 16:51:43,773 INFO     Page 3 : 10 cards
+2026-07-20 16:51:57,271 INFO     PFRDA → Found 30 PDFs, Saved 0
+2026-07-21 11:09:29,817 INFO     ─── Scraping PFRDA ───
+2026-07-21 11:09:31,397 INFO     Page 1 : 10 cards
+2026-07-21 11:09:42,196 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-21 11:09:44,262 INFO     Page 2 : 10 cards
+2026-07-21 11:09:56,003 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-21 11:09:57,574 INFO     Page 3 : 10 cards
+2026-07-21 11:10:08,488 INFO     PFRDA → Found 30 PDFs, Saved 0
+2026-07-21 14:43:37,627 INFO     ─── Scraping PFRDA ───
+2026-07-21 14:43:38,210 INFO     Page 1 : 10 cards
+2026-07-21 14:43:44,536 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-21 14:43:45,740 INFO     Page 2 : 10 cards
+2026-07-21 14:43:51,742 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-21 14:43:52,317 INFO     Page 3 : 10 cards
+2026-07-21 14:43:59,775 INFO     PFRDA → Found 30 PDFs, Saved 0
+2026-07-22 11:03:42,976 INFO     ─── Scraping PFRDA ───
+2026-07-22 11:03:43,470 INFO     Page 1 : 10 cards
+2026-07-22 11:03:51,124 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=2
+2026-07-22 11:03:51,650 INFO     Page 2 : 10 cards
+2026-07-22 11:03:58,906 INFO     Opening https://pfrda.org.in/regulatory-framework/circulars/active-circulars?delta=10&start=3
+2026-07-22 11:03:59,854 INFO     Page 3 : 10 cards
+2026-07-22 11:04:05,299 INFO     PFRDA → Found 30 PDFs, Saved 0

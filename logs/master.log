@@ -1,938 +1,121 @@
-2026-07-07 15:15:01,922 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:15:01,924 INFO     Scraping run started at 2026-07-07 15:15:01
-2026-07-07 15:15:01,925 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:15:01,925 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:15:01,926 INFO     Running NSE
-2026-07-07 15:15:03,495 INFO     NSE Completed Successfully
-2026-07-07 15:15:03,496 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:15:03,496 INFO     Running BSE
-2026-07-07 15:15:06,179 INFO     BSE Completed Successfully
-2026-07-07 15:15:06,179 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:15:06,179 INFO     Running CDSL
-2026-07-07 15:15:13,693 INFO     CDSL Completed Successfully
-2026-07-07 15:15:13,693 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:15:13,694 INFO     Running AMFI
-2026-07-07 15:15:19,262 INFO     AMFI Completed Successfully
-2026-07-07 15:15:19,262 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:15:19,263 INFO     Running ARCL
-2026-07-07 15:15:58,893 INFO     ARCL Completed Successfully
-2026-07-07 15:15:58,893 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:15:58,893 INFO     Running CKYC
-2026-07-07 15:16:03,895 INFO     CKYC Completed Successfully
-2026-07-07 15:16:03,896 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:16:03,896 INFO     Running MCX
-2026-07-07 15:16:05,643 INFO     MCX Completed Successfully
-2026-07-07 15:16:05,643 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:16:05,644 INFO     Running APMI
-2026-07-07 15:16:17,041 INFO     APMI Completed Successfully
-2026-07-07 15:16:17,042 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:16:17,042 INFO     Running PFRDA
-2026-07-07 15:16:20,233 ERROR    PFRDA Failed
+2026-07-15 10:38:27,220 INFO     ════════════════════════════════════════════════════════════
+2026-07-15 10:38:27,222 INFO     Scraping run started at 2026-07-15 10:38:27
+2026-07-15 10:38:27,222 INFO     ════════════════════════════════════════════════════════════
+2026-07-15 10:38:27,222 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:38:27,223 INFO     Running NSE
+2026-07-15 10:38:29,681 INFO     NSE Completed Successfully
+2026-07-15 10:38:29,681 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:38:29,682 INFO     Running BSE
+2026-07-15 10:38:30,615 INFO     BSE Completed Successfully
+2026-07-15 10:38:30,616 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:38:30,616 INFO     Running CDSL
+2026-07-15 10:38:38,164 INFO     CDSL Completed Successfully
+2026-07-15 10:38:38,164 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:38:38,164 INFO     Running AMFI
+2026-07-15 10:38:44,014 INFO     AMFI Completed Successfully
+2026-07-15 10:38:44,014 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:38:44,015 INFO     Running ARCL
+2026-07-15 10:39:22,294 INFO     ARCL Completed Successfully
+2026-07-15 10:39:22,294 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:39:22,294 INFO     Running CKYC
+2026-07-15 10:39:26,937 INFO     CKYC Completed Successfully
+2026-07-15 10:39:26,937 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:39:26,938 INFO     Running MCX
+2026-07-15 10:39:28,654 INFO     MCX Completed Successfully
+2026-07-15 10:39:28,654 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:39:28,655 INFO     Running APMI
+2026-07-15 10:39:39,447 INFO     APMI Completed Successfully
+2026-07-15 10:39:39,447 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:39:39,447 INFO     Running PFRDA
+2026-07-15 10:40:15,711 INFO     PFRDA Completed Successfully
+2026-07-15 10:40:15,712 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:40:15,712 INFO     Running NSDL
+2026-07-15 10:40:23,888 INFO     NSDL Completed Successfully
+2026-07-15 10:40:23,888 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:40:23,889 INFO     Running SEBI
+2026-07-15 10:40:48,137 INFO     SEBI Completed Successfully
+2026-07-15 10:40:48,137 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:40:48,137 INFO     Running IRDAI
+2026-07-15 10:40:51,066 INFO     IRDAI Completed Successfully
+2026-07-15 10:40:51,068 INFO     ────────────────────────────────────────────────────────────
+2026-07-15 10:40:51,068 INFO     Summary
+2026-07-15 10:40:51,068 INFO     
+2026-07-15 10:40:51,068 INFO     Run completed in 143.8 seconds
+2026-07-15 10:40:51,069 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-15 10:40:51,069 INFO     ════════════════════════════════════════════════════════════
+2026-07-15 10:40:51,070 INFO     
+2026-07-20 16:11:16,188 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:11:16,190 INFO     Scraping run started at 2026-07-20 16:11:16
+2026-07-20 16:11:16,190 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:11:16,191 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:11:16,191 INFO     Running NSE
+2026-07-20 16:11:17,908 INFO     NSE Completed Successfully
+2026-07-20 16:11:17,909 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:11:17,909 INFO     Running BSE
+2026-07-20 16:11:19,954 INFO     BSE Completed Successfully
+2026-07-20 16:11:19,954 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:11:19,954 INFO     Running CDSL
+2026-07-20 16:11:24,100 INFO     CDSL Completed Successfully
+2026-07-20 16:11:24,100 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:11:24,101 INFO     Running AMFI
+2026-07-20 16:11:27,174 INFO     AMFI Completed Successfully
+2026-07-20 16:11:27,174 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:11:27,175 INFO     Running ARCL
+2026-07-20 16:11:27,480 ERROR    ARCL Failed
 Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
-    function()
-    ~~~~~~~~^^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\pfrda.py", line 125, in scrape_pfrda
-    save_pdf(
-    ~~~~~~~~^
-    source="PFRDA",
-    ^^^^^^^^^^^^^^^
-    ...<2 lines>...
-    category="Circular"
-    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
     )
     ^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
-    cursor.execute("""
-    ~~~~~~~~~~~~~~^^^^
-        INSERT INTO store_pdf
-        ^^^^^^^^^^^^^^^^^^^^^
-    ...<7 lines>...
-        category
-        ^^^^^^^^
-    ))
-    ^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
-    return method(cnx, *args, **kwargs)
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
-    raise get_exception(packet)
-mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'PFRDA-Audit of Points of Presence performing activities of Atal ' for key 'store_pdf.unique_source_pdf'
-2026-07-07 15:16:20,344 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:16:20,344 INFO     Running NSDL
-2026-07-07 15:16:46,806 INFO     NSDL Completed Successfully
-2026-07-07 15:16:46,806 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:16:46,806 INFO     Running SEBI
-2026-07-07 15:17:39,830 INFO     SEBI Completed Successfully
-2026-07-07 15:17:39,830 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:17:39,831 INFO     Running IRDAI
-2026-07-07 15:17:43,069 INFO     IRDAI Completed Successfully
-2026-07-07 15:17:43,069 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:17:43,070 INFO     Summary
-2026-07-07 15:17:43,070 INFO     
-2026-07-07 15:17:43,070 INFO     Run completed in 161.1 seconds
-2026-07-07 15:17:43,071 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 15:17:43,071 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:17:43,072 INFO     
-2026-07-07 15:18:02,580 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:18:02,581 INFO     Scraping run started at 2026-07-07 15:18:02
-2026-07-07 15:18:02,582 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:18:02,582 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:18:02,583 INFO     Running NSE
-2026-07-07 15:18:04,627 INFO     NSE Completed Successfully
-2026-07-07 15:18:04,627 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:18:04,628 INFO     Running BSE
-2026-07-07 15:18:06,979 INFO     BSE Completed Successfully
-2026-07-07 15:18:06,979 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:18:06,979 INFO     Running CDSL
-2026-07-07 15:18:14,622 INFO     CDSL Completed Successfully
-2026-07-07 15:18:14,622 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:18:14,622 INFO     Running AMFI
-2026-07-07 15:18:20,676 INFO     AMFI Completed Successfully
-2026-07-07 15:18:20,677 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:18:20,677 INFO     Running ARCL
-2026-07-07 15:19:01,001 INFO     ARCL Completed Successfully
-2026-07-07 15:19:01,001 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:19:01,002 INFO     Running CKYC
-2026-07-07 15:19:05,748 INFO     CKYC Completed Successfully
-2026-07-07 15:19:05,749 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:19:05,749 INFO     Running MCX
-2026-07-07 15:19:07,402 INFO     MCX Completed Successfully
-2026-07-07 15:19:07,402 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:19:07,403 INFO     Running APMI
-2026-07-07 15:19:18,467 INFO     APMI Completed Successfully
-2026-07-07 15:19:18,467 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:19:18,468 INFO     Running PFRDA
-2026-07-07 15:19:27,557 ERROR    PFRDA Failed
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
-    function()
-    ~~~~~~~~^^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\pfrda.py", line 125, in scrape_pfrda
-    save_pdf(
-    ~~~~~~~~^
-    source="PFRDA",
-    ^^^^^^^^^^^^^^^
-    ...<2 lines>...
-    category="Circular"
-    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
     )
-    ^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
-    cursor.execute("""
-    ~~~~~~~~~~~~~~^^^^
-        INSERT INTO store_pdf
-        ^^^^^^^^^^^^^^^^^^^^^
-    ...<7 lines>...
-        category
-        ^^^^^^^^
-    ))
-    ^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
-    return method(cnx, *args, **kwargs)
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
-    raise get_exception(packet)
-mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'PFRDA-Audit of Points of Presence performing activities of Atal ' for key 'store_pdf.unique_source_pdf'
-2026-07-07 15:19:27,569 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:19:27,569 INFO     Running NSDL
-2026-07-07 15:19:56,342 INFO     NSDL Completed Successfully
-2026-07-07 15:19:56,342 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:19:56,343 INFO     Running SEBI
-2026-07-07 15:20:28,604 INFO     SEBI Completed Successfully
-2026-07-07 15:20:28,604 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:20:28,605 INFO     Running IRDAI
-2026-07-07 15:20:31,683 INFO     IRDAI Completed Successfully
-2026-07-07 15:20:31,684 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:20:31,684 INFO     Summary
-2026-07-07 15:20:31,684 INFO     
-2026-07-07 15:20:31,684 INFO     Run completed in 149.1 seconds
-2026-07-07 15:20:31,685 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 15:20:31,686 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:20:31,686 INFO     
-2026-07-07 15:21:51,368 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:21:51,369 INFO     Scraping run started at 2026-07-07 15:21:51
-2026-07-07 15:21:51,370 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:21:51,370 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:21:51,370 INFO     Running NSE
-2026-07-07 15:21:52,874 INFO     NSE Completed Successfully
-2026-07-07 15:21:52,874 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:21:52,874 INFO     Running BSE
-2026-07-07 15:21:55,014 INFO     BSE Completed Successfully
-2026-07-07 15:21:55,015 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:21:55,015 INFO     Running CDSL
-2026-07-07 15:22:02,513 INFO     CDSL Completed Successfully
-2026-07-07 15:22:02,514 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:22:02,514 INFO     Running AMFI
-2026-07-07 15:22:08,457 INFO     AMFI Completed Successfully
-2026-07-07 15:22:08,457 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:22:08,457 INFO     Running ARCL
-2026-07-07 15:22:46,865 INFO     ARCL Completed Successfully
-2026-07-07 15:22:46,866 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:22:46,866 INFO     Running CKYC
-2026-07-07 15:22:51,811 INFO     CKYC Completed Successfully
-2026-07-07 15:22:51,812 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:22:51,812 INFO     Running MCX
-2026-07-07 15:22:53,512 INFO     MCX Completed Successfully
-2026-07-07 15:22:53,512 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:22:53,513 INFO     Running APMI
-2026-07-07 15:23:04,231 INFO     APMI Completed Successfully
-2026-07-07 15:23:04,231 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:23:04,231 INFO     Running PFRDA
-2026-07-07 15:23:07,294 ERROR    PFRDA Failed
-Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
-    function()
-    ~~~~~~~~^^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\pfrda.py", line 125, in scrape_pfrda
-    save_pdf(
-    ~~~~~~~~^
-    source="PFRDA",
-    ^^^^^^^^^^^^^^^
-    ...<2 lines>...
-    category="Circular"
-    ^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
-    cursor.execute("""
-    ~~~~~~~~~~~~~~^^^^
-        INSERT INTO store_pdf
-        ^^^^^^^^^^^^^^^^^^^^^
-    ...<7 lines>...
-        category
-        ^^^^^^^^
-    ))
-    ^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
-    return method(cnx, *args, **kwargs)
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
-    raise get_exception(packet)
-mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'PFRDA-Audit of Points of Presence performing activities of Atal ' for key 'store_pdf.unique_source_pdf'
-2026-07-07 15:23:07,301 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:23:07,302 INFO     Running NSDL
-2026-07-07 15:23:35,029 INFO     NSDL Completed Successfully
-2026-07-07 15:23:35,029 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:23:35,029 INFO     Running SEBI
-2026-07-07 15:24:06,467 INFO     SEBI Completed Successfully
-2026-07-07 15:24:06,467 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:24:06,468 INFO     Running IRDAI
-2026-07-07 15:24:10,559 INFO     IRDAI Completed Successfully
-2026-07-07 15:24:10,559 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:24:10,560 INFO     Summary
-2026-07-07 15:24:10,560 INFO     
-2026-07-07 15:24:10,561 INFO     Run completed in 139.2 seconds
-2026-07-07 15:24:10,562 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 15:24:10,562 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:24:10,563 INFO     
-2026-07-07 15:28:19,030 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:28:19,031 INFO     Scraping run started at 2026-07-07 15:28:19
-2026-07-07 15:28:19,031 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:28:19,032 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:28:19,032 INFO     Running NSE
-2026-07-07 15:28:20,760 INFO     NSE Completed Successfully
-2026-07-07 15:28:20,761 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:28:20,761 INFO     Running BSE
-2026-07-07 15:28:23,686 INFO     BSE Completed Successfully
-2026-07-07 15:28:23,687 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:28:23,687 INFO     Running CDSL
-2026-07-07 15:28:31,657 INFO     CDSL Completed Successfully
-2026-07-07 15:28:31,657 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:28:31,657 INFO     Running AMFI
-2026-07-07 15:28:37,659 INFO     AMFI Completed Successfully
-2026-07-07 15:28:37,659 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:28:37,659 INFO     Running ARCL
-2026-07-07 15:29:19,210 INFO     ARCL Completed Successfully
-2026-07-07 15:29:19,210 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:29:19,211 INFO     Running CKYC
-2026-07-07 15:29:24,101 INFO     CKYC Completed Successfully
-2026-07-07 15:29:24,102 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:29:24,102 INFO     Running MCX
-2026-07-07 15:29:25,737 INFO     MCX Completed Successfully
-2026-07-07 15:29:25,738 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:29:25,738 INFO     Running APMI
-2026-07-07 15:29:38,185 INFO     APMI Completed Successfully
-2026-07-07 15:29:38,185 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:29:38,185 INFO     Running PFRDA
-2026-07-07 15:29:41,423 ERROR    PFRDA Failed
-Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
-    function()
-    ~~~~~~~~^^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\pfrda.py", line 125, in scrape_pfrda
-    save_pdf(
-    ~~~~~~~~^
-    source="PFRDA",
-    ^^^^^^^^^^^^^^^
-    ...<2 lines>...
-    category="Circular"
-    ^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
-    cursor.execute("""
-    ~~~~~~~~~~~~~~^^^^
-        INSERT INTO store_pdf
-        ^^^^^^^^^^^^^^^^^^^^^
-    ...<7 lines>...
-        category
-        ^^^^^^^^
-    ))
-    ^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
-    return method(cnx, *args, **kwargs)
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
-    raise get_exception(packet)
-mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'PFRDA-Audit of Points of Presence performing activities of Atal ' for key 'store_pdf.unique_source_pdf'
-2026-07-07 15:29:41,435 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:29:41,435 INFO     Running NSDL
-2026-07-07 15:30:09,222 INFO     NSDL Completed Successfully
-2026-07-07 15:30:09,222 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:30:09,223 INFO     Running SEBI
-2026-07-07 15:30:34,344 INFO     SEBI Completed Successfully
-2026-07-07 15:30:34,345 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:30:34,346 INFO     Running IRDAI
-2026-07-07 15:30:37,696 INFO     IRDAI Completed Successfully
-2026-07-07 15:30:37,697 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:30:37,697 INFO     Summary
-2026-07-07 15:30:37,698 INFO     
-2026-07-07 15:30:37,698 INFO     Run completed in 138.7 seconds
-2026-07-07 15:30:37,699 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 15:30:37,699 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:30:37,700 INFO     
-2026-07-07 15:30:45,834 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:30:45,835 INFO     Scraping run started at 2026-07-07 15:30:45
-2026-07-07 15:30:45,835 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:30:45,836 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:30:45,836 INFO     Running NSE
-2026-07-07 15:30:47,238 INFO     NSE Completed Successfully
-2026-07-07 15:30:47,239 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:30:47,239 INFO     Running BSE
-2026-07-07 15:30:49,944 INFO     BSE Completed Successfully
-2026-07-07 15:30:49,944 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:30:49,945 INFO     Running CDSL
-2026-07-07 15:30:57,974 INFO     CDSL Completed Successfully
-2026-07-07 15:30:57,974 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:30:57,975 INFO     Running AMFI
-2026-07-07 15:31:03,722 INFO     AMFI Completed Successfully
-2026-07-07 15:31:03,722 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:31:03,723 INFO     Running ARCL
-2026-07-07 15:31:44,643 INFO     ARCL Completed Successfully
-2026-07-07 15:31:44,644 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:31:44,644 INFO     Running CKYC
-2026-07-07 15:31:49,666 INFO     CKYC Completed Successfully
-2026-07-07 15:31:49,666 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:31:49,667 INFO     Running MCX
-2026-07-07 15:31:51,371 INFO     MCX Completed Successfully
-2026-07-07 15:31:51,371 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:31:51,372 INFO     Running APMI
-2026-07-07 15:32:02,924 INFO     APMI Completed Successfully
-2026-07-07 15:32:02,924 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:32:02,924 INFO     Running PFRDA
-2026-07-07 15:32:06,156 ERROR    PFRDA Failed
-Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
-    function()
-    ~~~~~~~~^^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\pfrda.py", line 125, in scrape_pfrda
-    save_pdf(
-    ~~~~~~~~^
-    source="PFRDA",
-    ^^^^^^^^^^^^^^^
-    ...<2 lines>...
-    category="Circular"
-    ^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
-    cursor.execute("""
-    ~~~~~~~~~~~~~~^^^^
-        INSERT INTO store_pdf
-        ^^^^^^^^^^^^^^^^^^^^^
-    ...<7 lines>...
-        category
-        ^^^^^^^^
-    ))
-    ^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
-    return method(cnx, *args, **kwargs)
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
-    raise get_exception(packet)
-mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'PFRDA-Audit of Points of Presence performing activities of Atal ' for key 'store_pdf.unique_source_pdf'
-2026-07-07 15:32:06,165 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:32:06,165 INFO     Running NSDL
-2026-07-07 15:32:33,125 INFO     NSDL Completed Successfully
-2026-07-07 15:32:33,125 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:32:33,126 INFO     Running SEBI
-2026-07-07 15:32:57,361 INFO     SEBI Completed Successfully
-2026-07-07 15:32:57,361 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:32:57,362 INFO     Running IRDAI
-2026-07-07 15:33:00,594 INFO     IRDAI Completed Successfully
-2026-07-07 15:33:00,594 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:33:00,595 INFO     Summary
-2026-07-07 15:33:00,595 INFO     
-2026-07-07 15:33:00,595 INFO     Run completed in 134.8 seconds
-2026-07-07 15:33:00,596 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 15:33:00,597 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:33:00,597 INFO     
-2026-07-07 15:44:10,465 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:44:10,466 INFO     Scraping run started at 2026-07-07 15:44:10
-2026-07-07 15:44:10,466 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:44:10,467 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:44:10,467 INFO     Running NSE
-2026-07-07 15:44:12,252 INFO     NSE Completed Successfully
-2026-07-07 15:44:12,252 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:44:12,253 INFO     Running BSE
-2026-07-07 15:44:15,349 INFO     BSE Completed Successfully
-2026-07-07 15:44:15,349 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:44:15,350 INFO     Running CDSL
-2026-07-07 15:44:23,186 INFO     CDSL Completed Successfully
-2026-07-07 15:44:23,186 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:44:23,187 INFO     Running AMFI
-2026-07-07 15:44:29,091 INFO     AMFI Completed Successfully
-2026-07-07 15:44:29,091 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:44:29,091 INFO     Running ARCL
-2026-07-07 15:45:10,230 INFO     ARCL Completed Successfully
-2026-07-07 15:45:10,230 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:45:10,231 INFO     Running CKYC
-2026-07-07 15:45:15,373 INFO     CKYC Completed Successfully
-2026-07-07 15:45:15,374 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:45:15,374 INFO     Running MCX
-2026-07-07 15:45:17,175 INFO     MCX Completed Successfully
-2026-07-07 15:45:17,175 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:45:17,176 INFO     Running APMI
-2026-07-07 15:45:28,890 INFO     APMI Completed Successfully
-2026-07-07 15:45:28,890 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:45:28,890 INFO     Running PFRDA
-2026-07-07 15:46:05,056 INFO     PFRDA Completed Successfully
-2026-07-07 15:46:05,057 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:46:05,058 INFO     Running NSDL
-2026-07-07 15:46:32,430 INFO     NSDL Completed Successfully
-2026-07-07 15:46:32,430 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:46:32,431 INFO     Running SEBI
-2026-07-07 15:46:56,678 INFO     SEBI Completed Successfully
-2026-07-07 15:46:56,679 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:46:56,679 INFO     Running IRDAI
-2026-07-07 15:46:59,983 INFO     IRDAI Completed Successfully
-2026-07-07 15:46:59,983 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:46:59,984 INFO     Summary
-2026-07-07 15:46:59,984 INFO     
-2026-07-07 15:46:59,984 INFO     Run completed in 169.5 seconds
-2026-07-07 15:46:59,985 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 15:46:59,986 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:46:59,986 INFO     
-2026-07-07 15:55:04,460 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:55:04,461 INFO     Scraping run started at 2026-07-07 15:55:04
-2026-07-07 15:55:04,461 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:55:04,462 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:55:04,462 INFO     Running NSE
-2026-07-07 15:55:06,094 INFO     NSE Completed Successfully
-2026-07-07 15:55:06,094 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:55:06,095 INFO     Running BSE
-2026-07-07 15:55:09,244 INFO     BSE Completed Successfully
-2026-07-07 15:55:09,244 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:55:09,245 INFO     Running CDSL
-2026-07-07 15:55:17,038 INFO     CDSL Completed Successfully
-2026-07-07 15:55:17,038 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:55:17,039 INFO     Running AMFI
-2026-07-07 15:55:23,499 INFO     AMFI Completed Successfully
-2026-07-07 15:55:23,499 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:55:23,499 INFO     Running ARCL
-2026-07-07 15:56:02,447 INFO     ARCL Completed Successfully
-2026-07-07 15:56:02,447 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:56:02,447 INFO     Running CKYC
-2026-07-07 15:56:07,143 INFO     CKYC Completed Successfully
-2026-07-07 15:56:07,144 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:56:07,144 INFO     Running MCX
-2026-07-07 15:56:08,734 INFO     MCX Completed Successfully
-2026-07-07 15:56:08,734 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:56:08,735 INFO     Running APMI
-2026-07-07 15:56:19,872 INFO     APMI Completed Successfully
-2026-07-07 15:56:19,873 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:56:19,873 INFO     Running PFRDA
-2026-07-07 15:56:56,226 INFO     PFRDA Completed Successfully
-2026-07-07 15:56:56,227 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:56:56,227 INFO     Running NSDL
-2026-07-07 15:57:26,352 INFO     NSDL Completed Successfully
-2026-07-07 15:57:26,353 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:57:26,353 INFO     Running SEBI
-2026-07-07 15:57:50,787 INFO     SEBI Completed Successfully
-2026-07-07 15:57:50,787 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:57:50,787 INFO     Running IRDAI
-2026-07-07 15:57:54,791 INFO     IRDAI Completed Successfully
-2026-07-07 15:57:54,792 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:57:54,792 INFO     Summary
-2026-07-07 15:57:54,792 INFO     
-2026-07-07 15:57:54,793 INFO     Run completed in 170.3 seconds
-2026-07-07 15:57:54,794 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 15:57:54,794 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:57:54,795 INFO     
-2026-07-07 15:58:55,951 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:58:55,952 INFO     Scraping run started at 2026-07-07 15:58:55
-2026-07-07 15:58:55,952 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 15:58:55,953 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:58:55,953 INFO     Running NSE
-2026-07-07 15:58:57,804 INFO     NSE Completed Successfully
-2026-07-07 15:58:57,804 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:58:57,805 INFO     Running BSE
-2026-07-07 15:59:00,445 INFO     BSE Completed Successfully
-2026-07-07 15:59:00,446 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:59:00,446 INFO     Running CDSL
-2026-07-07 15:59:08,524 INFO     CDSL Completed Successfully
-2026-07-07 15:59:08,524 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:59:08,524 INFO     Running AMFI
-2026-07-07 15:59:14,529 INFO     AMFI Completed Successfully
-2026-07-07 15:59:14,529 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:59:14,530 INFO     Running ARCL
-2026-07-07 15:59:54,843 INFO     ARCL Completed Successfully
-2026-07-07 15:59:54,844 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:59:54,844 INFO     Running CKYC
-2026-07-07 15:59:59,655 INFO     CKYC Completed Successfully
-2026-07-07 15:59:59,655 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 15:59:59,656 INFO     Running MCX
-2026-07-07 16:00:01,311 INFO     MCX Completed Successfully
-2026-07-07 16:00:01,311 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:00:01,311 INFO     Running APMI
-2026-07-07 16:00:12,911 INFO     APMI Completed Successfully
-2026-07-07 16:00:12,912 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:00:12,912 INFO     Running PFRDA
-2026-07-07 16:00:47,083 INFO     PFRDA Completed Successfully
-2026-07-07 16:00:47,084 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:00:47,084 INFO     Running NSDL
-2026-07-07 16:01:12,797 INFO     NSDL Completed Successfully
-2026-07-07 16:01:12,797 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:01:12,797 INFO     Running SEBI
-2026-07-07 16:01:35,288 INFO     SEBI Completed Successfully
-2026-07-07 16:01:35,288 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:01:35,289 INFO     Running IRDAI
-2026-07-07 16:01:38,441 INFO     IRDAI Completed Successfully
-2026-07-07 16:01:38,442 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:01:38,442 INFO     Summary
-2026-07-07 16:01:38,442 INFO     
-2026-07-07 16:01:38,443 INFO     Run completed in 162.5 seconds
-2026-07-07 16:01:38,444 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 16:01:38,444 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:01:38,444 INFO     
-2026-07-07 16:04:21,512 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:04:21,512 INFO     Scraping run started at 2026-07-07 16:04:21
-2026-07-07 16:04:21,513 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:04:21,513 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:04:21,513 INFO     Running ARCL
-2026-07-07 16:05:00,633 INFO     ARCL Completed Successfully
-2026-07-07 16:05:00,633 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:05:00,634 INFO     Summary
-2026-07-07 16:05:00,634 INFO     
-2026-07-07 16:05:00,634 INFO     Run completed in 39.1 seconds
-2026-07-07 16:05:00,636 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 16:05:00,636 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:05:00,637 INFO     
-2026-07-07 16:09:56,258 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:09:56,259 INFO     Scraping run started at 2026-07-07 16:09:56
-2026-07-07 16:09:56,259 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:09:56,259 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:09:56,260 INFO     Running NSE
-2026-07-07 16:09:57,640 INFO     NSE Completed Successfully
-2026-07-07 16:09:57,640 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:09:57,641 INFO     Running BSE
-2026-07-07 16:10:00,255 INFO     BSE Completed Successfully
-2026-07-07 16:10:00,256 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:10:00,256 INFO     Running CDSL
-2026-07-07 16:10:07,593 INFO     CDSL Completed Successfully
-2026-07-07 16:10:07,593 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:10:07,594 INFO     Running AMFI
-2026-07-07 16:10:13,672 INFO     AMFI Completed Successfully
-2026-07-07 16:10:13,672 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:10:13,673 INFO     Running ARCL
-2026-07-07 16:10:51,505 INFO     ARCL Completed Successfully
-2026-07-07 16:10:51,506 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:10:51,507 INFO     Running CKYC
-2026-07-07 16:10:56,192 INFO     CKYC Completed Successfully
-2026-07-07 16:10:56,192 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:10:56,192 INFO     Running MCX
-2026-07-07 16:10:58,763 INFO     MCX Completed Successfully
-2026-07-07 16:10:58,763 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:10:58,764 INFO     Running APMI
-2026-07-07 16:11:09,636 INFO     APMI Completed Successfully
-2026-07-07 16:11:09,636 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:11:09,637 INFO     Running PFRDA
-2026-07-07 16:11:49,120 INFO     PFRDA Completed Successfully
-2026-07-07 16:11:49,121 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:11:49,121 INFO     Running NSDL
-2026-07-07 16:12:17,161 INFO     NSDL Completed Successfully
-2026-07-07 16:12:17,161 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:12:17,162 INFO     Running SEBI
-2026-07-07 16:12:40,339 INFO     SEBI Completed Successfully
-2026-07-07 16:12:40,339 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:12:40,340 INFO     Running IRDAI
-2026-07-07 16:12:43,664 INFO     IRDAI Completed Successfully
-2026-07-07 16:12:43,665 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:12:43,665 INFO     Summary
-2026-07-07 16:12:43,666 INFO     
-2026-07-07 16:12:43,666 INFO     Run completed in 167.4 seconds
-2026-07-07 16:12:43,667 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 16:12:43,667 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:12:43,668 INFO     
-2026-07-07 16:14:48,452 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:14:48,455 INFO     Scraping run started at 2026-07-07 16:14:48
-2026-07-07 16:14:48,458 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:14:48,460 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:14:48,461 INFO     Running MCX
-2026-07-07 16:14:51,369 INFO     MCX Completed Successfully
-2026-07-07 16:14:51,370 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:14:51,370 INFO     Summary
-2026-07-07 16:14:51,370 INFO     
-2026-07-07 16:14:51,371 INFO     Run completed in 2.9 seconds
-2026-07-07 16:14:51,372 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 16:14:51,372 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:14:51,372 INFO     
-2026-07-07 16:18:37,726 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:18:37,726 INFO     Scraping run started at 2026-07-07 16:18:37
-2026-07-07 16:18:37,727 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:18:37,727 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:18:37,728 INFO     Running MCX
-2026-07-07 16:18:40,168 INFO     MCX Completed Successfully
-2026-07-07 16:18:40,168 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 16:18:40,169 INFO     Summary
-2026-07-07 16:18:40,169 INFO     
-2026-07-07 16:18:40,169 INFO     Run completed in 2.4 seconds
-2026-07-07 16:18:40,170 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 16:18:40,171 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 16:18:40,171 INFO     
-2026-07-07 17:17:27,957 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:17:27,959 INFO     Scraping run started at 2026-07-07 17:17:27
-2026-07-07 17:17:27,959 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:17:27,960 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:17:27,960 INFO     Running PFRDA
-2026-07-07 17:17:47,908 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:17:47,909 INFO     Scraping run started at 2026-07-07 17:17:47
-2026-07-07 17:17:47,909 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:17:47,909 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:17:47,910 INFO     Running PFRDA
-2026-07-07 17:18:37,687 INFO     PFRDA Completed Successfully
-2026-07-07 17:18:37,688 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:18:37,688 INFO     Summary
-2026-07-07 17:18:37,689 INFO     
-2026-07-07 17:18:37,689 INFO     Run completed in 49.8 seconds
-2026-07-07 17:18:37,691 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 17:18:37,691 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:18:37,692 INFO     
-2026-07-07 17:35:11,888 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:35:11,889 INFO     Scraping run started at 2026-07-07 17:35:11
-2026-07-07 17:35:11,889 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:35:11,889 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:35:11,890 INFO     Running PFRDA
-2026-07-07 17:35:38,612 INFO     PFRDA Completed Successfully
-2026-07-07 17:35:38,612 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:35:38,613 INFO     Summary
-2026-07-07 17:35:38,613 INFO     
-2026-07-07 17:35:38,613 INFO     Run completed in 26.7 seconds
-2026-07-07 17:35:38,613 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 17:35:38,614 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:35:38,614 INFO     
-2026-07-07 17:35:41,863 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:35:41,863 INFO     Scraping run started at 2026-07-07 17:35:41
-2026-07-07 17:35:41,864 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:35:41,864 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:35:41,864 INFO     Running NSE
-2026-07-07 17:35:43,180 INFO     NSE Completed Successfully
-2026-07-07 17:35:43,180 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:35:43,180 INFO     Running BSE
-2026-07-07 17:35:44,699 INFO     BSE Completed Successfully
-2026-07-07 17:35:44,699 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:35:44,699 INFO     Running CDSL
-2026-07-07 17:35:48,848 INFO     CDSL Completed Successfully
-2026-07-07 17:35:48,848 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:35:48,848 INFO     Running AMFI
-2026-07-07 17:35:52,329 INFO     AMFI Completed Successfully
-2026-07-07 17:35:52,329 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:35:52,329 INFO     Running ARCL
-2026-07-07 17:36:09,896 INFO     ARCL Completed Successfully
-2026-07-07 17:36:09,896 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:36:09,896 INFO     Running CKYC
-2026-07-07 17:36:12,552 INFO     CKYC Completed Successfully
-2026-07-07 17:36:12,552 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:36:12,552 INFO     Running MCX
-2026-07-07 17:36:14,128 INFO     MCX Completed Successfully
-2026-07-07 17:36:14,128 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:36:14,128 INFO     Running APMI
-2026-07-07 17:36:20,315 INFO     APMI Completed Successfully
-2026-07-07 17:36:20,315 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:36:20,315 INFO     Running PFRDA
-2026-07-07 17:36:52,407 INFO     PFRDA Completed Successfully
-2026-07-07 17:36:52,407 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:36:52,407 INFO     Running NSDL
-2026-07-07 17:37:10,129 INFO     NSDL Completed Successfully
-2026-07-07 17:37:10,130 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:37:10,130 INFO     Running SEBI
-2026-07-07 17:37:26,764 INFO     SEBI Completed Successfully
-2026-07-07 17:37:26,765 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:37:26,765 INFO     Running IRDAI
-2026-07-07 17:37:28,774 INFO     IRDAI Completed Successfully
-2026-07-07 17:37:28,775 INFO     ────────────────────────────────────────────────────────────
-2026-07-07 17:37:28,775 INFO     Summary
-2026-07-07 17:37:28,775 INFO     
-2026-07-07 17:37:28,775 INFO     Run completed in 106.9 seconds
-2026-07-07 17:37:28,776 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-07 17:37:28,776 INFO     ════════════════════════════════════════════════════════════
-2026-07-07 17:37:28,776 INFO     
-2026-07-08 09:43:01,679 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 09:43:01,681 INFO     Scraping run started at 2026-07-08 09:43:01
-2026-07-08 09:43:01,682 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 09:43:01,682 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:43:01,682 INFO     Running NSE
-2026-07-08 09:43:03,081 INFO     NSE Completed Successfully
-2026-07-08 09:43:03,081 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:43:03,081 INFO     Running BSE
-2026-07-08 09:43:04,196 INFO     BSE Completed Successfully
-2026-07-08 09:43:04,198 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:43:04,201 INFO     Running CDSL
-2026-07-08 09:43:12,157 INFO     CDSL Completed Successfully
-2026-07-08 09:43:12,158 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:43:12,158 INFO     Running AMFI
-2026-07-08 09:43:19,391 INFO     AMFI Completed Successfully
-2026-07-08 09:43:19,391 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:43:19,392 INFO     Running ARCL
-2026-07-08 09:43:59,536 INFO     ARCL Completed Successfully
-2026-07-08 09:43:59,536 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:43:59,537 INFO     Running CKYC
-2026-07-08 09:44:04,594 INFO     CKYC Completed Successfully
-2026-07-08 09:44:04,594 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:44:04,594 INFO     Running MCX
-2026-07-08 09:44:06,380 INFO     MCX Completed Successfully
-2026-07-08 09:44:06,380 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:44:06,381 INFO     Running APMI
-2026-07-08 09:44:18,058 INFO     APMI Completed Successfully
-2026-07-08 09:44:18,058 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:44:18,059 INFO     Running PFRDA
-2026-07-08 09:45:02,297 INFO     PFRDA Completed Successfully
-2026-07-08 09:45:02,297 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:45:02,298 INFO     Running NSDL
-2026-07-08 09:45:30,833 INFO     NSDL Completed Successfully
-2026-07-08 09:45:30,833 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 09:45:30,833 INFO     Running SEBI
-2026-07-08 22:54:07,734 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 22:54:07,735 INFO     Scraping run started at 2026-07-08 22:54:07
-2026-07-08 22:54:07,736 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 22:54:07,736 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:54:07,736 INFO     Running NSE
-2026-07-08 22:54:20,810 INFO     NSE Completed Successfully
-2026-07-08 22:54:20,810 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:54:20,810 INFO     Running BSE
-2026-07-08 22:54:34,215 INFO     BSE Completed Successfully
-2026-07-08 22:54:34,215 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:54:34,216 INFO     Running CDSL
-2026-07-08 22:54:39,813 INFO     CDSL Completed Successfully
-2026-07-08 22:54:39,813 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:54:39,813 INFO     Running AMFI
-2026-07-08 22:54:59,306 INFO     AMFI Completed Successfully
-2026-07-08 22:54:59,307 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:54:59,307 INFO     Running ARCL
-2026-07-08 22:55:28,245 INFO     ARCL Completed Successfully
-2026-07-08 22:55:28,246 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:55:28,246 INFO     Running CKYC
-2026-07-08 22:57:37,215 INFO     CKYC Completed Successfully
-2026-07-08 22:57:37,215 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:57:37,215 INFO     Running MCX
-2026-07-08 22:57:41,753 INFO     MCX Completed Successfully
-2026-07-08 22:57:41,753 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:57:41,753 INFO     Running APMI
-2026-07-08 22:57:46,548 INFO     APMI Completed Successfully
-2026-07-08 22:57:46,548 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:57:46,549 INFO     Running PFRDA
-2026-07-08 22:58:10,216 INFO     PFRDA Completed Successfully
-2026-07-08 22:58:10,217 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:58:10,217 INFO     Running NSDL
-2026-07-08 22:58:27,574 INFO     NSDL Completed Successfully
-2026-07-08 22:58:27,574 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:58:27,574 INFO     Running SEBI
-2026-07-08 22:58:41,623 INFO     SEBI Completed Successfully
-2026-07-08 22:58:41,624 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:58:41,624 INFO     Running IRDAI
-2026-07-08 22:58:43,355 INFO     IRDAI Completed Successfully
-2026-07-08 22:58:43,355 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 22:58:43,356 INFO     Summary
-2026-07-08 22:58:43,356 INFO     
-2026-07-08 22:58:43,356 INFO     Run completed in 275.6 seconds
-2026-07-08 22:58:43,356 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-08 22:58:43,356 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 22:58:43,356 INFO     
-2026-07-08 23:09:18,762 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:09:18,763 INFO     Scraping run started at 2026-07-08 23:09:18
-2026-07-08 23:09:18,763 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:09:18,763 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 23:09:18,763 INFO     Running NSE
-2026-07-08 23:09:20,991 INFO     NSE Completed Successfully
-2026-07-08 23:09:20,992 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 23:09:20,992 INFO     Summary
-2026-07-08 23:09:20,992 INFO     
-2026-07-08 23:09:20,992 INFO     Run completed in 2.2 seconds
-2026-07-08 23:09:20,993 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-08 23:09:20,993 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:09:20,993 INFO     
-2026-07-08 23:15:28,402 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:15:28,402 INFO     Scraping run started at 2026-07-08 23:15:28
-2026-07-08 23:15:28,403 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:15:28,403 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 23:15:28,403 INFO     Running NSE
-2026-07-08 23:15:30,807 INFO     NSE Completed Successfully
-2026-07-08 23:15:30,807 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 23:15:30,808 INFO     Summary
-2026-07-08 23:15:30,808 INFO     
-2026-07-08 23:15:30,808 INFO     Run completed in 2.4 seconds
-2026-07-08 23:15:30,808 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-08 23:15:30,808 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:15:30,808 INFO     
-2026-07-08 23:17:39,769 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:17:39,769 INFO     Scraping run started at 2026-07-08 23:17:39
-2026-07-08 23:17:39,770 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:17:39,770 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 23:17:39,770 INFO     Running NSE
-2026-07-08 23:17:50,251 INFO     NSE Completed Successfully
-2026-07-08 23:17:50,251 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 23:17:50,251 INFO     Summary
-2026-07-08 23:17:50,251 INFO     
-2026-07-08 23:17:50,251 INFO     Run completed in 10.5 seconds
-2026-07-08 23:17:50,252 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-08 23:17:50,252 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:17:50,252 INFO     
-2026-07-08 23:18:11,554 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:18:11,555 INFO     Scraping run started at 2026-07-08 23:18:11
-2026-07-08 23:18:11,555 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:18:11,555 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 23:18:11,555 INFO     Running NSE
-2026-07-08 23:18:15,812 INFO     NSE Completed Successfully
-2026-07-08 23:18:15,812 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 23:18:15,812 INFO     Summary
-2026-07-08 23:18:15,813 INFO     
-2026-07-08 23:18:15,813 INFO     Run completed in 4.3 seconds
-2026-07-08 23:18:15,813 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-08 23:18:15,813 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:18:15,813 INFO     
-2026-07-08 23:23:10,934 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:23:10,935 INFO     Scraping run started at 2026-07-08 23:23:10
-2026-07-08 23:23:10,935 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:23:10,935 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 23:23:10,935 INFO     Running NSE
-2026-07-08 23:23:13,036 INFO     NSE Completed Successfully
-2026-07-08 23:23:13,036 INFO     ────────────────────────────────────────────────────────────
-2026-07-08 23:23:13,037 INFO     Summary
-2026-07-08 23:23:13,037 INFO     
-2026-07-08 23:23:13,037 INFO     Run completed in 2.1 seconds
-2026-07-08 23:23:13,037 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-08 23:23:13,038 INFO     ════════════════════════════════════════════════════════════
-2026-07-08 23:23:13,038 INFO     
-2026-07-09 11:40:32,058 INFO     ════════════════════════════════════════════════════════════
-2026-07-09 11:40:32,060 INFO     Scraping run started at 2026-07-09 11:40:32
-2026-07-09 11:40:32,061 INFO     ════════════════════════════════════════════════════════════
-2026-07-09 11:40:32,061 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:40:32,061 INFO     Running NSE
-2026-07-09 11:40:34,082 INFO     NSE Completed Successfully
-2026-07-09 11:40:34,083 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:40:34,083 INFO     Summary
-2026-07-09 11:40:34,083 INFO     
-2026-07-09 11:40:34,083 INFO     Run completed in 2.0 seconds
-2026-07-09 11:40:34,084 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-09 11:40:34,084 INFO     ════════════════════════════════════════════════════════════
-2026-07-09 11:40:34,085 INFO     
-2026-07-09 11:41:08,702 INFO     ════════════════════════════════════════════════════════════
-2026-07-09 11:41:08,703 INFO     Scraping run started at 2026-07-09 11:41:08
-2026-07-09 11:41:08,703 INFO     ════════════════════════════════════════════════════════════
-2026-07-09 11:41:08,703 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:41:08,703 INFO     Running NSE
-2026-07-09 11:41:10,098 INFO     NSE Completed Successfully
-2026-07-09 11:41:10,098 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:41:10,098 INFO     Running BSE
-2026-07-09 11:41:11,097 INFO     BSE Completed Successfully
-2026-07-09 11:41:11,098 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:41:11,099 INFO     Running CDSL
-2026-07-09 11:41:18,753 INFO     CDSL Completed Successfully
-2026-07-09 11:41:18,754 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:41:18,754 INFO     Running AMFI
-2026-07-09 11:41:27,632 INFO     AMFI Completed Successfully
-2026-07-09 11:41:27,632 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:41:27,633 INFO     Running ARCL
-2026-07-09 11:42:15,075 INFO     ARCL Completed Successfully
-2026-07-09 11:42:15,075 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:42:15,076 INFO     Running CKYC
-2026-07-09 11:42:21,963 INFO     CKYC Completed Successfully
-2026-07-09 11:42:21,963 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:42:21,963 INFO     Running MCX
-2026-07-09 11:42:24,925 INFO     MCX Completed Successfully
-2026-07-09 11:42:24,925 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:42:24,925 INFO     Running APMI
-2026-07-09 11:42:37,588 INFO     APMI Completed Successfully
-2026-07-09 11:42:37,588 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:42:37,589 INFO     Running PFRDA
-2026-07-09 11:43:24,646 INFO     PFRDA Completed Successfully
-2026-07-09 11:43:24,647 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:43:24,647 INFO     Running NSDL
-2026-07-09 11:44:02,274 INFO     NSDL Completed Successfully
-2026-07-09 11:44:02,274 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:44:02,275 INFO     Running SEBI
-2026-07-09 11:44:31,626 INFO     SEBI Completed Successfully
-2026-07-09 11:44:31,626 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:44:31,626 INFO     Running IRDAI
-2026-07-09 11:44:35,395 INFO     IRDAI Completed Successfully
-2026-07-09 11:44:35,395 INFO     ────────────────────────────────────────────────────────────
-2026-07-09 11:44:35,396 INFO     Summary
-2026-07-09 11:44:35,396 INFO     
-2026-07-09 11:44:35,396 INFO     Run completed in 206.7 seconds
-2026-07-09 11:44:35,397 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-09 11:44:35,398 INFO     ════════════════════════════════════════════════════════════
-2026-07-09 11:44:35,398 INFO     
-2026-07-10 10:32:15,519 INFO     ════════════════════════════════════════════════════════════
-2026-07-10 10:32:15,521 INFO     Scraping run started at 2026-07-10 10:32:15
-2026-07-10 10:32:15,522 INFO     ════════════════════════════════════════════════════════════
-2026-07-10 10:32:15,522 INFO     ────────────────────────────────────────────────────────────
-2026-07-10 10:32:15,522 INFO     Running NSE
-2026-07-10 10:32:46,551 ERROR    NSE Failed
-Traceback (most recent call last):
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
-    response = conn.getresponse()
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
-    httplib_response = super().getresponse()
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1450, in getresponse
-    response.begin()
-    ~~~~~~~~~~~~~~^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 336, in begin
-    version, status, reason = self._read_status()
-                              ~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 297, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\socket.py", line 725, in readinto
-    return self._sock.recv_into(b)
-           ~~~~~~~~~~~~~~~~~~~~^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1304, in recv_into
-    return self.read(nbytes, buffer)
-           ~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1138, in read
-    return self._sslobj.read(len, buffer)
-           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
-TimeoutError: The read operation timed out
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
 
 The above exception was the direct cause of the following exception:
 
@@ -947,41 +130,255 @@ Traceback (most recent call last):
     retries = retries.increment(
         method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
     )
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 490, in increment
-    raise reraise(type(error), error, _stacktrace)
-          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
-    raise value
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.arclindia.com', port=443): Max retries exceeded with url: /circulars (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 138, in download_arcl
+    html = fetch_html()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 68, in fetch_html
+    response = requests.get(
+        URL,
+        headers=HEADERS,
+        timeout=30
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 675, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.arclindia.com', port=443): Max retries exceeded with url: /circulars (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+2026-07-20 16:11:27,597 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:11:27,597 INFO     Running CKYC
+2026-07-20 16:11:30,085 INFO     CKYC Completed Successfully
+2026-07-20 16:11:30,086 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:11:30,086 INFO     Running MCX
+2026-07-20 16:11:32,328 INFO     MCX Completed Successfully
+2026-07-20 16:11:32,328 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:11:32,328 INFO     Running APMI
+2026-07-20 16:11:48,092 INFO     APMI Completed Successfully
+2026-07-20 16:11:48,093 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:11:48,093 INFO     Running PFRDA
+2026-07-20 16:12:22,152 INFO     PFRDA Completed Successfully
+2026-07-20 16:12:22,152 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:12:22,152 INFO     Running NSDL
+2026-07-20 16:12:36,339 INFO     NSDL Completed Successfully
+2026-07-20 16:12:36,339 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:12:36,339 INFO     Running SEBI
+2026-07-20 16:13:14,866 INFO     SEBI Completed Successfully
+2026-07-20 16:13:14,867 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:13:14,867 INFO     Running IRDAI
+2026-07-20 16:13:17,973 INFO     IRDAI Completed Successfully
+2026-07-20 16:13:17,974 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:13:17,974 INFO     Summary
+2026-07-20 16:13:17,974 INFO     
+2026-07-20 16:13:17,974 INFO     Run completed in 121.8 seconds
+2026-07-20 16:13:17,975 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-20 16:13:17,975 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:13:17,975 INFO     
+2026-07-20 16:14:42,171 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:14:42,171 INFO     Scraping run started at 2026-07-20 16:14:42
+2026-07-20 16:14:42,172 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:14:42,172 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:14:42,172 INFO     Running ARCL
+2026-07-20 16:14:42,461 ERROR    ARCL Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
   File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
     response = self._make_request(
         conn,
     ...<10 lines>...
         **response_kw,
     )
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
-    raise ReadTimeoutError(
-        self, url, f"Read timed out. (read timeout={timeout_value})"
-    ) from err
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=15)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.arclindia.com', port=443): Max retries exceeded with url: /circulars (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\nse\NSE.py", line 239, in _req
-    r = self._session.get(url, params=params, timeout=self.timeout)
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 602, in get
-    return self.request("GET", url, **kwargs)
-           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
+    function()
+    ~~~~~~~~^^
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 138, in download_arcl
+    html = fetch_html()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 68, in fetch_html
+    response = requests.get(
+        URL,
+        headers=HEADERS,
+        timeout=30
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 589, in request
     resp = self.send(prep, **send_kwargs)
   File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 703, in send
     r = adapter.send(request, **kwargs)
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 690, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=15)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 675, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.arclindia.com', port=443): Max retries exceeded with url: /circulars (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+2026-07-20 16:14:42,471 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:14:42,471 INFO     Summary
+2026-07-20 16:14:42,471 INFO     
+2026-07-20 16:14:42,471 INFO     Run completed in 0.3 seconds
+2026-07-20 16:14:42,472 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-20 16:14:42,472 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:14:42,472 INFO     
+2026-07-20 16:19:39,076 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:19:39,077 INFO     Scraping run started at 2026-07-20 16:19:39
+2026-07-20 16:19:39,077 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:19:39,077 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:19:39,077 INFO     Running ARCL
+2026-07-20 16:19:39,991 ERROR    ARCL Failed
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.arclindia.com', port=443): Max retries exceeded with url: /media/circulars (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 
 During handling of the above exception, another exception occurred:
 
@@ -989,217 +386,240 @@ Traceback (most recent call last):
   File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
     function()
     ~~~~~~~~^^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 73, in download_nse
-    result = nse.circulars(
-        from_date=today,
-        to_date=today,
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 138, in download_arcl
+    html = fetch_html()
+  File "C:\ISEC\PDF_Downloader_Automation\extractors\arcl.py", line 68, in fetch_html
+    response = requests.get(
+        URL,
+        headers=HEADERS,
+        timeout=30
     )
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\nse\NSE.py", line 1102, in circulars
-    return self._req(f"{self.base_url}/circulars", params=params).json()
-           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\nse\NSE.py", line 241, in _req
-    raise TimeoutError(repr(e))
-TimeoutError: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=15)"))
-2026-07-10 10:32:46,853 INFO     ────────────────────────────────────────────────────────────
-2026-07-10 10:32:46,853 INFO     Running BSE
-2026-07-10 10:32:59,846 INFO     BSE Completed Successfully
-2026-07-10 10:32:59,846 INFO     ────────────────────────────────────────────────────────────
-2026-07-10 10:32:59,846 INFO     Running CDSL
-2026-07-13 10:33:14,350 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:33:14,352 INFO     Scraping run started at 2026-07-13 10:33:14
-2026-07-13 10:33:14,353 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:33:14,353 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:33:14,353 INFO     Running NSE
-2026-07-13 10:33:15,626 INFO     NSE Completed Successfully
-2026-07-13 10:33:15,627 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:33:15,630 INFO     Running BSE
-2026-07-13 10:33:27,585 INFO     BSE Completed Successfully
-2026-07-13 10:33:27,586 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:33:27,586 INFO     Running CDSL
-2026-07-13 10:33:35,118 INFO     CDSL Completed Successfully
-2026-07-13 10:33:35,120 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:33:35,121 INFO     Running AMFI
-2026-07-13 10:33:35,905 ERROR    AMFI Failed
-Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
-    function()
-    ~~~~~~~~^^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 117, in download_amfi
-    html = fetch_html()
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 62, in fetch_html
-    response.raise_for_status()
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/distributor/amfi-circulars
-2026-07-13 10:33:35,939 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:33:35,940 INFO     Running ARCL
-2026-07-13 10:34:12,387 INFO     ARCL Completed Successfully
-2026-07-13 10:34:12,388 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:34:12,388 INFO     Running CKYC
-2026-07-13 10:34:47,517 INFO     CKYC Completed Successfully
-2026-07-13 10:34:47,517 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:34:47,517 INFO     Running MCX
-2026-07-13 10:35:00,483 INFO     MCX Completed Successfully
-2026-07-13 10:35:00,483 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:35:00,483 INFO     Running APMI
-2026-07-13 10:35:13,215 INFO     APMI Completed Successfully
-2026-07-13 10:35:13,215 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:35:13,216 INFO     Running PFRDA
-2026-07-13 10:36:27,752 INFO     PFRDA Completed Successfully
-2026-07-13 10:36:27,752 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:36:27,753 INFO     Running NSDL
-2026-07-13 10:37:44,920 INFO     NSDL Completed Successfully
-2026-07-13 10:37:44,921 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:37:44,921 INFO     Running SEBI
-2026-07-13 10:38:35,612 INFO     SEBI Completed Successfully
-2026-07-13 10:38:35,613 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:38:35,613 INFO     Running IRDAI
-2026-07-13 10:38:38,985 INFO     IRDAI Completed Successfully
-2026-07-13 10:38:38,986 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:38:38,986 INFO     Summary
-2026-07-13 10:38:38,986 INFO     
-2026-07-13 10:38:38,987 INFO     Run completed in 324.6 seconds
-2026-07-13 10:38:38,988 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-13 10:38:38,988 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:38:38,989 INFO     
-2026-07-13 10:39:19,797 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:39:19,798 INFO     Scraping run started at 2026-07-13 10:39:19
-2026-07-13 10:39:19,798 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:39:19,798 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:39:19,798 INFO     Running AMFI
-2026-07-13 10:39:20,641 ERROR    AMFI Failed
-Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
-    function()
-    ~~~~~~~~^^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 117, in download_amfi
-    html = fetch_html()
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 62, in fetch_html
-    response.raise_for_status()
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/distributor/amfi-circulars
-2026-07-13 10:39:20,733 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:39:20,733 INFO     Summary
-2026-07-13 10:39:20,734 INFO     
-2026-07-13 10:39:20,734 INFO     Run completed in 0.9 seconds
-2026-07-13 10:39:20,735 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-13 10:39:20,735 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:39:20,736 INFO     
-2026-07-13 10:43:29,175 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:43:29,176 INFO     Scraping run started at 2026-07-13 10:43:29
-2026-07-13 10:43:29,176 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:43:29,176 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:43:29,177 INFO     Running AMFI
-2026-07-13 10:43:41,110 ERROR    AMFI Failed
-Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
-    function()
-    ~~~~~~~~^^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 128, in download_amfi
-    html = fetch_html()
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 73, in fetch_html
-    response.raise_for_status()
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/distributor/amfi-circulars
-2026-07-13 10:43:41,117 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:43:41,119 INFO     Summary
-2026-07-13 10:43:41,120 INFO     
-2026-07-13 10:43:41,120 INFO     Run completed in 11.9 seconds
-2026-07-13 10:43:41,121 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-13 10:43:41,122 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:43:41,123 INFO     
-2026-07-13 10:45:43,689 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:45:43,690 INFO     Scraping run started at 2026-07-13 10:45:43
-2026-07-13 10:45:43,690 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:45:43,690 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:45:43,691 INFO     Running AMFI
-2026-07-13 10:45:50,844 INFO     AMFI Completed Successfully
-2026-07-13 10:45:50,844 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:45:50,845 INFO     Summary
-2026-07-13 10:45:50,845 INFO     
-2026-07-13 10:45:50,845 INFO     Run completed in 7.2 seconds
-2026-07-13 10:45:50,846 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-13 10:45:50,846 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:45:50,847 INFO     
-2026-07-13 10:51:16,299 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:51:16,300 INFO     Scraping run started at 2026-07-13 10:51:16
-2026-07-13 10:51:16,300 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:51:16,300 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:51:16,301 INFO     Running AMFI
-2026-07-13 10:51:17,056 ERROR    AMFI Failed
-Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\main.py", line 53, in run_website
-    function()
-    ~~~~~~~~^^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 117, in download_amfi
-    html = fetch_html()
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\amfi.py", line 62, in fetch_html
-    response.raise_for_status()
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.amfiindia.com/distributor/amfi-circulars
-2026-07-13 10:51:17,061 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:51:17,061 INFO     Summary
-2026-07-13 10:51:17,061 INFO     
-2026-07-13 10:51:17,062 INFO     Run completed in 0.8 seconds
-2026-07-13 10:51:17,063 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-13 10:51:17,063 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:51:17,063 INFO     
-2026-07-13 10:54:34,001 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:54:34,002 INFO     Scraping run started at 2026-07-13 10:54:34
-2026-07-13 10:54:34,002 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:54:34,003 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:54:34,004 INFO     Running AMFI
-2026-07-13 10:55:03,407 INFO     AMFI Completed Successfully
-2026-07-13 10:55:03,408 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:55:03,408 INFO     Summary
-2026-07-13 10:55:03,409 INFO     
-2026-07-13 10:55:03,409 INFO     Run completed in 29.4 seconds
-2026-07-13 10:55:03,410 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-13 10:55:03,411 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:55:03,411 INFO     
-2026-07-13 10:55:21,066 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:55:21,066 INFO     Scraping run started at 2026-07-13 10:55:21
-2026-07-13 10:55:21,067 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:55:21,067 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:55:21,068 INFO     Running AMFI
-2026-07-13 10:55:32,923 INFO     AMFI Completed Successfully
-2026-07-13 10:55:32,924 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:55:32,924 INFO     Summary
-2026-07-13 10:55:32,925 INFO     
-2026-07-13 10:55:32,925 INFO     Run completed in 11.9 seconds
-2026-07-13 10:55:32,926 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-13 10:55:32,927 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:55:32,927 INFO     
-2026-07-13 10:55:44,219 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:55:44,220 INFO     Scraping run started at 2026-07-13 10:55:44
-2026-07-13 10:55:44,220 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:55:44,221 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:55:44,221 INFO     Running AMFI
-2026-07-13 10:56:13,476 INFO     AMFI Completed Successfully
-2026-07-13 10:56:13,477 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 10:56:13,477 INFO     Summary
-2026-07-13 10:56:13,478 INFO     
-2026-07-13 10:56:13,478 INFO     Run completed in 29.3 seconds
-2026-07-13 10:56:13,479 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-13 10:56:13,479 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 10:56:13,480 INFO     
-2026-07-13 11:02:09,973 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 11:02:09,973 INFO     Scraping run started at 2026-07-13 11:02:09
-2026-07-13 11:02:09,974 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 11:02:09,975 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 11:02:09,975 INFO     Running AMFI
-2026-07-13 11:02:27,502 INFO     AMFI Completed Successfully
-2026-07-13 11:02:27,502 INFO     ────────────────────────────────────────────────────────────
-2026-07-13 11:02:27,503 INFO     Summary
-2026-07-13 11:02:27,503 INFO     
-2026-07-13 11:02:27,503 INFO     Run completed in 17.5 seconds
-2026-07-13 11:02:27,504 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
-2026-07-13 11:02:27,505 INFO     ════════════════════════════════════════════════════════════
-2026-07-13 11:02:27,505 INFO     
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 675, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.arclindia.com', port=443): Max retries exceeded with url: /media/circulars (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+2026-07-20 16:19:40,000 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:19:40,000 INFO     Summary
+2026-07-20 16:19:40,000 INFO     
+2026-07-20 16:19:40,000 INFO     Run completed in 0.9 seconds
+2026-07-20 16:19:40,000 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-20 16:19:40,001 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:19:40,001 INFO     
+2026-07-20 16:30:01,737 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:30:01,737 INFO     Scraping run started at 2026-07-20 16:30:01
+2026-07-20 16:30:01,737 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:30:01,738 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:30:01,738 INFO     Running ARCL
+2026-07-20 16:30:40,418 INFO     ARCL Completed Successfully
+2026-07-20 16:30:40,419 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:30:40,419 INFO     Summary
+2026-07-20 16:30:40,419 INFO     
+2026-07-20 16:30:40,419 INFO     Run completed in 38.7 seconds
+2026-07-20 16:30:40,420 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-20 16:30:40,420 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:30:40,420 INFO     
+2026-07-20 16:34:14,242 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:34:14,242 INFO     Scraping run started at 2026-07-20 16:34:14
+2026-07-20 16:34:14,243 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:34:14,243 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:34:14,243 INFO     Running ARCL
+2026-07-20 16:34:25,425 INFO     ARCL Completed Successfully
+2026-07-20 16:34:25,425 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:34:25,425 INFO     Summary
+2026-07-20 16:34:25,425 INFO     
+2026-07-20 16:34:25,425 INFO     Run completed in 11.2 seconds
+2026-07-20 16:34:25,426 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-20 16:34:25,426 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:34:25,426 INFO     
+2026-07-20 16:50:23,864 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:50:23,865 INFO     Scraping run started at 2026-07-20 16:50:23
+2026-07-20 16:50:23,865 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:50:23,865 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:50:23,865 INFO     Running NSE
+2026-07-20 16:50:36,323 INFO     NSE Completed Successfully
+2026-07-20 16:50:36,323 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:50:36,323 INFO     Running BSE
+2026-07-20 16:50:37,850 INFO     BSE Completed Successfully
+2026-07-20 16:50:37,850 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:50:37,850 INFO     Running CDSL
+2026-07-20 16:50:43,128 INFO     CDSL Completed Successfully
+2026-07-20 16:50:43,128 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:50:43,128 INFO     Running AMFI
+2026-07-20 16:50:57,971 INFO     AMFI Completed Successfully
+2026-07-20 16:50:57,971 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:50:57,971 INFO     Running ARCL
+2026-07-20 16:50:58,048 INFO     ARCL Completed Successfully
+2026-07-20 16:50:58,048 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:50:58,049 INFO     Running CKYC
+2026-07-20 16:51:11,471 INFO     CKYC Completed Successfully
+2026-07-20 16:51:11,471 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:51:11,471 INFO     Running MCX
+2026-07-20 16:51:12,743 INFO     MCX Completed Successfully
+2026-07-20 16:51:12,743 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:51:12,744 INFO     Running APMI
+2026-07-20 16:51:17,741 INFO     APMI Completed Successfully
+2026-07-20 16:51:17,741 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:51:17,741 INFO     Running PFRDA
+2026-07-20 16:51:57,271 INFO     PFRDA Completed Successfully
+2026-07-20 16:51:57,271 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:51:57,271 INFO     Running NSDL
+2026-07-20 16:52:05,936 INFO     NSDL Completed Successfully
+2026-07-20 16:52:05,936 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:52:05,937 INFO     Running SEBI
+2026-07-20 16:52:29,316 INFO     SEBI Completed Successfully
+2026-07-20 16:52:29,316 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:52:29,316 INFO     Running IRDAI
+2026-07-20 16:52:31,873 INFO     IRDAI Completed Successfully
+2026-07-20 16:52:31,873 INFO     ────────────────────────────────────────────────────────────
+2026-07-20 16:52:31,873 INFO     Summary
+2026-07-20 16:52:31,874 INFO     
+2026-07-20 16:52:31,874 INFO     Run completed in 128.0 seconds
+2026-07-20 16:52:31,874 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-20 16:52:31,874 INFO     ════════════════════════════════════════════════════════════
+2026-07-20 16:52:31,874 INFO     
+2026-07-21 11:08:53,514 INFO     ════════════════════════════════════════════════════════════
+2026-07-21 11:08:53,516 INFO     Scraping run started at 2026-07-21 11:08:53
+2026-07-21 11:08:53,517 INFO     ════════════════════════════════════════════════════════════
+2026-07-21 11:08:53,517 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:08:53,517 INFO     Running NSE
+2026-07-21 11:08:55,351 INFO     NSE Completed Successfully
+2026-07-21 11:08:55,351 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:08:55,352 INFO     Running BSE
+2026-07-21 11:08:56,697 INFO     BSE Completed Successfully
+2026-07-21 11:08:56,698 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:08:56,698 INFO     Running CDSL
+2026-07-21 11:09:04,667 INFO     CDSL Completed Successfully
+2026-07-21 11:09:04,667 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:09:04,668 INFO     Running AMFI
+2026-07-21 11:09:10,950 INFO     AMFI Completed Successfully
+2026-07-21 11:09:10,950 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:09:10,950 INFO     Running ARCL
+2026-07-21 11:09:11,101 INFO     ARCL Completed Successfully
+2026-07-21 11:09:11,101 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:09:11,102 INFO     Running CKYC
+2026-07-21 11:09:15,202 INFO     CKYC Completed Successfully
+2026-07-21 11:09:15,203 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:09:15,203 INFO     Running MCX
+2026-07-21 11:09:19,404 INFO     MCX Completed Successfully
+2026-07-21 11:09:19,404 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:09:19,404 INFO     Running APMI
+2026-07-21 11:09:29,793 INFO     APMI Completed Successfully
+2026-07-21 11:09:29,794 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:09:29,794 INFO     Running PFRDA
+2026-07-21 11:10:08,488 INFO     PFRDA Completed Successfully
+2026-07-21 11:10:08,489 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:10:08,489 INFO     Running NSDL
+2026-07-21 11:10:16,109 INFO     NSDL Completed Successfully
+2026-07-21 11:10:16,109 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:10:16,109 INFO     Running SEBI
+2026-07-21 11:10:39,885 INFO     SEBI Completed Successfully
+2026-07-21 11:10:39,885 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:10:39,885 INFO     Running IRDAI
+2026-07-21 11:10:49,330 INFO     IRDAI Completed Successfully
+2026-07-21 11:10:49,331 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 11:10:49,331 INFO     Summary
+2026-07-21 11:10:49,331 INFO     
+2026-07-21 11:10:49,332 INFO     Run completed in 115.8 seconds
+2026-07-21 11:10:49,333 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-21 11:10:49,333 INFO     ════════════════════════════════════════════════════════════
+2026-07-21 11:10:49,333 INFO     
+2026-07-21 14:43:14,794 INFO     ════════════════════════════════════════════════════════════
+2026-07-21 14:43:14,795 INFO     Scraping run started at 2026-07-21 14:43:14
+2026-07-21 14:43:14,795 INFO     ════════════════════════════════════════════════════════════
+2026-07-21 14:43:14,796 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:43:14,796 INFO     Running NSE
+2026-07-21 14:43:16,192 INFO     NSE Completed Successfully
+2026-07-21 14:43:16,193 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:43:16,193 INFO     Running BSE
+2026-07-21 14:43:18,984 INFO     BSE Completed Successfully
+2026-07-21 14:43:18,985 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:43:18,985 INFO     Running CDSL
+2026-07-21 14:43:22,585 INFO     CDSL Completed Successfully
+2026-07-21 14:43:22,585 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:43:22,585 INFO     Running AMFI
+2026-07-21 14:43:26,817 INFO     AMFI Completed Successfully
+2026-07-21 14:43:26,818 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:43:26,818 INFO     Running ARCL
+2026-07-21 14:43:27,065 INFO     ARCL Completed Successfully
+2026-07-21 14:43:27,065 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:43:27,065 INFO     Running CKYC
+2026-07-21 14:43:29,627 INFO     CKYC Completed Successfully
+2026-07-21 14:43:29,628 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:43:29,628 INFO     Running MCX
+2026-07-21 14:43:31,496 INFO     MCX Completed Successfully
+2026-07-21 14:43:31,496 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:43:31,497 INFO     Running APMI
+2026-07-21 14:43:37,616 INFO     APMI Completed Successfully
+2026-07-21 14:43:37,616 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:43:37,616 INFO     Running PFRDA
+2026-07-21 14:43:59,776 INFO     PFRDA Completed Successfully
+2026-07-21 14:43:59,776 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:43:59,776 INFO     Running NSDL
+2026-07-21 14:44:07,415 INFO     NSDL Completed Successfully
+2026-07-21 14:44:07,415 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:44:07,415 INFO     Running SEBI
+2026-07-21 14:44:21,840 INFO     SEBI Completed Successfully
+2026-07-21 14:44:21,840 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:44:21,840 INFO     Running IRDAI
+2026-07-21 14:44:21,852 INFO     IRDAI Completed Successfully
+2026-07-21 14:44:21,853 INFO     ────────────────────────────────────────────────────────────
+2026-07-21 14:44:21,853 INFO     Summary
+2026-07-21 14:44:21,853 INFO     
+2026-07-21 14:44:21,853 INFO     Run completed in 67.1 seconds
+2026-07-21 14:44:21,854 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-21 14:44:21,854 INFO     ════════════════════════════════════════════════════════════
+2026-07-21 14:44:21,854 INFO     
+2026-07-22 11:03:24,565 INFO     ════════════════════════════════════════════════════════════
+2026-07-22 11:03:24,566 INFO     Scraping run started at 2026-07-22 11:03:24
+2026-07-22 11:03:24,566 INFO     ════════════════════════════════════════════════════════════
+2026-07-22 11:03:24,567 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:03:24,567 INFO     Running NSE
+2026-07-22 11:03:25,347 INFO     NSE Completed Successfully
+2026-07-22 11:03:25,347 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:03:25,347 INFO     Running BSE
+2026-07-22 11:03:25,776 INFO     BSE Completed Successfully
+2026-07-22 11:03:25,776 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:03:25,776 INFO     Running CDSL
+2026-07-22 11:03:29,458 INFO     CDSL Completed Successfully
+2026-07-22 11:03:29,458 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:03:29,458 INFO     Running AMFI
+2026-07-22 11:03:32,491 INFO     AMFI Completed Successfully
+2026-07-22 11:03:32,491 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:03:32,492 INFO     Running ARCL
+2026-07-22 11:03:32,627 INFO     ARCL Completed Successfully
+2026-07-22 11:03:32,627 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:03:32,627 INFO     Running CKYC
+2026-07-22 11:03:36,533 INFO     CKYC Completed Successfully
+2026-07-22 11:03:36,533 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:03:36,533 INFO     Running MCX
+2026-07-22 11:03:38,023 INFO     MCX Completed Successfully
+2026-07-22 11:03:38,023 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:03:38,024 INFO     Running APMI
+2026-07-22 11:03:42,962 INFO     APMI Completed Successfully
+2026-07-22 11:03:42,962 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:03:42,963 INFO     Running PFRDA
+2026-07-22 11:04:05,299 INFO     PFRDA Completed Successfully
+2026-07-22 11:04:05,299 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:04:05,299 INFO     Running NSDL
+2026-07-22 11:04:13,934 INFO     NSDL Completed Successfully
+2026-07-22 11:04:13,934 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:04:13,934 INFO     Running SEBI
+2026-07-22 11:04:31,570 INFO     SEBI Completed Successfully
+2026-07-22 11:04:31,570 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:04:31,570 INFO     Running IRDAI
+2026-07-22 11:04:33,385 INFO     IRDAI Completed Successfully
+2026-07-22 11:04:33,385 INFO     ────────────────────────────────────────────────────────────
+2026-07-22 11:04:33,385 INFO     Summary
+2026-07-22 11:04:33,386 INFO     
+2026-07-22 11:04:33,386 INFO     Run completed in 68.8 seconds
+2026-07-22 11:04:33,386 INFO     Downloads saved under: C:\ISEC\PDF_Downloader_Automation\downloads
+2026-07-22 11:04:33,386 INFO     ════════════════════════════════════════════════════════════
+2026-07-22 11:04:33,387 INFO     

@@ -1,156 +1,49 @@
-2026-07-07 15:16:03,896 INFO     
-2026-07-07 15:16:03,897 INFO     ========== MCX ==========
-2026-07-07 15:16:03,898 INFO     Fetching page 1
-2026-07-07 15:16:05,638 INFO     Page 1/0
-2026-07-07 15:16:05,642 INFO     Total Circulars Found : 0
-2026-07-07 15:16:05,642 INFO     Already Processed     : 0
-2026-07-07 15:16:05,643 INFO     No new circulars found.
-2026-07-07 15:19:05,749 INFO     
-2026-07-07 15:19:05,750 INFO     ========== MCX ==========
-2026-07-07 15:19:05,751 INFO     Fetching page 1
-2026-07-07 15:19:07,397 INFO     Page 1/0
-2026-07-07 15:19:07,401 INFO     Total Circulars Found : 0
-2026-07-07 15:19:07,401 INFO     Already Processed     : 0
-2026-07-07 15:19:07,402 INFO     No new circulars found.
-2026-07-07 15:22:51,812 INFO     
-2026-07-07 15:22:51,813 INFO     ========== MCX ==========
-2026-07-07 15:22:51,813 INFO     Fetching page 1
-2026-07-07 15:22:53,508 INFO     Page 1/0
-2026-07-07 15:22:53,511 INFO     Total Circulars Found : 0
-2026-07-07 15:22:53,511 INFO     Already Processed     : 0
-2026-07-07 15:22:53,512 INFO     No new circulars found.
-2026-07-07 15:29:24,103 INFO     
-2026-07-07 15:29:24,104 INFO     ========== MCX ==========
-2026-07-07 15:29:24,104 INFO     Fetching page 1
-2026-07-07 15:29:25,732 INFO     Page 1/0
-2026-07-07 15:29:25,736 INFO     Total Circulars Found : 0
-2026-07-07 15:29:25,736 INFO     Already Processed     : 0
-2026-07-07 15:29:25,737 INFO     No new circulars found.
-2026-07-07 15:31:49,667 INFO     
-2026-07-07 15:31:49,668 INFO     ========== MCX ==========
-2026-07-07 15:31:49,668 INFO     Fetching page 1
-2026-07-07 15:31:51,366 INFO     Page 1/0
-2026-07-07 15:31:51,370 INFO     Total Circulars Found : 0
-2026-07-07 15:31:51,370 INFO     Already Processed     : 0
-2026-07-07 15:31:51,370 INFO     No new circulars found.
-2026-07-07 15:45:15,375 INFO     
-2026-07-07 15:45:15,376 INFO     ========== MCX ==========
-2026-07-07 15:45:15,376 INFO     Fetching page 1
-2026-07-07 15:45:17,171 INFO     Page 1/0
-2026-07-07 15:45:17,174 INFO     Total Circulars Found : 0
-2026-07-07 15:45:17,174 INFO     Already Processed     : 0
-2026-07-07 15:45:17,175 INFO     No new circulars found.
-2026-07-07 15:56:07,145 INFO     
-2026-07-07 15:56:07,149 INFO     ========== MCX ==========
-2026-07-07 15:56:07,150 INFO     Fetching page 1
-2026-07-07 15:56:08,731 INFO     Page 1/0
-2026-07-07 15:56:08,733 INFO     Total Circulars Found : 0
-2026-07-07 15:56:08,733 INFO     Already Processed     : 0
-2026-07-07 15:56:08,734 INFO     No new circulars found.
-2026-07-07 15:59:59,656 INFO     
-2026-07-07 15:59:59,657 INFO     ========== MCX ==========
-2026-07-07 15:59:59,658 INFO     Fetching page 1
-2026-07-07 16:00:01,307 INFO     Page 1/0
-2026-07-07 16:00:01,310 INFO     Total Circulars Found : 0
-2026-07-07 16:00:01,310 INFO     Already Processed     : 0
-2026-07-07 16:00:01,310 INFO     No new circulars found.
-2026-07-07 16:10:56,193 INFO     
-2026-07-07 16:10:56,195 INFO     ========== MCX ==========
-2026-07-07 16:10:56,196 INFO     Fetching page 1
-2026-07-07 16:10:57,952 INFO     Page 1/1
-2026-07-07 16:10:57,955 INFO     Total Circulars Found : 1
-2026-07-07 16:10:58,040 INFO     Already Processed     : 0
-2026-07-07 16:10:58,040 INFO     Downloading : 07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf
-2026-07-07 16:10:58,747 ERROR    Failed : 07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf
-Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\mcx.py", line 129, in download_pdfs
-    with open(filepath, "wb") as file:
-         ~~~~^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'downloads\\mcx\\07-07-2026\\07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf'
-2026-07-07 16:10:58,760 INFO     
-2026-07-07 16:10:58,761 INFO     MCX Summary
-2026-07-07 16:10:58,761 INFO     -------------------------
-2026-07-07 16:10:58,762 INFO     Total Circulars Found : 1
-2026-07-07 16:10:58,762 INFO     Already Processed     : 0
-2026-07-07 16:10:58,762 INFO     Downloaded            : 0
-2026-07-07 16:10:58,763 INFO     Failed                : 1
-2026-07-07 16:14:48,461 INFO     
-2026-07-07 16:14:48,463 INFO     ========== MCX ==========
-2026-07-07 16:14:48,464 INFO     Fetching page 1
-2026-07-07 16:14:50,061 INFO     Page 1/1
-2026-07-07 16:14:50,064 INFO     Total Circulars Found : 1
-2026-07-07 16:14:50,350 INFO     Already Processed     : 0
-2026-07-07 16:14:50,350 INFO     Downloading : 07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf
-2026-07-07 16:14:51,363 ERROR    Failed : 07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf
-Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\mcx.py", line 129, in download_pdfs
-    with open(filepath, "wb") as file:
-         ~~~~^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'downloads\\mcx\\07-07-2026\\07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf'
-2026-07-07 16:14:51,367 INFO     
-2026-07-07 16:14:51,368 INFO     MCX Summary
-2026-07-07 16:14:51,368 INFO     -------------------------
-2026-07-07 16:14:51,368 INFO     Total Circulars Found : 1
-2026-07-07 16:14:51,368 INFO     Already Processed     : 0
-2026-07-07 16:14:51,369 INFO     Downloaded            : 0
-2026-07-07 16:14:51,369 INFO     Failed                : 1
-2026-07-07 16:18:37,728 INFO     
-2026-07-07 16:18:37,729 INFO     ========== MCX ==========
-2026-07-07 16:18:37,729 INFO     Fetching page 1
-2026-07-07 16:18:39,370 INFO     Page 1/1
-2026-07-07 16:18:39,373 INFO     Total Circulars Found : 1
-2026-07-07 16:18:39,563 INFO     Already Processed     : 0
-2026-07-07 16:18:39,564 INFO     Saving : 07-Jul-2026_No388_MCXCCL_Shifting of Goods by Vault Service Provider (VSP) Brinks India Private Limited at Mumbai.pdf
-2026-07-07 16:18:40,165 INFO     
-2026-07-07 16:18:40,166 INFO     MCX Summary
-2026-07-07 16:18:40,166 INFO     -------------------------
-2026-07-07 16:18:40,167 INFO     Total Circulars Found : 1
-2026-07-07 16:18:40,167 INFO     Already Processed     : 0
-2026-07-07 16:18:40,167 INFO     Downloaded            : 1
-2026-07-07 16:18:40,168 INFO     Failed                : 0
-2026-07-07 17:36:12,552 INFO     
-2026-07-07 17:36:12,556 INFO     ========== MCX ==========
-2026-07-07 17:36:12,556 INFO     Fetching page 1
-2026-07-07 17:36:14,088 INFO     Page 1/1
-2026-07-07 17:36:14,089 INFO     Total Circulars Found : 1
-2026-07-07 17:36:14,128 INFO     Already Processed     : 1
-2026-07-07 17:36:14,128 INFO     No new circulars found.
-2026-07-08 09:44:04,595 INFO     
-2026-07-08 09:44:04,596 INFO     ========== MCX ==========
-2026-07-08 09:44:04,596 INFO     Fetching page 1
-2026-07-08 09:44:06,377 INFO     Page 1/0
-2026-07-08 09:44:06,379 INFO     Total Circulars Found : 0
-2026-07-08 09:44:06,379 INFO     Already Processed     : 0
-2026-07-08 09:44:06,380 INFO     No new circulars found.
-2026-07-08 22:57:37,216 INFO     
-2026-07-08 22:57:37,216 INFO     ========== MCX ==========
-2026-07-08 22:57:37,216 INFO     Fetching page 1
-2026-07-08 22:57:38,834 INFO     Page 1/1
-2026-07-08 22:57:38,835 INFO     Total Circulars Found : 5
-2026-07-08 22:57:39,011 INFO     Already Processed     : 0
-2026-07-08 22:57:39,011 INFO     Saving : 09-Jul-2026_No394_T&S_Event Based Additional Surveillance Margin (E-ASM) – Mentha Oil.pdf
-2026-07-08 22:57:39,558 INFO     Saving : 08-Jul-2026_No390_MCXCCL_Expansion of Eligible Good Delivery Refiners.pdf
-2026-07-08 22:57:40,103 INFO     Saving : 08-Jul-2026_No393_MCXCCL_Revision in Threshold Limits for Concentration Margin.pdf
-2026-07-08 22:57:40,652 INFO     Saving : 08-Jul-2026_No392_General_Liquidity Enhancement Scheme (LES) for MCX Electricity Futures (Monthly Base Load) Contract.pdf
-2026-07-08 22:57:41,203 INFO     Saving : 08-Jul-2026_No391_MCXCCL_Review of Margin Period of Risk (MPOR).pdf
-2026-07-08 22:57:41,751 INFO     
-2026-07-08 22:57:41,751 INFO     MCX Summary
-2026-07-08 22:57:41,752 INFO     -------------------------
-2026-07-08 22:57:41,752 INFO     Total Circulars Found : 5
-2026-07-08 22:57:41,752 INFO     Already Processed     : 0
-2026-07-08 22:57:41,752 INFO     Downloaded            : 5
-2026-07-08 22:57:41,752 INFO     Failed                : 0
-2026-07-09 11:42:21,963 INFO     
-2026-07-09 11:42:21,965 INFO     ========== MCX ==========
-2026-07-09 11:42:21,965 INFO     Fetching page 1
-2026-07-09 11:42:24,922 INFO     Page 1/0
-2026-07-09 11:42:24,924 INFO     Total Circulars Found : 0
-2026-07-09 11:42:24,924 INFO     Already Processed     : 0
-2026-07-09 11:42:24,924 INFO     No new circulars found.
-2026-07-13 10:34:47,517 INFO     
-2026-07-13 10:34:47,522 INFO     ========== MCX ==========
-2026-07-13 10:34:47,522 INFO     Fetching page 1
-2026-07-13 10:35:00,480 INFO     Page 1/0
-2026-07-13 10:35:00,482 INFO     Total Circulars Found : 0
-2026-07-13 10:35:00,482 INFO     Already Processed     : 0
-2026-07-13 10:35:00,482 INFO     No new circulars found.
+2026-07-15 10:39:26,938 INFO     
+2026-07-15 10:39:26,939 INFO     ========== MCX ==========
+2026-07-15 10:39:26,939 INFO     Fetching page 1
+2026-07-15 10:39:28,650 INFO     Page 1/0
+2026-07-15 10:39:28,653 INFO     Total Circulars Found : 0
+2026-07-15 10:39:28,653 INFO     Already Processed     : 0
+2026-07-15 10:39:28,653 INFO     No new circulars found.
+2026-07-20 16:11:30,086 INFO     
+2026-07-20 16:11:30,086 INFO     ========== MCX ==========
+2026-07-20 16:11:30,086 INFO     Fetching page 1
+2026-07-20 16:11:32,325 INFO     Page 1/0
+2026-07-20 16:11:32,327 INFO     Total Circulars Found : 0
+2026-07-20 16:11:32,327 INFO     Already Processed     : 0
+2026-07-20 16:11:32,327 INFO     No new circulars found.
+2026-07-20 16:51:11,471 INFO     
+2026-07-20 16:51:11,472 INFO     ========== MCX ==========
+2026-07-20 16:51:11,472 INFO     Fetching page 1
+2026-07-20 16:51:12,741 INFO     Page 1/0
+2026-07-20 16:51:12,743 INFO     Total Circulars Found : 0
+2026-07-20 16:51:12,743 INFO     Already Processed     : 0
+2026-07-20 16:51:12,743 INFO     No new circulars found.
+2026-07-21 11:09:15,203 INFO     
+2026-07-21 11:09:15,204 INFO     ========== MCX ==========
+2026-07-21 11:09:15,204 INFO     Fetching page 1
+2026-07-21 11:09:19,401 INFO     Page 1/0
+2026-07-21 11:09:19,403 INFO     Total Circulars Found : 0
+2026-07-21 11:09:19,403 INFO     Already Processed     : 0
+2026-07-21 11:09:19,403 INFO     No new circulars found.
+2026-07-21 14:43:29,628 INFO     
+2026-07-21 14:43:29,629 INFO     ========== MCX ==========
+2026-07-21 14:43:29,629 INFO     Fetching page 1
+2026-07-21 14:43:30,887 INFO     Page 1/1
+2026-07-21 14:43:30,889 INFO     Total Circulars Found : 1
+2026-07-21 14:43:30,935 INFO     Already Processed     : 0
+2026-07-21 14:43:30,935 INFO     Saving : 21-Jul-2026_No422_MCXCCL_Due Date Rates.pdf
+2026-07-21 14:43:31,495 INFO     
+2026-07-21 14:43:31,495 INFO     MCX Summary
+2026-07-21 14:43:31,496 INFO     -------------------------
+2026-07-21 14:43:31,496 INFO     Total Circulars Found : 1
+2026-07-21 14:43:31,496 INFO     Already Processed     : 0
+2026-07-21 14:43:31,496 INFO     Downloaded            : 1
+2026-07-21 14:43:31,496 INFO     Failed                : 0
+2026-07-22 11:03:36,533 INFO     
+2026-07-22 11:03:36,534 INFO     ========== MCX ==========
+2026-07-22 11:03:36,534 INFO     Fetching page 1
+2026-07-22 11:03:38,021 INFO     Page 1/0
+2026-07-22 11:03:38,023 INFO     Total Circulars Found : 0
+2026-07-22 11:03:38,023 INFO     Already Processed     : 0
+2026-07-22 11:03:38,023 INFO     No new circulars found.

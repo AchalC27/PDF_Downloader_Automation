@@ -6,7 +6,7 @@ DB_PASSWORD = os.environ.get("DASH_DB_PASSWORD", "Achal@27")
 DB_NAME = os.environ.get("DASH_DB_NAME", "file_downloader")
 
 DASHBOARD_HOST = os.environ.get("DASH_HOST", "0.0.0.0")
-DASHBOARD_PORT = int(os.environ.get("DASH_PORT", "5000"))
+DASHBOARD_PORT = int(os.environ.get("DASH_PORT", "5001"))
 DASHBOARD_DEBUG = os.environ.get("DASH_DEBUG", "1") == "1"
 
 # Known extractor sources (used as fallback list + colour assignment order).

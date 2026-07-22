@@ -1,90 +1,12 @@
-2026-07-07 15:16:51,540 INFO     1783077132079.pdf already exists in database. Skipping.
-2026-07-07 15:16:52,360 INFO     1782299902147.pdf already exists in database. Skipping.
-2026-07-07 15:16:53,233 INFO     1781863954185.pdf already exists in database. Skipping.
-2026-07-07 15:16:54,098 INFO     1781613591249.pdf already exists in database. Skipping.
-2026-07-07 15:16:56,419 INFO     1781524158363.pdf already exists in database. Skipping.
-2026-07-07 15:16:58,357 INFO     1781182579546.pdf already exists in database. Skipping.
-2026-07-07 15:16:59,226 INFO     1780397706130.pdf already exists in database. Skipping.
-2026-07-07 15:17:00,126 INFO     1779193408747.pdf already exists in database. Skipping.
-2026-07-07 15:17:02,019 INFO     1778844282193.pdf already exists in database. Skipping.
-2026-07-07 15:17:02,895 INFO     1778844118656.pdf already exists in database. Skipping.
-2026-07-07 15:17:03,740 INFO     1778242522289.pdf already exists in database. Skipping.
-2026-07-07 15:17:12,239 INFO     1778149088029.pdf already exists in database. Skipping.
-2026-07-07 15:17:13,131 INFO     1777994522786.pdf already exists in database. Skipping.
-2026-07-07 15:17:15,037 INFO     1777992004516.pdf already exists in database. Skipping.
-2026-07-07 15:17:19,237 INFO     1777545192885.pdf already exists in database. Skipping.
-2026-07-07 15:17:21,222 INFO     1777473564120.pdf already exists in database. Skipping.
-2026-07-07 15:17:24,272 INFO     1777434657240.pdf already exists in database. Skipping.
-2026-07-07 15:17:25,122 INFO     1777030013013.pdf already exists in database. Skipping.
-2026-07-07 15:17:27,164 INFO     1776311392280.pdf already exists in database. Skipping.
-2026-07-07 15:17:28,104 INFO     1776082646745.pdf already exists in database. Skipping.
-2026-07-07 15:17:29,054 INFO     1775650797133.pdf already exists in database. Skipping.
-2026-07-07 15:17:29,930 INFO     1775562977206.pdf already exists in database. Skipping.
-2026-07-07 15:17:30,786 INFO     1775561723309.pdf already exists in database. Skipping.
-2026-07-07 15:17:31,666 INFO     1774433908492.pdf already exists in database. Skipping.
-2026-07-07 15:17:39,824 INFO     1774433771470.pdf already exists in database. Skipping.
-2026-07-07 15:17:39,827 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-07 15:19:59,577 INFO     1783077132079.pdf already exists in database. Skipping.
-2026-07-07 15:20:00,645 INFO     1782299902147.pdf already exists in database. Skipping.
-2026-07-07 15:20:02,892 INFO     1781863954185.pdf already exists in database. Skipping.
-2026-07-07 15:20:03,998 INFO     1781613591249.pdf already exists in database. Skipping.
-2026-07-07 15:20:06,190 INFO     1781524158363.pdf already exists in database. Skipping.
-2026-07-07 15:20:07,140 INFO     1781182579546.pdf already exists in database. Skipping.
-2026-07-07 15:20:09,276 INFO     1780397706130.pdf already exists in database. Skipping.
-2026-07-07 15:20:12,583 INFO     1779193408747.pdf already exists in database. Skipping.
-2026-07-07 15:20:13,539 INFO     1778844282193.pdf already exists in database. Skipping.
-2026-07-07 15:20:14,463 INFO     1778844118656.pdf already exists in database. Skipping.
-2026-07-07 15:20:15,397 INFO     1778242522289.pdf already exists in database. Skipping.
-2026-07-07 15:20:16,362 INFO     1778149088029.pdf already exists in database. Skipping.
-2026-07-07 15:20:17,450 INFO     1777994522786.pdf already exists in database. Skipping.
-2026-07-07 15:20:18,440 INFO     1777992004516.pdf already exists in database. Skipping.
-2026-07-07 15:20:19,545 INFO     1777545192885.pdf already exists in database. Skipping.
-2026-07-07 15:20:20,583 INFO     1777473564120.pdf already exists in database. Skipping.
-2026-07-07 15:20:21,457 INFO     1777434657240.pdf already exists in database. Skipping.
-2026-07-07 15:20:22,301 INFO     1777030013013.pdf already exists in database. Skipping.
-2026-07-07 15:20:23,147 INFO     1776311392280.pdf already exists in database. Skipping.
-2026-07-07 15:20:24,025 INFO     1776082646745.pdf already exists in database. Skipping.
-2026-07-07 15:20:24,918 INFO     1775650797133.pdf already exists in database. Skipping.
-2026-07-07 15:20:25,782 INFO     1775562977206.pdf already exists in database. Skipping.
-2026-07-07 15:20:26,810 INFO     1775561723309.pdf already exists in database. Skipping.
-2026-07-07 15:20:27,650 INFO     1774433908492.pdf already exists in database. Skipping.
-2026-07-07 15:20:28,602 INFO     1774433771470.pdf already exists in database. Skipping.
-2026-07-07 15:20:28,604 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-07 15:23:37,653 INFO     1783077132079.pdf already exists in database. Skipping.
-2026-07-07 15:23:38,915 INFO     1782299902147.pdf already exists in database. Skipping.
-2026-07-07 15:23:40,172 INFO     1781863954185.pdf already exists in database. Skipping.
-2026-07-07 15:23:41,401 INFO     1781613591249.pdf already exists in database. Skipping.
-2026-07-07 15:23:42,597 INFO     1781524158363.pdf already exists in database. Skipping.
-2026-07-07 15:23:43,719 INFO     1781182579546.pdf already exists in database. Skipping.
-2026-07-07 15:23:44,847 INFO     1780397706130.pdf already exists in database. Skipping.
-2026-07-07 15:23:45,935 INFO     1779193408747.pdf already exists in database. Skipping.
-2026-07-07 15:23:47,385 INFO     1778844282193.pdf already exists in database. Skipping.
-2026-07-07 15:23:48,699 INFO     1778844118656.pdf already exists in database. Skipping.
-2026-07-07 15:23:49,923 INFO     1778242522289.pdf already exists in database. Skipping.
-2026-07-07 15:23:51,265 INFO     1778149088029.pdf already exists in database. Skipping.
-2026-07-07 15:23:52,423 INFO     1777994522786.pdf already exists in database. Skipping.
-2026-07-07 15:23:53,710 INFO     1777992004516.pdf already exists in database. Skipping.
-2026-07-07 15:23:54,986 INFO     1777545192885.pdf already exists in database. Skipping.
-2026-07-07 15:23:56,227 INFO     1777473564120.pdf already exists in database. Skipping.
-2026-07-07 15:23:57,346 INFO     1777434657240.pdf already exists in database. Skipping.
-2026-07-07 15:23:58,432 INFO     1777030013013.pdf already exists in database. Skipping.
-2026-07-07 15:23:59,500 INFO     1776311392280.pdf already exists in database. Skipping.
-2026-07-07 15:24:00,522 INFO     1776082646745.pdf already exists in database. Skipping.
-2026-07-07 15:24:01,732 INFO     1775650797133.pdf already exists in database. Skipping.
-2026-07-07 15:24:02,888 INFO     1775562977206.pdf already exists in database. Skipping.
-2026-07-07 15:24:04,145 INFO     1775561723309.pdf already exists in database. Skipping.
-2026-07-07 15:24:05,306 INFO     1774433908492.pdf already exists in database. Skipping.
-2026-07-07 15:24:06,464 INFO     1774433771470.pdf already exists in database. Skipping.
-2026-07-07 15:24:06,466 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-07 15:30:34,343 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-07 15:32:57,360 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-07 15:46:56,674 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-07 15:57:50,785 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-07 16:01:35,288 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-07 16:12:40,337 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-07 17:37:26,760 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-08 22:58:41,623 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-09 11:44:31,622 INFO     SEBI → found 25 circulars, downloaded 0 new
-2026-07-13 10:37:58,479 INFO       ✔  Saved  C:\ISEC\PDF_Downloader_Automation\downloads\SEBI\2026-07-13\1783685402131.pdf
-2026-07-13 10:37:58,607 INFO     Downloaded: 1783685402131.pdf
-2026-07-13 10:38:35,612 INFO     SEBI → found 25 circulars, downloaded 1 new
+2026-07-15 10:40:48,136 INFO     SEBI → found 25 circulars, downloaded 0 new
+2026-07-20 16:12:38,268 INFO       ✔  Saved  C:\ISEC\PDF_Downloader_Automation\downloads\SEBI\2026-07-20\1784285542603.pdf
+2026-07-20 16:12:38,320 INFO     Downloaded: 1784285542603.pdf
+2026-07-20 16:13:14,866 INFO     SEBI → found 25 circulars, downloaded 1 new
+2026-07-20 16:52:29,315 INFO     SEBI → found 25 circulars, downloaded 0 new
+2026-07-21 11:10:39,884 INFO     SEBI → found 25 circulars, downloaded 0 new
+2026-07-21 14:44:21,840 INFO     SEBI → found 25 circulars, downloaded 0 new
+2026-07-22 11:04:16,760 INFO       ✔  Saved  C:\ISEC\PDF_Downloader_Automation\downloads\SEBI\2026-07-22\1784633350069.pdf
+2026-07-22 11:04:16,853 INFO     Downloaded: 1784633350069.pdf
+2026-07-22 11:04:18,040 INFO       ✔  Saved  C:\ISEC\PDF_Downloader_Automation\downloads\SEBI\2026-07-22\1784632576164.pdf
+2026-07-22 11:04:18,096 INFO     Downloaded: 1784632576164.pdf
+2026-07-22 11:04:31,570 INFO     SEBI → found 25 circulars, downloaded 2 new

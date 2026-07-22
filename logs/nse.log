@@ -1,225 +1,74 @@
-2026-07-07 15:15:01,927 INFO     
-2026-07-07 15:15:01,927 INFO     ========== NSE ==========
-2026-07-07 15:15:02,981 INFO     Total Circulars Found : 3
-2026-07-07 15:15:03,380 INFO     Already Processed     : 2
-2026-07-07 15:15:03,381 INFO     Saving : NSE_CML_75077_Listing of Equity Shares of Knack Packaging Limited (IPO).pdf
-2026-07-07 15:15:03,493 INFO     
-2026-07-07 15:15:03,493 INFO     NSE Summary
-2026-07-07 15:15:03,494 INFO     -------------------------
-2026-07-07 15:15:03,494 INFO     Total Circulars Found : 3
-2026-07-07 15:15:03,494 INFO     Already Processed     : 2
-2026-07-07 15:15:03,494 INFO     Downloaded            : 1
-2026-07-07 15:15:03,495 INFO     Failed                : 0
-2026-07-07 15:18:02,584 INFO     
-2026-07-07 15:18:02,585 INFO     ========== NSE ==========
-2026-07-07 15:18:04,285 INFO     Total Circulars Found : 3
-2026-07-07 15:18:04,623 INFO     Already Processed     : 3
-2026-07-07 15:18:04,624 INFO     No new circulars found.
-2026-07-07 15:21:51,371 INFO     
-2026-07-07 15:21:51,371 INFO     ========== NSE ==========
-2026-07-07 15:21:52,420 INFO     Total Circulars Found : 3
-2026-07-07 15:21:52,870 INFO     Already Processed     : 3
-2026-07-07 15:21:52,870 INFO     No new circulars found.
-2026-07-07 15:28:19,033 INFO     
-2026-07-07 15:28:19,033 INFO     ========== NSE ==========
-2026-07-07 15:28:20,247 INFO     Total Circulars Found : 3
-2026-07-07 15:28:20,757 INFO     Already Processed     : 3
-2026-07-07 15:28:20,757 INFO     No new circulars found.
-2026-07-07 15:30:45,837 INFO     
-2026-07-07 15:30:45,837 INFO     ========== NSE ==========
-2026-07-07 15:30:46,842 INFO     Total Circulars Found : 3
-2026-07-07 15:30:47,233 INFO     Already Processed     : 3
-2026-07-07 15:30:47,234 INFO     No new circulars found.
-2026-07-07 15:44:10,467 INFO     
-2026-07-07 15:44:10,468 INFO     ========== NSE ==========
-2026-07-07 15:44:11,647 INFO     Total Circulars Found : 3
-2026-07-07 15:44:12,248 INFO     Already Processed     : 3
-2026-07-07 15:44:12,248 INFO     No new circulars found.
-2026-07-07 15:55:04,462 INFO     
-2026-07-07 15:55:04,463 INFO     ========== NSE ==========
-2026-07-07 15:55:05,592 INFO     Total Circulars Found : 3
-2026-07-07 15:55:06,090 INFO     Already Processed     : 3
-2026-07-07 15:55:06,091 INFO     No new circulars found.
-2026-07-07 15:58:55,953 INFO     
-2026-07-07 15:58:55,954 INFO     ========== NSE ==========
-2026-07-07 15:58:57,334 INFO     Total Circulars Found : 3
-2026-07-07 15:58:57,799 INFO     Already Processed     : 3
-2026-07-07 15:58:57,800 INFO     No new circulars found.
-2026-07-07 16:09:56,260 INFO     
-2026-07-07 16:09:56,261 INFO     ========== NSE ==========
-2026-07-07 16:09:57,300 INFO     Total Circulars Found : 3
-2026-07-07 16:09:57,636 INFO     Already Processed     : 3
-2026-07-07 16:09:57,637 INFO     No new circulars found.
-2026-07-07 17:35:41,864 INFO     
-2026-07-07 17:35:41,864 INFO     ========== NSE ==========
-2026-07-07 17:35:42,784 INFO     Total Circulars Found : 12
-2026-07-07 17:35:42,933 INFO     Duplicate API entry skipped : NSE_CML_75079_Trade for Trade - Vinit Mobile Limited (SME IPO).pdf
-2026-07-07 17:35:43,177 INFO     Duplicate API entry skipped : NSE_CML_75051_Trade for Trade - Teja Engineering Industries Limited (SME IPO).pdf
-2026-07-07 17:35:43,179 INFO     
-2026-07-07 17:35:43,179 INFO     NSE Summary
-2026-07-07 17:35:43,179 INFO     ----------------------------
-2026-07-07 17:35:43,179 INFO     Total Circulars Found : 12
-2026-07-07 17:35:43,179 INFO     Already Processed     : 10
-2026-07-07 17:35:43,179 INFO     Downloaded            : 0
-2026-07-07 17:35:43,180 INFO     Failed                : 0
-2026-07-08 09:43:01,683 INFO     
-2026-07-08 09:43:01,683 INFO     ========== NSE ==========
-2026-07-08 09:43:03,076 INFO     Total Circulars Found : 0
-2026-07-08 09:43:03,079 INFO     
-2026-07-08 09:43:03,079 INFO     NSE Summary
-2026-07-08 09:43:03,079 INFO     ----------------------------
-2026-07-08 09:43:03,080 INFO     Total Circulars Found : 0
-2026-07-08 09:43:03,080 INFO     Already Processed     : 0
-2026-07-08 09:43:03,080 INFO     Downloaded            : 0
-2026-07-08 09:43:03,080 INFO     Failed                : 0
-2026-07-08 22:54:07,736 INFO     
-2026-07-08 22:54:07,737 INFO     ========== NSE ==========
-2026-07-08 22:54:18,165 INFO     Total Circulars Found : 30
-2026-07-08 22:54:18,314 INFO     Saving : NSE_COMP_75118_Declaration as Defaulter- SIC Stocks & Services Private Limited.pdf
-2026-07-08 22:54:18,460 INFO     Saving : NSE_CML_75117_Listing of further issue of Adani Enterprises Limited.pdf
-2026-07-08 22:54:18,600 INFO     Saving : NSE_CML_75116_Listing of units issued by Kotak Mahindra Asset Management Company Limited (Infinity Hybrid Long-Short Fund).pdf
-2026-07-08 22:54:18,736 INFO     Saving : NSE_COM_75115_Introduction of Indian Natural Gas Futures contracts in the NSE Commodity Derivatives Segment.pdf
-2026-07-08 22:54:18,860 INFO     Saving : NSE_CML_75114_Listing of Treasury Bills (T-bills) and State Development Loans (SDLs) on capital market segment.pdf
-2026-07-08 22:54:18,976 INFO     Saving : NSE_CML_75113_Listing of Equity Shares of Gyftr Limited (New Listing).zip
-2026-07-08 22:54:19,080 INFO     Saving : NSE_CML_75112_Listing of further issues of securities.pdf
-2026-07-08 22:54:19,138 INFO     Duplicate API entry skipped : NSE_CML_75112_Listing of further issues of securities.pdf
-2026-07-08 22:54:19,189 INFO     Saving : NSE_CML_75111_Listing of further issues of securities.pdf
-2026-07-08 22:54:19,279 INFO     Saving : NSE_CML_75110_Listing of privately placed securities on the debt market segment of the Exchange.pdf
-2026-07-08 22:54:19,320 INFO     Duplicate API entry skipped : NSE_CML_75110_Listing of privately placed securities on the debt market segment of the Exchange.pdf
-2026-07-08 22:54:19,358 INFO     Saving : NSE_CML_75109_Listing of privately placed securities on capital market segment.pdf
-2026-07-08 22:54:19,435 INFO     Saving : NSE_CML_75108_Listing of further issue of Lloyds Enterprises Limited.pdf
-2026-07-08 22:54:19,516 INFO     Saving : NSE_SURV_75107_Applicability of Short-Term Additional Surveillance Measure (ST-ASM).zip
-2026-07-08 22:54:19,597 INFO     Saving : NSE_SURV_75106_Applicability of Additional Surveillance Measure (ASM).zip
-2026-07-08 22:54:19,676 INFO     Saving : NSE_SURV_75105_Applicability of Enhanced Surveillance Measure (ESM).zip
-2026-07-08 22:54:19,756 INFO     Saving : NSE_CML_75104_Trading of Rights Entitlements pursuant to Rights Issue of Ganga Forging Limited.pdf
-2026-07-08 22:54:19,836 INFO     Saving : NSE_CML_75103_Listing of further issue of Grasim Industries Limited.pdf
-2026-07-08 22:54:19,917 INFO     Saving : NSE_CML_75102_Change in ISIN - ETFs of Kotak Nifty PSU Bank ETF.pdf
-2026-07-08 22:54:20,013 INFO     Saving : NSE_CML_75101_Change in name and symbol of Lypsa Gems & Jewellery Limited.pdf
-2026-07-08 22:54:20,114 INFO     Saving : NSE_CML_75100_Listing & Trading of Equity Shares pursuant to Bonus Issue of Goldiam International Limited.pdf
-2026-07-08 22:54:20,209 INFO     Saving : NSE_CML_75099_Suspension of trading in Non-Convertible Securities (Privately Placed).pdf
-2026-07-08 22:54:20,264 INFO     Duplicate API entry skipped : NSE_CML_75099_Suspension of trading in Non-Convertible Securities (Privately Placed).pdf
-2026-07-08 22:54:20,314 INFO     Saving : NSE_FAOP_75098_Mock trading on Saturday, July 11, 2026 - Testing of trading modalities related to Introduction of Closing Auction Sessi.pdf
-2026-07-08 22:54:20,404 INFO     Saving : NSE_CMTR_75097_Mock trading on Saturday, July 11, 2026 - Testing of trading modalities related to Introduction of Closing Auction Sessi.pdf
-2026-07-08 22:54:20,455 INFO     Duplicate API entry skipped : NSE_CMTR_75097_Mock trading on Saturday, July 11, 2026 - Testing of trading modalities related to Introduction of Closing Auction Sessi.pdf
-2026-07-08 22:54:20,495 INFO     Saving : NSE_NMF_75096_Temporary Suspension of Fresh Systematic Registration (SIP) in certain schemes of PGIM Mutual Fund on NSE MF Invest Plat.zip
-2026-07-08 22:54:20,581 INFO     Saving : NSE_NMF_75095_Availability of Infinity Hybrid Long-Short Fund NFO under Specialized Investment Fund (SIF) on NSE MF Invest Platform.pdf
-2026-07-08 22:54:20,671 INFO     Saving : NSE_COMP_75094_Segmental Surrender of Membership.pdf
-2026-07-08 22:54:20,758 INFO     Saving : NCL_CMPT_75093_Settlement Calendar for Buyback Offer under Tender Offer scheme by Rolex Rings Limited..pdf
-2026-07-08 22:54:20,809 INFO     
-2026-07-08 22:54:20,809 INFO     NSE Summary
-2026-07-08 22:54:20,809 INFO     ----------------------------
-2026-07-08 22:54:20,809 INFO     Total Circulars Found : 30
-2026-07-08 22:54:20,809 INFO     Already Processed     : 0
-2026-07-08 22:54:20,809 INFO     Downloaded            : 26
-2026-07-08 22:54:20,809 INFO     Failed                : 0
-2026-07-08 23:09:18,764 INFO     
-2026-07-08 23:09:18,764 INFO     ========== NSE ==========
-2026-07-08 23:09:19,769 INFO     Total Circulars Found : 30
-2026-07-08 23:09:20,179 INFO     Duplicate API entry skipped : NSE_CML_75112_Listing of further issues of securities.pdf
-2026-07-08 23:09:20,265 INFO     Duplicate API entry skipped : NSE_CML_75110_Listing of privately placed securities on the debt market segment of the Exchange.pdf
-2026-07-08 23:09:20,720 INFO     Duplicate API entry skipped : NSE_CML_75099_Suspension of trading in Non-Convertible Securities (Privately Placed).pdf
-2026-07-08 23:09:20,821 INFO     Duplicate API entry skipped : NSE_CMTR_75097_Mock trading on Saturday, July 11, 2026 - Testing of trading modalities related to Introduction of Closing Auction Sessi.pdf
-2026-07-08 23:09:20,990 INFO     
-2026-07-08 23:09:20,990 INFO     NSE Summary
-2026-07-08 23:09:20,991 INFO     ----------------------------
-2026-07-08 23:09:20,991 INFO     Total Circulars Found : 30
-2026-07-08 23:09:20,991 INFO     Already Processed     : 26
-2026-07-08 23:09:20,991 INFO     Downloaded            : 0
-2026-07-08 23:09:20,991 INFO     Failed                : 0
-2026-07-08 23:15:28,403 INFO     
-2026-07-08 23:15:28,403 INFO     ========== NSE ==========
-2026-07-08 23:15:29,778 INFO     Total Circulars Found : 30
-2026-07-08 23:15:30,121 INFO     Duplicate API entry skipped : NSE_CML_75112_Listing of further issues of securities.pdf
-2026-07-08 23:15:30,195 INFO     Duplicate API entry skipped : NSE_CML_75110_Listing of privately placed securities on the debt market segment of the Exchange.pdf
-2026-07-08 23:15:30,591 INFO     Duplicate API entry skipped : NSE_CML_75099_Suspension of trading in Non-Convertible Securities (Privately Placed).pdf
-2026-07-08 23:15:30,661 INFO     Duplicate API entry skipped : NSE_CMTR_75097_Mock trading on Saturday, July 11, 2026 - Testing of trading modalities related to Introduction of Closing Auction Sessi.pdf
-2026-07-08 23:15:30,806 INFO     
-2026-07-08 23:15:30,807 INFO     NSE Summary
-2026-07-08 23:15:30,807 INFO     ----------------------------
-2026-07-08 23:15:30,807 INFO     Total Circulars Found : 30
-2026-07-08 23:15:30,807 INFO     Already Processed     : 26
-2026-07-08 23:15:30,807 INFO     Downloaded            : 0
-2026-07-08 23:15:30,807 INFO     Failed                : 0
-2026-07-08 23:17:39,770 INFO     
-2026-07-08 23:17:39,770 INFO     ========== NSE ==========
-2026-07-08 23:17:48,752 INFO     Total Circulars Found : 30
-2026-07-08 23:17:49,929 INFO     Already Processed     : 24
-2026-07-08 23:17:49,929 INFO     Saving : NSE_CML_75116_Listing of units issued by Kotak Mahindra Asset Management Company Limited (Infinity Hybrid Long-Sho.pdf
-2026-07-08 23:17:49,984 INFO     Saving : NSE_FAOP_75098_Mock trading on Saturday, July 11, 2026 - Testing of trading modalities related to Introduction of C.pdf
-2026-07-08 23:17:50,029 INFO     Saving : NSE_CMTR_75097_Mock trading on Saturday, July 11, 2026 - Testing of trading modalities related to Introduction of C.pdf
-2026-07-08 23:17:50,071 INFO     Saving : NSE_CMTR_75097_Mock trading on Saturday, July 11, 2026 - Testing of trading modalities related to Introduction of C.pdf
-2026-07-08 23:17:50,112 ERROR    Failed : NSE_CMTR_75097_Mock trading on Saturday, July 11, 2026 - Testing of trading modalities related to Introduction of C.pdf
-Traceback (most recent call last):
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\nse.py", line 141, in download_nse
-    save_pdf(
-    ~~~~~~~~^
-        source="NSE",
-        ^^^^^^^^^^^^^
-    ...<2 lines>...
-        category=category,
-        ^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "C:\ISEC\PDF_Downloader_Automation\extractors\db.py", line 37, in save_pdf
-    cursor.execute("""
-    ~~~~~~~~~~~~~~^^^^
-        INSERT INTO store_pdf
-        ^^^^^^^^^^^^^^^^^^^^^
-    ...<7 lines>...
-        category
-        ^^^^^^^^
-    ))
-    ^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\cursor.py", line 748, in execute
-    self._handle_result(self._connection.cmd_query(stmt))
-                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 102, in wrapper
-    return method(cnx, *args, **kwargs)
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 861, in cmd_query
-    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
-  File "C:\Users\admin\AppData\Local\Programs\Python\Python314\Lib\site-packages\mysql\connector\connection.py", line 637, in _handle_result
-    raise get_exception(packet)
-mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry 'NSE-NSE_CMTR_75097_Mock trading on Saturday, July 11, 2026 - Tes' for key 'store_pdf.unique_source_pdf'
-2026-07-08 23:17:50,160 INFO     Saving : NSE_NMF_75096_Temporary Suspension of Fresh Systematic Registration (SIP) in certain schemes of PGIM Mutual Fund o.zip
-2026-07-08 23:17:50,203 INFO     Saving : NSE_NMF_75095_Availability of Infinity Hybrid Long-Short Fund NFO under Specialized Investment Fund (SIF) on NSE M.pdf
-2026-07-08 23:17:50,250 INFO     
-2026-07-08 23:17:50,250 INFO     NSE Summary
-2026-07-08 23:17:50,250 INFO     -------------------------
-2026-07-08 23:17:50,250 INFO     Total Circulars Found : 30
-2026-07-08 23:17:50,250 INFO     Already Processed     : 24
-2026-07-08 23:17:50,251 INFO     Downloaded            : 5
-2026-07-08 23:17:50,251 INFO     Failed                : 1
-2026-07-08 23:18:11,555 INFO     
-2026-07-08 23:18:11,555 INFO     ========== NSE ==========
-2026-07-08 23:18:14,713 INFO     Total Circulars Found : 30
-2026-07-08 23:18:15,809 INFO     Already Processed     : 30
-2026-07-08 23:18:15,810 INFO     No new circulars found.
-2026-07-08 23:23:10,935 INFO     
-2026-07-08 23:23:10,935 INFO     ========== NSE ==========
-2026-07-08 23:23:11,849 INFO     Total Circulars Found : 30
-2026-07-08 23:23:13,034 INFO     Already Processed     : 30
-2026-07-08 23:23:13,034 INFO     No new circulars found.
-2026-07-09 11:40:32,062 INFO     
-2026-07-09 11:40:32,062 INFO     ========== NSE ==========
-2026-07-09 11:40:33,427 INFO     Total Circulars Found : 1
-2026-07-09 11:40:33,933 INFO     Already Processed     : 0
-2026-07-09 11:40:33,933 INFO     Saving : NSE_NMF_75119_Temporary Suspension of Fresh Systematic Registration through (SIP_STP) in certain schemes of Frankl.zip
-2026-07-09 11:40:34,080 INFO     
-2026-07-09 11:40:34,080 INFO     NSE Summary
-2026-07-09 11:40:34,080 INFO     -------------------------
-2026-07-09 11:40:34,081 INFO     Total Circulars Found : 1
-2026-07-09 11:40:34,081 INFO     Already Processed     : 0
-2026-07-09 11:40:34,081 INFO     Downloaded            : 1
-2026-07-09 11:40:34,082 INFO     Failed                : 0
-2026-07-09 11:41:08,704 INFO     
-2026-07-09 11:41:08,704 INFO     ========== NSE ==========
-2026-07-09 11:41:09,905 INFO     Total Circulars Found : 1
-2026-07-09 11:41:10,094 INFO     Already Processed     : 1
-2026-07-09 11:41:10,094 INFO     No new circulars found.
-2026-07-10 10:32:15,522 INFO     
-2026-07-10 10:32:15,523 INFO     ========== NSE ==========
-2026-07-13 10:33:14,354 INFO     
-2026-07-13 10:33:14,354 INFO     ========== NSE ==========
-2026-07-13 10:33:15,617 INFO     Total Circulars Found : 0
-2026-07-13 10:33:15,617 INFO     Already Processed     : 0
-2026-07-13 10:33:15,617 INFO     No new circulars found.
+2026-07-15 10:38:27,223 INFO     
+2026-07-15 10:38:27,224 INFO     ========== NSE ==========
+2026-07-15 10:38:28,880 INFO     Total Circulars Found : 1
+2026-07-15 10:38:29,528 INFO     Already Processed     : 0
+2026-07-15 10:38:29,529 INFO     Saving : NSE_NMF_75168_Launch of Abakkus Large & Mid Cap Fund NFO on NSE MF Invest Platform.pdf
+2026-07-15 10:38:29,678 INFO     
+2026-07-15 10:38:29,679 INFO     NSE Summary
+2026-07-15 10:38:29,679 INFO     -------------------------
+2026-07-15 10:38:29,679 INFO     Total Circulars Found : 1
+2026-07-15 10:38:29,680 INFO     Already Processed     : 0
+2026-07-15 10:38:29,680 INFO     Downloaded            : 1
+2026-07-15 10:38:29,680 INFO     Failed                : 0
+2026-07-20 16:11:16,191 INFO     
+2026-07-20 16:11:16,191 INFO     ========== NSE ==========
+2026-07-20 16:11:17,148 INFO     Total Circulars Found : 3
+2026-07-20 16:11:17,608 INFO     Already Processed     : 0
+2026-07-20 16:11:17,609 INFO     Saving : NSE_CML_75266_Listing of Equity Shares of Alpine Texworld Limited (IPO).pdf
+2026-07-20 16:11:17,731 INFO     Saving : NSE_CMTR_75253_Buyback Offer under Tender Offer scheme by Orbit Exports Limited.pdf
+2026-07-20 16:11:17,825 INFO     Saving : NSE_CML_75252_Listing of Equity Shares of SBI Funds Management Limited (IPO).pdf
+2026-07-20 16:11:17,906 INFO     
+2026-07-20 16:11:17,907 INFO     NSE Summary
+2026-07-20 16:11:17,907 INFO     -------------------------
+2026-07-20 16:11:17,907 INFO     Total Circulars Found : 3
+2026-07-20 16:11:17,907 INFO     Already Processed     : 0
+2026-07-20 16:11:17,907 INFO     Downloaded            : 3
+2026-07-20 16:11:17,908 INFO     Failed                : 0
+2026-07-20 16:50:23,865 INFO     
+2026-07-20 16:50:23,866 INFO     ========== NSE ==========
+2026-07-20 16:50:35,733 INFO     Total Circulars Found : 6
+2026-07-20 16:50:36,049 INFO     Already Processed     : 0
+2026-07-20 16:50:36,049 INFO     Saving : NCL_CMPT_75273_Settlement Calendar for Buyback Offer under Tender offer scheme by Orbit Exports limited..pdf
+2026-07-20 16:50:36,098 INFO     Saving : NCL_CMPT_75270_Early Pay-in of Securities for P S Raj Steels Limited (PSRAJ).pdf
+2026-07-20 16:50:36,143 INFO     Saving : NCL_CMPT_75268_Early Pay-in of Securities for Pondy Oxides & Chemicals Limited (POCL).pdf
+2026-07-20 16:50:36,186 INFO     Saving : NSE_CML_75266_Listing of Equity Shares of Alpine Texworld Limited (IPO).pdf
+2026-07-20 16:50:36,231 INFO     Saving : NSE_CMTR_75253_Buyback Offer under Tender Offer scheme by Orbit Exports Limited.pdf
+2026-07-20 16:50:36,274 INFO     Saving : NSE_CML_75252_Listing of Equity Shares of SBI Funds Management Limited (IPO).pdf
+2026-07-20 16:50:36,322 INFO     
+2026-07-20 16:50:36,322 INFO     NSE Summary
+2026-07-20 16:50:36,322 INFO     -------------------------
+2026-07-20 16:50:36,322 INFO     Total Circulars Found : 6
+2026-07-20 16:50:36,322 INFO     Already Processed     : 0
+2026-07-20 16:50:36,322 INFO     Downloaded            : 6
+2026-07-20 16:50:36,323 INFO     Failed                : 0
+2026-07-21 11:08:53,518 INFO     
+2026-07-21 11:08:53,518 INFO     ========== NSE ==========
+2026-07-21 11:08:54,678 INFO     Total Circulars Found : 2
+2026-07-21 11:08:55,139 INFO     Already Processed     : 0
+2026-07-21 11:08:55,140 INFO     Saving : NSE_NMF_75281_Change in minimum amount under Systematic Investment Plan (SIP) in certain Schemes of Bank of India .zip
+2026-07-21 11:08:55,258 INFO     Saving : NSE_NMF_75267_Launch of AlphaGrep Flexi Cap Fund NFO on NSE MF Invest Platform.pdf
+2026-07-21 11:08:55,349 INFO     
+2026-07-21 11:08:55,350 INFO     NSE Summary
+2026-07-21 11:08:55,350 INFO     -------------------------
+2026-07-21 11:08:55,350 INFO     Total Circulars Found : 2
+2026-07-21 11:08:55,350 INFO     Already Processed     : 0
+2026-07-21 11:08:55,351 INFO     Downloaded            : 2
+2026-07-21 11:08:55,351 INFO     Failed                : 0
+2026-07-21 14:43:14,796 INFO     
+2026-07-21 14:43:14,796 INFO     ========== NSE ==========
+2026-07-21 14:43:15,673 INFO     Total Circulars Found : 4
+2026-07-21 14:43:16,068 INFO     Already Processed     : 2
+2026-07-21 14:43:16,068 INFO     Saving : NCL_CMPT_75303_CBRICS - Settlement Calendar for August 2026.pdf
+2026-07-21 14:43:16,137 INFO     Saving : NCL_CMPT_75298_Clearing, Settlement and Risk Management - Nifty India FPI 150 Index.pdf
+2026-07-21 14:43:16,191 INFO     
+2026-07-21 14:43:16,192 INFO     NSE Summary
+2026-07-21 14:43:16,192 INFO     -------------------------
+2026-07-21 14:43:16,192 INFO     Total Circulars Found : 4
+2026-07-21 14:43:16,192 INFO     Already Processed     : 2
+2026-07-21 14:43:16,192 INFO     Downloaded            : 2
+2026-07-21 14:43:16,192 INFO     Failed                : 0
+2026-07-22 11:03:24,567 INFO     
+2026-07-22 11:03:24,567 INFO     ========== NSE ==========
+2026-07-22 11:03:25,344 INFO     Total Circulars Found : 0
+2026-07-22 11:03:25,344 INFO     Already Processed     : 0
+2026-07-22 11:03:25,344 INFO     No new circulars found.
