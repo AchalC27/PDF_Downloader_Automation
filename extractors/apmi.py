@@ -9,6 +9,8 @@ from .helpers import (
     save_seen,
     get_page,
     safe_filename,
+    dest_for,
+    download_pdf,
 )
 
 APMI_BASE = "https://www.apmiindia.org"
@@ -16,9 +18,6 @@ APMI_HOME = "https://www.apmiindia.org/apmi/welcome.htm"
 
 
 def extract_pdf_links(node, pdf_links):
-    """
-    Recursively traverse the menu and collect all PDF URLs.
-    """
     if node.name == "a" and node.has_attr("href"):
         href = urljoin(APMI_HOME, node["href"].strip())
 
@@ -104,15 +103,12 @@ def scrape_apmi() -> tuple[int, int]:
             # log.info("%s already exists in database. Skipping.", filename)
             continue
 
-        # Download disabled.
-        # Keeping these lines commented in case local downloads
-        # are required again in the future.
-
-        # dest = dest_for("APMI", filename)
+        dest = dest_for("APMI", filename)
 
         log.info("Saving %s", filename)
 
-        # if download_pdf(pdf_url, dest, log):
+        if not download_pdf(pdf_url, dest, log):
+            continue
 
         save_pdf(
             source="APMI",

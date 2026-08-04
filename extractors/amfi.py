@@ -5,10 +5,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from extractors.json_handler import get_json_file, load_downloaded_urls
-
 from .logger import get_logger
-from .get_download import get_download
+from .helpers import load_seen, save_seen, dest_for, download_pdf
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("amfi")
@@ -63,9 +61,6 @@ def fetch_html():
         headers=HEADERS,
         timeout=30
     )
-
-    # AMFI currently returns a 404 status even though the HTML page
-    # contains the circular links. Only stop if there is no HTML.
     if not response.text.strip():
         response.raise_for_status()
 
@@ -85,45 +80,31 @@ def generate_filename(document_url):
     return f"{base}_{url_hash}{ext}"
 
 
-def download_documents(document_links, download_folder):
+def download_documents(document_links, seen):
     downloaded = 0
     failed = 0
 
     for document_url in document_links:
 
         filename = generate_filename(document_url)
-        filepath = os.path.join(download_folder, filename)
+        dest = dest_for("AMFI", filename)
 
-        try:
-            logger.info(f"Downloading : {filename}")
+        logger.info(f"Downloading : {filename}")
 
-            response = requests.get(
-                document_url,
-                headers=HEADERS,
-                timeout=60
-            )
-
-            if response.status_code == 404:
-                logger.warning(f"Broken document link (404): {document_url}")
-                continue
-
-            response.raise_for_status()
-
-            with open(filepath, "wb") as file:
-                file.write(response.content)
-
-            save_pdf(
-                source="AMFI",
-                pdf_name=filename,
-                pdf_link=document_url,
-                category="Circulars"
-            )
-
-            downloaded += 1
-
-        except Exception:
-            logger.exception(f"Failed : {filename}")
+        if not download_pdf(document_url, dest, logger):
             failed += 1
+            continue
+
+        save_pdf(
+            source="AMFI",
+            pdf_name=filename,
+            pdf_link=document_url,
+            category="Circulars"
+        )
+
+        seen.add(document_url)
+        downloaded += 1
+
     return downloaded, failed
 
 
@@ -131,7 +112,7 @@ def download_amfi():
     logger.info("")
     logger.info("========== AMFI ==========")
 
-    download_folder = get_download("amfi")
+    seen = load_seen("amfi")
 
     html = fetch_html()
     document_links = extract_amfi(html, BASE_URL)
@@ -157,12 +138,12 @@ def download_amfi():
 
     if not new_documents:
         logger.info("No new documents found.")
+        save_seen("amfi", seen)
         return
 
-    downloaded, failed = download_documents(
-        new_documents,
-        download_folder
-    )
+    downloaded, failed = download_documents(new_documents, seen)
+
+    save_seen("amfi", seen)
 
     logger.info("")
     logger.info("AMFI Summary")

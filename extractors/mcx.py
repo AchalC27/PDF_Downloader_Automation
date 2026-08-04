@@ -5,6 +5,7 @@ from datetime import date, datetime
 import requests
 
 from .logger import get_logger
+from .helpers import load_seen, save_seen, dest_for, download_pdf
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("mcx")
@@ -103,7 +104,7 @@ def build_filename(item):
     )
 
 
-def download_pdfs(circulars, output_dir=None):
+def download_pdfs(circulars, seen):
     downloaded = 0
     failed = 0
 
@@ -116,22 +117,16 @@ def download_pdfs(circulars, output_dir=None):
 
         category = item.get("CircularsCategory") or "Uncategorized"
 
+        logger.info(f"Saving : {filename}")
+
+        dest = dest_for("MCX", filename)
+
+        if not download_pdf(pdf_url, dest, logger, extra_headers=HEADERS):
+            failed += 1
+            time.sleep(DELAY)
+            continue
+
         try:
-            logger.info(f"Saving : {filename}")
-
-            # ---------------------------------------------------
-            # PDF Download Removed
-            #
-            # response = session.get(pdf_url, timeout=30)
-            # response.raise_for_status()
-            #
-            # filepath = output_dir / filename
-            # filepath.parent.mkdir(parents=True, exist_ok=True)
-            #
-            # with open(filepath, "wb") as file:
-            #     file.write(response.content)
-            # ---------------------------------------------------
-
             save_pdf(
                 source="MCX",
                 pdf_name=filename,
@@ -139,13 +134,14 @@ def download_pdfs(circulars, output_dir=None):
                 category=category,
             )
 
+            seen.add(pdf_url)
             downloaded += 1
-
-            time.sleep(DELAY)
 
         except Exception:
             failed += 1
             logger.exception(f"Failed : {filename}")
+
+        time.sleep(DELAY)
 
     return downloaded, failed
 
@@ -156,6 +152,7 @@ def download_mcx():
 
     today = date.today().strftime("%d/%m/%Y")
 
+    seen = load_seen("mcx")
 
     circulars = fetch_all_pages(from_date=today, to_date=today)
 
@@ -174,7 +171,7 @@ def download_mcx():
 
         filename = build_filename(item)
 
-        if pdf_exists("MCX", filename):
+        if pdf_exists("MCX", filename) or pdf_url in seen:
             already_processed += 1
             continue
 
@@ -184,9 +181,12 @@ def download_mcx():
 
     if not new_circulars:
         logger.info("No new circulars found.")
+        save_seen("mcx", seen)
         return
 
-    downloaded, failed = download_pdfs(new_circulars)
+    downloaded, failed = download_pdfs(new_circulars, seen)
+
+    save_seen("mcx", seen)
 
     logger.info("")
     logger.info("MCX Summary")

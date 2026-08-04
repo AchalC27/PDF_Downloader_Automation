@@ -7,6 +7,7 @@ import urllib3
 
 from .db import pdf_exists, save_pdf
 from .logger import get_logger
+from .helpers import load_seen, save_seen, dest_for, download_pdf
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -91,7 +92,7 @@ def fetch_today_records():
     return today_records
 
 
-def save_documents(records):
+def save_documents(records, seen):
 
     saved = 0
     skipped = 0
@@ -111,12 +112,18 @@ def save_documents(records):
 
             filename = generate_filename(pdf_url)
 
-            if pdf_exists("ARCL", filename):
+            if pdf_exists("ARCL", filename) or pdf_url in seen:
                 logger.info(f"Already Processed : {filename}")
                 skipped += 1
                 continue
 
             logger.info(f"Saving : {filename}")
+
+            dest = dest_for("ARCL", filename)
+
+            if not download_pdf(pdf_url, dest, logger):
+                failed += 1
+                continue
 
             save_pdf(
                 source="ARCL",
@@ -125,6 +132,7 @@ def save_documents(records):
                 category="Circulars"
             )
 
+            seen.add(pdf_url)
             saved += 1
 
         except Exception:
@@ -139,15 +147,20 @@ def download_arcl():
     logger.info("")
     logger.info("========== ARCL ==========")
 
+    seen = load_seen("arcl")
+
     today_records = fetch_today_records()
 
     logger.info(f"Today's Circulars Found : {len(today_records)}")
 
     if not today_records:
         logger.info("No circulars published today.")
+        save_seen("arcl", seen)
         return
 
-    saved, skipped, failed = save_documents(today_records)
+    saved, skipped, failed = save_documents(today_records, seen)
+
+    save_seen("arcl", seen)
 
     logger.info("")
     logger.info("ARCL Summary")

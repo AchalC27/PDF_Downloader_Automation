@@ -1,11 +1,11 @@
 import re
 from datetime import datetime
 
-import requests
 from nse import NSE
 
 from .logger import get_logger
 from .get_download import get_download
+from .helpers import load_seen, save_seen
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("nse")
@@ -45,10 +45,6 @@ def build_url(row):
     return NSE_ARCHIVE_URL + "/" + link
 
 
-def download_file(session, url, path):
-    pass
-
-
 def download_nse():
     logger.info("")
     logger.info("========== NSE ==========")
@@ -61,8 +57,7 @@ def download_nse():
     )
 
     download_folder = get_download("nse")
-
-    session = requests.Session()
+    seen = load_seen("nse")
 
     downloaded = 0
     failed = 0
@@ -113,7 +108,7 @@ def download_nse():
 
             filename = f"{number}_{subject}.{ext}"
 
-            if pdf_exists("NSE", filename):
+            if pdf_exists("NSE", filename) or url in seen:
                 already_processed += 1
                 continue
 
@@ -123,20 +118,22 @@ def download_nse():
 
         if not new_rows:
             logger.info("No new circulars found.")
+            save_seen("nse", seen)
             return
 
         for row, url, filename in new_rows:
 
             category = row.get("Category") or "Uncategorized"
 
-            # Download disabled
-            # filepath = download_folder / filename
-
             try:
-                logger.info(f"Saving : {filename}")
+                logger.info(f"Downloading : {filename}")
 
-                # Download disabled
-                # download_file(session, url, filepath)
+                saved_path = nse.download_document(url, folder=download_folder)
+
+                target_path = download_folder / filename
+
+                if saved_path != target_path:
+                    saved_path.replace(target_path)
 
                 save_pdf(
                     source="NSE",
@@ -145,11 +142,14 @@ def download_nse():
                     category=category,
                 )
 
+                seen.add(url)
                 downloaded += 1
 
             except Exception:
                 failed += 1
                 logger.exception(f"Failed : {filename}")
+
+    save_seen("nse", seen)
 
     logger.info("")
     logger.info("NSE Summary")

@@ -8,6 +8,8 @@ from .helpers import (
     save_seen,
     get_page,
     safe_filename,
+    dest_for,
+    download_pdf,
 )
 
 PFRDA_URL = "https://pfrda.org.in/regulatory-framework/circulars/active-circulars"
@@ -99,6 +101,11 @@ def scrape_pfrda() -> tuple[int, int]:
                 continue
 
             try:
+                dest = dest_for("PFRDA", filename)
+
+                if not download_pdf(pdf_url, dest, log):
+                    continue
+
                 save_pdf(
                     source="PFRDA",
                     pdf_name=filename,

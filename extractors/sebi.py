@@ -12,22 +12,8 @@ from .helpers import (
     safe_filename,
     dest_for,
 )
-
-
 SEBI_URL = "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0"
-
-
-
-
-
 def scrape_sebi() -> tuple[int, int]:
-    """
-    Scrape SEBI circular table and download PDFs.
-    Handles both:
-      1. Direct PDF links
-      2. Detail pages containing PDF inside an iframe
-    Returns (found, downloaded).
-    """
 
     log = get_logger("sebi")
     seen = load_seen("sebi")
@@ -60,16 +46,8 @@ def scrape_sebi() -> tuple[int, int]:
                 continue
 
             title = a_tag.get_text(" ", strip=True)
-
-            # ----------------------------------------------------
-            # CASE 1 : Direct PDF
-            # ----------------------------------------------------
             if full_url.lower().endswith(".pdf"):
                 pdf_url = full_url
-
-            # ----------------------------------------------------
-            # CASE 2 : Open detail page and extract iframe PDF
-            # ----------------------------------------------------
             else:
 
                 detail_soup = get_page(full_url, log)
@@ -91,9 +69,6 @@ def scrape_sebi() -> tuple[int, int]:
 
                 iframe_url = urljoin(full_url, iframe_src)
 
-                # iframe URL:
-                # /web/?file=https://www.sebi.gov.in/sebi_data/attachdocs/...pdf
-
                 parsed = urlparse(iframe_url)
                 params = parse_qs(parsed.query)
 
@@ -101,16 +76,8 @@ def scrape_sebi() -> tuple[int, int]:
                     pdf_url = params["file"][0]
                 else:
                     pdf_url = iframe_url
-
-            # ----------------------------------------------------
-            # Skip if PDF already downloaded
-            # ----------------------------------------------------
             if pdf_url in seen:
                 continue
-
-            # ----------------------------------------------------
-            # Filename
-            # ----------------------------------------------------
             filename = Path(urlparse(pdf_url).path).name
 
             if not filename.lower().endswith(".pdf"):
@@ -125,10 +92,6 @@ def scrape_sebi() -> tuple[int, int]:
                 continue
 
             dest = dest_for("SEBI", filename)
-
-            # ----------------------------------------------------
-            # Download
-            # ----------------------------------------------------
             if download_pdf(pdf_url, dest, log):
                 save_pdf(
                 source="SEBI",

@@ -1,15 +1,22 @@
 import re
-import tempfile
+import time
 from datetime import datetime
+from urllib.parse import urljoin
 
+import requests
 from bse import BSE
 
 from .logger import get_logger
+from .get_download import get_download
+from .helpers import load_seen, save_seen
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("bse")
 
 SEGMENT = ""
+
+MAX_RETRIES = 3
+RETRY_DELAY = 5 
 
 
 def sanitize(text, max_len=100):
@@ -21,6 +28,29 @@ def sanitize(text, max_len=100):
     text = re.sub(r'[\\/:*?"<>|]', "_", text)
 
     return text.strip()[:max_len]
+
+
+def fetch_circulars(bse, from_date, to_date, segment):
+
+    delay = RETRY_DELAY
+
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            return bse.circulars(
+                from_date=from_date,
+                to_date=to_date,
+                segment=segment,
+            )
+        except (TimeoutError, requests.exceptions.RequestException) as exc:
+            logger.warning(
+                f"BSE circulars request failed (attempt {attempt}/{MAX_RETRIES}): {exc}"
+            )
+
+            if attempt == MAX_RETRIES:
+                raise
+
+            time.sleep(delay)
+            delay *= 2
 
 
 def download_bse():
@@ -37,70 +67,93 @@ def download_bse():
     downloaded = 0
     failed = 0
     already_processed = 0
+    download_folder = get_download("bse")
+    seen = load_seen("bse")
 
-    # Temporary folder required only because the BSE package expects one.
-    # No PDFs will be downloaded or stored.
-    with tempfile.TemporaryDirectory() as temp_dir:
+    with BSE(download_folder=str(download_folder)) as bse:
 
-        with BSE(download_folder=temp_dir) as bse:
+        try:
+            result = fetch_circulars(bse, today, today, SEGMENT)
+        except (TimeoutError, requests.exceptions.RequestException):
+            logger.error(
+                "BSE circulars endpoint did not respond after "
+                f"{MAX_RETRIES} attempts. Skipping this run."
+            )
+            save_seen("bse", seen)
+            return
 
-            result = bse.circulars(
-                from_date=today,
-                to_date=today,
-                segment=SEGMENT,
+        rows = result.get("Table", [])
+        total = len(rows)
+
+        logger.info(f"Total Circulars Found : {total}")
+
+        new_rows = []
+
+        for i, row in enumerate(rows, start=1):
+
+            pdf_url = row.get("FileName", "").strip()
+
+            if not pdf_url:
+                continue
+
+            notice_no = sanitize(
+                row.get("Notice_No") or f"item_{i}"
             )
 
-            rows = result.get("Table", [])
-            total = len(rows)
+            subject = sanitize(row.get("Subject"))
 
-            logger.info(f"Total Circulars Found : {total}")
+            filename = f"{notice_no}_{subject}.pdf"
 
-            new_rows = []
+            if pdf_exists("BSE", filename) or pdf_url in seen:
+                already_processed += 1
+                continue
 
-            for i, row in enumerate(rows, start=1):
+            new_rows.append((row, filename))
 
-                pdf_url = row.get("FileName", "").strip()
+        logger.info(f"Already Processed     : {already_processed}")
 
-                if not pdf_url:
-                    continue
+        if not new_rows:
+            logger.info("No new circulars found.")
+            save_seen("bse", seen)
+            return
 
-                notice_no = sanitize(
-                    row.get("Notice_No") or f"item_{i}"
+        for row, filename in new_rows:
+
+            pdf_url = row["FileName"].strip()
+            full_url = urljoin(BSE.base_url, pdf_url)
+
+            try:
+                logger.info(f"Downloading : {filename}")
+
+                dest = download_folder / filename
+
+                with bse.session.get(full_url, stream=True, timeout=60) as resp:
+                    if resp.status_code == 404:
+                        logger.warning(f"Broken document link (404): {full_url}")
+                        failed += 1
+                        continue
+
+                    resp.raise_for_status()
+
+                    with open(dest, "wb") as f:
+                        for chunk in resp.iter_content(chunk_size=8192):
+                            f.write(chunk)
+
+                save_pdf(
+                    source="BSE",
+                    pdf_name=filename,
+                    pdf_link=full_url,
+                    category=row.get("Category") or "Uncategorized",
                 )
 
-                subject = sanitize(row.get("Subject"))
+                seen.add(pdf_url)
+                downloaded += 1
 
-                filename = f"{notice_no}_{subject}.pdf"
+            except Exception:
+                failed += 1
+                logger.exception(f"Failed : {filename}")
 
-                if pdf_exists("BSE", filename):
-                    already_processed += 1
-                    continue
-
-                new_rows.append((row, filename))
-
-            logger.info(f"Already Processed     : {already_processed}")
-
-            if not new_rows:
-                logger.info("No new circulars found.")
-                return
-
-            for row, filename in new_rows:
-
-                try:
-                    logger.info(f"Saving : {filename}")
-
-                    save_pdf(
-                        source="BSE",
-                        pdf_name=filename,
-                        pdf_link=row["FileName"].strip(),
-                        category=row.get("Category") or "Uncategorized",
-                    )
-
-                    downloaded += 1
-
-                except Exception:
-                    failed += 1
-                    logger.exception(f"Failed : {filename}")
+    save_seen("bse", seen)
 
     logger.info("")
     logger.info("BSE Summary")

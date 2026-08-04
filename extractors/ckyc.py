@@ -6,8 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from .logger import get_logger
-from .get_download import get_download
-from .json_handler import get_json_file, load_downloaded_urls, save_downloaded_urls
+from .helpers import load_seen, save_seen, dest_for, download_pdf
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("ckcy")
@@ -64,57 +63,60 @@ def generate_filename(document_url):
     base, ext = os.path.splitext(original_filename)
     return f"{base}_{url_hash}{ext}"
 
-def download_documents(document_links, download_folder):
+
+def download_documents(document_links, seen):
     downloaded = 0
     failed = 0
+    broken = 0
 
     for document_url in document_links:
 
         filename = generate_filename(document_url)
-        filepath = os.path.join(download_folder, filename)
+        dest = dest_for("CKYC", filename)
 
+        logger.info(f"Downloading : {filename}")
         try:
-            logger.info(f"Downloading : {filename}")
-
-            response = requests.get(
+            head = requests.head(
                 document_url,
                 headers=HEADERS,
-                timeout=60
+                timeout=30,
+                allow_redirects=True
             )
-            response.raise_for_status()
+            if head.status_code == 404:
+                logger.warning(f"Broken document link (404): {document_url}")
+                broken += 1
+                continue
+        except requests.RequestException:
+            pass
 
-            with open(filepath, "wb") as file:
-                file.write(response.content)
-
-            save_pdf(
-                source="CKYC",
-                pdf_name=filename,
-                pdf_link=document_url,
-                category="Circulars"
-            )
-
-            downloaded += 1
-
-        except Exception:
-            logger.exception(f"Failed : {filename}")
+        if not download_pdf(document_url, dest, logger):
             failed += 1
+            continue
 
-    return downloaded, failed
+        save_pdf(
+            source="CKYC",
+            pdf_name=filename,
+            pdf_link=document_url,
+            category="Circulars"
+        )
+
+        seen.add(document_url)
+        downloaded += 1
+
+    return downloaded, failed, broken
 
 
 def download_ckyc():
     logger.info("")
     logger.info("========== CKYC ==========")
 
-    download_folder = get_download("ckyc")
-    # json_file = get_json_file("ckyc")
-    # processed_urls = load_downloaded_urls(json_file)
+    seen = load_seen("ckyc")
 
     html = fetch_html()
     document_links = extract_ckyc(html, BASE_URL)
 
     total = len(document_links)
-    
+
     new_documents = []
 
     for url in document_links:
@@ -122,7 +124,7 @@ def download_ckyc():
         filename = generate_filename(url)
 
         if pdf_exists("CKYC", filename):
-            #logger.info(f"{filename} already exists in database.")
+            # logger.info(f"{filename} already exists in database.")
             continue
 
         new_documents.append(url)
@@ -133,16 +135,12 @@ def download_ckyc():
 
     if not new_documents:
         logger.info("No new documents found.")
+        save_seen("ckyc", seen)
         return
-    
-    downloaded, failed = download_documents(
-        new_documents,
-        download_folder
-    )
 
-    # downloaded, failed = download_documents(new_documents, download_folder, processed_urls)
+    downloaded, failed, broken = download_documents(new_documents, seen)
 
-    # save_downloaded_urls(json_file, processed_urls)
+    save_seen("ckyc", seen)
 
     logger.info("")
     logger.info("CKYC Summary")
@@ -150,4 +148,5 @@ def download_ckyc():
     logger.info(f"Total Documents Found : {total}")
     logger.info(f"Already Processed     : {already_processed}")
     logger.info(f"Downloaded            : {downloaded}")
+    logger.info(f"Broken Links (404)    : {broken}")
     logger.info(f"Failed                : {failed}")

@@ -34,19 +34,28 @@ def save_pdf(source, pdf_name, pdf_link, category=None):
     conn = get_connection()
     cursor = conn.cursor()
 
-    cursor.execute("""
-        INSERT INTO store_pdf
-        (upload_date, source, pdf_link, pdf_name, category)
-        VALUES (%s, %s, %s, %s, %s)
-    """, (
-        date.today(),
-        source,
-        pdf_link,
-        pdf_name,
-        category
-    ))
+    try:
+        cursor.execute("""
+            INSERT INTO store_pdf
+            (upload_date, source, pdf_link, pdf_name, category)
+            VALUES (%s, %s, %s, %s, %s)
+        """, (
+            date.today(),
+            source,
+            pdf_link,
+            pdf_name,
+            category
+        ))
 
-    conn.commit()
+        conn.commit()
 
-    cursor.close()
-    conn.close()
+    except mysql.connector.errors.IntegrityError as exc:
+        if exc.errno == 1062:
+            return False
+        raise
+
+    finally:
+        cursor.close()
+        conn.close()
+
+    return True
