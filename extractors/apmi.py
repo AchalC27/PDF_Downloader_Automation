@@ -5,8 +5,6 @@ from .db import save_pdf, pdf_exists
 
 from .helpers import (
     get_logger,
-    load_seen,
-    save_seen,
     get_page,
     safe_filename,
     dest_for,
@@ -73,7 +71,6 @@ def get_apmi_pdf_links(soup):
 
 def scrape_apmi() -> tuple[int, int]:
     log = get_logger("apmi")
-    seen = load_seen("apmi")
 
     log.info("─── Scraping APMI ───")
 
@@ -117,10 +114,7 @@ def scrape_apmi() -> tuple[int, int]:
             category="Circular",
         )
 
-        seen.add(pdf_url)
         downloaded += 1
-
-    save_seen("apmi", seen)
 
     log.info(
         "APMI -> Found %d PDFs, Saved %d",

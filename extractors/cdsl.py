@@ -1,11 +1,11 @@
 import re
 from datetime import datetime
-
+import os
 import requests
 from bs4 import BeautifulSoup
 
 from .logger import get_logger
-from .helpers import load_seen, save_seen, dest_for, download_pdf
+from .helpers import  dest_for
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("cdsl")
@@ -76,7 +76,26 @@ def sanitize_filename(name):
 def expected_filename(item):
     subject = sanitize_filename(item["subject"] or "communique")[:150]
     return f'{item["id"]}_{subject}.pdf'
+def get_server_filename(response):
+    content_disposition = response.headers.get("Content-Disposition", "")
 
+    match = re.search(
+        r'filename="([^"]+)"',
+        content_disposition,
+    )
+
+    if not match:
+        return None
+
+    filename = match.group(1)
+
+    # Convert Windows path separators to '/'
+    filename = filename.replace("\\", "/")
+
+    # Keep only the actual filename
+    filename = os.path.basename(filename)
+
+    return sanitize_filename(filename)
 
 def download_cdsl():
     logger.info("")
@@ -85,16 +104,14 @@ def download_cdsl():
     session = requests.Session()
     session.headers.update(HEADERS)
 
-    seen = load_seen("cdsl")
-
     items = fetch_communiques(session)
 
     # import timedelta
     # yesterday = (datetime.now() - timedelta(days=1)).strftime(DATE_FORMAT)
 
-    #today = datetime(2026, 7, 31, 12, 0, 0).strftime(DATE_FORMAT)
+    today = datetime(2026, 7, 31, 12, 0, 0).strftime(DATE_FORMAT)
 
-    today = datetime.now().strftime(DATE_FORMAT)
+    # today = datetime.now().strftime(DATE_FORMAT)
     items = [
         item
         for item in items
@@ -111,19 +128,37 @@ def download_cdsl():
 
     for item in items:
 
-        filename = expected_filename(item)
-
-        if pdf_exists("CDSL", filename) or item["attachment"] in seen:
-            already_processed += 1
-            continue
-
         try:
+            # Fetch headers to get the actual filename
+            response = session.get(
+                item["attachment"],
+                stream=True,
+                timeout=30,
+            )
+            response.raise_for_status()
+
+            # logger.info(response.headers)
+            # logger.info(response.headers.get("Content-Disposition"))
+
+            filename = get_server_filename(response)
+
+            # Fallback if server doesn't provide filename
+            if not filename:
+                filename = expected_filename(item)
+
+            if pdf_exists("CDSL", filename):
+                already_processed += 1
+                response.close()
+                continue
 
             dest = dest_for("CDSL", filename)
 
-            if not download_pdf(item["attachment"], dest, logger, session=session):
-                failed += 1
-                continue
+            with open(dest, "wb") as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    if chunk:
+                        f.write(chunk)
+
+            response.close()
 
             save_pdf(
                 source="CDSL",
@@ -131,8 +166,6 @@ def download_cdsl():
                 pdf_link=item["attachment"],
                 category=item["label"],
             )
-
-            seen.add(item["attachment"])
 
             logger.info(f"Saved : {filename}")
 
@@ -142,8 +175,6 @@ def download_cdsl():
 
             failed += 1
             logger.exception(f"Failed : {item['id']}")
-
-    save_seen("cdsl", seen)
 
     logger.info("")
     logger.info("CDSL Summary")

@@ -1,11 +1,9 @@
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
-
+import re
 from .db import save_pdf, pdf_exists
 from .helpers import (
     get_logger,
-    load_seen,
-    save_seen,
     get_page,
     safe_filename,
     dest_for,
@@ -23,7 +21,7 @@ def scrape_pfrda() -> tuple[int, int]:
     """
 
     log = get_logger("pfrda")
-    seen = load_seen("pfrda")
+    # seen = load_seen("pfrda")
 
     log.info("─── Scraping PFRDA ───")
 
@@ -63,7 +61,7 @@ def scrape_pfrda() -> tuple[int, int]:
 
             detail_url = urljoin(PFRDA_URL, a["href"])
 
-            title = a.get_text(" ", strip=True)
+            title = a.find("h2", class_="basic-title").get_text(" ", strip=True)
 
             detail_soup = get_page(detail_url, log)
 
@@ -85,8 +83,8 @@ def scrape_pfrda() -> tuple[int, int]:
 
             found += 1
 
-            if pdf_url in seen:
-                continue
+            # if pdf_url in seen:
+            #     continue
 
             filename = safe_filename(title)
 
@@ -95,7 +93,7 @@ def scrape_pfrda() -> tuple[int, int]:
             if not ext:
                 ext = ".pdf"
 
-            filename += ext
+            #filename += ext
 
             if pdf_exists("PFRDA", filename):
                 continue
@@ -114,14 +112,14 @@ def scrape_pfrda() -> tuple[int, int]:
                 )
 
                 saved += 1
-                seen.add(pdf_url)
+                # seen.add(pdf_url)
 
                 log.info("Saved : %s", filename)
 
             except Exception:
                 log.exception("Failed : %s", filename)
 
-    save_seen("pfrda", seen)
+    # save_seen("pfrda", seen)
 
     log.info(
         "PFRDA → Found %d PDFs, Saved %d",

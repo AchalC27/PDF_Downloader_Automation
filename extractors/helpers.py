@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from .config import (
     BASE_DOWNLOAD_DIR,
     LOG_DIR,
-    SEEN_DIR,
+    # SEEN_DIR,
     REQUEST_TIMEOUT,
     HEADERS,
 )
@@ -50,30 +50,30 @@ def get_logger(site_name: str):
     return logger
 
 
-def get_seen_file(site_name: str):
-    return SEEN_DIR / f"{site_name.lower()}_seen.json"
+# def get_seen_file(site_name: str):
+#     return SEEN_DIR / f"{site_name.lower()}_seen.json"
 
 
-def load_seen(site_name: str):
+# def load_seen(site_name: str):
 
-    db_file = get_seen_file(site_name)
+#     db_file = get_seen_file(site_name)
 
-    if db_file.exists():
-        try:
-            with open(db_file, "r", encoding="utf-8") as f:
-                return set(json.load(f))
-        except Exception:
-            pass
+#     if db_file.exists():
+#         try:
+#             with open(db_file, "r", encoding="utf-8") as f:
+#                 return set(json.load(f))
+#         except Exception:
+#             pass
 
-    return set()
+#     return set()
 
 
-def save_seen(site_name: str, seen: set):
+# def save_seen(site_name: str, seen: set):
 
-    db_file = get_seen_file(site_name)
+#     db_file = get_seen_file(site_name)
 
-    with open(db_file, "w", encoding="utf-8") as f:
-        json.dump(sorted(seen), f, indent=2)
+#     with open(db_file, "w", encoding="utf-8") as f:
+#         json.dump(sorted(seen), f, indent=2)
 # ══════════════════════════════════════════════
 # HTTP HELPERS
 # ══════════════════════════════════════════════

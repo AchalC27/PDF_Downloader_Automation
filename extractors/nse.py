@@ -5,7 +5,6 @@ from nse import NSE
 
 from .logger import get_logger
 from .get_download import get_download
-from .helpers import load_seen, save_seen
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("nse")
@@ -49,6 +48,8 @@ def download_nse():
     logger.info("")
     logger.info("========== NSE ==========")
 
+    # today = datetime(2026, 7, 31) 
+
     today = datetime.today().replace(
         hour=0,
         minute=0,
@@ -56,8 +57,9 @@ def download_nse():
         microsecond=0,
     )
 
+
     download_folder = get_download("nse")
-    seen = load_seen("nse")
+    # seen = load_seen("nse")
 
     downloaded = 0
     failed = 0
@@ -106,9 +108,9 @@ def download_nse():
 
             ext = (row.get("fileExt") or "pdf").lower()
 
-            filename = f"{number}_{subject}.{ext}"
+            filename = f"{subject}"
 
-            if pdf_exists("NSE", filename) or url in seen:
+            if pdf_exists("NSE", filename):
                 already_processed += 1
                 continue
 
@@ -118,7 +120,7 @@ def download_nse():
 
         if not new_rows:
             logger.info("No new circulars found.")
-            save_seen("nse", seen)
+            # save_seen("nse", seen)
             return
 
         for row, url, filename in new_rows:
@@ -142,14 +144,14 @@ def download_nse():
                     category=category,
                 )
 
-                seen.add(url)
+                # seen.add(url)
                 downloaded += 1
 
             except Exception:
                 failed += 1
                 logger.exception(f"Failed : {filename}")
 
-    save_seen("nse", seen)
+    # save_seen("nse", seen)
 
     logger.info("")
     logger.info("NSE Summary")

@@ -8,7 +8,6 @@ from bse import BSE
 
 from .logger import get_logger
 from .get_download import get_download
-from .helpers import load_seen, save_seen
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("bse")
@@ -68,7 +67,6 @@ def download_bse():
     failed = 0
     already_processed = 0
     download_folder = get_download("bse")
-    seen = load_seen("bse")
 
     with BSE(download_folder=str(download_folder)) as bse:
 
@@ -79,7 +77,6 @@ def download_bse():
                 "BSE circulars endpoint did not respond after "
                 f"{MAX_RETRIES} attempts. Skipping this run."
             )
-            save_seen("bse", seen)
             return
 
         rows = result.get("Table", [])
@@ -102,9 +99,9 @@ def download_bse():
 
             subject = sanitize(row.get("Subject"))
 
-            filename = f"{notice_no}_{subject}.pdf"
+            filename = f"{subject}"
 
-            if pdf_exists("BSE", filename) or pdf_url in seen:
+            if pdf_exists("BSE", filename) :
                 already_processed += 1
                 continue
 
@@ -114,7 +111,7 @@ def download_bse():
 
         if not new_rows:
             logger.info("No new circulars found.")
-            save_seen("bse", seen)
+            # save_seen("bse", seen)
             return
 
         for row, filename in new_rows:
@@ -146,14 +143,14 @@ def download_bse():
                     category=row.get("Category") or "Uncategorized",
                 )
 
-                seen.add(pdf_url)
+                # seen.add(pdf_url)
                 downloaded += 1
 
             except Exception:
                 failed += 1
                 logger.exception(f"Failed : {filename}")
 
-    save_seen("bse", seen)
+    # save_seen("bse", seen)
 
     logger.info("")
     logger.info("BSE Summary")

@@ -5,7 +5,7 @@ from datetime import date, datetime
 import requests
 
 from .logger import get_logger
-from .helpers import load_seen, save_seen, dest_for, download_pdf
+from .helpers import dest_for, download_pdf
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("mcx")
@@ -40,7 +40,7 @@ def fetch_all_pages(from_date, to_date, category="", title="", circular_no=""):
     session = requests.Session()
     session.headers.update(HEADERS)
 
-    seen = set()
+    # seen = set()
     circulars = []
     page = 1
 
@@ -75,11 +75,7 @@ def fetch_all_pages(from_date, to_date, category="", title="", circular_no=""):
             use_all = False
 
         for item in items:
-            number = item.get("CircularNo", "")
-
-            if number not in seen:
-                seen.add(number)
-                circulars.append(item)
+            circulars.append(item)
 
         logger.info(f"Page {page}/{total_pages}")
 
@@ -97,14 +93,11 @@ def clean_filename(name):
 
 def build_filename(item):
     return (
-        f"{item.get('DisplayDate', '').replace(' ', '-')}_"
-        f"No{item.get('CircularNo', 'unknown')}_"
-        f"{item.get('CircularsCategory', '')}_"
-        f"{clean_filename(item.get('Title', 'untitled'))}.pdf"
+        f"{clean_filename(item.get('Title', 'untitled'))}"
     )
 
 
-def download_pdfs(circulars, seen):
+def download_pdfs(circulars):
     downloaded = 0
     failed = 0
 
@@ -134,7 +127,7 @@ def download_pdfs(circulars, seen):
                 category=category,
             )
 
-            seen.add(pdf_url)
+            # seen.add(pdf_url)
             downloaded += 1
 
         except Exception:
@@ -152,7 +145,7 @@ def download_mcx():
 
     today = date.today().strftime("%d/%m/%Y")
 
-    seen = load_seen("mcx")
+    # seen = load_seen("mcx")
 
     circulars = fetch_all_pages(from_date=today, to_date=today)
 
@@ -171,7 +164,7 @@ def download_mcx():
 
         filename = build_filename(item)
 
-        if pdf_exists("MCX", filename) or pdf_url in seen:
+        if pdf_exists("MCX", filename):
             already_processed += 1
             continue
 
@@ -181,12 +174,12 @@ def download_mcx():
 
     if not new_circulars:
         logger.info("No new circulars found.")
-        save_seen("mcx", seen)
+        # save_seen("mcx", seen)
         return
 
-    downloaded, failed = download_pdfs(new_circulars, seen)
+    downloaded, failed = download_pdfs(new_circulars)
 
-    save_seen("mcx", seen)
+    # save_seen("mcx", seen)
 
     logger.info("")
     logger.info("MCX Summary")

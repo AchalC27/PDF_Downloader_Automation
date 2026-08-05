@@ -7,7 +7,7 @@ import urllib3
 
 from .db import pdf_exists, save_pdf
 from .logger import get_logger
-from .helpers import load_seen, save_seen, dest_for, download_pdf
+from .helpers import  dest_for, download_pdf
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -31,16 +31,14 @@ def generate_filename(document_url):
 
     base, ext = os.path.splitext(original)
 
-    url_hash = hashlib.md5(
-        document_url.encode("utf-8")
-    ).hexdigest()[:8]
+    base = base.replace("_", " ")
 
-    return f"{base}_{url_hash}{ext}"
+    return f"{base}"
 
 
 def fetch_today_records():
 
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = "2026-08-03"
 
     page = 1
     limit = 20
@@ -56,7 +54,7 @@ def fetch_today_records():
                 "page": page,
                 "limit": limit
             },
-            timeout=30,
+            timeout=100,
             verify=False
         )
 
@@ -92,7 +90,7 @@ def fetch_today_records():
     return today_records
 
 
-def save_documents(records, seen):
+def save_documents(records):
 
     saved = 0
     skipped = 0
@@ -112,7 +110,7 @@ def save_documents(records, seen):
 
             filename = generate_filename(pdf_url)
 
-            if pdf_exists("ARCL", filename) or pdf_url in seen:
+            if pdf_exists("ARCL", filename):
                 logger.info(f"Already Processed : {filename}")
                 skipped += 1
                 continue
@@ -132,7 +130,7 @@ def save_documents(records, seen):
                 category="Circulars"
             )
 
-            seen.add(pdf_url)
+            # seen.add(pdf_url)
             saved += 1
 
         except Exception:
@@ -147,20 +145,15 @@ def download_arcl():
     logger.info("")
     logger.info("========== ARCL ==========")
 
-    seen = load_seen("arcl")
-
     today_records = fetch_today_records()
 
     logger.info(f"Today's Circulars Found : {len(today_records)}")
 
     if not today_records:
         logger.info("No circulars published today.")
-        save_seen("arcl", seen)
         return
 
-    saved, skipped, failed = save_documents(today_records, seen)
-
-    save_seen("arcl", seen)
+    saved, skipped, failed = save_documents(today_records)
 
     logger.info("")
     logger.info("ARCL Summary")

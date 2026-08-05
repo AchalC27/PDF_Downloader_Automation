@@ -5,8 +5,8 @@ from .db import save_pdf, pdf_exists
 
 from .helpers import (
     get_logger,
-    load_seen,
-    save_seen,
+    # load_seen,
+    # save_seen,
     get_page,
     download_pdf,
     safe_filename,
@@ -20,7 +20,7 @@ def scrape_irdai() -> tuple[int, int]:
     Returns (found, downloaded) counts.
     """
     log = get_logger("irdai")
-    seen = load_seen("irdai")
+    # seen = load_seen("irdai")
 
     soup = get_page(IRDAI_URL, log)
     if soup is None:
@@ -41,8 +41,8 @@ def scrape_irdai() -> tuple[int, int]:
 
             found += 1
 
-            if full_url in seen:
-                continue
+            # if full_url in seen:
+            #     continue
 
             link_text = a_tag.get_text(" ", strip=True)
 
@@ -51,6 +51,9 @@ def scrape_irdai() -> tuple[int, int]:
 
             # Remove extra spaces left after removing Hindi
             link_text = " ".join(link_text.split())
+
+            # Remove leading characters until the first letter or digit
+            link_text = re.sub(r'^[^A-Za-z0-9]+', '', link_text)
 
             ext = Path(urlparse(full_url).path).suffix.lower()
 
@@ -71,7 +74,7 @@ def scrape_irdai() -> tuple[int, int]:
                 pdf_link=full_url,
                 category="Circular"
                 )
-                seen.add(full_url)
+                # seen.add(full_url)
                 downloaded += 1
 
     log.info(
@@ -80,5 +83,5 @@ def scrape_irdai() -> tuple[int, int]:
         downloaded,
     )
 
-    save_seen("irdai", seen)
+    # save_seen("irdai", seen)
     return found, downloaded

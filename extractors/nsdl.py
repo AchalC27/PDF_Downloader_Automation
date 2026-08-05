@@ -4,8 +4,6 @@ from datetime import datetime
 from .db import save_pdf, pdf_exists
 from .helpers import (
     get_logger,
-    load_seen,
-    save_seen,
     download_pdf,
     safe_filename,
     dest_for,
@@ -25,7 +23,6 @@ TYPES = {
 
 def scrape_nsdl() -> tuple[int, int]:
     log = get_logger("nsdl")
-    seen = load_seen("nsdl")
 
     found = 0
     downloaded = 0
@@ -121,9 +118,6 @@ def scrape_nsdl() -> tuple[int, int]:
 
                     found += 1
 
-                    if file_url in seen:
-                        continue
-
                     ext = "." + file_info.get("extension", "").lower()
 
                     filename = (
@@ -145,15 +139,12 @@ def scrape_nsdl() -> tuple[int, int]:
                             category=category,
                         )
 
-                        seen.add(file_url)
                         downloaded += 1
 
                 page += 1
 
                 if page >= total_pages:
                     break
-
-    save_seen("nsdl", seen)
 
     log.info(
         "NSDL Complete → found %d files in database, downloaded %d new",
