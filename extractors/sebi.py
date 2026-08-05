@@ -33,7 +33,7 @@ def scrape_sebi() -> tuple[int, int]:
 
         for a_tag in links:
 
-            href = a_tag["href"].strip()
+            href = a_tag.get("href", "").strip()
 
             if not href:
                 continue
@@ -45,11 +45,13 @@ def scrape_sebi() -> tuple[int, int]:
             if full_url in seen:
                 continue
 
-            title = a_tag.get_text(" ", strip=True)
+            # Extract only the visible title from the table
+            title = " ".join(a_tag.stripped_strings)
+
             if full_url.lower().endswith(".pdf"):
                 pdf_url = full_url
-            else:
 
+            else:
                 detail_soup = get_page(full_url, log)
 
                 if detail_soup is None:
@@ -76,31 +78,33 @@ def scrape_sebi() -> tuple[int, int]:
                     pdf_url = params["file"][0]
                 else:
                     pdf_url = iframe_url
+
             if pdf_url in seen:
                 continue
-            filename = Path(urlparse(pdf_url).path).name
 
-            if not filename.lower().endswith(".pdf"):
+            # Always use the table title as the filename
+            if title:
+                filename = safe_filename(title) 
+            else:
+                filename = Path(urlparse(pdf_url).path).name
 
-                if title:
-                    filename = safe_filename(title) + ".pdf"
-                else:
-                    filename = f"sebi_{found}.pdf"
-            
             if pdf_exists("SEBI", filename):
-                # log.info("%s already exists in database. Skipping.", filename)
                 continue
 
             dest = dest_for("SEBI", filename)
+
             if download_pdf(pdf_url, dest, log):
+
                 save_pdf(
-                source="SEBI",
-                pdf_name=filename,
-                pdf_link=pdf_url,
-                category="Circular"
+                    source="SEBI",
+                    pdf_name=filename,
+                    pdf_link=pdf_url,
+                    category="Circular",
                 )
+
                 seen.add(full_url)
                 seen.add(pdf_url)
+
                 downloaded += 1
 
                 log.info("Downloaded: %s", filename)

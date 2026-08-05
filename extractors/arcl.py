@@ -31,16 +31,14 @@ def generate_filename(document_url):
 
     base, ext = os.path.splitext(original)
 
-    url_hash = hashlib.md5(
-        document_url.encode("utf-8")
-    ).hexdigest()[:8]
+    base = base.replace("_", " ")
 
-    return f"{base}_{url_hash}{ext}"
+    return f"{base}"
 
 
 def fetch_today_records():
 
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = "2026-08-03"
 
     page = 1
     limit = 20
@@ -56,7 +54,7 @@ def fetch_today_records():
                 "page": page,
                 "limit": limit
             },
-            timeout=30,
+            timeout=100,
             verify=False
         )
 

@@ -52,6 +52,9 @@ def scrape_irdai() -> tuple[int, int]:
             # Remove extra spaces left after removing Hindi
             link_text = " ".join(link_text.split())
 
+            # Remove leading characters until the first letter or digit
+            link_text = re.sub(r'^[^A-Za-z0-9]+', '', link_text)
+
             ext = Path(urlparse(full_url).path).suffix.lower()
 
             if link_text:

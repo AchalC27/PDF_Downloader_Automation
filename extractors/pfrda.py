@@ -1,6 +1,6 @@
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
-
+import re
 from .db import save_pdf, pdf_exists
 from .helpers import (
     get_logger,
@@ -63,7 +63,7 @@ def scrape_pfrda() -> tuple[int, int]:
 
             detail_url = urljoin(PFRDA_URL, a["href"])
 
-            title = a.get_text(" ", strip=True)
+            title = a.find("h2", class_="basic-title").get_text(" ", strip=True)
 
             detail_soup = get_page(detail_url, log)
 
@@ -95,7 +95,7 @@ def scrape_pfrda() -> tuple[int, int]:
             if not ext:
                 ext = ".pdf"
 
-            filename += ext
+            #filename += ext
 
             if pdf_exists("PFRDA", filename):
                 continue

@@ -12,6 +12,10 @@ from .db import pdf_exists, save_pdf
 logger = get_logger("ckcy")
 URL = "https://www.ckycindia.in/ckyc/?r=notification"
 BASE_URL = "https://www.ckycindia.in"
+SKIP_URLS = {
+    "https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf",
+    "https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf",
+}
 
 HEADERS = {
     "User-Agent": (
@@ -48,7 +52,35 @@ def generic_document_extractor(html, base_url):
 
 def extract_ckyc(html, base_url):
     logger.info("Running CKYC extractor...")
-    return generic_document_extractor(html, base_url)
+
+    soup = BeautifulSoup(html, "html.parser")
+    documents = []
+
+    for notice in soup.find_all("div", class_="notification"):
+
+        title_div = notice.find("div", class_="col-md-10 nsection1")
+
+        if title_div is None:
+            continue
+
+        p_tag = title_div.find("p")
+
+        if p_tag is None:
+            continue
+
+        title = p_tag.get_text(" ", strip=True)
+
+        a_tag = notice.find("a", href=True)
+
+        if a_tag is None:
+            continue
+
+        href = normalize_url(a_tag["href"], base_url)
+
+        if href.lower().endswith(ALLOWED_EXTENSIONS):
+            documents.append((href, title))
+
+    return documents
 
 
 def fetch_html():
@@ -69,23 +101,27 @@ def download_documents(document_links, seen):
     failed = 0
     broken = 0
 
-    for document_url in document_links:
+    for document_url, title in document_links:
 
-        filename = generate_filename(document_url)
+        filename = title
+
         dest = dest_for("CKYC", filename)
 
         logger.info(f"Downloading : {filename}")
+
         try:
             head = requests.head(
                 document_url,
                 headers=HEADERS,
                 timeout=30,
-                allow_redirects=True
+                allow_redirects=True,
             )
+
             if head.status_code == 404:
                 logger.warning(f"Broken document link (404): {document_url}")
                 broken += 1
                 continue
+
         except requests.RequestException:
             pass
 
@@ -97,14 +133,13 @@ def download_documents(document_links, seen):
             source="CKYC",
             pdf_name=filename,
             pdf_link=document_url,
-            category="Circulars"
+            category="Circulars",
         )
 
         seen.add(document_url)
         downloaded += 1
 
     return downloaded, failed, broken
-
 
 def download_ckyc():
     logger.info("")
@@ -113,23 +148,27 @@ def download_ckyc():
     seen = load_seen("ckyc")
 
     html = fetch_html()
-    document_links = extract_ckyc(html, BASE_URL)
+    documents = extract_ckyc(html, BASE_URL)
 
-    total = len(document_links)
+    total = len(documents)
 
     new_documents = []
 
-    for url in document_links:
+    for url, title in documents:
 
-        filename = generate_filename(url)
-
-        if pdf_exists("CKYC", filename):
-            # logger.info(f"{filename} already exists in database.")
+        # Ignore unwanted documents
+        if url in SKIP_URLS:
             continue
 
-        new_documents.append(url)
+        filename = title
+
+        if pdf_exists("CKYC", filename):
+            continue
+
+        new_documents.append((url, filename))
 
     already_processed = total - len(new_documents)
+
     logger.info(f"Total Documents Found : {total}")
     logger.info(f"Already Processed     : {already_processed}")
 

@@ -1,7 +1,7 @@
-import hashlib
+
 import os
 from urllib.parse import urljoin
-
+import re
 import requests
 from bs4 import BeautifulSoup
 
@@ -13,6 +13,10 @@ logger = get_logger("amfi")
 
 URL = "https://www.amfiindia.com/distributor/amfi-circulars"
 BASE_URL = "https://www.amfiindia.com"
+SKIP_URLS = {
+    "https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf",
+    "https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf",
+}
 
 HEADERS = {
     "User-Agent": (
@@ -39,15 +43,20 @@ def normalize_url(href, base_url):
 
 def generic_document_extractor(html, base_url):
     soup = BeautifulSoup(html, "html.parser")
-    links = []
+    documents = []
 
     for tag in soup.find_all("a", href=True):
         href = normalize_url(tag["href"], base_url)
 
         if href.lower().endswith(ALLOWED_EXTENSIONS):
-            links.append(href)
+            title = tag.get_text(" ", strip=True)
 
-    return list(dict.fromkeys(links))
+            documents.append({
+                "url": href,
+                "title": title
+            })
+
+    return documents
 
 
 def extract_amfi(html, base_url):
@@ -74,18 +83,18 @@ def fetch_html():
 
 
 def generate_filename(document_url):
-    original_filename = document_url.split("/")[-1]
-    url_hash = hashlib.md5(document_url.encode("utf-8")).hexdigest()[:8]
-    base, ext = os.path.splitext(original_filename)
-    return f"{base}_{url_hash}{ext}"
-
+    return document_url.split("/")[-1]
 
 def download_documents(document_links, seen):
     downloaded = 0
     failed = 0
 
-    for document_url in document_links:
+    for document in document_links:
 
+        document_url = document["url"]
+        title = document["title"]
+
+        # Short filename used on disk
         filename = generate_filename(document_url)
         dest = dest_for("AMFI", filename)
 
@@ -95,9 +104,12 @@ def download_documents(document_links, seen):
             failed += 1
             continue
 
+        # Store the descriptive title in the database
+        _, ext = os.path.splitext(filename)
+
         save_pdf(
             source="AMFI",
-            pdf_name=filename,
+            pdf_name=f"{title}{ext}",
             pdf_link=document_url,
             category="Circulars"
         )
@@ -121,15 +133,16 @@ def download_amfi():
 
     new_documents = []
 
-    for url in document_links:
+    for document in document_links:
+        filename = generate_filename(document["url"])
+        _, ext = os.path.splitext(filename)
 
-        filename = generate_filename(url)
+        db_filename = f'{document["title"]}{ext}'
 
-        if pdf_exists("AMFI", filename):
-            # logger.info(f"{filename} already exists in database.")
+        if pdf_exists("AMFI", db_filename):
             continue
 
-        new_documents.append(url)
+        new_documents.append(document)
 
     already_processed = total - len(new_documents)
 

@@ -1,17 +1,18 @@
 import re
 from datetime import datetime
-from urllib.parse import unquote, urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
 from .logger import get_logger
+from .helpers import load_seen, save_seen, dest_for, download_pdf
 from .db import pdf_exists, save_pdf
 
 logger = get_logger("cdsl")
 
 BASE_URL = "https://www.cdslindia.com"
 PAGE_URL = f"{BASE_URL}/eservices/Publications/Communique"
+DOWNLOAD_URL = f"{BASE_URL}/eservices/Publications/DownloadFile"
 
 HEADERS = {
     "User-Agent": (
@@ -51,8 +52,6 @@ def fetch_communiques(session):
 
         subject = link.get_text(" ", strip=True)
 
-        href = link.get("href", "")
-
         date = cols[3].get_text(strip=True)
 
         department = cols[2].get_text(strip=True)
@@ -62,7 +61,7 @@ def fetch_communiques(session):
                 "id": comm_id,
                 "date": date,
                 "subject": subject,
-                "attachment": urljoin(BASE_URL, href),
+                "attachment": f"{DOWNLOAD_URL}?eventID={comm_id}&method=communique",
                 "label": department or "General",
             }
         )
@@ -75,17 +74,8 @@ def sanitize_filename(name):
 
 
 def expected_filename(item):
-
-    if item["attachment"]:
-        name = (
-            unquote(item["attachment"])
-            .replace("\\", "/")
-            .split("/")[-1]
-        )
-    else:
-        name = f'{item["id"]}.pdf'
-
-    return sanitize_filename(name)
+    subject = sanitize_filename(item["subject"] or "communique")[:150]
+    return f'{item["id"]}_{subject}.pdf'
 
 
 def download_cdsl():
@@ -95,7 +85,14 @@ def download_cdsl():
     session = requests.Session()
     session.headers.update(HEADERS)
 
+    seen = load_seen("cdsl")
+
     items = fetch_communiques(session)
+
+    # import timedelta
+    # yesterday = (datetime.now() - timedelta(days=1)).strftime(DATE_FORMAT)
+
+    #today = datetime(2026, 7, 31, 12, 0, 0).strftime(DATE_FORMAT)
 
     today = datetime.now().strftime(DATE_FORMAT)
     items = [
@@ -116,11 +113,17 @@ def download_cdsl():
 
         filename = expected_filename(item)
 
-        if pdf_exists("CDSL", filename):
+        if pdf_exists("CDSL", filename) or item["attachment"] in seen:
             already_processed += 1
             continue
 
         try:
+
+            dest = dest_for("CDSL", filename)
+
+            if not download_pdf(item["attachment"], dest, logger, session=session):
+                failed += 1
+                continue
 
             save_pdf(
                 source="CDSL",
@@ -128,6 +131,8 @@ def download_cdsl():
                 pdf_link=item["attachment"],
                 category=item["label"],
             )
+
+            seen.add(item["attachment"])
 
             logger.info(f"Saved : {filename}")
 
@@ -137,6 +142,8 @@ def download_cdsl():
 
             failed += 1
             logger.exception(f"Failed : {item['id']}")
+
+    save_seen("cdsl", seen)
 
     logger.info("")
     logger.info("CDSL Summary")

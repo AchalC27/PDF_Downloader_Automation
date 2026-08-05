@@ -106,7 +106,7 @@ def download_nse():
 
             ext = (row.get("fileExt") or "pdf").lower()
 
-            filename = f"{number}_{subject}.{ext}"
+            filename = f"{subject}"
 
             if pdf_exists("NSE", filename) or url in seen:
                 already_processed += 1

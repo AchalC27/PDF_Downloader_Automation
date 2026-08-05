@@ -97,10 +97,7 @@ def clean_filename(name):
 
 def build_filename(item):
     return (
-        f"{item.get('DisplayDate', '').replace(' ', '-')}_"
-        f"No{item.get('CircularNo', 'unknown')}_"
-        f"{item.get('CircularsCategory', '')}_"
-        f"{clean_filename(item.get('Title', 'untitled'))}.pdf"
+        f"{clean_filename(item.get('Title', 'untitled'))}"
     )
 
 

@@ -102,7 +102,7 @@ def download_bse():
 
             subject = sanitize(row.get("Subject"))
 
-            filename = f"{notice_no}_{subject}.pdf"
+            filename = f"{subject}"
 
             if pdf_exists("BSE", filename) or pdf_url in seen:
                 already_processed += 1
