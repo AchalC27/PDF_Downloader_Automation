@@ -109,9 +109,9 @@ def download_cdsl():
     # import timedelta
     # yesterday = (datetime.now() - timedelta(days=1)).strftime(DATE_FORMAT)
 
-    today = datetime(2026, 7, 31, 12, 0, 0).strftime(DATE_FORMAT)
+    # today = datetime(2026, 7, 31, 12, 0, 0).strftime(DATE_FORMAT)
 
-    # today = datetime.now().strftime(DATE_FORMAT)
+    today = datetime.now().strftime(DATE_FORMAT)
     items = [
         item
         for item in items
