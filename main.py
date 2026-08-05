@@ -26,19 +26,19 @@ logger = get_logger("master")
 
 WEBSITES = [
 
-    #("NSE", download_nse),
-    #("BSE", download_bse),
-    #("CDSL", download_cdsl),
-    #("AMFI", download_amfi),
-    #("ARCL", download_arcl),
+    ("NSE", download_nse),
+    ("BSE", download_bse),
+    ("CDSL", download_cdsl),
+    ("AMFI", download_amfi),
+    ("ARCL", download_arcl),
     ("CKYC", download_ckyc),
-    #("MCX", download_mcx),
+    ("MCX", download_mcx),
 
-    #("APMI", scrape_apmi),
-    #("PFRDA", scrape_pfrda),
-    # ("NSDL", scrape_nsdl),
-    #("SEBI", scrape_sebi),
-    #("IRDAI", scrape_irdai),
+    ("APMI", scrape_apmi),
+    ("PFRDA", scrape_pfrda),
+    ("NSDL", scrape_nsdl),
+    ("SEBI", scrape_sebi),
+    ("IRDAI", scrape_irdai),
 
 ]
 

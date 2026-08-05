@@ -13,10 +13,7 @@ logger = get_logger("amfi")
 
 URL = "https://www.amfiindia.com/distributor/amfi-circulars"
 BASE_URL = "https://www.amfiindia.com"
-SKIP_URLS = {
-    "https://www.ckycindia.in/assets/images/helpdesk-query-form.pdf",
-    "https://www.ckycindia.in/assets/doc/Holidaylist2026.pdf",
-}
+
 
 HEADERS = {
     "User-Agent": (
